@@ -58,4 +58,7 @@
     <string name="username_activity_title">User name</string>
     <string name="username_list">[ User name list ]</string>
     <string name="rename">Rename</string>
+
+    <string name="login">Login</string>
+
 </resources>

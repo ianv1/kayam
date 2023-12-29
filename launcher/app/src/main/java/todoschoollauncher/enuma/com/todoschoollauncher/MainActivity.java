@@ -33,6 +33,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -243,6 +244,15 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         TextView textViewCoinNum = (TextView)findViewById(R.id.textView_numCoin);
         Typeface f = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
         textViewCoinNum.setTypeface(f);
+
+        FrameLayout frameLayoutLogin = (FrameLayout) findViewById(R.id.fl_login) ;
+        frameLayoutLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
 
         displayCurrentUser();
 

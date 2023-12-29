@@ -69,63 +69,89 @@
         android:layout_margin="60px"
         android:orientation="horizontal">
 
-        <FrameLayout
+        <LinearLayout
             android:layout_width="0px"
             android:layout_height="match_parent"
-            android:layout_weight="3">
+            android:layout_weight="3"
+            android:orientation="vertical">
 
-            <ImageView
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:background="@android:color/transparent"
-                android:padding="0px"
-                android:scaleType="fitXY"
-                android:src="@drawable/launcher_mode_game_shadow" />
-
-            <ImageButton
-                android:id="@+id/button_todoschool"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="6px"
-                android:adjustViewBounds="true"
-                android:background="@android:color/transparent"
-                android:padding="0px"
-                android:scaleType="fitXY"
-                android:src="@drawable/launcher_mode_game" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
+                android:layout_height="0px"
+                android:layout_weight="3">
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:background="@android:color/transparent"
+                    android:padding="0px"
                     android:scaleType="fitXY"
-                    android:src="@drawable/launcher_kitkitschool_logo_phase03" />
-            </LinearLayout>
+                    android:src="@drawable/launcher_mode_game_shadow" />
 
-            <LinearLayout
+                <ImageButton
+                    android:id="@+id/button_todoschool"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="6px"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:padding="0px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/launcher_mode_game" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/launcher_kitkitschool_logo_phase03" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="50px"
+                    android:gravity="bottom|center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/launcher_icon_game"
+                        android:drawablePadding="10px"
+                        android:gravity="center_vertical"
+                        android:text="@string/start"
+                        android:textColor="@android:color/white"
+                        android:textSize="60px" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_login"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="bottom"
-                android:layout_marginBottom="50px"
-                android:gravity="bottom|center_horizontal">
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/launcher_icon_game"
-                    android:drawablePadding="10px"
-                    android:gravity="center_vertical"
-                    android:text="@string/start"
+                    android:layout_gravity="center"
+                    android:text="@string/login"
                     android:textColor="@android:color/white"
                     android:textSize="60px" />
-            </LinearLayout>
-        </FrameLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="0px"
