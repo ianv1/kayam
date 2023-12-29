@@ -1,23 +1,30 @@
 package todoschoollauncher.enuma.com.todoschoollauncher.adapter;
 
 import android.content.Context;
+import android.graphics.Typeface;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.enuma.kitkitProvider.User;
 
 import java.util.List;
 
+import todoschoollauncher.enuma.com.todoschoollauncher.R;
+
 public class LoginGridViewAdapter extends BaseAdapter {
 
     private Context context;
     private List<User> users;
+    private Typeface face;
 
     public LoginGridViewAdapter(Context context, List<User> users) {
         this.context = context;
         this.users = users;
+        this.face = Typeface.createFromAsset(context.getAssets(), "TodoMainCurly.ttf");
     }
 
     @Override
@@ -37,8 +44,10 @@ public class LoginGridViewAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        TextView textView = new TextView(context);
+        LinearLayout linearLayout = (LinearLayout) LayoutInflater.from(context).inflate(R.layout.item_user, null);
+        TextView textView = (TextView) linearLayout.findViewById(R.id.tv_username);
         textView.setText(users.get(i).getUserName());
+        textView.setTypeface(face);
         return textView;
     }
 }
