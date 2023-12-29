@@ -69,8 +69,8 @@ public class LauncherApplication extends Application {
         dbHandler = new KitkitDBHandler(getApplicationContext());
 
         if (dbHandler.numUser() == 0) {
-            //make users in DB
-            for (int i = 0; i < 100; i++) {
+            // make users in DB
+            for (int i = 0; i < 5; i++) {
                 User user = new User("user"+i,0);
 //                user.setNumStars(i*50);
 //                user.setFinishTutorial(true);
