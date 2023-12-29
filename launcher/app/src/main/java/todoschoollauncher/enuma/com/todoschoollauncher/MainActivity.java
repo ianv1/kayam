@@ -26,7 +26,6 @@ import android.os.Environment;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
-import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
@@ -81,9 +80,9 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     private Button mTitle;
     private TextView mTvUserName;
 
-    private  PowerConnectionReceiver _batteryinfo = new PowerConnectionReceiver() {
+    private PowerConnectionReceiver _batteryinfo = new PowerConnectionReceiver() {
         @Override
-        public  void onReceive(Context context, Intent intent) {
+        public void onReceive(Context context, Intent intent) {
             int chargePlug = intent.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1);
             boolean usbCharge = chargePlug == BatteryManager.BATTERY_PLUGGED_USB;
             boolean acCharge = chargePlug == BatteryManager.BATTERY_PLUGGED_AC;
@@ -116,12 +115,9 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 //                    connectToFTPAddress();
 //
 //                }
-            }
-            else if (intent.getAction().equalsIgnoreCase(WifiManager.WIFI_STATE_CHANGED_ACTION))
-            {
+            } else if (intent.getAction().equalsIgnoreCase(WifiManager.WIFI_STATE_CHANGED_ACTION)) {
                 int wifiState = intent.getIntExtra(WifiManager.EXTRA_WIFI_STATE, WifiManager.WIFI_STATE_UNKNOWN);
-                if (wifiState == WifiManager.WIFI_STATE_DISABLED)
-                {
+                if (wifiState == WifiManager.WIFI_STATE_DISABLED) {
                     Log.e(TAG, "----- Wifi  Disconnected -----");
                 }
 
@@ -168,20 +164,21 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
             if (!Settings.canDrawOverlays(this)) {
                 Toast.makeText(this, "Please give my app this permission!", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,Uri.parse("package:" + getPackageName()));
+                Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + getPackageName()));
                 startActivityForResult(intent, OVERLAY_PERMISSION_REQ_CODE);
             } else {
                 Util.disableStatusBar(this);
             }
-        }
-        else {
+        } else {
             Util.disableStatusBar(this);
         }
 
         loadApps();
 
+        Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
         AppDetail todoschool = getAppDetail("com.enuma.xprize");
-        ImageButton todoSchoolButton = (ImageButton) findViewById(R.id.button_todoschool);
+        Button todoSchoolButton = (Button) findViewById(R.id.button_todoschool);
+        todoSchoolButton.setTypeface(face);
         todoSchoolButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -198,7 +195,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         });
 
         AppDetail library = getAppDetail("library.todoschool.enuma.com.todoschoollibrary");
-        ImageButton libraryButton = (ImageButton) findViewById(R.id.button_library);
+        Button libraryButton = (Button) findViewById(R.id.button_library);
+        libraryButton.setTypeface(face);
         libraryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -217,22 +215,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             }
         });
 
-        ImageButton toolsButton = (ImageButton) findViewById(R.id.button_tool);
-        toolsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (gotoVideoPlayer() == false) {
-                    if (view.isEnabled()) {
-                        Intent i = new Intent(MainActivity.this, ToolsActivity.class);
-                        startActivity(i);
-                    }
-                }
-            }
-        });
-
-        mTitle = (Button)findViewById(R.id.launcher_title_button);
-        Typeface face = Typeface.createFromAsset(getAssets(),
-                "TodoMainCurly.ttf");
+        mTitle = (Button) findViewById(R.id.launcher_title_button);
         mTitle.setTypeface(face);
         mTitle.setOnTouchListener(mLongTouchListener);
 
@@ -241,12 +224,13 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
         registerLockscreenReceiver();
 
-        TextView textViewCoinNum = (TextView)findViewById(R.id.textView_numCoin);
+        TextView textViewCoinNum = (TextView) findViewById(R.id.textView_numCoin);
         Typeface f = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
         textViewCoinNum.setTypeface(f);
 
-        FrameLayout frameLayoutLogin = (FrameLayout) findViewById(R.id.fl_login) ;
-        frameLayoutLogin.setOnClickListener(new View.OnClickListener() {
+        Button buttonLogin = (Button) findViewById(R.id.button_login);
+        buttonLogin.setTypeface(face);
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
@@ -268,7 +252,10 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
         setDefaultPreference();
     }
-    /** code to post/handler request for permission */
+
+    /**
+     * code to post/handler request for permission
+     */
     public static final int OVERLAY_PERMISSION_REQ_CODE = 4545;
 
     @Override
@@ -283,7 +270,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     @Override
     public void onResume() {
         super.onResume();
-        KitKitLogger logger = ((LauncherApplication)getApplication()).getLogger();
+        KitKitLogger logger = ((LauncherApplication) getApplication()).getLogger();
         logger.tagScreen("MainActivity");
 
         refreshUI();
@@ -303,7 +290,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         super.onDestroy();
 
         Util.recycle(getWindow().getDecorView());
-        if (Util.mBlockingView !=null) {
+        if (Util.mBlockingView != null) {
             WindowManager manager = ((WindowManager) getApplicationContext().getSystemService(Context.WINDOW_SERVICE));
             manager.removeView(Util.mBlockingView);
             Util.mBlockingView = null;
@@ -318,7 +305,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == OVERLAY_PERMISSION_REQ_CODE) {
-            if(Build.VERSION.SDK_INT >= 23) {
+            if (Build.VERSION.SDK_INT >= 23) {
                 if (!Settings.canDrawOverlays(this)) {
                     Toast.makeText(this, "User can access system settings without this permission!", Toast.LENGTH_SHORT).show();
                 } else {
@@ -340,35 +327,17 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     private void refreshUI() {
         User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
 
-        ImageButton libraryButton = (ImageButton) findViewById(R.id.button_library);
-        ImageButton toolsButton = (ImageButton) findViewById(R.id.button_tool);
-
-        View libraryOverlay = findViewById(R.id.overlay_library);
-        View toolsOverlay = findViewById(R.id.overlay_tools);
+        Button libraryButton = (Button) findViewById(R.id.button_library);
 
         if (currentUser.isOpenLibrary()) {
             libraryButton.setEnabled(true);
-            libraryOverlay.setVisibility(View.GONE);
 
         } else {
             libraryButton.setEnabled(false);
-            libraryOverlay.setVisibility(View.VISIBLE);
-
         }
 
-
-        if (currentUser.isOpenTools()) {
-            toolsButton.setEnabled(true);
-            toolsOverlay.setVisibility(View.GONE);
-
-        } else {
-            toolsButton.setEnabled(false);
-            toolsOverlay.setVisibility(View.VISIBLE);
-
-        }
-
-        TextView textViewCoinNum = (TextView)findViewById(R.id.textView_numCoin);
-        textViewCoinNum.setText(String.format("%d",currentUser.getNumStars()));
+        TextView textViewCoinNum = (TextView) findViewById(R.id.textView_numCoin);
+        textViewCoinNum.setText(String.format("%d", currentUser.getNumStars()));
 
         displayCurrentUser();
     }
@@ -427,7 +396,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         public boolean onTouch(View v, MotionEvent event) {
             if (event.getAction() == MotionEvent.ACTION_DOWN) {
                 mTitle.getGlobalVisibleRect(mTempRect);
-                if (mTempRect.contains((int)event.getX(), (int)event.getY())) {
+                if (mTempRect.contains((int) event.getX(), (int) event.getY())) {
                     mTitle.dispatchTouchEvent(event);
                 }
             } else {
@@ -439,7 +408,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     };
 
     @Override
-    public  boolean onKeyDown(int keyCode, KeyEvent event) {
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
         return false;
     }
 
@@ -448,16 +417,14 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
     private void registerLockscreenReceiver() {
         KeyguardManager.KeyguardLock key;
-        KeyguardManager km = (KeyguardManager)getSystemService(KEYGUARD_SERVICE);
+        KeyguardManager km = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
 
         //This is deprecated, but it is a simple way to disable the lockscreen in code
         key = km.newKeyguardLock("IN");
 
-        try{
+        try {
             key.disableKeyguard();
-        }
-        catch (SecurityException e)
-        {
+        } catch (SecurityException e) {
             //kindle code goes here
         }
 
@@ -472,8 +439,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
 
-    public boolean connectToWifi(){
-        try{
+    public boolean connectToWifi() {
+        try {
             WifiManager wifiManager = (WifiManager) super.getApplicationContext().getSystemService(android.content.Context.WIFI_SERVICE);
             WifiConfiguration wc = new WifiConfiguration();
             WifiInfo wifiInfo = wifiManager.getConnectionInfo();
@@ -574,11 +541,13 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
     private void connectToSNTPServer(final String server, final boolean updateCooldown) {
-        KitKitLogger logger = ((LauncherApplication)getApplication()).getLogger();
+        KitKitLogger logger = ((LauncherApplication) getApplication()).getLogger();
 
         new SntpUpdater(logger) {
             protected void onPostExecute(Boolean result) {
-                if (!result) { return; }
+                if (!result) {
+                    return;
+                }
                 if (updateCooldown) {
                     nextTimeUpdateInMillis = System.currentTimeMillis() + timeUpdateCooldownTimeInMillis;
                 }
@@ -624,7 +593,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
         // [^]
 
-        Log.d(TAG,"connecting to ftp. "+username+"@"+host+":"+port + " password : "+password);
+        Log.d(TAG, "connecting to ftp. " + username + "@" + host + ":" + port + " password : " + password);
         ftpConnector = new Thread(new Runnable() {
             public void run() {
                 try {
@@ -648,8 +617,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                         Log.d(TAG, "Connection failed");
                         handler.sendEmptyMessage(-1);
                     }
-                }
-                finally {
+                } finally {
                     ftpConnector = null;
                 }
             }
@@ -702,8 +670,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                         Log.d(TAG, "Upload failed");
                         handler.sendEmptyMessage(-1);
                     }
-                }
-                finally {
+                } finally {
                     logUploader = null;
                 }
             }
@@ -762,8 +729,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                         Log.d(TAG, "uploadImages (" + type + ") - Upload failed");
                         handler.sendEmptyMessage(-1);
                     }
-                }
-                finally {
+                } finally {
                     imageUploader = null;
                     deleteImageZipFiles(imagePath);
                 }
@@ -788,7 +754,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         return result;
     }
 
-    private void displayCurrentUser(){
+    private void displayCurrentUser() {
         Util.displayUserName(this, mTvUserName);
     }
 
@@ -810,11 +776,11 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         return result;
     }
 
-    public static  ArrayList<File> getImageFileList(File folder) {
+    public static ArrayList<File> getImageFileList(File folder) {
         return getImageFileList(folder, 0);
     }
 
-    public static  ArrayList<File> getImageFileList(File folder, int maxUploadImageCount) {
+    public static ArrayList<File> getImageFileList(File folder, int maxUploadImageCount) {
         ArrayList<File> result = new ArrayList<>();
         File[] files = folder.listFiles(new FileFilter() {
             @Override
@@ -865,7 +831,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
             ZipOutputStream out = new ZipOutputStream(new FileOutputStream(destFolderPath + File.separator + destFileName));
 
-            for (int i=0; i<files.size(); i++) {
+            for (int i = 0; i < files.size(); i++) {
                 FileInputStream in = new FileInputStream(files.get(i));
                 ZipEntry ze = new ZipEntry(files.get(i).getName());
                 out.putNextEntry(ze);
@@ -891,7 +857,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         return true;
     }
 
-    public static  boolean writeFile(String string, String path) {
+    public static boolean writeFile(String string, String path) {
         if (path.equals("")) {
             return false;
         }
@@ -924,7 +890,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         return true;
     }
 
-    public static  String getCurrentDisplayTime() {
+    public static String getCurrentDisplayTime() {
         SimpleDateFormat dayTime = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         String result = dayTime.format(new Date(System.currentTimeMillis()));
         return result;
@@ -946,11 +912,11 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
     private boolean gotoVideoPlayer() {
-        User user = ((LauncherApplication)getApplication()).getDbHandler().getCurrentUser();
+        User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
         Log.i("myLog", "user.isFinishLauncherTutorial() : " + user.isFinishLauncherTutorial());
         if (user.isFinishLauncherTutorial() == false) {
             user.setFinishLauncherTutorial(true);
-            ((LauncherApplication)getApplication()).getDbHandler().updateUser(user);
+            ((LauncherApplication) getApplication()).getDbHandler().updateUser(user);
 
             Intent i = new Intent(MainActivity.this, VideoPlayerActivity.class);
             startActivity(i);
@@ -962,8 +928,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
     private void setDefaultPreference() {
-        SharedPreferences preference = getSharedPreferences("sharedPref",Context.MODE_MULTI_PROCESS);
-        SharedPreferences.Editor editor = getSharedPreferences("sharedPref",Context.MODE_MULTI_PROCESS).edit();
+        SharedPreferences preference = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
+        SharedPreferences.Editor editor = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).edit();
         editor.putBoolean("review_mode_on", preference.getBoolean("review_mode_on", false));
         editor.putBoolean("sign_language_mode_on", preference.getBoolean("sign_language_mode_on", false));
         editor.commit();
@@ -994,17 +960,17 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         }
     };
 
-    private  View.OnTouchListener mLongTouchListener = new View.OnTouchListener() {
+    private View.OnTouchListener mLongTouchListener = new View.OnTouchListener() {
         @Override
         public boolean onTouch(View view, MotionEvent motionEvent) {
             switch (motionEvent.getAction()) {
                 case MotionEvent.ACTION_BUTTON_PRESS:
                 case MotionEvent.ACTION_DOWN:
                     if (view == mTitle) {
-                        handler.postDelayed(mRunnableTitle, 2*1000);
+                        handler.postDelayed(mRunnableTitle, 2 * 1000);
 
                     } else if (view == mTvUserName) {
-                        handler.postDelayed(mRunnableUserName, 2*1000);
+                        handler.postDelayed(mRunnableUserName, 2 * 1000);
 
                     }
 
