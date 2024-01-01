@@ -3,15 +3,10 @@ package todoschoollauncher.enuma.com.todoschoollauncher;
 import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-import android.util.Log;
 
 import com.enuma.kitkitProvider.KitkitDBHandler;
 import com.enuma.kitkitProvider.User;
 import com.enuma.kitkitlogger.KitKitLogger;
-
-import todoschoollauncher.enuma.com.todoschoollauncher.BuildConfig;
-
 
 import java.util.UUID;
 
@@ -29,8 +24,7 @@ public class LauncherApplication extends Application {
     private String currentUsername;
 
     @Override
-    public void onCreate ()
-    {
+    public void onCreate() {
         super.onCreate();
 
 //        SharedPreferences preferences = getSharedPreferences("sharedpreference", Context.CONTEXT_IGNORE_SECURITY);
@@ -42,7 +36,6 @@ public class LauncherApplication extends Application {
 //            editor.putString("installId", installId);
 //            editor.commit();
 //        }
-
 
 
 //        SharedPreferences preferences = getSharedPreferences("sharedPref",Context.MODE_PRIVATE);
@@ -59,10 +52,10 @@ public class LauncherApplication extends Application {
 //            editor.apply();
 //        }
 
-        SharedPreferences preferences = getSharedPreferences("sharedPref",Context.MODE_PRIVATE);
+        SharedPreferences preferences = getSharedPreferences("sharedPref", Context.MODE_PRIVATE);
         String lang = getString(R.string.defaultLanguage);
         SharedPreferences.Editor editor = preferences.edit();
-        editor.putString("appLanguage",lang);
+        editor.putString("appLanguage", lang);
         editor.apply();
 
         logger = new KitKitLogger(getPackageName(), getApplicationContext());
@@ -71,9 +64,25 @@ public class LauncherApplication extends Application {
         if (dbHandler.numUser() == 0) {
             // make users in DB
             for (int i = 0; i < 5; i++) {
-                User user = new User("user"+i,0);
-//                user.setNumStars(i*50);
-//                user.setFinishTutorial(true);
+                String displayName = "";
+                switch (i) {
+                    case 0:
+                        displayName = "Muhammad Ali";
+                        break;
+                    case 1:
+                        displayName = "John Doe";
+                        break;
+                    case 2:
+                        displayName = "Nigel Sim";
+                        break;
+                    case 3:
+                        displayName = "Ian Eng";
+                        break;
+                    case 4:
+                        displayName = "Raymond";
+                        break;
+                }
+                User user = new User("user" + i, 0, displayName);
                 dbHandler.addUser(user);
 
                 if (i == 0) {
@@ -92,18 +101,15 @@ public class LauncherApplication extends Application {
         defaultExceptionHandler = Thread.getDefaultUncaughtExceptionHandler();
 
         // Setup handler for uncaught exceptions.
-        Thread.setDefaultUncaughtExceptionHandler (new Thread.UncaughtExceptionHandler()
-        {
+        Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
             @Override
-            public void uncaughtException (Thread thread, Throwable e)
-            {
-                handleUncaughtException (thread, e);
+            public void uncaughtException(Thread thread, Throwable e) {
+                handleUncaughtException(thread, e);
             }
         });
     }
 
-    public void handleUncaughtException (Thread thread, Throwable e)
-    {
+    public void handleUncaughtException(Thread thread, Throwable e) {
         e.printStackTrace(); // not all Android versions will print the stack trace automatically
 
         logger.extractLogToFile();
@@ -119,9 +125,16 @@ public class LauncherApplication extends Application {
         return UUID.randomUUID().toString();
     }
 
-    public User getCurrentUser() { return currentUser; }
-    public String getCurrentUsername() { return currentUsername; }
+    public User getCurrentUser() {
+        return currentUser;
+    }
 
-    public KitkitDBHandler getDbHandler() { return dbHandler; }
+    public String getCurrentUsername() {
+        return currentUsername;
+    }
+
+    public KitkitDBHandler getDbHandler() {
+        return dbHandler;
+    }
 
 }

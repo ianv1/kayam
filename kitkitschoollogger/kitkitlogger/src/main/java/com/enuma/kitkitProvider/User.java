@@ -64,7 +64,7 @@ public class User {
         this._finishWritingBoardTutorial = false;
     }
 
-    public User(String productname, int stars) {
+    public User(String productname, int stars, String displayName) {
         this._username = productname;
         this._numStars = stars;
         this._finishTutorial = false;
@@ -80,6 +80,7 @@ public class User {
         this._unlockFishBowl = false;
         this._unlockWritingBoard = false;
         this._finishWritingBoardTutorial = false;
+        this._displayName = displayName;
     }
 
     public void setID(int id) {

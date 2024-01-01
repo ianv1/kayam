@@ -60,5 +60,6 @@
     <string name="rename">Rename</string>
 
     <string name="login">Login</string>
+    <string name="select_icon_password">Select your icon password</string>
 
 </resources>

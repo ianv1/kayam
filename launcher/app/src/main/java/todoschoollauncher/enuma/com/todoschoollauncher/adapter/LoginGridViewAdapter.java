@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.enuma.kitkitProvider.User;
@@ -20,11 +22,15 @@ public class LoginGridViewAdapter extends BaseAdapter {
     private Context context;
     private List<User> users;
     private Typeface face;
+    private String currentUsername;
+    private OnItemClick mCallback;
 
-    public LoginGridViewAdapter(Context context, List<User> users) {
+    public LoginGridViewAdapter(Context context, List<User> users, String currentUserName, OnItemClick listener) {
         this.context = context;
         this.users = users;
         this.face = Typeface.createFromAsset(context.getAssets(), "TodoMainCurly.ttf");
+        this.currentUsername = currentUserName;
+        this.mCallback = listener;
     }
 
     @Override
@@ -43,11 +49,62 @@ public class LoginGridViewAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
+    public View getView(final int i, View view, ViewGroup viewGroup) {
         CardView cardView = (CardView) LayoutInflater.from(context).inflate(R.layout.item_user, null);
         TextView textView = (TextView) cardView.findViewById(R.id.tv_username);
-        textView.setText(users.get(i).getUserName());
+        textView.setText(users.get(i).getDisplayName());
         textView.setTypeface(face);
-        return textView;
+
+        RelativeLayout relativeLayout = (RelativeLayout) cardView.findViewById(R.id.rl_bg);
+        switch (i) {
+            case 1:
+                relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.red));
+                break;
+            case 2:
+                relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.orange));
+                break;
+            case 3:
+                relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.green));
+                break;
+            case 4:
+                relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.blue));
+                break;
+            case 5:
+                relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.purple));
+                break;
+
+        }
+
+        TextView tvInitials = (TextView) cardView.findViewById(R.id.tv_initials);
+        String[] array = users.get(i).getDisplayName().split(" ");
+        if (array.length != 0) {
+            if (array.length > 1) {
+                tvInitials.setText(String.valueOf(array[0].charAt(0)) + String.valueOf(array[1].charAt(0)));
+            } else {
+                tvInitials.setText(String.valueOf(array[0].charAt(0)));
+            }
+        }
+        tvInitials.setTypeface(face);
+
+        ImageView icTick = (ImageView) cardView.findViewById(R.id.iv_tick);
+        if (currentUsername.equals(users.get(i).getUserName())) {
+            icTick.setVisibility(View.VISIBLE);
+            cardView.setBackgroundResource(R.drawable.card_view_with_border_selected);
+        } else {
+            icTick.setVisibility(View.INVISIBLE);
+            cardView.setBackgroundResource(R.drawable.card_view_with_border);
+        }
+
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String selectedUserName = users.get(i).getUserName();
+                if (!selectedUserName.equals(currentUsername)) {
+                    mCallback.onClick(selectedUserName);
+                }
+            }
+        });
+
+        return cardView;
     }
 }

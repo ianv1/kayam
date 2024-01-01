@@ -160,6 +160,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
     public void addUser(User user) {
         ContentValues values = new ContentValues();
         values.put(COLUMN_USERNAME, user.getUserName());
+        values.put(COLUMN_DISPLAY_NAME, user.getDisplayName());
         values.put(COLUMN_STARS, user.getNumStars());
         values.put(COLUMN_FINISH_TUTORIAL, user.isFinishTutorial());
         values.put(COLUMN_UNLOCK_DRUM, user.isUnlockDrum());

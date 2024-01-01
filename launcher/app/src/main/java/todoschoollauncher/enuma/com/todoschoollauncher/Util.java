@@ -184,7 +184,7 @@ public class Util {
             String result = name;
 
             if (displayName != null && !displayName.isEmpty()) {
-                result += ("-" + displayName);
+                result += (" - " + displayName);
             }
 
             if (!tabletNumber.isEmpty()) {
