@@ -165,6 +165,8 @@ public class Util {
     public static void displayUserName(Activity activity, TextView tvUserName) {
         User user = ((LauncherApplication) activity.getApplication()).getDbHandler().getCurrentUser();
 
+        if (user == null) return;
+
         String name = "";
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(activity);
         String displayName = user.getDisplayName();

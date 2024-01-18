@@ -4,6 +4,7 @@ import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+import android.database.CursorIndexOutOfBoundsException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -368,7 +369,17 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             return null;
         }
 
-        String currentUserName = cursor.getString(0);
+        String currentUserName = null;
+        try {
+            currentUserName = cursor.getString(0);
+        } catch (CursorIndexOutOfBoundsException e) {
+            return null;
+        }
+
+        if (currentUserName == null) {
+            return null;
+        }
+
         User user = findUser(currentUserName);
         cursor.close();
         return user;
@@ -384,7 +395,13 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
         } catch (NullPointerException ne) {
             return null;
         }
-        String result = cursor.getString(0);
+
+        String result;
+        try {
+           result = cursor.getString(0);
+        } catch (CursorIndexOutOfBoundsException e) {
+            return null;
+        }
         cursor.close();
         return result;
     }

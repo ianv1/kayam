@@ -327,6 +327,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     private void refreshUI() {
         User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
 
+        if (currentUser == null) return;
+
         Button libraryButton = (Button) findViewById(R.id.button_library);
 
         if (currentUser.isOpenLibrary()) {

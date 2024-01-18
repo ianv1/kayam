@@ -61,41 +61,43 @@ public class LauncherApplication extends Application {
         logger = new KitKitLogger(getPackageName(), getApplicationContext());
         dbHandler = new KitkitDBHandler(getApplicationContext());
 
-        if (dbHandler.numUser() == 0) {
-            // make users in DB
-            for (int i = 0; i < 5; i++) {
-                String displayName = "";
-                switch (i) {
-                    case 0:
-                        displayName = "Muhammad Ali";
-                        break;
-                    case 1:
-                        displayName = "John Doe";
-                        break;
-                    case 2:
-                        displayName = "Nigel Sim";
-                        break;
-                    case 3:
-                        displayName = "Ian Eng";
-                        break;
-                    case 4:
-                        displayName = "Raymond";
-                        break;
-                }
-                User user = new User("user" + i, 0, displayName);
-                dbHandler.addUser(user);
-
-                if (i == 0) {
-                    dbHandler.setCurrentUser(user);
-                    currentUser = user;
-                    currentUsername = user.getUserName();
-                }
-            }
-
-        }
+//        if (dbHandler.numUser() == 0) {
+//            // make users in DB
+//            for (int i = 0; i < 5; i++) {
+//                String displayName = "";
+//                switch (i) {
+//                    case 0:
+//                        displayName = "Muhammad Ali";
+//                        break;
+//                    case 1:
+//                        displayName = "John Doe";
+//                        break;
+//                    case 2:
+//                        displayName = "Nigel Sim";
+//                        break;
+//                    case 3:
+//                        displayName = "Ian Eng";
+//                        break;
+//                    case 4:
+//                        displayName = "Raymond";
+//                        break;
+//                }
+//                User user = new User("user" + i, 0, displayName);
+//                dbHandler.addUser(user);
+//
+//                if (i == 0) {
+//                    dbHandler.setCurrentUser(user);
+//                    currentUser = user;
+//                    currentUsername = user.getUserName();
+//                }
+//            }
+//
+//        }
         if (currentUser == null) {
             currentUser = dbHandler.getCurrentUser();
-            currentUsername = currentUser.getUserName();
+            if (currentUser != null) {
+                currentUsername = currentUser.getUserName();
+            }
         }
 
         defaultExceptionHandler = Thread.getDefaultUncaughtExceptionHandler();
