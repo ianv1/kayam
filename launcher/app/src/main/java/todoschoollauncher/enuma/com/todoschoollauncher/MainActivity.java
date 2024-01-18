@@ -10,6 +10,7 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
@@ -182,7 +183,17 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         todoSchoolButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (gotoVideoPlayer() == false) {
+                User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+                if (currentUser == null) {
+                    Toast toast = Toast.makeText(MainActivity.this, "Please select a user", Toast.LENGTH_LONG);
+                    View toastView = toast.getView();
+                    toastView.getBackground().setColorFilter(getResources().getColor(R.color.colorPrimary), PorterDuff.Mode.SRC_IN);
+                    TextView text = (TextView) toastView.findViewById(android.R.id.message);
+                    text.setTextColor(getResources().getColor(android.R.color.white));
+                    toast.show();
+                    return;
+                }
+                if (!gotoVideoPlayer()) {
                     try {
                         Intent i = new Intent(Intent.ACTION_MAIN);
                         i.setComponent(new ComponentName("com.enuma.xprize", "org.cocos2dx.cpp.AppActivity"));
