@@ -56,6 +56,9 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
     public void onClick(String value) {
         selectedUserName = value;
         DialogFragment dialog = new LoginPasswordDialogFragment();
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("selectedUserName", value);
+        dialog.setArguments(bundle);
         dialog.show(getFragmentManager(), "LoginPasswordDialogFragment");
     }
 

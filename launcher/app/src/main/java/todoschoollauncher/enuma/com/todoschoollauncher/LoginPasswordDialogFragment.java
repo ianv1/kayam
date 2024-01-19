@@ -14,6 +14,9 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.enuma.kitkitProvider.User;
 
 public class LoginPasswordDialogFragment extends DialogFragment {
 
@@ -48,6 +51,8 @@ public class LoginPasswordDialogFragment extends DialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
 
         this.getActivity().getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        final String selectedUserName = this.getArguments().getString("selectedUserName");
 
         // Use the Builder class for convenient dialog construction
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
@@ -98,7 +103,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_burger));
                     password[1] = "1";
                 }
-                checkPassword();
+                checkPassword(selectedUserName);
             }
         });
 
@@ -112,7 +117,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_car));
                     password[1] = "2";
                 }
-                checkPassword();
+                checkPassword(selectedUserName);
             }
         });
 
@@ -126,7 +131,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_chick));
                     password[1] = "3";
                 }
-                checkPassword();
+                checkPassword(selectedUserName);
             }
         });
 
@@ -140,7 +145,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_donatello));
                     password[1] = "4";
                 }
-                checkPassword();
+                checkPassword(selectedUserName);
             }
         });
 
@@ -154,7 +159,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_globe));
                     password[1] = "5";
                 }
-                checkPassword();
+                checkPassword(selectedUserName);
             }
         });
 
@@ -168,7 +173,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_mushrooms));
                     password[1] = "6";
                 }
-                checkPassword();
+                checkPassword(selectedUserName);
             }
         });
 
@@ -182,7 +187,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_penguin));
                     password[1] = "7";
                 }
-                checkPassword();
+                checkPassword(selectedUserName);
             }
         });
 
@@ -196,7 +201,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_scooter));
                     password[1] = "8";
                 }
-                checkPassword();
+                checkPassword(selectedUserName);
             }
         });
 
@@ -208,8 +213,11 @@ public class LoginPasswordDialogFragment extends DialogFragment {
         return dialog;
     }
 
-    private void checkPassword() {
-        if (!password[0].equals("") && !password[1].equals("")) {
+    private void checkPassword(String selectedUserName) {
+        User user = ((LauncherApplication) getActivity().getApplication()).getDbHandler().findUser(selectedUserName);
+        if (user == null) return;
+
+        if (password[0].equals(String.valueOf(user.getPassword().charAt(0))) && password[1].equals(String.valueOf(user.getPassword().charAt(1)))) {
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
                 @Override
@@ -218,6 +226,8 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     mListener.onLoginPasswordDialogPositiveClick(LoginPasswordDialogFragment.this, "");
                 }
             }, 500);
+        } else if (!password[0].equals("") && !password[1].equals("")) {
+            Toast.makeText(getActivity(), "Password is incorrect", Toast.LENGTH_SHORT).show();
         }
     }
 }

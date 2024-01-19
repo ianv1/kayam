@@ -205,7 +205,7 @@ public class CreateUserDialogFragment extends DialogFragment {
             @Override
             public void onClick(View view) {
                 UUID uuid = UUID.randomUUID();
-                ((LauncherApplication) getActivity().getApplication()).getDbHandler().addUser(new User(uuid.toString(), createUserEditText.getText().toString()));
+                ((LauncherApplication) getActivity().getApplication()).getDbHandler().addUser(new User(uuid.toString(), createUserEditText.getText().toString(), password[0] + password[1]));
                 mListener.onCreateUser(CreateUserDialogFragment.this, "");
             }
         });

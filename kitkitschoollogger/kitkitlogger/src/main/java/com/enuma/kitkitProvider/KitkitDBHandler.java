@@ -48,6 +48,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
     public static final String COLUMN_UNLOCK_FISH_BOWL = "unlock_fish_bowl";
     public static final String COLUMN_UNLOCK_WRITING_BOARD = "unlock_writing_board";
     public static final String COLUMN_FINISH_WRITING_BOARD_TUTORIAL = "finish_writing_board_tutorial";
+    public static final String COLUMN_PASSWORD = "password";
 
     public static final String COLUMN_SERVER_SPEC = "server_spec";
     public static final String COLUMN_TIME_NOW = "time_now";
@@ -73,6 +74,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             + COLUMN_UNLOCK_BLACKBOARD + " BOOLEAN,"
             + COLUMN_FINISH_LAUNCHER_TUTORIAL + " BOOLEAN,"
             + COLUMN_DISPLAY_NAME + " TEXT,"
+            + COLUMN_PASSWORD + " TEXT,"
             + COLUMN_OPEN_LIBRARY + " BOOLEAN,"
             + COLUMN_OPEN_TOOLS + " BOOLEAN,"
             + COLUMN_UNLOCK_FISH_BOWL + " BOOLEAN,"
@@ -175,6 +177,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
         values.put(COLUMN_UNLOCK_FISH_BOWL, user.isUnlockFishBowl());
         values.put(COLUMN_UNLOCK_WRITING_BOARD, user.isUnlockWritingBoard());
         values.put(COLUMN_FINISH_WRITING_BOARD_TUTORIAL, user.isFinishWritingBoardTutorial());
+        values.put(COLUMN_PASSWORD, user.getPassword());
 
         myCR.insert(KitkitProvider.CONTENT_URI, values);
     }
@@ -195,7 +198,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 COLUMN_OPEN_TOOLS,
                 COLUMN_UNLOCK_FISH_BOWL,
                 COLUMN_UNLOCK_WRITING_BOARD,
-                COLUMN_FINISH_WRITING_BOARD_TUTORIAL
+                COLUMN_FINISH_WRITING_BOARD_TUTORIAL,
+                COLUMN_PASSWORD
         };
 
         String selection = "username = \"" + username + "\"";
@@ -224,6 +228,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             user.setUnlockFishBowl("1".equals(cursor.getString(13)));
             user.setUnlockWritingBoard("1".equals(cursor.getString(14)));
             user.setFinishWritingBoardTutorial("1".equals(cursor.getString(15)));
+            user.setPassword(cursor.getString(16));
             cursor.close();
         } else {
             user = null;
@@ -248,7 +253,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 COLUMN_OPEN_TOOLS,
                 COLUMN_UNLOCK_FISH_BOWL,
                 COLUMN_UNLOCK_WRITING_BOARD,
-                COLUMN_FINISH_WRITING_BOARD_TUTORIAL
+                COLUMN_FINISH_WRITING_BOARD_TUTORIAL,
+                COLUMN_PASSWORD
         };
 
         Cursor cursor = myCR.query(KitkitProvider.CONTENT_URI,
@@ -275,6 +281,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 user.setUnlockFishBowl("1".equals(cursor.getString(13)));
                 user.setUnlockWritingBoard("1".equals(cursor.getString(14)));
                 user.setFinishWritingBoardTutorial("1".equals(cursor.getString(15)));
+                user.setPassword(cursor.getString(16));
                 result.add(user);
 
             } while(cursor.moveToNext());

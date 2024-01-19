@@ -25,6 +25,7 @@ public class User {
     private boolean _unlockFishBowl;
     private boolean _unlockWritingBoard;
     private boolean _finishWritingBoardTutorial;
+    private String _password;
 
     public User() {
         this._id = 0;
@@ -64,7 +65,7 @@ public class User {
         this._finishWritingBoardTutorial = false;
     }
 
-    public User(String username, String displayName) {
+    public User(String username, String displayName, String password) {
         this._username = username;
         this._numStars = 0;
         this._finishTutorial = false;
@@ -80,6 +81,7 @@ public class User {
         this._unlockWritingBoard = false;
         this._finishWritingBoardTutorial = false;
         this._displayName = displayName;
+        this._password = password;
     }
 
     public void setID(int id) {
@@ -96,6 +98,14 @@ public class User {
 
     public String getUserName() {
         return this._username;
+    }
+
+    public void setPassword(String password) {
+        this._password = password;
+    }
+
+    public String getPassword() {
+        return this._password;
     }
 
     public void setNumStars(int stars) {
