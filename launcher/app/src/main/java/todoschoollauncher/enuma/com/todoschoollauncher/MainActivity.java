@@ -211,6 +211,16 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         libraryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+                if (currentUser == null) {
+                    Toast toast = Toast.makeText(MainActivity.this, "Please select a user", Toast.LENGTH_LONG);
+                    View toastView = toast.getView();
+                    toastView.getBackground().setColorFilter(getResources().getColor(R.color.colorPrimary), PorterDuff.Mode.SRC_IN);
+                    TextView text = (TextView) toastView.findViewById(android.R.id.message);
+                    text.setTextColor(getResources().getColor(android.R.color.white));
+                    toast.show();
+                    return;
+                }
                 if (!gotoVideoPlayer()) {
                     if (view.isEnabled()) {
 //                    Intent i = manager.getLaunchIntentForPackage("library.todoschool.enuma.com.todoschoollibrary");
