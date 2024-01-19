@@ -101,7 +101,7 @@ public class PasswordDialogFragment extends DialogFragment {
     }
 
     private void processEnter(String redirect) {
-        final String password = redirect.compareToIgnoreCase("ADMINISTRATION") == 0 ? "enuma" : "enuma";
+        final String password = redirect.compareToIgnoreCase("ADMINISTRATION") == 0 ? "kayam" : "kayam";
 
         if (passwordEditText.getText().toString().equals(password)) {
             mListener.onDialogPositiveClick(PasswordDialogFragment.this, redirect);

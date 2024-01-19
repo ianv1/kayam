@@ -750,6 +750,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
     private void displayCurrentUser() {
+        mTvUserName = (TextView) findViewById(R.id.textView_currentUserId);
         Util.displayUserName(this, mTvUserName);
     }
 

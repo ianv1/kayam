@@ -164,40 +164,8 @@ public class Util {
 
     public static void displayUserName(Activity activity, TextView tvUserName) {
         User user = ((LauncherApplication) activity.getApplication()).getDbHandler().getCurrentUser();
-
         if (user == null) return;
-
-        String name = "";
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(activity);
-        String displayName = user.getDisplayName();
-        String tabletNumber = prefs.getString("TABLET_NUMBER", "");
-
-        if ("user0".equalsIgnoreCase(user.getUserName())) {
-            int userCount = ((LauncherApplication)activity.getApplication()).getDbHandler().numUserSeenLauncherTutorial();
-            if (userCount >= 2 || (userCount == 1 && user.isFinishLauncherTutorial() == false)) {
-                name = user.getUserName();
-            }
-
-        } else {
-            name = user.getUserName();
-        }
-
-        if (!name.isEmpty()) {
-            String result = name;
-
-            if (displayName != null && !displayName.isEmpty()) {
-                result += (" - " + displayName);
-            }
-
-            if (!tabletNumber.isEmpty()) {
-                result += ("-t" + tabletNumber);
-            }
-
-            tvUserName.setText(result);
-
-        } else {
-            tvUserName.setText("");
-        }
+        tvUserName.setText(user.getDisplayName());
     }
 
     public static void copyDBFileToSDCard(Context context) {

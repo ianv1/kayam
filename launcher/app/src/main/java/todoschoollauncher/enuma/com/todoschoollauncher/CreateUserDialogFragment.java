@@ -12,22 +12,27 @@ import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class LoginPasswordDialogFragment extends DialogFragment {
+import com.enuma.kitkitProvider.User;
+
+import java.util.UUID;
+
+public class CreateUserDialogFragment extends DialogFragment {
 
     private String[] password = {"", ""};
 
     /* The activity that creates an instance of this dialog fragment must
      * implement this interface in order to receive event callbacks.
      * Each method passes the DialogFragment in case the host needs to query it. */
-    public interface LoginPasswordListener {
-        public void onLoginPasswordDialogPositiveClick(DialogFragment dialog, String redirectTo);
+    public interface CreateUserListener {
+        public void onCreateUser(DialogFragment dialog, String redirectTo);
     }
 
     // Use this instance of the interface to deliver action events
-    LoginPasswordListener mListener;
+    CreateUserListener mListener;
 
     // Override the Fragment.onAttach() method to instantiate the NoticeDialogListener
     @Override
@@ -36,7 +41,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
         // Verify that the host activity implements the callback interface
         try {
             // Instantiate the NoticeDialogListener so we can send events to the host
-            mListener = (LoginPasswordListener) activity;
+            mListener = (CreateUserListener) activity;
         } catch (ClassCastException e) {
             // The activity doesn't implement the interface, throw exception
             throw new ClassCastException(activity.toString()
@@ -54,10 +59,12 @@ public class LoginPasswordDialogFragment extends DialogFragment {
 
         // Get the layout inflater
         LayoutInflater inflater = getActivity().getLayoutInflater();
-        View dialogView = inflater.inflate(R.layout.dialog_login_password, null);
+        View dialogView = inflater.inflate(R.layout.dialog_create_user, null);
 
         TextView title = (TextView) dialogView.findViewById(R.id.tv_login_password_title);
+        TextView nameTitle = (TextView) dialogView.findViewById(R.id.tv_create_user_title);
         Typeface face = Typeface.createFromAsset(getActivity().getAssets(), "TodoMainCurly.ttf");
+        nameTitle.setTypeface(face);
         title.setTypeface(face);
 
         final ImageView ivField1 = (ImageView) dialogView.findViewById(R.id.iv_field_1);
@@ -98,7 +105,6 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_burger));
                     password[1] = "1";
                 }
-                checkPassword();
             }
         });
 
@@ -112,7 +118,6 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_car));
                     password[1] = "2";
                 }
-                checkPassword();
             }
         });
 
@@ -126,7 +131,6 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_chick));
                     password[1] = "3";
                 }
-                checkPassword();
             }
         });
 
@@ -140,7 +144,6 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_donatello));
                     password[1] = "4";
                 }
-                checkPassword();
             }
         });
 
@@ -154,7 +157,6 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_globe));
                     password[1] = "5";
                 }
-                checkPassword();
             }
         });
 
@@ -168,7 +170,6 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_mushrooms));
                     password[1] = "6";
                 }
-                checkPassword();
             }
         });
 
@@ -182,7 +183,6 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_penguin));
                     password[1] = "7";
                 }
-                checkPassword();
             }
         });
 
@@ -196,7 +196,25 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                     ivField2.setImageDrawable(getActivity().getDrawable(R.drawable.ic_scooter));
                     password[1] = "8";
                 }
-                checkPassword();
+            }
+        });
+
+        final TextView createTextView = (TextView) dialogView.findViewById(R.id.tv_create);
+        final EditText createUserEditText = (EditText) dialogView.findViewById(R.id.et_create_user);
+        createTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                UUID uuid = UUID.randomUUID();
+                ((LauncherApplication) getActivity().getApplication()).getDbHandler().addUser(new User(uuid.toString(), createUserEditText.getText().toString()));
+                mListener.onCreateUser(CreateUserDialogFragment.this, "");
+            }
+        });
+
+        final TextView cancelTextView = (TextView) dialogView.findViewById(R.id.tv_cancel);
+        cancelTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dismiss();
             }
         });
 
@@ -206,18 +224,5 @@ public class LoginPasswordDialogFragment extends DialogFragment {
         Dialog dialog = builder.create();
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         return dialog;
-    }
-
-    private void checkPassword() {
-        if (!password[0].equals("") && !password[1].equals("")) {
-            Handler handler = new Handler();
-            handler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    LoginPasswordDialogFragment.this.dismiss();
-                    mListener.onLoginPasswordDialogPositiveClick(LoginPasswordDialogFragment.this, "");
-                }
-            }, 500);
-        }
     }
 }

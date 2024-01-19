@@ -64,9 +64,9 @@ public class User {
         this._finishWritingBoardTutorial = false;
     }
 
-    public User(String productname, int stars, String displayName) {
-        this._username = productname;
-        this._numStars = stars;
+    public User(String username, String displayName) {
+        this._username = username;
+        this._numStars = 0;
         this._finishTutorial = false;
         this._unlockDrum = false;
         this._unlockMarimba = false;
@@ -74,7 +74,6 @@ public class User {
         this._unlockColoring = false;
         this._unlockBlackboard = false;
         this._finishLauncherTutorial = false;
-        this._displayName = "";
         this._openLibrary = DEFAULT_OPEN_LIBRARY;
         this._openTools = DEFAULT_OPEN_TOOLS;
         this._unlockFishBowl = false;

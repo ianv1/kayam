@@ -87,7 +87,7 @@ public class LoginGridViewAdapter extends BaseAdapter {
         tvInitials.setTypeface(face);
 
         ImageView icTick = (ImageView) cardView.findViewById(R.id.iv_tick);
-        if (currentUsername.equals(users.get(i).getUserName())) {
+        if (currentUsername != null && currentUsername.equals(users.get(i).getUserName())) {
             icTick.setVisibility(View.VISIBLE);
             cardView.setBackgroundResource(R.drawable.card_view_with_border_selected);
         } else {
