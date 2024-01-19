@@ -24,13 +24,17 @@ public class LoginGridViewAdapter extends BaseAdapter {
     private Typeface face;
     private String currentUsername;
     private OnItemClick mCallback;
+    private OnRemoveClick mRemoveClickCallback;
+    private boolean isAdmin;
 
-    public LoginGridViewAdapter(Context context, List<User> users, String currentUserName, OnItemClick listener) {
+    public LoginGridViewAdapter(Context context, List<User> users, String currentUserName, boolean isAdmin, OnItemClick listener, OnRemoveClick removeListener) {
         this.context = context;
         this.users = users;
         this.face = Typeface.createFromAsset(context.getAssets(), "TodoMainCurly.ttf");
         this.currentUsername = currentUserName;
+        this.isAdmin = isAdmin;
         this.mCallback = listener;
+        this.mRemoveClickCallback = removeListener;
     }
 
     @Override
@@ -93,6 +97,21 @@ public class LoginGridViewAdapter extends BaseAdapter {
             icTick.setVisibility(View.INVISIBLE);
             cardView.setBackgroundResource(R.drawable.card_view_with_border);
         }
+
+        ImageView icRemove = (ImageView) cardView.findViewById(R.id.iv_remove);
+        if (isAdmin) {
+            icRemove.setVisibility(View.VISIBLE);
+        } else {
+            icRemove.setVisibility(View.GONE);
+        }
+
+        icRemove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String selectedUserName = users.get(i).getUserName();
+                mRemoveClickCallback.onRemoveClick(selectedUserName);
+            }
+        });
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override

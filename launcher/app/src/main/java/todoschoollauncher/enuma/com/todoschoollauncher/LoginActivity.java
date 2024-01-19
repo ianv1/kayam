@@ -14,14 +14,18 @@ import java.util.ArrayList;
 
 import todoschoollauncher.enuma.com.todoschoollauncher.adapter.LoginGridViewAdapter;
 import todoschoollauncher.enuma.com.todoschoollauncher.adapter.OnItemClick;
+import todoschoollauncher.enuma.com.todoschoollauncher.adapter.OnRemoveClick;
 
 public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
+        OnRemoveClick,
         LoginPasswordDialogFragment.LoginPasswordListener,
         PasswordDialogFragment.PasswordDialogListener,
         CreateUserDialogFragment.CreateUserListener {
 
     private ArrayList<User> users;
     private String selectedUserName;
+
+    private boolean isAdmin = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +68,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
     @Override
     public void onLoginPasswordDialogPositiveClick(DialogFragment dialog, String redirectTo) {
-        LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, selectedUserName, this);
+        LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, selectedUserName, isAdmin,this, this);
         GridView gridView = (GridView) findViewById(R.id.grid);
         gridView.setAdapter(adapter);
         ((LauncherApplication) getApplication()).getDbHandler().setCurrentUser(selectedUserName);
@@ -73,7 +77,8 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
     @Override
     public void onDialogPositiveClick(DialogFragment dialog, String redirectTo) {
         dialog.dismiss();
-        showAdminOptions();
+        isAdmin = true;
+        refreshUI();
     }
 
     @Override
@@ -81,31 +86,36 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
     }
 
-    private void showAdminOptions() {
-        ImageView imageViewPlus = (ImageView) findViewById(R.id.ic_plus);
-        imageViewPlus.setVisibility(View.VISIBLE);
-        imageViewPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                DialogFragment dialog = new CreateUserDialogFragment();
-                dialog.show(getFragmentManager(), "CreateUserDialogFragment");
-            }
-        });
-    }
-
     private void refreshUI() {
+        if (isAdmin) {
+            ImageView imageViewPlus = (ImageView) findViewById(R.id.ic_plus);
+            imageViewPlus.setVisibility(View.VISIBLE);
+            imageViewPlus.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    DialogFragment dialog = new CreateUserDialogFragment();
+                    dialog.show(getFragmentManager(), "CreateUserDialogFragment");
+                }
+            });
+        }
         GridView gridView = (GridView) findViewById(R.id.grid);
 
         users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
         String currentUsername = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUsername();
 
-        LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, currentUsername, this);
+        LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, currentUsername, isAdmin, this, this);
         gridView.setAdapter(adapter);
     }
 
     @Override
     public void onCreateUser(DialogFragment dialog, String redirectTo) {
         dialog.dismiss();
+        refreshUI();
+    }
+
+    @Override
+    public void onRemoveClick(String value) {
+        ((LauncherApplication) getApplication()).getDbHandler().deleteUser(value);
         refreshUI();
     }
 }
