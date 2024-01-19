@@ -35,6 +35,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -78,7 +79,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     private static Thread imageUploader = null;
 
     private Context cntx = null;
-    private Button mTitle;
     private TextView mTvUserName;
 
     private PowerConnectionReceiver _batteryinfo = new PowerConnectionReceiver() {
@@ -211,7 +211,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         libraryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (gotoVideoPlayer() == false) {
+                if (!gotoVideoPlayer()) {
                     if (view.isEnabled()) {
 //                    Intent i = manager.getLaunchIntentForPackage("library.todoschool.enuma.com.todoschoollibrary");
                         try {
@@ -225,13 +225,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                 }
             }
         });
-
-        mTitle = (Button) findViewById(R.id.launcher_title_button);
-        mTitle.setTypeface(face);
-        mTitle.setOnTouchListener(mLongTouchListener);
-
-        mTvUserName = (TextView) findViewById(R.id.textView_currentUserId);
-        mTvUserName.setOnTouchListener(mLongTouchListener);
 
         registerLockscreenReceiver();
 
@@ -285,10 +278,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         logger.tagScreen("MainActivity");
 
         refreshUI();
-
-        if (Util.mBlockingView != null) {
-            Util.mBlockingView.setOnTouchListener(mBlockViewTouchListener);
-        }
     }
 
     @Override
@@ -338,7 +327,11 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     private void refreshUI() {
         User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
 
-        if (currentUser == null) return;
+        if (currentUser == null) {
+            ImageView imageViewCoin = (ImageView) findViewById(R.id.imageView_coin);
+            imageViewCoin.setVisibility(View.INVISIBLE);
+            return;
+        }
 
         Button libraryButton = (Button) findViewById(R.id.button_library);
 
@@ -398,27 +391,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         CharSequence name;
         Drawable icon;
     }
-
-    private void closeApp() {
-        this.finish();
-    }
-
-    Rect mTempRect = new Rect();
-    private View.OnTouchListener mBlockViewTouchListener = new View.OnTouchListener() {
-        @Override
-        public boolean onTouch(View v, MotionEvent event) {
-            if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                mTitle.getGlobalVisibleRect(mTempRect);
-                if (mTempRect.contains((int) event.getX(), (int) event.getY())) {
-                    mTitle.dispatchTouchEvent(event);
-                }
-            } else {
-                mTitle.dispatchTouchEvent(event);
-            }
-
-            return true;
-        }
-    };
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -970,41 +942,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             bundle.putSerializable("userobject", "SELECT USER");
             dialog.setArguments(bundle);
             dialog.show(getFragmentManager(), "PasswordDialogFragment");
-        }
-    };
-
-    private View.OnTouchListener mLongTouchListener = new View.OnTouchListener() {
-        @Override
-        public boolean onTouch(View view, MotionEvent motionEvent) {
-            switch (motionEvent.getAction()) {
-                case MotionEvent.ACTION_BUTTON_PRESS:
-                case MotionEvent.ACTION_DOWN:
-                    if (view == mTitle) {
-                        handler.postDelayed(mRunnableTitle, 2 * 1000);
-
-                    } else if (view == mTvUserName) {
-                        handler.postDelayed(mRunnableUserName, 2 * 1000);
-
-                    }
-
-                    break;
-                case MotionEvent.ACTION_UP:
-                case MotionEvent.ACTION_CANCEL:
-                case MotionEvent.ACTION_BUTTON_RELEASE:
-                    if (view == mTitle) {
-                        handler.removeCallbacks(mRunnableTitle);
-
-                    } else if (view == mTvUserName) {
-                        handler.removeCallbacks(mRunnableUserName);
-
-                    }
-                    break;
-
-                default:
-                    break;
-
-            }
-            return true;
         }
     };
 

@@ -1,66 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2B2E33"
-    android:orientation="vertical"
     tools:context="todoschoollauncher.enuma.com.todoschoollauncher.MainActivity">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="168px"
-        android:background="@drawable/launcher_topbar"
-        android:elevation="8px">
-
-        <TextView
-            android:id="@+id/textView_currentUserId"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="30px"
-            android:layout_toLeftOf="@+id/launcher_title_button"
-            android:ellipsize="end"
-            android:gravity="center_vertical"
-            android:maxLines="1"
-            android:textColor="#FDDB68"
-            android:textSize="60px" />
-
-        <Button
-            android:id="@+id/launcher_title_button"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:text="@string/launcher_title"
-            android:textColor="#878787"
-            android:textSize="70px" />
-
-        <ImageView
-            android:id="@+id/imageView_coin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="20px"
-            android:layout_toLeftOf="@+id/textView_numCoin"
-            android:background="@android:color/transparent"
-            android:padding="0px"
-            android:src="@drawable/tools_image_icon_coin" />
-
-        <TextView
-            android:id="@+id/textView_numCoin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="40px"
-            android:textColor="#FDDB68"
-            android:textSize="60px" />
-
-    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,9 +16,10 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
             android:layout_marginBottom="24dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/launcher_kitkitschool_logo_phase03" />
+            android:src="@drawable/launcher_kayamschool_logo" />
 
         <Button
             android:id="@+id/button_login"
@@ -117,4 +62,41 @@
 
     </LinearLayout>
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textView_currentUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30px"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#FDDB68"
+        android:textSize="60px" />
+
+    <ImageView
+        android:id="@+id/imageView_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20px"
+        android:layout_toLeftOf="@+id/textView_numCoin"
+        android:background="@android:color/transparent"
+        android:padding="0px"
+        android:src="@drawable/tools_image_icon_coin" />
+
+    <TextView
+        android:id="@+id/textView_numCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40px"
+        android:textColor="#FDDB68"
+        android:textSize="60px" />
+
+</RelativeLayout>
