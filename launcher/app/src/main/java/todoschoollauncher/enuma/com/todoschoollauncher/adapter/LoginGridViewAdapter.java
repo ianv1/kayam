@@ -56,23 +56,22 @@ public class LoginGridViewAdapter extends BaseAdapter {
         textView.setTypeface(face);
 
         RelativeLayout relativeLayout = (RelativeLayout) cardView.findViewById(R.id.rl_bg);
-        switch (i) {
-            case 1:
+        switch (i % 5) {
+            case 0:
                 relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.red));
                 break;
-            case 2:
+            case 1:
                 relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.orange));
                 break;
-            case 3:
+            case 2:
                 relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.green));
                 break;
-            case 4:
+            case 3:
                 relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.blue));
                 break;
-            case 5:
+            case 4:
                 relativeLayout.setBackgroundColor(context.getResources().getColor(R.color.purple));
                 break;
-
         }
 
         TextView tvInitials = (TextView) cardView.findViewById(R.id.tv_initials);
