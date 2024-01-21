@@ -321,26 +321,30 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
     private void refreshUI() {
         User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+        ImageView imageViewCoin = (ImageView) findViewById(R.id.imageView_coin);
+        TextView textViewCoinNum = (TextView) findViewById(R.id.textView_numCoin);
+        mTvUserName = (TextView) findViewById(R.id.textView_currentUserId);
 
         if (currentUser == null) {
-            ImageView imageViewCoin = (ImageView) findViewById(R.id.imageView_coin);
-            imageViewCoin.setVisibility(View.INVISIBLE);
+            imageViewCoin.setVisibility(View.GONE);
+            textViewCoinNum.setVisibility(View.GONE);
+            mTvUserName.setVisibility(View.GONE);
             return;
+        } else {
+            imageViewCoin.setVisibility(View.VISIBLE);
+            textViewCoinNum.setVisibility(View.VISIBLE);
+            mTvUserName.setVisibility(View.VISIBLE);
+            textViewCoinNum.setText(String.format("%d", currentUser.getNumStars()));
+            displayCurrentUser();
         }
 
         Button libraryButton = (Button) findViewById(R.id.button_library);
-
         if (currentUser.isOpenLibrary()) {
             libraryButton.setEnabled(true);
 
         } else {
             libraryButton.setEnabled(false);
         }
-
-        TextView textViewCoinNum = (TextView) findViewById(R.id.textView_numCoin);
-        textViewCoinNum.setText(String.format("%d", currentUser.getNumStars()));
-
-        displayCurrentUser();
     }
 
     private static PackageManager manager;
