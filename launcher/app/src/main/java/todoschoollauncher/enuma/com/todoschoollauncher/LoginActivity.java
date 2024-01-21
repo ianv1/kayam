@@ -1,6 +1,8 @@
 package todoschoollauncher.enuma.com.todoschoollauncher;
 
+import android.app.AlertDialog;
 import android.app.DialogFragment;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -68,7 +70,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
     @Override
     public void onLoginPasswordDialogPositiveClick(DialogFragment dialog, String redirectTo) {
-        LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, selectedUserName, isAdmin,this, this);
+        LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, selectedUserName, isAdmin, this, this);
         GridView gridView = (GridView) findViewById(R.id.grid);
         gridView.setAdapter(adapter);
         ((LauncherApplication) getApplication()).getDbHandler().setCurrentUser(selectedUserName);
@@ -114,8 +116,21 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
     }
 
     @Override
-    public void onRemoveClick(String value) {
-        ((LauncherApplication) getApplication()).getDbHandler().deleteUser(value);
-        refreshUI();
+    public void onRemoveClick(final String value) {
+        User user = ((LauncherApplication) getApplication()).getDbHandler().findUser(value);
+        if (user == null) {
+            return;
+        }
+        new AlertDialog.Builder(this)
+                .setTitle("Delete " + user.getDisplayName())
+                .setMessage("Are you sure you want to delete this user?")
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        ((LauncherApplication) getApplication()).getDbHandler().deleteUser(value);
+                        refreshUI();
+                    }
+                })
+                .setNegativeButton(android.R.string.no, null)
+                .show();
     }
 }
