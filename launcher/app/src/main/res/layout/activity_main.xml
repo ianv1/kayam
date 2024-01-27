@@ -64,7 +64,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:layout_alignParentTop="true"
         android:gravity="center_vertical">
 
@@ -79,13 +79,13 @@
             android:ellipsize="end"
             android:maxLines="1"
             android:textColor="#FDDB68"
-            android:textSize="40sp" />
+            android:textSize="60sp" />
 
         <ImageView
             android:id="@+id/imageView_coin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="24dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
             android:layout_toStartOf="@+id/textView_numCoin"
@@ -99,7 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="14dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="40dp"
             android:layout_marginRight="40dp"
             android:textColor="#FDDB68"
