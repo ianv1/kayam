@@ -165,7 +165,7 @@ public class Util {
     public static void displayUserName(Activity activity, TextView tvUserName) {
         User user = ((LauncherApplication) activity.getApplication()).getDbHandler().getCurrentUser();
         if (user == null) return;
-        tvUserName.setText(user.getDisplayName());
+        tvUserName.setText(activity.getString(R.string.welcome, user.getDisplayName()));
     }
 
     public static void copyDBFileToSDCard(Context context) {

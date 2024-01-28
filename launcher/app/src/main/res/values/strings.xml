@@ -64,4 +64,5 @@
     <string name="enter_your_name">Enter your name</string>
     <string name="name_hint">Name</string>
     <string name="create">CREATE</string>
+    <string name="welcome">Welcome back, %s</string>
 </resources>

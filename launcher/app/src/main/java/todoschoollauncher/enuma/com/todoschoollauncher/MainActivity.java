@@ -31,6 +31,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -319,16 +320,19 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         ImageView imageViewCoin = (ImageView) findViewById(R.id.imageView_coin);
         TextView textViewCoinNum = (TextView) findViewById(R.id.textView_numCoin);
         mTvUserName = (TextView) findViewById(R.id.textView_currentUserId);
+        LinearLayout llUserName = (LinearLayout) findViewById(R.id.ll_currentUserId);
 
         if (currentUser == null) {
             imageViewCoin.setVisibility(View.GONE);
             textViewCoinNum.setVisibility(View.GONE);
             mTvUserName.setVisibility(View.GONE);
+            llUserName.setVisibility(View.GONE);
             return;
         } else {
             imageViewCoin.setVisibility(View.VISIBLE);
             textViewCoinNum.setVisibility(View.VISIBLE);
             mTvUserName.setVisibility(View.VISIBLE);
+            llUserName.setVisibility(View.VISIBLE);
             textViewCoinNum.setText(String.format("%d", currentUser.getNumStars()));
             displayCurrentUser();
         }
