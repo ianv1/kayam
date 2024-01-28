@@ -182,6 +182,12 @@ public class KitkitProvider extends ContentProvider {
                                 selectionArgs);
                     }
                     break;
+
+                case CURRENT_USER:
+                    rowsDeleted = sqlDB.delete(KitkitDBHandler.TABLE_CURRENT_USER,
+                            selection,
+                            selectionArgs);
+                    break;
                 case SNTP_RESULT:
                     rowsDeleted = sqlDB.delete(KitkitDBHandler.TABLE_SNTP_RESULT,
                             selection,

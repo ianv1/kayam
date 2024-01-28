@@ -61,6 +61,8 @@ public class LauncherApplication extends Application {
         logger = new KitKitLogger(getPackageName(), getApplicationContext());
         dbHandler = new KitkitDBHandler(getApplicationContext());
 
+        dbHandler.deleteCurrentUser();
+
 //        if (dbHandler.numUser() == 0) {
 //            // make users in DB
 //            for (int i = 0; i < 5; i++) {

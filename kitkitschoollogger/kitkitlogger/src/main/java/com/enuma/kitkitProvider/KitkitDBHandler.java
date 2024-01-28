@@ -135,8 +135,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
         if (oldVersion < newVersion) {
             List<String> arrSql = new ArrayList<String>();
 
-            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_DISPLAY_NAME	 + " TEXT DEFAULT ('');");
-            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_OPEN_LIBRARY	 + " BOOLEAN DEFAULT (" + (User.DEFAULT_OPEN_LIBRARY == false ? 0 : 1) + ");");
+            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_DISPLAY_NAME + " TEXT DEFAULT ('');");
+            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_OPEN_LIBRARY + " BOOLEAN DEFAULT (" + (User.DEFAULT_OPEN_LIBRARY == false ? 0 : 1) + ");");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_OPEN_TOOLS + " BOOLEAN DEFAULT (" + (User.DEFAULT_OPEN_TOOLS == false ? 0 : 1) + ");");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_UNLOCK_FISH_BOWL + " BOOLEAN DEFAULT (" + 0 + ");");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_UNLOCK_WRITING_BOARD + " BOOLEAN DEFAULT (" + 0 + ");");
@@ -154,7 +154,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 try {
                     db.execSQL(sql);
                 } catch (Exception e) {
-                    Log.e(KitkitDBHandler.class.getName(),"SQL ERROR : " + sql);
+                    Log.e(KitkitDBHandler.class.getName(), "SQL ERROR : " + sql);
                 }
             }
         }
@@ -262,7 +262,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 null);
 
         ArrayList<User> result = new ArrayList<User>();
-        if(cursor.moveToFirst()) {
+        if (cursor.moveToFirst()) {
             do {
                 User user = new User();
                 user.setID(Integer.parseInt(cursor.getString(0)));
@@ -284,7 +284,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 user.setPassword(cursor.getString(16));
                 result.add(user);
 
-            } while(cursor.moveToNext());
+            } while (cursor.moveToNext());
         }
 
         cursor.close();
@@ -350,18 +350,14 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
     }
 
     public void setCurrentUser(User user) {
-        if (currentUserExist()) {
+        deleteCurrentUser();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_USERNAME, user.getUserName());
+        myCR.insert(KitkitProvider.CURRENT_USER_URI, values);
+    }
 
-            String selection = COLUMN_ID + " = 1";
-
-            ContentValues values = new ContentValues();
-            values.put(COLUMN_USERNAME, user.getUserName());
-            myCR.update(KitkitProvider.CURRENT_USER_URI, values, selection, null);
-        } else {
-            ContentValues values = new ContentValues();
-            values.put(COLUMN_USERNAME, user.getUserName());
-            myCR.insert(KitkitProvider.CURRENT_USER_URI, values);
-        }
+    public void deleteCurrentUser() {
+        myCR.delete(KitkitProvider.CURRENT_USER_URI, null, null);
     }
 
     public User getCurrentUser() {
@@ -405,7 +401,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
 
         String result;
         try {
-           result = cursor.getString(0);
+            result = cursor.getString(0);
         } catch (CursorIndexOutOfBoundsException e) {
             return null;
         }
@@ -545,7 +541,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                     projection, selection, null,
                     COLUMN_ID + " ASC");
 
-            if(cursor.moveToFirst()) {
+            if (cursor.moveToFirst()) {
                 do {
                     Fish fish = new Fish();
                     fish._id = cursor.getInt(0);
@@ -557,7 +553,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                     fish._position = cursor.getString(6);
                     result.add(fish);
 
-                } while(cursor.moveToNext());
+                } while (cursor.moveToNext());
             }
 
             cursor.close();
