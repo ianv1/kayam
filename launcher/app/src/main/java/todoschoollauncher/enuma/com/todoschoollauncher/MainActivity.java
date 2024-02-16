@@ -54,6 +54,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
@@ -916,6 +917,9 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         SharedPreferences.Editor editor = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).edit();
         editor.putBoolean("review_mode_on", preference.getBoolean("review_mode_on", false));
         editor.putBoolean("sign_language_mode_on", preference.getBoolean("sign_language_mode_on", false));
+        if (preference.getString("tablet_number", "").isEmpty()) {
+            editor.putString("tablet_number", UUID.randomUUID().toString());
+        }
         editor.commit();
     }
 

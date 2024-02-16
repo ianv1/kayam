@@ -79,15 +79,17 @@ public class LoginGridViewAdapter extends BaseAdapter {
         }
 
         TextView tvInitials = (TextView) cardView.findViewById(R.id.tv_initials);
-        String[] array = users.get(i).getDisplayName().split(" ");
-        if (array.length != 0) {
-            if (array.length > 1) {
-                tvInitials.setText(String.valueOf(array[0].charAt(0)) + String.valueOf(array[1].charAt(0)));
-            } else {
-                tvInitials.setText(String.valueOf(array[0].charAt(0)));
+        if (users.get(i).getDisplayName() != null) {
+            String[] array = users.get(i).getDisplayName().split(" ");
+            if (array.length != 0) {
+                if (array.length > 1) {
+                    tvInitials.setText(String.valueOf(array[0].charAt(0)) + String.valueOf(array[1].charAt(0)));
+                } else {
+                    tvInitials.setText(String.valueOf(array[0].charAt(0)));
+                }
             }
+            tvInitials.setTypeface(face);
         }
-        tvInitials.setTypeface(face);
 
         ImageView icTick = (ImageView) cardView.findViewById(R.id.iv_tick);
         if (currentUsername != null && currentUsername.equals(users.get(i).getUserName())) {

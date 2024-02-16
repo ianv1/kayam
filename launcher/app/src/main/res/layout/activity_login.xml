@@ -40,16 +40,28 @@
             android:id="@+id/ic_plus"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
+            android:layout_toStartOf="@+id/ic_upload"
             android:layout_centerVertical="true"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
             android:src="@drawable/ic_plus"
             android:tint="@android:color/white"
-            android:visibility="gone" />
+            android:visibility="invisible" />
 
+        <ImageView
+            android:id="@+id/ic_upload"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_upload"
+            android:tint="@android:color/white"
+            android:visibility="invisible" />
 
     </RelativeLayout>
 

@@ -2,8 +2,10 @@ package todoschoollauncher.enuma.com.todoschoollauncher;
 
 import android.app.AlertDialog;
 import android.app.DialogFragment;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
@@ -12,6 +14,10 @@ import android.widget.ImageView;
 import com.enuma.kitkitProvider.User;
 import com.enuma.kitkitlogger.KitKitLoggerActivity;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import todoschoollauncher.enuma.com.todoschoollauncher.adapter.LoginGridViewAdapter;
@@ -99,12 +105,53 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                     dialog.show(getFragmentManager(), "CreateUserDialogFragment");
                 }
             });
+
+            ImageView imageViewUpload = (ImageView) findViewById(R.id.ic_upload);
+            imageViewUpload.setVisibility(View.VISIBLE);
+            imageViewUpload.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ArrayList<User> users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
+
+                    String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
+
+                    try {
+                        StringBuilder content = new StringBuilder("Name,Stars,English,Math\n");
+
+                        for (User user : users) {
+                            content.append(user.getDisplayName())
+                                    .append(",")
+                                    .append(user.getNumStars())
+                                    .append(",")
+                                    .append(user.getCurrentEnglishLevel())
+                                    .append(",")
+                                    .append(user.getCurrentMathLevel())
+                                    .append("\n");
+                        }
+
+
+                        File file = new File(getFilesDir(), tabletNumber + "_" + System.currentTimeMillis() + ".csv");
+                        if (!file.exists()) {
+                            file.createNewFile();
+                        }
+
+                        FileWriter fw = new FileWriter(file.getAbsoluteFile());
+                        BufferedWriter bw = new BufferedWriter(fw);
+                        bw.write(content.toString());
+                        bw.close();
+
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
         }
         GridView gridView = (GridView) findViewById(R.id.grid);
 
         users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
         String currentUsername = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUsername();
 
+        if (users.isEmpty()) return;
         LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, currentUsername, isAdmin, this, this);
         gridView.setAdapter(adapter);
     }

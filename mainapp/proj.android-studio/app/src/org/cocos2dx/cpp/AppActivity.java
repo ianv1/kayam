@@ -24,26 +24,22 @@ THE SOFTWARE.
 package org.cocos2dx.cpp;
 
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.UUID;
-import java.lang.Exception;
-
 import android.Manifest;
+import android.app.ActivityManager;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.os.Build.VERSION;
+import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Process;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
-import android.os.Build.*;
-import android.app.ActivityManager;
-import android.content.Intent;
 
 import com.enuma.kitkitProvider.Fish;
 import com.enuma.kitkitProvider.KitkitDBHandler;
@@ -52,8 +48,14 @@ import com.enuma.kitkitlogger.KitKitLogger;
 
 import org.cocos2dx.cpp.ReadingBird.PlayAudio;
 import org.cocos2dx.cpp.ReadingBird.SpeechRecognition;
-import org.cocos2dx.lib.*;
 import org.cocos2dx.lib.Cocos2dxActivity;
+import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
+import org.cocos2dx.lib.Cocos2dxHelper;
+import org.cocos2dx.lib.Cocos2dxVideoHelper;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.UUID;
 
 
 public class AppActivity extends Cocos2dxActivity {
@@ -532,6 +534,35 @@ public class AppActivity extends Cocos2dxActivity {
             User user = dbHandler.getCurrentUser();
             user.setUnlockFishBowl(isUnlock);
             dbHandler.updateUser(user);
+        }
+        catch (Exception e) {
+            Log.e(TAG, "error when getting current user. please check launcher is installed.");
+        }
+    }
+
+    public static void setGameCleared(String levelID, int day, int gameIndex, boolean isCleared) {
+        try {
+            if (isCleared) {
+                String level = levelID.replaceAll("\\D+","");
+                String currentLevel = level + "-" + day + "-" + gameIndex;
+                String[] levelIDSplit = levelID.split("_");
+
+                boolean isEnglish = true;
+                if (levelIDSplit.length > 1) {
+                    if (levelIDSplit[1].equals("M")) {
+                        isEnglish = false;
+                    }
+                }
+
+                KitkitDBHandler dbHandler = ((KitkitSchoolApplication)_activity.getApplication()).getDbHandler();
+                User user = dbHandler.getCurrentUser();
+                if (isEnglish) {
+                    user.setCurrentEnglishLevel(currentLevel);
+                } else {
+                    user.setCurrentMathLevel(currentLevel);
+                }
+                dbHandler.updateUser(user);
+            }
         }
         catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");

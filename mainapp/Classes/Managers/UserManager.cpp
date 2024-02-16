@@ -160,6 +160,7 @@ void UserManager::setCurrentLevelID(string levelID)
     if (_currentLevelID!=levelID) {
         _currentLevelID = levelID;
         _currentDay = 0;
+        // JNI here
         UserDefault::getInstance()->setStringForKey(getCurrentLevelIDKey().c_str(), levelID);
         UserDefault::getInstance()->flush();
     }
@@ -390,6 +391,7 @@ bool UserManager::isGameCleared(string levelID, int day, int gameIndex)
 
 void UserManager::setGameCleared(string levelID, int day, int gameIndex, bool isCleared)
 {
+    JniHelper::callStaticVoidMethod("org/cocos2dx/cpp/AppActivity", "setGameCleared", levelID, day, gameIndex, isCleared);
     auto key = make_tuple(levelID, day, gameIndex);
     _gameClearedMap[key] = isCleared;
     UserDefault::getInstance()->setBoolForKey(getGameClearedKey(levelID, day, gameIndex).c_str(), isCleared);

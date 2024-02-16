@@ -25,7 +25,7 @@ import java.util.Locale;
 public class KitkitDBHandler extends SQLiteOpenHelper {
     private ContentResolver myCR;
 
-    private static final int DATABASE_VERSION = 15;
+    private static final int DATABASE_VERSION = 16;
     public static final String DATABASE_NAME = "userDB.db";
     public static final String TABLE_USERS = "users";
     public static final String TABLE_CURRENT_USER = "current_user";
@@ -49,6 +49,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
     public static final String COLUMN_UNLOCK_WRITING_BOARD = "unlock_writing_board";
     public static final String COLUMN_FINISH_WRITING_BOARD_TUTORIAL = "finish_writing_board_tutorial";
     public static final String COLUMN_PASSWORD = "password";
+    public static final String COLUMN_ENGLISH_LEVEL = "english_level";
+    public static final String COLUMN_MATH_LEVEL = "math_level";
 
     public static final String COLUMN_SERVER_SPEC = "server_spec";
     public static final String COLUMN_TIME_NOW = "time_now";
@@ -75,6 +77,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             + COLUMN_FINISH_LAUNCHER_TUTORIAL + " BOOLEAN,"
             + COLUMN_DISPLAY_NAME + " TEXT,"
             + COLUMN_PASSWORD + " TEXT,"
+            + COLUMN_ENGLISH_LEVEL + " TEXT,"
+            + COLUMN_MATH_LEVEL + " TEXT,"
             + COLUMN_OPEN_LIBRARY + " BOOLEAN,"
             + COLUMN_OPEN_TOOLS + " BOOLEAN,"
             + COLUMN_UNLOCK_FISH_BOWL + " BOOLEAN,"
@@ -141,6 +145,9 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_UNLOCK_FISH_BOWL + " BOOLEAN DEFAULT (" + 0 + ");");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_UNLOCK_WRITING_BOARD + " BOOLEAN DEFAULT (" + 0 + ");");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_FINISH_WRITING_BOARD_TUTORIAL + " BOOLEAN DEFAULT (" + 0 + ");");
+            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_PASSWORD + " TEXT DEFAULT ('');");
+            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_ENGLISH_LEVEL + " TEXT DEFAULT ('');");
+            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_MATH_LEVEL + " TEXT DEFAULT ('');");
 
             execRawQuery(db, arr_sql_table); // create table
             String[] sql_array = arrSql.toArray(new String[arrSql.size()]);
@@ -178,6 +185,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
         values.put(COLUMN_UNLOCK_WRITING_BOARD, user.isUnlockWritingBoard());
         values.put(COLUMN_FINISH_WRITING_BOARD_TUTORIAL, user.isFinishWritingBoardTutorial());
         values.put(COLUMN_PASSWORD, user.getPassword());
+        values.put(COLUMN_ENGLISH_LEVEL, user.getCurrentEnglishLevel());
+        values.put(COLUMN_MATH_LEVEL, user.getCurrentMathLevel());
 
         myCR.insert(KitkitProvider.CONTENT_URI, values);
     }
@@ -199,7 +208,9 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 COLUMN_UNLOCK_FISH_BOWL,
                 COLUMN_UNLOCK_WRITING_BOARD,
                 COLUMN_FINISH_WRITING_BOARD_TUTORIAL,
-                COLUMN_PASSWORD
+                COLUMN_PASSWORD,
+                COLUMN_ENGLISH_LEVEL,
+                COLUMN_MATH_LEVEL
         };
 
         String selection = "username = \"" + username + "\"";
@@ -229,6 +240,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             user.setUnlockWritingBoard("1".equals(cursor.getString(14)));
             user.setFinishWritingBoardTutorial("1".equals(cursor.getString(15)));
             user.setPassword(cursor.getString(16));
+            user.setCurrentEnglishLevel(cursor.getString(17));
+            user.setCurrentMathLevel(cursor.getString(18));
             cursor.close();
         } else {
             user = null;
@@ -254,7 +267,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 COLUMN_UNLOCK_FISH_BOWL,
                 COLUMN_UNLOCK_WRITING_BOARD,
                 COLUMN_FINISH_WRITING_BOARD_TUTORIAL,
-                COLUMN_PASSWORD
+                COLUMN_ENGLISH_LEVEL,
+                COLUMN_MATH_LEVEL
         };
 
         Cursor cursor = myCR.query(KitkitProvider.CONTENT_URI,
@@ -281,7 +295,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 user.setUnlockFishBowl("1".equals(cursor.getString(13)));
                 user.setUnlockWritingBoard("1".equals(cursor.getString(14)));
                 user.setFinishWritingBoardTutorial("1".equals(cursor.getString(15)));
-                user.setPassword(cursor.getString(16));
+                user.setCurrentEnglishLevel(cursor.getString(16));
+                user.setCurrentMathLevel(cursor.getString(17));
                 result.add(user);
 
             } while (cursor.moveToNext());
@@ -429,6 +444,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
         values.put(COLUMN_UNLOCK_FISH_BOWL, user.isUnlockFishBowl());
         values.put(COLUMN_UNLOCK_WRITING_BOARD, user.isUnlockWritingBoard());
         values.put(COLUMN_FINISH_WRITING_BOARD_TUTORIAL, user.isFinishWritingBoardTutorial());
+        values.put(COLUMN_ENGLISH_LEVEL, user.getCurrentEnglishLevel());
+        values.put(COLUMN_MATH_LEVEL, user.getCurrentMathLevel());
         Log.i("myLog", "value : " + values.toString());
         myCR.update(KitkitProvider.CONTENT_URI, values, selection, null);
     }

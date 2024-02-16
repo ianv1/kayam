@@ -26,6 +26,8 @@ public class User {
     private boolean _unlockWritingBoard;
     private boolean _finishWritingBoardTutorial;
     private String _password;
+    private String _englishLevel;
+    private String _mathLevel;
 
     public User() {
         this._id = 0;
@@ -44,6 +46,7 @@ public class User {
         this._unlockFishBowl = false;
         this._unlockWritingBoard = false;
         this._finishWritingBoardTutorial = false;
+        this._englishLevel = "";
     }
 
     public User(int id, String username, int stars) {
@@ -63,6 +66,7 @@ public class User {
         this._unlockFishBowl = false;
         this._unlockWritingBoard = false;
         this._finishWritingBoardTutorial = false;
+        this._englishLevel = "";
     }
 
     public User(String username, String displayName, String password) {
@@ -82,6 +86,7 @@ public class User {
         this._finishWritingBoardTutorial = false;
         this._displayName = displayName;
         this._password = password;
+        this._englishLevel = "";
     }
 
     public void setID(int id) {
@@ -181,4 +186,24 @@ public class User {
 
     public boolean isFinishWritingBoardTutorial() {return this._finishWritingBoardTutorial;}
 
+    public void setCurrentEnglishLevel(String level) {
+        _englishLevel = level;
+    }
+
+    public String getCurrentEnglishLevel() {
+        return _englishLevel;
+    }
+
+    public void setCurrentMathLevel(String level) {
+        _mathLevel = level;
+    }
+
+    public String getCurrentMathLevel() {
+        return _mathLevel;
+    }
+
+    @Override
+    public String toString() {
+        return "Name: " + getDisplayName() + "\n" + "Num of stars: " + getNumStars() + "\n" + "English level: " + getCurrentEnglishLevel() + "\n" + "Math level: " + getCurrentMathLevel();
+    }
 }
