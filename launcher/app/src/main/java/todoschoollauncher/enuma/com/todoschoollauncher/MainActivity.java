@@ -177,14 +177,12 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                     toast.show();
                     return;
                 }
-                if (!gotoVideoPlayer()) {
-                    try {
-                        Intent i = new Intent(Intent.ACTION_MAIN);
-                        i.setComponent(new ComponentName("com.enuma.xprize", "org.cocos2dx.cpp.AppActivity"));
-                        startActivity(i);
-                    } catch (Exception e) {
-                        Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
-                    }
+                try {
+                    Intent i = new Intent(Intent.ACTION_MAIN);
+                    i.setComponent(new ComponentName("com.enuma.xprize", "org.cocos2dx.cpp.AppActivity"));
+                    startActivity(i);
+                } catch (Exception e) {
+                    Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -205,16 +203,14 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                     toast.show();
                     return;
                 }
-                if (!gotoVideoPlayer()) {
-                    if (view.isEnabled()) {
+                if (view.isEnabled()) {
 //                    Intent i = manager.getLaunchIntentForPackage("library.todoschool.enuma.com.todoschoollibrary");
-                        try {
-                            Intent i = new Intent(Intent.ACTION_MAIN);
-                            i.setComponent(new ComponentName("library.todoschool.enuma.com.todoschoollibrary", "library.todoschool.enuma.com.todoschoollibrary.SelectActivity"));
-                            startActivity(i);
-                        } catch (Exception e) {
-                            Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
-                        }
+                    try {
+                        Intent i = new Intent(Intent.ACTION_MAIN);
+                        i.setComponent(new ComponentName("library.todoschool.enuma.com.todoschoollibrary", "library.todoschool.enuma.com.todoschoollibrary.SelectActivity"));
+                        startActivity(i);
+                    } catch (Exception e) {
+                        Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -894,22 +890,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                 }
             }
         }
-    }
-
-    private boolean gotoVideoPlayer() {
-        User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
-        Log.i("myLog", "user.isFinishLauncherTutorial() : " + user.isFinishLauncherTutorial());
-        if (user.isFinishLauncherTutorial() == false) {
-            user.setFinishLauncherTutorial(true);
-            ((LauncherApplication) getApplication()).getDbHandler().updateUser(user);
-
-            Intent i = new Intent(MainActivity.this, VideoPlayerActivity.class);
-            startActivity(i);
-            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-            return true;
-        }
-
-        return false;
     }
 
     private void setDefaultPreference() {
