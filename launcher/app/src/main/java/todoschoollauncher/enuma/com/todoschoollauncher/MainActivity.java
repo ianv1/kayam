@@ -918,7 +918,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         editor.putBoolean("review_mode_on", preference.getBoolean("review_mode_on", false));
         editor.putBoolean("sign_language_mode_on", preference.getBoolean("sign_language_mode_on", false));
         if (preference.getString("tablet_number", "").isEmpty()) {
-            editor.putString("tablet_number", UUID.randomUUID().toString());
+            editor.putString("tablet_number", UUID.randomUUID().toString().substring(0, 5));
         }
         editor.commit();
     }

@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+import com.enuma.kitkitProvider.KitkitDBHandler;
 import com.enuma.kitkitProvider.User;
 import com.enuma.kitkitlogger.KitKitLoggerActivity;
 
@@ -130,7 +131,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                         }
 
 
-                        File file = new File(getFilesDir(), tabletNumber + "_" + System.currentTimeMillis() + ".csv");
+                        File file = new File(getFilesDir(), tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + ".csv");
                         if (!file.exists()) {
                             file.createNewFile();
                         }
