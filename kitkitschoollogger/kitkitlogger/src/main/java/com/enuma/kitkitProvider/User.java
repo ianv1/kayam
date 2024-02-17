@@ -47,6 +47,7 @@ public class User {
         this._unlockWritingBoard = false;
         this._finishWritingBoardTutorial = false;
         this._englishLevel = "";
+        this._mathLevel = "";
     }
 
     public User(int id, String username, int stars) {
@@ -67,6 +68,7 @@ public class User {
         this._unlockWritingBoard = false;
         this._finishWritingBoardTutorial = false;
         this._englishLevel = "";
+        this._mathLevel = "";
     }
 
     public User(String username, String displayName, String password) {
@@ -87,6 +89,7 @@ public class User {
         this._displayName = displayName;
         this._password = password;
         this._englishLevel = "";
+        this._mathLevel = "";
     }
 
     public void setID(int id) {
