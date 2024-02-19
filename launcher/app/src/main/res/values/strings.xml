@@ -66,4 +66,7 @@
     <string name="name_hint">Name</string>
     <string name="create">CREATE</string>
     <string name="welcome">Welcome back, %s</string>
+    <string name="csv_generated">CSV file is generated: %s</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
 </resources>

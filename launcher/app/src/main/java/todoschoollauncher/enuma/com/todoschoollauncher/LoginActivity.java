@@ -6,11 +6,11 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.enuma.kitkitProvider.KitkitDBHandler;
 import com.enuma.kitkitProvider.User;
@@ -126,38 +126,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
             imageViewUpload.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    ArrayList<User> users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
-
-                    String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
-
-                    try {
-                        StringBuilder content = new StringBuilder("Name,Stars,English,Math\n");
-
-                        for (User user : users) {
-                            content.append(user.getDisplayName())
-                                    .append(",")
-                                    .append(user.getNumStars())
-                                    .append(",")
-                                    .append(user.getCurrentEnglishLevel())
-                                    .append(",")
-                                    .append(user.getCurrentMathLevel())
-                                    .append("\n");
-                        }
-
-
-                        File file = new File(getFilesDir(), tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + ".csv");
-                        if (!file.exists()) {
-                            file.createNewFile();
-                        }
-
-                        FileWriter fw = new FileWriter(file.getAbsoluteFile());
-                        BufferedWriter bw = new BufferedWriter(fw);
-                        bw.write(content.toString());
-                        bw.close();
-
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    generateCSV();
                 }
             });
         } else {
@@ -176,6 +145,43 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         gridView.setAdapter(adapter);
     }
 
+    private void generateCSV() {
+        ArrayList<User> users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
+
+        String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
+
+        try {
+            StringBuilder content = new StringBuilder("Name,Stars,English,Math\n");
+
+            for (User user : users) {
+                content.append(user.getDisplayName())
+                        .append(",")
+                        .append(user.getNumStars())
+                        .append(",")
+                        .append(user.getCurrentEnglishLevel())
+                        .append(",")
+                        .append(user.getCurrentMathLevel())
+                        .append("\n");
+            }
+
+
+            File file = new File(getFilesDir(), tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + ".csv");
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+
+            FileWriter fw = new FileWriter(file.getAbsoluteFile());
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(content.toString());
+            bw.close();
+
+            Toast.makeText(LoginActivity.this, getString(R.string.csv_generated, file.getName()), Toast.LENGTH_LONG).show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
     @Override
     public void onCreateUser(DialogFragment dialog, String redirectTo) {
         dialog.dismiss();
@@ -184,20 +190,36 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
     @Override
     public void onRemoveClick(final String value) {
-        User user = ((LauncherApplication) getApplication()).getDbHandler().findUser(value);
+        final User user = ((LauncherApplication) getApplication()).getDbHandler().findUser(value);
         if (user == null) {
             return;
         }
         new AlertDialog.Builder(this)
                 .setTitle("Delete " + user.getDisplayName())
                 .setMessage("Are you sure you want to delete this user?")
-                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                .setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        ((LauncherApplication) getApplication()).getDbHandler().deleteUser(value);
-                        refreshUI();
+                        new AlertDialog.Builder(LoginActivity.this)
+                                .setTitle("Generate a CSV report?")
+                                .setMessage("Before you delete this user, would you like to generate a CSV report?")
+                                .setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        generateCSV();
+                                        ((LauncherApplication) getApplication()).getDbHandler().deleteUser(value);
+                                        refreshUI();
+                                    }
+                                })
+                                .setNegativeButton(R.string.dialog_no, new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        ((LauncherApplication) getApplication()).getDbHandler().deleteUser(value);
+                                        refreshUI();
+                                    }
+                                })
+                                .show();
                     }
                 })
-                .setNegativeButton(android.R.string.no, null)
+                .setNegativeButton(R.string.dialog_no, null)
                 .show();
     }
 }
