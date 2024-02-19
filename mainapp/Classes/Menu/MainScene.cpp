@@ -361,7 +361,7 @@ bool MainScene::init()
         _coinTab->setVisible(false);
         addChild(_coinTab);
         {
-            _reviewModeLabel = TodoUtil::createLabel("This is a demo version: please use the features below to access all of Kitkit School’s content. Select “Add Coins” to access the tools section.", 50, Size(1300, 300), "fonts/Andika-R.ttf", Color4B(116, 198, 225, 255));
+            _reviewModeLabel = TodoUtil::createLabel("Your are in Super Admin mode. Tap on “Unlock All” to unlock all levels", 50, Size(1300, 300), "fonts/Andika-R.ttf", Color4B(116, 198, 225, 255));
             _reviewModeLabel->setPosition(Vec2(visibleSize.width/2, visibleSize.height-150));
             this->addChild(_reviewModeLabel);
             
@@ -396,9 +396,9 @@ bool MainScene::init()
                         return scene;
                     };
                     Director::getInstance()->replaceScene(TransitionFade::create(1.f, TodoLoadingScene::createScene(creator)));
-                    
+
                 }
-                
+
             }  );
             this->addChild(_resetBtn);
         }

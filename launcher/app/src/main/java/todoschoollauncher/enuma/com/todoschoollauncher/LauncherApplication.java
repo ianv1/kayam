@@ -8,6 +8,7 @@ import com.enuma.kitkitProvider.KitkitDBHandler;
 import com.enuma.kitkitProvider.User;
 import com.enuma.kitkitlogger.KitKitLogger;
 
+import java.util.ArrayList;
 import java.util.UUID;
 
 
@@ -63,6 +64,8 @@ public class LauncherApplication extends Application {
 
         dbHandler.deleteCurrentUser();
 
+        createAdminUser();
+
 //        if (dbHandler.numUser() == 0) {
 //            // make users in DB
 //            for (int i = 0; i < 5; i++) {
@@ -111,6 +114,21 @@ public class LauncherApplication extends Application {
                 handleUncaughtException(thread, e);
             }
         });
+    }
+
+    private void createAdminUser() {
+        ArrayList<User> users = dbHandler.getUserList();
+        boolean foundAdmin = false;
+        for (User user: users) {
+            if (user.getUserName().equals("admin")) {
+                foundAdmin = true;
+                break;
+            }
+        }
+        if (!foundAdmin) {
+            User user = new User("admin", "Admin", "");
+            dbHandler.addUser(user);
+        }
     }
 
     public void handleUncaughtException(Thread thread, Throwable e) {

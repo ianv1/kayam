@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.enuma.kitkitProvider.User;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import todoschoollauncher.enuma.com.todoschoollauncher.R;
@@ -29,7 +30,15 @@ public class LoginGridViewAdapter extends BaseAdapter {
 
     public LoginGridViewAdapter(Context context, List<User> users, String currentUserName, boolean isAdmin, OnItemClick listener, OnRemoveClick removeListener) {
         this.context = context;
-        this.users = users;
+
+        ArrayList<User> userList = new ArrayList<>();
+        for (User user: users) {
+            if (!user.getUserName().equals("admin")) {
+                userList.add(user);
+            }
+        }
+
+        this.users = userList;
         this.face = Typeface.createFromAsset(context.getAssets(), "TodoMainCurly.ttf");
         this.currentUsername = currentUserName;
         this.isAdmin = isAdmin;
@@ -118,9 +127,11 @@ public class LoginGridViewAdapter extends BaseAdapter {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String selectedUserName = users.get(i).getUserName();
-                if (!selectedUserName.equals(currentUsername)) {
-                    mCallback.onClick(selectedUserName);
+                if (!isAdmin) {
+                    String selectedUserName = users.get(i).getUserName();
+                    if (!selectedUserName.equals(currentUsername)) {
+                        mCallback.onClick(selectedUserName);
+                    }
                 }
             }
         });

@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -81,12 +82,14 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         GridView gridView = (GridView) findViewById(R.id.grid);
         gridView.setAdapter(adapter);
         ((LauncherApplication) getApplication()).getDbHandler().setCurrentUser(selectedUserName);
+        refreshUI();
     }
 
     @Override
     public void onDialogPositiveClick(DialogFragment dialog, String redirectTo) {
         dialog.dismiss();
         isAdmin = true;
+        ((LauncherApplication) getApplication()).getDbHandler().setCurrentUser("admin");
         refreshUI();
     }
 
@@ -96,7 +99,10 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
     }
 
     private void refreshUI() {
+        SharedPreferences.Editor editor = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).edit();
         if (isAdmin) {
+            editor.putBoolean("review_mode_on", true);
+
             ImageView imageViewPlus = (ImageView) findViewById(R.id.ic_plus);
             imageViewPlus.setVisibility(View.VISIBLE);
             imageViewPlus.setOnClickListener(new View.OnClickListener() {
@@ -146,7 +152,12 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                     }
                 }
             });
+        } else {
+            editor.putBoolean("review_mode_on", false);
         }
+
+        editor.apply();
+
         GridView gridView = (GridView) findViewById(R.id.grid);
 
         users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
