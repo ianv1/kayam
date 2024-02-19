@@ -42,8 +42,6 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        refreshUI();
-
         ImageView backButton = (ImageView) findViewById(R.id.ic_back);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -90,6 +88,16 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         dialog.dismiss();
         isAdmin = true;
         ((LauncherApplication) getApplication()).getDbHandler().setCurrentUser("admin");
+        refreshUI();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        String currentUserName = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUsername();
+        if (currentUserName != null && currentUserName.equals("admin")) {
+            isAdmin = true;
+        }
         refreshUI();
     }
 

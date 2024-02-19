@@ -341,6 +341,23 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         } else {
             libraryButton.setEnabled(false);
         }
+
+        final Button exitAdminButton = (Button) findViewById(R.id.button_exit_admin);
+        Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
+        exitAdminButton.setTypeface(face);
+        if (currentUser.getUserName().equals("admin")) {
+            exitAdminButton.setVisibility(View.VISIBLE);
+            exitAdminButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ((LauncherApplication) getApplication()).getDbHandler().deleteCurrentUser();
+                    exitAdminButton.setVisibility(View.GONE);
+                    refreshUI();
+                }
+            });
+        } else {
+            exitAdminButton.setVisibility(View.GONE);
+        }
     }
 
     private static PackageManager manager;

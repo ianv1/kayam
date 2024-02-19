@@ -16,6 +16,7 @@
     <string name="wrong_password">Wrong password</string>
     <string name="start">Start</string>
     <string name="library">Library</string>
+    <string name="exit_admin_mode">Exit Admin</string>
     <string name="tools">Tools</string>
     <string name="btn_upload">Upload logs</string>
     <string name="btn_clear_appdata">Clear app data</string>
