@@ -72,7 +72,7 @@ private:
     
     
     // demo
-    ui::Button *_resetBtn, *_openAllBtn, *_addCoinsBtn;
+    ui::Button *_openAllBtn, *_addCoinsBtn;
     Label * _reviewModeLabel;
     Label * _signLanguageModeLabel;
     CoinTab *_coinTab;

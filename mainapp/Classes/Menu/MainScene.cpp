@@ -361,7 +361,7 @@ bool MainScene::init()
         _coinTab->setVisible(false);
         addChild(_coinTab);
         {
-            _reviewModeLabel = TodoUtil::createLabel("Your are in Super Admin mode. Tap on “Unlock All” to unlock all levels", 50, Size(1300, 300), "fonts/Andika-R.ttf", Color4B(116, 198, 225, 255));
+            _reviewModeLabel = TodoUtil::createLabel("You are in Super Admin mode. Tap on “Unlock All” to unlock all levels.", 50, Size(1300, 300), "fonts/Andika-R.ttf", Color4B(116, 198, 225, 255));
             _reviewModeLabel->setPosition(Vec2(visibleSize.width/2, visibleSize.height-150));
             this->addChild(_reviewModeLabel);
             
@@ -370,46 +370,13 @@ bool MainScene::init()
             this->addChild(_signLanguageModeLabel);
         }
         
-        
-        {
-            _resetBtn = ui::Button::create("MainScene/for-manager_button_normal.png","MainScene/for-manager_button_touch.png");
-            auto l = TodoUtil::createLabel("Reset", 50, Size::ZERO, "fonts/Andika-R.ttf", Color4B(116, 198, 225, 255));
-            l->setPosition(_resetBtn->getContentSize()/2 + Size(0, 10));
-            _resetBtn->addChild(l);
-
-            _resetBtn->setPosition(Vec2(visibleSize.width/2-400, visibleSize.height-400));
-            _resetBtn->addTouchEventListener([this, l](Ref*,ui::Widget::TouchEventType e) {
-                if (_resetBtn->isHighlighted()) {
-                    l->setPosition(_resetBtn->getContentSize()/2 + Size(0, 5));
-                } else {
-                    l->setPosition(_resetBtn->getContentSize()/2 + Size(0, 10));
-                }
-                if (e == ui::Widget::TouchEventType::ENDED) {
-                    UserManager::getInstance()->resetStatus();
-                    UserManager::getInstance()->updateStars(0);
-                    _coinTab->updateCoinLabel();
-                    NativeAlert::show("User Progress Reset!", "", "OK");
-                    __firstEnter = true;
-                    std::function<Scene*(void)> creator = []() {
-                        auto scene = MainScene::createScene();
-                        scene->setName("MainScene");
-                        return scene;
-                    };
-                    Director::getInstance()->replaceScene(TransitionFade::create(1.f, TodoLoadingScene::createScene(creator)));
-
-                }
-
-            }  );
-            this->addChild(_resetBtn);
-        }
-        
         {
             _addCoinsBtn = ui::Button::create("MainScene/for-manager_button_normal.png","MainScene/for-manager_button_touch.png");
             auto l = TodoUtil::createLabel("Add Coins", 50, Size::ZERO, "fonts/Andika-R.ttf", Color4B(116, 198, 225, 255));
             l->setPosition(_addCoinsBtn->getContentSize()/2 + Size(0, 10));
             _addCoinsBtn->addChild(l);
-            
-            _addCoinsBtn->setPosition(Vec2(visibleSize.width/2, visibleSize.height-400));
+
+            _addCoinsBtn->setPosition(Vec2(visibleSize.width/2-400, visibleSize.height-400));
             _addCoinsBtn->addTouchEventListener([this, l](Ref*,ui::Widget::TouchEventType e) {
                 if (_addCoinsBtn->isHighlighted()) {
                     l->setPosition(_addCoinsBtn->getContentSize()/2 + Size(0, 5));
@@ -435,7 +402,7 @@ bool MainScene::init()
             auto l = TodoUtil::createLabel("Unlock All", 50, Size::ZERO, "fonts/Andika-R.ttf", Color4B(116, 198, 225, 255));
             l->setPosition(_openAllBtn->getContentSize()/2 + Size(0, 10));
             _openAllBtn->addChild(l);
-            _openAllBtn->setPosition(Vec2(visibleSize.width/2+400, visibleSize.height-400));
+            _openAllBtn->setPosition(Vec2(visibleSize.width/2, visibleSize.height-400));
             _openAllBtn->addTouchEventListener([this, l](Ref*,ui::Widget::TouchEventType e) {
                 
                 if (_openAllBtn->isHighlighted()) {
@@ -797,13 +764,11 @@ void MainScene::resume() {
     GameSoundManager::getInstance()->stopBGM();
     
     if (isDemo) {
-        _resetBtn->setVisible(true);
         _openAllBtn->setVisible(true);
         _addCoinsBtn->setVisible(true);
         _reviewModeLabel->setVisible(true);
         
     } else {
-        _resetBtn->setVisible(false);
         _openAllBtn->setVisible(false);
         _addCoinsBtn->setVisible(false);
         _reviewModeLabel->setVisible(false);
