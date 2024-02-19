@@ -544,7 +544,7 @@ public class AppActivity extends Cocos2dxActivity {
         try {
             if (isCleared) {
                 String level = levelID.replaceAll("\\D+","");
-                String currentLevel = level + "-" + day + "-" + gameIndex;
+                String currentLevel = level + "_" + day + "_" + gameIndex;
                 String[] levelIDSplit = levelID.split("_");
 
                 boolean isEnglish = true;
@@ -556,10 +556,35 @@ public class AppActivity extends Cocos2dxActivity {
 
                 KitkitDBHandler dbHandler = ((KitkitSchoolApplication)_activity.getApplication()).getDbHandler();
                 User user = dbHandler.getCurrentUser();
+
                 if (isEnglish) {
-                    user.setCurrentEnglishLevel(currentLevel);
+                    String currentEnglishLevel = user.getCurrentEnglishLevel();
+                    String[] split = currentEnglishLevel.split("_");
+                    if (split.length == 3) {
+                        if (Integer.parseInt(split[0]) < Integer.parseInt(level)) {
+                            user.setCurrentEnglishLevel(currentLevel);
+                        } else if (Integer.parseInt(split[0]) == Integer.parseInt(level) && Integer.parseInt(split[1]) < day) {
+                            user.setCurrentEnglishLevel(currentLevel);
+                        } else if (Integer.parseInt(split[0]) == Integer.parseInt(level) && Integer.parseInt(split[1]) == day && Integer.parseInt(split[2]) < gameIndex) {
+                            user.setCurrentEnglishLevel(currentLevel);
+                        }
+                    } else {
+                        user.setCurrentEnglishLevel(currentLevel);
+                    }
                 } else {
-                    user.setCurrentMathLevel(currentLevel);
+                    String currentMathLevel = user.getCurrentMathLevel();
+                    String[] split = currentMathLevel.split("_");
+                    if (split.length == 3) {
+                        if (Integer.parseInt(split[0]) < Integer.parseInt(level)) {
+                            user.setCurrentMathLevel(currentLevel);
+                        } else if (Integer.parseInt(split[0]) == Integer.parseInt(level) && Integer.parseInt(split[1]) < day) {
+                            user.setCurrentMathLevel(currentLevel);
+                        } else if (Integer.parseInt(split[0]) == Integer.parseInt(level) && Integer.parseInt(split[1]) == day && Integer.parseInt(split[2]) < gameIndex) {
+                            user.setCurrentMathLevel(currentLevel);
+                        }
+                    } else {
+                        user.setCurrentMathLevel(currentLevel);
+                    }
                 }
                 dbHandler.updateUser(user);
             }

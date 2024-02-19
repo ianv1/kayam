@@ -1,11 +1,20 @@
 package todoschoollauncher.enuma.com.todoschoollauncher;
 
+import android.Manifest;
 import android.app.AlertDialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
@@ -145,7 +154,55 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         gridView.setAdapter(adapter);
     }
 
+    public boolean checkStoragePermissions() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            // Android 11 (R) or above
+            return Environment.isExternalStorageManager();
+        } else {
+            // Below Android 11
+            int write = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            int read = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE);
+
+            return read == PackageManager.PERMISSION_GRANTED && write == PackageManager.PERMISSION_GRANTED;
+        }
+    }
+
+    private static final int STORAGE_PERMISSION_CODE = 23;
+
+    private void requestForStoragePermissions() {
+        // Android 11 (R) or above
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            try {
+                Intent intent = new Intent();
+                intent.setAction(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+                Uri uri = Uri.fromParts("package", this.getPackageName(), null);
+                intent.setData(uri);
+                startActivity(intent);
+            } catch (Exception e) {
+                Intent intent = new Intent();
+                intent.setAction(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION);
+                startActivity(intent);
+            }
+        } else {
+            // Below android 11
+            ActivityCompat.requestPermissions(
+                    this,
+                    new String[]{
+                            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                            Manifest.permission.READ_EXTERNAL_STORAGE
+                    },
+                    STORAGE_PERMISSION_CODE
+            );
+        }
+    }
+
+
     private void generateCSV() {
+        if (!checkStoragePermissions()) {
+            requestForStoragePermissions();
+            return;
+        }
+
         ArrayList<User> users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
 
         String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
@@ -154,18 +211,20 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
             StringBuilder content = new StringBuilder("Name,Stars,English,Math\n");
 
             for (User user : users) {
-                content.append(user.getDisplayName())
-                        .append(",")
-                        .append(user.getNumStars())
-                        .append(",")
-                        .append(user.getCurrentEnglishLevel())
-                        .append(",")
-                        .append(user.getCurrentMathLevel())
-                        .append("\n");
+                if (!user.getUserName().equals("admin")) {
+                    content.append(user.getDisplayName())
+                            .append(",")
+                            .append(user.getNumStars())
+                            .append(",")
+                            .append(user.getCurrentEnglishLevel())
+                            .append(",")
+                            .append(user.getCurrentMathLevel())
+                            .append("\n");
+                }
             }
 
 
-            File file = new File(getFilesDir(), tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + ".csv");
+            File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + ".csv");
             if (!file.exists()) {
                 file.createNewFile();
             }

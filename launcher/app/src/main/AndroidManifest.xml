@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="todoschoollauncher.enuma.com.todoschoollauncher">
 
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
@@ -15,6 +16,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_LOGS" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        android:minSdkVersion="30" />
 
     <application
         android:name=".LauncherApplication"
@@ -23,7 +26,9 @@
         android:label="@string/app_name"
         android:launchMode="singleTask"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="q">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
