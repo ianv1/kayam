@@ -80,4 +80,5 @@ dependencies {
     compile project(':kitkitlogger')
     //englishCompile project(path: ':kitkitlogger', configuration: 'englishRelease')
     //swahiliCompile project(path: ':kitkitlogger', configuration: 'swahiliRelease')
+    compile 'com.github.bumptech.glide:glide:4.0.0'
 }

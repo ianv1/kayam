@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.PixelFormat;
 import android.graphics.Point;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Environment;
 import android.preference.PreferenceManager;
@@ -165,6 +166,9 @@ public class Util {
     public static void displayUserName(Activity activity, TextView tvUserName) {
         User user = ((LauncherApplication) activity.getApplication()).getDbHandler().getCurrentUser();
         if (user == null) return;
+
+        Typeface face = Typeface.createFromAsset(activity.getAssets(), "TodoMainCurly.ttf");
+        tvUserName.setTypeface(face);
         tvUserName.setText(activity.getString(R.string.welcome, user.getDisplayName()));
     }
 

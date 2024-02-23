@@ -35,6 +35,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.enuma.kitkitProvider.KitkitDBHandler;
 import com.enuma.kitkitProvider.User;
 import com.enuma.kitkitlogger.KitKitLogger;
@@ -245,6 +246,11 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         registerReceiver(_wifiInfo, intentFilter);
 
         setDefaultPreference();
+
+        ImageView imageView = (ImageView) findViewById(R.id.logo_gif);
+        Glide.with(this).asGif().load(R.raw.logo_chumbaka).into(imageView);
+        TextView tvPoweredBy = (TextView) findViewById(R.id.tv_powered);
+        tvPoweredBy.setTypeface(face);
     }
 
     /**
