@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_wooden"
     android:orientation="vertical"
-    tools:context="todoschoollauncher.enuma.com.todoschoollauncher.MainActivity">
+    tools:context="asia.chumbaka.kayam.launcher.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

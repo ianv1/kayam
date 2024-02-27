@@ -8,7 +8,7 @@ android {
         minSdkVersion 30
         targetSdkVersion 30
 
-        applicationId "todoschoollauncher.enuma.com.todoschoollauncher"
+        applicationId "asia.chumbaka.kayam.launcher"
         versionCode 4
         versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

@@ -69,4 +69,6 @@
     <string name="csv_generated">CSV file is generated: %s</string>
     <string name="dialog_yes">Yes</string>
     <string name="dialog_no">No</string>
+    <string name="logout">Logout</string>
+
 </resources>
