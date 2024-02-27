@@ -725,7 +725,7 @@ public class MainActivity extends KitKitLoggerActivity {
                 public void onClick(View v) {
                     try {
                         Intent intent = new Intent(Intent.ACTION_MAIN);
-                        intent.setComponent(new ComponentName("asia.chumbaka.booktest", "org.cocos2dx.cpp.AppActivity"));
+                        intent.setComponent(new ComponentName("asia.chumbaka.kayam.bookviewer", "org.cocos2dx.cpp.AppActivity"));
 
                         intent.putExtra("book", item.foldername);
                         Log.d("booktest", item.foldername);
