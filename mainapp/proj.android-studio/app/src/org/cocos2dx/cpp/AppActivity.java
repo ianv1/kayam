@@ -41,10 +41,10 @@ import android.os.Process;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
-import com.enuma.kitkitProvider.Fish;
-import com.enuma.kitkitProvider.KitkitDBHandler;
-import com.enuma.kitkitProvider.User;
-import com.enuma.kitkitlogger.KitKitLogger;
+import asia.chumbaka.kitkitProvider.Fish;
+import asia.chumbaka.kitkitProvider.KitkitDBHandler;
+import asia.chumbaka.kitkitProvider.User;
+import asia.chumbaka.kitkitlogger.KitKitLogger;
 
 import org.cocos2dx.cpp.ReadingBird.PlayAudio;
 import org.cocos2dx.cpp.ReadingBird.SpeechRecognition;
@@ -144,7 +144,7 @@ public class AppActivity extends Cocos2dxActivity {
         try {
             Context launcherContext = createPackageContext("todoschoollauncher.enuma.com.todoschoollauncher",0);
             SharedPreferences pref = launcherContext.getSharedPreferences("sharedPref", Context.MODE_PRIVATE);
-            appLanguage = pref.getString("appLanguage", getString(com.enuma.kitkitlogger.R.string.defaultLanguage));
+            appLanguage = pref.getString("appLanguage", getString(asia.chumbaka.kitkitlogger.R.string.defaultLanguage));
             Cocos2dxHelper.setStringForKey("appLanguage", appLanguage);
         }
         catch (PackageManager.NameNotFoundException ne) {
@@ -249,7 +249,7 @@ public class AppActivity extends Cocos2dxActivity {
         try {
             Context context = createPackageContext("todoschoollauncher.enuma.com.todoschoollauncher",0);
             SharedPreferences pref = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
-            String sharedLang = pref.getString("appLanguage", getString(com.enuma.kitkitlogger.R.string.defaultLanguage));
+            String sharedLang = pref.getString("appLanguage", getString(asia.chumbaka.kitkitlogger.R.string.defaultLanguage));
 
             if (!appLanguage.equals(sharedLang)) {
                 Cocos2dxHelper.setStringForKey("appLanguage", appLanguage);
@@ -448,7 +448,7 @@ public class AppActivity extends Cocos2dxActivity {
     //    @Override
 //    protected void attachBaseContext(Context newBase) {
 //
-//        final String defaultLanguage = newBase.getString(com.enuma.kitkitlogger.R.string.defaultLanguage);
+//        final String defaultLanguage = newBase.getString(asia.chumbaka.kitkitlogger.R.string.defaultLanguage);
 //        SharedPreferences preferences = newBase.getSharedPreferences("Cocos2dxPrefsFile",0);
 //        String lang = preferences.getString("appLanguage","");
 //        if (lang.isEmpty()) {

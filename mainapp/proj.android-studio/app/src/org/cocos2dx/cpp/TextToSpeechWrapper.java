@@ -40,7 +40,7 @@ public class TextToSpeechWrapper {
     public static final String MOCK_TTS_ENGINE = "com.android.cts.stub";
     //public static final String FREE_TO_USE_TTS_ENGINE = "com.svox.pico";
     //public static final String FREE_TO_USE_TTS_ENGINE = "com.example.android.ttsengine";
-    public static final String FREE_TO_USE_TTS_ENGINE = "com.enuma.voice_engine_a";
+    public static final String FREE_TO_USE_TTS_ENGINE = "asia.chumbaka.voice_engine_a";
     private boolean _goodEngine = false;
     private boolean _energetic = false;
 

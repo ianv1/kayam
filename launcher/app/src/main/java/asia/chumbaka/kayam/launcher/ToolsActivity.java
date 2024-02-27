@@ -250,7 +250,7 @@ public class ToolsActivity extends KitKitLoggerActivity {
                 if (tv.isUnlocked()) {
                     try {
                         Intent intent = new Intent(Intent.ACTION_MAIN);
-                        intent.setComponent(new ComponentName("com.enuma.xprize.FB", "org.cocos2dx.cpp.AppActivity"));
+                        intent.setComponent(new ComponentName("asia.chumbaka.xprize.FB", "org.cocos2dx.cpp.AppActivity"));
                         startActivity(intent);
                         KitKitLogger logger = ((LauncherApplication) getApplication()).getLogger();
                         logger.logEvent("ToolsActivity", "start_fish_bowl", "", 0);

@@ -15,11 +15,11 @@ android {
     buildToolsVersion "25.0.3"
 
     defaultConfig {
-        applicationId "com.enuma.xprize"
+        applicationId "asia.chumbaka.xprize"
         minSdkVersion PROP_MIN_SDK_VERSION
         targetSdkVersion PROP_TARGET_SDK_VERSION
         versionCode 30
-        versionName "1.1.20180327.en_US"
+        versionName "1.0.0"
 
         externalNativeBuild {
             ndkBuild {

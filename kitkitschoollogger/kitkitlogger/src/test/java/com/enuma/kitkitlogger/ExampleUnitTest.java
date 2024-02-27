@@ -1,4 +1,4 @@
-package com.enuma.kitkitlogger;
+package asia.chumbaka.kitkitlogger;
 
 import org.junit.Test;
 

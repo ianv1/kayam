@@ -21,8 +21,8 @@ import android.util.Log;
 
 
 public class VoiceMold {
-    private static final String SPEAK_UTTERANCE_ID = "com.enuma.voice_engine_a.speak";
-    private static final String SYNTH_UTTERANCE_ID = "com.enuma.voice_engine_a.synth";
+    private static final String SPEAK_UTTERANCE_ID = "asia.chumbaka.voice_engine_a.speak";
+    private static final String SYNTH_UTTERANCE_ID = "asia.chumbaka.voice_engine_a.synth";
 
     public TextToSpeechWrapper wrapper;
     public String locale;

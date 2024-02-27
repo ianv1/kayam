@@ -160,7 +160,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         loadApps();
 
         Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
-        AppDetail todoschool = getAppDetail("com.enuma.xprize");
+        AppDetail todoschool = getAppDetail("asia.chumbaka.xprize");
         Button todoSchoolButton = (Button) findViewById(R.id.button_todoschool);
         todoSchoolButton.setTypeface(face);
         todoSchoolButton.setOnClickListener(new View.OnClickListener() {
@@ -173,7 +173,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                 }
                 try {
                     Intent i = new Intent(Intent.ACTION_MAIN);
-                    i.setComponent(new ComponentName("com.enuma.xprize", "org.cocos2dx.cpp.AppActivity"));
+                    i.setComponent(new ComponentName("asia.chumbaka.xprize", "org.cocos2dx.cpp.AppActivity"));
                     startActivity(i);
                 } catch (Exception e) {
                     Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();

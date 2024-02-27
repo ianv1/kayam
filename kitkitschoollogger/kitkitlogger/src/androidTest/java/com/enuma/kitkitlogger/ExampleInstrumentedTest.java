@@ -1,4 +1,4 @@
-package com.enuma.kitkitlogger;
+package asia.chumbaka.kitkitlogger;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.enuma.kitkitlogger.test", appContext.getPackageName());
+        assertEquals("asia.chumbaka.kitkitlogger.test", appContext.getPackageName());
     }
 }
