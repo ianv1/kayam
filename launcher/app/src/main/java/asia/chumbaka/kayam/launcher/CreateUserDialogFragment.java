@@ -14,9 +14,12 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import asia.chumbaka.kitkitProvider.KitkitDBHandler;
 import asia.chumbaka.kitkitProvider.User;
 
+import java.util.ArrayList;
 import java.util.UUID;
 
 import asia.chumbaka.kayam.launcher.R;
@@ -205,8 +208,33 @@ public class CreateUserDialogFragment extends DialogFragment {
         createTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (createUserEditText.getText().toString().isEmpty()) {
+                    Toast.makeText(view.getContext(), R.string.create_user_empty_name_error, Toast.LENGTH_LONG).show();
+                    return;
+                }
+                if (password[0].equals("") && password[1].equals("")) {
+                    Toast.makeText(view.getContext(), R.string.create_user_empty_password_error, Toast.LENGTH_LONG).show();
+                    return;
+                }
+                if (password[0].equals("") || password[1].equals("")) {
+                    Toast.makeText(view.getContext(), R.string.create_user_incomplete_password_error, Toast.LENGTH_LONG).show();
+                    return;
+                }
+                if (createUserEditText.getText().toString().trim().equalsIgnoreCase("admin")) {
+                    Toast.makeText(view.getContext(), R.string.create_user_admin_name_error, Toast.LENGTH_LONG).show();
+                    return;
+                }
+                KitkitDBHandler dbHandler = ((LauncherApplication) getActivity().getApplication()).getDbHandler();
+                ArrayList<User> users = dbHandler.getUserList();
+                for (User user: users) {
+                    if (user.getDisplayName().trim().toLowerCase().equals(createUserEditText.getText().toString().trim().toLowerCase())) {
+                        Toast.makeText(view.getContext(), R.string.create_user_same_name_error, Toast.LENGTH_LONG).show();
+                        return;
+                    }
+                }
+
                 UUID uuid = UUID.randomUUID();
-                ((LauncherApplication) getActivity().getApplication()).getDbHandler().addUser(new User(uuid.toString(), createUserEditText.getText().toString(), password[0] + password[1]));
+                dbHandler.addUser(new User(uuid.toString(), createUserEditText.getText().toString(), password[0] + password[1]));
                 mListener.onCreateUser(CreateUserDialogFragment.this, "");
             }
         });

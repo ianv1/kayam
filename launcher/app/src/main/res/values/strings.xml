@@ -70,5 +70,10 @@
     <string name="dialog_yes">Yes</string>
     <string name="dialog_no">No</string>
     <string name="logout">Logout</string>
+    <string name="create_user_empty_name_error">Name cannot be empty</string>
+    <string name="create_user_admin_name_error">Name is disallowed</string>
+    <string name="create_user_same_name_error">Cannot create another user of the same name</string>
+    <string name="create_user_empty_password_error">Password cannot be empty</string>
+    <string name="create_user_incomplete_password_error">Password is incomplete</string>
 
 </resources>
