@@ -1,4 +1,4 @@
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import android.support.v4.view.ViewPager;
 import android.content.Context;

@@ -181,7 +181,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             }
         });
 
-        AppDetail library = getAppDetail("library.todoschool.enuma.com.todoschoollibrary");
+        AppDetail library = getAppDetail("asia.chumbaka.kayam.library");
         Button libraryButton = (Button) findViewById(R.id.button_library);
         libraryButton.setTypeface(face);
         libraryButton.setOnClickListener(new View.OnClickListener() {
@@ -195,7 +195,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                 if (view.isEnabled()) {
                     try {
                         Intent i = new Intent(Intent.ACTION_MAIN);
-                        i.setComponent(new ComponentName("library.todoschool.enuma.com.todoschoollibrary", "library.todoschool.enuma.com.todoschoollibrary.SelectActivity"));
+                        i.setComponent(new ComponentName("asia.chumbaka.kayam.library", "asia.chumbaka.kayam.library.SelectActivity"));
                         startActivity(i);
                     } catch (Exception e) {
                         Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();

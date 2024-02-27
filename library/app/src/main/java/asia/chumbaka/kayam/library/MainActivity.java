@@ -1,4 +1,4 @@
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -31,8 +31,8 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.enuma.kitkitlogger.KitKitLogger;
-import com.enuma.kitkitlogger.KitKitLoggerActivity;
+import asia.chumbaka.kitkitlogger.KitKitLogger;
+import asia.chumbaka.kitkitlogger.KitKitLoggerActivity;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 import java.io.BufferedReader;
@@ -725,7 +725,7 @@ public class MainActivity extends KitKitLoggerActivity {
                 public void onClick(View v) {
                     try {
                         Intent intent = new Intent(Intent.ACTION_MAIN);
-                        intent.setComponent(new ComponentName("com.enuma.booktest", "org.cocos2dx.cpp.AppActivity"));
+                        intent.setComponent(new ComponentName("asia.chumbaka.booktest", "org.cocos2dx.cpp.AppActivity"));
 
                         intent.putExtra("book", item.foldername);
                         Log.d("booktest", item.foldername);

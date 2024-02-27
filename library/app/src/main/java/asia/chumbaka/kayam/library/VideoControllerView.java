@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import android.content.Context;
 import android.os.Handler;

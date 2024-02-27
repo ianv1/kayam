@@ -1,4 +1,4 @@
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,20 +6,16 @@ import android.content.res.AssetFileDescriptor;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
-import com.enuma.kitkitlogger.KitKitLogger;
+import asia.chumbaka.kitkitlogger.KitKitLogger;
 
-import java.io.File;
 import java.io.IOException;
 
 /**

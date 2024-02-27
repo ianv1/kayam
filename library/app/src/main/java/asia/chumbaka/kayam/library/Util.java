@@ -1,25 +1,11 @@
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.graphics.PixelFormat;
-import android.graphics.Point;
 import android.os.Build;
-import android.preference.PreferenceManager;
-import android.util.DisplayMetrics;
-import android.util.Log;
-import android.view.Display;
-import android.view.Gravity;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.AdapterView;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-import com.enuma.kitkitProvider.User;
+import asia.chumbaka.kitkitProvider.User;
 
 public class Util {
     public static String TAG = "Library";

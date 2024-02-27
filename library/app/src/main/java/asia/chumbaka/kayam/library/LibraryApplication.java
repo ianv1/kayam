@@ -1,13 +1,15 @@
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import android.app.Application;
 import android.content.Context;
 
-import com.enuma.kitkitlogger.KitKitLogger;
+import asia.chumbaka.kitkitlogger.KitKitLogger;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+
+import asia.chumbaka.kayam.library.BuildConfig;
 
 /**
  * Created by ingtellect on 7/21/17.

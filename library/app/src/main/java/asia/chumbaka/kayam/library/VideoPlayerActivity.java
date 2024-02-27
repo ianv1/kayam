@@ -1,4 +1,4 @@
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -30,8 +30,8 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import com.enuma.kitkitlogger.KitKitLogger;
-import com.enuma.kitkitlogger.KitKitLoggerActivity;
+import asia.chumbaka.kitkitlogger.KitKitLogger;
+import asia.chumbaka.kitkitlogger.KitKitLoggerActivity;
 
 import java.io.File;
 import java.io.FileNotFoundException;

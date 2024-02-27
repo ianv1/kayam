@@ -1,4 +1,4 @@
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import org.junit.Test;
 

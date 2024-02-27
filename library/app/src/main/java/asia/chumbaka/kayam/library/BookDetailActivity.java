@@ -1,10 +1,9 @@
-package library.todoschool.enuma.com.todoschoollibrary;
+package asia.chumbaka.kayam.library;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.enuma.kitkitlogger.KitKitLoggerActivity;
+import asia.chumbaka.kitkitlogger.KitKitLoggerActivity;
 
 /**
  * Created by ingtellect on 12/23/16.
