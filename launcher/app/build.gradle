@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
 
@@ -30,16 +31,6 @@ android {
         }
     }
 
-    productFlavors {
-
-        englishUS {
-
-        }
-
-        swahili {
-
-        }
-    }
     buildTypes {
         release {
             minifyEnabled false
@@ -47,17 +38,17 @@ android {
             if (project.hasProperty("RELEASE_STORE_FILE")) {
                 signingConfig signingConfigs.release
             }
-            applicationVariants.all { variant ->
-                variant.outputs.each { output ->
-                    project.ext { appName = rootProject.name }
-//                    def formattedDate = new Date().format('yyyyMMdd')
-                    def newName = output.outputFile.name
-                    newName = newName.replace("app-", "$project.ext.appName-")
-//                    newName = newName.replace("-release", "-release" + formattedDate)
-                    //noinspection GroovyAssignabilityCheck
-                    output.outputFile = new File(output.outputFile.parent, newName)
-                }
-            }
+//            applicationVariants.all { variant ->
+//                variant.outputs.each { output ->
+//                    project.ext { appName = rootProject.name }
+////                    def formattedDate = new Date().format('yyyyMMdd')
+//                    def newName = output.outputFilename
+//                    newName = newName.replace("app-", "$project.ext.appName-")
+////                    newName = newName.replace("-release", "-release" + formattedDate)
+//                    //noinspection GroovyAssignabilityCheck
+//                    output.outputFile = new File(output.outputFile.parent, newName)
+//                }
+//            }
         }
     }
 }
