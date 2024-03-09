@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -19,6 +20,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import asia.chumbaka.kitkitProvider.KitkitDBHandler;
@@ -29,7 +32,9 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import asia.chumbaka.kayam.launcher.adapter.LoginGridViewAdapter;
 import asia.chumbaka.kayam.launcher.adapter.OnItemClick;
@@ -120,6 +125,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         SharedPreferences.Editor editor = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).edit();
         if (isAdmin) {
             editor.putBoolean("review_mode_on", true);
+            setLastBackupTime();
 
             ImageView imageViewPlus = (ImageView) findViewById(R.id.ic_plus);
             imageViewPlus.setVisibility(View.VISIBLE);
@@ -145,6 +151,8 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
             titleButton.setText("KAYAM SCHOOL " + "(TABLET ID: " + tabletNumber + ")");
         } else {
             editor.putBoolean("review_mode_on", false);
+            final LinearLayout lastBackupLinearLayout = findViewById(R.id.ll_last_backup);
+            lastBackupLinearLayout.setVisibility(View.GONE);
         }
 
         editor.apply();
@@ -157,6 +165,40 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         if (users.isEmpty()) return;
         LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, currentUsername, isAdmin, this, this);
         gridView.setAdapter(adapter);
+    }
+
+    private void setLastBackupTime() {
+        Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
+        SharedPreferences preference = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
+        long lastBackupTime = preference.getLong("last_backup_time", 0L);
+        String lastBackupFilename = preference.getString("last_backup_filename", "");
+        final TextView lastBackupTextView = findViewById(R.id.tv_last_backup);
+        final TextView lastBackupTimeTextView = findViewById(R.id.tv_last_backup_time);
+        final LinearLayout lastBackupLinearLayout = findViewById(R.id.ll_last_backup);
+        lastBackupLinearLayout.setVisibility(View.VISIBLE);
+        lastBackupTextView.setTypeface(face);
+        lastBackupTimeTextView.setTypeface(face);
+
+        if (lastBackupTime != 0L) {
+            lastBackupTextView.setText("Last backup: ");
+            SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy hh:mm:ssa");
+            Date resultdate = new Date(lastBackupTime);
+            lastBackupTimeTextView.setText(sdf.format(resultdate));
+            lastBackupTimeTextView.setVisibility(View.VISIBLE);
+            lastBackupTextView.setOnClickListener(view -> {
+                if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
+                    Toast.makeText(LoginActivity.this, "Last backup file: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
+                }
+            });
+            lastBackupTimeTextView.setOnClickListener(view -> {
+                if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
+                    Toast.makeText(LoginActivity.this, "Last backup file: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
+                }
+            });
+        } else {
+            lastBackupTextView.setText("No backup");
+            lastBackupTimeTextView.setVisibility(View.GONE);
+        }
     }
 
     public boolean checkStoragePermissions() {
@@ -234,7 +276,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                 folder.mkdirs();
             }
 
-            File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS) + "/kayam-reports/", tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + ".csv");
+            File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS) + "/kayam-reports/", tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + "_Admin" + ".csv");
             if (!file.exists()) {
                 file.createNewFile();
             }

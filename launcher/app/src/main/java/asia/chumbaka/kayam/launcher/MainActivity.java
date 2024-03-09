@@ -466,8 +466,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         Button buttonLogin = (Button) findViewById(R.id.button_login);
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
 
-        setLastBackupTime();
-
         if (currentUser == null) {
             imageViewCoin.setVisibility(View.GONE);
             textViewCoinNum.setVisibility(View.GONE);
@@ -518,38 +516,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             exitAdminButton.setVisibility(View.GONE);
         }
 
-    }
-
-    private void setLastBackupTime() {
-        Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
-        SharedPreferences preference = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
-        long lastBackupTime = preference.getLong("last_backup_time", 0L);
-        String lastBackupFilename = preference.getString("last_backup_filename", "");
-        final TextView lastBackupTextView = findViewById(R.id.tv_last_backup);
-        final TextView lastBackupTimeTextView = findViewById(R.id.tv_last_backup_time);
-        lastBackupTextView.setTypeface(face);
-        lastBackupTimeTextView.setTypeface(face);
-
-        if (lastBackupTime != 0L) {
-            lastBackupTextView.setText("Last backup: ");
-            SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy hh:mm:ssa");
-            Date resultdate = new Date(lastBackupTime);
-            lastBackupTimeTextView.setText(sdf.format(resultdate));
-            lastBackupTimeTextView.setVisibility(View.VISIBLE);
-            lastBackupTextView.setOnClickListener(view -> {
-                if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Last backup file: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
-                }
-            });
-            lastBackupTimeTextView.setOnClickListener(view -> {
-                if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Last backup file: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
-                }
-            });
-        } else {
-            lastBackupTextView.setText("No backup");
-            lastBackupTimeTextView.setVisibility(View.GONE);
-        }
     }
 
     private static PackageManager manager;

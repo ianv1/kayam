@@ -176,31 +176,4 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/tv_last_backup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="No backup"
-            android:textColor="#F3D63F"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/tv_last_backup_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#F3D63F"
-            android:textSize="36sp" />
-
-    </LinearLayout>
-
 </RelativeLayout>
