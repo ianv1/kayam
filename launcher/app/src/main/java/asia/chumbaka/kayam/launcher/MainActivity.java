@@ -1,5 +1,6 @@
 package asia.chumbaka.kayam.launcher;
 
+import android.Manifest;
 import android.app.DialogFragment;
 import android.app.KeyguardManager;
 import android.content.BroadcastReceiver;
@@ -25,6 +26,8 @@ import android.os.Environment;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -43,10 +46,12 @@ import com.google.firebase.storage.UploadTask;
 
 import org.apache.commons.io.filefilter.WildcardFileFilter;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -223,9 +228,10 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
         buttonLogout.setTypeface(face);
         buttonLogout.setOnClickListener(view -> {
+            Toast.makeText(MainActivity.this, "You have successfully logged out", Toast.LENGTH_LONG).show();
+            generateCSV();
             KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
             dbHandler.deleteCurrentUser();
-            Toast.makeText(MainActivity.this, "You have successfully logged out", Toast.LENGTH_LONG).show();
             refreshUI();
             uploadCSV();
         });
@@ -248,6 +254,101 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         Glide.with(this).asGif().load(R.raw.logo_chumbaka).into(imageView);
         TextView tvPoweredBy = (TextView) findViewById(R.id.tv_powered);
         tvPoweredBy.setTypeface(face);
+
+        if (!checkStoragePermissions()) {
+            requestForStoragePermissions();
+        }
+    }
+
+    public boolean checkStoragePermissions() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            // Android 11 (R) or above
+            return Environment.isExternalStorageManager();
+        } else {
+            // Below Android 11
+            int write = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            int read = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE);
+
+            return read == PackageManager.PERMISSION_GRANTED && write == PackageManager.PERMISSION_GRANTED;
+        }
+    }
+
+    private static final int STORAGE_PERMISSION_CODE = 23;
+
+    private void requestForStoragePermissions() {
+        // Android 11 (R) or above
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            try {
+                Intent intent = new Intent();
+                intent.setAction(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+                Uri uri = Uri.fromParts("package", this.getPackageName(), null);
+                intent.setData(uri);
+                startActivity(intent);
+            } catch (Exception e) {
+                Intent intent = new Intent();
+                intent.setAction(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION);
+                startActivity(intent);
+            }
+        } else {
+            // Below android 11
+            ActivityCompat.requestPermissions(
+                    this,
+                    new String[]{
+                            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                            Manifest.permission.READ_EXTERNAL_STORAGE
+                    },
+                    STORAGE_PERMISSION_CODE
+            );
+        }
+    }
+
+    private void generateCSV() {
+        if (!checkStoragePermissions()) {
+            requestForStoragePermissions();
+            return;
+        }
+
+        ArrayList<User> users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
+
+        String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
+
+        try {
+            StringBuilder content = new StringBuilder("Name,Stars,English,Math\n");
+
+            for (User user : users) {
+                if (!user.getUserName().equals("admin")) {
+                    content.append(user.getDisplayName())
+                            .append(",")
+                            .append(user.getNumStars())
+                            .append(",")
+                            .append(user.getCurrentEnglishLevel())
+                            .append(",")
+                            .append(user.getCurrentMathLevel())
+                            .append("\n");
+                }
+            }
+
+
+            File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
+            if (!folder.exists()) {
+                folder.mkdirs();
+            }
+
+            String name = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser().getDisplayName().replaceAll("[^A-Za-z0-9]", "");
+            File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS) + "/kayam-reports/", tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + "_" + name + ".csv");
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+
+            FileWriter fw = new FileWriter(file.getAbsoluteFile());
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(content.toString());
+            bw.close();
+
+            Toast.makeText(this, getString(R.string.csv_generated, file.getName()), Toast.LENGTH_LONG).show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
