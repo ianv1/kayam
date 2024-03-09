@@ -14,6 +14,7 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
@@ -24,6 +25,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
+import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -35,7 +37,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
 import org.apache.commons.io.filefilter.WildcardFileFilter;
 
@@ -283,6 +290,29 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                         Log.d(TAG, "signInAnonymously:success");
                         Toast.makeText(MainActivity.this, "Signed in Firebase", Toast.LENGTH_SHORT).show();
 //                            FirebaseUser user = mAuth.getCurrentUser();
+
+                        File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
+                        if (!folder.exists()) {
+                            folder.mkdirs();
+                        }
+                        File[] files = folder.listFiles();
+                        FirebaseStorage storage = FirebaseStorage.getInstance("gs://kayam-school.appspot.com");
+                        StorageReference storageRef = storage.getReference();
+
+                        if (files != null && files.length > 0) {
+                            for (File child : files) {
+                                StorageReference riversRef = storageRef.child("reports/" + child.getName());
+                                UploadTask uploadTask = riversRef.putFile(Uri.fromFile(child));
+                                uploadTask.addOnFailureListener(exception -> {
+                                    // Handle unsuccessful uploads
+                                }).addOnSuccessListener(taskSnapshot -> {
+                                    Toast.makeText(MainActivity.this, child.getName() + " is uploaded successfully!", Toast.LENGTH_SHORT).show();
+                                    // taskSnapshot.getMetadata() contains file metadata such as size, content-type, etc.
+                                });
+
+                            }
+                        }
+
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.w(TAG, "signInAnonymously:failure", task.getException());
