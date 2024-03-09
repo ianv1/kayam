@@ -25,7 +25,6 @@ import android.os.Environment;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -37,8 +36,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -193,22 +190,19 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         AppDetail library = getAppDetail("asia.chumbaka.kayam.library");
         Button libraryButton = (Button) findViewById(R.id.button_library);
         libraryButton.setTypeface(face);
-        libraryButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
-                if (currentUser == null) {
-                    Toast.makeText(MainActivity.this, "Please select a user", Toast.LENGTH_LONG).show();
-                    return;
-                }
-                if (view.isEnabled()) {
-                    try {
-                        Intent i = new Intent(Intent.ACTION_MAIN);
-                        i.setComponent(new ComponentName("asia.chumbaka.kayam.library", "asia.chumbaka.kayam.library.SelectActivity"));
-                        startActivity(i);
-                    } catch (Exception e) {
-                        Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
-                    }
+        libraryButton.setOnClickListener(view -> {
+            User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+            if (currentUser == null) {
+                Toast.makeText(MainActivity.this, "Please select a user", Toast.LENGTH_LONG).show();
+                return;
+            }
+            if (view.isEnabled()) {
+                try {
+                    Intent i = new Intent(Intent.ACTION_MAIN);
+                    i.setComponent(new ComponentName("asia.chumbaka.kayam.library", "asia.chumbaka.kayam.library.SelectActivity"));
+                    startActivity(i);
+                } catch (Exception e) {
+                    Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -221,24 +215,19 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
         Button buttonLogin = (Button) findViewById(R.id.button_login);
         buttonLogin.setTypeface(face);
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
+        buttonLogin.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(intent);
         });
 
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
         buttonLogout.setTypeface(face);
-        buttonLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
-                dbHandler.deleteCurrentUser();
-                Toast.makeText(MainActivity.this, "You have successfully logged out", Toast.LENGTH_LONG).show();
-                refreshUI();
-            }
+        buttonLogout.setOnClickListener(view -> {
+            KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
+            dbHandler.deleteCurrentUser();
+            Toast.makeText(MainActivity.this, "You have successfully logged out", Toast.LENGTH_LONG).show();
+            refreshUI();
+            uploadCSV();
         });
 
         displayCurrentUser();
@@ -280,17 +269,16 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         super.onResume();
         KitKitLogger logger = ((LauncherApplication) getApplication()).getLogger();
         logger.tagScreen("MainActivity");
-
         refreshUI();
+        uploadCSV();
+    }
 
+    private void uploadCSV() {
         FirebaseAuth.getInstance().signInAnonymously()
                 .addOnCompleteListener(this, task -> {
                     if (task.isSuccessful()) {
                         // Sign in success, update UI with the signed-in user's information
                         Log.d(TAG, "signInAnonymously:success");
-                        Toast.makeText(MainActivity.this, "Signed in Firebase", Toast.LENGTH_SHORT).show();
-//                            FirebaseUser user = mAuth.getCurrentUser();
-
                         File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
                         if (!folder.exists()) {
                             folder.mkdirs();
@@ -298,6 +286,9 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                         File[] files = folder.listFiles();
                         FirebaseStorage storage = FirebaseStorage.getInstance("gs://kayam-school.appspot.com");
                         StorageReference storageRef = storage.getReference();
+
+                        SharedPreferences preferences = getSharedPreferences("sharedPref", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = preferences.edit();
 
                         if (files != null && files.length > 0) {
                             for (File child : files) {
@@ -307,9 +298,11 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                                     // Handle unsuccessful uploads
                                 }).addOnSuccessListener(taskSnapshot -> {
                                     Toast.makeText(MainActivity.this, child.getName() + " is uploaded successfully!", Toast.LENGTH_SHORT).show();
-                                    // taskSnapshot.getMetadata() contains file metadata such as size, content-type, etc.
+                                    editor.putLong("last_backup_time", System.currentTimeMillis());
+                                    editor.putString("last_backup_filename", child.getName());
+                                    editor.apply();
+                                    refreshUI();
                                 });
-
                             }
                         }
 
@@ -372,6 +365,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         Button buttonLogin = (Button) findViewById(R.id.button_login);
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
 
+        setLastBackupTime();
+
         if (currentUser == null) {
             imageViewCoin.setVisibility(View.GONE);
             textViewCoinNum.setVisibility(View.GONE);
@@ -420,6 +415,39 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             });
         } else {
             exitAdminButton.setVisibility(View.GONE);
+        }
+
+    }
+
+    private void setLastBackupTime() {
+        Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
+        SharedPreferences preference = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
+        long lastBackupTime = preference.getLong("last_backup_time", 0L);
+        String lastBackupFilename = preference.getString("last_backup_filename", "");
+        final TextView lastBackupTextView = findViewById(R.id.tv_last_backup);
+        final TextView lastBackupTimeTextView = findViewById(R.id.tv_last_backup_time);
+        lastBackupTextView.setTypeface(face);
+        lastBackupTimeTextView.setTypeface(face);
+
+        if (lastBackupTime != 0L) {
+            lastBackupTextView.setText("Last backup: ");
+            SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy hh:mm:ssa");
+            Date resultdate = new Date(lastBackupTime);
+            lastBackupTimeTextView.setText(sdf.format(resultdate));
+            lastBackupTimeTextView.setVisibility(View.VISIBLE);
+            lastBackupTextView.setOnClickListener(view -> {
+                if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Last backup file: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
+                }
+            });
+            lastBackupTimeTextView.setOnClickListener(view -> {
+                if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Last backup file: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
+                }
+            });
+        } else {
+            lastBackupTextView.setText("No backup");
+            lastBackupTimeTextView.setVisibility(View.GONE);
         }
     }
 
