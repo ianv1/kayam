@@ -35,10 +35,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import asia.chumbaka.kitkitProvider.KitkitDBHandler;
-import asia.chumbaka.kitkitProvider.User;
-import asia.chumbaka.kitkitlogger.KitKitLogger;
-import asia.chumbaka.kitkitlogger.KitKitLoggerActivity;
+import com.google.firebase.auth.FirebaseAuth;
 
 import org.apache.commons.io.filefilter.WildcardFileFilter;
 
@@ -57,6 +54,11 @@ import java.util.List;
 import java.util.UUID;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
+
+import asia.chumbaka.kitkitProvider.KitkitDBHandler;
+import asia.chumbaka.kitkitProvider.User;
+import asia.chumbaka.kitkitlogger.KitKitLogger;
+import asia.chumbaka.kitkitlogger.KitKitLoggerActivity;
 
 public class MainActivity extends KitKitLoggerActivity implements PasswordDialogFragment.PasswordDialogListener {
 
@@ -273,6 +275,20 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         logger.tagScreen("MainActivity");
 
         refreshUI();
+
+        FirebaseAuth.getInstance().signInAnonymously()
+                .addOnCompleteListener(this, task -> {
+                    if (task.isSuccessful()) {
+                        // Sign in success, update UI with the signed-in user's information
+                        Log.d(TAG, "signInAnonymously:success");
+                        Toast.makeText(MainActivity.this, "Signed in Firebase", Toast.LENGTH_SHORT).show();
+//                            FirebaseUser user = mAuth.getCurrentUser();
+                    } else {
+                        // If sign in fails, display a message to the user.
+                        Log.w(TAG, "signInAnonymously:failure", task.getException());
+                        Toast.makeText(MainActivity.this, "Signed in failed", Toast.LENGTH_SHORT).show();
+                    }
+                });
     }
 
     @Override

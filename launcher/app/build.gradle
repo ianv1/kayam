@@ -6,9 +6,9 @@ android {
     compileSdkVersion 30
     buildToolsVersion '25.0.3'
     defaultConfig {
+        multiDexEnabled true
         minSdkVersion 30
         targetSdkVersion 30
-
         applicationId "asia.chumbaka.kayam.launcher"
         versionCode 4
         versionName "1.1"
@@ -51,6 +51,11 @@ android {
 //            }
         }
     }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {
@@ -72,4 +77,7 @@ dependencies {
     //englishCompile project(path: ':kitkitlogger', configuration: 'englishRelease')
     //swahiliCompile project(path: ':kitkitlogger', configuration: 'swahiliRelease')
     compile 'com.github.bumptech.glide:glide:4.0.0'
+
+    compile("com.google.firebase:firebase-auth:17.0.0")
+
 }

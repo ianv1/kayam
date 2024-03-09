@@ -4,14 +4,12 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import asia.chumbaka.kitkitProvider.KitkitDBHandler;
-import asia.chumbaka.kitkitProvider.User;
-import asia.chumbaka.kitkitlogger.KitKitLogger;
-
 import java.util.ArrayList;
 import java.util.UUID;
 
-import asia.chumbaka.kayam.launcher.R;
+import asia.chumbaka.kitkitProvider.KitkitDBHandler;
+import asia.chumbaka.kitkitProvider.User;
+import asia.chumbaka.kitkitlogger.KitKitLogger;
 
 
 /**
@@ -121,7 +119,7 @@ public class LauncherApplication extends Application {
     private void createAdminUser() {
         ArrayList<User> users = dbHandler.getUserList();
         boolean foundAdmin = false;
-        for (User user: users) {
+        for (User user : users) {
             if (user.getUserName().equals("admin")) {
                 foundAdmin = true;
                 break;
