@@ -25,6 +25,7 @@ public class User {
     private boolean _unlockFishBowl;
     private boolean _unlockWritingBoard;
     private boolean _finishWritingBoardTutorial;
+    private boolean _acceptTnC;
     private String _password;
     private String _englishLevel;
     private String _mathLevel;
@@ -48,6 +49,7 @@ public class User {
         this._finishWritingBoardTutorial = false;
         this._englishLevel = "";
         this._mathLevel = "";
+        this._acceptTnC = false;
     }
 
     public User(int id, String username, int stars) {
@@ -69,6 +71,7 @@ public class User {
         this._finishWritingBoardTutorial = false;
         this._englishLevel = "";
         this._mathLevel = "";
+        this._acceptTnC = false;
     }
 
     public User(String username, String displayName, String password) {
@@ -90,6 +93,7 @@ public class User {
         this._password = password;
         this._englishLevel = "";
         this._mathLevel = "";
+        this._acceptTnC = false;
     }
 
     public void setID(int id) {
@@ -204,6 +208,10 @@ public class User {
     public String getCurrentMathLevel() {
         return _mathLevel;
     }
+
+    public void setAcceptTnC(boolean acceptTnC) { this._acceptTnC = acceptTnC; }
+
+    public boolean isAcceptTnC() {return this._acceptTnC;}
 
     @Override
     public String toString() {

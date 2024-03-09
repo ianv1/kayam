@@ -1,11 +1,13 @@
 package asia.chumbaka.kayam.launcher;
 
 import android.Manifest;
+import android.app.AlertDialog;
 import android.app.DialogFragment;
 import android.app.KeyguardManager;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
@@ -183,9 +185,11 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                     return;
                 }
                 try {
-                    Intent i = new Intent(Intent.ACTION_MAIN);
-                    i.setComponent(new ComponentName("asia.chumbaka.xprize", "org.cocos2dx.cpp.AppActivity"));
-                    startActivity(i);
+                    if (!gotoTnC()) {
+                        Intent i = new Intent(Intent.ACTION_MAIN);
+                        i.setComponent(new ComponentName("asia.chumbaka.xprize", "org.cocos2dx.cpp.AppActivity"));
+                        startActivity(i);
+                    }
                 } catch (Exception e) {
                     Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
                 }
@@ -1132,4 +1136,29 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         dialog.dismiss();
     }
 
+    private boolean gotoTnC() {
+        User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+        if (user.isAcceptTnC()) {
+            return false;
+        } else {
+            new AlertDialog.Builder(this)
+                    .setTitle("Hi " + user.getDisplayName())
+                    .setMessage("By continuing, you agree to our privacy policy")
+                    .setNeutralButton("Read Privacy Policy", (dialogInterface, i) -> new AlertDialog.Builder(MainActivity.this)
+                            .setTitle("Privacy Policy for Kayam School")
+                            .setMessage(R.string.privacy_policy_english)
+                            .setPositiveButton("OK", (dialogInterface1, i1) -> gotoTnC())
+                            .show())
+                    .setPositiveButton(R.string.dialog_yes, (dialog, which) -> {
+                        user.setAcceptTnC(true);
+                        ((LauncherApplication) getApplication()).getDbHandler().updateUser(user);
+                        Intent i = new Intent(Intent.ACTION_MAIN);
+                        i.setComponent(new ComponentName("asia.chumbaka.xprize", "org.cocos2dx.cpp.AppActivity"));
+                        startActivity(i);
+                    })
+                    .setNegativeButton(R.string.dialog_no, null)
+                    .show();
+            return true;
+        }
+    }
 }
