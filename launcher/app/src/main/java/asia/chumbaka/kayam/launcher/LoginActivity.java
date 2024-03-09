@@ -129,22 +129,14 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
             ImageView imageViewPlus = (ImageView) findViewById(R.id.ic_plus);
             imageViewPlus.setVisibility(View.VISIBLE);
-            imageViewPlus.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    DialogFragment dialog = new CreateUserDialogFragment();
-                    dialog.show(getFragmentManager(), "CreateUserDialogFragment");
-                }
+            imageViewPlus.setOnClickListener(view -> {
+                DialogFragment dialog = new CreateUserDialogFragment();
+                dialog.show(getFragmentManager(), "CreateUserDialogFragment");
             });
 
-            ImageView imageViewUpload = (ImageView) findViewById(R.id.ic_upload);
-            imageViewUpload.setVisibility(View.VISIBLE);
-            imageViewUpload.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    generateCSV();
-                }
-            });
+            ImageView ivGenerateCSV = (ImageView) findViewById(R.id.ic_download);
+            ivGenerateCSV.setVisibility(View.VISIBLE);
+            ivGenerateCSV.setOnClickListener(view -> generateCSV());
 
             String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
             Button titleButton = (Button) findViewById(R.id.title_btn);
