@@ -141,6 +141,11 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
             ivGenerateCSV.setVisibility(View.VISIBLE);
             ivGenerateCSV.setOnClickListener(view -> {
                 generateCSV();
+            });
+
+            ImageView ivUpload = (ImageView) findViewById(R.id.ic_upload);
+            ivUpload.setVisibility(View.VISIBLE);
+            ivUpload.setOnClickListener(view -> {
                 uploadCSV();
             });
 

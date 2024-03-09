@@ -40,9 +40,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_centerVertical="true"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="36dp"
             android:layout_toStartOf="@+id/ic_download"
             android:src="@drawable/ic_plus"
             android:tint="@android:color/white"
@@ -52,13 +50,21 @@
             android:id="@+id/ic_download"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="36dp"
+            android:layout_toStartOf="@+id/ic_upload"
             android:src="@drawable/ic_download"
+            android:tint="@android:color/white"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ic_upload"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_upload"
             android:tint="@android:color/white"
             android:visibility="invisible" />
 
@@ -84,14 +90,14 @@
                 android:layout_height="wrap_content"
                 android:text="No backup"
                 android:textColor="#F3D63F"
-                android:textSize="24dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/tv_last_backup_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#F3D63F"
-                android:textSize="24dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
