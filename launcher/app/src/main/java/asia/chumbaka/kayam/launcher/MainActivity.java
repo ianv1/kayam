@@ -410,7 +410,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.w(TAG, "signInAnonymously:failure", task.getException());
-                        Toast.makeText(MainActivity.this, "Signed in failed", Toast.LENGTH_SHORT).show();
+                        // Toast.makeText(MainActivity.this, "Signed in failed", Toast.LENGTH_SHORT).show();
                     }
                 });
     }

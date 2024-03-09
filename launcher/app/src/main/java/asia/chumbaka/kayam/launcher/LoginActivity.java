@@ -24,9 +24,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import asia.chumbaka.kitkitProvider.KitkitDBHandler;
-import asia.chumbaka.kitkitProvider.User;
-import asia.chumbaka.kitkitlogger.KitKitLoggerActivity;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -39,7 +40,9 @@ import java.util.Date;
 import asia.chumbaka.kayam.launcher.adapter.LoginGridViewAdapter;
 import asia.chumbaka.kayam.launcher.adapter.OnItemClick;
 import asia.chumbaka.kayam.launcher.adapter.OnRemoveClick;
-import asia.chumbaka.kayam.launcher.R;
+import asia.chumbaka.kitkitProvider.KitkitDBHandler;
+import asia.chumbaka.kitkitProvider.User;
+import asia.chumbaka.kitkitlogger.KitKitLoggerActivity;
 
 public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         OnRemoveClick,
@@ -136,7 +139,10 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
             ImageView ivGenerateCSV = (ImageView) findViewById(R.id.ic_download);
             ivGenerateCSV.setVisibility(View.VISIBLE);
-            ivGenerateCSV.setOnClickListener(view -> generateCSV());
+            ivGenerateCSV.setOnClickListener(view -> {
+                generateCSV();
+                uploadCSV();
+            });
 
             String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
             Button titleButton = (Button) findViewById(R.id.title_btn);
@@ -308,6 +314,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                                 .setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int which) {
                                         generateCSV();
+                                        uploadCSV();
                                         ((LauncherApplication) getApplication()).getDbHandler().deleteUser(value);
                                         refreshUI();
                                     }
@@ -325,4 +332,44 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                 .setNegativeButton(R.string.dialog_no, null)
                 .show();
     }
+
+    private void uploadCSV() {
+        FirebaseAuth.getInstance().signInAnonymously()
+                .addOnCompleteListener(this, task -> {
+                    if (task.isSuccessful()) {
+                        // Sign in success, update UI with the signed-in user's information
+                        File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
+                        if (!folder.exists()) {
+                            folder.mkdirs();
+                        }
+                        File[] files = folder.listFiles();
+                        FirebaseStorage storage = FirebaseStorage.getInstance("gs://kayam-school.appspot.com");
+                        StorageReference storageRef = storage.getReference();
+
+                        SharedPreferences preferences = getSharedPreferences("sharedPref", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = preferences.edit();
+
+                        if (files != null && files.length > 0) {
+                            for (File child : files) {
+                                StorageReference riversRef = storageRef.child("reports/" + child.getName());
+                                UploadTask uploadTask = riversRef.putFile(Uri.fromFile(child));
+                                uploadTask.addOnFailureListener(exception -> {
+                                    // Handle unsuccessful uploads
+                                }).addOnSuccessListener(taskSnapshot -> {
+                                    Toast.makeText(LoginActivity.this, child.getName() + " is uploaded successfully!", Toast.LENGTH_SHORT).show();
+                                    editor.putLong("last_backup_time", System.currentTimeMillis());
+                                    editor.putString("last_backup_filename", child.getName());
+                                    editor.apply();
+                                    refreshUI();
+                                });
+                            }
+                        }
+
+                    } else {
+                        // If sign in fails, display a message to the user.
+                        // Toast.makeText(LoginActivity.this, "Signed in failed", Toast.LENGTH_SHORT).show();
+                    }
+                });
+    }
+
 }
