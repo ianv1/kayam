@@ -11,7 +11,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
         android:background="#673309">
 
         <ImageView
@@ -65,36 +64,44 @@
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:id="@+id/ll_last_backup"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#673309"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="8dp">
+        android:background="#673309">
 
-        <TextView
-            android:id="@+id/tv_last_backup"
+        <LinearLayout
+            android:id="@+id/ll_last_backup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No backup"
-            android:textColor="#F3D63F"
-            android:textSize="36sp" />
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dp">
 
-        <TextView
-            android:id="@+id/tv_last_backup_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#F3D63F"
-            android:textSize="36sp" />
+            <TextView
+                android:id="@+id/tv_last_backup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No backup"
+                android:textColor="#F3D63F"
+                android:textSize="24dp" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/tv_last_backup_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F3D63F"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
     <GridView
         android:id="@+id/grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
         android:horizontalSpacing="24dp"
         android:numColumns="2"
         android:paddingStart="24dp"
