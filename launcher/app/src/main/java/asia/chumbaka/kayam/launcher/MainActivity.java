@@ -7,7 +7,6 @@ import android.app.KeyguardManager;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
@@ -1144,9 +1143,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             new AlertDialog.Builder(this)
                     .setTitle("Hi " + user.getDisplayName())
                     .setMessage("By continuing, you agree to our privacy policy")
-                    .setNeutralButton("Read Privacy Policy", (dialogInterface, i) -> new AlertDialog.Builder(MainActivity.this)
-                            .setTitle("Privacy Policy for Kayam School")
-                            .setMessage(R.string.privacy_policy_english)
+                    .setNeutralButton("Read Privacy Policy (ENG, BM)", (dialogInterface, i) -> new AlertDialog.Builder(MainActivity.this)
+                            .setMessage(R.string.privacy_policy)
                             .setPositiveButton("OK", (dialogInterface1, i1) -> gotoTnC())
                             .show())
                     .setPositiveButton(R.string.dialog_yes, (dialog, which) -> {

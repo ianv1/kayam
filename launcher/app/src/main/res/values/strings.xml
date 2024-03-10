@@ -75,7 +75,9 @@
     <string name="create_user_same_name_error">Cannot create another user of the same name</string>
     <string name="create_user_empty_password_error">Password cannot be empty</string>
     <string name="create_user_incomplete_password_error">Password is incomplete</string>
-    <string name="privacy_policy_english">At Kayam School, we are dedicated to safeguarding the privacy of children and ensuring a secure environment for their learning. This Privacy Policy outlines the information we collect, how it is utilised, and the protective measures we have in place.
+    <string name="privacy_policy">Privacy Policy for Kayam School
+\n
+\nAt Kayam School, we are dedicated to safeguarding the privacy of children and ensuring a secure environment for their learning. This Privacy Policy outlines the information we collect, how it is utilised, and the protective measures we have in place.
 \n
 \n1. Information We Collect:
 \na. User Account Information: Teachers are responsible for creating student accounts, providing basic information such as the child\'s name, age, and class.
@@ -113,5 +115,53 @@
 \n
 \nLast Updated: 9th March 2024
 \n
-\nKayam School remains committed to providing a safe and effective learning platform for children, and we appreciate your trust in us.</string>
+\nKayam School remains committed to providing a safe and effective learning platform for children, and we appreciate your trust in us.
+\n\n\n
+\nDasar Privasi untuk Kayam School
+\n
+\nDi Kayam School, kami komited untuk melindungi privasi kanak-kanak dan memastikan persekitaran pembelajaran mereka yang selamat. Dasar Privasi ini menggariskan maklumat yang kami kumpulkan, cara penggunaannya, dan langkah-langkah perlindungan yang kami laksanakan.
+\n
+\n1. Maklumat Yang Kami Kumpul:
+\n
+\na. Maklumat Akaun Pengguna: Guru bertanggungjawab untuk mencipta akaun pelajar, menyediakan maklumat asas seperti nama kanak-kanak, umur, dan kelas.
+\n
+\nb. Data Kemajuan: Aplikasi secara berkala mengumpul maklumat mengenai kemajuan kanak-kanak dalam aktiviti literasi dan numerasi. Ini termasuk markah, kadar penyelesaian, dan sebarang cabaran yang dihadapi semasa proses pembelajaran.
+\n
+\nc. Data Penggunaan: Kami mengumpul maklumat tentang bagaimana aplikasi digunakan, termasuk corak navigasi, masa yang dihabiskan dalam aktiviti tertentu, dan penglibatan keseluruhan.
+\n
+\n2. Bagaimana Kami Menggunakan Maklumat:
+\n
+\na. Peribadahan: Data yang dikumpulkan digunakan untuk menyesuaikan pengalaman pembelajaran mengikut keperluan setiap kanak-kanak, menyediakan cadangan dan cabaran yang disesuaikan.
+\n
+\nb. Peningkatan Perkhidmatan: Kami menganalisis data yang dikumpulkan secara agregat untuk meningkatkan kandungan aplikasi, ciri-ciri, dan prestasi keseluruhan, memastikan pengalaman pembelajaran yang lebih baik untuk pengguna kami.
+\n
+\nc. Komunikasi: Kami mungkin menggunakan maklumat hubungan yang diberikan untuk berkomunikasi dengan guru atau pentadbir sekolah mengenai kemajuan keseluruhan pelajar, pencapaian, atau kemas kini aplikasi yang berkaitan.
+\n
+\n3. Keselamatan Data:
+\n
+\na. Kawalan Akses: Hanya kakitangan sekolah yang dibenarkan mempunyai akses kepada data pengguna, dan kawalan akses yang ketat dikenakan untuk memastikan kerahsiaannya.
+\n
+\nb. Anonimisasi: Sebarang data yang dikongsi secara luar untuk tujuan analisis atau peningkatan adalah dianonimkan, mengelakkan pengenalan individu pengguna.
+\n
+\n4. Kawalan Ibu Bapa:
+\n
+\na. Tanggungjawab Guru: Guru, sebagai pencipta akaun, bertanggungjawab untuk mendapatkan persetujuan ibu bapa yang diperlukan dan memastikan pematuhan dengan peraturan privasi yang berkaitan.
+\n
+\nb. Permintaan Akses dan Padam: Ibu bapa atau penjaga boleh meminta akses kepada data anak mereka atau memintanya dipadam dengan menghubungi pentadbiran sekolah.
+\n
+\n5. Perkhidmatan Pihak Ketiga:
+\n
+\na. Tiada Iklan: Kami tidak membenarkan pengiklanan pihak ketiga dalam aplikasi kami untuk mengekalkan persekitaran mesra kanak-kanak.
+\n
+\nb. Kemitraan Ketat: Sebarang perkhidmatan pihak ketiga yang terlibat mematuhi standard privasi dan keselamatan yang ketat.
+\n
+\n6. Perubahan kepada Dasar Privasi:
+\n
+\nKami berhak untuk mengemaskini Dasar Privasi ini untuk mencerminkan perubahan dalam amalan kami. Pengguna akan dimaklumkan tentang sebarang kemaskini yang signifikan.
+\n
+\nDengan menggunakan aplikasi kami, anda bersetuju dengan terma yang diterangkan dalam Dasar Privasi ini. Untuk sebarang pertanyaan atau kebimbangan, sila hubungi pasukan sokongan kami di enquiry@chumbaka.asia.
+\n
+\nTarikh Kemaskini Terakhir: 9 Mac 2024
+\n
+\nKayam School tetap komited untuk menyediakan platform pembelajaran yang selamat dan berkesan untuk kanak-kanak, dan kami menghargai kepercayaan anda kepada kami.</string>
 </resources>
