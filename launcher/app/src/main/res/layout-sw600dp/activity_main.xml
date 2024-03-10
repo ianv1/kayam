@@ -36,14 +36,14 @@
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:textColor="#673309"
-                android:textSize="24sp" />
+                android:textSize="32sp" />
 
         </LinearLayout>
 
         <ImageView
             android:id="@+id/imageView_coin"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:layout_centerVertical="true"
             android:layout_marginEnd="8dp"
             android:layout_toStartOf="@+id/textView_numCoin"
@@ -58,7 +58,7 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="16dp"
             android:textColor="#FDDB68"
-            android:textSize="24sp" />
+            android:textSize="32sp" />
 
     </RelativeLayout>
 
@@ -85,68 +85,68 @@
 
             <Button
                 android:id="@+id/button_todoschool"
-                android:layout_width="160dp"
-                android:layout_height="40dp"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:background="@drawable/rounded_corner_button"
                 android:padding="8dp"
                 android:text="@string/start"
                 android:textAlignment="center"
                 android:textColor="#673309"
-                android:textSize="20sp" />
+                android:textSize="36dp" />
 
             <Button
                 android:id="@+id/button_login"
-                android:layout_width="160dp"
-                android:layout_height="40dp"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:background="@drawable/rounded_corner_button"
                 android:padding="8dp"
                 android:text="@string/login"
                 android:textAlignment="center"
                 android:textColor="#673309"
-                android:textSize="20sp" />
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/button_logout"
-                android:layout_width="160dp"
-                android:layout_height="40dp"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:background="@drawable/rounded_corner_button"
                 android:padding="8dp"
                 android:text="@string/logout"
                 android:textAlignment="center"
                 android:textColor="#673309"
-                android:textSize="20sp"
+                android:textSize="36sp"
                 android:visibility="gone" />
 
             <Button
                 android:id="@+id/button_library"
-                android:layout_width="160dp"
-                android:layout_height="40dp"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:background="@drawable/rounded_corner_button"
                 android:padding="8dp"
                 android:text="@string/library"
                 android:textAlignment="center"
                 android:textColor="#673309"
-                android:textSize="20sp" />
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/button_exit_admin"
-                android:layout_width="160dp"
-                android:layout_height="40dp"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/rounded_corner_button"
                 android:padding="8dp"
                 android:text="@string/exit_admin_mode"
                 android:textAlignment="center"
                 android:textColor="#673309"
-                android:textSize="20sp"
+                android:textSize="36sp"
                 android:visibility="gone" />
 
         </LinearLayout>
@@ -168,12 +168,12 @@
             android:layout_toStartOf="@id/logo_gif"
             android:text="Powered by "
             android:textColor="@android:color/black"
-            android:textSize="24sp" />
+            android:textSize="32sp" />
 
         <ImageView
             android:id="@+id/logo_gif"
-            android:layout_width="100dp"
-            android:layout_height="24dp"
+            android:layout_width="140dp"
+            android:layout_height="32dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:scaleType="fitCenter" />

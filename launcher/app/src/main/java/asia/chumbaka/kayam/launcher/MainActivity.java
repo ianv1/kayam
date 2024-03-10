@@ -167,7 +167,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         setContentView(R.layout.activity_main);
         Util.hideSystemUI(this);
         cntx = getBaseContext();
-        Util.setScale(this, findViewById(R.id.main_content));
+//        Util.setScale(this, findViewById(R.id.main_content));
 
         loadApps();
 
@@ -470,10 +470,10 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
 
         if (currentUser == null) {
-            imageViewCoin.setVisibility(View.GONE);
-            textViewCoinNum.setVisibility(View.GONE);
-            mTvUserName.setVisibility(View.GONE);
-            llUserName.setVisibility(View.GONE);
+            imageViewCoin.setVisibility(View.INVISIBLE);
+            textViewCoinNum.setVisibility(View.INVISIBLE);
+            mTvUserName.setVisibility(View.INVISIBLE);
+            llUserName.setVisibility(View.INVISIBLE);
             buttonLogin.setVisibility(View.VISIBLE);
             buttonLogout.setVisibility(View.GONE);
             return;
