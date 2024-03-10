@@ -31,6 +31,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -88,6 +89,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
     private Context cntx = null;
     private TextView mTvUserName;
+
+    private boolean isEnglish = true;
 
     private PowerConnectionReceiver _batteryinfo = new PowerConnectionReceiver() {
         @Override
@@ -1140,11 +1143,33 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         if (user.isAcceptTnC()) {
             return false;
         } else {
+            View dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_privacy_policy, null);
+            Button button = dialogView.findViewById(R.id.switch_language_button);
+            TextView textView = dialogView.findViewById(R.id.privacy_policy_tv);
+            TextView titleTextView = dialogView.findViewById(R.id.privacy_policy_title_tv);
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (isEnglish) {
+                        button.setText("ENG");
+                        titleTextView.setText(R.string.privacy_policy_malay_title);
+                        textView.setText(R.string.privacy_policy_malay);
+                        isEnglish = false;
+                    } else {
+                        button.setText("BM");
+                        titleTextView.setText(R.string.privacy_policy_english_title);
+                        textView.setText(R.string.privacy_policy_english);
+                        isEnglish = true;
+                    }
+                }
+            });
+
             new AlertDialog.Builder(this)
                     .setTitle("Hi " + user.getDisplayName())
                     .setMessage("By continuing, you agree to our privacy policy")
-                    .setNeutralButton("Read Privacy Policy (ENG, BM)", (dialogInterface, i) -> new AlertDialog.Builder(MainActivity.this)
-                            .setMessage(R.string.privacy_policy)
+                    .setNeutralButton("Read Privacy Policy (ENG, BM)", (dialogInterface, i) ->
+                            new AlertDialog.Builder(MainActivity.this)
+                            .setView(dialogView)
                             .setPositiveButton("OK", (dialogInterface1, i1) -> gotoTnC())
                             .show())
                     .setPositiveButton(R.string.dialog_yes, (dialog, which) -> {

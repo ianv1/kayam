@@ -75,51 +75,8 @@
     <string name="create_user_same_name_error">Cannot create another user of the same name</string>
     <string name="create_user_empty_password_error">Password cannot be empty</string>
     <string name="create_user_incomplete_password_error">Password is incomplete</string>
-    <string name="privacy_policy">Privacy Policy for Kayam School
-\n
-\nAt Kayam School, we are dedicated to safeguarding the privacy of children and ensuring a secure environment for their learning. This Privacy Policy outlines the information we collect, how it is utilised, and the protective measures we have in place.
-\n
-\n1. Information We Collect:
-\na. User Account Information: Teachers are responsible for creating student accounts, providing basic information such as the child\'s name, age, and class.
-\n
-\nb. Progress Data: The app periodically collects information on the child\'s progress in literacy and numeracy activities. This includes scores, completion rates, and any challenges faced during the learning process.
-\n
-\nc. Usage Data: We gather information on how the app is used, including navigation patterns, time spent on specific activities, and overall engagement.
-\n
-\n2. How We Use the Information:
-\na. Personalisation: The collected data is used to tailor the learning experience to each child\'s needs, providing customised recommendations and challenges.
-\n
-\nb. Improvement of Services: We analyse aggregated data to enhance our app\'s content, features, and overall performance, ensuring a better learning experience for our users.
-\n
-\nc. Communication: We may use the provided contact information to communicate with teachers or school administrators about overall student progress, achievements, or relevant app updates.
-\n
-\n3. Data Security:
-\na. Access Control: Only authorised school personnel have access to user data, and strict access controls are implemented to ensure its confidentiality.
-\n
-\nb. Anonymisation: Any data shared externally for analysis or improvement purposes is anonymised, preventing the identification of individual users.
-\n
-\n4. Parental Controls:
-\na. Teacher Responsibility: Teachers, as account creators, are responsible for obtaining any necessary parental consent and ensuring compliance with relevant privacy regulations.
-\n
-\nb. Access and Deletion Requests: Parents or guardians can request access to their child's data or its deletion by contacting the school administration.
-\n
-\n5. Third-Party Services:
-\na. No Advertising: We do not allow third-party advertising in our app to maintain a child-friendly environment.
-\n
-\nb. Strict Partnerships: Any third-party services involved comply with strict privacy and security standards.
-\n
-\n6. Changes to Privacy Policy:
-\nWe reserve the right to update this Privacy Policy to reflect changes in our practices. Users will be notified of any significant updates.
-\n
-\nBy using our app, you agree to the terms outlined in this Privacy Policy. For any questions or concerns, please contact our support team at enquiry@chumbaka.asia.
-\n
-\nLast Updated: 9th March 2024
-\n
-\nKayam School remains committed to providing a safe and effective learning platform for children, and we appreciate your trust in us.
-\n\n\n
-\nDasar Privasi untuk Kayam School
-\n
-\nDi Kayam School, kami komited untuk melindungi privasi kanak-kanak dan memastikan persekitaran pembelajaran mereka yang selamat. Dasar Privasi ini menggariskan maklumat yang kami kumpulkan, cara penggunaannya, dan langkah-langkah perlindungan yang kami laksanakan.
+    <string name="privacy_policy_malay_title">Dasar Privasi untuk Kayam School</string>
+    <string name="privacy_policy_malay">Di Kayam School, kami komited untuk melindungi privasi kanak-kanak dan memastikan persekitaran pembelajaran mereka yang selamat. Dasar Privasi ini menggariskan maklumat yang kami kumpulkan, cara penggunaannya, dan langkah-langkah perlindungan yang kami laksanakan.
 \n
 \n1. Maklumat Yang Kami Kumpul:
 \n
@@ -163,5 +120,47 @@
 \n
 \nTarikh Kemaskini Terakhir: 9 Mac 2024
 \n
-\nKayam School tetap komited untuk menyediakan platform pembelajaran yang selamat dan berkesan untuk kanak-kanak, dan kami menghargai kepercayaan anda kepada kami.</string>
+\nKayam School tetap komited untuk menyediakan platform pembelajaran yang selamat dan berkesan untuk kanak-kanak, dan kami menghargai kepercayaan anda kepada kami.
+    </string>
+    <string name="privacy_policy_english_title">Privacy Policy for Kayam School</string>
+    <string name="privacy_policy_english">At Kayam School, we are dedicated to safeguarding the privacy of children and ensuring a secure environment for their learning. This Privacy Policy outlines the information we collect, how it is utilised, and the protective measures we have in place.
+\n
+\n1. Information We Collect:
+\na. User Account Information: Teachers are responsible for creating student accounts, providing basic information such as the child\'s name, age, and class.
+\n
+\nb. Progress Data: The app periodically collects information on the child\'s progress in literacy and numeracy activities. This includes scores, completion rates, and any challenges faced during the learning process.
+\n
+\nc. Usage Data: We gather information on how the app is used, including navigation patterns, time spent on specific activities, and overall engagement.
+\n
+\n2. How We Use the Information:
+\na. Personalisation: The collected data is used to tailor the learning experience to each child\'s needs, providing customised recommendations and challenges.
+\n
+\nb. Improvement of Services: We analyse aggregated data to enhance our app\'s content, features, and overall performance, ensuring a better learning experience for our users.
+\n
+\nc. Communication: We may use the provided contact information to communicate with teachers or school administrators about overall student progress, achievements, or relevant app updates.
+\n
+\n3. Data Security:
+\na. Access Control: Only authorised school personnel have access to user data, and strict access controls are implemented to ensure its confidentiality.
+\n
+\nb. Anonymisation: Any data shared externally for analysis or improvement purposes is anonymised, preventing the identification of individual users.
+\n
+\n4. Parental Controls:
+\na. Teacher Responsibility: Teachers, as account creators, are responsible for obtaining any necessary parental consent and ensuring compliance with relevant privacy regulations.
+\n
+\nb. Access and Deletion Requests: Parents or guardians can request access to their child\'s data or its deletion by contacting the school administration.
+\n
+\n5. Third-Party Services:
+\na. No Advertising: We do not allow third-party advertising in our app to maintain a child-friendly environment.
+\n
+\nb. Strict Partnerships: Any third-party services involved comply with strict privacy and security standards.
+\n
+\n6. Changes to Privacy Policy:
+\nWe reserve the right to update this Privacy Policy to reflect changes in our practices. Users will be notified of any significant updates.
+\n
+\nBy using our app, you agree to the terms outlined in this Privacy Policy. For any questions or concerns, please contact our support team at enquiry@chumbaka.asia.
+\n
+\nLast Updated: 9th March 2024
+\n
+\nKayam School remains committed to providing a safe and effective learning platform for children, and we appreciate your trust in us.
+</string>
 </resources>
