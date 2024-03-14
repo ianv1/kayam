@@ -1,6 +1,6 @@
 /****************************************************************************
 Copyright (c) 2015-2017 Chukong Technologies Inc.
- 
+
 http://www.cocos2d-x.org
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -40,6 +40,7 @@ import android.os.Environment;
 import android.os.Process;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
+import android.widget.Toast;
 
 import asia.chumbaka.kitkitProvider.Fish;
 import asia.chumbaka.kitkitProvider.KitkitDBHandler;
@@ -318,6 +319,16 @@ public class AppActivity extends Cocos2dxActivity {
     public static void deleteAllUserDefault() {
         if (_activity != null) {
             _activity.getSharedPreferences("Cocos2dxPrefsFile", 0).edit().clear().apply();
+        }
+    }
+
+    public static void showComingSoon() {
+        if (_activity != null) {
+            _activity.runOnUiThread(new Runnable() {
+                public void run() {
+                    Toast.makeText(_activity, "Coming soon. Stay tuned for updates!", Toast.LENGTH_SHORT).show();
+                }
+            });
         }
     }
 

@@ -355,53 +355,57 @@ void CoopScene::setupCoop()
                 
                 if (UserManager::getInstance()->isLevelOpen(levelID)) {
                     if (l == LEVEL_FISH_PRESENT) {
-                        auto popup = LevelOpenPopup::create(this);
-                        popup->setup(levelID);
-                        popup->onloadCallback = CallFunc::create([this](){
-                            this->setTouchEnabled(true);
-                        });
-                        
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
-                        JniHelper::callStaticVoidMethod("org/cocos2dx/cpp/AppActivity", "setUnlockFishBowl", true);
+                        JniHelper::callStaticVoidMethod("org/cocos2dx/cpp/AppActivity", "showComingSoon");
+                        this->setTouchEnabled(true);
 #endif
-                        popup->show(this, true);
-                        
-                        auto onEndAnimation = [this, popup, levelID, l]() {
-                            popup->dismiss(true);
-                            auto stars = UserManager::getInstance()->getStars() - 10;
-                            if (stars < 0) {
-                                stars = 0;
-                            }
-                            UserManager::getInstance()->updateStars(stars);
-                            
-                            string gameName = (this->_coopType== CT_LITERACY) ? "EggQuizLiteracy" : "EggQuizMath";
-                            int progressLevel = UserManager::getInstance()->getFishPresentCurrentProgressLevel(levelID);
-                            auto course = (this->_coopType== CT_LITERACY) ? "Literacy" : "Math";
-                            auto levels = EggQuiz::ProblemBank::getInstance()->getLevels(course);
-                            int setCount = 0;
-                            auto prefix = "fishtest_" + TodoUtil::itos(progressLevel + 1) + "_";
-                            for (auto level : levels) {
-                                if (TodoUtil:: TodoUtil::startsWith(level, prefix)) {
-                                    ++setCount;
-                                }
-                            }
-                            
-                            int progressIndex = UserManager::getInstance()->getFishPresentCurrentProgressIndex(levelID, progressLevel);
-                            
-                            CCLOG("fish present - levelID : %s", levelID.c_str());
-                            CCLOG("fish present - setCount = %d", setCount);
-                            CCLOG("fish present - progressLevel = %d", progressLevel);
-                            CCLOG("fish present - progressIndex = %d", progressIndex);
-                            
-                            string param = StringUtils::format("fishtest_%d_%d", progressLevel + 1, (progressIndex % setCount) + 1);
-                            EggQuiz::EggQuizScene::resetTryCountFishTest();
-                            CCAppController::sharedAppController()->startGame(gameName, l, param);
-                            _holdCheckLight = false;
-                        };
-                        
-                        popup->onRemoveCoin = [this, onEndAnimation](Vec2 toPosWorld) {
-                            this->_coinTab->removeCoin(10, toPosWorld, onEndAnimation);
-                        };
+//                        auto popup = LevelOpenPopup::create(this);
+//                        popup->setup(levelID);
+//                        popup->onloadCallback = CallFunc::create([this](){
+//                            this->setTouchEnabled(true);
+//                        });
+//
+//#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+//                        JniHelper::callStaticVoidMethod("org/cocos2dx/cpp/AppActivity", "setUnlockFishBowl", true);
+//#endif
+//                        popup->show(this, true);
+//
+//                        auto onEndAnimation = [this, popup, levelID, l]() {
+//                            popup->dismiss(true);
+//                            auto stars = UserManager::getInstance()->getStars() - 10;
+//                            if (stars < 0) {
+//                                stars = 0;
+//                            }
+//                            UserManager::getInstance()->updateStars(stars);
+//
+//                            string gameName = (this->_coopType== CT_LITERACY) ? "EggQuizLiteracy" : "EggQuizMath";
+//                            int progressLevel = UserManager::getInstance()->getFishPresentCurrentProgressLevel(levelID);
+//                            auto course = (this->_coopType== CT_LITERACY) ? "Literacy" : "Math";
+//                            auto levels = EggQuiz::ProblemBank::getInstance()->getLevels(course);
+//                            int setCount = 0;
+//                            auto prefix = "fishtest_" + TodoUtil::itos(progressLevel + 1) + "_";
+//                            for (auto level : levels) {
+//                                if (TodoUtil:: TodoUtil::startsWith(level, prefix)) {
+//                                    ++setCount;
+//                                }
+//                            }
+//
+//                            int progressIndex = UserManager::getInstance()->getFishPresentCurrentProgressIndex(levelID, progressLevel);
+//
+//                            CCLOG("fish present - levelID : %s", levelID.c_str());
+//                            CCLOG("fish present - setCount = %d", setCount);
+//                            CCLOG("fish present - progressLevel = %d", progressLevel);
+//                            CCLOG("fish present - progressIndex = %d", progressIndex);
+//
+//                            string param = StringUtils::format("fishtest_%d_%d", progressLevel + 1, (progressIndex % setCount) + 1);
+//                            EggQuiz::EggQuizScene::resetTryCountFishTest();
+//                            CCAppController::sharedAppController()->startGame(gameName, l, param);
+//                            _holdCheckLight = false;
+//                        };
+//
+//                        popup->onRemoveCoin = [this, onEndAnimation](Vec2 toPosWorld) {
+//                            this->_coinTab->removeCoin(10, toPosWorld, onEndAnimation);
+//                        };
 
                     } else {
                         StrictLogManager::shared()->courseChoice_TouchAnimal(levelID);

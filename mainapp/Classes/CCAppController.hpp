@@ -46,7 +46,7 @@ public:
 	void startVideoScene(std::string filename, bool replaceParent = false);
     
     void startQuiz(std::string classroom, int studentNumber, std::string courseKind);
-   // void startEggQuiz(char category, int categoryLevel, bool isPreTest, std::function<void(bool)> callback);
+    void startEggQuiz(char category, int categoryLevel, bool isPreTest, std::function<void(bool)> callback);
     
     void handleGameQuit(bool bImmediately = false);
     void handleGameComplete(int result);
