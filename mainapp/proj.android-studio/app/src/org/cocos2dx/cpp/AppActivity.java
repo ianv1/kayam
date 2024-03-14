@@ -644,6 +644,13 @@ public class AppActivity extends Cocos2dxActivity {
         Cocos2dxVideoHelper.pauseVideo(_videoPlayerIndex);
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        _dbHandler.deleteCurrentUser();
+        finish();
+    }
+
     private static SpeechRecognition mSpeechRecognition;
     private static PlayAudio mPlayAudio;
     public static void onSetupSpeechRecognition() {

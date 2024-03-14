@@ -103,6 +103,14 @@ public class MainActivity extends KitKitLoggerActivity {
         String foldername;
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        KitKitLogger logger = ((LibraryApplication) getApplication()).getLogger();
+        logger.logout();
+        finish();
+    }
+
     public static class VideoFragment extends Fragment {
 
         ArrayList<VideoData> videoArray;

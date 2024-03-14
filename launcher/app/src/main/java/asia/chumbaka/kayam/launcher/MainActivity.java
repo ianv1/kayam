@@ -372,6 +372,14 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
     @Override
+    protected void onStop() {
+        super.onStop();
+        KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
+        dbHandler.deleteCurrentUser();
+        refreshUI();
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
         KitKitLogger logger = ((LauncherApplication) getApplication()).getLogger();
@@ -471,6 +479,9 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         LinearLayout llUserName = (LinearLayout) findViewById(R.id.ll_currentUserId);
         Button buttonLogin = (Button) findViewById(R.id.button_login);
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
+        final Button exitAdminButton = (Button) findViewById(R.id.button_exit_admin);
+        Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
+        exitAdminButton.setTypeface(face);
 
         if (currentUser == null) {
             imageViewCoin.setVisibility(View.INVISIBLE);
@@ -479,6 +490,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             llUserName.setVisibility(View.INVISIBLE);
             buttonLogin.setVisibility(View.VISIBLE);
             buttonLogout.setVisibility(View.GONE);
+            exitAdminButton.setVisibility(View.GONE);
             return;
         } else {
             imageViewCoin.setVisibility(View.VISIBLE);
@@ -505,9 +517,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             libraryButton.setEnabled(false);
         }
 
-        final Button exitAdminButton = (Button) findViewById(R.id.button_exit_admin);
-        Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
-        exitAdminButton.setTypeface(face);
         if (currentUser.getUserName().equals("admin")) {
             exitAdminButton.setVisibility(View.VISIBLE);
             exitAdminButton.setOnClickListener(new View.OnClickListener() {

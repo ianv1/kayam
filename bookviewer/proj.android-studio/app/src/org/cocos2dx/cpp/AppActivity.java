@@ -121,6 +121,14 @@ public class AppActivity extends Cocos2dxActivity {
     }
 
     @Override
+    protected void onStop() {
+        super.onStop();
+        KitKitLogger logger = ((BookApplication) getApplication()).getLogger();
+        logger.logout();
+        finish();
+    }
+
+    @Override
     protected void onResume() {
         super.onResume();
 

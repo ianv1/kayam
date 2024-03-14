@@ -115,6 +115,10 @@ public class KitKitLogger {
         dbHandler = new KitkitDBHandler(_ctnx);
     }
 
+    public void logout() {
+        dbHandler.deleteCurrentUser();
+    }
+
     public void tagScreen(String screenName) {
         try {
             JSONObject eventValue = new JSONObject();
