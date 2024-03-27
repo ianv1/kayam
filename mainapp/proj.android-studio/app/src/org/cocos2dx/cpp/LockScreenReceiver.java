@@ -1,4 +1,4 @@
-package asia.chumbaka.kayam.launcher;
+package org.cocos2dx.cpp;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -15,9 +15,11 @@ import asia.chumbaka.kitkitProvider.KitkitDBHandler;
 public class LockScreenReceiver extends BroadcastReceiver {
 
     private KitkitDBHandler dbHandler;
+    private AppActivity activity;
 
-    public LockScreenReceiver(KitkitDBHandler dbHandler) {
+    public LockScreenReceiver(KitkitDBHandler dbHandler, AppActivity activity) {
         this.dbHandler = dbHandler;
+        this.activity = activity;
     }
 
     @Override
@@ -32,6 +34,7 @@ public class LockScreenReceiver extends BroadcastReceiver {
         {
             Log.d("LockScreenReceiver","Delete user");
             dbHandler.deleteCurrentUser();
+            activity.finish();
             Log.d("LockScreenReceiver","Start intent");
             try {
                 Intent i = new Intent(Intent.ACTION_MAIN);

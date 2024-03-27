@@ -1,35 +1,38 @@
 /****************************************************************************
-Copyright (c) 2015-2017 Chukong Technologies Inc.
+ Copyright (c) 2015-2017 Chukong Technologies Inc.
 
-http://www.cocos2d-x.org
+ http://www.cocos2d-x.org
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-****************************************************************************/
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ ****************************************************************************/
 package org.cocos2dx.cpp;
 
 
 import android.Manifest;
 import android.app.ActivityManager;
 import android.app.AlarmManager;
+import android.app.KeyguardManager;
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -42,11 +45,6 @@ import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-import asia.chumbaka.kitkitProvider.Fish;
-import asia.chumbaka.kitkitProvider.KitkitDBHandler;
-import asia.chumbaka.kitkitProvider.User;
-import asia.chumbaka.kitkitlogger.KitKitLogger;
-
 import org.cocos2dx.cpp.ReadingBird.PlayAudio;
 import org.cocos2dx.cpp.ReadingBird.SpeechRecognition;
 import org.cocos2dx.lib.Cocos2dxActivity;
@@ -57,6 +55,11 @@ import org.cocos2dx.lib.Cocos2dxVideoHelper;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.UUID;
+
+import asia.chumbaka.kitkitProvider.Fish;
+import asia.chumbaka.kitkitProvider.KitkitDBHandler;
+import asia.chumbaka.kitkitProvider.User;
+import asia.chumbaka.kitkitlogger.KitKitLogger;
 
 
 public class AppActivity extends Cocos2dxActivity {
@@ -72,7 +75,12 @@ public class AppActivity extends Cocos2dxActivity {
     protected static User currentUser;
     protected boolean signModeOn;
     private static int _videoPlayerIndex = 0;
-    public static AppActivity instance() { return _activity; }
+
+    public static AppActivity instance() {
+        return _activity;
+    }
+
+    BroadcastReceiver receiver;
 
     public boolean isPermissionGranted() {
         if (Build.VERSION.SDK_INT >= 23) {
@@ -80,19 +88,20 @@ public class AppActivity extends Cocos2dxActivity {
                     == PackageManager.PERMISSION_GRANTED &&
                     checkSelfPermission(Manifest.permission.RECORD_AUDIO)
                             == PackageManager.PERMISSION_GRANTED) {
-                Log.v(TAG,"Permission is granted");
+                Log.v(TAG, "Permission is granted");
                 return true;
             } else {
 
-                Log.v(TAG,"Permission is revoked");
+                Log.v(TAG, "Permission is revoked");
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO}, 1);
                 return false;
             }
         } else { //permission is automatically granted on sdk<23 upon installation
-            Log.v(TAG,"Permission is granted");
+            Log.v(TAG, "Permission is granted");
             return true;
         }
     }
+
     public static String getLaunchString() {
         return _launchString;
     }
@@ -114,56 +123,78 @@ public class AppActivity extends Cocos2dxActivity {
             return;
         }
         // DO OTHER INITIALIZATION BELOW
-        Log.d(TAG,"onCreate");
+        Log.d(TAG, "onCreate");
         isPermissionGranted();
         _activity = this;
         _dbHandler = new KitkitDBHandler(_activity);
 
         Bundle extras = getIntent().getExtras();
-        if(extras != null) {
-            if(extras.getBoolean("clearAppData", false)) {
+        if (extras != null) {
+            if (extras.getBoolean("clearAppData", false)) {
                 clearAppData();
             }
             if (getIntent().hasExtra("test")) {
                 _launchString = extras.getString("test");
-                Log.d(TAG,"onCreate launch string " + _launchString);
+                Log.d(TAG, "onCreate launch string " + _launchString);
 
             }
         }
 
         // init sign-language value
         try {
-            Context launcherContext = createPackageContext("asia.chumbaka.kayam.launcher",0);
+            Context launcherContext = createPackageContext("asia.chumbaka.kayam.launcher", 0);
             SharedPreferences pref = launcherContext.getSharedPreferences("sharedPref", Context.MODE_PRIVATE);
             signModeOn = pref.getBoolean("sign_language_mode_on", false);
             Cocos2dxHelper.setBoolForKey("sign_language_mode_on", signModeOn);
-        }
-        catch (PackageManager.NameNotFoundException ne) {
+        } catch (PackageManager.NameNotFoundException ne) {
             Log.e(TAG, ne.toString());
         }
 
         try {
-            Context launcherContext = createPackageContext("asia.chumbaka.kayam.launcher",0);
+            Context launcherContext = createPackageContext("asia.chumbaka.kayam.launcher", 0);
             SharedPreferences pref = launcherContext.getSharedPreferences("sharedPref", Context.MODE_PRIVATE);
             appLanguage = pref.getString("appLanguage", getString(asia.chumbaka.kitkitlogger.R.string.defaultLanguage));
             Cocos2dxHelper.setStringForKey("appLanguage", appLanguage);
-        }
-        catch (PackageManager.NameNotFoundException ne) {
+        } catch (PackageManager.NameNotFoundException ne) {
             Log.e(TAG, ne.toString());
         }
 
         try {
-            currentUser = ((KitkitSchoolApplication)getApplication()).getDbHandler().getCurrentUser();
+            currentUser = ((KitkitSchoolApplication) getApplication()).getDbHandler().getCurrentUser();
             currentUsername = currentUser.getUserName();
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");
         }
 
+        registerLockscreenReceiver();
     }
 
-    public Cocos2dxGLSurfaceView onCreateView()
-    {
+    private void registerLockscreenReceiver() {
+        KeyguardManager.KeyguardLock key;
+        KeyguardManager km = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
+
+        //This is deprecated, but it is a simple way to disable the lockscreen in code
+        key = km.newKeyguardLock("IN");
+
+        try {
+            key.disableKeyguard();
+        } catch (SecurityException e) {
+            //kindle code goes here
+        }
+
+        //Start listening for the Screen On, Screen Off, and Boot completed actions
+        IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
+        filter.addAction(Intent.ACTION_SCREEN_OFF);
+        filter.addAction(Intent.ACTION_BOOT_COMPLETED);
+
+        KitkitDBHandler dbHandler = ((KitkitSchoolApplication) getApplication()).getDbHandler();
+
+        //Set up a receiver to listen for the Intents in this Service
+        receiver = new LockScreenReceiver(dbHandler, this);
+        registerReceiver(receiver, filter);
+    }
+
+    public Cocos2dxGLSurfaceView onCreateView() {
         glSurfaceView = new Cocos2dxGLSurfaceView(this);
 
         this.hideSystemUI();
@@ -203,7 +234,7 @@ public class AppActivity extends Cocos2dxActivity {
     public void onResume() {
         {
             try {
-                Context context = createPackageContext("asia.chumbaka.kayam.launcher",0);
+                Context context = createPackageContext("asia.chumbaka.kayam.launcher", 0);
                 SharedPreferences pref = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
                 boolean isReviewModeOn = pref.getBoolean("review_mode_on", false);
                 Cocos2dxHelper.setBoolForKey("review_mode_on", isReviewModeOn);
@@ -215,24 +246,24 @@ public class AppActivity extends Cocos2dxActivity {
 
         super.onResume();
 
-        Log.d(TAG,"onResume");
+        Log.d(TAG, "onResume");
 
         Bundle extras = getIntent().getExtras();
-        if(extras != null) {
-            Log.d(TAG,"onResume extra is not null");
-            if(extras.getBoolean("clearAppData", false)) {
-                Log.d(TAG,"onResume clearAppData is true");
+        if (extras != null) {
+            Log.d(TAG, "onResume extra is not null");
+            if (extras.getBoolean("clearAppData", false)) {
+                Log.d(TAG, "onResume clearAppData is true");
                 clearAppData();
             }
             if (getIntent().hasExtra("test")) {
                 _launchString = extras.getString("test");
-                Log.d(TAG,"onResume launch string " + _launchString);
+                Log.d(TAG, "onResume launch string " + _launchString);
             }
         }
 
         // sign-language
         try {
-            Context context = createPackageContext("asia.chumbaka.kayam.launcher",0);
+            Context context = createPackageContext("asia.chumbaka.kayam.launcher", 0);
             SharedPreferences pref = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
             boolean sharedSignModeOn = pref.getBoolean("sign_language_mode_on", false);
 
@@ -241,14 +272,13 @@ public class AppActivity extends Cocos2dxActivity {
                 Cocos2dxHelper.setBoolForKey("sign_language_mode_on", signModeOn);
                 restartApp();
             }
-        }
-        catch (PackageManager.NameNotFoundException ne) {
+        } catch (PackageManager.NameNotFoundException ne) {
             Log.e(TAG, ne.toString());
         }
 
         // language
         try {
-            Context context = createPackageContext("asia.chumbaka.kayam.launcher",0);
+            Context context = createPackageContext("asia.chumbaka.kayam.launcher", 0);
             SharedPreferences pref = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
             String sharedLang = pref.getString("appLanguage", getString(asia.chumbaka.kitkitlogger.R.string.defaultLanguage));
 
@@ -257,20 +287,18 @@ public class AppActivity extends Cocos2dxActivity {
 
                 restartApp();
             }
-        }
-        catch (PackageManager.NameNotFoundException ne) {
+        } catch (PackageManager.NameNotFoundException ne) {
             Log.e(TAG, ne.toString());
         }
 
         // user
         try {
-            currentUser = ((KitkitSchoolApplication)getApplication()).getDbHandler().getCurrentUser();
+            currentUser = ((KitkitSchoolApplication) getApplication()).getDbHandler().getCurrentUser();
 
             if (!currentUsername.equals(currentUser.getUserName())) {
                 restartApp();
             }
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");
         }
 
@@ -281,19 +309,15 @@ public class AppActivity extends Cocos2dxActivity {
     }
 
 
-
     @Override
-    public void onWindowFocusChanged(boolean hasFocus)
-    {
+    public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
-        if (hasFocus)
-        {
+        if (hasFocus) {
             this.hideSystemUI();
         }
     }
 
-    private void hideSystemUI()
-    {
+    private void hideSystemUI() {
         // Set the IMMERSIVE flag.
         // Set the content to appear under the system bars so that the content
         // doesn't resize when the system bars hide and show.
@@ -306,8 +330,7 @@ public class AppActivity extends Cocos2dxActivity {
                         | Cocos2dxGLSurfaceView.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
     }
 
-    public void hideSystemUIOnUIThread()
-    {
+    public void hideSystemUIOnUIThread() {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -337,8 +360,7 @@ public class AppActivity extends Cocos2dxActivity {
         //moveTaskToBack(true);
     }
 
-    static
-    {
+    static {
         System.loadLibrary("MyGame");
     }
 
@@ -349,7 +371,7 @@ public class AppActivity extends Cocos2dxActivity {
 
     public static void logEvent(String eventString) {
         Log.d(TAG, "logEvent");
-        KitKitLogger logger = ((KitkitSchoolApplication)_activity.getApplication()).getLogger();
+        KitKitLogger logger = ((KitkitSchoolApplication) _activity.getApplication()).getLogger();
         logger.logEvent(eventString);
 
 //        boolean isNew = false;
@@ -431,15 +453,16 @@ public class AppActivity extends Cocos2dxActivity {
 
         return "";
     }
+
     private void clearAppData() {
         if (VERSION_CODES.KITKAT <= VERSION.SDK_INT) {
-            ((ActivityManager)getContext().getSystemService(ACTIVITY_SERVICE))
+            ((ActivityManager) getContext().getSystemService(ACTIVITY_SERVICE))
                     .clearApplicationUserData();
         } else {
             try {
                 String packageName = getApplicationContext().getPackageName();
                 Runtime runtime = Runtime.getRuntime();
-                runtime.exec("pm clear "+packageName);
+                runtime.exec("pm clear " + packageName);
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -450,9 +473,9 @@ public class AppActivity extends Cocos2dxActivity {
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if(grantResults[0]== PackageManager.PERMISSION_GRANTED && grantResults[1]== PackageManager.PERMISSION_GRANTED){
-            Log.v(TAG, "Permission: "+permissions[0]+ " was "+grantResults[0]);
-            Log.v(TAG, "Permission: "+permissions[1]+ " was "+grantResults[1]);
+        if (grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+            Log.v(TAG, "Permission: " + permissions[0] + " was " + grantResults[0]);
+            Log.v(TAG, "Permission: " + permissions[1] + " was " + grantResults[1]);
         }
     }
 
@@ -484,14 +507,13 @@ public class AppActivity extends Cocos2dxActivity {
     public static void updateStars(int numStars) {
 
         try {
-            KitkitDBHandler dbHandler = ((KitkitSchoolApplication)_activity.getApplication()).getDbHandler();
+            KitkitDBHandler dbHandler = ((KitkitSchoolApplication) _activity.getApplication()).getDbHandler();
             User user = dbHandler.getCurrentUser();
 
             user.setNumStars(numStars);
             dbHandler.updateUser(user);
 
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");
         }
 
@@ -500,12 +522,11 @@ public class AppActivity extends Cocos2dxActivity {
 
     public static int getStars() {
         try {
-            KitkitDBHandler dbHandler = ((KitkitSchoolApplication)_activity.getApplication()).getDbHandler();
+            KitkitDBHandler dbHandler = ((KitkitSchoolApplication) _activity.getApplication()).getDbHandler();
             User user = dbHandler.getCurrentUser();
 
             return user.getNumStars();
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");
             return 0;
         }
@@ -516,8 +537,7 @@ public class AppActivity extends Cocos2dxActivity {
     public static String getCurrentUsername() {
         try {
             return currentUsername;
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");
             return "";
         }
@@ -527,13 +547,12 @@ public class AppActivity extends Cocos2dxActivity {
     public static void finishTutorial() {
 
         try {
-            KitkitDBHandler dbHandler = ((KitkitSchoolApplication)_activity.getApplication()).getDbHandler();
+            KitkitDBHandler dbHandler = ((KitkitSchoolApplication) _activity.getApplication()).getDbHandler();
             User user = dbHandler.getCurrentUser();
             user.setFinishTutorial(true);
             dbHandler.updateUser(user);
 
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");
         }
 
@@ -541,12 +560,11 @@ public class AppActivity extends Cocos2dxActivity {
 
     public static void setUnlockFishBowl(boolean isUnlock) {
         try {
-            KitkitDBHandler dbHandler = ((KitkitSchoolApplication)_activity.getApplication()).getDbHandler();
+            KitkitDBHandler dbHandler = ((KitkitSchoolApplication) _activity.getApplication()).getDbHandler();
             User user = dbHandler.getCurrentUser();
             user.setUnlockFishBowl(isUnlock);
             dbHandler.updateUser(user);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");
         }
     }
@@ -554,7 +572,7 @@ public class AppActivity extends Cocos2dxActivity {
     public static void setGameCleared(String levelID, int day, int gameIndex, boolean isCleared) {
         try {
             if (isCleared) {
-                String level = levelID.replaceAll("\\D+","");
+                String level = levelID.replaceAll("\\D+", "");
                 String currentLevel = level + "_" + day + "_" + gameIndex;
                 String[] levelIDSplit = levelID.split("_");
 
@@ -565,7 +583,7 @@ public class AppActivity extends Cocos2dxActivity {
                     }
                 }
 
-                KitkitDBHandler dbHandler = ((KitkitSchoolApplication)_activity.getApplication()).getDbHandler();
+                KitkitDBHandler dbHandler = ((KitkitSchoolApplication) _activity.getApplication()).getDbHandler();
                 User user = dbHandler.getCurrentUser();
 
                 if (isEnglish) {
@@ -599,8 +617,7 @@ public class AppActivity extends Cocos2dxActivity {
                 }
                 dbHandler.updateUser(user);
             }
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "error when getting current user. please check launcher is installed.");
         }
     }
@@ -618,17 +635,16 @@ public class AppActivity extends Cocos2dxActivity {
             }
         } else {
             try {
-                String packageName = "library.todoschool.enuma.com.todoschoollibrary";
+                String packageName = "asia.chumbaka.kayam.library";
 
-                Context libraryContext = _activity.createPackageContext(packageName,0);
+                Context libraryContext = _activity.createPackageContext(packageName, 0);
                 int rId = libraryContext.getResources().getIdentifier(filename, "raw", libraryContext.getPackageName());
                 if (rId > 0) {
                     String uri = "android.resource://" + packageName + "/raw/" + filename;
 
                     return uri;
                 }
-            }
-            catch (Exception e) {
+            } catch (Exception e) {
                 Log.e(TAG, e.toString());
             }
         }
@@ -645,26 +661,26 @@ public class AppActivity extends Cocos2dxActivity {
     }
 
     @Override
-    protected void onStop() {
-        super.onStop();
-        _dbHandler.deleteCurrentUser();
-        finish();
+    protected void onDestroy() {
+        super.onDestroy();
+        unregisterReceiver(receiver);
     }
 
     private static SpeechRecognition mSpeechRecognition;
     private static PlayAudio mPlayAudio;
+
     public static void onSetupSpeechRecognition() {
-        org.cocos2dx.cpp.ReadingBird.Log.i( "onSetupSpeechRecognition");
+        org.cocos2dx.cpp.ReadingBird.Log.i("onSetupSpeechRecognition");
         mSpeechRecognition = new SpeechRecognition();
         mSpeechRecognition.setup(_activity);
 
-        String externalFolderPath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/KitkitSchool/";
+        String externalFolderPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/KitkitSchool/";
         File externalFile = new File(externalFolderPath + "cache.txt");
         mPlayAudio = new PlayAudio(_activity, externalFile.exists(), externalFolderPath);
     }
 
     public static void onCleanUpSpeechRecognition() {
-        org.cocos2dx.cpp.ReadingBird.Log.i( "onCleanUpSpeechRecognition");
+        org.cocos2dx.cpp.ReadingBird.Log.i("onCleanUpSpeechRecognition");
         if (mSpeechRecognition != null) {
             mSpeechRecognition.cleanUp();
             mSpeechRecognition = null;
@@ -677,14 +693,14 @@ public class AppActivity extends Cocos2dxActivity {
     }
 
     public static void onStartListening(int triggerVolume, int silentVolume, String phone) {
-        org.cocos2dx.cpp.ReadingBird.Log.i( "onStartListening : " + triggerVolume + ", phone : " + phone);
+        org.cocos2dx.cpp.ReadingBird.Log.i("onStartListening : " + triggerVolume + ", phone : " + phone);
         if (mSpeechRecognition != null) {
             mSpeechRecognition.startListening(triggerVolume, silentVolume, phone);
         }
     }
 
     public static void onStopListeningAndRecognition() {
-        org.cocos2dx.cpp.ReadingBird.Log.i( "onStopListeningAndRecognition");
+        org.cocos2dx.cpp.ReadingBird.Log.i("onStopListeningAndRecognition");
         if (mSpeechRecognition != null) {
             mSpeechRecognition.stopListeningAndRecognition();
         }

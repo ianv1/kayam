@@ -27,7 +27,10 @@
 package org.cocos2dx.cpp;
 
 import android.Manifest;
+import android.app.KeyguardManager;
+import android.content.BroadcastReceiver;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -49,6 +52,7 @@ public class AppActivity extends Cocos2dxActivity {
     public static String _launchString;
     private Cocos2dxGLSurfaceView _glSurfaceView;
     private static String TAG = "BookTestActivity";
+    private BroadcastReceiver receiver;
 
     public static String getDocumentsPath() {
         File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);
@@ -118,14 +122,8 @@ public class AppActivity extends Cocos2dxActivity {
             _launchString = intent.getStringExtra("book");
             Log.d("AppActivity", "onCreate has book extra - " + _launchString);
         }
-    }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        KitKitLogger logger = ((BookApplication) getApplication()).getLogger();
-        logger.logout();
-        finish();
+        registerLockscreenReceiver();
     }
 
     @Override
@@ -138,8 +136,37 @@ public class AppActivity extends Cocos2dxActivity {
 //            _launchString = intent.getStringExtra("book");
 //            Log.d("AppActivity", "onCreate has book extra - " + _launchString);
 //        }
+    }
 
+    private void registerLockscreenReceiver() {
+        KeyguardManager.KeyguardLock key;
+        KeyguardManager km = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
 
+        //This is deprecated, but it is a simple way to disable the lockscreen in code
+        key = km.newKeyguardLock("IN");
+
+        try {
+            key.disableKeyguard();
+        } catch (SecurityException e) {
+            //kindle code goes here
+        }
+
+        //Start listening for the Screen On, Screen Off, and Boot completed actions
+        IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
+        filter.addAction(Intent.ACTION_SCREEN_OFF);
+        filter.addAction(Intent.ACTION_BOOT_COMPLETED);
+
+        KitKitLogger logger = ((BookApplication) getApplication()).getLogger();
+
+        //Set up a receiver to listen for the Intents in this Service
+        receiver = new LockScreenReceiver(logger, this);
+        registerReceiver(receiver, filter);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unregisterReceiver(receiver);
     }
 
     public Cocos2dxGLSurfaceView onCreateView() {

@@ -372,14 +372,6 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
     @Override
-    protected void onStop() {
-        super.onStop();
-        KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
-        dbHandler.deleteCurrentUser();
-        refreshUI();
-    }
-
-    @Override
     public void onResume() {
         super.onResume();
         KitKitLogger logger = ((LauncherApplication) getApplication()).getLogger();
@@ -603,8 +595,10 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         filter.addAction(Intent.ACTION_SCREEN_OFF);
         filter.addAction(Intent.ACTION_BOOT_COMPLETED);
 
+        KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
+
         //Set up a receiver to listen for the Intents in this Service
-        receiver = new LockScreenReceiver();
+        receiver = new LockScreenReceiver(dbHandler);
         registerReceiver(receiver, filter);
     }
 
