@@ -635,7 +635,7 @@ public class AppActivity extends Cocos2dxActivity {
             }
         } else {
             try {
-                String packageName = "asia.chumbaka.kayam.library";
+                String packageName = "library.todoschool.enuma.com.todoschoollibrary";
 
                 Context libraryContext = _activity.createPackageContext(packageName, 0);
                 int rId = libraryContext.getResources().getIdentifier(filename, "raw", libraryContext.getPackageName());
