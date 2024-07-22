@@ -148,8 +148,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_UNLOCK_WRITING_BOARD + " BOOLEAN DEFAULT (" + 0 + ");");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_FINISH_WRITING_BOARD_TUTORIAL + " BOOLEAN DEFAULT (" + 0 + ");");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_PASSWORD + " TEXT DEFAULT ('');");
-            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_ENGLISH_LEVEL + " TEXT DEFAULT ('0_0_0');");
-            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_MATH_LEVEL + " TEXT DEFAULT ('0_0_0');");
+            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_ENGLISH_LEVEL + " TEXT DEFAULT ('');");
+            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_MATH_LEVEL + " TEXT DEFAULT ('');");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_ACCEPT_TNC + " BOOLEAN DEFAULT (" + 0 + ");");
 
             execRawQuery(db, arr_sql_table); // create table

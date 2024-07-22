@@ -91,8 +91,8 @@ public class User {
         this._finishWritingBoardTutorial = false;
         this._displayName = displayName;
         this._password = password;
-        this._englishLevel = "";
-        this._mathLevel = "";
+        this._englishLevel = "0_0_0";
+        this._mathLevel = "0_0_0";
         this._acceptTnC = false;
     }
 
