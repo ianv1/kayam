@@ -254,12 +254,12 @@ void CoopScene2::setupCoop()
     
         bool open = UserManager::getInstance()->isLevelOpen(cur.levelID);
         bool cleared = UserManager::getInstance()->isLevelCleared(cur.levelID);
-        
-        if (cur.categoryLevel==0 && !open) {
+
+        if (!open) {
             UserManager::getInstance()->setLevelOpen(cur.levelID);
         }
-        
-        
+
+
         if (cleared) {
             maxLevel = cur.categoryLevel;
         }
