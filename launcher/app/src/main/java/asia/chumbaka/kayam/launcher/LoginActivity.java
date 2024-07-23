@@ -178,6 +178,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         final TextView lastBackupTextView = findViewById(R.id.tv_last_backup);
         final TextView lastBackupTimeTextView = findViewById(R.id.tv_last_backup_time);
         final LinearLayout lastBackupLinearLayout = findViewById(R.id.ll_last_backup);
+        final Button updateButton = findViewById(R.id.btn_update);
         lastBackupLinearLayout.setVisibility(View.VISIBLE);
         lastBackupTextView.setTypeface(face);
         lastBackupTimeTextView.setTypeface(face);
@@ -202,6 +203,14 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
             lastBackupTextView.setText("No backup");
             lastBackupTimeTextView.setVisibility(View.GONE);
         }
+
+        updateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogFragment dialog = new UpdateDialogFragment();
+                dialog.show(getFragmentManager(), "UpdateFragment");
+            }
+        });
     }
 
     public boolean checkStoragePermissions() {

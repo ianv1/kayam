@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="asia.chumbaka.xprize">
+    package="asia.chumbaka.kayam.xprize">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -35,7 +35,7 @@
 
             </intent-filter>
             <intent-filter>
-                <action android:name="asia.chumbaka.xprize.RETURN_BY_VOICE_ENGINE_A" />
+                <action android:name="asia.chumbaka.kayam.xprize.RETURN_BY_VOICE_ENGINE_A" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 

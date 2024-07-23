@@ -165,7 +165,7 @@ public class SettingActivity extends KitKitLoggerActivity {
     public void onClickClearAppdata(View v) {
         try {
             Intent i = new Intent(Intent.ACTION_MAIN);
-            i.setComponent(new ComponentName("asia.chumbaka.xprize", "org.cocos2dx.cpp.AppActivity"));
+            i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize", "org.cocos2dx.cpp.AppActivity"));
             i.putExtra("clearAppData", true);
             startActivity(i);
 

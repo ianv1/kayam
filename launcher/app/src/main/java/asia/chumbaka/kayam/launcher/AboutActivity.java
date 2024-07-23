@@ -45,7 +45,7 @@ public class AboutActivity extends KitKitLoggerActivity implements PasswordDialo
         TextView versionTextView = (TextView) findViewById(R.id.version_textView);
         final PackageManager pm = getApplicationContext().getPackageManager();
 
-        final String kitkitSchoolPackageName = "asia.chumbaka.xprize";
+        final String kitkitSchoolPackageName = "asia.chumbaka.kayam.xprize";
         try {
             PackageInfo kitkitPInfo = pm.getPackageInfo(kitkitSchoolPackageName, 0);
             ApplicationInfo kitkitAInfo = pm.getApplicationInfo(kitkitSchoolPackageName, 0);
