@@ -314,26 +314,23 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             return;
         }
 
-        ArrayList<User> users = ((LauncherApplication) getApplication()).getDbHandler().getUserList();
+        User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
 
         String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
 
         try {
             StringBuilder content = new StringBuilder("Name,Stars,English,Math\n");
 
-            for (User user : users) {
-                if (!user.getUserName().equals("admin")) {
-                    content.append(user.getDisplayName())
-                            .append(",")
-                            .append(user.getNumStars())
-                            .append(",")
-                            .append(user.getCurrentEnglishLevel())
-                            .append(",")
-                            .append(user.getCurrentMathLevel())
-                            .append("\n");
-                }
+            if (!user.getUserName().equals("admin")) {
+                content.append(user.getDisplayName())
+                        .append(",")
+                        .append(user.getNumStars())
+                        .append(",")
+                        .append(user.getCurrentEnglishLevel())
+                        .append(",")
+                        .append(user.getCurrentMathLevel())
+                        .append("\n");
             }
-
 
             File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
             if (!folder.exists()) {
@@ -1172,9 +1169,9 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                     .setMessage("By continuing, you agree to our privacy policy")
                     .setNeutralButton("Read Privacy Policy (ENG, BM)", (dialogInterface, i) ->
                             new AlertDialog.Builder(MainActivity.this)
-                            .setView(dialogView)
-                            .setPositiveButton("OK", (dialogInterface1, i1) -> gotoTnC())
-                            .show())
+                                    .setView(dialogView)
+                                    .setPositiveButton("OK", (dialogInterface1, i1) -> gotoTnC())
+                                    .show())
                     .setPositiveButton(R.string.dialog_yes, (dialog, which) -> {
                         user.setAcceptTnC(true);
                         ((LauncherApplication) getApplication()).getDbHandler().updateUser(user);
