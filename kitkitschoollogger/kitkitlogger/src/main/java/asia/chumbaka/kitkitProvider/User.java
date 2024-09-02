@@ -29,6 +29,7 @@ public class User {
     private String _password;
     private String _englishLevel;
     private String _mathLevel;
+    private String _lastLogin;
 
     public User() {
         this._id = 0;
@@ -207,6 +208,14 @@ public class User {
 
     public String getCurrentMathLevel() {
         return _mathLevel;
+    }
+
+    public void setLastLogin(String lastLogin) {
+        _lastLogin = lastLogin;
+    }
+
+    public String getLastLogin() {
+        return _lastLogin;
     }
 
     public void setAcceptTnC(boolean acceptTnC) { this._acceptTnC = acceptTnC; }

@@ -15,6 +15,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -103,8 +104,12 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         LoginGridViewAdapter adapter = new LoginGridViewAdapter(this, users, selectedUserName, isAdmin, this, this);
         GridView gridView = (GridView) findViewById(R.id.grid);
         gridView.setAdapter(adapter);
-        ((LauncherApplication) getApplication()).getDbHandler().setCurrentUser(selectedUserName);
+        KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
+        dbHandler.setCurrentUser(selectedUserName);
         refreshUI();
+        User user = dbHandler.getCurrentUser();
+        user.setLastLogin(KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss"));
+        dbHandler.updateUser(user);
     }
 
     @Override
@@ -281,7 +286,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
 
         try {
-            StringBuilder content = new StringBuilder("Name,Stars,English,Math\n");
+            StringBuilder content = new StringBuilder("Name,Stars,English,Math,Last Login\n");
 
             for (User user : users) {
                 if (!user.getUserName().equals("admin")) {
@@ -292,6 +297,8 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                             .append(user.getCurrentEnglishLevel())
                             .append(",")
                             .append(user.getCurrentMathLevel())
+                            .append(",")
+                            .append(user.getLastLogin())
                             .append("\n");
                 }
             }

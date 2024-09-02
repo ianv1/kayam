@@ -319,7 +319,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
 
         try {
-            StringBuilder content = new StringBuilder("Name,Stars,English,Math\n");
+            StringBuilder content = new StringBuilder("Name,Stars,English,Math,Last Login\n");
 
             if (!user.getUserName().equals("admin")) {
                 content.append(user.getDisplayName())
@@ -329,6 +329,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                         .append(user.getCurrentEnglishLevel())
                         .append(",")
                         .append(user.getCurrentMathLevel())
+                        .append(",")
+                        .append(user.getLastLogin())
                         .append("\n");
             }
 

@@ -25,7 +25,7 @@ import java.util.Locale;
 public class KitkitDBHandler extends SQLiteOpenHelper {
     private ContentResolver myCR;
 
-    private static final int DATABASE_VERSION = 17;
+    private static final int DATABASE_VERSION = 18;
     public static final String DATABASE_NAME = "userDB.db";
     public static final String TABLE_USERS = "users";
     public static final String TABLE_CURRENT_USER = "current_user";
@@ -52,6 +52,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
     public static final String COLUMN_ENGLISH_LEVEL = "english_level";
     public static final String COLUMN_MATH_LEVEL = "math_level";
     public static final String COLUMN_ACCEPT_TNC = "accept_tnc";
+    public static final String COLUMN_LAST_LOGIN = "last_login";
 
     public static final String COLUMN_SERVER_SPEC = "server_spec";
     public static final String COLUMN_TIME_NOW = "time_now";
@@ -85,7 +86,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             + COLUMN_UNLOCK_FISH_BOWL + " BOOLEAN,"
             + COLUMN_UNLOCK_WRITING_BOARD + " BOOLEAN,"
             + COLUMN_FINISH_WRITING_BOARD_TUTORIAL + " BOOLEAN,"
-            + COLUMN_ACCEPT_TNC + " BOOLEAN"
+            + COLUMN_ACCEPT_TNC + " BOOLEAN,"
+            + COLUMN_LAST_LOGIN + " TEXT"
             + ")";
 
     final String CREATE_CURRENT_USER_TABLE = "CREATE TABLE "
@@ -151,6 +153,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_ENGLISH_LEVEL + " TEXT DEFAULT ('');");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_MATH_LEVEL + " TEXT DEFAULT ('');");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_ACCEPT_TNC + " BOOLEAN DEFAULT (" + 0 + ");");
+            arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_LAST_LOGIN + " TEXT DEFAULT ('');");
 
             execRawQuery(db, arr_sql_table); // create table
             String[] sql_array = arrSql.toArray(new String[arrSql.size()]);
@@ -191,6 +194,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
         values.put(COLUMN_ENGLISH_LEVEL, user.getCurrentEnglishLevel());
         values.put(COLUMN_MATH_LEVEL, user.getCurrentMathLevel());
         values.put(COLUMN_ACCEPT_TNC, user.isAcceptTnC());
+        values.put(COLUMN_LAST_LOGIN, user.getLastLogin());
 
         myCR.insert(KitkitProvider.CONTENT_URI, values);
     }
@@ -215,7 +219,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 COLUMN_PASSWORD,
                 COLUMN_ENGLISH_LEVEL,
                 COLUMN_MATH_LEVEL,
-                COLUMN_ACCEPT_TNC
+                COLUMN_ACCEPT_TNC,
+                COLUMN_LAST_LOGIN
         };
 
         String selection = "username = \"" + username + "\"";
@@ -248,6 +253,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             user.setCurrentEnglishLevel(cursor.getString(17));
             user.setCurrentMathLevel(cursor.getString(18));
             user.setAcceptTnC("1".equals(cursor.getString(19)));
+            user.setLastLogin(cursor.getString(20));
             cursor.close();
         } else {
             user = null;
@@ -275,7 +281,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 COLUMN_FINISH_WRITING_BOARD_TUTORIAL,
                 COLUMN_ENGLISH_LEVEL,
                 COLUMN_MATH_LEVEL,
-                COLUMN_ACCEPT_TNC
+                COLUMN_ACCEPT_TNC,
+                COLUMN_LAST_LOGIN
         };
 
         Cursor cursor = myCR.query(KitkitProvider.CONTENT_URI,
@@ -305,6 +312,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                 user.setCurrentEnglishLevel(cursor.getString(16));
                 user.setCurrentMathLevel(cursor.getString(17));
                 user.setAcceptTnC("1".equals(cursor.getString(18)));
+                user.setLastLogin(cursor.getString(19));
                 result.add(user);
 
             } while (cursor.moveToNext());
@@ -455,6 +463,7 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
         values.put(COLUMN_ENGLISH_LEVEL, user.getCurrentEnglishLevel());
         values.put(COLUMN_MATH_LEVEL, user.getCurrentMathLevel());
         values.put(COLUMN_ACCEPT_TNC, user.isAcceptTnC());
+        values.put(COLUMN_LAST_LOGIN, user.getLastLogin());
         Log.i("myLog", "value : " + values.toString());
         myCR.update(KitkitProvider.CONTENT_URI, values, selection, null);
     }
