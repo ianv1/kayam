@@ -8,6 +8,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
@@ -28,6 +30,10 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.WriterException;
+import com.google.zxing.common.BitMatrix;
+import com.google.zxing.qrcode.QRCodeWriter;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -152,6 +158,14 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
             String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
             Button titleButton = (Button) findViewById(R.id.title_btn);
             titleButton.setText("KAYAM SCHOOL " + "(TABLET ID: " + tabletNumber + ")");
+            titleButton.setOnClickListener(view -> {
+                DialogFragment dialog = new QRFragment();
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("tabletNumber", tabletNumber);
+                dialog.setArguments(bundle);
+                dialog.show(getFragmentManager(), "QRFragment");
+            });
+
         } else {
             editor.putBoolean("review_mode_on", false);
             final LinearLayout lastBackupLinearLayout = findViewById(R.id.ll_last_backup);

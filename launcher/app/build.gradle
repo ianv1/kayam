@@ -81,4 +81,5 @@ dependencies {
     compile("com.google.firebase:firebase-auth:18.1.0")
     compile("com.google.firebase:firebase-storage:18.1.0")
 
+    compile files('libs/zxing.jar')
 }
