@@ -2,9 +2,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-
+    namespace "asia.chumbaka.kayam.launcher"
     compileSdkVersion 30
-    buildToolsVersion '25.0.3'
+    buildToolsVersion '30.0.3'
+    
     defaultConfig {
         multiDexEnabled true
         minSdkVersion 30
@@ -12,8 +13,9 @@ android {
         applicationId "asia.chumbaka.kayam.launcher"
         versionCode 1
         versionName "1.0.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     signingConfigs {
         debug {
             storeFile file('../debug.keystore')
@@ -38,55 +40,52 @@ android {
             if (project.hasProperty("RELEASE_STORE_FILE")) {
                 signingConfig signingConfigs.release
             }
-//            applicationVariants.all { variant ->
-//                variant.outputs.each { output ->
-//                    project.ext { appName = rootProject.name }
-////                    def formattedDate = new Date().format('yyyyMMdd')
-//                    def newName = output.outputFilename
-//                    newName = newName.replace("app-", "$project.ext.appName-")
-////                    newName = newName.replace("-release", "-release" + formattedDate)
-//                    //noinspection GroovyAssignabilityCheck
-//                    output.outputFile = new File(output.outputFile.parent, newName)
-//                }
-//            }
         }
     }
 
     compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     lintOptions {
         checkReleaseBuilds false
-        // Or, if you prefer, you can continue to check for errors in release builds,
-        // but continue the build even when errors are found:
         abortOnError false
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries = false
     }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'com.android.support:cardview-v7:25.1.0'
-    compile 'com.android.support:design:25.1.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    //compile 'com.jakewharton.timber:timber:4.6.0'
-    testCompile 'junit:junit:4.12'
-    //    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
-    compile files('libs/commons-net-3.6.jar')
-    compile files('libs/commons-io-2.5.jar')
-    compile 'org.apmem.tools:layouts:1.10@aar'
-    compile project(':kitkitlogger')
-    //englishCompile project(path: ':kitkitlogger', configuration: 'englishRelease')
-    //swahiliCompile project(path: ':kitkitlogger', configuration: 'swahiliRelease')
-    compile 'com.github.bumptech.glide:glide:4.0.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    
+    // AndroidX dependencies
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    
+    // Local libs
+    implementation files('libs/commons-net-3.6.jar')
+    implementation files('libs/commons-io-2.5.jar')
+    implementation files('libs/zxing.jar')
+    
+    // Other dependencies
+    implementation 'org.apmem.tools:layouts:1.10@aar'
+    implementation project(':kitkitlogger')
+    
+    implementation('com.github.bumptech.glide:glide:4.12.0') {
+        exclude group: 'com.android.support'
+    }
 
-    compile("com.google.firebase:firebase-auth:18.1.0")
-    compile("com.google.firebase:firebase-storage:18.1.0")
-
-    compile files('libs/zxing.jar')
+    implementation 'com.google.firebase:firebase-auth:20.0.4'
+    implementation 'com.google.firebase:firebase-storage:19.2.2'
 }

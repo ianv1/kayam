@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v7.widget.AppCompatImageView;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +15,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.widget.AppCompatImageView;
 
 import asia.chumbaka.kitkitProvider.KitkitDBHandler;
 import asia.chumbaka.kitkitProvider.User;

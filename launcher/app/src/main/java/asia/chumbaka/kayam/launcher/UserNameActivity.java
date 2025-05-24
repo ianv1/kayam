@@ -101,58 +101,46 @@ public class UserNameActivity extends KitKitLoggerActivity {
     private View.OnClickListener mOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            switch (view.getId()) {
-                case R.id.tvUserName:
-                case R.id.vRename:
+            int id = view.getId();
+            if (id == R.id.tvUserName || id == R.id.vRename) {
+                if (id == R.id.tvUserName && mVRename.getVisibility() == View.VISIBLE) {
+                    return;
+                }
 
-                    if (view.getId() == R.id.tvUserName && mVRename.getVisibility() == View.VISIBLE) {
-                        return;
+                User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+                RenameUserDialog registerUserDialog = new RenameUserDialog(UserNameActivity.this, user, new RenameUserDialog.Callback() {
+                    @Override
+                    public void onSubmit(String name) {
+                        KitkitDBHandler kitkitDBHandler = ((LauncherApplication) getApplication()).getDbHandler();
+                        User user = kitkitDBHandler.getCurrentUser();
+                        if (user != null) {
+                            user.setDisplayName(name);
+                            kitkitDBHandler.updateUser(user);
+                        }
+                        refreshUI();
                     }
+                });
 
-                {
-                    User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
-                    RenameUserDialog registerUserDialog = new RenameUserDialog(UserNameActivity.this, user, new RenameUserDialog.Callback() {
-                        @Override
-                        public void onSubmit(String name) {
-                            KitkitDBHandler kitkitDBHandler = ((LauncherApplication) getApplication()).getDbHandler();
-                            User user = kitkitDBHandler.getCurrentUser();
-                            if (user != null) {
-                                user.setDisplayName(name);
-                                kitkitDBHandler.updateUser(user);
-                            }
+                registerUserDialog.show();
+            } else if (id == R.id.vSelectUserNumber) {
+                SelectNumberDialog selectNumberDialog = new SelectNumberDialog(UserNameActivity.this, SelectNumberDialog.MODE.USER_NO, new SelectNumberDialog.Callback() {
+                    @Override
+                    public void onSelectedNumber(int number) {
+                        KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
+                        User user = dbHandler.findUser("user" + number);
+                        if (user != null) {
+                            dbHandler.setCurrentUser(user);
                             refreshUI();
                         }
-                    });
+                    }
+                });
 
-                    registerUserDialog.show();
-                }
-                break;
-                case R.id.vSelectUserNumber:
-                {
-                    SelectNumberDialog selectNumberDialog = new SelectNumberDialog(UserNameActivity.this, SelectNumberDialog.MODE.USER_NO, new SelectNumberDialog.Callback() {
-                        @Override
-                        public void onSelectedNumber(int number) {
-                            KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
-                            User user = dbHandler.findUser("user" + number);
-                            if (user != null) {
-                                dbHandler.setCurrentUser(user);
-                                refreshUI();
-                            }
-                        }
-                    });
-
-                    selectNumberDialog.show();
-
-                }
-                    break;
-                case R.id.vUserNameList:
-                {
-                    KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
-                    ArrayList<User> users = dbHandler.getUserList();
-                    UserNameListDialog userNameListDialog = new UserNameListDialog(UserNameActivity.this, users);
-                    userNameListDialog.show();
-                }
-                    break;
+                selectNumberDialog.show();
+            } else if (id == R.id.vUserNameList) {
+                KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
+                ArrayList<User> users = dbHandler.getUserList();
+                UserNameListDialog userNameListDialog = new UserNameListDialog(UserNameActivity.this, users);
+                userNameListDialog.show();
             }
         }
     };
