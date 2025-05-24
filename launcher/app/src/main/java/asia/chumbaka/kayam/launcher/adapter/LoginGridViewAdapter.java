@@ -2,7 +2,6 @@ package asia.chumbaka.kayam.launcher.adapter;
 
 import android.content.Context;
 import android.graphics.Typeface;
-import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +9,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.cardview.widget.CardView;
 
 import asia.chumbaka.kitkitProvider.User;
 

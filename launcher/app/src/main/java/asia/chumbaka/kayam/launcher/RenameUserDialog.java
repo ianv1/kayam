@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
-import android.support.annotation.NonNull;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
@@ -13,6 +12,8 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
 
 import asia.chumbaka.kitkitProvider.User;
 
@@ -65,15 +66,10 @@ public class RenameUserDialog extends Dialog {
         @Override
         public void onClick(View view) {
             int id = view.getId();
-
-            switch(id) {
-                case R.id.tv_cancel:
-                    dismiss();
-                    break;
-
-                case R.id.tv_confirm:
-                    processConfirm();
-                    break;
+            if (id == R.id.tv_cancel) {
+                dismiss();
+            } else if (id == R.id.tv_confirm) {
+                processConfirm();
             }
         }
     };

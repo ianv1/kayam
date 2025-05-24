@@ -9,8 +9,8 @@ import android.content.DialogInterface;
 import android.content.Loader;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v4.widget.SimpleCursorAdapter;
 import android.widget.ArrayAdapter;
+import android.widget.SimpleCursorAdapter;
 
 import asia.chumbaka.kitkitProvider.KitkitDBHandler;
 import asia.chumbaka.kitkitProvider.KitkitProvider;
