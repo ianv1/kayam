@@ -8,7 +8,7 @@ $(call import-add-path,$(LOCAL_PATH)/../../../cocos2d/cocos)
 $(call import-add-path,$(LOCAL_PATH)/../../../cocos2d/cocos/audio/include)
 #$(call import-add-path,$(LOCAL_PATH)/../../../cocos2d/cocos/prebuilt-mk)
 
-LOCAL_MODULE := MyGame_shared
+LOCAL_MODULE := MyGame
 
 LOCAL_MODULE_FILENAME := libMyGame
 
@@ -22,14 +22,13 @@ CLASSES += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/*.cpp)
 CLASSES += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/*.cpp)
 CLASSES := $(CLASSES:$(LOCAL_PATH)/%=%)
 
-LOCAL_SRC_FILES := hellocpp/main.cpp \
+LOCAL_SRC_FILES := hellocpp/main.cpp
 LOCAL_SRC_FILES += $(CLASSES)
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
 
 # _COCOS_HEADER_ANDROID_BEGIN
 # _COCOS_HEADER_ANDROID_END
-
 
 LOCAL_STATIC_LIBRARIES := cocos2dx_static
 

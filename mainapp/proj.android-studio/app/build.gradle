@@ -3,6 +3,8 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
+    namespace "asia.chumbaka.kayam.xprize"
+    ndkVersion "14.1.3816874"
     splits {
         abi {
             enable true
@@ -12,7 +14,7 @@ android {
         }
     }
     compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()
-    buildToolsVersion "25.0.3"
+    buildToolsVersion "34.0.0"
 
     defaultConfig {
         applicationId "asia.chumbaka.kayam.xprize"
@@ -94,18 +96,20 @@ android {
             }
         }
     }
+
+    flavorDimensions "version"
     productFlavors {
         general {
-
+            dimension "version"
         }
         noresource {
-
+            dimension "version"
         }
         /*english {
-
+            dimension "version"
         }
         swahili {
-
+            dimension "version"
         }*/
     }
     buildTypes {
@@ -134,11 +138,12 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':libcocos2dx')
-    compile project(':pocketsphinx-aar')
-    compile project(':models')
-    compile project(':kitkitlogger')
-//    englishCompile project(path: ':kitkitlogger', configuration: 'englishRelease')
-//    swahiliCompile project(path: ':kitkitlogger', configuration: 'swahiliRelease')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':libcocos2dx')
+    implementation project(':pocketsphinx-aar')
+    implementation project(':models')
+    implementation project(':kitkitlogger')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+//    englishImplementation project(path: ':kitkitlogger', configuration: 'englishRelease')
+//    swahiliImplementation project(path: ':kitkitlogger', configuration: 'swahiliRelease')
 }

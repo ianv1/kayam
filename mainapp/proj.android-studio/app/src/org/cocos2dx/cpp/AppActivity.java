@@ -41,9 +41,10 @@ import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Process;
-import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.widget.Toast;
+
+import androidx.core.app.ActivityCompat;
 
 import org.cocos2dx.cpp.ReadingBird.PlayAudio;
 import org.cocos2dx.cpp.ReadingBird.SpeechRecognition;
@@ -501,7 +502,7 @@ public class AppActivity extends Cocos2dxActivity {
     protected void restartApp() {
         Process.killProcess(Process.myPid());
         AlarmManager alm = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
-        alm.set(AlarmManager.RTC, System.currentTimeMillis() + 1000, PendingIntent.getActivity(this, 0, new Intent(this, this.getClass()), 0));
+        alm.set(AlarmManager.RTC, System.currentTimeMillis() + 1000, PendingIntent.getActivity(this, 0, new Intent(this, this.getClass()), PendingIntent.FLAG_IMMUTABLE));
     }
 
     public static void updateStars(int numStars) {
