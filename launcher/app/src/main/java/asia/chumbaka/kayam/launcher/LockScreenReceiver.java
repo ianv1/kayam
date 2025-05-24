@@ -4,9 +4,16 @@ import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Environment;
 import android.util.Log;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import asia.chumbaka.kitkitProvider.KitkitDBHandler;
+import asia.chumbaka.kitkitProvider.User;
 
 /**
  * Created by ingtellect on 1/9/17.
@@ -31,6 +38,7 @@ public class LockScreenReceiver extends BroadcastReceiver {
         if(action.equals(Intent.ACTION_SCREEN_OFF) || action.equals(Intent.ACTION_BOOT_COMPLETED))
         {
             Log.d("LockScreenReceiver","Delete user");
+            generateCSV(context);
             dbHandler.deleteCurrentUser();
             Log.d("LockScreenReceiver","Start intent");
             try {
@@ -46,6 +54,49 @@ public class LockScreenReceiver extends BroadcastReceiver {
                 Log.d("LockScreenReceiver","start lockscreen failed");
 
             }
+        }
+    }
+
+    private void generateCSV(Context context) {
+
+        User user = dbHandler.getCurrentUser();
+
+        String tabletNumber = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
+
+        try {
+            StringBuilder content = new StringBuilder("Name,Stars,English,Math,Last Login\n");
+
+            if (!user.getUserName().equals("admin")) {
+                content.append(user.getDisplayName())
+                        .append(",")
+                        .append(user.getNumStars())
+                        .append(",")
+                        .append(user.getCurrentEnglishLevel())
+                        .append(",")
+                        .append(user.getCurrentMathLevel())
+                        .append(",")
+                        .append(user.getLastLogin())
+                        .append("\n");
+            }
+
+            File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
+            if (!folder.exists()) {
+                folder.mkdirs();
+            }
+
+            String name = dbHandler.getCurrentUser().getDisplayName().replaceAll("[^A-Za-z0-9]", "");
+            File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS) + "/kayam-reports/", tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + "_" + name + ".csv");
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+
+            FileWriter fw = new FileWriter(file.getAbsoluteFile());
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(content.toString());
+            bw.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
