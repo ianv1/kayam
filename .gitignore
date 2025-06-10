@@ -7,6 +7,7 @@
 **/app/build
 */captures
 **/.externalNativeBuild
+*.keystore
 
 bookviewer/cocos2d/*
 !bookviewer/cocos2d/readme.txt
