@@ -9,6 +9,8 @@
 **/.externalNativeBuild
 *.keystore
 
+launcher/app/release/*
+
 bookviewer/cocos2d/*
 !bookviewer/cocos2d/readme.txt
 
