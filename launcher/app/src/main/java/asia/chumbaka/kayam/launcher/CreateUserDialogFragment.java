@@ -234,7 +234,7 @@ public class CreateUserDialogFragment extends DialogFragment {
                 }
 
                 UUID uuid = UUID.randomUUID();
-                dbHandler.addUser(new User(uuid.toString(), createUserEditText.getText().toString(), password[0] + password[1]));
+                dbHandler.addUser(new User(uuid.toString(), createUserEditText.getText().toString().toUpperCase(), password[0] + password[1]));
                 mListener.onCreateUser(CreateUserDialogFragment.this, "");
             }
         });
