@@ -51,6 +51,10 @@ public class QRFragment extends DialogFragment {
 
             final ImageView ivQR = (ImageView) dialogView.findViewById(R.id.iv_qr);
             ivQR.setImageBitmap(bmp);
+
+            final TextView tvQR = (TextView) dialogView.findViewById(R.id.tv_qr);
+            tvQR.setText(tabletNumber);
+
         } catch (WriterException e) {
             e.printStackTrace();
         }
