@@ -249,7 +249,7 @@ public class UpdateDialogFragment extends DialogFragment {
         FirebaseAuth.getInstance().signInAnonymously()
                 .addOnCompleteListener(getActivity(), task -> {
                     if (task.isSuccessful()) {
-                        FirebaseStorage storage = FirebaseStorage.getInstance("gs://kayam-school.appspot.com");
+                        FirebaseStorage storage = FirebaseStorage.getInstance("gs://kayam-school-phase-2.appspot.com");
                         StorageReference listRef = storage.getReference().child("packages");
 
                         listRef.listAll()
