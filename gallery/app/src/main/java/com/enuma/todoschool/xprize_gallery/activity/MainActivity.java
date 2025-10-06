@@ -3,9 +3,9 @@ package com.enuma.todoschool.xprize_gallery.activity;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Message;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
 import com.enuma.kitkitProvider.KitkitDBHandler;

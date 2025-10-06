@@ -76,20 +76,22 @@ android {
 
     }
 
-
+    flavorDimensions "version"
     productFlavors {
         general {
-
+            dimension "version"
         }
 
         noresource {
+            dimension "version"
         }
 
         english {
+            dimension "version"
         }
 
         swahili {
-
+            dimension "version"
         }
     }
 

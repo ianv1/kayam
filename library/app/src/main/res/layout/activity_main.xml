@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -20,9 +20,9 @@
             android:id="@+id/toolbar_title"
             android:textColor="#ffffff"
             android:textSize="24sp"/>
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
-    <android.support.design.widget.TabLayout
+    <com.google.android.material.tabs.TabLayout
         android:layout_below="@id/toolbar"
         android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"
@@ -37,17 +37,17 @@
         app:tabIndicatorHeight="6dp"
         app:tabIndicatorColor="?attr/colorPrimary">
 
-        <android.support.design.widget.TabItem
+        <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/tab_video" />
 
-        <android.support.design.widget.TabItem
+        <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/tab_book" />
 
-    </android.support.design.widget.TabLayout>
+    </com.google.android.material.tabs.TabLayout>
     <asia.chumbaka.kayam.library.CustomViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"

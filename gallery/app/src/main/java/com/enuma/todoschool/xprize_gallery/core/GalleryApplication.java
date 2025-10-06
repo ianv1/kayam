@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.enuma.kitkitlogger.KitKitLogger;
-import com.enuma.todoschool.xprize_gallery.BuildConfig;
+// import com.enuma.todoschool.xprize_gallery.BuildConfig; // Removed - using ApplicationInfo instead
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -61,7 +61,9 @@ public class GalleryApplication extends Application {
         config.diskCacheSize(100 * 1024 * 1024); // 100 MiB
         config.tasksProcessingOrder(QueueProcessingType.LIFO);
 
-        if (BuildConfig.DEBUG == true) {
+        // Check if this is a debug build using ApplicationInfo
+        boolean isDebug = (context.getApplicationInfo().flags & android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0;
+        if (isDebug) {
             config.writeDebugLogs(); // Remove for release app
         }
 

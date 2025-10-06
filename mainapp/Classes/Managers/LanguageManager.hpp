@@ -36,6 +36,7 @@ public:
         en_US,
         en_KE,
         en_GB,
+        ms_MY,
         LocaleType_MAX
     };
 

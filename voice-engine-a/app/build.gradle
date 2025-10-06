@@ -40,11 +40,11 @@ android {
                 signingConfig signingConfigs.release
             }
             applicationVariants.all { variant ->
-                variant.outputs.each { output ->
+                variant.outputs.all { output ->
                     project.ext { appName = rootProject.name }
-                    def newName = output.outputFile.name
+                    def newName = outputFileName
                     newName = newName.replace("app-", "$project.ext.appName-")
-                    output.outputFile = new File(output.outputFile.parent, newName)
+                    outputFileName = newName
                 }
             }
         }
