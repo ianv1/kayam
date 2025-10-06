@@ -113,6 +113,7 @@ void LanguageManager::setCurrentLocale(LocaleType type)
         case en_US: _localizedResourcePaths = { "en-us" }; break;
         case en_GB: _localizedResourcePaths = { "en-gb", "en-us" }; break;
         case en_KE: _localizedResourcePaths = { "en-ke", "en-us" }; break;
+        case ms_MY: _localizedResourcePaths = { "ms-my" }; break;
             
     }
 
@@ -199,6 +200,7 @@ std::string LanguageManager::getLocalizedString(std::string str)
     switch (_currentLocale) {
         case en_US: localized = _localizationMapEnglish[str]; break;
         case sw_TZ: localized = _localizationMapSwahili[str]; break;
+        case ms_MY: localized = _localizationMapMalay[str]; break;
     }
     
     if (localized.empty()) return str;
