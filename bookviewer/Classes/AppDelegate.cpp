@@ -139,6 +139,9 @@ bool AppDelegate::launchBook()
 		else if (folderName.find("sw") == 0) {
 			LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::sw_TZ);
 		}
+        else if (folderName.find("my") == 0) {
+            LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::ms_MY);
+        }
 
 
 		std::function<Scene*(void)> creator = [book]() {

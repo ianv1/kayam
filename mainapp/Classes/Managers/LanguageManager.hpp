@@ -79,6 +79,7 @@ private:
     std::map<std::string, std::string> _localizationMap;
     std::map<std::string, std::string> _localizationMapEnglish;
     std::map<std::string, std::string> _localizationMapSwahili;
+    std::map<std::string, std::string> _localizationMapMalay;
     
     void initLocalizationMap();
     
