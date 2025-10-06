@@ -123,7 +123,7 @@ bool TodoLoadingScene::init(std::function<Scene*(void)> &creator, float loadingT
     
     Size imageSize = loadingImage->getContentSize();
     
-    std::string loadingText = LanguageManager::getInstance()->isEnglish() ? "Loading..." : "Tafadhali subiri...";
+    std::string loadingText = LanguageManager::getInstance()->isEnglish() ? "Loading..." : "Memuatkan...";
     
     Label *loadingLabel = Label::createWithTTF(loadingText, "fonts/TodoSchoolV2.ttf", 150);
     loadingLabel->setTextColor(Color4B(255, 240, 222, 255));
