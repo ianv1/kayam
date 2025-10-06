@@ -31,7 +31,7 @@ void LanguageManager::init()
     auto defaultLang = LanguageType::ENGLISH;
 #endif
     //auto defaultLang = LanguageType::SWAHILI;
-    auto defaultLang = "my-ms";//UserDefault::getInstance()->getStringForKey("appLanguage", "en") == "en" ? "en-US" : "sw-TZ";
+    auto defaultLang = "en-US";//UserDefault::getInstance()->getStringForKey("appLanguage", "en") == "en" ? "en-US" : "sw-TZ";
 
     auto localeCode = UserDefault::getInstance()->getStringForKey("LocaleCode", defaultLang);
 
