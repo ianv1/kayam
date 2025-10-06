@@ -2,7 +2,7 @@ package com.enuma.drawingcoloring.activity.base;
 
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.enuma.drawingcoloring.core.Const;
 import com.enuma.drawingcoloring.utility.Log;

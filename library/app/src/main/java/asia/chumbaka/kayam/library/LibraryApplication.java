@@ -9,7 +9,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
-import asia.chumbaka.kayam.library.BuildConfig;
+// import asia.chumbaka.kayam.library.BuildConfig; // Removed - using ApplicationInfo instead
 
 /**
  * Created by ingtellect on 7/21/17.
@@ -65,7 +65,9 @@ public class LibraryApplication extends Application {
         config.diskCacheSize(100 * 1024 * 1024); // 100 MiB
         config.tasksProcessingOrder(QueueProcessingType.LIFO);
 
-        if (BuildConfig.DEBUG == true) {
+        // Check if this is a debug build using ApplicationInfo
+        boolean isDebug = (context.getApplicationInfo().flags & android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0;
+        if (isDebug) {
             config.writeDebugLogs(); // Remove for release app
         }
 

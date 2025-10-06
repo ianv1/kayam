@@ -1,6 +1,6 @@
 package asia.chumbaka.kayam.library;
 
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;

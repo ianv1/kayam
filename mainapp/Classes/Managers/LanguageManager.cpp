@@ -31,7 +31,7 @@ void LanguageManager::init()
     auto defaultLang = LanguageType::ENGLISH;
 #endif
     //auto defaultLang = LanguageType::SWAHILI;
-    auto defaultLang = "sw-tz";//UserDefault::getInstance()->getStringForKey("appLanguage", "en") == "en" ? "en-US" : "sw-TZ";
+    auto defaultLang = "my-ms";//UserDefault::getInstance()->getStringForKey("appLanguage", "en") == "en" ? "en-US" : "sw-TZ";
 
     auto localeCode = UserDefault::getInstance()->getStringForKey("LocaleCode", defaultLang);
 
@@ -80,6 +80,8 @@ LanguageManager::LocaleType LanguageManager::convertLocaleCodeToType(std::string
         if (region=="GB") return en_GB;
     } else if (lang=="sw") {
         if (region=="TZ") return sw_TZ;
+    } else if (lang=="my") {
+        if (region=="MY") return ms_MY;
     }
     
     return LocaleType_MAX;
@@ -92,6 +94,7 @@ std::string LanguageManager::convertLocaleTypeToCode(LanguageManager::LocaleType
         case en_GB: return "en-GB"; break;
         case en_KE: return "en-KE"; break;
         case sw_TZ: return "sw-TZ"; break;
+        case ms_MY: return "ms-MY"; break;
         default: break;
     }
     
@@ -122,6 +125,7 @@ void LanguageManager::setCurrentLocale(LocaleType type)
         case en_US: _localizedResourcePaths = { "en-us" }; break;
         case en_GB: _localizedResourcePaths = { "en-gb", "en-us" }; break;
         case en_KE: _localizedResourcePaths = { "en-ke", "en-us" }; break;
+        case ms_MY: _localizedResourcePaths = { "ms-my" }; break;
             
     }
 
@@ -208,6 +212,7 @@ std::string LanguageManager::getLocalizedString(std::string str)
     switch (_currentLocale) {
         case en_US: localized = _localizationMapEnglish[str]; break;
         case sw_TZ: localized = _localizationMapSwahili[str]; break;
+        case ms_MY: localized = _localizationMapMalay[str]; break;
     }
     
     if (localized.empty()) return str;

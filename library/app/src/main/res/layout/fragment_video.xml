@@ -24,12 +24,12 @@
                 android:layout_weight="6"
                 android:textSize="27sp" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_video_0"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="41"
-                android:scrollbars="none"></android.support.v7.widget.RecyclerView>
+                android:scrollbars="none"></androidx.recyclerview.widget.RecyclerView>
 
             <TextView
                 android:id="@+id/musicvideo_title_textView"
@@ -41,12 +41,12 @@
                 android:layout_weight="6"
                 android:textSize="27sp" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_video_1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="41"
-                android:scrollbars="none"></android.support.v7.widget.RecyclerView>
+                android:scrollbars="none"></androidx.recyclerview.widget.RecyclerView>
 
             <TextView
                 android:id="@+id/literacy_video_title_textView"
@@ -58,12 +58,12 @@
                 android:layout_weight="6"
                 android:textSize="27sp" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_video_2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="41"
-                android:scrollbars="none"></android.support.v7.widget.RecyclerView>
+                android:scrollbars="none"></androidx.recyclerview.widget.RecyclerView>
 
             <TextView
                 android:id="@+id/literacy_video_title_textView_2"
@@ -76,13 +76,13 @@
                 android:textSize="27sp"
                 android:visibility="gone" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_video_2_2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="41"
                 android:scrollbars="none"
-                android:visibility="gone"></android.support.v7.widget.RecyclerView>
+                android:visibility="gone"></androidx.recyclerview.widget.RecyclerView>
 
             <TextView
                 android:id="@+id/math_video_title_textView"
@@ -94,12 +94,12 @@
                 android:layout_weight="6"
                 android:textSize="27sp" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_video_3"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="41"
-                android:scrollbars="none"></android.support.v7.widget.RecyclerView>
+                android:scrollbars="none"></androidx.recyclerview.widget.RecyclerView>
 
             <TextView
                 android:id="@+id/math_video_title_textView_2"
@@ -112,13 +112,13 @@
                 android:textSize="27sp"
                 android:visibility="gone" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_video_3_2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="41"
                 android:scrollbars="none"
-                android:visibility="gone"></android.support.v7.widget.RecyclerView>
+                android:visibility="gone"></androidx.recyclerview.widget.RecyclerView>
 
             <TextView
                 android:id="@+id/alphabet_video_title_textView"
@@ -130,12 +130,12 @@
                 android:layout_weight="6"
                 android:textSize="27sp" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_video_4"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="41"
-                android:scrollbars="none"></android.support.v7.widget.RecyclerView>
+                android:scrollbars="none"></androidx.recyclerview.widget.RecyclerView>
 
         </LinearLayout>
     </ScrollView>
