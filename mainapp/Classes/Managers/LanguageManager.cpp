@@ -243,6 +243,29 @@ void LanguageManager::initLocalizationMap()
     _localizationMapEnglish["Stop the test"] = "Stop the test";
     _localizationMapEnglish["Go back to test"] = "Go back to test";
     
+    // Malay translations
+    _localizationMapMalay["Great!"] = "Hebat!";
+    _localizationMapMalay["Are you ready for"] = "Adakah anda bersedia untuk";
+    _localizationMapMalay["Prove it!"] = "Buktikan!";
+    _localizationMapMalay["Try and get 8 questions correct!"] = "Cuba dan dapatkan 8 soalan yang betul!";
+    _localizationMapMalay["Challenge"] = "Cabaran";
+    _localizationMapMalay["Congratulations!"] = "Tahniah!";
+    _localizationMapMalay["You passed!"] = "Anda lulus!";
+    _localizationMapMalay["You failed"] = "Anda gagal";
+    _localizationMapMalay["Practice more and try again later."] = "Berlatih lebih banyak dan cuba lagi nanti.";
+    _localizationMapMalay["Success!"] = "Kejayaan!";
+    _localizationMapMalay["You are not ready."] = "Anda belum bersedia.";
+    _localizationMapMalay["You need more practice."] = "Anda perlu lebih banyak latihan.";
+    _localizationMapMalay["Welcome!"] = "Selamat datang!";
+    _localizationMapMalay["Start"] = "Mula";
+    _localizationMapMalay["Next"] = "Seterusnya";
+    _localizationMapMalay["Back"] = "Kembali";
+    _localizationMapMalay["OK"] = "OK";
+    _localizationMapMalay["Error"] = "Ralat";
+    _localizationMapMalay["Enter"] = "Masuk";
+    _localizationMapMalay["Clear"] = "Kosongkan";
+    _localizationMapMalay["English"] = "Bahasa Inggeris";
+    _localizationMapMalay["Math"] = "Matematik";
     
     _localizationMapSwahili["Great!"] = "Vizuri!";
     
@@ -272,176 +295,233 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["TutorialTrace"] = "Line Tracing";
     _localizationMapSwahili["TutorialTrace"] = "Kufuatisha Mstari";
+    _localizationMapMalay["TutorialTrace"] = "Menggaris Garisan";
     
     _localizationMapEnglish["FindTheMatch"] = "Find the Pair";
     _localizationMapSwahili["FindTheMatch"] = "Tafuta Sare";
+    _localizationMapMalay["FindTheMatch"] = "Cari Pasangan";
     
     _localizationMapEnglish["NumberMatching"] = "Number Matching";
     _localizationMapSwahili["NumberMatching"] = "Kufananisha Nambari";
+    _localizationMapMalay["NumberMatching"] = "Padanan Nombor";
     
     _localizationMapEnglish["Tapping"] = "Bubble Pop";
     _localizationMapSwahili["Tapping"] = "Pasua Povu la Sabuni";
+    _localizationMapMalay["Tapping"] = "Letupkan Buih";
     
     _localizationMapEnglish["LetterMatching"] = "Literacy Matching";
     _localizationMapSwahili["LetterMatching"] = "Kufananisha Kusoma na Kuandika";
+    _localizationMapMalay["LetterMatching"] = "Padanan Huruf";
     
     _localizationMapEnglish["AnimalPuzzle"] = "Animal Puzzle";
     _localizationMapSwahili["AnimalPuzzle"] = "Fumbo la Picha";
+    _localizationMapMalay["AnimalPuzzle"] = "Teka-teki Haiwan";
     
     _localizationMapEnglish["PatternTrain"] = "Pattern Train";
     _localizationMapSwahili["PatternTrain"] = "Reli ya Garimoshi";
+    _localizationMapMalay["PatternTrain"] = "Kereta Api Corak";
     
     _localizationMapEnglish["Video"] = "Video";
     _localizationMapSwahili["Video"] = "Video";
+    _localizationMapMalay["Video"] = "Video";
     
     _localizationMapEnglish["Counting"] = "Counting";
     _localizationMapSwahili["Counting"] = "Kuhesabu";
+    _localizationMapMalay["Counting"] = "Mengira";
     
     _localizationMapEnglish["EquationMaker"] = "Equation Maker";
     _localizationMapSwahili["EquationMaker"] = "Kiumba Mlinganyo";
+    _localizationMapMalay["EquationMaker"] = "Pembuat Persamaan";
     
     _localizationMapEnglish["NumberTrain"] = "Number Train";
     _localizationMapSwahili["NumberTrain"] = "Nambari ya Garimoshi";
+    _localizationMapMalay["NumberTrain"] = "Kereta Api Nombor";
     
     _localizationMapEnglish["AlphabetPuzzle"] = "Alphabet Puzzle";
     _localizationMapSwahili["AlphabetPuzzle"] = "Fumbo la Alfabeti";
+    _localizationMapMalay["AlphabetPuzzle"] = "Teka-teki Abjad";
     
     _localizationMapEnglish["Book"] = "Book";
     _localizationMapSwahili["Book"] = "Kitabu";
+    _localizationMapMalay["Book"] = "Buku";
     
     _localizationMapEnglish["Comprehension"] = "Comprehension Questions";
     _localizationMapSwahili["Comprehension"] = "Maswali ya Ufahamu";
+    _localizationMapMalay["Comprehension"] = "Soalan Kefahaman";
     
     _localizationMapEnglish["DoubleDigit"] = "Double Digit Math";
     _localizationMapSwahili["DoubleDigit"] = "Hisabati ya Tarakimu Mbili";
+    _localizationMapMalay["DoubleDigit"] = "Matematik Digit Ganda";
     
     _localizationMapEnglish["FishTank"] = "Fish Tank";
     _localizationMapSwahili["FishTank"] = "Tangi ya Samaki";
+    _localizationMapMalay["FishTank"] = "Tangki Ikan";
     
     _localizationMapEnglish["HundredPuzzle"] = "100 Puzzle";
     _localizationMapSwahili["HundredPuzzle"] = "Fumbo la Nambari 100";
+    _localizationMapMalay["HundredPuzzle"] = "Teka-teki 100";
     
     _localizationMapEnglish["LetterTrace"] = "Letter Tracing";
     _localizationMapSwahili["LetterTrace"] = "Kufuatisha Herufi";
+    _localizationMapMalay["LetterTrace"] = "Menggaris Huruf";
     
     _localizationMapEnglish["MovingInsects"] = "Bug Math";
     _localizationMapSwahili["MovingInsects"] = "Mchezo wa Mdudu";
+    _localizationMapMalay["MovingInsects"] = "Matematik Serangga";
     
     _localizationMapEnglish["SentenceMaker"] = "Sentence Maker";
     _localizationMapSwahili["SentenceMaker"] = "Kiumba Sentensi";
+    _localizationMapMalay["SentenceMaker"] = "Pembuat Ayat";
     
     _localizationMapEnglish["ShapeMatching"] = "Shape Matching";
     _localizationMapSwahili["ShapeMatching"] = "Kufananisha Maumbo";
+    _localizationMapMalay["ShapeMatching"] = "Padanan Bentuk";
     
     _localizationMapEnglish["SoundTrain"] = "Sound Train";
     _localizationMapSwahili["SoundTrain"] = "Sauti ya Garimoshi";
+    _localizationMapMalay["SoundTrain"] = "Kereta Api Bunyi";
     
     _localizationMapEnglish["Spelling"] = "Spelling";
     _localizationMapSwahili["Spelling"] = "Matamshi";
+    _localizationMapMalay["Spelling"] = "Ejaan";
     
     _localizationMapEnglish["WordTracing"] = "Word Tracing";
     _localizationMapSwahili["WordTracing"] = "Kufuatisha Maneno";
+    _localizationMapMalay["WordTracing"] = "Menggaris Perkataan";
     
     _localizationMapEnglish["NumberTracing"] = "Learn to 10";
     _localizationMapSwahili["NumberTracing"] = "Jifunze Mpaka 10";
+    _localizationMapMalay["NumberTracing"] = "Belajar hingga 10";
     
     _localizationMapEnglish["StarFall"] = "Typing";
     _localizationMapSwahili["StarFall"] = "Kuchapa";
+    _localizationMapMalay["StarFall"] = "Mengetik";
     
     _localizationMapEnglish["WordMachine"] = "Word Machine";
     _localizationMapSwahili["WordMachine"] = "Mashine ya Maneno";
+    _localizationMapMalay["WordMachine"] = "Mesin Perkataan";
     
     _localizationMapEnglish["NumberTracingExt"] = "Number Tracing";
     _localizationMapSwahili["NumberTracingExt"] = "Kufuatisha Nambari";
+    _localizationMapMalay["NumberTracingExt"] = "Menggaris Nombor";
     
     _localizationMapEnglish["LetterTracingCard"] = "Trace 3 Times";
     _localizationMapSwahili["LetterTracingCard"] = "Fuatisha Mara 3";
+    _localizationMapMalay["LetterTracingCard"] = "Garis 3 Kali";
     
     _localizationMapEnglish["NumberPuzzle"] = "Number Blocks";
     _localizationMapSwahili["NumberPuzzle"] = "Fumbo la Nambari";
+    _localizationMapMalay["NumberPuzzle"] = "Blok Nombor";
     
     _localizationMapEnglish["Arrange the numbers in order from smallest to largest"] = "Arrange the numbers in order from smallest to largest";
     _localizationMapSwahili["Arrange the numbers in order from smallest to largest"] = "panga kwa mpangilio kutoka ndogo zaidi kwenda kubwa zaidi";
+    _localizationMapMalay["Arrange the numbers in order from smallest to largest"] = "Susun nombor mengikut urutan dari terkecil hingga terbesar";
 
     _localizationMapEnglish["Largest number"] = "Largest number";
     _localizationMapSwahili["Largest number"] = "Namba ipi ndiyo kubwa zaidi?";
+    _localizationMapMalay["Largest number"] = "Nombor terbesar";
     
     _localizationMapEnglish["BirdPhonics"] = "Bird Phonics";
     _localizationMapSwahili["BirdPhonics"] = "Sauti Ndege";
+    _localizationMapMalay["BirdPhonics"] = "Fonik Burung";
     
     _localizationMapEnglish["FeedingTime"] = "Feeding Time";
     _localizationMapSwahili["FeedingTime"] = "Wakati wa kula";
+    _localizationMapMalay["FeedingTime"] = "Masa Makan";
     
     _localizationMapEnglish["LineMatching"] = "Line Matching";
     _localizationMapSwahili["LineMatching"] = "Linganisha mistari";
+    _localizationMapMalay["LineMatching"] = "Padanan Garisan";
     
     _localizationMapEnglish["MangoShop"] = "Mango Shop";
     _localizationMapSwahili["MangoShop"] = "Duka la embe";
+    _localizationMapMalay["MangoShop"] = "Kedai Mangga";
     
     _localizationMapEnglish["MissingNumber"] = "Missing Number";
     _localizationMapSwahili["MissingNumber"] = "Namba iliyopotea";
+    _localizationMapMalay["MissingNumber"] = "Nombor Hilang";
     
     _localizationMapEnglish["ReadingBird"] = "Reading Bird";
     _localizationMapSwahili["ReadingBird"] = "Ndege anayesoma";
+    _localizationMapMalay["ReadingBird"] = "Burung Membaca";
     
     _localizationMapEnglish["WhatIsThis"] = "What is this?";
     _localizationMapSwahili["WhatIsThis"] = "Hii ni nini?";
+    _localizationMapMalay["WhatIsThis"] = "Apakah ini?";
     
     _localizationMapEnglish["ThirtyPuzzle"] = "30 Puzzle";
     _localizationMapSwahili["ThirtyPuzzle"] = "Panga Namba";
+    _localizationMapMalay["ThirtyPuzzle"] = "Teka-teki 30";
     
     _localizationMapEnglish["WordNote"] = "Word Note";
     _localizationMapSwahili["WordNote"] = "Tunga neno";
+    _localizationMapMalay["WordNote"] = "Nota Perkataan";
 
     _localizationMapEnglish["QuickFacts"] = "Quick Facts";
     _localizationMapSwahili["QuickFacts"] = "Ukweli wa Uhakika";
+    _localizationMapMalay["QuickFacts"] = "Fakta Pantas";
 
     _localizationMapEnglish["MultiplicationBoard"] = "Multiplication Lamp";
     _localizationMapSwahili["MultiplicationBoard"] = "Taa ya Kuzidishia";
+    _localizationMapMalay["MultiplicationBoard"] = "Lampu Darab";
 
     _localizationMapEnglish["WordMatrix"] = "Word Matrix";
     _localizationMapSwahili["WordMatrix"] = "Chanzo cha Neno";
+    _localizationMapMalay["WordMatrix"] = "Matriks Perkataan";
 
     _localizationMapEnglish["SentenceBridge"] = "Sentence Bridge";
     _localizationMapSwahili["SentenceBridge"] = "Daraja la Sentensi";
+    _localizationMapMalay["SentenceBridge"] = "Jambatan Ayat";
 
     _localizationMapEnglish["WordWindow"] = "Word Window";
     _localizationMapSwahili["WordWindow"] = "Dirisha la Neno";
+    _localizationMapMalay["WordWindow"] = "Tingkap Perkataan";
 
     _localizationMapEnglish["WordKicker"] = "Word Kicker";
     _localizationMapSwahili["WordKicker"] = "Mpigo wa Neno";
+    _localizationMapMalay["WordKicker"] = "Penendang Perkataan";
 
     _localizationMapEnglish["MathKicker"] = "Math Kicker";
     _localizationMapSwahili["MathKicker"] = "Mpigo wa Hisabati";
+    _localizationMapMalay["MathKicker"] = "Penendang Matematik";
     
     _localizationMapEnglish["PlaceValue"] = "Place Value";
     _localizationMapSwahili["PlaceValue"] = "Fungu la Thamani";
+    _localizationMapMalay["PlaceValue"] = "Nilai Tempat";
 
     _localizationMapEnglish["Labeling"] = "Labeling";
     _localizationMapSwahili["Labeling"] = "Pachika Jina";
+    _localizationMapMalay["Labeling"] = "Pelabelan";
 
     _localizationMapEnglish["LRComprehension"] = "Comprehension";
     _localizationMapSwahili["LRComprehension"] = "Ufahamu";
+    _localizationMapMalay["LRComprehension"] = "Kefahaman";
 
     _localizationMapEnglish["BookwithQuiz"] = "Book with Quiz";
     _localizationMapSwahili["BookwithQuiz"] = "Kitabu Chenye Jaribio";
+    _localizationMapMalay["BookwithQuiz"] = "Buku dengan Kuiz";
 
     _localizationMapEnglish["Do you want to take a test on this egg?"] = "Do you want to take a test on this egg?";
     _localizationMapSwahili["Do you want to take a test on this egg?"] = "Je, unataka kufanya jaribio kuhusu hili yai?";
+    _localizationMapMalay["Do you want to take a test on this egg?"] = "Adakah anda mahu mengambil ujian untuk telur ini?";
     
     
     
     _localizationMapEnglish["Take the quiz to add me to your sea world!"] = "Take the quiz to add me to your sea world!";
     _localizationMapSwahili["Take the quiz to add me to your sea world!"] = "Fanya jaribio ili uniongeze kwenye\ndunia yako ya bahari!";
+    _localizationMapMalay["Take the quiz to add me to your sea world!"] = "Ambil kuiz untuk menambah saya ke dunia laut anda!";
 
     _localizationMapEnglish["Congratulations!\nSee you at your sea world!"] = "Congratulations!\nSee you at your sea world!";
     _localizationMapSwahili["Congratulations!\nSee you at your sea world!"] = "Hongera!\nTuonane kwenye\ndunia yako ya bahari!";
+    _localizationMapMalay["Congratulations!\nSee you at your sea world!"] = "Tahniah!\nJumpa lagi di dunia laut anda!";
 
     _localizationMapEnglish["Try again to add me to your sea world!"] = "Try again to add me to your sea world!";
     _localizationMapSwahili["Try again to add me to your sea world!"] = "Jaribu tena kuniongeza kwenye\ndunia yako ya bahari!";
+    _localizationMapMalay["Try again to add me to your sea world!"] = "Cuba lagi untuk menambah saya ke dunia laut anda!";
 
     _localizationMapEnglish["Don't give up! Let's try it again!"] = "Don't give up! Let's try it again!";
     _localizationMapSwahili["Don't give up! Let's try it again!"] = "Usikate tamaa! Jaribu tena!";
+    _localizationMapMalay["Don't give up! Let's try it again!"] = "Jangan berputus asa! Mari cuba lagi!";
 
     // NB(xenosoz, 2018): Migrated from ShapeMatching. Datasheet? I agree.
     vector<pair<string, string>> words_enUS_swTZ = {

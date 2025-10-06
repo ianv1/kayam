@@ -354,6 +354,8 @@ bool MainScene::showBook(std::string bookfolder)
             LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::en_US);
         } else if (folderName.find("sw")==0) {
             LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::sw_TZ);
+        } else if (folderName.find("my")==0) {
+            LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::ms_MY);
         }
         
         auto scene = Scene::create();
