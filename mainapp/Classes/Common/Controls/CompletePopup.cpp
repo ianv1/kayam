@@ -14,8 +14,8 @@
 
 namespace CompletePopupNS {
     std::string labelText() {
-        if (LanguageManager::getInstance()->isSwahili())
-            return "Vizuri!";
+        if (LanguageManager::getInstance()->isMalay())
+            return "Syabas!";
         return "Great!";
     }
 }  // namespace CompetePopupNS
