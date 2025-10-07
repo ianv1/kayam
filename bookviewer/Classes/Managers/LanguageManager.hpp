@@ -55,6 +55,7 @@ public:
     
     bool isEnglish() { return getCurrentLanguageCode()=="en"; }
     bool isSwahili() { return getCurrentLanguageCode()=="sw"; }
+    bool isMalay() { return getCurrentLanguageCode()=="ms"; }
     
 private:
     LocaleType _currentLocale;

@@ -38,7 +38,7 @@ namespace NumberMatching
     const char* SOLVE_EFFECT_SOUND = "Common/Sounds/Effect/UI_Star_Collected.m4a";
     
     string nextButtonTitle() {
-        if (LanguageManager::getInstance()->isSwahili()) { return "Inayofuata"; }
+        if (LanguageManager::getInstance()->isMalay()) { return "Seterusnya"; }
         return "Next";
     }
 }
