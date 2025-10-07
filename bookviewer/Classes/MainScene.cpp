@@ -225,7 +225,7 @@ void MainScene::showLoading()
     */
     bool isEnglish = LanguageManager::getInstance()->isEnglish();
     
-    std::string loadingText = isEnglish ? "Loading..." : "Memuatkan...";
+    std::string loadingText = isEnglish ? "Loading..." : "Sedang dimuat...";
     
     Label *loadingLabel = Label::createWithTTF(loadingText, "fonts/TodoSchoolV2.ttf", 56);
     loadingLabel->setTextColor(Color4B(255, 240, 222, 255));
