@@ -256,9 +256,9 @@ void PlaceValueScene::createBoard(int index)
     _tank10Count = (_suggestNo % 100) / 10;
     _tank1Count = ((_suggestNo % 100) % 10) / 1;
     
-    auto tank100_title_text = (LanguageManager::getInstance()->isEnglish() ? "Hundreds" : "Mamia");
-    auto tank10_title_text = (LanguageManager::getInstance()->isEnglish() ? "Tens" : "Makumi");
-    auto tank1_title_text = (LanguageManager::getInstance()->isEnglish() ? "Ones" : "Mamoja");
+    auto tank100_title_text = (LanguageManager::getInstance()->isEnglish() ? "Hundreds" : "Ratusan");
+    auto tank10_title_text = (LanguageManager::getInstance()->isEnglish() ? "Tens" : "Puluhan");
+    auto tank1_title_text = (LanguageManager::getInstance()->isEnglish() ? "Ones" : "Satuan");
 
     //공용파티클 미리로딩
     _tank100Particle = createShiningParticle(Vec2(140, 80), 50);

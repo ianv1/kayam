@@ -42,7 +42,7 @@ bool AnswerPadSingle::init()
     addChild(answerPadBg);
     
     
-    _questionLabel = Label::createWithSystemFont(LanguageManager::getInstance()->isEnglish() ?  "How many?" : "Ngapi?", formalFont, 100);
+    _questionLabel = Label::createWithSystemFont(LanguageManager::getInstance()->isEnglish() ?  "How many?" : "Berapa?", formalFont, 100);
     _questionLabel->setTextColor(Color4B(242, 245, 240, 255));
     _questionLabel->setAnchorPoint(Vec2::ANCHOR_TOP_LEFT);
     _questionLabel->setPosition(Vec2(150, answerPadSize.height-129));

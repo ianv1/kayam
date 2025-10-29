@@ -172,7 +172,7 @@ void LRDividedTypeFillTheBlanksScene::onEnter()
     }
     */
     
-    string directionContent = LanguageManager::getInstance()->isEnglish() ? "Fill in the blank(s)." : "Jaza nafasi.";
+    string directionContent = LanguageManager::getInstance()->isEnglish() ? "Fill in the blank(s)." : "Isi tempat kosong.";
     _comprehensionScene->drawQuestionTitleWithSoundButton(directionContent, _problemData->textOrSoundPath, _gameNode);
 }
 

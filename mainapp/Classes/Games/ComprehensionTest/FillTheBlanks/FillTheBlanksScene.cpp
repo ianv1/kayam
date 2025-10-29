@@ -165,7 +165,7 @@ namespace ComprehensionTest
             }
             
 //            _comprehensionScene->drawQuestionTitle(_problemData->questionText, _gameNode);
-            string directionContent = LanguageManager::getInstance()->isEnglish() ? "Fill in the blank(s)." : "Jaza nafasi.";
+            string directionContent = LanguageManager::getInstance()->isEnglish() ? "Fill in the blank(s)." : "Isi tempat kosong.";
             _comprehensionScene->drawQuestionTitle(directionContent, _gameNode, 50.f);
             if (!_problemData->soundPath.empty()) {
                 string audioPath = _comprehensionScene->getBookFolder()+"/quiz/"+_problemData->soundPath;
