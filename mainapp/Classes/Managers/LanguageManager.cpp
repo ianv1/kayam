@@ -415,7 +415,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["Arrange the numbers in order from smallest to largest"] = "Arrange the numbers in order from smallest to largest";
     _localizationMapSwahili["Arrange the numbers in order from smallest to largest"] = "panga kwa mpangilio kutoka ndogo zaidi kwenda kubwa zaidi";
-    _localizationMapMalay["Arrange the numbers in order from smallest to largest"] = "Susun nombor mengikut urutan dari terkecil hingga terbesar";
+    _localizationMapMalay["Arrange the numbers in order from smallest to largest"] = "Susun nombor dari terkecil hingga terbesar";
 
     _localizationMapEnglish["Largest number"] = "Largest number";
     _localizationMapSwahili["Largest number"] = "Namba ipi ndiyo kubwa zaidi?";

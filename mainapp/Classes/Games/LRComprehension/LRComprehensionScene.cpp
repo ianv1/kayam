@@ -245,14 +245,14 @@ void LRComprehensionScene::showProblem()
     {
         auto text = problemSet[_currentProblem]->script;
         drawGuideView(false, text);
-        drawGuideTitle(LanguageManager::getInstance()->isEnglish() ? "Listen to the story." : "Sikiliza hadithi.");
+        drawGuideTitle(LanguageManager::getInstance()->isEnglish() ? "Listen to the story." : "Dengar ceritanya.");
         _currentProblem++;
     }
     else if (questionType == LRComprehensionType::ReadingOnly)
     {
         auto soundPath = problemSet[_currentProblem]->script;
         drawGuideView(true, soundPath);
-        drawGuideTitle(LanguageManager::getInstance()->isEnglish() ? "Read the story." : "Soma hadithi.");
+        drawGuideTitle(LanguageManager::getInstance()->isEnglish() ? "Read the story." : "Bacalah cerita itu.");
         _currentProblem++;
     }
     

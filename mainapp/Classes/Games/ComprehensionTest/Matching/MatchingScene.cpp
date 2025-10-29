@@ -86,7 +86,7 @@ namespace ComprehensionTest
             initData();
             
             createFixedResources();
-            string directionContent = LanguageManager::getInstance()->isEnglish() ? "Draw a line to match." : "Chora mstari baina ya jozi.";
+            string directionContent = LanguageManager::getInstance()->isEnglish() ? "Draw a line to match." : "Lukis garisan untuk dipadankan.";
             _comprehensionScene->drawQuestionTitle(directionContent, _gameNode);
             
             createLeftLayer();

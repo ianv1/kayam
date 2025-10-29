@@ -75,7 +75,7 @@ void LRDividedTypeReorderingScene::onEnter()
     _gameNode->setPosition(Vec2(getContentSize().width / 2, 0.f));
     addChild(_gameNode);
     
-    string directionContent = LanguageManager::getInstance()->isEnglish() ? "Place the events in the correct sequence." : "Yaweke matukio katika mpangilio ulio sahihi.";
+    string directionContent = LanguageManager::getInstance()->isEnglish() ? "Place the events in the correct sequence." : "Susun peristiwa mengikut urutan yang betul.";
     _comprehensionScene->drawQuestionTitleWithSoundButton(directionContent, _problem->audio, _gameNode);
     
     drawBlocksByGameType();

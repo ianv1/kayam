@@ -83,7 +83,7 @@ namespace ComprehensionTest
             _gameNode->setPosition(Vec2(getContentSize().width / 2, 0.f));
             addChild(_gameNode);
             
-            string directionContent = LanguageManager::getInstance()->isEnglish() ? "Place them in order." : "Pangilia hadithi.";
+            string directionContent = LanguageManager::getInstance()->isEnglish() ? "Place them in order." : "Letakkannya mengikut urutan.";
             _comprehensionScene->drawQuestionTitle(directionContent, _gameNode);
             
             drawBlocksByGameType();

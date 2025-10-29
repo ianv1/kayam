@@ -61,7 +61,7 @@ void LRAllInOneTypeQuestionScene::onEnter()
     layer->setQuestionAnswers(_questionText, _questionSoundPath, _answers);
     _gameNode->addChild(layer);
     
-    string directionContent = LanguageManager::getInstance()->isEnglish() ? "Select the correct answer." : "Chagua jibu sahihi.";
+    string directionContent = LanguageManager::getInstance()->isEnglish() ? "Select the correct answer." : "Pilih jawapan yang betul.";
     
     if (_questionText.find("Choose:") != std::string::npos)
     {

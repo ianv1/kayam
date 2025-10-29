@@ -120,7 +120,7 @@ namespace ComprehensionTest
                     break;
             }
             
-            string directionContent = LanguageManager::getInstance()->isEnglish() ? "Select the correct answer." : "Chagua jibu sahihi.";
+            string directionContent = LanguageManager::getInstance()->isEnglish() ? "Select the correct answer." : "Pilih jawapan yang betul.";
             
             if (_questionText.find("Choose:") != std::string::npos)
             {
