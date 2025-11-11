@@ -524,44 +524,44 @@ void LanguageManager::initLocalizationMap()
     _localizationMapMalay["Don't give up! Let's try it again!"] = "Jangan berputus asa! Mari cuba lagi!";
 
     // NB(xenosoz, 2018): Migrated from ShapeMatching. Datasheet? I agree.
-    vector<pair<string, string>> words_enUS_swTZ = {
-        /*
-        {"circle", "duara"},
-        {"square", "mraba"},
-        {"triangle", "pembe_tatu"},
-        {"rectangle", "mstatili"},
-        {"star", "nyota"},
-        {"rhombus", "rombasi"},
-        {"diamond", "almasi"},
-        {"oval", "mviringo"},
-        {"hexagon", "pembe_sita"},
-        {"pentagon", "pembe_tano"},
-        {"trapezoid", "trapeza"},
-        {"parallelogram", "msambamba"},
-        {"octagon", "pembe_nane"},
-        {"cone", "pia"},
-        {"sphere", "nyanja"},
-        {"cylinder", "mcheduara"},
-        {"cube", "mche_mraba"},
-        {"rectangular_prism", "mche_mstatili"},
-        {"triangular_prism", "mche_pembe_tatu"},
-        {"pyramid", "piramidi"},
-         */
-        {"face", "uso"},
-        {"faces", "nyuso"},
-        {"side", "upande"},
-        {"sides", "pande"},
-        {"large", "kubwa"},
-        {"medium", "wastani"},
-        {"small", "dogo"}
+    vector<pair<string, string>> words_enUS_msMY = {
+            // {"circle", "bulatan"},
+            // {"square", "segi empat sama"},
+            // {"triangle", "segi tiga"},
+            // {"rectangle", "segi empat tepat"},
+            // {"star", "bintang"},
+            // {"rhombus", "rombus"},
+            // {"diamond", "berlian"},
+            // {"oval", "bujur"},
+            // {"hexagon", "heksagon"},
+            // {"pentagon", "pentagon"},
+            // {"trapezoid", "trapezium"},
+            // {"parallelogram", "segi empat selari"},
+            // {"octagon", "oktagon"},
+            // {"cone", "kon"},
+            // {"sphere", "sfera"},
+            // {"cylinder", "silinder"},
+            // {"cube", "kiub"},
+            // {"rectangular_prism", "prisma segi empat tepat"},
+            // {"triangular_prism", "prisma segi tiga"},
+            // {"pyramid", "piramid"},
+            {"face", "permukaan"},
+            {"faces", "permukaan"},
+            {"side", "sisi"},
+            {"sides", "sisi"},
+            {"large", "besar"},
+            {"medium", "sederhana"},
+            {"small", "kecil"}
     };
     
-    for (auto item : words_enUS_swTZ) {
+    for (auto item : words_enUS_msMY) {
         string enUS = item.first;
         string swTZ = item.second;
+        string msMY = item.second;
         
         auto key = enUS;
         _localizationMapEnglish[key] = enUS;
+        _localizationMapMalay[key] = msMY;
         _localizationMapSwahili[key] = swTZ;
     }
     
