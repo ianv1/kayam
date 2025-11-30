@@ -1,0 +1,22 @@
+fill the blanks
+book_en_303_page_2_cropped.png
+I [love] my [ball].
+doll
+book_en_303_page_2_1.m4a
+ 
+fill the blanks
+book_en_303_page_4_cropped.png
+I love to [kick] my ball. I can kick it [far].
+sing
+book_en_303_page_4_blank.m4a
+ 
+multiple choices
+It is flying through the clouds!
+book_en_303_page_2_cropped.png,book_en_303_page_3_cropped.png,book_en_303_page_5_cropped.png,book_en_303_page_9_cropped.png
+book_en_303_page_9_cropped.png
+
+multiple choices
+Where does the girl’s ball land at the end of the story?
+book_en_303_page_11_cropped.png
+In the ocean, On a star, On the moon, On the sun
+On the moon

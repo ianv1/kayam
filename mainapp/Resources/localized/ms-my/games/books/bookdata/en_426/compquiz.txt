@@ -1,0 +1,21 @@
+fill the blanks
+book_en_426_page_1_cropped.png
+Many kinds of [animals] live in the [ocean].
+people, desert
+book_en_426_page_1_2.m4a
+
+fill the blanks
+book_en_426_page_5_cropped.png
+The [octopus] has [eight] arms.
+fish, one
+book_en_426_page_5_2.m4a
+
+matching
+Clownfish, Turtle, Octopus
+book_en_426_page_2_cropped.png, book_en_426_page_3_cropped.png, book_en_426_page_5_cropped.png
+
+multiple choices
+What is this book about?
+book_en_426_page_0_cropped.png
+The many plants in the ocean., The many animals in the ocean., The many colors of the ocean.
+The many animals in the ocean.

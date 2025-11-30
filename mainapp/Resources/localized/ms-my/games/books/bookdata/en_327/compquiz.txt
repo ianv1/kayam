@@ -1,0 +1,22 @@
+tracing question
+book_en_327_page_1_tracing.m4a
+book_en_327_page_1_cropped.png
+balloons
+en-uk_balloons.m4a
+
+fill the blanks
+book_en_327_page_2_cropped.png
+Halima and her balloons [scared] a [squirrel].
+frog
+book_en_327_page_2_1.m4a
+
+multiple choices
+Halima and the squirrel surprised a frog resting on a tree.
+book_en_327_page_2_cropped.png,book_en_327_page_4_cropped.png,book_en_327_page_6_cropped.png,book_en_327_page_1_cropped.png
+book_en_327_page_6_cropped.png
+
+multiple choices
+What did Halima and her animal friends explore?
+book_en_327_page_8_cropped.png
+Her school, The ocean, The moon, The forest
+The forest

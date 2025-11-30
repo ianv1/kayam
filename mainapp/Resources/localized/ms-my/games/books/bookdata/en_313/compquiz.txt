@@ -1,0 +1,21 @@
+fill the blanks
+book_en_313_page_1_cropped.png
+The [square] is [next] to the circle. 
+triangle
+book_en_313_page_1_1.m4a
+
+fill the blanks
+book_en_313_page_3_cropped.png
+The [triangle] is on [top] of the circle. 
+square
+book_en_313_page_3_1.m4a
+
+multiple choices
+Book_en_313_page_1_cropped.png
+The square is on top of the circle., The square is next to the circle., The circle is next to the rectangle., The circle is next to the circle.
+The square is next to the circle.
+
+multiple choices
+book_en_313_page_4_cropped.png
+The square is above the star., The triangle is next to the star., The square is on top of the circle., The triangle is above the square.
+The triangle is above the square. 

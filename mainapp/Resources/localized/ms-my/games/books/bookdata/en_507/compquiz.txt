@@ -1,0 +1,19 @@
+multiple choices
+Who is the story about? 
+book_en_507_page_1_cropped.png
+Tall Tumo, Short Tumo, Tall Tim, Short Tim
+Tall Tumo
+
+fill the blanks
+book_en_507_page_4_cropped.png
+Even Tumo’s [bed] was too [short] for him! 
+tall, bicycle
+book_en_507_page_4_1.m4a
+
+multiple choices
+Why was life hard for Tumo? 
+Tumo was too short for most things., Tumo was too tall for most things., Tumo was scared of everything., Tumo was mean to everyone.
+Tumo was too tall for most things.
+
+reordering
+Tumo’s tall height made life difficult for him., The villagers decided to help Tumo., Tumo was very happy after his friends helped him. 

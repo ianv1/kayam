@@ -1,0 +1,31 @@
+Ten Trees
+
+
+There is one tree.
+
+
+There are two trees.
+
+
+There are three trees.
+
+
+There are four trees.
+
+
+There are five trees.
+
+
+There are six trees.
+
+
+There are seven trees.
+
+
+There are eight trees.
+
+
+There are nine trees.
+
+
+How many trees are there?

@@ -1,0 +1,7 @@
+Cecilia,0.0,0.7
+and,0.7,0.8
+her,0.8,1.1
+family,1.1,1.6
+so,1.6,1.8
+many,1.8,2.3
+vegetables,2.3,3.1

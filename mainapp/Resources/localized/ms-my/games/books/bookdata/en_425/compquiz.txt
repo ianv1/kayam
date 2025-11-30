@@ -1,0 +1,23 @@
+fill the blanks
+book_en_425_page_1_cropped.png
+The book has [no] pictures, but she sees [pictures] anyway. 
+some, music
+book_en_425_page_1_quiz.m4a
+
+multiple choices
+Where does she see the pictures? 
+book_en_425_page_2_cropped.png
+In her heart, On the page, In her head
+In her head
+
+multiple choices
+She reads about a mighty lion. What does she hear in her head? 
+book_en_425_page_4_cropped.png
+A bird chirps., A lion roars., A bear roars. 
+A lion roars.
+
+multiple choices
+She reads about a crocodile. What does she see in her head? 
+book_en_425_page_6_cropped.png
+A zebra walking., A lion roaring., A crocodile swimming. 
+A crocodile swimming. 

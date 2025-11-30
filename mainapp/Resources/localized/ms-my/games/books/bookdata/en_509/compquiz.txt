@@ -1,0 +1,23 @@
+fill the blanks
+book_en_509_page_1_cropped.png
+Elephants have grey or brown [skin], large ears, and a long [nose]. 
+legs, "fur,"
+book_en_509_page_1_quiz.m4a
+
+multiple choices
+What is the subject of this book?
+book_en_509_page_1_cropped.png
+Tigers, Birds, Elephants
+Elephants
+
+fill the blanks
+book_en_509_page_6_cropped.png
+[Elephants] use their [trunks] to spray water on themselves and other elephants.
+Birds, mouths
+book_en_509_page_6_quiz.m4a
+
+multiple choices
+Why do elephants throw dirt on their backs?
+book_en_509_page_7_cropped.png
+Because it is fun., To protect their skin from the strong sun., To give to birds to eat later.  
+To protect their skin from the strong sun.

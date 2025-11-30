@@ -1,0 +1,23 @@
+multiple choices
+What is two minus one?  
+book_en_427_page_2_cropped.png
+One, Two, Three
+One
+
+multiple choices
+What is four minus one? 
+book_en_427_page_4_cropped.png
+Two, Three, Four
+Three
+
+multiple choices
+What is four minus two? 
+book_en_427_page_3_cropped.png
+Two, Three, Four
+Two
+
+multiple choices
+What is this book about? 
+book_en_427_page_1_cropped.png
+Addition, Subtraction, Multiplication 
+Subtraction

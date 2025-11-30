@@ -1,0 +1,20 @@
+Line Matching
+
+animal - dalmatian => cat
+animal - pig => goat
+animal - tiger => lion (고양이랑 구분만 확실히 되면 안 바꾸어도 될 것 같기도 하고...)
+crayon => flower
+
+
+
+
+추가가 필요한 것
+Animal/goat_small.png
+Animal/goat_small_succ.png
+Animal/goat_big.png
+Animal/goat_big_big.png
+
+
+변경이 필요한 것
+Animal/fish_back.png : 프레임 밖으로 벗어나지 않도록 조금 작게 수정이 필요함
+Stick/stick1_set.png : stick1_piece.png랑 쌍이 맞지 않음

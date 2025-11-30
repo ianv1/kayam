@@ -1,0 +1,20 @@
+multiple choices
+What does father give him? 
+book_en_355_page_2_cropped.png
+A car, A list, A candy
+A list
+
+fill the blanks
+book_en_355_page_3_cropped.png
+I [read] what we need off the [list]. 
+tree
+book_en_355_page_1_1.m4a
+
+fill the blanks
+book_en_355_page_7_cropped.png
+I [pay] for these [four] things. 
+steal
+book_en_355_page_7_1.m4a
+
+reordering
+Read list., Find things., Pay for things.

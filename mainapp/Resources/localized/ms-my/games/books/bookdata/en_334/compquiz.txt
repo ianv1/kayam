@@ -1,0 +1,23 @@
+fill the blanks
+book_en_334_page_1_cropped.png
+[Fire] is [hot]. 
+cold
+book_en_334_page_1_1.m4a
+
+fill the blanks
+book_en_334_page_2_cropped.png
+Snow is [cold]. 
+hot
+book_en_334_page_2_1.m4a
+
+multiple choices
+What is dry?
+book_en_334_page_4_cropped.png
+A desert is dry., An ocean is dry., Water is dry.
+A desert is dry.
+
+multiple choices
+What is not cold?
+book_en_334_page_1_cropped.png
+Snow is not cold., Ice is not cold., Fire is not cold.
+Fire is not cold.

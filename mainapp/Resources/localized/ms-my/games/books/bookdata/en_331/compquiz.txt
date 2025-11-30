@@ -1,0 +1,23 @@
+fill the blanks
+book_en_331_page_1_cropped.png
+A [clock] tells the [time].
+color
+book_en_331_page_1_1.m4a
+
+tracing question
+book_en_331_page_1_tracing.m4a
+book_en_331_page_1_cropped.png
+time
+en-uk_time.m4a
+
+fill the blanks
+book_en_331_page_2_cropped.png
+When the short hand points to 6 in the [morning] , the sun is [waking] up.
+night
+book_en_331_page_2_1.m4a
+
+fill the blanks
+book_en_331_page_5_cropped.png
+When the short hand points to 3 in the [afternoon] , the sun is [setting].
+morning
+book_en_331_page_5_1.m4a

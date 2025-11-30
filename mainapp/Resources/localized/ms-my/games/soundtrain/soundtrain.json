@@ -1,0 +1,86 @@
+{
+    "1": [
+    	     "s", "t", "p", "m", "n"
+          ],
+    "2": [
+    	    "d", "g", "c", "b", "r"
+          ],
+    "3": [
+          "h", "k", "f", "l", "j"
+          ],
+    "4": [
+          "v", "w", "x", "y", "z", "q"
+          ],
+    "5": [
+          "a", "e", "i", "o", "u"
+          ],
+    "6": [
+           "b-a", "c-a", "d-a", "f-a", "g-a", "h-a", 
+           "j-a", "l-a", "l-a", "m-a", "p-a", "r-a", 
+           "s-a", "t-a", "v-a", "y-a"
+          ],
+    "7": [
+           "f-e", "g-e", "j-e", "l-e", "n-e", "p-e", "s-e", 
+           "v-e", "y-e", "h-e", "m-e", "b-e", "w-e"
+          ],
+    "8": [
+            "b-i", "f-i", "h-i", "l-i", "z-i","h-i"
+          ],
+    "9": [
+           "b-o", "j-o", "p-o", "c-o", "m-o", "l-o", "s-o", "d-o", "t-o"
+          ],
+     "10":[
+           "b-u", "d-u", "g-u", "h-u", "j-u", "c-u", "m-u", "p-u", "r-u"
+          ],
+     "11":[
+            "d-a-d", "m-a-d", "s-a-d", "b-a-g", "m-a-p", "b-e-t", "g-e-t", 
+            "b-e-d", "r-e-d", "l-e-g", "b-i-n", "f-i-n", "w-i-n", "d-i-d", 
+            "h-i-d", "h-o-p", "t-o-p", "n-o-d", "d-o-t", "n-o-t","b-u-g",
+            "h-u-g", "f-u-n", "r-u-n", "n-u-t"
+         ],
+     "12":[
+           "th", "ch", "sh", "wh", "sh"
+         ],
+     "13":[
+           "ch-a-p", "ch-a-t", "ch-e-f", "ch-i-n", "ch-o-p"
+         ],
+     "14":[
+           "sh-ee-p", "sh-i-p", "sh-ir-t", "sh-o-p", "sh-o-t", "sh-ow", "sh-u-t"
+         ],
+     "15":[
+           "th-a-t", "th-e-m", "th-e-n", "th-e-y", "th-i-s"
+         ],
+     "16":[
+           "wh-i-p", "wh-i-z","wh-a-t","wh-e-n", "wh-a-t"
+         ],
+     "17":[
+            "n-e-ck", "s-i-ck", "p-i-ck", "w-i-sh", "f-i-sh", "d-i-sh", 
+            "w-i-th", "r-i-ch", "b-a-sh", "d-a-sh","b-a-ck", "c-a-sh", 
+            "m-a-sh", "p-a-th", "b-a-th", "m-a-th", "b-a-ck", "s-a-ck", 
+            "t-a-ck", "m-a-sh","r-u-sh", "d-u-ck", "s-u-ch", "m-u-ch", 
+            "g-o-sh"
+         ],
+     "18":[
+            "bl-ue", "bl-o-b", "cl-ue", "cl-ay", "fl-i-p", "fl-a-p", "dr-i-p", 
+            "dr-a-b", "pl-ay", "sc-ar","sk-i-p", "sk-i-n", "sw-i-m", "sn-ow", 
+            "sn-i-p", "sn-a-p", "sp-a-n", "sp-o-t", "sp-i-n", "sl-ow", "gr-a-b", 
+            "gr-ow", "cr-a-b", "cr-i-b", "st-e-m", "st-e-p"
+         ],
+     "19":[
+            "m-oo-n", "s-oo-n", "r-oo-m", "f-oo-t", "m-ee-t", "m-ea-t", "s-ea-l", 
+            "s-ee-d", "sh-ee-p", "b-ee-p","ea-ch", "p-ai-d", "p-ai-n", "s-ai-l", 
+            "f-ai-l", "p-ai-r", "st-ay", "gr-ay", "b-oa-t", "g-oa-t","r-oa-d", 
+            "fl-oa-t", "b-ow-l", "m-ou-th", "ou-ch", "sh-ow", "gr-ow", "b-oi-l", 
+            "s-oi-l", "tr-ay","pl-ay"
+         ],
+     "20":[
+            "c-ar", "st-ar", "j-ar", "ar-t", "ar-m", "d-ar-k", "m-ar-k", 
+            "f-ar", "b-ar-n", "f-er-n","st-ir", "sh-ir-t", "sk-ir-t", 
+            "f-ir-st"
+         ],
+     "21":[
+            "s-ing", "r-ing", "k-ing", "s-ong", "l-ong", "l-ung", 
+            "s-ung", "r-ung", "h-ang", "b-ang", "r-ang"
+         ]
+}
+

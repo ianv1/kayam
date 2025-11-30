@@ -1,0 +1,21 @@
+fill the blanks
+book_en_227_page_1_cropped.png
+I like to [read] books.
+eat
+book_en_227_page_1_1.m4a
+
+fill the blanks
+book_en_227_page_2_cropped.png
+I like to [write] stories. 
+cook
+book_en_227_page_2_1.m4a
+
+multiple choices
+What does he like to do? 
+book_en_227_page_4_cropped.png
+Cook, Draw, Sing
+Sing
+
+matching
+Eat, Sing, Run
+book_en_227_page_3_cropped.png, book_en_227_page_4_cropped.png, book_en_227_page_5_cropped.png

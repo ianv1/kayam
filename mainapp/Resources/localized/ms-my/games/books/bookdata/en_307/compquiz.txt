@@ -1,0 +1,20 @@
+fill the blanks
+book_en_307_page_1_cropped.png
+[I] need [paper].
+letter
+book_en_307_page_1_quiz.m4a
+ 
+fill the blanks
+book_en_307_page_5_cropped.png
+I write her [address] on the [envelope].
+song
+book_en_307_page_5_1.m4a 
+ 
+multiple choices
+book_en_307_page_6_cropped.png
+I put a stamp on the envelope., I write a letter to my friend., I bring the letter  in the envelope to the mailbox., I write her address on the envelope.
+I put a stamp on the envelope.
+
+matching
+I put on a stamp.,I need paper., I need an envelope.
+book_en_307_page_6_cropped.png,book_en_307_page_1_cropped.png,book_en_307_page_4_cropped.png

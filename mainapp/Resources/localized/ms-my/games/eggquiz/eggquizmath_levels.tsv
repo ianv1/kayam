@@ -1,0 +1,618 @@
+#missing_number - questionoption1: 숫자 간 간격 / questionoption2: 괄호 위치(미지정 시 랜덤) / questionoption3: ascending, descending 지정 가능, 없으면 둘 중 하나 / answerpoint1: 시작 수 세팅 (10=10의 배수, 5=5의 배수..), 없으면 랜덤                                                                                         #operations_with_objects - questionoption2: regroupingtrue시 받아올림,받아내림 강제. regroupingfalse시 받아올림, 받아내림 없음. 없으면 둘 중 하나.                                                                                         #operations_without_objects - questionoption3: vertical시 세로 연산. horizontal시 가로 연산. 없으면 둘 중 하나.                                                                                         #biggest_and_smallest - questionoption1: biggest시 가장 큰 수. smallest시 가장 작은 수.                                                                                         #bigger_and_smaller - questionoption1: bigger시 더 큰 수. smaller시 더 작은 수. / questionoption2: image, number 지정, 없으면 둘 중 하나 / questionoption3: image의 경우 lineup을 기재하면 정렬됨                                                                                         #compare_number_magnitudes - questionoption1: ascending, descending 지정 가능, 없으면 둘 중 하나 / answeroption1: 숫자 간 간격 지정, 없으면 지정하지 않음.                                                                                         #shapes - questionoption1: 질문, 음성 파일 명과 일치해야 함 / answerrange: 항목 중 답변을 하나 선택. 이미지 파일 명과 일치해야 함 / answeroption1 항목 중 보기 선택. 이미지 파일 명과 일치해야 함"											
+#level	worksheet	leveltypesequence	type	templatename	questionoption1	questionoption2	questionoption3	questionoption4	questionoption5	answer	answeroption1			
+PostTest_1	1	1001, 1001, 1002, 1002, 1003, 1004, 1004, 1005, 1005, 1006												
+			1001	single_digit_numbers	howmany.m4a					1~5				
+			1002	single_digit_numbers	howmany.m4a					4~9				
+			1003	2digit_numbers	howmany.m4a					10	5~10			
+			1004	recognize_number						1~9				
+			1005	number_identification						1~9				
+			1006	recognize_number						10	5~10			
+PostTest_2	1	2001, 2002, 2001~2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009												
+			2001	2digit_numbers	howmany.m4a					11~15				
+			2002	2digit_numbers	howmany.m4a					16~20				
+			2003	recognize_number						16~19				
+			2004	recognize_number						20	11~20			
+			2005	number_identification						11~15				
+			2006	bigger_and_smaller	bigger	image	lineup	Kumpulan manakah yang lebih besar?	which_group_is_bigger.m4a	1~10				
+			2007	bigger_and_smaller	smaller	image	lineup	Kumpulan manakah yang lebih kecil?	which_group_is_smaller.m4a	1~10				
+			2008	bigger_and_smaller	bigger	number		Yang mana lebih besar?	which_is_bigger.m4a	1~10				
+			2009	bigger_and_smaller	smaller	number		Yang mana lebih kecil?	which_is_smaller.m4a	1~10				
+MiniTest_3_1	1	31001, 31002, 31003, 31004, 31005												
+			31001	2digit_numbers	howmany.m4a					10~20				
+			31002	2digit_numbers	howmany.m4a					17~20				
+			31003	recognize_number						1~20				
+			31004	number_identification						11~19				
+			31005	missing_number_drag	1	4	ascending			1~5				
+MiniTest_3_2	1	32001, 32001, 32002, 32002, 32003												
+			32001	operations_with_objects	1~4+1~4=?					2~5				
+			32002	operations_with_objects	2~5-1~4=?					1~4				
+			32003	missing_number_drag	1	4	descending			1~5				
+MiniTest_3_3	1	33001, 33002, 33003, 33004, 33005												
+			33001	bigger_and_smaller	bigger	number		Yang mana lebih besar?	which_is_bigger.m4a	1~10				
+			33002	bigger_and_smaller	smaller	number		Yang mana lebih kecil?	which_is_smaller.m4a	1~10				
+			33003	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			1~10				
+			33004	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			1~10				
+			33005	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~10				
+PostTest_3	1	3001, 3002, 3003~3004, 3005, 3006, 3007~3008, 3009, 3010, 3011, 3012												
+			3001	2digit_numbers	howmany.m4a					21~50				
+			3002	recognize_number						21~50				
+			3003	bigger_and_smaller	bigger	number		Yang mana lebih besar?	which_is_bigger.m4a	1~20				
+			3004	bigger_and_smaller	smaller	number		Yang mana lebih kecil?	which_is_smaller.m4a	1~20				
+			3005	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~10				
+			3006	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~20				
+			3007	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			1~20				
+			3008	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			1~20				
+			3009	missing_number_drag	1	3	ascending			1~10				
+			3010	missing_number_drag	1	4	descending			1~10				
+			3011	operations_with_objects	1~10+1~10=?	regroupingfalse				1~10				
+			3012	operations_with_objects	1~10-1~10=?	regroupingfalse				1~10				
+MiniTest_4_1	1	41001, 41002, 41003, 41004, 41005												
+			41001	recognize_number						21~50				
+			41002	number_identification						51~99				
+			41003	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~20				
+			41004	missing_number_drag	1	4	ascending			1~10				
+			41005	bigger_and_smaller	bigger	number		Yang mana lebih besar?	which_is_bigger.m4a	20~50				
+MiniTest_4_2	1	42001, 42002, 42003, 42004, 42005~42008												
+			42001	2digit_numbers	howmany.m4a					51~100				
+			42002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~20				
+			42003	operations_with_objects	2~10-1~4=?					1~9				
+			42004	operations_with_objects	2~10-5~9=?					1~9				
+			42005	shapes	which	Yang manakah bulat?	which_is_a_circle			circle	circle,square,triangle,rectangle			
+			42006	shapes	which	Yang manakah segi empat sama?	which_is_a_square			square	circle,square,triangle,rectangle			
+			42007	shapes	which	Yang manakah segi tiga?	which_is_a_triangle			triangle	circle,square,triangle,rectangle			
+			42008	shapes	which	Yang manakah segi empat tepat?	which_is_a_rectangle			rectangle	circle,square,triangle,rectangle			
+PostTest_4	1	4001, 4002, 4003, 4004~4005, 4006, 4007, 4008, 4009~4010, 4011~4014, 4015												
+			4001	2digit_numbers	howmany.m4a					51~100				
+			4002	number_identification						51~99				
+			4003	use_magnitude_symbols	11~50	11~50	Isi tempat kosong.	fill_in_the_blank.m4a						
+			4004	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			11~50				
+			4005	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			11~50				
+			4006	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~50				
+			4007	missing_number_drag	1	4	descending			1~20				
+			4008	missing_number_drag	2	3	ascending			1~20	2			
+			4009	operations_with_objects	1~20+1~20=?	regroupingfalse				1~20				
+			4010	operations_with_objects	1~20-1~20=?	regroupingfalse				1~20				
+			4011	shapes	which	Yang manakah bulat?	which_is_a_circle			circle	circle,square,triangle,rectangle			
+			4012	shapes	which	Yang manakah segi empat sama?	which_is_a_square			square	circle,square,triangle,rectangle			
+			4013	shapes	which	Yang manakah segi tiga?	which_is_a_triangle			triangle	circle,square,triangle,rectangle			
+			4014	shapes	which	Yang manakah segi empat tepat?	which_is_a_rectangle			rectangle	circle,square,triangle,rectangle			
+			4015	shapes	what	Apakah bentuk ini?	What_is_this_shape			bulatan,segi_empat_sama,segi_tiga,segi_empat_tempat	bulatan,segi_empat_sama,segi_tiga,segi_empat_tempat
+MiniTest_5_1	1	51001, 51002, 51003, 51004, 51005												
+			51001	operations_drag	1~9+1~9=?		horizontal			1~10				
+			51002	operations_drag	1~10-1~9=?		horizontal			1~9				
+			51003	operations_drag	10-1~9=?		horizontal			1~9				
+			51004	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			11~50				
+			51005	missing_number_drag	1	4	descending			1~20				
+MiniTest_5_2	1	52001, 52002, 52003, 52004, 52005												
+			52001	operations_drag	10+1~9=?		vertical			11~19				
+			52002	operations_drag	11~20+1~10=?		vertical			11~19				
+			52003	missing_number_drag	10	4	ascending			1~50	10			
+			52004	operations_with_objects	1~9+1~9=?					10				
+			52005	use_magnitude_symbols	11~50	11~50	Isi tempat kosong.	fill_in_the_blank.m4a						
+MiniTest_5_3	1	53001, 53002, 53003, 53004, 53005												
+			53001	operations_with_objects	1~9+1~9=?	regroupingtrue				1~20				
+			53002	operations_with_objects	10-1~9=?	regroupingtrue				1~9				
+			53003	operations_drag	11~20-1~10=?		vertical			10~20				
+			53004	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~50				
+			53005	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,hexagon,parallelogram,trapezoid	pentagon,heksagon,segi_empat_selari,trapezium
+PostTest_5	1	5001, 5002~5003, 5004~5007, 5008~5010, 5011, 5012, 5013, 5014, 5015~5018, 5019												
+			5001	recognize_number						51~100				
+			5002	use_magnitude_symbols	41~50	41~50	Isi tempat kosong.	fill_in_the_blank.m4a						
+			5003	use_magnitude_symbols	16~19	31~34	Isi tempat kosong.	fill_in_the_blank.m4a						
+			5004	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			11~50				
+			5005	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			11~50				
+			5006	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			11~50				
+			5007	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			11~50				
+			5008	missing_number_drag	1	2	ascending			1~50				
+			5009	missing_number_drag	5	3	ascending			1~50	5			
+			5010	missing_number_drag	10	4	descending			1~50	10			
+			5011	operations_with_objects	1~9+1~9=?	regroupingtrue				11~18				
+			5012	operations_drag	1~9+1~9=?		vertical			10				
+			5013	operations_drag	10+1~10=?		horizontal			11~19				
+			5014	operations_drag	10-1~9=?		vertical			1~9				
+			5015	shapes	which	Yang manakah pentagon?	Which_is_a_pentagon			pentagon	pentagon,hexagon,parallelogram,trapezoid
+			5016	shapes	which	Yang manakah heksagon?	Which_is_a_hexagon			hexagon	pentagon,hexagon,parallelogram,trapezoid
+			5017	shapes	which	Yang manakah segi empat selari?	Which_is_a_parallelogram			parallelogram	pentagon,hexagon,parallelogram,trapezoid
+			5018	shapes	which	Yang manakah trapezoid?	Which_is_a_trapezoid			trapezoid	pentagon,hexagon,parallelogram,trapezoid
+			5019	shapes	what	Apakah bentuk ini?	What_is_this_shape			silinder,kubus,sfera,kon	silinder,kubus,sfera,kon
+MiniTest_6_1	1	61001, 61002, 61003, 61004, 61005												
+			61001	missing_number_drag	1	3	ascending			51~100				
+			61002	missing_number_drag	10	4	ascending			51~100	10			
+			61003	number_identification						51~100				
+			61004	operations_with_objects	11~19+1~9=?	regroupingtrue				20				
+			61005	operations_drag	1~9+1~9=?	regroupingtrue	vertical			10~19				
+MiniTest_6_2	1	62001~62002, 62003, 62004, 62005, 62006												
+			62001	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			51~100				
+			62002	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			51~100				
+			62003	use_magnitude_symbols	51~100	51~100	Isi tempat kosong.	fill_in_the_blank.m4a						
+			62004	operations_drag	11~20-10=?		horizontal			1~10				
+			62005	operations_drag	11~20-1~9=?	regroupingtrue	vertical			1~10				
+			62006	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
+MiniTest_6_3	1	63001, 63002, 63003, 63004~63005, 63006												
+			63001	missing_number_drag	10	3	descending			51~100	10			
+			63002	operations_with_objects	11~20-1~9=?	regroupingtrue				1~20				
+			63003	operations_drag	1~20+1~20=?	regroupingtrue	vertical			20				
+			63004	operations_drag	20-1~9=?	regroupingtrue	vertical			11~19				
+			63005	operations_drag	20-11~19=?	regroupingtrue	vertical			1~9				
+			63006	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
+PostTest_6	1	6001, 6002, 6003, 6004~6005, 6006~6007, 6008~6009, 6010, 6011, 6012, 6013~6014												
+			6001	recognize_number						51~100				
+			6002	3digit_numbers	howmany.m4a					100~110				
+			6003	use_magnitude_symbols	51~100	51~100	Isi tempat kosong.	fill_in_the_blank.m4a						
+			6004	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			51~100				
+			6005	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			51~100				
+			6006	missing_number_drag	10	2	ascending			50~100	10			
+			6007	missing_number_drag	5	2	ascending			51~100	5			
+			6008	missing_number_drag	1	3	descending			51~100				
+			6009	missing_number_drag	10	3	descending			51~100	10			
+			6010	operations_with_objects	1~9+1~9=?	regroupingtrue				11~18				
+			6011	operations_with_objects	11~20-1~9=?	regroupingtrue				2~19				
+			6012	operations_drag	11~20-1~10=?	regroupingfalse	horizontal			1~10				
+			6013	operations_drag	11~19+1~9=?	regroupingtrue	vertical			20				
+			6014	operations_drag	20-1~9=?	regroupingtrue	vertical			11~19				
+MiniTest_7_1	1	71001,71002, 71003, 71004, 71005												
+			71001	missing_number_drag	3	4	ascending			1~20	3			
+			71002	operations_with_objects	11~19-1~9=?	regroupingtrue				1~9				
+			71003	operations_drag	1~10+1~10=?	regroupingtrue	vertical			10~20				
+			71004	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
+			71005	word_problem	7 red apples and 2 green apples are in the basket. How many apples are in the basket?	en_uk_a1_08.m4a				9				
+MiniTest_7_2	1	72001, 72002, 72003, 72004, 72005												
+			72001	missing_number_drag	2	4	descending			1~10	2			
+			72002	operations_drag	11~19+11~19=?	regroupingfalse	horizontal			20~30				
+			72003	operations_drag	20-1~10=?		horizontal			1~10				
+			72004	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
+			72005	word_problem	Billy has 2 marbles. Audrey has 3 more marbles than Billy. How many marbles does Audrey have?	en_uk_d3_02.m4a				5				
+MiniTest_7_3	1	73001, 73002, 73003, 73004, 73005												
+			73001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
+			73002	missing_number_drag	2	3	descending			11~30	2			
+			73003	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
+			73004	operations_drag	21~50-10~20=?	regroupingfalse	vertical			1~40				
+			73005	word_problem	5 apples are on the table. Sam eats 2 apples. How many apples are left on the table?	en_uk_b1_01.m4a				3				
+PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012, 7013												
+			7001	use_magnitude_symbols	51~100	51~100	Isi tempat kosong.	fill_in_the_blank.m4a						
+			7002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~100				
+			7003	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
+			7004	missing_number_drag	3	4	ascending			10~50	3			
+			7005	missing_number_drag	5	3	descending			10~50	5			
+			7006	operations_with_objects	11~19+1~9=?	regroupingtrue				20~30				
+			7007	operations_with_objects	1~9+11~19=?	regroupingtrue				20~30				
+			7008	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
+			7009	operations_drag	11~50-11~30=?	regroupingfalse	vertical			1~50				
+			7010	word_problem	Stacie caught 5 fish in the morning. She caught 4 more fish in the afternoon. How many fish did Stacie catch in all?	en_uk_a1_01.m4a				9				
+			7011	word_problem	Thomas has 2 goats on his farm. There are 6 more chickens than goats on his farm. How many chickens does he have?	en_uk_d3_07.m4a				8				
+			7012	word_problem	4 birds are sitting on a branch. 1 flies away. How many birds are left on the branch?	en_uk_b1_03.m4a				3				
+			7013	word_problem	You have 7 balloons and your friend has 5 balloons. How many more balloons do you have than your friend?	en_uk_d1_02.m4a				2				
+MiniTest_8_1	1	81001, 81002, 81003, 81004, 81005												
+			81001	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
+			81002	missing_number_drag	2	4	descending			50~100	2			
+			81003	operations_drag	11~50+11~50=?	regroupingfalse	vertical			20~50				
+			81004	operations_drag	11~50-11~50=?	regroupingfalse	vertical			20~50				
+			81005	word_problem	There are 14 fish in a water tank. Kerri put 3 more fish into the tank. How many fish are there?	en_uk_a1_04.m4a				17				
+MiniTest_8_2	1	82001, 82002, 82003, 82004, 82005												
+			82001	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
+			82002	missing_number_drag	1	4	ascending			100~500				
+			82003	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
+			82004	word_problem	There are 10 plates at the dinner table. There are 5 more people than plates. How many people are at dinner?	en_uk_d3_09.m4a				15				
+			82005	word_problem	There are 12 cats on a fence. 1 cat jumps down off of the fence. How many cats are left on the fence?	en_uk_b1_09.m4a				11				
+MiniTest_8_3	1	83001, 83002, 83003, 83004, 83005												
+			83001	missing_number_drag	100	2	ascending			100~900	100			
+			83002	operations_drag	11~18-1~9=?	regroupingtrue	horizontal			1~9				
+			83003	operations_drag	21~50-11~30=?	regroupingtrue	vertical			1~40				
+			83004	word_problem	Janet has 8 oranges and Sharon has 4 oranges. How many oranges do they have altogether?	en_uk_a2_08.m4a				12				
+			83005	word_problem	Sandy is 5 years old. Mia is 7 years older than Sandy. How old is Mia?	en_uk_d4_10.m4a				12				
+PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010												
+			8001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			300~700				
+			8002	missing_number_drag	1	3	ascending			200~999				
+			8003	missing_number_drag	100	4	ascending			200~999	100			
+			8004	missing_number_drag	100	4	descending			100~500	100			
+			8005	operations_drag	11~50+11~20=?	regroupingtrue	vertical			1~50				
+			8006	operations_drag	31~50-11~20=?	regroupingtrue	vertical			1~50				
+			8007	word_problem	Tom has 6 books. James has 2 books. How many books do they have in all?	en_uk_a1_05.m4a				8				
+			8008	word_problem	Diego has 11 mangos in a basket. Diego gives 4 mangos to his sister. How many mangos are left in the basket?	en_uk_b2_05.m4a				7				
+			8009	word_problem	Fred is 12 years old. His brother Tom is 8 years old. How much younger is Tom than Fred?	en_uk_d2_06.m4a				4				
+			8010	word_problem	A farmer gathered 16 eggs. She used 4 eggs to make breakfast. How many eggs does she have left?	en_uk_b1_06.m4a				12				
+MiniTest_9_1	1	91001~91003, 91004, 91005, 91006, 91007												
+			91001	operations_drag	11~99+10, 20, 30, 40, 50, 60, 70, 70, 80=?		horizontal			1~100				
+			91002	operations_drag	10, 20, 30, 40, 50, 60, 70, 80+11~99=?		horizontal			1~100				
+			91003	operations_drag	10, 20, 30, 40, 50, 60, 70, 80, 90-5,10=?		horizontal			1~100				
+			91004	operations_without_objects	2, 3, 4, 5x1~9=?		horizontal			2~45				
+			91005	missing_number_drag	10	3	ascending			500~990	10			
+			91006	word_problem	Jane has 9 balloons. 6 are green and the rest are blue. How many balloons are blue?	en_uk_c1_04.m4a				3				
+			91007	shapes	what	Apakah bentuk ini?	What_is_this_shape			circle,square,triangle,rectangle	circle,square,triangle,rectangle			
+MiniTest_9_2	1	92001~92002, 92003, 92004, 92005, 92006												
+			92001	missing_number_drag	1	4	descending			100~999				
+			92002	missing_number_drag	5	3	ascending			100~999	5			
+			92003	operations_drag	31~50+20~50=?	regroupingfalse	vertical			1~100				
+			92004	operations_drag	10~99-10=?		vertical			1~90				
+			92005	operations_without_objects	6, 7, 8, 9x1~9=?		horizontal			6~81				
+			92006	word_problem	A farmer had 7 apple trees. She bought some more trees and now has 10 apple trees in her orchard. How many apple trees did she buy?	en_uk_e1_04.m4a				3				
+MiniTest_9_3	1	93001, 93002, 93003, 93004, 93005												
+			93001	operations_drag	11~30+20~70=?	regroupingtrue	vertical			1~99				
+			93002	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~99				
+			93003	missing_number_drag	10	4	descending			100~999	10			
+			93004	word_problem	The tennis team has 12 players. 6 of the players are girls. Some are boys. How many tennis players are boys?	en_uk_c2_09.m4a				6				
+			93005	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,heksagon,segi_empat_selari,trapezium	pentagon,heksagon,segi_empat_selari,trapezium
+PostTest_9	1	9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010												
+			9001	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~100				
+			9002	operations_drag	11~30+20~70=?	regroupingtrue	vertical			1~100				
+			9003	missing_number_drag	5	4	descending			100~999	5			
+			9004	missing_number_drag	3	3	ascending			1~20				
+			9005	operations_without_objects	2~9x2~9=?		horizontal			4~81				
+			9006	word_problem	Peter has 4 marbles. Sue gives Peter some marbles and now he has 6 marbles in all. How many marbles did Sue give Peter?	en_uk_e1_02.m4a				2				
+			9007	word_problem	I have 10 apples. I eat some apples. I have 4 apples left. How many apples did I eat?	en_uk_e2_01.m4a				6				
+			9008	shapes	what	Apakah bentuk ini?	What_is_this_shape			silinder,kubus,sfera,kon	silinder,kubus,sfera,kon
+			9009	word_problem	A bee has 6 legs. How many legs do 2 bees have?	en_uk_f1_02.m4a				12				
+			9010	word_problem	2 children share 8 sweets equally. How many sweets does each child get?	en_uk_f2_01.m4a				4				
+SpecialTest_1	1	10001, 10002, 10003, 10004, 10005												
+			10001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~6	1			
+			10002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			5~10	1			
+			10003	use_magnitude_symbols	1~10	1~10	Isi tempat kosong.	fill_in_the_blank.m4a			2			
+			10004	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			1~6	1			
+			10005	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			5~10	1			
+SpecialTest_2	1	20001, 20002, 20003, 20004, 20005												
+			20001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			11~50				
+			20002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
+			20003	use_magnitude_symbols	11~50	11~50	Isi tempat kosong.	fill_in_the_blank.m4a						
+			20004	use_magnitude_symbols	11~99	11~99	Isi tempat kosong.	fill_in_the_blank.m4a						
+			20005	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			11~99				
+SpecialTest_3	1	30001, 30002, 30003, 30004, 30005												
+			30001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			100~500				
+			30002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			100~999				
+			30003	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			100~500				
+			30004	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
+			30005	use_magnitude_symbols	100~999	100~999	Isi tempat kosong.	fill_in_the_blank.m4a						
+SpecialTest_4	1	40001, 40002, 40003, 40004, 40005												
+			40001	missing_number_drag	1	4	ascending			1~10				
+			40002	missing_number_drag	2	3	ascending			1~20	2			
+			40003	missing_number_drag	1	2	ascending			1~20				
+			40004	missing_number_drag	1	4	descending			1~20				
+			40005	missing_number_drag	2	3	descending			1~20	2			
+SpecialTest_5	1	50001, 50002, 50003, 50004, 50005												
+			50001	missing_number_drag	1	4	ascending			21~99				
+			50002	missing_number_drag	10	2	ascending			21~99	10			
+			50003	missing_number_drag	5	3	ascending			21~99	5			
+			50004	missing_number_drag	1	4	descending			21~99				
+			50005	missing_number_drag	10	3	descending			21~99	10			
+SpecialTest_6	1	60001, 60002, 60003, 60004, 60005												
+			60001	missing_number_drag	5	4	ascending			100~999	5			
+			60002	missing_number_drag	100	2	ascending			100~999	100			
+			60003	missing_number_drag	10	3	ascending			100~999	10			
+			60004	missing_number_drag	1	4	descending			100~999				
+			60005	missing_number_drag	10	3	descending			100~999	10			
+SpecialTest_7	1	70001, 70002, 70002~70003, 70003, 70004												
+			70001	operations_with_objects	1~9+1~9=?		horizontal			1~9				
+			70002	operations_with_objects	1~9+1~9=?		horizontal			1~9				
+			70003	operations_drag	1~9+1~9=?		horizontal			1~9				
+			70004	operations_drag	1~9+1~9=?		horizontal			10				
+SpecialTest_8	1	80001, 80002, 80003, 80004, 80005												
+			80001	operations_drag	10+1~9=?		horizontal			11~19				
+			80002	operations_with_objects	11~18+1~8=?	regroupingfalse	horizontal			11~19				
+			80003	operations_with_objects	1~8+11~18=?	regroupingfalse	horizontal			11~19				
+			80004	operations_drag	11~18+1~8=?	regroupingfalse	horizontal			11~19				
+			80005	operations_drag	1~8+11~18=?	regroupingfalse	horizontal			11~19				
+SpecialTest_9	1	90001, 90002, 90003~90004, 90005~90006, 90007												
+			90001	operations_with_objects	1~9+1~9=?	regroupingtrue	horizontal			11~19				
+			90002	operations_drag	1~9+1~9=?	regroupingtrue	horizontal			11~19				
+			90003	operations_with_objects	10~19+1~10=?		horizontal			20				
+			90004	operations_with_objects	1~10+10~19=?		horizontal			20				
+			90005	operations_drag	1~10+10~19=?		horizontal			20				
+			90006	operations_drag	10~19+1~10=?		horizontal			20				
+			90007	operations_drag	1~9+1~9=?	regroupingtrue	vertical			11~19				
+SpecialTest_10	1	100001, 100002, 100003, 100004, 100005												
+			100001	operations_drag	10,20,30,40,50,60,70,80,90+10,20,30,40,50,60,70,80,90=?	regroupingfalse	horizontal			30~90				
+			100002	operations_drag	10,20,30,40,50,60,70,80,90+10~89=?	regroupingfalse	horizontal			20~99				
+			100003	operations_drag	11~19+10~99=?	regroupingfalse	vertical			21~50				
+			100004	operations_drag	11~99+10~99=?	regroupingfalse	vertical			21~99				
+			100005	operations_drag	11~99+10~99=?	regroupingfalse	vertical			51~99				
+SpecialTest_11	1	110001, 110002, 110003~110004, 110005, 110005												
+			110001	operations_with_objects	11~19+11~19=?	regroupingtrue	vertical			20~40				
+			110002	operations_drag	21~49+1~9=?	regroupingtrue	vertical			21~50				
+			110003	operations_drag	11~29+11~29=?	regroupingtrue	vertical			40				
+			110004	operations_drag	11~39+11~39=?	regroupingtrue	vertical			50				
+			110005	operations_drag	11~39+11~39=?	regroupingtrue	vertical			21~50				
+SpecialTest_12	1	120001, 120002, 120003, 120003, 120004												
+			120001	operations_drag	10,20,30,40,50,60,70,80,90+10,20,30,40,50,60,70,80,90=?	regroupingtrue	horizontal			100				
+			120002	operations_drag	11~89+11~89=?	regroupingtrue	vertical			100				
+			120003	operations_drag	11~59+11~59=?	regroupingtrue	vertical			30~70				
+			120004	operations_drag	11~89+11~89=?	regroupingtrue	vertical			71~100				
+SpecialTest_13	1	130001~130010, 130001~130010, 130001~130010, 130001~130010, 130001~130010												
+			130001	word_problem	Shelby earns star stickers when she does math at school. Yesterday, Shelby earned 4 stars. Today, she earned 3 more. How many stars did Shelby earn in all?	en_uk_a1_03.m4a				7				
+			130002	word_problem	Tom has 6 books. James has 2 books. How many books do they have in all?	en_uk_a1_05.m4a				8				
+			130003	word_problem	Helen saw 12 birds in a tree and 7 birds in another tree. How many birds did she see altogether?	en_uk_a1_09.m4a				19				
+			130004	word_problem	A farmer planted 5 rows of corn before lunch. He planted 7 more rows after lunch. How many rows of corn did he plant during the day?	en_uk_a2_03.m4a				12				
+			130005	word_problem	There are 6 girls and 7 boys on the bus. How many children are on the bus?	en_uk_a2_05.m4a				13				
+			130006	word_problem	Stacie caught 5 fish in the morning. She caught 4 more fish in the afternoon. How many fish did Stacie catch in all?	en_uk_a1_01.m4a				9				
+			130007	word_problem	Maya served 3 yams at lunch and 5 yams during dinner. How many yams were served during the day?	en_uk_a1_06.m4a				8				
+			130008	word_problem	Kyle got 3 new shirts on his birthday. He already had 5 shirts. How many shirts does he have now?	en_uk_a1_10.m4a				8				
+			130009	word_problem	Mary is decorating for a birthday party. She blew up 6 balloons this morning and 5 balloons this afternooon. How many balloons did she blow up in all?	en_uk_a2_01.m4a				11				
+			130010	word_problem	There are 7 pencils in the drawer. Dan placed 9 more pencils in the drawer. How many pencils are in the drawer?	en_uk_a2_07.m4a				16				
+SpecialTest_14	1	140001~140010, 140001~140010, 140001~140010, 140001~140010, 140001~140010												
+			140001	word_problem	Billy has 2 marbles. Audrey has 3 more marbles than Billy. How many marbles does Audrey have?	en_uk_d3_02.m4a				5				
+			140002	word_problem	Bobby bought 3 more books than Gabby. Gabby bought a book. How many books did Bobby buy?	en_uk_d3_04.m4a				4				
+			140003	word_problem	There are 10 plates at the dinner table. There are 5 more people than plates. How many people are at dinner?	en_uk_d3_09.m4a				15				
+			140004	word_problem	Jackie has 9 pencils. Adam has 5 more pencils than Jackie. How many pencils does Adam have?	en_uk_d4_02.m4a				14				
+			140005	word_problem	Thomas has 2 goats on his farm. There are 6 more chickens than goats on his farm. How many chickens does he have?	en_uk_d3_07.m4a				8				
+			140006	word_problem	Sarah is 5 years old. Her sister Katie is 2 years older than Sarah. How old is Katie?	en_uk_d3_01.m4a				7				
+			140007	word_problem	There are 14 chairs in Ms. Bloom's classroom. There are 3 more chairs in Mr. Peter's classroom. How many chairs are there in Mr. Peter's classroom?	en_uk_d3_10.m4a				17				
+			140008	word_problem	Paul has 7 plums. Brian has 4 more plums than Paul. How many plums does Brian have?	en_uk_d4_01.m4a				11				
+			140009	word_problem	Marin has 7 balls. Ellen has 6 more balls than Marin. How many balls does Ellen have?	en_uk_d4_03.m4a				13				
+			140010	word_problem	Bob has 4 pencils and his sister has 8 more pencils than him. How many pencils does Bob's sister have?	en_uk_d4_08.m4a				12				
+SpecialTest_15	1	150001~150010, 150001~150010, 150001~150010, 150001~150010, 150001~150010												
+			150001	word_problem	Anita has 5 books. 3 of them are science books and the rest are storybooks. How many are storybooks?	en_uk_c1_08.m4a				2				
+			150002	word_problem	Michael's cat had 9 kittens. 5 of them are white and the rest are gray. How many gray kittens did the cat have?	en_uk_c1_09.m4a				4				
+			150003	word_problem	There are 9 children in a classroom. 6 of them are boys. How many girls are in the classroom?	en_uk_c1_01.m4a				3				
+			150004	word_problem	Ms. Dawson has 12 students in her class. Some students are absent and 7 students are present. How many students are absent?	en_uk_c2_05.m4a				5				
+			150005	word_problem	There are 16 children in a classroom. Some children go outside to play. 7 children stay inside to read books. How many children are outside?	en_uk_c2_08.m4a				9				
+			150006	word_problem	Jane has 9 balloons. 6 are green and the rest are blue. How many balloons are blue?	en_uk_c1_04.m4a				3				
+			150007	word_problem	Katie and her brother picked 6 mangos together. Katie picked 4 mangos. How many mangos did her brother pick?	en_uk_c1_07.m4a				2				
+			150008	word_problem	Harper and Raven drew 8 pictures together. Harper drew 3 pictures. How many pictures did Raven draw?	en_uk_c1_10.m4a				5				
+			150009	word_problem	Laci and Kendra caught 14 fireflies altogether. Laci caught 5 fireflies. How many fireflies did Kendra catch?	en_uk_c2_03.m4a				9				
+			150010	word_problem	A piece of wood is 13 inches long. It is cut into two parts. One part is 6 inches long. How long is the other part?	en_uk_c2_06.m4a				7				
+SpecialTest_16	1	160001~160010, 160001~160010, 160001~160010, 160001~160010, 160001~160010												
+			160001	word_problem	A farmer had 7 apple trees. She bought some more trees and now has 10 apple trees in her orchard. How many apple trees did she buy?	en_uk_e1_04.m4a				3				
+			160002	word_problem	A football team scored 3 goals in the first half. Then they scored more goals in the second half. They won the game with 5 goals! How many goals did they socre in the second half?	en_uk_e1_05.m4a				2				
+			160003	word_problem	Peter read 6 pages of his book before lunch. After lunch he read some more. If Peter read 9 pages in all, how many pages did he read after lunch?	en_uk_e1_08.m4a				3				
+			160004	word_problem	George went to a store and bought some t-shirts. He went to another store and bought 2 more t-shirts. He bought a total of 7 t-shirts. How many t-shirts did he buy at the first store?	en_uk_e1_10.m4a				5				
+			160005	word_problem	You have some stamps. Your brother gives 6 stamps to you. Now you have 10 stamps. How many stamps did you start with?	en_uk_e1_01.m4a				4				
+			160006	word_problem	Tess picked 3 flowers in the morning. She picked some more flowers in the afternoon. If Tess picked 8 flowers in all, how many did she pick in the afternoon?	en_uk_e1_03.m4a				5				
+			160007	word_problem	There are some crickets in a jar. You collect 5 more crickets and now have 10 crickets in all. How many crickets did you start with?	en_uk_e1_06.m4a				5				
+			160008	word_problem	There were some seashells in Megan's pail. She finds 2 more seashells. Now she has 8 seashells in all. How many seashells did she start with?	en_uk_e1_07.m4a				6				
+			160009	word_problem	Kelly saw 4 cats in front of her house. She went to sleep and when she woke up, there were 7 cats in front of her house. How many cats came to her house while she was sleeping?	en_uk_e1_09.m4a				3				
+			160010	word_problem	Peter has 4 marbles. Sue gives Peter some marbles and now he has 6 marbles in all. How many marbles did Sue give Peter?	en_uk_e1_02.m4a				2				
+SpecialTest_17	1	170001, 170002, 170003, 170004, 170003~170004												
+			170001	operations_with_objects	1~9-1~9=?		horizontal			1~8				
+			170002	operations_with_objects	10-1~9=?		horizontal			1~9				
+			170003	operations_drag	1~9-1~9=?		horizontal			1~8				
+			170004	operations_drag	10-1~9=?		horizontal			1~9				
+SpecialTest_18	1	180001, 180002, 180003, 180004, 180005												
+			180001	operations_with_objects	11~19-1~9=?	regroupingfalse	horizontal			10~18				
+			180002	operations_with_objects	11~20-10=?	regroupingfalse	horizontal			1~10				
+			180003	operations_drag	11~19-1~9=?	regroupingfalse	horizontal			10~18				
+			180004	operations_drag	11~20-10=?	regroupingfalse	horizontal			1~10				
+			180005	operations_drag	11~19-11~19=?	regroupingfalse	horizontal			1~8				
+SpecialTest_19	1	190001, 190002, 190003, 190003, 190004~190005												
+			190001	operations_with_objects	11~18-1~9=?	regroupingtrue	horizontal			2~9				
+			190002	operations_with_objects	20-1~9=?		horizontal			11~19				
+			190003	operations_drag	11~18-1~9=?	regroupingtrue	horizontal			2~9				
+			190004	operations_drag	20-11~19=?		horizontal			1~9				
+			190005	operations_drag	20-1~9=?		horizontal			11~19				
+SpecialTest_20	1	200001, 200002, 200003, 200004, 200005												
+			200001	operations_drag	10,20,30,40,50,60,70,80,90-10,20,30,40,50,60,70,80,90=?	regroupingfalse	horizontal			10~80				
+			200002	operations_drag	21~99-10,20,30,40,50,60,70,80,90=?	regroupingfalse	horizontal			9~89				
+			200003	operations_drag	21~50-11~49=?	regroupingfalse	vertical			1~39				
+			200004	operations_drag	51~99-21~50=?	regroupingfalse	vertical			1~78				
+			200005	operations_drag	51~99-51~99=?	regroupingfalse	vertical			1~48				
+SpecialTest_21	1	210001, 210002, 210003, 210003, 210004												
+			210001	operations_drag	21~50-1~9=?	regroupingtrue	vertical			12~49				
+			210002	operations_drag	21~50-11~19=?	regroupingtrue	vertical			1~39				
+			210003	operations_drag	21~50-21~50=?	regroupingtrue	vertical			1~29				
+			210004	operations_drag	20, 30, 40, 50-11~49=?	regroupingtrue	vertical			1~39				
+SpecialTest_22	1	220001~220010, 220001~220010, 220001~220010, 220001~220010, 220001~220010												
+			220001	word_problem	Millie has 9 bracelets. She loses 2 of them. How many bracelets does Millie have left?	en_uk_b1_05.m4a				7				
+			220002	word_problem	Hannah makes 8 loaves of bread. She gives 3 loaves of bread to her cousin. How many loaves of bread does she have left?	en_uk_b1_04.m4a				5				
+			220003	word_problem	There are 9 kites flying in the sky. A wind blows 3 kites down on the ground. How many kites are still flying in the sky?	en_uk_b1_10.m4a				6				
+			220004	word_problem	There are 15 ducks swimming in a pond. 7 ducks fly away. How many ducks are still swimming in the pond?	en_uk_b2_04.m4a				8				
+			220005	word_problem	Lena has 12 books. She donates 8 books to her class library. How many books does Lena have left?	en_uk_b2_08.m4a				4				
+			220006	word_problem	There are 12 cats on a fence. 1 cat jumps down off of the fence. How many cats are left on the fence?	en_uk_b1_09.m4a				11				
+			220007	word_problem	Lucy has 8 pencils. She loses 7 of them. How many pencils does Lucy have left?	en_uk_b1_07.m4a				1				
+			220008	word_problem	Ana has 7 cookies. She eats 2 of them. How many cookies does she have left?	en_uk_b1_02.m4a				5				
+			220009	word_problem	Nassir picks up a 17-page book. He reads 9 pages. How many pages does he have left to read?	en_uk_b2_01.m4a				8				
+			220010	word_problem	There are 10 students on the school bus. 3 students get off the bus. How many students are left on the bus?	en_uk_b2_03.m4a				7				
+SpecialTest_23	1	230001~230010, 230001~230010, 230001~230010, 230001~230010, 230001~230010												
+			230001	word_problem	Lucy is 9 years old. Her sister Julie is 6 years old. How much older is Lucy than her sister Julie?	en_uk_d1_01.m4a				3				
+			230002	word_problem	Sam ate 7 cookies and Jane ate 2 cookies. How many fewer cookies did Jane eat than Sam?	en_uk_d1_05.m4a				5				
+			230003	word_problem	Amy walks 4 blocks to school. Jane walks 2 blocks to school. How many more blocks does Amy walk than Jane to school?	en_uk_d1_09.m4a				2				
+			230004	word_problem	There are 13 girls and 18 boys in a class. How many more boys are there than girls?	en_uk_d2_05.m4a				5				
+			230005	word_problem	Beth has 13 flowers in her garden. Kate has 8 flowers. How many more flowers does Beth have than Kate?	en_uk_d2_01.m4a				5				
+			230006	word_problem	You have 7 balloons and your friend has 5 balloons. How many more balloons do you have than your friend?	en_uk_d1_02.m4a				2				
+			230007	word_problem	Maria read 3 books and Stacy read 5 books. How many more books did Stacy read than Maria?	en_uk_d1_08.m4a				2				
+			230008	word_problem	Sydney found 20 seashells on the beach. Noah found 6 seashells. How many more seashells did Sydney find than Noah?	en_uk_d2_03.m4a				14				
+			230009	word_problem	Anna bought 12 plants. Her sister bought 7 plants. How many more plants did Anna buy than her sister?	en_uk_d2_04.m4a				5				
+			230010	word_problem	Tom planted 5 seeds in a school garden. Jane planted 8 seeds. How many fewer seeds did Tom plant than Jane?	en_uk_d1_06.m4a				3				
+SpecialTest_24	1	240001~240010, 240001~240010, 240001~240010, 240001~240010, 240001~240010												
+			240001	word_problem	I have 10 apples. I eat some apples. I have 4 apples left. How many apples did I eat?	en_uk_e2_01.m4a				6				
+			240002	word_problem	Yesterday, the store had 7 bags of rice. Today, the store has 2 bags of rice. How many bags of rice did the store sell?	en_uk_e2_02.m4a				5				
+			240003	word_problem	David and his friends fly 9 kites. Some kites get stuck in a tree. 6 kites are still flying. How many kites are stuck in the tree?	en_uk_e2_07.m4a				3				
+			240004	word_problem	A man was carrying balloons but the wind blew 6 away. He has 2 balloons left. How many balloons did he start with?	en_uk_e2_03.m4a				8				
+			240005	word_problem	Some mangos were in the basket. 4 mangos were taken from the basket. Now there are 6 mangos. How many mangos were in the basket before they were taken?	en_uk_e2_10.m4a				10				
+			240006	word_problem	8 birds sat on a tree branch. Some flew away. Now there are 3 birds on the branch. How many birds flew away?	en_uk_e2_04.m4a				5				
+			240007	word_problem	Mia brought 10 jars of homemade jam to the market. She sold some jars and had 3 jars left. How many jars did she sell at the market?	en_uk_e2_05.m4a				7				
+			240008	word_problem	Tim's dog gave birth to some puppies. Tim gave 6 puppies to his friends. Now he has 2 puppies left. How many puppies did his dog give birth to?	en_uk_e2_06.m4a				8				
+			240009	word_problem	Jen made 6 sandwiches for her family. Her family ate some and 2 were left. How many sandwiches did her family eat?	en_uk_e2_09.m4a				4				
+			240010	word_problem	7 boys ride their bikes. Some of the boys go home. 5 boys continue riding their bikes. How many boys went home?	en_uk_e2_08.m4a				2				
+SpecialTest_25	1	250001, 250002, 250003, 250004, 250005												
+			250001	operations_without_objects	2~3x2~9=?		horizontal			4~27				
+			250002	operations_without_objects	4~5x2~9=?		horizontal			8~45				
+			250003	operations_without_objects	6~7x2~9=?		horizontal			12~63				
+			250004	operations_without_objects	8~9x2~9=?		horizontal			16~81				
+			250005	operations_without_objects	2~9x2~9=?		horizontal			4~81				
+SpecialTest_26	1	260001~260010, 260001~260010, 260001~260010, 260001~260010, 260001~260010												
+			260001	word_problem	Miranda baked 18 brownies. She put an equal number of brownies on to 2 plates. How many brownies are on each plate?	en_uk_f2_05.m4a				9				
+			260002	word_problem	A farmer has 16 eggs and puts them into 2 boxes equally. How many eggs are in each box?	en_uk_f2_03.m4a				8				
+			260003	word_problem	Sarah picked 6 flowers. She put an equal amount of flowers into 2 vases. How many flowers did she put in each vase?	en_uk_f2_04.m4a				3				
+			260004	word_problem	Shante picked 6 mangos from a tree. He put an equal number of mangos into 3 boxes. How many mangos did he put in each box?	en_uk_f2_07.m4a				2				
+			260005	word_problem	20 students were equally divided into 4 groups by the teacher. How many students are in each group?	en_uk_f2_09.m4a				5				
+			260006	word_problem	2 children share 8 sweets equally. How many sweets does each child get?	en_uk_f2_01.m4a				4				
+			260007	word_problem	You and your sister share 10 bags of chips equally. How many bags of chips will each of you get?	en_uk_f2_02.m4a				5				
+			260008	word_problem	3 friends share 12 candies equally. How many candies does each friend get?	en_uk_f2_06.m4a				4				
+			260009	word_problem	Mr. Simpson's class has 18 books. He arranges them equally on 3 shelves. How many books are on each shelf?	en_uk_f2_08.m4a				6				
+			260010	word_problem	Marco bought 12 fish. He put an equal number of fish into 4 tanks. How many fish are in each tank?	en_uk_f2_10.m4a				3				
+SpecialTest_27	1	270001~270010, 270001~270010, 270001~270010, 270001~270010, 270001~270010												
+			270001	word_problem	Mike has 3 pairs of socks. Each pair has 2 socks. How many socks does Mike have?	en_uk_f1_01.m4a				6				
+			270002	word_problem	Allie bought 2 boxes of mangos. Each box has 4 mangos. How many mangos did she buy?	en_uk_f1_03.m4a				8				
+			270003	word_problem	There are 3 sheeps in the pasture. Each sheep has 4 lambs. How many lambs are in the pasture?	en_uk_f1_05.m4a				12				
+			270004	word_problem	Jane counted 3 flowers in the flower pot. Each flower has 5 petals. How many petals are there in all?	en_uk_f1_08.m4a				15				
+			270005	word_problem	There are 2 wagons on the farm. Each wagon carries 8 children. How many children are in the wagons?	en_uk_f1_04.m4a				16				
+			270006	word_problem	A bee has 6 legs. How many legs do 2 bees have?	en_uk_f1_02.m4a				12				
+			270007	word_problem	A duck has 2 legs. How many legs do 3 ducks have?	en_uk_f1_06.m4a				6				
+			270008	word_problem	Shelly bought 4 boxes of donuts. Each box contains 5 donuts. How many donuts did she buy altogether?	en_uk_f1_07.m4a				20				
+			270009	word_problem	It takes Sally 7 minutes to run a mile. How long would it take her to run 4 miles?	en_uk_f1_09.m4a				28				
+			270010	word_problem	Kit, Ruth, and Dean each ate 2 slices of pizza. How many slices of pizza did they eat in all?	en_uk_f1_10.m4a				6				
+SpecialTest_28	1	280001~280004, 280005~280008, 280009, 280010, 280011												
+			280001	shapes	which	Yang manakah bulat?	which_is_a_circle			circle	circle,square,triangle,rectangle			
+			280002	shapes	which	Yang manakah segi empat sama?	which_is_a_square			square	circle,square,triangle,rectangle			
+			280003	shapes	which	Yang manakah segi tiga?	which_is_a_triangle			triangle	circle,square,triangle,rectangle			
+			280004	shapes	which	Yang manakah segi empat tepat?	which_is_a_rectangle			rectangle	circle,square,triangle,rectangle			
+			280005	shapes	which	Which is a pentagon?	Which_is_a_pentagon			pentagon	pentagon,hexagon,parallelogram,trapezoid			
+			280006	shapes	which	Which is a hexagon?	Which_is_a_hexagon			hexagon	pentagon,hexagon,parallelogram,trapezoid			
+			280007	shapes	which	Which is a parallelogram?	Which_is_a_parallelogram			parallelogram	pentagon,hexagon,parallelogram,trapezoid
+			280008	shapes	which	Which is a trapezoid?	Which_is_a_trapezoid			trapezoid	pentagon,hexagon,parallelogram,trapezoid
+			280009	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,hexagon,parallelogram,trapezoid	pentagon,hexagon,parallelogram,trapezoid			
+			280010	shapes	what	Apakah bentuk ini?	What_is_this_shape			circle,square,triangle,rectangle	circle,square,triangle,rectangle			
+			280011	shapes	what	Apakah bentuk ini?	What_is_this_shape			cylinder,cube,sphere,cone	cylinder,cube,sphere,cone			
+FishTest_1_1	1	111, 111, 112, 112, 111												
+			111	single_digit_numbers	howmany.m4a					1~4				
+			112	recognize_number						1~4				
+FishTest_1_2	1	121, 121, 122, 122, 121												
+			121	recognize_number						1~4				
+			122	single_digit_numbers	howmany.m4a					4~7				
+FishTest_1_3	1	131, 131, 132, 132, 131												
+			131	single_digit_numbers	howmany.m4a					3~6				
+			132	recognize_number						3~7				
+FishTest_2_1	1	211, 211, 212, 212, 211												
+			211	single_digit_numbers	howmany.m4a					4~7				
+			212	recognize_number						3~7				
+FishTest_2_2	1	221, 221, 222, 222, 221												
+			221	single_digit_numbers	howmany.m4a					6~9				
+			222	recognize_number						5~9				
+FishTest_2_3	1	231, 232, 233, 233, 234												
+			231	recognize_number						5~9				
+			232	number_identification						10				
+			233	single_digit_numbers	howmany.m4a					6~9				
+			234	2digit_numbers	howmany.m4a					10	5~10			
+FishTest_3_1	1	311, 311, 312, 312, 311												
+			311	recognize_number						6~9				
+			312	2digit_numbers	howmany.m4a					11~15				
+FishTest_3_2	1	321, 321, 322, 322, 321												
+			321	recognize_number						11~15				
+			322	2digit_numbers	howmany.m4a					16~20				
+FishTest_3_3	1	331, 332, 332, 333, 333												
+			331	recognize_number						16~20				
+			332	bigger_and_smaller	bigger	image	lineup	Kumpulan manakah yang lebih besar?	which_group_is_bigger.m4a	1~10				
+			333	bigger_and_smaller	smaller	number		Yang mana lebih kecil?	which_is_smaller.m4a	1~10				
+FishTest_4_1	1	411, 412, 413, 414, 415												
+			411	2digit_numbers	howmany.m4a					10~20				
+			412	2digit_numbers	howmany.m4a					17~20				
+			413	recognize_number						1~20				
+			414	number_identification						11~19				
+			415	missing_number_drag	1	4	ascending			1~5				
+FishTest_4_2	1	421, 422, 423, 424, 425												
+			421	operations_with_objects	1~4+1~4=?					2~5				
+			422	operations_with_objects	1~4+1~4=?					2~5				
+			423	operations_with_objects	1~4+1~4=?					2~5				
+			424	operations_with_objects	2~5-1~4=?					1~4				
+			425	missing_number_drag	1	4	descending			1~5				
+FishTest_4_3	1	431, 432, 433, 434, 435												
+			431	bigger_and_smaller	bigger	number		Yang mana lebih besar?	which_is_bigger.m4a	1~10				
+			432	bigger_and_smaller	smaller	number		Yang mana lebih kecil?	which_is_smaller.m4a	1~10				
+			433	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			1~10				
+			434	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			1~10				
+			435	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~10				
+FishTest_5_1	1	511, 512, 513, 514, 515												
+			511	recognize_number						21~50				
+			512	number_identification						51~99				
+			513	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~20				
+			514	missing_number_drag	1	4	ascending			1~10				
+			515	bigger_and_smaller	bigger	number		Yang mana lebih besar?	which_is_bigger.m4a	20~50				
+FishTest_5_2	1	521, 522, 523, 524, 525												
+			521	2digit_numbers	howmany.m4a					51~100				
+			522	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~20				
+			523	operations_with_objects	2~10-1~4=?					1~9				
+			524	operations_with_objects	2~10-5~9=?					1~9				
+			525	operations_drag	1~5+1~5=?		vertical			1~9				
+FishTest_5_3	1	531, 532, 533, 534, 535												
+			531	operations_with_objects	10~19+1~9=?	regroupingfalse				1~20				
+			532	operations_with_objects	1~9+10~19=?	regroupingfalse				1~20				
+			533	operations_drag	1~9+1~9=?		vertical			1~10				
+			534	operations_drag	1~10-1~9=?		vertical			1~9				
+			535	missing_number_drag	2	4	ascending			1~20	2			
+FishTest_6_1	1	611, 612, 613, 614, 615												
+			611	operations_drag	10+1~9=?		vertical			11~19				
+			612	operations_drag	11~20+1~10=?		vertical			11~19				
+			613	missing_number_drag	10	4	descending			1~50	10			
+			614	operations_with_objects	1~9+1~9=?	regroupingtrue				1~20				
+			615	use_magnitude_symbols	11~50	11~50	Isi tempat kosong.	fill_in_the_blank.m4a						
+FishTest_6_2	1	621, 622, 623, 624, 625												
+			621	operations_with_objects	1~9+1~9=?					10				
+			622	operations_with_objects	1~9+1~9=?	regroupingtrue				11~20				
+			623	operations_drag	11~20-1~10=?		vertical			10~20				
+			624	operations_drag	11~19-1~9=?	regroupingfalse	vertical			10~18				
+			625	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~50				
+FishTest_7_1	1	711, 712, 713, 714, 715												
+			711	missing_number_drag	1	3	ascending			51~100				
+			712	missing_number_drag	10	4	ascending			51~100	10			
+			713	number_identification						51~100				
+			714	operations_with_objects	11~19+1~9=?	regroupingtrue				20				
+			715	operations_drag	1~9+1~9=?	regroupingtrue	vertical			10~19				
+FishTest_7_2	1	721~722, 723, 724, 725, 726												
+			721	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			51~100				
+			722	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			51~100				
+			723	use_magnitude_symbols	51~100	51~100	Isi tempat kosong.	fill_in_the_blank.m4a						
+			724	operations_drag	11~20-10=?		horizontal			1~10				
+			725	operations_drag	1~9+1~9=?	regroupingtrue	vertical			11~20				
+			726	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
+FishTest_7_3	1	731, 732, 733, 734~735, 736												
+			731	missing_number_drag	10	3	descending			51~100	10			
+			732	operations_with_objects	11~19-1~9=?	regroupingtrue				1~10				
+			733	operations_drag	11~20-1~9=?	regroupingtrue	vertical			1~19				
+			734	operations_drag	20-1~9=?	regroupingtrue	vertical			11~19				
+			735	operations_drag	20-11~19=?	regroupingtrue	vertical			1~9				
+			736	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			71~99				
+FishTest_8_1	1	811, 812~813, 814, 815, 816												
+			811	missing_number_drag	3	4	ascending			1~20	3			
+			812	operations_with_objects	11~19-1~9=?	regroupingtrue				1~9				
+			813	operations_drag	11~19-1~9=?	regroupingtrue	vertical			1~9				
+			814	operations_with_objects	20-1~9=?	regroupingtrue				11~19				
+			815	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
+			816	word_problem	7 red apples and 2 green apples are in the basket. How many apples are in the basket?	en_uk_a1_08.m4a				9				
+FishTest_8_2	1	821, 822, 823, 824, 825												
+			821	missing_number_drag	2	4	descending			1~10	2			
+			822	operations_drag	11~19+11~19=?	regroupingfalse	horizontal			20~30				
+			823	operations_drag	20-1~10=?		horizontal			1~10				
+			824	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
+			825	word_problem	Billy has 2 marbles. Audrey has 3 more marbles than Billy. How many marbles does Audrey have?	en_uk_d3_02.m4a				5				
+FishTest_8_3	1	831, 832, 833, 834, 835												
+			831	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
+			832	missing_number_drag	2	3	descending			11~30	2			
+			833	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
+			834	operations_drag	21~50-10~20=?	regroupingfalse	vertical			1~40				
+			835	word_problem	5 apples are on the table. Sam eats 2 apples. How many apples are left on the table?	en_uk_b1_01.m4a				3				
+FishTest_9_1	1	911, 912, 913, 914, 915												
+			911	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
+			912	missing_number_drag	2	4	descending			50~100	2			
+			913	operations_drag	11~50+11~50=?	regroupingfalse	vertical			20~50				
+			914	operations_drag	11~50-11~50=?	regroupingfalse	vertical			20~50				
+			915	word_problem	There are 14 fish in a water tank. Kerri put 3 more fish into the tank. How many fish are there?	en_uk_a1_04.m4a				17				
+FishTest_9_2	1	921, 922, 923, 924, 925												
+			921	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
+			922	missing_number_drag	1	4	ascending			100~500				
+			923	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
+			924	word_problem	There are 10 plates at the dinner table. There are 5 more people than plates. How many people are at dinner?	en_uk_d3_09.m4a				15				
+			925	word_problem	There are 12 cats on a fence. 1 cat jumps down off of the fence. How many cats are left on the fence?	en_uk_b1_09.m4a				11				
+FishTest_9_3	1	931, 932, 933, 934, 935												
+			931	missing_number_drag	100	2	ascending			100~900	100			
+			932	operations_drag	11~18-1~9=?	regroupingtrue	horizontal			1~9				
+			933	operations_drag	21~50-11~30=?	regroupingtrue	vertical			1~40				
+			934	word_problem	Janet has 8 oranges and Sharon has 4 oranges. How many oranges do they have altogether?	en_uk_a2_08.m4a				12				
+			935	word_problem	Sandy is 5 years old. Mia is 7 years older than Sandy. How old is Mia?	en_uk_d4_10.m4a				12				
+FishTest_10_1	1	1011~1013, 1014, 1015, 1016, 1017												
+			1011	operations_drag	11~99+10, 20, 30, 40, 50, 60, 70, 70, 80=?		horizontal			1~100				
+			1012	operations_drag	10, 20, 30, 40, 50, 60, 70, 80+11~99=?		horizontal			1~100				
+			1013	operations_drag	11~99-10, 20, 30, 40, 50, 60, 70, 80, 90=?		horizontal			1~100				
+			1014	operations_without_objects	2, 3, 4, 5x1~9=?		horizontal			2~45				
+			1015	missing_number_drag	10	3	ascending			500~990	10			
+			1016	word_problem	Jane has 9 balloons. 6 are green and the rest are blue. How many balloons are blue?	en_uk_c1_04.m4a				3				
+			1017	shapes	what	Apakah bentuk ini?	What_is_this_shape			circle,square,triangle,rectangle	circle,square,triangle,rectangle			
+FishTest_10_2	1	1021~1022, 1023, 1024, 1025, 1026												
+			1021	missing_number_drag	1	4	descending			100~999				
+			1022	missing_number_drag	5	3	ascending			100~999	5			
+			1023	operations_drag	31~50+20~50=?	regroupingfalse	vertical			1~100				
+			1024	operations_drag	31~50-11~20=?	regroupingfalse	vertical			1~50				
+			1025	operations_without_objects	6, 7, 8, 9x1~9=?		horizontal			6~81				
+			1026	word_problem	A farmer had 7 apple trees. She bought some more trees and now has 10 apple trees in her orchard. How many apple trees did she buy?	en_uk_e1_04.m4a				3														
+FishTest_10_3	1	1031, 1032, 1033, 1034,1035												
+			1031	operations_drag	11~30+20~70=?	regroupingtrue	vertical			1~100				
+			1032	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~100				
+			1033	missing_number_drag	10	4	descending			100~999	10			
+			1034	word_problem	The tennis team has 12 players. 6 of the players are girls. Some are boys. How many tennis players are boys?	en_uk_c2_09.m4a				6				
+			1035	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,hexagon,parallelogram,trapezoid	pentagon,hexagon,parallelogram,trapezoid

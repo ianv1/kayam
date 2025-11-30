@@ -1,0 +1,23 @@
+fill the blanks
+book_en_424_page_1_cropped.png
+A [clock] counts [hours] and minutes.
+table, money
+book_en_424_page_1_1.m4a
+
+multiple choices
+What time is it? 
+book_en_424_page_3_cropped.png
+One o’clock, Two o’clock, Three o’clock
+One o’clock
+
+multiple choices
+What time is it? 
+book_en_424_page_6_cropped.png
+Two o’clock, Three o’clock, Four o’clock
+Four o’clock
+
+multiple choices
+What time is it? 
+book_en_424_page_11_cropped.png
+Eight o’clock, Nine o’clock, Ten o’clock
+Nine o’clock

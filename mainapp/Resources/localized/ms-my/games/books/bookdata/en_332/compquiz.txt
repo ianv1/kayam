@@ -1,0 +1,23 @@
+multiple choices
+What is Neema doing in this picture? 
+book_en_332_page_3_cropped.png
+Neema plays with her dad., Neema reads with her brother., Neema farms with her mom. 
+Neema farms with her mom.
+
+multiple choices
+What is Neema doing in this picture? 
+book_en_332_page_1_cropped.png
+Neema plays with her dad., Neema plays with her baby brother., Neema farms with her mom. 
+Neema plays with her baby brother. 
+
+tracing question
+book_en_332_page_5_tracing.m4a
+book_en_332_page_5_cropped.png
+reads
+en-uk_reads.m4a
+
+fill the blanks
+book_en_332_page_6_cropped.png
+Neema [eats] with her [family].
+school
+book_en_332_page_6_1.m4a

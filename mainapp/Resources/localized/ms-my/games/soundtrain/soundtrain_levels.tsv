@@ -1,0 +1,226 @@
+#Level	#ProblemCount	#Problem	#Answer	#Word1	#Word2	#Word3
+1	5	1	s	s		
+1	5	2	t	t		
+1	5	3	p	p		
+1	5	4	m	m		
+1	5	5	n	n		
+2	5	1	d	d		
+2	5	2	g	g		
+2	5	3	c	c		
+2	5	4	b	b		
+2	5	5	r	r		
+3	5	1	h	h		
+3	5	2	k	k		
+3	5	3	f	f		
+3	5	4	l	l		
+3	5	5	j	j		
+4	5	1	v	v		
+4	5	2	w	w		
+4	5	3	x	x		
+4	5	4	y	y		
+4	5	5	z	z		
+4	5	6	q	q		
+5	5	1	a	a		
+5	5	2	e	e		
+5	5	3	i	i		
+5	5	4	o	o		
+5	5	5	u	u		
+6	5	1	ba	b	a	
+6	5	2	ca	c	a	
+6	5	3	da	d	a	
+6	5	4	fa	f	a	
+6	5	5	ga	g	a	
+6	5	6	ha	h	a	
+6	5	7	ja	j	a	
+6	5	8	la	l	a	
+6	5	9	ma	m	a	
+6	5	10	pa	p	a	
+6	5	11	ra	r	a	
+6	5	12	sa	s	a	
+6	5	13	ta	t	a	
+6	5	14	va	v	a	
+6	5	15	ya	y	a	
+7	5	1	fe	f	e	
+7	5	2	ge	g	e	
+7	5	3	je	j	e	
+7	5	4	le	l	e	
+7	5	5	ne	n	e	
+7	5	6	pe	p	e	
+7	5	7	se	s	e	
+7	5	8	ve	v	e	
+7	5	9	ye	y	e	
+8	4	1	bi	b	i	
+8	4	2	fi	f	i	
+8	4	3	li	l	i	
+8	4	4	zi	z	i	
+9	5	1	bo	b	o	
+9	5	2	jo	j	o	
+9	5	3	po	p	o	
+9	5	4	co	c	o	
+9	5	5	mo	m	o	
+9	5	6	lo	l	o	
+9	5	7	so	s	o	
+10	5	1	bu	b	u	
+10	5	2	du	d	u	
+10	5	3	gu	g	u	
+10	5	4	hu	h	u	
+10	5	5	ju	j	u	
+10	5	6	cu	c	u	
+10	5	7	mu	m	u	
+10	5	8	pu	p	u	
+10	5	9	ru	r	u	
+11	5	1	dad	d	a	d
+11	5	2	mad	m	a	d
+11	5	3	sad	s	a	d
+11	5	4	bag	b	a	g
+11	5	5	map	m	a	p
+11	5	6	bet	b	e	t
+11	5	7	get	g	e	t
+11	5	8	bed	b	e	d
+11	5	9	red	r	e	d
+11	5	10	leg	l	e	g
+11	5	11	bin	b	i	n
+11	5	12	fin	f	i	n
+11	5	13	win	w	i	n
+11	5	14	did	d	i	d
+11	5	15	hid	h	i	d
+11	5	16	hop	h	o	p
+11	5	17	top	t	o	p
+11	5	18	nod	n	o	d
+11	5	19	dot	d	o	t
+11	5	20	not	n	o	t
+11	5	21	bug	b	u	g
+11	5	22	hug	h	u	g
+11	5	23	fun	f	u	n
+11	5	24	run	r	u	n
+11	5	25	nut	n	u	t
+12	4	1	th	th		
+12	4	2	ch	ch		
+12	4	3	sh	sh		
+12	4	4	wh	wh		
+13	4	1	chap	ch	a	p
+13	4	2	chat	ch	a	t
+13	4	3	chin	ch	i	n
+13	4	4	chop	ch	o	p
+14	5	1	sheep	sh	ee	p
+14	5	2	ship	sh	i	p
+14	5	3	shirt	sh	ir	t
+14	5	4	shop	sh	o	p
+14	5	5	shot	sh	o	t
+14	5	6	show	sh	ow	
+14	5	7	shut	sh	u	t
+15	5	1	that	th	a	t
+15	5	2	them	th	e	m
+15	5	3	then	th	e	n
+15	5	4	they	th	e	y
+15	5	5	this	th	i	s
+16	4	1	whip	wh	i	p
+16	4	2	whiz	wh	i	z
+16	4	3	what	wh	a	t
+16	4	4	when	wh	e	n
+17	5	1	neck	n	e	ck
+17	5	2	sick	s	i	ck
+17	5	3	pick	p	i	ck
+17	5	4	wish	w	i	sh
+17	5	5	fish	f	i	sh
+17	5	6	dish	d	i	sh
+17	5	7	with	w	i	th
+17	5	8	rich	r	i	ch
+17	5	9	bash	b	a	sh
+17	5	10	dash	d	a	sh
+17	5	11	back	b	a	ck
+17	5	12	cash	c	a	sh
+17	5	13	mash	m	a	sh
+17	5	14	path	p	a	th
+17	5	15	bath	b	a	th
+17	5	16	math	m	a	th
+17	5	17	back	b	a	ck
+17	5	18	sack	s	a	ck
+17	5	19	tack	t	a	ck
+17	5	20	mash	m	a	sh
+17	5	21	rush	r	u	sh
+17	5	22	duck	d	u	ck
+17	5	23	such	s	u	ch
+17	5	24	much	m	u	ch
+17	5	25	gosh	g	o	sh
+18	5	1	blue	bl	ue	
+18	5	2	blob	bl	o	b
+18	5	3	clue	cl	ue	
+18	5	4	clay	cl	ay	
+18	5	5	flip	fl	i	p
+18	5	6	drip	dr	i	p
+18	5	7	drab	dr	a	b
+18	5	8	play	pl	ay	
+18	5	9	scar	sc	ar	
+18	5	10	skip	sk	i	p
+18	5	11	skin	sk	i	n
+18	5	12	swim	sw	i	m
+18	5	13	snow	sn	ow	
+18	5	14	snip	sn	i	p
+18	5	15	snap	sn	a	p
+18	5	16	span	sp	a	n
+18	5	17	spot	sp	o	t
+18	5	18	spin	sp	i	n
+18	5	19	slow	sl	ow	
+18	5	20	grab	gr	a	b
+18	5	21	grow	gr	ow	
+18	5	22	crab	cr	a	b
+18	5	23	crib	cr	i	b
+18	5	24	stem	st	e	m
+18	5	25	step	st	e	p
+19	5	1	moon	m	oo	n
+19	5	2	soon	s	oo	n
+19	5	3	room	r	oo	m
+19	5	4	foot	f	oo	t
+19	5	5	meet	m	ee	t
+19	5	6	meat	m	ea	t
+19	5	7	seal	s	ea	l
+19	5	8	seed	s	ee	d
+19	5	9	sheep	sh	ee	p
+19	5	10	beep	b	ee	p
+19	5	11	each	ea	ch	
+19	5	12	paid	p	ai	d
+19	5	13	pain	p	ai	n
+19	5	14	sail	s	ai	l
+19	5	15	fail	f	ai	l
+19	5	16	pair	p	ai	r
+19	5	17	stay	st	ay	
+19	5	18	gray	gr	ay	
+19	5	19	boat	b	oa	t
+19	5	20	goat	g	oa	t
+19	5	21	road	r	oa	d
+19	5	22	float	fl	oa	t
+19	5	23	bowl	b	ow	l
+19	5	24	mouth	m	ou	th
+19	5	25	ouch	ou	ch	
+19	5	26	show	sh	ow	
+19	5	27	grow	gr	ow	
+19	5	28	boil	b	oi	l
+19	5	29	soil	s	oi	l
+19	5	30	tray	tr	ay	
+19	5	31	play	pl	ay	
+20	5	1	car	c	ar	
+20	5	2	star	st	ar	
+20	5	3	jar	j	ar	
+20	5	4	art	ar	t	
+20	5	5	arm	ar	m	
+20	5	6	dark	d	ar	k
+20	5	7	mark	m	ar	k
+20	5	8	far	f	ar	
+20	5	9	barn	b	ar	n
+20	5	10	fern	f	er	n
+20	5	11	stir	st	ir	
+20	5	12	shirt	sh	ir	t
+20	5	13	skirt	sk	ir	t
+20	5	14	first	f	ir	st
+21	5	1	sing	s	ing	
+21	5	2	ring	r	ing	
+21	5	3	king	k	ing	
+21	5	4	song	s	ong	
+21	5	5	long	l	ong	
+21	5	6	lung	l	ung	
+21	5	7	sung	s	ung	
+21	5	8	rung	r	ung	
+21	5	9	hang	h	ang	
+21	5	10	bang	b	ang	
+21	5	11	rang	r	ang	

@@ -1,0 +1,22 @@
+fill the blanks
+book_en_324_page_10_cropped.png
+The donkey is looking for [friends].
+alone
+book_en_324_page_10_quiz.m4a
+
+tracing question
+book_en_324_page_1_tracing.m4a
+book_en_324_page_1_cropped.png
+alone
+en-uk_alone.m4a
+ 
+fill the blanks
+book_en_324_page_9_cropped.png
+The donkey does not want to [play] [alone].
+friends
+book_en_324_page_9_quiz.m4a
+ 
+multiple choices
+It is more fun with friends. Thank you for being my friend!
+book_en_324_page_13_cropped.png,book_en_324_page_10_cropped.png,book_en_324_page_3_cropped.png,book_en_324_page_2_cropped.png
+book_en_324_page_13_cropped.png

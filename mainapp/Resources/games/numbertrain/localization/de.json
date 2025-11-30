@@ -1,0 +1,12 @@
+{
+
+	"[circustrain]direction_largest_to_smallest_number" : "Ordne die Zahlen von der Kleinsten zur Größten",
+	"[circustrain]direction_largest_to_smallest_shape" : "Ordne die Zahlen von der Kleinsten zur Größten",
+	"[circustrain]direction_smallest_to_largest_number" : "Ordne die Zahlen von der Kleinsten zur Größten",
+	"[circustrain]direction_smallest_to_largest_shape" : "Ordne die Zahlen von der Kleinsten zur Größten",
+	"[circustrain]largest_number" : "Am größten",
+	"[circustrain]largest_shape" : "Am größten",
+	"[circustrain]smallest_number" : "Am kleinsten",
+	"[circustrain]smallest_shape" : "Am kleinsten",
+	"Circus Train" : "Zirkuszug"
+}

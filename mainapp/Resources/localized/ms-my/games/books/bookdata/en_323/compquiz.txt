@@ -1,0 +1,22 @@
+fill the blanks
+book_en_323_page_1_cropped.png 
+Elephant and Rabbit [loved] to [play] together.
+read
+book_en_323_page_1_quiz.m4a
+
+multiple choices
+book_en_323_page_3_cropped.png 
+Elephant jumped on Rabbit., Rabbit jumped high onto Elephant’s back., Elephant and Rabbit swam., Rabbit and Elephant slept.
+Rabbit jumped high onto Elephant’s back. 
+
+fill the blanks
+book_en_323_page_6_cropped.png 
+She [stomped] until the [trees] shook.
+swam
+book_en_323_page_6_2.m4a
+
+fill the blanks
+book_en_323_page_8_cropped.png 
+“Next time we can pick a [game] [together] !”
+book
+book_en_323_page_8_1.m4a

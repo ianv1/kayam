@@ -1,0 +1,23 @@
+fill the blanks
+book_en_423_page_1_cropped.png
+I can [play] the [drums].
+swim, guitar 
+book_en_423_page_1_1.m4a
+
+multiple choices
+What does he like to do? 
+book_en_423_page_1_cropped.png
+Sing, Play the drums, Play the guitar
+Play the drums
+
+multiple choices
+What does he use to drum a beat on his desk? 
+book_en_423_page_1_cropped.png
+His drums, His eyes, His pencil
+His pencil
+
+multiple choices
+What does he make everywhere he goes?
+book_en_423_page_7_cropped.png
+Music, Bread, Stories
+Music

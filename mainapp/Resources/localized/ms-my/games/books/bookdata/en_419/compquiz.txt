@@ -1,0 +1,20 @@
+multiple choices
+Who is this story about?
+book_en_419_page_1_cropped.png
+Edith, Edith’s teacher, Sally
+Edith
+
+multiple choices
+What is Edith looking for? 
+book_en_419_page_2_cropped.png
+Her favorite dress, Her favorite book, Her favorite bike
+Her favorite book
+
+multiple choices
+Who finds Edith’s book? 
+book_en_419_page_10_cropped.png
+Her mom., Her brother., She finds it herself. 
+Her mom.
+
+reordering
+Edith can’t find her favorite book., Her mom calls to her., Her mom found Edith’s book. 

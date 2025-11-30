@@ -1,0 +1,21 @@
+fill the blanks
+book_en_301_page_2_cropped.png
+The boy looks for the [cat] under the [desk].
+can
+book_en_301_page_2_quiz.m4a
+
+multiple choices
+The boy looks for his cat on the table.
+book_en_301_page_4_cropped.png,book_en_301_page_2_cropped.png,book_en_301_page_6_cropped.png,book_en_301_page_3_cropped.png
+book_en_301_page_3_cropped.png
+
+fill the blanks
+book_en_301_page_3_cropped.png
+The [boy] looks for the cat on the [table].
+cat
+book_en_301_page_3_quiz.m4a
+
+multiple choices
+book_en_301_page_8_cropped.png
+The boy found his cat., The boy looked for his cat in the food., The boy looked for his cat on the table.,The boy looked for his cat under the desk.
+The boy found his cat.

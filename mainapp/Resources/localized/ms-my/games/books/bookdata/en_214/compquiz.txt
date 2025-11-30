@@ -1,0 +1,19 @@
+tracing question
+book_en_214_page_2_tracing.m4a
+book_en_214_page_2_cropped.png
+two
+en-uk_two.m4a
+ 
+matching
+Elephant, Giraffes, Zebras
+book_en_214_page_1_cropped.png,book_en_214_page_2_cropped.png, book_en_214_page_5_cropped.png
+ 
+multiple choices
+I see three buffaloes and four birds.
+book_en_214_page_3_cropped.png, book_en_214_page_6_cropped.png, book_en_214_page_2_cropped.png, book_en_214_page_4_cropped.png
+book_en_214_page_3_cropped.png
+ 
+multiple choices
+book_en_214_page_1_cropped.png
+I see one elephant., I see many animals!, I see five antelope and six warthogs., I see eight frogs and nine fish.
+I see one elephant.

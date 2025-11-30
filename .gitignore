@@ -24,7 +24,6 @@ seaworld/cocos2d/*
 library/localized/en-us
 library/localized/sw-tz
 
-mainapp/Resources/*
 !mainapp/Resources/readme.txt
 
 

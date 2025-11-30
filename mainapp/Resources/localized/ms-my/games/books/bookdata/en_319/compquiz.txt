@@ -1,0 +1,22 @@
+tracing question 
+book_en_319_page_2_tracing.m4a
+book_en_319_page_2_cropped.png
+swim
+en-uk_swim.m4a
+
+fill the blanks
+book_en_319_page_3_cropped.png
+But one child [swam] away from her [family]. 
+ran
+book_en_319_page_3_2.m4a
+
+multiple choices
+She met a dolphin. She asked, “Have you seen my family?” The dolphin said, “No.”
+book_en_319_page_6_cropped.png,book_en_319_page_2_cropped.png,book_en_319_page_9_cropped.png,book_en_319_page_3_cropped.png
+book_en_319_page_6_cropped.png
+
+multiple choices
+What happens at the end of the story?
+book_en_319_page_9_cropped.png
+The crocodile loses her family., The crocodile finds her family., The crocodile becomes friends with a dolphin., The crocodile becomes friends with a snail.
+The crocodile finds her family.

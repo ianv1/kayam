@@ -1,0 +1,22 @@
+fill the blanks
+book_en_225_page_2_cropped.png
+It is too [hot] to run.
+cold
+book_en_225_page_2_1.m4a
+
+fill the blanks
+book_en_225_page_4_cropped.png
+Which [cloud] is the best?  
+star
+book_en_225_page_4_1.m4a
+
+tracing question
+book_en_225_page_5_tracing.m4a
+book_en_225_page_5_cropped.png
+star
+en-uk_star.m4a
+
+multiple choices
+book_en_225_page_8_cropped.png
+The sun, The stars, The moon, His school
+The moon

@@ -1,0 +1,20 @@
+fill the blanks
+book_en_350_page_1_cropped.png
+[Neema] was very [happy]. 
+sad
+book_en_350_page_1_1.m4a
+
+multiple choices
+What did the teacher ask students to do? 
+book_en_350_page_3_cropped.png
+Read, Clean, Play
+Clean
+
+fill the blanks
+book_en_350_page_5_cropped.png
+Neema cleaned very [fast] so she could go [play] with her friends. 
+bad
+book_en_350_page_3_1.m4a
+
+reordering
+Neema goes to school., Neema helps her friends clean., Neema and her friends play.

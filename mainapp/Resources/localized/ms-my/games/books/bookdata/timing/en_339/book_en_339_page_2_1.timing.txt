@@ -1,0 +1,6 @@
+Hama,0.0,0.5
+Saw,0.5,0.9
+signs,0.9,1.5
+outside,1.5,1.8
+the,1.8,2.2
+buildings,2.2,2.9

@@ -1,0 +1,22 @@
+tracing question
+book_en_204_page_1_tracing.m4a
+book_en_204_page_1_cropped.png
+rat
+en-uk_rat.m4a
+
+fill the blanks
+book_en_204_page_4_cropped.png
+The [rat] is sad.
+cat
+book_en_204_page_4_1.m4a
+
+fill the blanks
+book_en_204_page_7_cropped.png
+The rat ran to a [van].
+house
+book_en_204_page_7_1.m4a
+
+multiple choices
+The rat likes to nap.
+book_en_204_page_7_cropped.png, book_en_204_page_3_cropped.png, book_en_204_page_5_cropped.png, book_en_204_page_4_cropped.png
+book_en_204_page_3_cropped.png

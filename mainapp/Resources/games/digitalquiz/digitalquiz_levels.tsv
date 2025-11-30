@@ -1,0 +1,141 @@
+#																	
+#  DigitalQuiz_Levels.tsv																	
+#  TodoSchool on Nov 1, 2016																	
+#																	
+#  Copyright (c) 2016 Enuma, Inc. All rights reserved.																	
+#  See LICENSE.md for more details.																	
+#																	
+																	
+# 레벨 데이터를 변경하려면:																	
+#     우선 Google Spreadsheet상에서 이 파일을 수정한 후에																	
+#     File > Download as > Tab-separated values (.tsv) 를 선택합니다.																	
+#     다운로드한 파일 이름을 WordTrace_Levels.tsv으로 변경합니다.																	
+#     "${XPRIZE_PATH}/Resources/Games/DigitalQuiz"에 tsv 파일을 복사해 넣습니다.																	
+#     "${XPRIZE_PATH}/Resources/Games/DigitalQuiz/QuizImages/"에는 이미지를,																	
+#     "${XPRIZE_PATH}/Resources/Games/DigitalQuiz/QuizSounds/"에는 소리를 복사해 넣습니다.																	
+#																	
+																	
+# LanguageTag	# Level	# Worksheet	# Problem	# IND	# GameType	# Instruction	# Question	# OpeningDuration	# OpeningSound	# ButtonSound	# Text	# Answer	# Choice (1)	# Choice (2)	# Choice (3)	# Choice (4)	# Choice (5)
+# 1.IMAGE_DUMMY																	
+sw-TZ	1	1	1	L0:1/3	IMAGE_DUMMY	Choose/Select	cow moo	2	cow_moo.m4a	cow_moo.m4a	-	cow.png	cow.png	dog.png	cat.png	-	-
+sw-TZ	1	1	2	L0:2/3	IMAGE_DUMMY	Choose/Select	dog bark	2	dog_bark.m4a	dog_bark.m4a	-	dog.png	cow.png	cat.png	dog.png	-	-
+sw-TZ	1	1	3	L0:3/3	IMAGE_DUMMY	Choose/Select	cat meow	2	cat_meow.m4a	cat_meow.m4a	-	cat.png	cat.png	dog.png	cow.png	-	-
+																	
+# 2.LETTER_SOUND																	
+sw-TZ	1	1	4	L1:1/10	LETTER_SOUND	Choose	m	2	chagua-m.m4a	m.wav	-	m	m	n	e	-	-
+sw-TZ	1	1	5	L1:2/10	LETTER_SOUND	Choose	d	2	chagua-d.m4a	d.wav	-	d	d	b	gh	-	-
+sw-TZ	1	1	6	L1:3/10	LETTER_SOUND	Choose	ch	2	chagua-ch.m4a	ch.wav	-	ch	sh	ch	k	-	-
+sw-TZ	1	1	7	L1:4/10	LETTER_SOUND	Choose	e	2	chagua-e.m4a	e.wav	-	E	E	I	O	-	-
+sw-TZ	1	1	8	L1:5/10	LETTER_SOUND	Choose	u	2	chagua-u.m4a	u.wav	-	u	a	e	u	-	-
+sw-TZ	1	1	9	L1:6/10	LETTER_SOUND	Choose	l	2	chagua-l.m4a	l.wav	-	L	T	D	L	-	-
+sw-TZ	1	1	10	L1:7/10	LETTER_SOUND	Choose	k	2	chagua-k.m4a	k.wav	-	K	K	N	Gh	-	-
+sw-TZ	1	1	11	L1:8/10	LETTER_SOUND	Choose	r	2	chagua-r.m4a	r.wav	-	R	Y	Z	R	-	-
+sw-TZ	1	1	12	L1:9/10	LETTER_SOUND	Choose	w	2	chagua-w.m4a	w.wav	-	w	w	l	d	-	-
+sw-TZ	1	1	13	L1:10/10	LETTER_SOUND	Choose	th	2	chagua-th.m4a	th.wav	-	Th	D	Dh	Th	-	-
+																	
+# 3.SYLLABLES_ID																	
+sw-TZ	1	1	14	L2:1/10	SYLLABLES_ID	Choose	ma	2	chagua-ma.m4a	ma.wav	-	ma	mi	ma	na	-	-
+sw-TZ	1	1	15	L2:2/10	SYLLABLES_ID	Choose	ta	2	chagua-ta.m4a	ta.wav	-	ta	ta	te	da	-	-
+sw-TZ	1	1	16	L2:3/10	SYLLABLES_ID	Choose	ge	2	chagua-ge.m4a	ge.wav	-	ge	ze	ge	ga	-	-
+sw-TZ	1	1	17	L2:4/10	SYLLABLES_ID	Choose	ni	2	chagua-ni.m4a	ni.wav	-	ni	ni	mi	e	-	-
+sw-TZ	1	1	18	L2:5/10	SYLLABLES_ID	Choose	he	2	chagua-he.m4a	he.wav	-	he	he	ha	ke	-	-
+sw-TZ	1	1	19	L2:6/10	SYLLABLES_ID	Choose	no	2	chagua-no.m4a	no.wav	-	no	mo	no	u	-	-
+sw-TZ	1	1	20	L2:7/10	SYLLABLES_ID	Choose	zu	2	chagua-zu.m4a	zu.wav	-	zu	nu	za	zu	-	-
+sw-TZ	1	1	21	L2:8/10	SYLLABLES_ID	Choose	cho	2	chagua-cho.m4a	cho.wav	-	cho	ko	cho	sho	-	-
+sw-TZ	1	1	22	L2:9/10	SYLLABLES_ID	Choose	kwa	2	chagua-kwa.m4a	kwa.wav	-	kwa	kwa	ka	kwi	-	-
+sw-TZ	1	1	23	L2:10/10	SYLLABLES_ID	Choose	fo	2	chagua-fo.m4a	fo.wav	-	fo	po	fo	ho	-	-
+																	
+# 4.FAMILIAR_WORD																	
+sw-TZ	1	1	24	L3:1/10	FAMILIAR_WORD	Choose	baba	2	chagua-baba.m4a	baba.wav	-	baba	baba	babu	bibi	-	-
+sw-TZ	1	1	25	L3:2/10	FAMILIAR_WORD	Choose	mama	2	chagua-mama.m4a	mama.wav	-	mama	mimi	mama	mara	-	-
+sw-TZ	1	1	26	L3:3/10	FAMILIAR_WORD	Choose	bubu	2	chagua-bubu.m4a	bubu.wav	-	bubu	baba	bibi	bubu	-	-
+sw-TZ	1	1	27	L3:4/10	FAMILIAR_WORD	Choose	watu	2	chagua-watu.m4a	watu.wav	-	watu	watu	waka	wawa	-	-
+sw-TZ	1	1	28	L3:5/10	FAMILIAR_WORD	Choose	sisi	2	chagua-sisi.m4a	sisi.wav	-	sisi	sema	mimi	sisi	-	-
+sw-TZ	1	1	29	L3:6/10	FAMILIAR_WORD	Choose	lake	2	chagua-lake.m4a	lake.wav	-	lake	lake	yake	lulu	-	-
+sw-TZ	1	1	30	L3:7/10	FAMILIAR_WORD	Choose	shule	2	chagua-shule.m4a	shule.wav	-	shule	shule	shamba	shati	-	-
+sw-TZ	1	1	31	L3:8/10	FAMILIAR_WORD	Choose	katika	2	chagua-katika.m4a	katika.wav	-	katika	katika	kitabu	karibu	-	-
+sw-TZ	1	1	32	L3:9/10	FAMILIAR_WORD	Choose	shamba	2	chagua-shamba.m4a	shamba.wav	-	shamba	simba	shamba	chumba	-	-
+sw-TZ	1	1	33	L3:10/10	FAMILIAR_WORD	Choose	yake	2	chagua-yake.m4a	yake.wav	-	yake	yako	yake	yaya	-	-
+																	
+# 5.INVENTED_WORD																	
+sw-TZ	1	1	34	L4:1/10	INVENTED_WORD	Choose	goge	2	chagua-goge.m4a	goge.m4a	-	goge	goge	gege	gogo	-	-
+sw-TZ	1	1	35	L4:2/10	INVENTED_WORD	Choose	naji	2	chagua-naji.m4a	naji.m4a	-	naji	naji	nayi	mayi	-	-
+sw-TZ	1	1	36	L4:3/10	INVENTED_WORD	Choose	naa	2	chagua-naa.m4a	naa.wav	-	naa	maa	naa	na	-	-
+sw-TZ	1	1	37	L4:4/10	INVENTED_WORD	Choose	shoke	2	chagua-shoke.m4a	shoke.wav	-	shoke	shoke	shoce	shoki	-	-
+sw-TZ	1	1	38	L4:5/10	INVENTED_WORD	Choose	lesho	2	chagua-lesho.m4a	lesho.wav	-	lesho	leshi	mesho	lesho	-	-
+sw-TZ	1	1	39	L4:6/10	INVENTED_WORD	Choose	kamula	2	chagua-kamula.m4a	kamula.wav	-	kamula	kamula	mula	kamala	-	-
+sw-TZ	1	1	40	L4:7/10	INVENTED_WORD	Choose	jami	2	chagua-jami.m4a	jami.m4a	-	jami	jami	jame	chame	-	-
+sw-TZ	1	1	41	L4:8/10	INVENTED_WORD	Choose	rabo	2	chagua-rabo.m4a	rabo.m4a	-	rabo	rado	rabo	rara	-	-
+sw-TZ	1	1	42	L4:9/10	INVENTED_WORD	Choose	tewo	2	chagua-tewo.m4a	tewo.wav	-	tewo	towo	tewi	tewo	-	-
+sw-TZ	1	1	43	L4:10/10	INVENTED_WORD	Choose	koya	2	chagua-koya.m4a	koya.m4a	-	koya	kiyi	koya	koyi	-	-
+																	
+# *.LITERACY_END: 아이들을 격려하는 화면이 나옵니다.																	
+sw-TZ	1	1	44	L*:Finished	LITERACY_END	-	-	0	finished.m4a	finished.m4a	-	literacy_bird.png	literacy_bird.png	-	-	-	-
+																	
+# 6.NUMBER_DUMMY: Choice가 모두 뺼셈 기호(hyphen; -)이면 보기 대신 키패드가 나옵니다.																	
+sw-TZ	1	1	45	M0:1/3	NUMBER_DUMMY	-	-	1	D_2.m4a	D_2.m4a	-	2	-	-	-	-	-
+sw-TZ	1	1	46	M0:2/3	NUMBER_DUMMY	-	-	1	D_1.m4a	D_1.m4a	-	1	-	-	-	-	-
+sw-TZ	1	1	47	M0:3/3	NUMBER_DUMMY	-	-	1	snumber_00.wav	snumber_00.wav	-	0	-	-	-	-	-
+																	
+# 7.NUMBER_ID: Choice가 모두 뺄셈 기호(hyphen; -)이면 보기 대신 키패드가 나옵니다.																	
+sw-TZ	1	1	48	M1:1/10	NUMBER_ID	-	3	1	snumber_03.wav	snumber_03.wav	-	3	-	-	-	-	-
+sw-TZ	1	1	49	M1:2/10	NUMBER_ID	-	7	1	snumber_07.wav	snumber_07.wav	-	7	-	-	-	-	-
+sw-TZ	1	1	50	M1:3/10	NUMBER_ID	-	12	1	snumber_12.wav	snumber_12.wav	-	12	1	10	11	12	21
+sw-TZ	1	1	51	M1:4/10	NUMBER_ID	-	19	1	snumber_19.wav	snumber_19.wav	-	19	9	19	10	91	18
+sw-TZ	1	1	52	M1:5/10	NUMBER_ID	-	25	1	snumber_25.wav	snumber_25.wav	-	25	52	15	25	5	20
+sw-TZ	1	1	53	M1:6/10	NUMBER_ID	-	32	1	snumber_32.wav	snumber_32.wav	-	32	12	23	3	31	32
+sw-TZ	1	1	54	M1:7/10	NUMBER_ID	-	48	1	snumber_48.wav	snumber_48.wav	-	48	48	49	40	18	14
+sw-TZ	1	1	55	M1:8/10	NUMBER_ID	-	57	1	snumber_57.wav	snumber_57.wav	-	57	50	15	57	56	7
+sw-TZ	1	1	56	M1:9/10	NUMBER_ID	-	84	1	snumber_84.wav	snumber_84.wav	-	84	18	80	82	83	84
+sw-TZ	1	1	57	M1:10/10	NUMBER_ID	-	99	1	snumber_99.wav	snumber_99.wav	-	99	19	97	98	99	90
+																	
+# 8.COUNT: Choice가 모두 뺼셈 기호(hyphen; -)이면 보기 대신 키패드가 나옵니다.																	
+sw-TZ	1	1	58	M2:1/10	COUNT	Count the dots!	2 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	2	-	-	-	-	-
+sw-TZ	1	1	59	M2:2/10	COUNT	Count the dots!	4 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	4	-	-	-	-	-
+sw-TZ	1	1	60	M2:3/10	COUNT	Count the dots!	3 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	3	-	-	-	-	-
+sw-TZ	1	1	61	M2:4/10	COUNT	Count the dots!	7 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	7	-	-	-	-	-
+sw-TZ	1	1	62	M2:5/10	COUNT	Count the dots!	8 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	8	-	-	-	-	-
+sw-TZ	1	1	63	M2:6/10	COUNT	Count the dots!	10 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	10	8	9	10	11	12
+sw-TZ	1	1	64	M2:7/10	COUNT	Count the dots!	11 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	11	10	11	9	12	13
+sw-TZ	1	1	65	M2:8/10	COUNT	Count the dots!	17 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	17	14	15	16	17	18
+sw-TZ	1	1	66	M2:9/10	COUNT	Count the dots!	13 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	13	13	14	12	11	15
+sw-TZ	1	1	67	M2:10/10	COUNT	Count the dots!	19 dots	1	hesabunukta.m4a	hesabunukta.m4a	-	19	9	11	17	18	19
+																	
+# 9.ADD: 빈 칸 대신 밑줄 기호(underscore; _)를 답안 길이에 알맞게 넣어주세요.																	
+sw-TZ	1	1	68	M3:1/10	ADD	-	1 + 2 =	0.2	__NO_SOUND__	__NO_SOUND__	1 + 2 = _	3	-	-	-	-	-
+sw-TZ	1	1	69	M3:2/10	ADD	-	3 + 2 =	0.2	__NO_SOUND__	__NO_SOUND__	3 + 2 = _	5	-	-	-	-	-
+sw-TZ	1	1	70	M3:3/10	ADD	-	3 + 3 =	0.2	__NO_SOUND__	__NO_SOUND__	3 + 3 = _	6	-	-	-	-	-
+sw-TZ	1	1	71	M3:4/10	ADD	-	2 + 4 =	0.2	__NO_SOUND__	__NO_SOUND__	2 + 4 = _	6	-	-	-	-	-
+sw-TZ	1	1	72	M3:5/10	ADD	-	5 + 3 =	0.2	__NO_SOUND__	__NO_SOUND__	5 + 3 = _	8	-	-	-	-	-
+sw-TZ	1	1	73	M3:6/10	ADD	-	4 + 6 =	0.2	__NO_SOUND__	__NO_SOUND__	4 + 6 = __	10	9	10	11	8	12
+sw-TZ	1	1	74	M3:7/10	ADD	-	8 + 3 =	0.2	__NO_SOUND__	__NO_SOUND__	8 + 3 = __	11	10	9	12	11	13
+sw-TZ	1	1	75	M3:8/10	ADD	-	8 + 8 =	0.2	__NO_SOUND__	__NO_SOUND__	8 + 8 = __	16	16	17	18	15	14
+sw-TZ	1	1	76	M3:9/10	ADD	-	3 + 10 =	0.2	__NO_SOUND__	__NO_SOUND__	3 + 10 = __	13	14	10	11	12	13
+sw-TZ	1	1	77	M3:10/10	ADD	-	16 + 4 =	0.2	__NO_SOUND__	__NO_SOUND__	16 + 4 = __	20	18	19	20	21	22
+																	
+# 10.SUB: 빈 칸 대신 밑줄 기호(underscore; _)를 답안 길이에 알맞게 넣어주세요.																	
+sw-TZ	1	1	78	M4:1/10	SUB	-	3 - 1 =	0.2	__NO_SOUND__	__NO_SOUND__	3 - 1 = _	2	-	-	-	-	-
+sw-TZ	1	1	79	M4:2/10	SUB	-	5 - 2 =	0.2	__NO_SOUND__	__NO_SOUND__	5 - 2 = _	3	-	-	-	-	-
+sw-TZ	1	1	80	M4:3/10	SUB	-	6 - 3 =	0.2	__NO_SOUND__	__NO_SOUND__	6 - 3 = _	3	-	-	-	-	-
+sw-TZ	1	1	81	M4:4/10	SUB	-	6 - 2 =	0.2	__NO_SOUND__	__NO_SOUND__	6 - 2 = _	4	-	-	-	-	-
+sw-TZ	1	1	82	M4:5/10	SUB	-	8 - 3 =	0.2	__NO_SOUND__	__NO_SOUND__	8 - 3 = _	5	-	-	-	-	-
+sw-TZ	1	1	83	M4:6/10	SUB	-	10 - 4 =	0.2	__NO_SOUND__	__NO_SOUND__	10 - 4 = _	6	-	-	-	-	-
+sw-TZ	1	1	84	M4:7/10	SUB	-	11 - 3 =	0.2	__NO_SOUND__	__NO_SOUND__	11 - 3 = _	8	-	-	-	-	-
+sw-TZ	1	1	85	M4:8/10	SUB	-	16 - 8 =	0.2	__NO_SOUND__	__NO_SOUND__	16 - 8 = _	8	-	-	-	-	-
+sw-TZ	1	1	86	M4:9/10	SUB	-	13 - 10 =	0.2	__NO_SOUND__	__NO_SOUND__	13 - 10 = _	7	-	-	-	-	-
+sw-TZ	1	1	87	M4:10/10	SUB	-	20 - 16 =	0.2	__NO_SOUND__	__NO_SOUND__	20 - 16 = _	4	-	-	-	-	-
+																	
+# 11. MISSING_NUMBER: 빈 칸 대신 밑줄 기호(underscore; _)를 답안 길이에 알맞게 넣어주세요.																	
+sw-TZ	1	1	88	M5:1/10	MISSING_NUMBER	Fill in the blank	1 2 3 _	1	jazanafasi.m4a	jazanafasi.m4a	1  2  3  _	4	-	-	-	-	-
+sw-TZ	1	1	89	M5:2/10	MISSING_NUMBER	Fill in the blank	4 5 _ 7	1	jazanafasi.m4a	jazanafasi.m4a	4  5  _  7	6	-	-	-	-	-
+sw-TZ	1	1	90	M5:3/10	MISSING_NUMBER	Fill in the blank	_ 8 9 10	1	jazanafasi.m4a	jazanafasi.m4a	_  8  9  10	7	-	-	-	-	-
+sw-TZ	1	1	91	M5:4/10	MISSING_NUMBER	Fill in the blank	2 4 6 _	1	jazanafasi.m4a	jazanafasi.m4a	2  4  6  _	8	-	-	-	-	-
+sw-TZ	1	1	92	M5:5/10	MISSING_NUMBER	Fill in the blank	4 _ 8 10	1	jazanafasi.m4a	jazanafasi.m4a	4  _  8  10	6	-	-	-	-	-
+sw-TZ	1	1	93	M5:6/10	MISSING_NUMBER	Fill in the blank	14 __ 16 17	1	jazanafasi.m4a	jazanafasi.m4a	14 __ 16 17	15	14	15	16	10	11
+sw-TZ	1	1	94	M5:7/10	MISSING_NUMBER	Fill in the blank	20 30 __ 50	1	jazanafasi.m4a	jazanafasi.m4a	20 30 __ 50	40	35	40	50	55	65
+sw-TZ	1	1	95	M5:8/10	MISSING_NUMBER	Fill in the blank	20 __ 30 35	1	jazanafasi.m4a	jazanafasi.m4a	20 __ 30 35	25	21	22	23	24	25
+sw-TZ	1	1	96	M5:9/10	MISSING_NUMBER	Fill in the blank	12 14 __ 18	1	jazanafasi.m4a	jazanafasi.m4a	12 14 __ 18	16	16	19	20	15	17
+sw-TZ	1	1	97	M5:10/10	MISSING_NUMBER	Fill in the blank	38 __ 48 53	1	jazanafasi.m4a	jazanafasi.m4a	38 __ 48 53	43	39	40	41	43	45
+																	
+# *.LITERACY_END: 아이들을 격려하는 화면이 나옵니다.																	
+sw-TZ	1	1	98	M*:Finished	MATH_END	-	-	0	finished.m4a	finished.m4a	-	math_bird.png	math_bird.png	-	-	-	-

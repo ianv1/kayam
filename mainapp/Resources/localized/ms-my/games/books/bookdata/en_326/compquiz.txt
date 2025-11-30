@@ -1,0 +1,23 @@
+fill the blanks
+book_en_326_page_2_cropped.png 
+Then Little [Sock] falls out of the [basket].
+Shirt
+book_en_326_page_2_1.m4a
+
+multiple choices
+How does Robot help Little Sock get home? 
+book_en_326_page_5_cropped.png 
+Robot does not help Little Sock., Robot lets Little Sock take Robot’s car., Robot tells Little Sock to use an airplane., Robot carries Little Sock home.
+Robot lets Little Sock take Robot’s car.
+
+fill the blanks
+book_en_326_page_8_cropped.png 
+Little Sock follows the [marble]. 
+car
+book_en_326_page_8_1.m4a
+
+multiple choices
+Where is Little Sock at the end of the story?
+book_en_326_page_10_cropped.png 
+In the basket, In the wash, In the drawer, Outside
+In the drawer

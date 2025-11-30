@@ -1,0 +1,8 @@
+Julius,0.0,0.5
+nyerere,0.5,0.7
+was,0.7,1.6
+the,1.6,1.8
+first,1.8,2.2
+president,2.2,2.4
+of,2.4,2.9
+Tanzania,2.9,3.4

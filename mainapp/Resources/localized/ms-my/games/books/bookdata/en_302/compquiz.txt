@@ -1,0 +1,21 @@
+multiple choices
+Which part of the boy’s body does this picture show?
+book_en_302_page_1_cropped.png
+His feet, His knees, His chest, His head
+His head
+
+multiple choices
+Which part of their bodies are the girl and boy pointing to?
+book_en_302_page_9_cropped.png
+Hands, Foot, Shoulders, Knees
+Knees
+ 
+fill the blanks
+book_en_302_page_8_cropped.png
+These are our [hands].
+feet
+book_en_302_page_8_1.m4a
+ 
+matching
+neck,stomach,foot
+book_en_302_page_3_cropped.png,book_en_302_page_5_cropped.png,book_en_302_page_11_cropped.png

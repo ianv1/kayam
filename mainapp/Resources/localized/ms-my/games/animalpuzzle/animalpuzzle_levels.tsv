@@ -1,0 +1,390 @@
+# LanguageTag	#Level	#Puzzle	#Text	#foldername	#Background	#Pieces	#mask	#sound
+#Piece	#filename prefix	#posX	#posY	#depth	#shadow			
+ms-MY	1	1	Bird	level_pre/level1/puzzle1_bird/	ap2_puzzle1_background.jpg	1	x	bird.m4a
+1	ap2_puzzle1_bird_puzzle	825	95	x	x			
+ms-MY	1	2	Lizard	level_pre/level1/puzzle2_lizard/	ap2_puzzle2_background.jpg	1	x	lizard.m4a
+1	ap2_puzzle2_lizard_puzzle	340	250	x	x			
+ms-MY	2	1	Lizard	level_pre/level1/puzzle2_lizard/	ap2_puzzle2_background.jpg	1	x	lizard.m4a
+1	ap2_puzzle2_lizard_puzzle	340	250	x	x			
+ms-MY	2	2	Bird	level_pre/level1/puzzle1_bird/	ap2_puzzle1_background.jpg	1	x	bird.m4a
+1	ap2_puzzle1_bird_puzzle	825	95	x	x			
+ms-MY	3	1	Turtle	level_pre/level1/puzzle3_turtle/	ap2_puzzle3_background.jpg	1	x	turtle.m4a
+1	ap2_puzzle3_turtle_puzzle	548	156	x	x			
+ms-MY	3	2	Mouse	level_pre/level1/puzzle4_mouse/	ap2_puzzle4_background.jpg	1	x	mouse.m4a
+1	ap2_puzzle4_mouse_puzzle	428	56	x	x			
+ms-MY	4	1	Mouse	level_pre/level1/puzzle4_mouse/	ap2_puzzle4_background.jpg	1	x	mouse.m4a
+1	ap2_puzzle4_mouse_puzzle	428	56	x	x			
+ms-MY	4	2	Turtle	level_pre/level1/puzzle3_turtle/	ap2_puzzle3_background.jpg	1	x	turtle.m4a
+1	ap2_puzzle3_turtle_puzzle	548	156	x	x			
+ms-MY	5	1	Ball and Dog	level_pre/level2/puzzle5_ball_dog/	ap2_puzzle5_background.jpg	2	x	ball_and_dog.m4a
+1	ap2_puzzle5_ball_puzzle	154	78	x	x			
+2	ap2_puzzle5_dog_puzzle	906	78	x	x			
+ms-MY	5	2	Mom Penguin and Baby Penguin	level_pre/level2/puzzle6_mom_babypenguin/	ap2_puzzle6_background.jpg	2	x	mom_penguin_and_baby_penguin.m4a
+1	ap2_puzzle6_baby_puzzle	1444	88	x	x			
+2	ap2_puzzle6_mom_puzzle	374	30	x	x			
+ms-MY	6	1	Mom Penguin and Baby Penguin	level_pre/level2/puzzle6_mom_babypenguin/	ap2_puzzle6_background.jpg	2	x	mom_penguin_and_baby_penguin.m4a
+1	ap2_puzzle6_baby_puzzle	1444	88	x	x			
+2	ap2_puzzle6_mom_puzzle	374	30	x	x			
+ms-MY	6	2	Ball and Dog	level_pre/level2/puzzle5_ball_dog/	ap2_puzzle5_background.jpg	2	x	ball_and_dog.m4a
+1	ap2_puzzle5_ball_puzzle	154	78	x	x			
+2	ap2_puzzle5_dog_puzzle	906	78	x	x			
+ms-MY	7	1	Cat and Butterfly	level_pre/level2/puzzle7_cat_butterfly/	ap2_puzzle7_background.jpg	2	x	cat_and_butterfly.m4a
+1	ap2_puzzle7_butterfly_puzzle	1280	698	x	x			
+2	ap2_puzzle7_cat_puzzle	72	54	x	x			
+ms-MY	7	2	Rabbit and Flower	level_pre/level2/puzzle8_rabbit_flower/	ap2_puzzle8_background.jpg	2	x	rabbit_and_flower.m4a
+1	ap2_puzzle8_flower_puzzle	572	106	x	x			
+2	ap2_puzzle8_rabbit_puzzle	1228	66	x	x			
+ms-MY	8	1	Rabbit and Flower	level_pre/level2/puzzle8_rabbit_flower/	ap2_puzzle8_background.jpg	2	x	rabbit_and_flower.m4a
+1	ap2_puzzle8_flower_puzzle	572	106	x	x			
+2	ap2_puzzle8_rabbit_puzzle	1228	66	x	x			
+ms-MY	8	2	Cat and Butterfly	level_pre/level2/puzzle7_cat_butterfly/	ap2_puzzle7_background.jpg	2	x	cat_and_butterfly.m4a
+1	ap2_puzzle7_butterfly_puzzle	1280	698	x	x			
+2	ap2_puzzle7_cat_puzzle	72	54	x	x			
+ms-MY	9	1	Pig	level_pre/level3/puzzle9_pig/	ap2_puzzle9_background.jpg	2	_ap2_puzzle9_mask.png	pig.m4a
+1	ap2_puzzle9_pig1_puzzle	635	250	x	x			
+2	ap2_puzzle9_pig2_puzzle	1118	165	x	x			
+ms-MY	9	2	Goat	level_pre/level3/puzzle10_goat/	ap2_puzzle10_background.jpg	2	_ap2_puzzle10_mask.png	goat.m4a
+1	ap2_puzzle10_goat1_puzzle	590	154	x	x			
+2	ap2_puzzle10_goat2_puzzle	1345	110	x	x			
+ms-MY	10	1	Goat	level_pre/level3/puzzle10_goat/	ap2_puzzle10_background.jpg	2	_ap2_puzzle10_mask.png	goat.m4a
+1	ap2_puzzle10_goat1_puzzle	590	154	x	x			
+2	ap2_puzzle10_goat2_puzzle	1345	110	x	x			
+ms-MY	10	2	Pig	level_pre/level3/puzzle9_pig/	ap2_puzzle9_background.jpg	2	_ap2_puzzle9_mask.png	pig.m4a
+1	ap2_puzzle9_pig1_puzzle	635	250	x	x			
+2	ap2_puzzle9_pig2_puzzle	1118	165	x	x			
+ms-MY	11	1	Gazelle	level_pre/level3/puzzle11_gazelle/	ap2_puzzle11_background.jpg	2	_ap2_puzzle11_mask.png	gazelle.m4a
+1	ap2_puzzle11_gazelle1_puzzle	726	566	x	x			
+2	ap2_puzzle11_gazelle2_puzzle	690	0	x	x			
+ms-MY	11	2	Zebra	level_pre/level3/puzzle12_zebra/	ap2_puzzle12_background.jpg	2	_ap2_puzzle12_mask.png	zebra.m4a
+1	ap2_puzzle12_zebra1_puzzle	570	98	x	x			
+2	ap2_puzzle12_zebra2_puzzle	1030	98	x	x			
+ms-MY	12	1	Zebra	level_pre/level3/puzzle12_zebra/	ap2_puzzle12_background.jpg	2	_ap2_puzzle12_mask.png	zebra.m4a
+1	ap2_puzzle12_zebra1_puzzle	570	98	x	x			
+2	ap2_puzzle12_zebra2_puzzle	1030	98	x	x			
+ms-MY	12	2	Gazelle	level_pre/level3/puzzle11_gazelle/	ap2_puzzle11_background.jpg	2	_ap2_puzzle11_mask.png	gazelle.m4a
+1	ap2_puzzle11_gazelle1_puzzle	726	566	x	x			
+2	ap2_puzzle11_gazelle2_puzzle	690	0	x	x			
+ms-MY	13	1	Meerkats	level1/puzzle1/	ap_puzzle1_background.jpg	2	x	meerkats.m4a
+1	ap_puzzle1_meerkat1_puzzle	630	168	x	x			
+2	ap_puzzle1_meerkat2_puzzle	1348	110	x	x			
+ms-MY	13	2	Bugs	level1/puzzle2/	ap_puzzle2_background.jpg	2	x	bugs.m4a
+1	ap_puzzle2_ladybug1_puzzle	250	424	x	x			
+2	ap_puzzle2_ladybug2_puzzle	1390	188	x	x			
+ms-MY	14	1	Bugs	level1/puzzle2/	ap_puzzle2_background.jpg	2	x	bugs.m4a
+1	ap_puzzle2_ladybug1_puzzle	250	424	x	x			
+2	ap_puzzle2_ladybug2_puzzle	1390	188	x	x			
+ms-MY	14	2	Meerkats	level1/puzzle1/	ap_puzzle1_background.jpg	2	x	meerkats.m4a
+1	ap_puzzle1_meerkat1_puzzle	630	168	x	x			
+2	ap_puzzle1_meerkat2_puzzle	1348	110	x	x			
+ms-MY	15	1	Birds	level1/puzzle3/	ap_puzzle3_background.jpg	3	x	birds.m4a
+1	ap_puzzle3_bird1_puzzle	405	28	x	x			
+2	ap_puzzle3_bird2_puzzle	973	356	x	x			
+3	ap_puzzle3_bird3_puzzle	1829	-35	x	x			
+ms-MY	16	1	Elephants	level1/puzzle4/	ap_puzzle4_background.jpg	3	x	elephants.m4a
+1	ap_puzzle4_elephant1_puzzle	146	96	x	x			
+2	ap_puzzle4_elephant2_puzzle	1056	173	x	x			
+3	ap_puzzle4_elephant3_puzzle	1736	96	x	x			
+ms-MY	17	1	Eagle	level2/puzzle5/	ap_puzzle5_background.jpg	3	_ap_puzzle5_mask.png	eagle.m4a
+1	ap_puzzle5_eagle1_puzzle	106	236	x	x			
+2	ap_puzzle5_eagle2_puzzle	730	166	x	x			
+3	ap_puzzle5_eagle3_puzzle	1115	530	x	x			
+ms-MY	18	1	Squirrel	level2/puzzle6/	ap_puzzle6_background.jpg	3	_ap_puzzle6_mask.png	squirrel.m4a
+1	ap_puzzle6_squirrel1_puzzle	780	504	x	x			
+2	ap_puzzle6_squirrel2_puzzle	1016	0	x	x			
+3	ap_puzzle6_squirrel3_puzzle	1492	280	x	x			
+ms-MY	19	1	Cow	level2/puzzle7/	ap_puzzle7_background.jpg	4	_ap_puzzle7_mask.png	cow.m4a
+1	ap_puzzle7_cow1_puzzle	436	580	x	x			
+2	ap_puzzle7_cow2_puzzle	760	22	x	x			
+3	ap_puzzle7_cow3_puzzle	1184	580	x	x			
+4	ap_puzzle7_cow4_puzzle	1302	72	x	x			
+ms-MY	20	1	Hyena	level2/puzzle8/	ap_puzzle8_background.jpg	4	_ap_puzzle8_mask.png	hyena.m4a
+1	ap_puzzle8_hyena1_puzzle	394	668	x	x			
+2	ap_puzzle8_hyena2_puzzle	930	572	x	x			
+3	ap_puzzle8_hyena3_puzzle	394	58	x	x			
+4	ap_puzzle8_hyena4_puzzle	791	30	x	x			
+ms-MY	21	1	Monkeys and Crocodile	level3/puzzle9/	ap_puzzle9_background.jpg	5	_ap_puzzle9_mask.png	monkeys_and_crocodile.m4a
+1	ap_puzzle9_crocodile_puzzle	710	0	x	x			
+2	ap_puzzle9_monkey1_puzzle	474	530	x	x			
+3	ap_puzzle9_monkey2_puzzle	654	616	x	x			
+4	ap_puzzle9_monkey3_puzzle	1510	442	x	x			
+5	ap_puzzle9_monkey4_puzzle	1966	672	x	x			
+ms-MY	22	1	Cacti and Camels	level3/puzzle10/	ap_puzzle10_background.jpg	5	_ap_puzzle10_mask.png	cacti_and_camels.m4a
+1	ap_puzzle10_bush1_puzzle	22	300	x	x			
+2	ap_puzzle10_bush2_puzzle	352	684	x	x			
+3	ap_puzzle10_bush3_puzzle	1696	30	x	x			
+4	ap_puzzle10_camel1_puzzle	550	162	x	x			
+5	ap_puzzle10_camel2_puzzle	1235	290	x	x			
+ms-MY	23	1	Chickens	level3/puzzle11/	ap_puzzle11_background.jpg	6	_ap_puzzle11_mask.png	chickens.m4a
+1	ap_puzzle11_chicken1_puzzle	120	376	x	x			
+2	ap_puzzle11_chicken2_puzzle	610	126	x	x			
+3	ap_puzzle11_chicken3_puzzle	1030	270	x	x			
+4	ap_puzzle11_chicken4_puzzle	1236	240	x	x			
+5	ap_puzzle11_chicken5_puzzle	1468	208	x	x			
+6	ap_puzzle11_chicken6_puzzle	1912	294	x	x			
+ms-MY	24	1	Bees	level3/puzzle12/	ap_puzzle12_background.jpg	6	_ap_puzzle12_mask.png	bees.m4a
+1	ap_puzzle12_bee1_puzzle	143	735	x	x			
+2	ap_puzzle12_bee2_puzzle	206	36	x	x			
+3	ap_puzzle12_bee3_puzzle	1034	-20	x	x			
+4	ap_puzzle12_bee4_puzzle	1444	418	x	x			
+5	ap_puzzle12_beehive1_puzzle	918	732	x	x			
+6	ap_puzzle12_beehive2_puzzle	1853	87	x	x			
+ms-MY	25	1	Hippo	level4/puzzle13/	ap_puzzle13_background.jpg	6	_ap_puzzle13_mask.png	hippo.m4a
+1	ap_puzzle13_hippo1_puzzle	380	140	x	x			
+2	ap_puzzle13_hippo2_puzzle	602	98	x	x			
+3	ap_puzzle13_hippo3_puzzle	824	266	x	x			
+4	ap_puzzle13_hippo4_puzzle	960	98	x	x			
+5	ap_puzzle13_hippo5_puzzle	1187	98	x	x			
+6	ap_puzzle13_hippo6_puzzle	1426	202	x	x			
+ms-MY	26	1	Octopus	level4/puzzle14/	ap_puzzle14_background.jpg	6	_ap_puzzle14_mask.png	octopus.m4a
+1	ap_puzzle14_octopus1_puzzle	530	218	x	x			
+2	ap_puzzle14_octopus2_puzzle	992	618	x	x			
+3	ap_puzzle14_octopus3_puzzle	1280	618	x	x			
+4	ap_puzzle14_octopus4_puzzle	1280	214	x	x			
+5	ap_puzzle14_octopus5_puzzle	1280	182	x	x			
+6	ap_puzzle14_octopus6_puzzle	748	58	x	x			
+ms-MY	27	1	Lion	level4/puzzle15/	ap_puzzle15_background.jpg	8	_ap_puzzle15_mask.png	lion.m4a
+1	ap_puzzle15_lion1_puzzle	854	726	x	x			
+2	ap_puzzle15_lion2_puzzle	678	458	x	x			
+3	ap_puzzle15_lion3_puzzle	678	278	x	x			
+4	ap_puzzle15_lion4_puzzle	544	76	x	x			
+5	ap_puzzle15_lion5_puzzle	984	374	x	x			
+6	ap_puzzle15_lion6_puzzle	1127	112	x	x			
+7	ap_puzzle15_lion7_puzzle	1288	279	x	x			
+8	ap_puzzle15_lion8_puzzle	1460	90	x	x			
+ms-MY	28	1	Gecko	level4/puzzle16/	ap_puzzle16_background.jpg	8	_ap_puzzle16_mask.png	gecko.m4a
+1	ap_puzzle16_gecko1_puzzle	842	770	x	x			
+2	ap_puzzle16_gecko2_puzzle	1104	918	x	x			
+3	ap_puzzle16_gecko3_puzzle	1064	696	x	x			
+4	ap_puzzle16_gecko4_puzzle	1408	670	x	x			
+5	ap_puzzle16_gecko5_puzzle	1700	520	x	x			
+6	ap_puzzle16_gecko6_puzzle	1536	284	x	x			
+7	ap_puzzle16_gecko7_puzzle	1810	138	x	x			
+8	ap_puzzle16_gecko8_puzzle	1536	70	x	x			
+ms-MY	29	1	Swans	level5/puzzle17/	ap_puzzle17_background.png	12	x	swans.m4a
+1	ap_puzzle17_puzzle1	0	828	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+2	ap_puzzle17_puzzle2	602	828	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+3	ap_puzzle17_puzzle3	1204	828	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+4	ap_puzzle17_puzzle4	1806	828	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+5	ap_puzzle17_puzzle5	0	396	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+6	ap_puzzle17_puzzle6	602	396	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+7	ap_puzzle17_puzzle7	1204	396	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+8	ap_puzzle17_puzzle8	1806	396	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+9	ap_puzzle17_puzzle9	0	-36	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+10	ap_puzzle17_puzzle10	602	-36	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+11	ap_puzzle17_puzzle11	1204	-36	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+12	ap_puzzle17_puzzle12	1806	-36	ap_puzzle17_puzzledepth	ap_puzzle17_puzzleshadow			
+ms-MY	30	1	Bears	level5/puzzle18/	ap_puzzle18_background.png	12	x	bears.m4a
+1	ap_puzzle18_puzzle1	0	816	x	x			
+2	ap_puzzle18_puzzle2	565	675	x	x			
+3	ap_puzzle18_puzzle3	979	816	x	x			
+4	ap_puzzle18_puzzle4	1764	675	x	x			
+5	ap_puzzle18_puzzle5	0	245	x	x			
+6	ap_puzzle18_puzzle6	377	382	x	x			
+7	ap_puzzle18_puzzle7	1165	245	x	x			
+8	ap_puzzle18_puzzle8	1580	382	x	x			
+9	ap_puzzle18_puzzle9	0	-31	x	x			
+10	ap_puzzle18_puzzle10	565	-31	x	x			
+11	ap_puzzle18_puzzle11	979	-31	x	x			
+12	ap_puzzle18_puzzle12	1764	-31	x	x			
+ms-MY	31	1	Giraffes	level5/puzzle19/	ap_puzzle19_background.png	12	x	giraffes.m4a
+1	ap_puzzle19_puzzle1	0	833	x	x			
+2	ap_puzzle19_puzzle2	495	833	x	x			
+3	ap_puzzle19_puzzle3	1095	833	x	x			
+4	ap_puzzle19_puzzle4	1698	833	x	x			
+5	ap_puzzle19_puzzle5	0	400	x	x			
+6	ap_puzzle19_puzzle6	598	400	x	x			
+7	ap_puzzle19_puzzle7	1199	400	x	x			
+8	ap_puzzle19_puzzle8	1797	400	x	x			
+9	ap_puzzle19_puzzle9	0	-29	x	x			
+10	ap_puzzle19_puzzle10	495	-29	x	x			
+11	ap_puzzle19_puzzle11	1095	-29	x	x			
+12	ap_puzzle19_puzzle12	1698	-29	x	x			
+ms-MY	32	1	Frog	level5/puzzle20/	ap_puzzle20_background.png	12	x	frog.m4a
+1	ap_puzzle20_puzzle1	0	828	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+2	ap_puzzle20_puzzle2	602	828	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+3	ap_puzzle20_puzzle3	1204	828	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+4	ap_puzzle20_puzzle4	1806	828	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+5	ap_puzzle20_puzzle5	0	396	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+6	ap_puzzle20_puzzle6	602	396	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+7	ap_puzzle20_puzzle7	1204	396	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+8	ap_puzzle20_puzzle8	1806	396	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+9	ap_puzzle20_puzzle9	0	-36	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+10	ap_puzzle20_puzzle10	602	-36	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+11	ap_puzzle20_puzzle11	1204	-36	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+12	ap_puzzle20_puzzle12	1806	-36	ap_puzzle20_puzzledepth	ap_puzzle20_puzzleshadow			
+ms-MY	33	1	Chickens	level6/puzzle21/	ap_puzzle21_backgroundpuzzle.png	18	x	chickens.m4a
+1	ap_puzzle21_puzzle1_	0	832	ap_puzzle21_puzzle1_3_5_13_15_17depth	ap_puzzle21_puzzle1_3_5_13_15_17shadow			
+2	ap_puzzle21_puzzle2_	292	832	ap_puzzle21_puzzle2_4_6_14_16_18depth	ap_puzzle21_puzzle2_4_6_14_16_18shadow			
+3	ap_puzzle21_puzzle3	799	832	ap_puzzle21_puzzle1_3_5_13_15_17depth	ap_puzzle21_puzzle1_3_5_13_15_17shadow			
+4	ap_puzzle21_puzzle4	1099	832	ap_puzzle21_puzzle2_4_6_14_16_18depth	ap_puzzle21_puzzle2_4_6_14_16_18shadow			
+5	ap_puzzle21_puzzle5	1603	832	ap_puzzle21_puzzle1_3_5_13_15_17depth	ap_puzzle21_puzzle1_3_5_13_15_17shadow			
+6	ap_puzzle21_puzzle6	1898	832	ap_puzzle21_puzzle2_4_6_14_16_18depth	ap_puzzle21_puzzle2_4_6_14_16_18shadow			
+7	ap_puzzle21_puzzle7_	0	400	ap_puzzle21_puzzle7_9_11depth	ap_puzzle21_puzzle7_9_11shadow			
+8	ap_puzzle21_puzzle8_	400	400	ap_puzzle21_puzzle8_10_12depth	ap_puzzle21_puzzle8_10_12shadow			
+9	ap_puzzle21_puzzle9	799	400	ap_puzzle21_puzzle7_9_11depth	ap_puzzle21_puzzle7_9_11shadow			
+10	ap_puzzle21_puzzle10	1203	400	ap_puzzle21_puzzle8_10_12depth	ap_puzzle21_puzzle8_10_12shadow			
+11	ap_puzzle21_puzzle11	1603	400	ap_puzzle21_puzzle7_9_11depth	ap_puzzle21_puzzle7_9_11shadow			
+12	ap_puzzle21_puzzle12	2007	400	ap_puzzle21_puzzle8_10_12depth	ap_puzzle21_puzzle8_10_12shadow			
+13	ap_puzzle21_puzzle13	0	-32	ap_puzzle21_puzzle1_3_5_13_15_17depth	ap_puzzle21_puzzle1_3_5_13_15_17shadow			
+14	ap_puzzle21_puzzle14	292	-32	ap_puzzle21_puzzle2_4_6_14_16_18depth	ap_puzzle21_puzzle2_4_6_14_16_18shadow			
+15	ap_puzzle21_puzzle15	799	-32	ap_puzzle21_puzzle1_3_5_13_15_17depth	ap_puzzle21_puzzle1_3_5_13_15_17shadow			
+16	ap_puzzle21_puzzle16	1099	-32	ap_puzzle21_puzzle2_4_6_14_16_18depth	ap_puzzle21_puzzle2_4_6_14_16_18shadow			
+17	ap_puzzle21_puzzle17	1603	-32	ap_puzzle21_puzzle1_3_5_13_15_17depth	ap_puzzle21_puzzle1_3_5_13_15_17shadow			
+18	ap_puzzle21_puzzle18	1898	-32	ap_puzzle21_puzzle2_4_6_14_16_18depth	ap_puzzle21_puzzle2_4_6_14_16_18shadow			
+ms-MY	34	1	Cow	level6/puzzle22/	ap_puzzle22_backgroundpuzzle.png	18	x	cow.m4a
+1	ap_puzzle22_puzzle1	0	816	x	x			
+2	ap_puzzle22_puzzle2	374	672	x	x			
+3	ap_puzzle22_puzzle3	650	816	x	x			
+4	ap_puzzle22_puzzle4	1177	672	x	x			
+5	ap_puzzle22_puzzle5	1450	816	x	x			
+6	ap_puzzle22_puzzle6	1973	672	x	x			
+7	ap_puzzle22_puzzle7	0	237	x	x			
+8	ap_puzzle22_puzzle8	247	381	x	x			
+9	ap_puzzle22_puzzle9	776	237	x	x			
+10	ap_puzzle22_puzzle10	1049	381	x	x			
+11	ap_puzzle22_puzzle11	1583	237	x	x			
+12	ap_puzzle22_puzzle12	1853	381	x	x			
+13	ap_puzzle22_puzzle13	0	-29	x	x			
+14	ap_puzzle22_puzzle14	374	-29	x	x			
+15	ap_puzzle22_puzzle15	650	-29	x	x			
+16	ap_puzzle22_puzzle16	1177	-29	x	x			
+17	ap_puzzle22_puzzle17	1450	-29	x	x			
+18	ap_puzzle22_puzzle18	1973	-29	x	x			
+ms-MY	35	1	Bees	level6/puzzle23/	ap_puzzle23_backgroundpuzzle.png	18	x	bees.m4a
+1	ap_puzzle23_puzzle1	0	826	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+2	ap_puzzle23_puzzle2	401	826	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+3	ap_puzzle23_puzzle3	802	826	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+4	ap_puzzle23_puzzle4	1203	826	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+5	ap_puzzle23_puzzle5	1604	826	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+6	ap_puzzle23_puzzle6	2005	826	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+7	ap_puzzle23_puzzle7	0	396	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+8	ap_puzzle23_puzzle8	401	396	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+9	ap_puzzle23_puzzle9	802	396	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+10	ap_puzzle23_puzzle10	1203	396	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+11	ap_puzzle23_puzzle11	1604	396	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+12	ap_puzzle23_puzzle12	2005	396	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+13	ap_puzzle23_puzzle13	0	-36	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+14	ap_puzzle23_puzzle14	401	-36	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+15	ap_puzzle23_puzzle15	802	-36	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+16	ap_puzzle23_puzzle16	1203	-36	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+17	ap_puzzle23_puzzle17	1604	-36	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+18	ap_puzzle23_puzzle18	2005	-36	ap_puzzle23_puzzledepth	ap_puzzle23_puzzleshadow			
+ms-MY	36	1	Birds	level6/puzzle24/	ap_puzzle24_backgroundpuzzle.png	18	x	birds.m4a
+1	ap_puzzle24_puzzle1	0	816	x	x			
+2	ap_puzzle24_puzzle2	374	672	x	x			
+3	ap_puzzle24_puzzle3	650	816	x	x			
+4	ap_puzzle24_puzzle4	1177	672	x	x			
+5	ap_puzzle24_puzzle5	1450	816	x	x			
+6	ap_puzzle24_puzzle6	1973	672	x	x			
+7	ap_puzzle24_puzzle7	0	237	x	x			
+8	ap_puzzle24_puzzle8	247	381	x	x			
+9	ap_puzzle24_puzzle9	776	237	x	x			
+10	ap_puzzle24_puzzle10	1049	381	x	x			
+11	ap_puzzle24_puzzle11	1583	237	x	x			
+12	ap_puzzle24_puzzle12	1853	381	x	x			
+13	ap_puzzle24_puzzle13	0	-29	x	x			
+14	ap_puzzle24_puzzle14	374	-29	x	x			
+15	ap_puzzle24_puzzle15	650	-29	x	x			
+16	ap_puzzle24_puzzle16	1177	-29	x	x			
+17	ap_puzzle24_puzzle17	1450	-29	x	x			
+18	ap_puzzle24_puzzle18	1973	-29	x	x			
+ms-MY	37	1	Elephants	level7/puzzle25/	ap_puzzle25_background.png	24	x	elephants.m4a
+1	ap_puzzle25_puzzle1	0	942	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+2	ap_puzzle25_puzzle2	401	942	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+3	ap_puzzle25_puzzle3	802	942	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+4	ap_puzzle25_puzzle4	1203	942	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+5	ap_puzzle25_puzzle5	1604	942	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+6	ap_puzzle25_puzzle6	2005	942	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+7	ap_puzzle25_puzzle7	0	617	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+8	ap_puzzle25_puzzle8	401	617	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+9	ap_puzzle25_puzzle9	802	617	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+10	ap_puzzle25_puzzle10	1203	617	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+11	ap_puzzle25_puzzle11	1604	617	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+12	ap_puzzle25_puzzle12	2005	617	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+13	ap_puzzle25_puzzle13	0	292	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+14	ap_puzzle25_puzzle14	401	292	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+15	ap_puzzle25_puzzle15	802	292	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+16	ap_puzzle25_puzzle16	1203	292	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+17	ap_puzzle25_puzzle17	1604	292	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+18	ap_puzzle25_puzzle18	2005	292	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+19	ap_puzzle25_puzzle19	0	-30	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+20	ap_puzzle25_puzzle20	401	-30	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+21	ap_puzzle25_puzzle21	802	-30	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+22	ap_puzzle25_puzzle22	1203	-30	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+23	ap_puzzle25_puzzle23	1604	-30	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+24	ap_puzzle25_puzzle24	2005	-30	ap_puzzle25_puzzledepth	ap_puzzle25_puzzleshadow			
+ms-MY	38	1	Lion	level7/puzzle26/	ap_puzzle26_background.png	24	x	lion.m4a
+1	ap_puzzle26_puzzle1	0	942	x	x			
+2	ap_puzzle26_puzzle2	302	942	x	x			
+3	ap_puzzle26_puzzle3	710	942	x	x			
+4	ap_puzzle26_puzzle4	1110	942	x	x			
+5	ap_puzzle26_puzzle5	1514	942	x	x			
+6	ap_puzzle26_puzzle6	1912	942	x	x			
+7	ap_puzzle26_puzzle7	0	617	x	x			
+8	ap_puzzle26_puzzle8	401	617	x	x			
+9	ap_puzzle26_puzzle9	798	617	x	x			
+10	ap_puzzle26_puzzle10	1200	617	x	x			
+11	ap_puzzle26_puzzle11	1601	617	x	x			
+12	ap_puzzle26_puzzle12	2005	617	x	x			
+13	ap_puzzle26_puzzle13	0	292	x	x			
+14	ap_puzzle26_puzzle14	302	292	x	x			
+15	ap_puzzle26_puzzle15	710	292	x	x			
+16	ap_puzzle26_puzzle16	1110	292	x	x			
+17	ap_puzzle26_puzzle17	1514	292	x	x			
+18	ap_puzzle26_puzzle18	1912	292	x	x			
+19	ap_puzzle26_puzzle19	0	-30	x	x			
+20	ap_puzzle26_puzzle20	401	-30	x	x			
+21	ap_puzzle26_puzzle21	798	-30	x	x			
+22	ap_puzzle26_puzzle22	1200	-30	x	x			
+23	ap_puzzle26_puzzle23	1601	-30	x	x			
+24	ap_puzzle26_puzzle24	2005	-30	x	x			
+ms-MY	39	1	Monkeys and Crocodile	level7/puzzle27/	ap_puzzle27_background.png	24	x	monkeys_and_crocodile.m4a
+1	ap_puzzle27_puzzle1	0	928	x	x			
+2	ap_puzzle27_puzzle2	382	824	x	x			
+3	ap_puzzle27_puzzle3	651	928	x	x			
+4	ap_puzzle27_puzzle4	1184	824	x	x			
+5	ap_puzzle27_puzzle5	1453	928	x	x			
+6	ap_puzzle27_puzzle6	1980	824	x	x			
+7	ap_puzzle27_puzzle7	0	501	x	x			
+8	ap_puzzle27_puzzle8	248	608	x	x			
+9	ap_puzzle27_puzzle9	782	501	x	x			
+10	ap_puzzle27_puzzle10	1051	608	x	x			
+11	ap_puzzle27_puzzle11	1585	501	x	x			
+12	ap_puzzle27_puzzle12	1856	608	x	x			
+13	ap_puzzle27_puzzle13	0	279	x	x			
+14	ap_puzzle27_puzzle14	382	176	x	x			
+15	ap_puzzle27_puzzle15	651	279	x	x			
+16	ap_puzzle27_puzzle16	1184	176	x	x			
+17	ap_puzzle27_puzzle17	1453	279	x	x			
+18	ap_puzzle27_puzzle18	1980	176	x	x			
+19	ap_puzzle27_puzzle19	0	-34	x	x			
+20	ap_puzzle27_puzzle20	248	-34	x	x			
+21	ap_puzzle27_puzzle21	782	-34	x	x			
+22	ap_puzzle27_puzzle22	1051	-34	x	x			
+23	ap_puzzle27_puzzle23	1585	-34	x	x			
+24	ap_puzzle27_puzzle24	1856	-34	x	x			
+ms-MY	40	1	Cacti and Camels	level7/puzzle28/	ap_puzzle28_background.png	24	x	cacti_and_camels.m4a
+1	ap_puzzle28_puzzle1	0	942	x	x			
+2	ap_puzzle28_puzzle2	302	942	x	x			
+3	ap_puzzle28_puzzle3	710	942	x	x			
+4	ap_puzzle28_puzzle4	1110	942	x	x			
+5	ap_puzzle28_puzzle5	1514	942	x	x			
+6	ap_puzzle28_puzzle6	1912	942	x	x			
+7	ap_puzzle28_puzzle7	0	617	x	x			
+8	ap_puzzle28_puzzle8	401	617	x	x			
+9	ap_puzzle28_puzzle9	798	617	x	x			
+10	ap_puzzle28_puzzle10	1200	617	x	x			
+11	ap_puzzle28_puzzle11	1601	617	x	x			
+12	ap_puzzle28_puzzle12	2005	617	x	x			
+13	ap_puzzle28_puzzle13	0	292	x	x			
+14	ap_puzzle28_puzzle14	302	292	x	x			
+15	ap_puzzle28_puzzle15	710	292	x	x			
+16	ap_puzzle28_puzzle16	1110	292	x	x			
+17	ap_puzzle28_puzzle17	1514	292	x	x			
+18	ap_puzzle28_puzzle18	1912	292	x	x			
+19	ap_puzzle28_puzzle19	0	-30	x	x			
+20	ap_puzzle28_puzzle20	401	-30	x	x			
+21	ap_puzzle28_puzzle21	798	-30	x	x			
+22	ap_puzzle28_puzzle22	1200	-30	x	x			
+23	ap_puzzle28_puzzle23	1601	-30	x	x			
+24	ap_puzzle28_puzzle24	2005	-30	x	x			

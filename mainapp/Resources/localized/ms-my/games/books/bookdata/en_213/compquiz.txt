@@ -1,0 +1,21 @@
+fill the blanks
+book_en_213_page_1_cropped.png
+Mother is [sick].
+excited
+book_en_213_page_1_1.m4a
+ 
+fill the blanks
+book_en_213_page_3_cropped.png
+Jeff and I go to [school].
+sleep
+book_en_213_page_3_1.m4a
+ 
+multiple choices
+Today I will do the work!
+book_en_213_page_1_cropped.png,book_en_213_page_6_cropped.png,book_en_213_page_2_cropped.png,book_en_213_page_5_cropped.png
+book_en_213_page_5_cropped.png
+ 
+multiple choices
+I will help Mother feel better.
+book_en_213_page_1_cropped.png,book_en_213_page_3_cropped.png,book_en_213_page_6_cropped.png,book_en_213_page_4_cropped.png
+book_en_213_page_6_cropped.png

@@ -1,0 +1,13 @@
+# LanguageTag	# Level	# Type	# MathSign	# MinNumber	# MaxNumber	# Repeat	# Line1 BlankCount	# Panel Count
+ms-MY	1	A	P	1	5	0	0	4
+ms-MY	2	A	M	1	5	0	0	4
+ms-MY	3	A	P	1	10	0	2	5
+ms-MY	4	A	M	1	10	0	2	5
+ms-MY	5	B	P	1	10	0	0	5
+ms-MY	6	B	M	1	10	0	0	5
+ms-MY	7	B	P	10	20	0	0	5
+ms-MY	8	B	M	10	20	0	0	5
+ms-MY	9	B	R	10	20	0	0	5
+ms-MY	10	C	P	1	5	2	0	2
+ms-MY	11	C	P	1	5	3	0	3
+ms-MY	12	C	P	1	5	4	0	4

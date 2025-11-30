@@ -1,0 +1,21 @@
+fill the blanks
+book_en_220_page_1_cropped.png 
+I am [sleepy].
+happy
+book_en_220_page_1_1.m4a 
+ 
+multiple choices
+Cow cannot wake me up.
+book_en_220_page_2_cropped.png, book_en_220_page_3_cropped.png, book_en_220_page_4_cropped.png, book_en_220_page_6_cropped.png 
+book_en_220_page_4_cropped.png 
+ 
+multiple choices
+book_en_220_page_3_cropped.png
+Cow cannot wake me up., Crow says to wake up., I need to do my job., Cock cannot wake me up.
+Crow says to wake up.
+ 
+fill the blanks
+book_en_220_page_3_cropped.png
+Crow says to [wake up].
+eat
+book_en_220_page_3_1.m4a

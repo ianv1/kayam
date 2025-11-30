@@ -1,0 +1,21 @@
+fill the blanks
+book_en_411_page_2_cropped.png
+When leopards are done eating, other [animals] come to eat the [meat] that is left behind. 
+People, grass
+book_en_411_page_2_2.m4a
+
+multiple choices
+book_en_411_page_4_cropped.png
+Flies and other insects eat the meat other animals don’t eat., Some beetles will eat elephant dung., The wild boar helps to finish the food when the other animals leave., Many insects eat plants.
+Flies and other insects eat the meat other animals don’t eat.
+
+multiple choices
+The wild boar is always hungry. The wild boar helps to finish the food when the other animals leave. 
+book_en_411_page_4_cropped.png,book_en_411_page_3_cropped.png,book_en_411_page_2_cropped.png,book_en_411_page_8_cropped.png
+book_en_411_page_3_cropped.png
+
+fill the blanks
+book_en_411_page_9_cropped.png
+Many [insects] and the wild boar eat [plants].
+candy, zebras
+book_en_411_page_9_quiz.m4a

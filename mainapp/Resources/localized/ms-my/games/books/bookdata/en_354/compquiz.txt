@@ -1,0 +1,18 @@
+fill the blanks
+book_en_354_page_1_cropped.png
+Our [senses] help us understand the world [better].
+worse
+book_en_354_page_1_2.m4a
+
+multiple choices
+Which is one of the senses?
+Taste, Happy, Scared
+Taste
+
+matching
+see, taste, smell
+book_en_354_page_2_cropped.png, book_en_354_page_3_cropped.png, book_en_354_page_6_cropped.png
+
+matching
+touch, hear, taste
+book_en_354_page_4_cropped.png, book_en_354_page_5_cropped.png, book_en_354_page_3_cropped.png

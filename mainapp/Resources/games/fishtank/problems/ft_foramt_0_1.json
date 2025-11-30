@@ -1,0 +1,9 @@
+{
+    "TopTankCount" : 1,
+    "TopTankName" : "FishTank/fishgame_node_tank_square.csb",
+    "BottomTankCount" : 2,
+    "BottomTankName" : "FishTank/fishgame_node_tank_round.csb",
+    "IsAlreadyPhase2" : true,
+    "IsHideTankText" : false,
+    "IsReversePhase2" : true
+}

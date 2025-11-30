@@ -1,0 +1,23 @@
+fill the blanks
+book_en_407_page_1_cropped.png
+A [fawn] was [running] in the forest.
+dancing, elephant
+book_en_407_page_1_1.m4a
+
+fill the blanks
+book_en_407_page_3_cropped.png
+He ran faster than the [elephant]. The fawn was very [proud]. 
+hippo, sad
+book_en_407_page_3_blank.m4a
+
+multiple choices
+What happened to the fawn as he kept running?
+book_en_407_page_6_cropped.png
+He started to fly., He tripped over a large rock., He became very tired., He got lost.
+He tripped over a large rock. 
+
+multiple choices
+The monkey tried to help the fawn when he tripped. Who else tried to help the fawn?
+book_en_407_page_9_cropped.png
+The rabbit, The elephant, The bear, The snake
+The bear

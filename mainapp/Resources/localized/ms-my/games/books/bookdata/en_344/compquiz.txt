@@ -1,0 +1,23 @@
+multiple choices
+What is this story about?
+book_en_344_page_8_cropped.png
+A school, A store, A clinic
+A clinic
+
+multiple choices
+Where do you sign up at the clinic?
+book_en_344_page_2_cropped.png
+A wall, A computer, A table
+A table
+
+fill the blanks
+book_en_344_page_4_cropped.png
+This [clinic] has a [doctor’s] room.
+school
+book_en_344_page_4_1.m4a
+
+fill the blanks
+book_en_344_page_6_cropped.png
+This [clinic] has a [medicine] window. 
+store
+book_en_344_page_6_1.m4a

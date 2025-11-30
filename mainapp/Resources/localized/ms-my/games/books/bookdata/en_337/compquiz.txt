@@ -1,0 +1,23 @@
+fill the blanks
+book_en_337_page_1_cropped.png
+Farida wants to [go] to the [market]. 
+be
+book_en_337_page_1_1.m4a
+
+multiple choices
+Where does Farida write the things she wants to buy? 
+book_en_337_page_2_cropped.png
+On her hand., On her list., On her shoe. 
+On her list.
+
+fill the blanks
+book_en_337_page_4_cropped.png
+Farida [reads] her [list] again.
+mind
+book_en_337_page_4_1.m4a
+
+multiple choices
+What does Farida buy at the market?
+book_en_337_page_5_cropped.png
+Mangoes, Bananas, Fish 
+Fish

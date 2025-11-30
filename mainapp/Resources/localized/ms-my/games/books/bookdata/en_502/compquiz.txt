@@ -1,0 +1,22 @@
+fill the blanks
+book_en_502_page_1_cropped.png
+Every morning, Lucy [thinks] about the [plants] she will see on the walk to school.
+draws, animals
+book_en_502_page_1_1.m4a
+ 
+multiple choices
+On the way to school, Lucy walks through a field of flowers.
+book_en_502_page_1_cropped.png,book_en_502_page_2_cropped.png,book_en_502_page_3_cropped.png,book_en_502_page_8_cropped.png
+book_en_502_page_3_cropped.png
+
+tracing question
+book_en_502_page_5_tracing.m4a
+book_en_502_page_5_cropped.png
+happy
+en-uk_happy.m4a
+
+multiple choices
+What does Lucy greet when she gets to school?
+book_en_502_page_8_cropped.png
+A cat, A fruit, A tree, A chair
+A tree

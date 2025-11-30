@@ -1,0 +1,20 @@
+fill the blanks
+book_en_401_page_1_cropped.png
+[Mouse] was hungry. He looked for [food] among the grass.
+wire
+book_en_401_page_1_blank.m4a
+
+multiple choices
+Lion wants to eat the mouse.
+book_en_401_page_1_cropped.png,book_en_401_page_9_cropped.png,book_en_401_page_7_cropped.png,book_en_401_page_3_cropped.png
+book_en_401_page_3_cropped.png
+
+multiple choices
+book_en_401_page_6_cropped.png
+Lion got stuck when wire twisted around his legs., Mouse was hungry so he looked for food., Mouse helps Lion remove the wire around his legs., Mouse asks lion not to eat him.
+Lion got stuck when wire twisted around his legs.
+
+multiple choices
+Which picture shows Mouse helping Lion?
+book_en_401_page_1_cropped.png,book_en_401_page_3_cropped.png,book_en_401_page_8_cropped.png,book_en_401_page_7_cropped.png
+book_en_401_page_8_cropped.png

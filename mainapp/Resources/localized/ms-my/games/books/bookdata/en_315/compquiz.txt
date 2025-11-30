@@ -1,0 +1,22 @@
+tracing question
+book_en_315_page_1_tracing.m4a
+book_en_315_page_1_cropped.png
+seven
+en-uk_seven.m4a
+ 
+multiple choices
+Six get hit. One sun does not.
+book_en_315_page_1_cropped.png,book_en_315_page_2_cropped.png,book_en_315_page_3_cropped.png,book_en_315_page_4_cropped.png
+book_en_315_page_2_cropped.png
+
+multiple choices
+Which animal asks the sun to rise?
+book_en_315_page_6_cropped.png
+The other suns, The rabbit, The lion, The moon
+The lion
+ 
+fill the blanks
+book_en_315_page_8_cropped.png
+[All] are [happy] down below.
+sad
+book_en_315_page_8_1.m4a

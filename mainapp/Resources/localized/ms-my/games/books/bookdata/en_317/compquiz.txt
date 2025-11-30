@@ -1,0 +1,21 @@
+fill the blanks
+book_en_317_page_4_cropped.png
+He is [tall].
+short
+book_en_317_page_4_1.m4a
+
+tracing question 
+book_en_317_page_6_tracing.m4a
+book_en_317_page_6_cropped.png
+read
+en-uk_read.m4a
+
+multiple choices
+Her hair is long.
+book_en_317_page_9_cropped.png,book_en_317_page_4_cropped.png,book_en_317_page_6_cropped.png,book_en_317_page_7_cropped.png
+book_en_317_page_7_cropped.png
+
+multiple choices
+book_en_317_page_9_cropped.png 
+Her hair is long., He likes to run., We all play., She has spots.
+We all play.

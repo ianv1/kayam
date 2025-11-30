@@ -1,0 +1,22 @@
+Counting Animals
+
+
+I see one elephant.
+
+
+I see two giraffes.
+
+
+I see three buffaloes and four birds.
+
+
+I see five antelopes and six warthogs.
+
+
+I see seven zebras.
+
+
+I see eight frogs and nine fish.
+
+
+I see many animals!

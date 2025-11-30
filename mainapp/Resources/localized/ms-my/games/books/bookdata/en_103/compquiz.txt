@@ -1,0 +1,17 @@
+matching
+Small bird, Small dog, Small pig
+book_en_103_page_1_cropped.png, book_en_103_page_3_cropped.png, book_en_103_page_5_cropped.png
+
+matching
+Big bird, Big dog, Big pig
+book_en_103_page_2_cropped.png, book_en_103_page_4_cropped.png, book_en_103_page_6_cropped.png
+
+multiple choices
+Big bird
+book_en_103_page_2_cropped.png, book_en_103_page_4_cropped.png, book_en_103_page_5_cropped.png, book_en_103_page_3_cropped.png
+book_en_103_page_2_cropped.png
+
+multiple choices
+Small pig
+book_en_103_page_3_cropped.png, book_en_103_page_2_cropped.png, book_en_103_page_1_cropped.png, book_en_103_page_5_cropped.png
+book_en_103_page_5_cropped.png

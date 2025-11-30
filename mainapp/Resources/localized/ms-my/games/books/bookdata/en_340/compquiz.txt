@@ -1,0 +1,20 @@
+multiple choices
+What can Neema cook?
+book_en_340_page_1_cropped.png
+Beans, Porridge, Meat
+Beans
+
+multiple choices
+What does Neema clean from the beans?
+book_en_340_page_2_cropped.png
+Bugs, Flowers, Dirt
+Dirt
+
+fill the blanks
+book_en_340_page_3_cropped.png
+Neema [washes] the [beans].
+picks
+book_en_340_page_3_1.m4a
+
+reordering
+Neema washes the beans., Neema boils the beans., Neema serves the beans. 

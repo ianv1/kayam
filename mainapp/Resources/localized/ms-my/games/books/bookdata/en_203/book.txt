@@ -1,0 +1,29 @@
+Animal Sounds
+
+
+Sheep says,
+“Baa! Baa!”
+
+
+Pig says,
+“Oink! Oink!”
+
+
+Chicken says,
+“Cluck! Cluck!”
+
+
+Duck says,
+“Quack! Quack!”
+
+
+Dog says,
+“Woof! Woof!”
+
+
+Cow says,
+“Moo! Moo!”
+
+
+Cat says,
+“Meow! Meow!”

@@ -1,0 +1,20 @@
+fill the blanks
+book_en_402_page_3_cropped.png
+Kelly goes [swimming]. She [swims] far.
+running
+book_en_402_page_3_blank.m4a
+
+multiple choices
+Sometimes we all play together. We play football.
+book_en_402_page_11_cropped.png,book_en_402_page_12_cropped.png,book_en_402_page_2_cropped.png,book_en_402_page_13_cropped.png
+book_en_402_page_11_cropped.png
+
+matching
+reading, swimming, playing football,
+book_en_402_page_5_cropped.png,book_en_402_page_3_cropped.png,book_en_402_page_2_cropped.png, 
+
+tracing question
+book_en_402_page_11_tracing.m4a
+book_en_402_page_11_cropped.png
+play
+en-uk_play.m4a

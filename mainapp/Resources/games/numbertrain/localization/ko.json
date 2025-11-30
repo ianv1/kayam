@@ -1,0 +1,12 @@
+{
+
+	"[circustrain]direction_largest_to_smallest_number" : "가장 큰 수 에서부터 작은 순서대로 나열하세요.",
+	"[circustrain]direction_largest_to_smallest_shape" : "가장 큰 것 으로부터 작은 순서대로 나열하세요.",
+	"[circustrain]direction_smallest_to_largest_number" : "가장 작은 수 로부터 큰 순서대로 나열하세요.",
+	"[circustrain]direction_smallest_to_largest_shape" : "가장 작은 것 으로부터 큰 순서대로 나열하세요.",
+	"[circustrain]largest_number" : "가장 큰",
+	"[circustrain]largest_shape" : "가장 큰",
+	"[circustrain]smallest_number" : "가장 작은",
+	"[circustrain]smallest_shape" : "가장 작은",
+	"Circus Train" : "서커스 열차"
+}

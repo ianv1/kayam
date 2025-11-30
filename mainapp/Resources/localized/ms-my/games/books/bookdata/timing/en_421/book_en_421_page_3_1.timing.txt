@@ -1,0 +1,7 @@
+they,0.0,0.1
+packed,0.1,0.5
+their,0.5,0.6
+vegetables,0.6,1.3
+into,1.3,1.7
+their,1.7,1.8
+baskets,1.8,2.6

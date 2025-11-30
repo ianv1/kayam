@@ -1,0 +1,23 @@
+tracing question
+book_en_320_page_1_tracing.m4a
+book_en_320_page_1_cropped.png 
+fish
+en-uk_fish.m4a
+
+fill the blanks
+book_en_320_page_4_cropped.png 
+Ruth tries to [stop] the boys from [fishing].
+cleaning
+book_en_320_page_4_quiz.m4a
+
+fill the blanks
+book_en_320_page_5_cropped.png 
+[Ruth] [worries] about the fish. 
+Simon
+book_en_320_page_5_1.m4a
+
+multiple choices
+What happens to the boys’ fishing rods while they fish?
+book_en_320_page_8_cropped.png 
+The rods fly., The rods grow., The rods break., The rods melt.
+The rods break. 
