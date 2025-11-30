@@ -1,0 +1,12 @@
+{
+
+	"[circustrain]direction_largest_to_smallest_number" : "Arrange in order from largest to smallest",
+	"[circustrain]direction_largest_to_smallest_shape" : "Arrange in order from largest to smallest",
+	"[circustrain]direction_smallest_to_largest_number" : "Arrange in order from smallest to largest",
+	"[circustrain]direction_smallest_to_largest_shape" : "Arrange in order from smallest to largest",
+	"[circustrain]largest_number" : "Largest",
+	"[circustrain]largest_shape" : "Largest",
+	"[circustrain]smallest_number" : "Smallest",
+	"[circustrain]smallest_shape" : "Smallest",
+	"Circus Train" : "Circus Train"
+}

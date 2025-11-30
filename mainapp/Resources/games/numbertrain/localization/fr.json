@@ -1,0 +1,12 @@
+{
+
+	"[circustrain]direction_largest_to_smallest_number" : "Triez du plus grand au plus petit",
+	"[circustrain]direction_largest_to_smallest_shape" : "Triez du plus grand au plus petit",
+	"[circustrain]direction_smallest_to_largest_number" : "Triez du plus petit au plus grand",
+	"[circustrain]direction_smallest_to_largest_shape" : "Triez du plus petit au plus grand",
+	"[circustrain]largest_number" : "Le plus grand",
+	"[circustrain]largest_shape" : "Le plus grand",
+	"[circustrain]smallest_number" : "Le plus petit",
+	"[circustrain]smallest_shape" : "Le plus petit",
+	"Circus Train" : "Train-cirque"
+}

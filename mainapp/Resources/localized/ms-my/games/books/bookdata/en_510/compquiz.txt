@@ -1,0 +1,22 @@
+fill the blanks
+book_en_510_page_1_cropped.png
+When you look up in the [sky] and see many [dark] clouds, it might mean that rain is coming soon.
+moon, bright
+book_en_510_page_1_1.m4a
+
+multiple choices
+What is this book about?
+Rain, Trees, Fruits
+Rain
+
+fill the blanks
+book_en_510_page_4_cropped.png
+Rain is very important for our [earth] and the [plants] that live here.
+sun, stars
+book_en_510_page_4_1.m4a
+
+multiple choices
+What happens when it rains too much and water fills up the ground?
+book_en_510_page_5_cropped.png
+It floods., It is dry., Nothing happens. 
+It floods.

@@ -1,0 +1,4 @@
+Three Clothes
+
+
+1, 2, 3 shirts.1, 2, 3 pairs of pants.1, 2, 3 pairs of shorts.1, 2, 3 skirts.1, 2, 3 dresses.1, 2, 3 pairs of shoes.1, 2, 3 hats.

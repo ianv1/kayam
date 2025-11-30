@@ -1,0 +1,23 @@
+fill the blanks
+book_en_230_page_1_cropped.png
+We said, [“Hello”].
+“No”
+book_en_230_page_1_1.m4a
+
+fill the blanks
+book_en_230_page_2_cropped.png
+I [asked], “Can I help you?”
+"cried,"
+book_en_230_page_2_1.m4a
+
+tracing question
+book_en_230_page_4_tracing.m4a
+book_en_230_page_4_cropped.png
+help
+en-uk_help.m4a
+
+fill the blanks
+book_en_230_page_5_cropped.png
+We said, [“Goodbye”].
+“Cool”
+book_en_230_page_5_1.m4a

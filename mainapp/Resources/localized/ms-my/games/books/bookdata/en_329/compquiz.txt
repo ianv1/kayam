@@ -1,0 +1,22 @@
+fill the blanks
+book_en_329_page_1_cropped.png
+The cock was [crying]. 
+happy
+book_en_329_page_1_1.m4a
+
+fill the blanks
+book_en_329_page_2_cropped.png
+The cock said he is [lonely]. 
+angry
+book_en_329_page_2_1.m4a
+
+multiple choices
+The cock and worm played football.
+book_en_329_page_1_cropped.png,book_en_329_page_2_cropped.png,book_en_329_page_4_cropped.png,book_en_329_page_8_cropped.png
+book_en_329_page_4_cropped.png
+
+tracing question
+book_en_329_page_8_tracing.m4a
+book_en_329_page_8_cropped.png
+friends
+en-uk_friends.m4a

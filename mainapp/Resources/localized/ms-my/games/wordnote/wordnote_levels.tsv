@@ -1,0 +1,271 @@
+#LanguageTag	#Level	#Worksheet	#Problem	#Word/Sentence	#Card	#ActiveCard	#Sound	#Image	#HintWord/Sentence	#CanDuplicate
+ms-MY	1	1	1	cat	ca,t	ca,t	cat.m4a	cat.png	TRUE	TRUE
+ms-MY	1	1	2	hat	ha,t	ha,t	hat.m4a	hat.png	TRUE	TRUE
+ms-MY	1	1	3	mat	ma,t	ma,t	mat.m4a	mat.png	TRUE	TRUE
+ms-MY	1	1	4	rat	ra,t	ra,t	rat.m4a	rat.png	TRUE	TRUE
+ms-MY	1	1	5	fan	fa,n	fa,n	fan.m4a	fan.png	TRUE	TRUE
+ms-MY	1	2	1	dog	do,g	do,g	dog.m4a	dog.png	TRUE	TRUE
+ms-MY	1	2	2	log	lo,g	lo,g	log.m4a	log.png	TRUE	TRUE
+ms-MY	1	2	3	bag	ba,g	ba,g	bag.m4a	bag.png	TRUE	TRUE
+ms-MY	1	2	4	bug	bu,g	bu,g	bug.m4a	bug.png	TRUE	TRUE
+ms-MY	1	2	5	mug	mu,g	mu,g	mug.m4a	mug.png	TRUE	TRUE
+ms-MY	1	3	1	cat	c,at	c,at	cat.m4a	cat.png	TRUE	TRUE
+ms-MY	1	3	2	hat	h,at	h,at	hat.m4a	hat.png	TRUE	TRUE
+ms-MY	1	3	3	mat	m,at	m,at	mat.m4a	mat.png	TRUE	TRUE
+ms-MY	1	3	4	rat	r,at	r,at	rat.m4a	rat.png	TRUE	TRUE
+ms-MY	1	3	5	fan	f,an	f,an	fan.m4a	fan.png	TRUE	TRUE
+ms-MY	1	4	1	dog	d,og	d,og	dog.m4a	dog.png	TRUE	TRUE
+ms-MY	1	4	2	log	l,og	l,og	log.m4a	log.png	TRUE	TRUE
+ms-MY	1	4	3	bag	b,ag	b,ag	bag.m4a	bag.png	TRUE	TRUE
+ms-MY	1	4	4	bug	b,ug	b,ug	bug.m4a	bug.png	TRUE	TRUE
+ms-MY	1	4	5	mug	m,ug	m,ug	mug.m4a	mug.png	TRUE	TRUE
+ms-MY	2	1	1	frog	fr,og	fr,og	frog.m4a	frog.png	TRUE	TRUE
+ms-MY	2	1	2	blue	bl,ue	bl,ue	blue.m4a	blue.png	TRUE	TRUE
+ms-MY	2	1	3	fish	f,ish	f,ish	fish.m4a	fish.png	TRUE	TRUE
+ms-MY	2	1	4	tree	tr,ee	tr,ee	tree.m4a	tree.png	TRUE	TRUE
+ms-MY	2	1	5	price	pr,ice	pr,ice	price.m4a	price.png	TRUE	TRUE
+ms-MY	2	2	1	drum	dr,um	dr,um	drum.m4a	drum.png	TRUE	TRUE
+ms-MY	2	2	2	black	bl,ack	bl,ack	black.m4a	black.png	TRUE	TRUE
+ms-MY	2	2	3	clock	cl,ock	cl,ock	clock.m4a	clock.png	TRUE	TRUE
+ms-MY	2	2	4	green	gr,een	gr,een	green.m4a	green.png	TRUE	TRUE
+ms-MY	2	2	5	white	wh,ite	wh,ite	white.m4a	white.png	TRUE	TRUE
+ms-MY	3	1	1	cake	c,ake	c,ake	cake.m4a	cake.png	TRUE	TRUE
+ms-MY	3	1	2	face	f,ace	f,ace	face.m4a	face.png	TRUE	TRUE
+ms-MY	3	1	3	fire	f,ire	f,ire	fire.m4a	fire.png	TRUE	TRUE
+ms-MY	3	1	4	rice	r,ice	r,ice	rice.m4a	rice.png	TRUE	TRUE
+ms-MY	3	1	5	nose	n,ose	n,ose	nose.m4a	nose.png	TRUE	TRUE
+ms-MY	3	2	1	cane	c,ane	c,ane	cane.m4a	cane.png	TRUE	TRUE
+ms-MY	3	2	2	bowl	b,owl	b,owl	bowl.m4a	bowl.png	TRUE	TRUE
+ms-MY	3	2	3	baby	ba,by	ba,by	baby.m4a	baby.png	TRUE	TRUE
+ms-MY	3	2	4	leaf	l,eaf	l,eaf	leaf.m4a	leaf.png	TRUE	TRUE
+ms-MY	3	2	5	donkey	don,key	don,key	donkey.m4a	donkey.png	TRUE	TRUE
+ms-MY	4	1	1	train	tr,ain	tr,ain	train.m4a		TRUE	TRUE
+ms-MY	4	1	2	snail	sn,ail	sn,ail	snail.m4a		TRUE	TRUE
+ms-MY	4	1	3	clean	cl,ean	cl,ean	clean.m4a		TRUE	TRUE
+ms-MY	4	1	4	cream	cr,eam	cr,eam	cream.m4a		TRUE	TRUE
+ms-MY	4	1	5	goat	g,oat	g,oat	goat.m4a		TRUE	TRUE
+ms-MY	4	2	1	window	win,dow	win,dow	window.m4a		TRUE	TRUE
+ms-MY	4	2	2	brown	br,own	br,own	brown.m4a		TRUE	TRUE
+ms-MY	4	2	3	flower	fl,ower	fl,ower	flower.m4a		TRUE	TRUE
+ms-MY	4	2	4	blouse	bl,ouse	bl,ouse	blouse.m4a		TRUE	TRUE
+ms-MY	4	2	5	shampoo	sham,poo	sham,poo	shampoo.m4a		TRUE	TRUE
+ms-MY	5	1	1	chick	ch,ick	ch,ick	chick.m4a		TRUE	TRUE
+ms-MY	5	1	2	lunch	lun,ch	lun,ch	lunch.m4a		TRUE	TRUE
+ms-MY	5	1	3	shop	sh,op	sh,op	shop.m4a		TRUE	TRUE
+ms-MY	5	1	4	dish	di,sh	di,sh	dish.m4a		TRUE	TRUE
+ms-MY	5	1	5	that	th,at	th,at	that.m4a		TRUE	TRUE
+ms-MY	5	2	1	phone	ph,one	ph,one	phone.m4a		TRUE	TRUE
+ms-MY	5	2	2	pink	p,ink	p,ink	pink.m4a		TRUE	TRUE
+ms-MY	5	2	3	bank	b,ank	b,ank	bank.m4a		TRUE	TRUE
+ms-MY	5	2	4	farm	f,arm	f,arm	farm.m4a		TRUE	TRUE
+ms-MY	5	2	5	park	p,ark	p,ark	park.m4a		TRUE	TRUE
+ms-MY	6	1	1	cat	c,a,t	c,a,t	cat.m4a	cat.png	TRUE	TRUE
+ms-MY	6	1	2	hat	h,a,t	h,a,t	hat.m4a	hat.png	TRUE	TRUE
+ms-MY	6	1	3	mat	m,a,t	m,a,t	mat.m4a	mat.png	TRUE	TRUE
+ms-MY	6	1	4	rat	r,a,t	r,a,t	rat.m4a	rat.png	TRUE	TRUE
+ms-MY	6	1	5	fan	f,a,n	f,a,n	fan.m4a	fan.png	TRUE	TRUE
+ms-MY	6	2	1	dog	d,o,g	d,o,g	dog.m4a	dog.png	TRUE	TRUE
+ms-MY	6	2	2	log	l,o,g	l,o,g	log.m4a	log.png	TRUE	TRUE
+ms-MY	6	2	3	bag	b,a,g	b,a,g	bag.m4a	bag.png	TRUE	TRUE
+ms-MY	6	2	4	bug	b,u,g	b,u,g	bug.m4a	bug.png	TRUE	TRUE
+ms-MY	6	2	5	mug	m,u,g	m,u,g	mug.m4a	mug.png	TRUE	TRUE
+ms-MY	7	1	1	frog	f,r,o,g	f,r,o,g	frog.m4a	frog.png	TRUE	TRUE
+ms-MY	7	1	2	blue	b,l,ue	b,l,ue	blue.m4a	blue.png	TRUE	TRUE
+ms-MY	7	1	3	fish	f,i,sh	f,i,sh	fish.m4a	fish.png	TRUE	TRUE
+ms-MY	7	1	4	tree	t,r,ee	t,r,ee	tree.m4a	tree.png	TRUE	TRUE
+ms-MY	7	1	5	price	p,r,i,c,e	p,r,i,c,e	price.m4a	price.png	TRUE	TRUE
+ms-MY	7	2	1	drum	d,r,u,m	d,r,u,m	drum.m4a	drum.png	TRUE	TRUE
+ms-MY	7	2	2	black	b,l,a,ck	b,l,a,ck	black.m4a	black.png	TRUE	TRUE
+ms-MY	7	2	3	clock	c,l,o,ck	c,l,o,ck	clock.m4a	clock.png	TRUE	TRUE
+ms-MY	7	2	4	green	g,r,ee,n	g,r,ee,n	green.m4a	green.png	TRUE	TRUE
+ms-MY	7	2	5	white	wh,i,t,e	wh,i,t,e	white.m4a	white.png	TRUE	TRUE
+ms-MY	8	1	1	cake	c,a,ke	c,a,ke	cake.m4a	cake.png	TRUE	TRUE
+ms-MY	8	1	2	face	f,a,ce	f,a,ce	face.m4a	face.png	TRUE	TRUE
+ms-MY	8	1	3	fire	f,i,re	f,i,re	fire.m4a	fire.png	TRUE	TRUE
+ms-MY	8	1	4	rice	r,i,ce	r,i,ce	rice.m4a	rice.png	TRUE	TRUE
+ms-MY	8	1	5	nose	n,o,se	n,o,se	nose.m4a	nose.png	TRUE	TRUE
+ms-MY	8	2	1	cane	c,a,ne	c,a,ne	cane.m4a	cane.png	TRUE	TRUE
+ms-MY	8	2	2	bowl	b,ow,l	b,ow,l	bowl.m4a	bowl.png	TRUE	TRUE
+ms-MY	8	2	3	baby	b,a,b,y	b,a,b,y	baby.m4a	baby.png	TRUE	TRUE
+ms-MY	8	2	4	leaf	l,ea,f	l,ea,f	leaf.m4a	leaf.png	TRUE	TRUE
+ms-MY	8	2	5	donkey	d,o,n,k,ey	d,o,n,k,ey	donkey.m4a	donkey.png	TRUE	TRUE
+ms-MY	9	1	1	train	t,r,ai,n	t,r,ai,n	train.m4a		TRUE	TRUE
+ms-MY	9	1	2	snail	s,n,ai,l	s,n,ai,l	snail.m4a		TRUE	TRUE
+ms-MY	9	1	3	clean	c,l,ea,n	c,l,ea,n	clean.m4a		TRUE	TRUE
+ms-MY	9	1	4	cream	c,r,ea,m	c,r,ea,m	cream.m4a		TRUE	TRUE
+ms-MY	9	1	5	goat	g,oa,t	g,oa,t	goat.m4a		TRUE	TRUE
+ms-MY	9	2	1	window	w,i,n,d,ow	w,i,n,d,ow	window.m4a		TRUE	TRUE
+ms-MY	9	2	2	brown	b,r,ow,n	b,r,ow,n	brown.m4a		TRUE	TRUE
+ms-MY	9	2	3	flower	f,l,ow,er	f,l,ow,er	flower.m4a		TRUE	TRUE
+ms-MY	9	2	4	blouse	b,l,ou,se	b,l,ou,se	blouse.m4a		TRUE	TRUE
+ms-MY	9	2	5	shampoo	sh,a,m,p,oo	sh,a,m,p,oo	shampoo.m4a		TRUE	TRUE
+ms-MY	10	1	1	chick	ch,i,ck	ch,i,ck	chick.m4a		TRUE	TRUE
+ms-MY	10	1	2	lunch	l,u,n,ch	l,u,n,ch	lunch.m4a		TRUE	TRUE
+ms-MY	10	1	3	shop	sh,o,p	sh,o,p	shop.m4a		TRUE	TRUE
+ms-MY	10	1	4	dish	d,i,sh	d,i,sh	dish.m4a		TRUE	TRUE
+ms-MY	10	1	5	that	th,a,t	th,a,t	that.m4a		TRUE	TRUE
+ms-MY	10	2	1	phone	ph,o,ne	ph,o,ne	phone.m4a		TRUE	TRUE
+ms-MY	10	2	2	pink	p,i,nk	p,i,nk	pink.m4a		TRUE	TRUE
+ms-MY	10	2	3	bank	b,a,nk	b,a,nk	bank.m4a		TRUE	TRUE
+ms-MY	10	2	4	farm	f,a,r,m	f,a,r,m	farm.m4a		TRUE	TRUE
+ms-MY	10	2	5	park	p,a,r,k	p,a,r,k	park.m4a		TRUE	TRUE
+ms-MY	11	1	1	tap	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	t,a,p	tap.m4a		TRUE	TRUE
+ms-MY	11	1	2	cap	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,a,p	cap.m4a		TRUE	TRUE
+ms-MY	11	1	3	hen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,e,n	hen.m4a		TRUE	TRUE
+ms-MY	11	1	4	pen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,e,n	pen.m4a		TRUE	TRUE
+ms-MY	11	1	5	fan	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	f,a,n	fan.m4a		TRUE	TRUE
+ms-MY	11	2	1	van	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	v,a,n	van.m4a		TRUE	TRUE
+ms-MY	11	2	2	bag	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,a,g	bag.m4a		TRUE	TRUE
+ms-MY	11	2	3	mug	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	m,u,g	mug.m4a		TRUE	TRUE
+ms-MY	11	2	4	sun	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,u,n	sun.m4a		TRUE	TRUE
+ms-MY	11	2	5	run	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	r,u,n	run.m4a		TRUE	TRUE
+ms-MY	12	1	1	pig	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,i,g	pig.m4a		TRUE	TRUE
+ms-MY	12	1	2	hit	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,i,t	hit.m4a		TRUE	TRUE
+ms-MY	12	1	3	jet	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	j,e,t	jet.m4a		TRUE	TRUE
+ms-MY	12	1	4	net	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	n,e,t	net.m4a		TRUE	TRUE
+ms-MY	12	1	5	hot	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,o,t	hot.m4a		TRUE	TRUE
+ms-MY	12	2	1	top	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	t,o,p	top.m4a		TRUE	TRUE
+ms-MY	12	2	2	cut	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,u,t	cut.m4a		TRUE	TRUE
+ms-MY	12	2	3	bug	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,u,g	bug.m4a		TRUE	TRUE
+ms-MY	12	2	4	big	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,i,g	big.m4a		TRUE	TRUE
+ms-MY	12	2	5	pin	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,i,n	pin.m4a		TRUE	TRUE
+ms-MY	13	1	1	tall	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	t,a,l	tall.m4a		TRUE	TRUE
+ms-MY	13	1	2	ball	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,a,l	ball.m4a		TRUE	TRUE
+ms-MY	13	1	3	bell	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,e,l	bell.m4a		TRUE	TRUE
+ms-MY	13	1	4	doll	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	d,o,l	doll.m4a		TRUE	TRUE
+ms-MY	13	1	5	small	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,m,a,l	small.m4a		TRUE	TRUE
+ms-MY	13	2	1	class	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,l,a,s	class.m4a		TRUE	TRUE
+ms-MY	13	2	2	glass	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	g,l,a,s	glass.m4a		TRUE	TRUE
+ms-MY	13	2	3	cross	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,r,o,s	cross.m4a		TRUE	TRUE
+ms-MY	13	2	4	space	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,p,a,c,e	space.m4a		TRUE	TRUE
+ms-MY	13	2	5	swim	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,w,i,m	swim.m4a		TRUE	TRUE
+ms-MY	14	1	1	mouse	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	m,o,u,s,e	mouse.m4a		TRUE	TRUE
+ms-MY	14	1	2	house	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	h,o,u,s,e	house.m4a		TRUE	TRUE
+ms-MY	14	1	3	count	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	c,o,u,n,t	count.m4a		TRUE	TRUE
+ms-MY	14	1	4	cloud	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	c,l,o,u,d	cloud.m4a		TRUE	TRUE
+ms-MY	14	1	5	blouse	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,l,o,u,s,e	blouse.m4a		TRUE	TRUE
+ms-MY	14	2	1	brother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,r,o,th,e	brother.m4a		TRUE	TRUE
+ms-MY	14	2	2	mother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	m,o,th,e,r	mother.m4a		TRUE	TRUE
+ms-MY	14	2	3	father	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	f,a,th,e,r	father.m4a		TRUE	TRUE
+ms-MY	14	2	4	sister	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	s,i,s,t,e,r	sister.m4a		TRUE	TRUE
+ms-MY	14	2	5	grandma	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	g,r,a,n,d,m	grandma.m4a		TRUE	TRUE
+ms-MY	15	1	1	church	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	ch,u,r	church.m4a		TRUE	TRUE
+ms-MY	15	1	2	bench	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,e,n,ch	bench.m4a		TRUE	TRUE
+ms-MY	15	1	3	shoes	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	sh,o,e,s	shoes.m4a		TRUE	TRUE
+ms-MY	15	1	4	brush	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,r,u,sh	brush.m4a		TRUE	TRUE
+ms-MY	15	1	5	whisper	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	wh,i,s,p,e,r	whisper.m4a		TRUE	TRUE
+ms-MY	15	2	1	elephant	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,ph	e,l,ph,a,n,t	elephant.m4a		TRUE	TRUE
+ms-MY	15	2	2	teacher	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	t,e,a,ch,r	teacher.m4a		TRUE	TRUE
+ms-MY	15	2	3	phone	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,ph	ph,o,n,e	phone.m4a		TRUE	TRUE
+ms-MY	15	2	4	shirt	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	sh,i,r,t	shirt.m4a		TRUE	TRUE
+ms-MY	15	2	5	touch	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	t,o,u,ch	touch.m4a		TRUE	TRUE
+ms-MY	16	1	1	hand	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,a,n,d	hand.m4a		TRUE	TRUE
+ms-MY	16	1	2	fast	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	f,a,s,t,	fast.m4a		TRUE	TRUE
+ms-MY	16	1	3	angry	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,n,g,r,y	angry.m4a		TRUE	TRUE
+ms-MY	16	1	4	hungry	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,u,n,g,r,y	hungry.m4a		TRUE	TRUE
+ms-MY	16	1	5	lion	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	l,i,o,n	lion.m4a		TRUE	TRUE
+ms-MY	16	2	1	bird	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,i,r,d	bird.m4a		TRUE	TRUE
+ms-MY	16	2	2	river	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	r,i,v,e,r	river.m4a		TRUE	TRUE
+ms-MY	16	2	3	girl	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	g,i,r,l	girl.m4a		TRUE	TRUE
+ms-MY	16	2	4	water	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	w,a,t,e,r	water.m4a		TRUE	TRUE
+ms-MY	16	2	5	number	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	n,u,m,b,e,r	number.m4a		TRUE	TRUE
+ms-MY	17	1	1	apple	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,p,l,e	apple.m4a		TRUE	TRUE
+ms-MY	17	1	2	brother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,r,o,t,h,e	brother.m4a		TRUE	TRUE
+ms-MY	17	1	3	yellow	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	y,e,l,o,w	yellow.m4a		TRUE	TRUE
+ms-MY	17	1	4	book	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,o,k	book.m4a		TRUE	TRUE
+ms-MY	17	1	5	rabbit	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	r,a,b,i,t	rabbit.m4a		TRUE	TRUE
+ms-MY	17	2	1	paper	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,a,e,r	paper.m4a		TRUE	TRUE
+ms-MY	17	2	2	carrot	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,a,r,o,t	carrot.m4a		TRUE	TRUE
+ms-MY	17	2	3	salad	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,a,l,d	salad.m4a		TRUE	TRUE
+ms-MY	17	2	4	sleep	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,l,e,p	sleep.m4a		TRUE	TRUE
+ms-MY	17	2	5	happy	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,a,p,y	happy.m4a		TRUE	TRUE
+ms-MY	18	1	1	tomato	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	t,o,m,a	tomato.m4a		TRUE	TRUE
+ms-MY	18	1	2	banana	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,a,n	banana.m4a		TRUE	TRUE
+ms-MY	18	1	3	potato	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	p,o,t,a,	potato.m4a		TRUE	TRUE
+ms-MY	18	1	4	boots	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,o,t,s	boots.m4a		TRUE	TRUE
+ms-MY	18	1	5	school	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	s,c,h,o,l	school.m4a		TRUE	TRUE
+ms-MY	18	2	1	football	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	f,o,t,b,a,l	football.m4a		TRUE	TRUE
+ms-MY	18	2	2	onion	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	o,n,i	onion.m4a		TRUE	TRUE
+ms-MY	18	2	3	little	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	l,i,t,e	little.m4a		TRUE	TRUE
+ms-MY	18	2	4	shoulder	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	sh,o,u,l,d,e,r	shoulder.m4a		TRUE	TRUE
+ms-MY	18	2	5	kitchen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	k,i,t,ch,e,n	kitchen.m4a		TRUE	TRUE
+ms-MY	19	1	1	tap	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	tap.m4a		TRUE	TRUE
+ms-MY	19	1	2	cap	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	cap.m4a		TRUE	TRUE
+ms-MY	19	1	3	hen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hen.m4a		TRUE	TRUE
+ms-MY	19	1	4	pen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	pen.m4a		TRUE	TRUE
+ms-MY	19	1	5	fan	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	fan.m4a		TRUE	TRUE
+ms-MY	19	2	1	van	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	van.m4a		TRUE	TRUE
+ms-MY	19	2	2	bag	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	bag.m4a		TRUE	TRUE
+ms-MY	19	2	3	mug	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	mug.m4a		TRUE	TRUE
+ms-MY	19	2	4	sun	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	sun.m4a		TRUE	TRUE
+ms-MY	19	2	5	run	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	run.m4a		TRUE	TRUE
+ms-MY	20	1	1	pig	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	pig.m4a		TRUE	TRUE
+ms-MY	20	1	2	hit	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hit.m4a		TRUE	TRUE
+ms-MY	20	1	3	jet	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	jet.m4a		TRUE	TRUE
+ms-MY	20	1	4	net	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	net.m4a		TRUE	TRUE
+ms-MY	20	1	5	hot	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hot.m4a		TRUE	TRUE
+ms-MY	20	2	1	top	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	top.m4a		TRUE	TRUE
+ms-MY	20	2	2	cut	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	cut.m4a		TRUE	TRUE
+ms-MY	20	2	3	bug	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	bug.m4a		TRUE	TRUE
+ms-MY	20	2	4	big	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	big.m4a		TRUE	TRUE
+ms-MY	20	2	5	pin	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	pin.m4a		TRUE	TRUE
+ms-MY	21	1	1	tall	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	tall.m4a		TRUE	TRUE
+ms-MY	21	1	2	ball	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	ball.m4a		TRUE	TRUE
+ms-MY	21	1	3	bell	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	bell.m4a		TRUE	TRUE
+ms-MY	21	1	4	doll	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	doll.m4a		TRUE	TRUE
+ms-MY	21	1	5	small	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	small.m4a		TRUE	TRUE
+ms-MY	21	2	1	class	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	class.m4a		TRUE	TRUE
+ms-MY	21	2	2	glass	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	glass.m4a		TRUE	TRUE
+ms-MY	21	2	3	cross	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	cross.m4a		TRUE	TRUE
+ms-MY	21	2	4	space	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	space.m4a		TRUE	TRUE
+ms-MY	21	2	5	swim	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	swim.m4a		TRUE	TRUE
+ms-MY	22	1	1	mouse	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	mouse.m4a		TRUE	TRUE
+ms-MY	22	1	2	house	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	house.m4a		TRUE	TRUE
+ms-MY	22	1	3	count	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	count.m4a		TRUE	TRUE
+ms-MY	22	1	4	cloud	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	cloud.m4a		TRUE	TRUE
+ms-MY	22	1	5	blouse	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	blouse.m4a		TRUE	TRUE
+ms-MY	22	2	1	brother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	brother.m4a		TRUE	TRUE
+ms-MY	22	2	2	mother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	mother.m4a		TRUE	TRUE
+ms-MY	22	2	3	father	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	father.m4a		TRUE	TRUE
+ms-MY	22	2	4	sister	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	sister.m4a		TRUE	TRUE
+ms-MY	22	2	5	grandma	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	grandma.m4a		TRUE	TRUE
+ms-MY	23	1	1	church	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	church.m4a		TRUE	TRUE
+ms-MY	23	1	2	bench	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	bench.m4a		TRUE	TRUE
+ms-MY	23	1	3	shoes	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	shoes.m4a		TRUE	TRUE
+ms-MY	23	1	4	brush	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	brush.m4a		TRUE	TRUE
+ms-MY	23	1	5	whisper	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,,z,ch,sh,ph,wh	whisper.m4a		TRUE	TRUE
+ms-MY	23	2	1	elephant	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	elephant.m4a		TRUE	TRUE
+ms-MY	23	2	2	teacher	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	teacher.m4a		TRUE	TRUE
+ms-MY	23	2	3	phone	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	phone.m4a		TRUE	TRUE
+ms-MY	23	2	4	shirt	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	shirt.m4a		TRUE	TRUE
+ms-MY	23	2	5	touch	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	touch.m4a		TRUE	TRUE
+ms-MY	24	1	1	hand	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hand.m4a		TRUE	TRUE
+ms-MY	24	1	2	fast	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	fast.m4a		TRUE	TRUE
+ms-MY	24	1	3	angry	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	angry.m4a		TRUE	TRUE
+ms-MY	24	1	4	hungry	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hungry.m4a		TRUE	TRUE
+ms-MY	24	1	5	lion	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	lion.m4a		TRUE	TRUE
+ms-MY	24	2	1	bird	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	bird.m4a		TRUE	TRUE
+ms-MY	24	2	2	river	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	river.m4a		TRUE	TRUE
+ms-MY	24	2	3	girl	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	girl.m4a		TRUE	TRUE
+ms-MY	24	2	4	water	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	water.m4a		TRUE	TRUE
+ms-MY	24	2	5	number	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	number.m4a		TRUE	TRUE
+ms-MY	25	1	1	apple	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	apple.m4a		TRUE	TRUE
+ms-MY	25	1	2	brother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	brother.m4a		TRUE	TRUE
+ms-MY	25	1	3	yellow	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	yellow.m4a		TRUE	TRUE
+ms-MY	25	1	4	book	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	book.m4a		TRUE	TRUE
+ms-MY	25	1	5	rabbit	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	rabbit.m4a		TRUE	TRUE
+ms-MY	25	2	1	paper	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	paper.m4a		TRUE	TRUE
+ms-MY	25	2	2	carrot	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	carrot.m4a		TRUE	TRUE
+ms-MY	25	2	3	salad	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	salad.m4a		TRUE	TRUE
+ms-MY	25	2	4	sleep	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	sleep.m4a		TRUE	TRUE
+ms-MY	25	2	5	happy	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	happy.m4a		TRUE	TRUE
+ms-MY	26	1	1	tomato	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	tomato.m4a		TRUE	TRUE
+ms-MY	26	1	2	banana	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	banana.m4a		TRUE	TRUE
+ms-MY	26	1	3	potato	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	potato.m4a		TRUE	TRUE
+ms-MY	26	1	4	boots	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	boots.m4a		TRUE	TRUE
+ms-MY	26	1	5	school	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	school.m4a		TRUE	TRUE
+ms-MY	26	2	1	football	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	football.m4a		TRUE	TRUE
+ms-MY	26	2	2	onion	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	onion.m4a		TRUE	TRUE
+ms-MY	26	2	3	little	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	little.m4a		TRUE	TRUE
+ms-MY	26	2	4	shoulder	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	shoulder.m4a		TRUE	TRUE
+ms-MY	26	2	5	kitchen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	kitchen.m4a		TRUE	TRUE

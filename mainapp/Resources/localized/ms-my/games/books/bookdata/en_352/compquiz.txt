@@ -1,0 +1,23 @@
+fill the blanks
+book_en_352_page_1_cropped.png
+Some [food] grows on [trees].
+candy
+book_en_352_page_1_1.m4a
+
+multiple choices
+Where does some food grow? 
+book_en_352_page_2_cropped.png
+In the sky., In the ground., In the road.
+In the ground. 
+
+fill the blanks
+book_en_352_page_6_cropped.png
+Many foods change [colors] when they are ready to [eat]. 
+play
+book_en_352_page_6_1.m4a
+
+fill the blanks
+book_en_352_page_7_cropped.png
+Food that [grows] is [good] for you!
+hides
+book_en_352_page_7_1.m4a

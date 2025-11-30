@@ -1,0 +1,22 @@
+fill the blanks
+book_en_405_page_1_cropped.png
+Masha had gone [hunting]. He caught [nothing].
+running
+book_en_405_page_1_blank.m4a
+ 
+multiple choices
+Masha’s father reminds him about the cycle of night and day.
+book_en_405_page_3_cropped.png,book_en_405_page_4_cropped.png,book_en_405_page_1_cropped.png,book_en_405_page_6_cropped.png
+book_en_405_page_4_cropped.png
+
+tracing question
+book_en_405_page_6_tracing.m4a
+book_en_405_page_6_cropped.png
+scared
+en-uk_scared.m4a
+ 
+fill the blanks
+book_en_405_page_7_cropped.png
+The animals did not see Masha coming. [Hunting] at [night] was good.
+day
+book_en_405_page_7_blank.m4a

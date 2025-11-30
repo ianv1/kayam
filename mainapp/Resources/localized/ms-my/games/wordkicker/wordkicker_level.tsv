@@ -1,0 +1,134 @@
+									
+#LanguageTag	#Level	#Worksheet	#ProblemNo	#Sentence	#SentenceSoundKeeper	#Word1	#Word2	#Word3	#Time
+ms-MY	1	1	1	This is a [big] house.	thisisabighouse.m4a	small	tall	dirty	10
+ms-MY	1	1	2	The rabbit is [small].	therabbitissmall.m4a	tall	short	big	10
+ms-MY	1	1	3	My shirt is [dirty].	myshirtisdirty.m4a	big	clean	small	10
+ms-MY	1	2	1	Sam's brother is [tall].	samsbrotheristall.m4a	short	big	small	10
+ms-MY	1	2	2	She has [short] hair.	shehasshorthair.m4a	tall	small	clean	10
+ms-MY	1	2	3	My hands are [clean].	myhandsareclean.m4a	dirty	big	short	10
+ms-MY	2	1	1	The apples are [red].	theapplesarered.m4a	blue	green	yellow	10
+ms-MY	2	1	2	Her shoes are [white].	hershoesarewhite.m4a	green	yellow	black	10
+ms-MY	2	1	3	The banana is [yellow].	thebananaisyellow.m4a	blue	green	red	10
+ms-MY	2	2	1	The cats are [black].	thecatsareblack.m4a	blue	orange	yellow	10
+ms-MY	2	2	2	The sky is [blue].	theskyisblue.m4a	green	yellow	black	10
+ms-MY	2	2	3	The balls are [orange].	theballsareorange.m4a	yellow	blue	black	10
+ms-MY	3	1	1	This is my [mother].	thisismymother.m4a	father	brother	sister	10
+ms-MY	3	1	2	This is my [brother].	thisismybrother.m4a	father	mother	sister	10
+ms-MY	3	1	3	My [father] is a farmer.	myfatherisafarmer.m4a	brother	mother	sister	10
+ms-MY	3	2	1	This is my [mom].	thisismymom.m4a	dad	baby	brother	10
+ms-MY	3	2	2	This is my [dad].	thisismydad.m4a	mom	sister	brother	10
+ms-MY	3	2	3	My [sister] is a student.	mysisterisastudent.m4a	mom	dad	brother	10
+ms-MY	4	1	1	There are two [spoons].	therearetwospoons.m4a	forks	bowls	plates	10
+ms-MY	4	1	2	We need a [table].	weneedatalbe.m4a	bowl	desk	plate	10
+ms-MY	4	1	3	Fred is in his [bedroom].	fredisinhisbedroom.m4a	kitchen	bathroom	living room	10
+ms-MY	4	2	1	There are three [beds].	therearethreebeds.m4a	cups	tables	lamps	10
+ms-MY	4	2	2	We need a [lamp].	weneedalamp.m4a	table	bed	chair	10
+ms-MY	4	2	3	Cindy is in the [kitchen].	cindyisinthekitchen.m4a	bathroom	bedroom	living room	10
+ms-MY	5	1	1	There are [desks] in the room.	therearedesks in the room.m4a	chairs	books	paint	15
+ms-MY	5	1	2	I don't have an [eraser].	idonthaveaneraser.m4a	insect	elbow	onion	10
+ms-MY	5	1	3	Where is your [pencil]?	whereisyourpencil.m4a	paint	paper	desk	10
+ms-MY	5	2	1	There are [books] on the desk.	therearebooksonthedesk.m4a	chairs	desks	paint	15
+ms-MY	5	2	2	He doesn't have a [pen].	hedoesnthaveapen.m4a	desk	paint	paper	10
+ms-MY	5	2	3	Where is your [bag]?	whereisyourbag.m4a	book	desk	glue	10
+ms-MY	6	1	1	The [dog] is sitting on the mat.	thedogissittingonthemat.m4a	bird	frog	cat	15
+ms-MY	6	1	2	The [birds] are up in the sky.	thebirdsareupinthesky.m4a	cows	dogs	cats	15
+ms-MY	6	1	3	Look at the [frogs] on the rock.	lookatthefrogsontherock.m4a	cats	birds	dogs	15
+ms-MY	6	2	1	The [lions] are sitting next to the tree.	thelionsaresittingnexttothetree.m4a	goats	dogs	cats	15
+ms-MY	6	2	2	The [chicken] is in the nest.	thechickenisinthenest.m4a	hen	lion	zebra	15
+ms-MY	6	2	3	The [goats] are in front of the tree.	thegoatsareinfrontofthetree.m4a	sheep	lion	frog	15
+ms-MY	7	1	1	Ellen [likes] tomatoes.	ellenlikestomatoes.m4a	wants	loves	hates	10
+ms-MY	7	1	2	Cats [have] four legs.	catshavefourlegs.m4a	like	need	want	10
+ms-MY	7	1	3	Do you [want] carrots?	doyouwantcarrots.m4a	sell	need	have	10
+ms-MY	7	2	1	Jason and Katie [like] potatoes.	jasonandkatielikepotatoes.m4a	want	love	hate	15
+ms-MY	7	2	2	The mangoes [look] good.	themangoeslookgood.m4a	are	be	do	10
+ms-MY	7	2	3	She will [buy] some bananas.	shewillbuysomebananas.m4a	like	need	want	15
+ms-MY	8	1	1	Leo can [run] fast.	leocanrunfast.m4a	walk	jump	swim	10
+ms-MY	8	1	2	Brian cannot [jump] high.	briancannotjumphigh.m4a	walk	run	swim	10
+ms-MY	8	1	3	My brother [walks] to school.	mybrotherwalkstoschool.m4a	runs	swims	goes	10
+ms-MY	8	2	1	Emily can [dance] well.	emilycandancewell.m4a	sing	cook	read	10
+ms-MY	8	2	2	Scott cannot [swim].	scottcannotswim.m4a	sing	read	jump	10
+ms-MY	8	2	3	My sister [sings] well.	mysistersingswell.m4a	dances	reads	runs	10
+ms-MY	9	1	1	I [am] hungry.	iamhungry.m4a	do	are	is	10
+ms-MY	9	1	2	Amy [is] sick.	amyissick.m4a	am	are	does	10
+ms-MY	9	1	3	My brothers [are] students.	mybrothersarestudents.m4a	am	do	is	10
+ms-MY	9	2	1	Greg's father [is] a teacher.	gregsfatherisateacher.m4a	do	are	am	10
+ms-MY	9	2	2	I [am] thirsty.	iamthirsty.m4a	do	are	is	10
+ms-MY	9	2	3	Their parents [are] kind.	theirparentsarekind.m4a	do	am	is	10
+ms-MY	10	1	1	The boys [go] to school now.	theboysgotoschoolnow.m4a	don't	goes	do	10
+ms-MY	10	1	2	I have two brothers [and] a sister.	ihavetwobrothersandasister.m4a	an	end	are	15
+ms-MY	10	1	3	The man [has] a big car.	themanhasabigcar.m4a	have	does	goes	10
+ms-MY	10	2	1	The girl helps [her] mother.	thegirlhelpshermother.m4a	his	my	our	10
+ms-MY	10	2	2	Jack [and] Mary like milk.	jackandmarylikemilk.m4a	an	end	are	10
+ms-MY	10	2	3	We live in [this] town.	weliveinthistown.m4a	that	the	a	10
+ms-MY	11	1	1	Snakes [do not] have legs.	snakesdonothavelegs.m4a	are not	does not	is not	10
+ms-MY	11	1	2	Lions [do not] eat carrots.	lionsdonoteatcarrots.m4a	are not	does not	is not	10
+ms-MY	11	1	3	Joe [does not] play alone.	joedoesnotplayalone.m4a	are not	do not	is not	10
+ms-MY	11	2	1	We [do not] cook at home.	wedonotcookathome.m4a	are not	does not	is not	10
+ms-MY	11	2	2	She [does not] like dogs.	shedoesnotlikedogs.m4a	are not	do not	is not	10
+ms-MY	11	2	3	Simon [does not] want to fish.	simondoesnotwanttofish.m4a	are not	do not	is not	15
+ms-MY	12	1	1	It [is not] sunny today.	itisnotsunnytoday.m4a	are not	does not	cannot	10
+ms-MY	12	1	2	The boys [are not] tall.	theboysarenottall.m4a	is not	does not	cannot	10
+ms-MY	12	1	3	I [cannot] run fast.	icannotrunfast.m4a	are not	does not	is not	10
+ms-MY	12	2	1	It [is not] cold today.	itisnotcoldtoday.m4a	are not	does not	cannot	10
+ms-MY	12	2	2	The students [are not] strong.	thestudentsarenotstrong.m4a	is not	does not	cannot	15
+ms-MY	12	2	3	Kelly [cannot] swim.	kellycannotswim.m4a	are not	does not	is not	10
+ms-MY	13	1	1	This is my [nose].	thisismynose.m4a	mouth	chin	eye	10
+ms-MY	13	1	2	These are my [cheeks].	thesearemycheeks.m4a	chin	ear	ears	10
+ms-MY	13	1	3	Close your [eyes].	closeyoureyes.m4a	ears	mouth	hands	10
+ms-MY	13	2	1	This is my [mouth].	thisismymouth.m4a	chin	nose	eye	10
+ms-MY	13	2	2	These are my [ears].	thesearemyears.m4a	eyes	cheeks	head	10
+ms-MY	13	2	3	Touch your [forehead].	touchyourforehead.m4a	nose	head	face	10
+ms-MY	14	1	1	You have big [hands].	youhavebighands.m4a	feets	head	hair	10
+ms-MY	14	1	2	She has a long [neck].	shehasalongneck.m4a	nose	face	foot	10
+ms-MY	14	1	3	We have two [shoulders].	wehavetwoshoulders.m4a	stomach	knees	knees	10
+ms-MY	14	2	1	Where is your [foot]?	whereisyourfoot.m4a	hand	neck	face	10
+ms-MY	14	2	2	Where are your [knees]?	whereareyourknees.m4a	hair	hands	feet	10
+ms-MY	14	2	3	Where is your [chest]?	whereisyourchest.m4a	foot	chin	cheek	10
+ms-MY	15	1	1	Some fruits are [sweet].	somfruitsaresweet.m4a	slow	short	small	10
+ms-MY	15	1	2	My father is [busy].	myfatherisbusy.m4a	big	dirty	dry	10
+ms-MY	15	1	3	Wendy wants a [new] bike.	wendywantsanewbike.m4a	long	hot	wet	10
+ms-MY	15	2	1	His boots are [dirty].	hisbootsaredirty.m4a	busy	big	dry	10
+ms-MY	15	2	2	The woman has a [heavy] box.	thewomanhasaheavybox.m4a	hot	tall	pretty	15
+ms-MY	15	2	3	Jane looks [happy].	janelookshappy.m4a	sleepy	hungry	scared	10
+ms-MY	16	1	1	Did you [wash] your hands?	didyouwashyourhands.m4a	brush	clean	eat	15
+ms-MY	16	1	2	What time do you [wake up]?	whattimedoyouwakeup.m4a	wash	go to bed	get up	15
+ms-MY	16	1	3	We have to [eat] breakfast now.	wehavetoeatbreakfastnow.m4a	make	finish	have	15
+ms-MY	16	2	1	Did you brush your [teeth]?	didyoubrushyourteeth.m4a	hair	shoes	feet	15
+ms-MY	16	2	2	What time do you [go to bed]?	whattimedoyougotobed.m4a	wash	wake up	go home	15
+ms-MY	16	2	3	They have to [clean] their house.	theyhavetocleantheirhouse.m4a	eat	make	cry	15
+ms-MY	17	1	1	Snakes [don't] have legs.	snakesdonthavelegs.m4a	doesn't	aren't	can't	10
+ms-MY	17	1	2	She [doesn't] like dogs.	shedoesntlikedogs.m4a	don't	can't	isn't	10
+ms-MY	17	1	3	The boys [aren't] tall.	theboysarenttall.m4a	don't	isn't	can't	10
+ms-MY	17	2	1	Kelly [can't] swim.	kellycantswim.m4a	isn't	doesn't	don't	10
+ms-MY	17	2	2	The students [aren't] strong.	thestudentsarentstrong.m4a	don't	can't	isn't	15
+ms-MY	17	2	3	Simon [doesn't] want to fish.	simondoesntwanttofish.m4a	don't	isn't	can't	15
+ms-MY	18	1	1	My brothers are [students].	mybrothersarestudents.m4a	doctors	farmers	teachers	15
+ms-MY	18	1	2	Some [cats] have spots.	somecatshavespots.m4a	cows	dogs	fish	10
+ms-MY	18	1	3	I want [an egg].	iwantanegg.m4a	an apple	an onion	an orange	10
+ms-MY	18	2	1	She likes the pink [shoes].	shelikesthepinkshoes.m4a	skirts	shirts	shorts	15
+ms-MY	18	2	2	The old [man] looks tired.	theoldmanlookstired.m4a	woman	lady	ladies	15
+ms-MY	18	2	3	The young [girls] look shy.	theyounggirlslookshy.m4a	woman	men	boys	15
+ms-MY	19	1	1	The dog is sitting [under] the chair.	thedogissittingunderthechair.m4a	in	on	next to	15
+ms-MY	19	1	2	The birds are up [in] the sky.	thebirdsareupinthesky.m4a	on	under	behind	15
+ms-MY	19	1	3	Look at the frogs [on] the rock.	lookatthefrogsontherock.m4a	in	under	next to	15
+ms-MY	19	2	1	The students are [in] the classroom.	thestudentsareintheclassroom.m4a	on	behind	under	15
+ms-MY	19	2	2	Many books are [on] the desk.	manybooksareonthedesk.m4a	in	under	next to	15
+ms-MY	19	2	3	The boy is [under] the table.	theboyisunderthetable.m4a	on	in	next to	15
+ms-MY	20	1	1	The cat is sleeping [behind] the box.	thecatissleepingbehindthebox.m4a	next to	between	in front of	15
+ms-MY	20	1	2	The chicken is [next to] the nest.	thechickenisnexttothenest.m4a	behind	between	in front of	15
+ms-MY	20	1	3	The goats are [in front of] the tree.	thegoatsareinfrontofthetree.m4a	between	behind	next to	15
+ms-MY	20	2	1	The bus stop is [behind] the park.	thebusstopisinfrontofthepark.m4a	next to	between	in front of	15
+ms-MY	20	2	2	The boy is [between] David and Lily.	theboyisbetweendavidandlily.m4a	behind	next to	in front of	15
+ms-MY	20	2	3	The hospital is [next to] the bank.	thehospitalisnexttothebank.m4a	between	behind	under	15
+ms-MY	21	1	1	He [was] a doctor then.	hewasadoctorthen.m4a	is	were	are	10
+ms-MY	21	1	2	The balls [were] in the bedroom yesterday.	theballswereinthebedroomyesterday.m4a	are	is	was	15
+ms-MY	21	1	3	My dog [was] very small last year.	mydogwasverysmalllastyear.m4a	is	were	are	15
+ms-MY	21	2	1	You [were] a strong boy then.	youwereastrongboythen.m4a	are	is	was	15
+ms-MY	21	2	2	She [was] a teacher last year.	shewwasateacherlastyear.m4a	is	were	are	15
+ms-MY	21	2	3	The banana [was] green last week.	thebananawasgreenlastweek.m4a	is	were	are	15
+ms-MY	22	1	1	My family [cleaned] the house yesterday.	myfamilycleanedthehouseyesterday.m4a	clean	cleaning	cleans	15
+ms-MY	22	1	2	Paul [opened] the door then.	paulopenedthedoorthen.m4a	open	opens	opening	15
+ms-MY	22	1	3	The man [washed] his car yesterday.	themanwashedhiscaryesterday.m4a	wash	washes	washing	15
+ms-MY	22	2	1	Mark [looked] scared yesterday.	marklookedscaredyesterday.m4a	look	looks	looking	15
+ms-MY	22	2	2	Ann [helped] her father last week.	annhelpedherfatherlastweek.m4a	help	helps	helping	15
+ms-MY	22	2	3	The kids [jumped] high then.	thekidsjumpedhighthen.m4a	jump	jumps	jumping	15

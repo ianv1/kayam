@@ -1,0 +1,22 @@
+fill the blanks
+book_en_404_page_3_cropped.png
+She makes a castle out of [sand]. She gets [dirtier].
+soap
+book_en_404_page_3_blank.m4a
+
+multiple choices
+Mother tells Nia to wash with soap after she gets dirty playing outside.
+book_en_404_page_2_cropped.png,book_en_404_page_4_cropped.png,book_en_404_page_5_cropped.png,book_en_404_page_6_cropped.png
+book_en_404_page_4_cropped.png
+ 
+multiple choices
+Nia has a dream that dirt monsters attack her. Who chases away the dirt monsters?
+book_en_404_page_9_cropped.png
+Other dirt monsters, Mother, Super Soap’s bubbles, Her friends
+Super Soap’s bubbles
+
+tracing question
+book_en_404_page_10_tracing.m4a
+book_en_404_page_10_cropped.png
+wash
+en-uk_wash.m4a

@@ -1,0 +1,21 @@
+fill the blanks
+book_en_318_page_1_cropped.png
+Musa [climbs] down the [stairs].
+slide
+book_en_318_page_1_1.m4a
+
+multiple choices
+He can climb up the slide! 
+book_en_318_page_1_cropped.png,book_en_318_page_2_cropped.png,book_en_318_page_4_cropped.png,book_en_318_page_5_cropped.png
+book_en_318_page_2_cropped.png
+
+multiple choices
+book_en_318_page_5_cropped.png
+Musa climbs down the stairs., Musa goes to the playground., Musa can climb up the slide!, Musa can climb up onto the table.
+Musa can climb up onto the table.
+
+tracing question
+book_en_318_page_9_tracing.m4a
+book_en_318_page_9_cropped.png
+climb
+en-uk_climb.m4a

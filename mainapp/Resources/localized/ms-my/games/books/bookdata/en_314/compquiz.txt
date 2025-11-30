@@ -1,0 +1,22 @@
+fill the blanks
+book_en_314_page_3_cropped.png
+[I] take care of our [cow].
+father
+book_en_314_page_3_1.m4a
+ 
+tracing question
+book_en_314_page_5_tracing.m4a
+book_en_314_page_5_cropped.png
+water
+en-uk_water.m4a
+ 
+multiple choices
+The father milks their cow every day.
+book_en_314_page_4_cropped.png,book_en_314_page_7_cropped.png,book_en_314_page_8_cropped.png,book_en_314_page_9_cropped.png
+book_en_314_page_7_cropped.png
+
+multiple choices
+What do the boy and his father in this book do with some of the cow’s milk?
+book_en_314_page_9_cropped.png
+Throw it out, Make tea, Sell it, Give to their cat
+Sell it

@@ -1,0 +1,23 @@
+fill the blanks
+book_en_345_page_1_cropped.png
+I have [five] [senses]. 
+eight
+book_en_345_page_1_1.m4a
+
+multiple choices
+What do I use to see? 
+book_en_345_page_2_cropped.png
+I use my hands to see., I use my eyes to see., I use my nose to see. 
+I use my eyes to see.
+
+multiple choices
+What do I use to taste? 
+book_en_345_page_3_cropped.png
+I use my tongue to taste., I use my eyes to taste., I use my hands to taste.
+I use my tongue to taste.
+
+multiple choices
+What do I use to hear? 
+book_en_345_page_5_cropped.png
+I use my eyes to hear., I use my nose to hear., I use my ears to hear.
+I use my ears to hear.

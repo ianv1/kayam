@@ -1,0 +1,20 @@
+tracing question
+book_en_222_page_3_tracing.m4a
+book_en_222_page_3_cropped.png
+home
+en-uk_home.m4a
+ 
+tracing question
+book_en_222_page_4_tracing.m4a
+book_en_222_page_4_cropped.png
+tree
+en-uk_tree.m4a
+ 
+matching
+Play near the car, Play in the tent, Play near the tree
+book_en_222_page_2_cropped.png, book_en_222_page_6_cropped.png, book_en_222_page_4_cropped.png
+ 
+multiple choices
+book_en_222_page_2_cropped.png
+I want to play in the tent., I want to play near the tree., I want to play at home., I want to play near the car.
+I want to play near the car.

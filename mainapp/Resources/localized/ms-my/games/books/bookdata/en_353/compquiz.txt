@@ -1,0 +1,23 @@
+multiple choices
+Who is this story about? 
+book_en_353_page_1_cropped.png
+Simon and a tree, Simon and a dog, Simon and Bug
+Simon and Bug
+
+multiple choices
+Simon digs a hole. The hole is bug’s ____. 
+book_en_353_page_2_cropped.png
+home, food, bike
+home
+
+fill the blanks
+book_en_353_page_3_cropped.png
+Some boys play [football] near the [hole]. 
+tree
+book_en_353_page_3_1.m4a
+
+fill the blanks
+book_en_353_page_6_cropped.png
+Simon [tells] bug. 
+scared
+book_en_353_page_6_2.m4a

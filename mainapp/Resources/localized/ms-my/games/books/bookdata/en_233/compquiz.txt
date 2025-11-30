@@ -1,0 +1,23 @@
+fill the blanks
+book_en_233_page_1_cropped.png
+Squirrel dropped a [seed].
+shoe
+book_en_233_page_1_1.m4a
+
+tracing question
+book_en_233_page_1_tracing.m4a
+book_en_233_page_1_cropped.png
+seed
+en-uk_seed.m4a
+
+multiple choices
+Where did the seed land? 
+book_en_233_page_2_cropped.png
+The seed landed in soil., The seed landed in a river., The seed landed in a basket.
+The seed landed in soil. 
+
+fill the blanks
+book_en_233_page_5_cropped.png
+The seed began to [grow].
+cry
+book_en_233_page_5_1.m4a

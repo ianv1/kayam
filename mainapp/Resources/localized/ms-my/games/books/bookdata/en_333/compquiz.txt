@@ -1,0 +1,23 @@
+fill the blanks
+book_en_333_page_1_cropped.png
+Tina [likes] to play with the [ball].
+sun
+book_en_333_page_1_1.m4a
+
+multiple choices
+Why does Tina need to ask other kids to play ball with her?
+book_en_333_page_2_cropped.png
+She does not have a brother., She does not have a sister., Brother and sister are busy. 
+Brother and sister are busy.
+
+fill the blanks
+book_en_333_page_4_cropped.png
+Tina [sees] some other [kids]. 
+balls
+book_en_333_page_4_1.m4a
+
+multiple choices
+Who does Tina ask to play ball with her? 
+book_en_333_page_7_cropped.png
+Other kids, Her mom, Her teacher
+Other kids

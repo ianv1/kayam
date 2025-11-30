@@ -1,0 +1,20 @@
+multiple choices
+Where does Neema go in this book? 
+book_en_348_page_1_cropped.png
+The market, The school, A clinic
+The market
+
+fill the blanks
+book_en_348_page_3_cropped.png
+Neema took a [basket] and went to the [market].
+car
+book_en_348_page_3_1.m4a
+
+multiple choices
+Who did Neema see at the market? 
+book_en_348_page_5_cropped.png
+A book, Her friend, A cat
+Her friend
+
+reordering
+Neema’s mom gives her money., Neema buys vegetables., Neema carries her basket home.

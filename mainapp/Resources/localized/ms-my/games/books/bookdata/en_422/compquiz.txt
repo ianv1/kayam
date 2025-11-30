@@ -1,0 +1,23 @@
+multiple choices
+What is one plus two? 
+book_en_422_page_3_cropped.png
+One, Two, Three
+Three
+
+multiple choices
+What is two plus two? 
+book_en_422_page_4_cropped.png
+Three, Four, Five
+Four
+
+multiple choices
+What is two plus three? 
+book_en_422_page_5_cropped.png
+Three, Four, Five
+Five
+
+multiple choices
+What is this book about? 
+book_en_422_page_1_cropped.png
+Addition, Subtraction, Division
+Addition

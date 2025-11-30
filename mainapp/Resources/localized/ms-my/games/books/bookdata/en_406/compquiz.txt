@@ -1,0 +1,20 @@
+fill the blanks
+book_en_406_page_1_cropped.png
+Many [animals] live in the [sea].
+sun
+book_en_406_page_1_1.m4a
+ 
+multiple choices
+Which picture shows dolphins?
+book_en_406_page_4_cropped.png,book_en_406_page_5_cropped.png,book_en_406_page_6_cropped.png,book_en_406_page_7_cropped.png
+book_en_406_page_4_cropped.png
+
+multiple choices
+Which picture shows a sea turtle with a hard shell?
+book_en_406_page_5_cropped.png,book_en_406_page_4_cropped.png,book_en_406_page_6_cropped.png,book_en_406_page_7_cropped.png
+book_en_406_page_5_cropped.png
+
+multiple choices
+book_en_406_page_4_cropped.png
+This fish is orange., A starfish rests on the beach., Dolphins jump and play., An octopus has eight arms.
+Dolphins jump and play.

@@ -1,0 +1,20 @@
+tracing question
+book_en_108_page_2_tracing.m4a
+book_en_108_page_2_cropped.png
+three
+en-uk_three.m4a
+
+fill the blanks
+book_en_108_page_5_cropped.png
+1, 2, 3 [dresses]. 
+shirts 
+book_en_108_page_5_1.m4a
+
+multiple choices
+1, 2, 3 hats. 
+book_en_108_page_6_cropped.png,book_en_108_page_7_cropped.png,book_en_108_page_5_cropped.png,book_en_108_page_2_cropped.png
+book_en_108_page_7_cropped.png
+
+matching
+Shoes, Skirts, Shirts
+book_en_108_page_6_cropped.png,book_en_108_page_4_cropped.png,book_en_108_page_1_cropped.png

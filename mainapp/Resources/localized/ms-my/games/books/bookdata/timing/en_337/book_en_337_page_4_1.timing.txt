@@ -1,0 +1,4 @@
+frida,0.0,0.5
+reads,0.5,1.1
+Alistair,1.1,1.7
+game,1.7,2.0

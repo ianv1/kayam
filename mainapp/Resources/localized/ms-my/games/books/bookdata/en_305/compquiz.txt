@@ -1,0 +1,22 @@
+fill the blanks
+book_en_305_page_1_cropped.png
+[Bill] is looking for his sports [bat]. 
+clothes
+book_en_305_page_1_1.m4a
+
+fill the blanks
+book_en_305_page_2_cropped.png
+Is it [behind] the [door] ? 
+bed
+book_en_305_page_2_1.m4a
+
+multiple choices
+book_en_305_page_4_cropped.png
+Is it in the trunk?, Is it upstairs?, Is it under the bed?, Is it on top of the shelf? 
+Is it under the bed? 
+
+multiple choices
+Where was Bill’s sports bat at the end of the book? 
+book_en_305_page_8_cropped.png
+With Bill’s sister, With Bill’s animals, At school, At the field
+With Bill’s sister

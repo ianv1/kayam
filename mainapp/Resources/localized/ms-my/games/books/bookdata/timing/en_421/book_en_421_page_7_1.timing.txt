@@ -1,0 +1,4 @@
+Sicilian,0.0,0.7
+likes,0.7,1.1
+market,1.1,1.5
+day,1.5,1.8

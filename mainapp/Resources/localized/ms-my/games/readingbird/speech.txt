@@ -1,0 +1,312 @@
+abuffalo,SIL AH DH P AA F L EH D AY OW 
+ahappybaby,SIL T K UH L B EY D M IY 
+always,SIL L EY N IY S T 
+am,SIL N AE M SIL 
+and,SIL AW N T 
+anewbike,SIL AH N IY DH B AY N IY K 
+animal,SIL N AE N IH M AW 
+anoldman,SIL T EH N SIL OW N P M AE N +NSN+ 
+anorange,SIL AH N AE K B AA R EY N JH SIL 
+anorangedress,SIL AH N SIL AA L ER IH N SH T R AE SH T 
+apple,SIL N AH P OW 
+are,SIL N AO NG 
+aretheyfast,SIL AA AH V EH IY F AO +SPN+ S T 
+areyouhappy,SIL AY IY Y UW HH AE K IY 
+asunnyday,SIL AH SH AA N IY D EY 
+ayellowbanana,SIL AH Y AE D L EH UW B AH N AA N EH M SIL 
+baby,SIL EY P IY 
+balloon,SIL L EH D IH UW N 
+banana,SIL TH AE N AA N ER 
+basket,SIL AA SH K EY T 
+bice,SIL D AY S 
+birdscanfly,SIL D EH T S SIL K AE R N F IH L AA AY IY 
+birthday,SIL D EH TH T EY 
+bit,SIL D EY T S SIL 
+boat,SIL D AY L IY B T 
+book,SIL OW K 
+boots,SIL D AY UW D T 
+bose,SIL B AA UW Z S 
+brother,SIL R AW V AH SIL 
+bug,SIL M B AA R D 
+bun,SIL M B AA N ER 
+bun37,SIL B AA N 
+cake,SIL T AE NG IY K 
+carrot,SIL K AE R EH T 
+cat,SIL K AE T 
+chair,SIL SH AE SIL 
+chicken,SIL CH IH K EY N +NSN+ 
+children,SIL SH EY L AH JH AH N 
+clay,SIL K L EH EY 
+cleanthehouse,SIL T IY N B AE HH AY L T 
+computer,SIL K OW M T S IY T EH TH 
+cop,SIL K AA L P SIL 
+cose,SIL K AY L AH S SIL 
+count,SIL T AW NG T 
+cow,SIL T AW L 
+cube,SIL CH IY ER M B AH D SIL 
+cube1,SIL SH IH UW D SIL 
+dad,SIL T AE T 
+dake,SIL D EH IY K SIL 
+dat,SIL D AY L AH K T 
+desk,SIL D AE S K 
+det,SIL D AE UH D T 
+do,SIL D AE UW 
+dog,SIL OW K 
+dot,SIL D AW N T 
+dothedishes,SIL T EY UW DH AH T D IH SH EY IY SH CH 
+dress,SIL T IH R AE HH S 
+duck,SIL N AW K 
+dun,SIL D AA N SIL 
+eleven,SIL EH D AE V AH N 
+family,SIL F AE M AH N IY 
+father,SIL F L AA V AH SIL 
+fice,SIL F AY HH IY S SIL 
+fish,SIL SH IH T SH B 
+fivelongpencils,SIL F AY IY D IY L N OW N P AE N IH T AH L V F 
+flower,SIL F IY L AW L AH ER T 
+fly,SIL F L AY EY 
+food,SIL T F EH UW T SIL 
+football,SIL T UH P AH L SIL 
+for,SIL F AO L 
+friend,SIL F R EH N N K 
+frogscanswim,SIL SH R AO OW T SIL K AE N AH SH AH W EY D 
+fun,SIL F AA N SIL 
+garden,SIL N AA D EH N 
+get,SIL N EY T 
+glay,SIL N EH IY 
+go,SIL AH M T 
+goat,SIL EH M SIL S 
+good,SIL G AE T 
+goodmorning,SIL D IH D T N M AO L AH N IH NG SIL 
+grandma,SIL ER AW N M AA 
+grandpa,SIL M AE N P AA 
+grapes,SIL ER EY DH SH 
+green,SIL N AO IY N 
+happy,SIL T AE K IY SIL 
+hat,SIL K AE T S +NSN+ 
+hat161,SIL T AE T S SIL 
+he,SIL SH IY 
+heaterice,SIL K IY SIL K EY T M AY T 
+hecannotwrite,SIL K IY SIL K AE N AA D T SIL N AY N T 
+hecanwrite,SIL K IY SIL K EH N D R AA AY N IY T 
+hedanced,SIL K IY D SIL D AA N SIL SH T 
+hegotupearly,SIL K IY SIL K AO T AA P K AY L IY 
+hehadabicycle,SIL K IY SIL P AE K T AE B AY B D IH K AA L 
+hehasabook,SIL F IY SIL P AE Z AE V B AA R P K 
+heisadoctor,SIL K IY SIL EY Z AE D SIL D AO K T AE TH 
+heisafarmer,SIL F IY SIL EY D N AH F AA M AH R 
+heisatschool,SIL K IY SIL EY S T AE K T S K OW 
+heismybrother,SIL K IY B P IH SH N M AY T B R AA F AH SIL 
+heisnothappy,SIL S IY SIL EY S AH N AA K T AE P EY 
+heissad,SIL K IY SIL EY D SH AE K T 
+helmet,SIL T AE L M AE T 
+hen,SIL T EH N D 
+hewantswater,SIL K IY SIL L AO N SH W AO R T S AH SIL 
+hewascute,SIL SH IY SIL L EH S K IY DH Z D 
+hin,SIL T AE N ER 
+hit,SIL K IH T SIL 
+hot,SIL P AA P S TH 
+house,SIL T AE L K S SIL 
+how,SIL T AW OW 
+howareyou,SIL T AE L AY HH IY UW D 
+hube,SIL S UW D SIL 
+i'mgood,SIL AY IY N AH P IH T 
+i'msorry,SIL M AY M S EH L ER IY 
+i,SIL AY IY 
+iamacook,SIL M AY M IY SIL AW N +NSN+ AH T K UH K 
+iamastudent,SIL AY IY SIL P AE M P AH SH CH IY D IH N T 
+iamnottall,SIL N AY EY SIL AH M N AA T SIL T OW L SIL 
+icanjump,SIL AY IY SIL K EH N D JH AW D P 
+icannotjump,SIL AY IY SIL K AE N AA D K JH AA M P 
+idrankmilk,SIL AY IY SIL D R AE NG K M EH L AH K 
+ihaveacar,SIL AY IY HH T AE V +SPN+ AH T K AA 
+ilikecarrots,SIL AY IY DH AH N AY T K AE R EH T 
+ilikedanimals,SIL AY IY N AY K T AE N EH M +SPN+ V S 
+ineedapencil,SIL K AA IY SIL N IY D EH P AE N S EH L SIL 
+isawthem,SIL AY IY S OW L V EH N SIL 
+isheadoctor,SIL IY Z HH IY T AH D AA L K T AE R 
+it'safrog,SIL EY K SH EH F R AO K 
+it,SIL EY D S 
+itisatruck,SIL EY T SIL EY ZH AH T R AA K SIL 
+itismonday,SIL EY D T SIL EY EY F D N AH M AA N D EY 
+itwasdirty,SIL EY D TH SIL L AA Z G SIL D EH T IY 
+iwasangry,SIL AY EY SIL L AH Z SIL AE NG IH R IY 
+iwenttoschool,SIL AY IY SIL M L EH N T EY F S K OW SIL 
+jail,SIL JH EY L SIL 
+jake,SIL JH AE NG IY K 
+jen,SIL SH AE N +NSN+ 
+jet,SIL CH AE T S 
+jin,SIL D JH EH N SIL 
+kail,SIL T EY L SIL 
+kitchen,SIL K IH T SH IH N SIL 
+kose,SIL K AA UW Z S 
+lake,SIL N AE IY K SIL 
+lan,SIL L AE N SIL 
+lat,SIL M AE T 
+let'sgo,SIL N AE T S K AE UW 
+lion,SIL L AY M N 
+littleboys,SIL N EH T IH L B AH L EY S 
+longsnakes,SIL N EH L N SH N EY T 
+lookatme,SIL N UH K AE P M IY 
+love,SIL N AW F 
+lube,SIL Z IH M B 
+lube1,SIL IY M N UW P SIL 
+lunch,SIL AH M AA N Z IY CH SIL 
+mail,SIL M AE EY L SIL 
+make,SIL M AE NG IY K 
+mango,SIL N AY N D AE UW 
+mat,SIL M AE HH AH DH S 
+math,SIL M AE F 
+meal,SIL M IY L 
+mice,SIL M AY N IY S SIL 
+min,SIL M EH N SIL 
+monday,SIL M AA N D EY 
+monkey,SIL M AY L K IY 
+moon,SIL M EH N SIL 
+mother,SIL M AH V AH AA 
+motorcycle,SIL M AE R T AH SH R AA EY K OW 
+mountain,SIL M AW N T EY SIL 
+mouse,SIL M AE L IH SH T 
+mug,SIL M AA T G 
+mun,SIL M AA N SIL 
+my,SIL M AY M IY 
+myhouse,SIL M M AY IY HH AW SH T 
+mypinkshoes,SIL M AY N IY B P IH N SH EY Z 
+mytwosisters,SIL M AY IY T IY Z SH IH F T AE Z SH 
+nad,SIL N AE T 
+nake,SIL N AE NG IY K 
+net,SIL N AE K Z 
+nice,SIL N AY N IY S SIL 
+noheisn't,SIL N AH N +NSN+ K IY SIL D EH S AH N T 
+nose,SIL N AY M IH S SIL 
+not,SIL N AA SIL T 
+not159,SIL N AA T 
+number,SIL N AA M D AH 
+onion,SIL AA N IH N SIL 
+orange,SIL AA R IH N IH CH SIL 
+ourschool,SIL AY L AH SH K OW 
+pake,SIL T EY SIL K 
+pants,SIL P AE UH D CH S 
+paper,SIL T EY K AH SIL 
+peed,SIL K IY T 
+pencil,SIL T EH N T S EH L SIL 
+people,SIL K IY P AH L 
+phone,SIL Z AY M N 
+photo,SIL F EH T EH N SIL 
+picture,SIL D IH G CH AH SIL 
+pin,SIL K IH N SIL 
+play,SIL T AH L AE NG IY 
+pop,SIL K AA R P SIL 
+pot,SIL P AA T S 
+potato,SIL AH T EY IY T AE D 
+pretty,SIL R IH T EY IY 
+pube,SIL SH IH UW D 
+rabbit,SIL R AE B EY D T 
+read,SIL M IY T 
+read150,SIL L IY F T 
+readabook,SIL L IY D EH B UH K 
+ren,SIL M AE N 
+rit,SIL ER EY DH S 
+rit47,SIL M IH T Z 
+rose,SIL Z R AE DH ER IY S SIL 
+sad,SIL SH AE K T 
+school,SIL S K OW 
+see,SIL SH EY IY 
+seed,SIL S IY T SIL 
+sen,SIL T SH AE N ER 
+she,SIL SH EY IY 
+shecameback,SIL SH EY IY SIL K EY M B AE K SIL 
+shecannotrun,SIL SH EY IY SIL T AA N AA T R AA N 
+shecanrun,SIL SH EY IY SIL K AE N ER V R AA N D 
+sheep,SIL SH EY IY P SIL 
+shehascows,SIL SH EY IY SIL K AE F SIL T AW L AH S TH 
+sheisanurse,SIL SH EY IY SIL D EY IH SH AE N AE S 
+sheisateacher,SIL SH EY IY SIL EY Z AE T IY CH AW 
+sheisnotyoung,SIL SH EY IY SIL EY Z AH N AA D T AH Y AH NG 
+sheistall,SIL SH IH IY SIL EY V SIL T AO L 
+shelikesapples,SIL SH EY IY +NSN+ D ER D AY G S K AE P ER F SIL 
+shelookedsad,SIL SH EY IY D N EH OW K T AE T 
+shemadeachair,SIL SH EY IY SIL M EY D AE T SH AE K 
+shesaidtohim,SIL SH EY IY SIL S EH D T IH HH AE M SIL 
+shewasshy,SIL SH EY IY SIL L EH S SH AW NG 
+shirt,SIL SH AE R SIL T 
+shoes,SIL SH IH M IY S 
+shorthair,SIL SH AA L AH T AE K 
+shorts,SIL SH AA L AH K S SIL 
+sice,SIL T S AY IY F SIL 
+sister,SIL S IH S T EY ER 
+sit,SIL T F IH T 
+skirt,SIL S K EH T 
+sky,SIL TH G AA IY 
+smallcups,SIL SH M OW R P K AA P F 
+snail,SIL SH AE EY L 
+socks,SIL S AW K S 
+strong,SIL S T R AO NG 
+student,SIL S T IH UW D IH N T 
+sube,SIL S T IH M P 
+sube1,SIL SH T IY M D 
+sun,SIL S T AA N ER 
+sunset,SIL S AH M S AE TH 
+sweet,SIL SH IH L IY T 
+tat,SIL T AE M AH T SIL 
+teacher,SIL Z IY CH SH EH R HH 
+teal,SIL T IY L 
+teed,SIL T IY T 
+ten,SIL T AE N ER 
+tet,SIL T AE T 
+thankyou,SIL S T AY N T EY D 
+the,SIL V AH +SPN+ 
+theman,SIL V AH M AW N 
+therearetrees,SIL V AE M SIL K AA CH ER IY T 
+thereisatree,SIL V AE HH +NSN+ EY S EH CH ER IY 
+therewasaking,SIL N EH W AO AH Z SIL AH T K EY N SIL 
+they,SIL Z AE HH EY 
+theyareathome,SIL V AE IY SIL AO K AE T AA UW N 
+theyarefarmers,SIL V AE NG IY SIL AA F L AA M AH N Z SH 
+theyarehungry,SIL V EY SIL AA HH AA NG G ER IY 
+theycannotread,SIL D Z EY SIL K AE N OW N T ER M IY T 
+theycannotswim,SIL V EH IY +NSN+ K AE N AA N T S L IH M SIL 
+theycanread,SIL N AH V EH IY SIL K EH N AH M IY T 
+theyhelpedme,SIL Z EH IY HH EH L P T N IY SIL 
+theyranfast,SIL V AE IY SIL R AA N F AO +SPN+ S T 
+theytookabus,SIL D EY SIL T UH P SIL AH B AH R F SIL 
+theywantmilk,SIL Z EH IY SIL L AO M T P M AE L K SIL 
+theywerekind,SIL Z AE NG IY SIL L EH T K AA IY N T 
+thin,SIL T F EH N +NSN+ 
+thisismymouth,SIL N JH EY IY SH +NSN+ EY S IH M AY IY M AE L F SIL 
+threedogs,SIL TH ER EH IY D EH L K S SIL 
+timetosleep,SIL T AY N T IH R SH IH Z IY SIL 
+together,SIL T IH G AE V AH SIL 
+toilet,SIL T AO IY D EH T 
+top,SIL T AA L P SIL 
+tose,SIL T AE M SH D 
+tot,SIL T AA L AH T Z 
+train,SIL SH R AY IY N 
+tube,SIL CH AH UW T SIL 
+tube1,SIL SH UW T SIL 
+tug,SIL T AA G 
+twelve,SIL T L EH L AH F P 
+vegetable,SIL V EH D S T IH B L 
+vot,SIL Z V L AA D T 
+wecannotfly,SIL L AH W IY SIL K AE N AO D SIL T N AY EY 
+wehadlunch,SIL ER W IY HH AE T ER L AW R G SH 
+weneedeggs,SIL L IY SIL N IY D T AE NG IY K S SIL 
+weplayed,SIL L IY P L EH EY IY T 
+wet,SIL L AE K S SIL 
+what'sthis,SIL M L AO T D IH D T 
+what,SIL N AH W AO AH DH T 
+when,SIL L EH N SIL 
+where,SIL M AH L AE HH SIL 
+whiteflowers,SIL N AH W AY N IY T S ER AW L AH T Z 
+whoishe,SIL K UH L UW Y EY S HH IY 
+will,SIL N AH W EY L 
+win,SIL N AH W IY HH N 
+write,SIL M R AY IY T 
+yes,theyare,SIL AH Y AE K S SIL T EH Y AA 
+yesiam,SIL AH Y EH S SIL AY IY DH AW N 
+you,SIL IY T UW +NSN+ 
+youhavecats,SIL IY UW T +NSN+ K AE V +NSN+ K AE T 
+your,SIL IY OW L SIL 
+yoursister,SIL IY Y OW N SH EY F S K AH SIL 
+youweresick,SIL IY V IY EY UW +NSN+ L AH SH EY K 
+zebra,SIL Z AE B R AA SIL 

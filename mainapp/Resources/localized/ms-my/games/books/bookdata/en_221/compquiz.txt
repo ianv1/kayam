@@ -1,0 +1,22 @@
+multiple choices
+book_en_221_page_1_cropped.png
+I can walk., I can fly., I can run., I can swim. 
+I can swim. 
+
+tracing question
+book_en_221_page_1_tracing.m4a
+book_en_221_page_1_cropped.png
+swim
+en-uk_swim.m4a
+
+fill the blanks
+book_en_221_page_3_cropped.png
+I am [big]. 
+blue
+book_en_221_page_3_1.m4a
+
+fill the blanks
+book_en_221_page_7_cropped.png
+I am a [bee]. 
+cat
+book_en_221_page_7_1.m4a

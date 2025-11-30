@@ -1,0 +1,23 @@
+multiple choices
+How many are there? 
+book_en_416_page_1_cropped.png
+One, Two, Three
+Three
+
+multiple choices
+How many are there? 
+book_en_416_page_4_cropped.png
+Seven, Eight, Nine
+Seven
+
+fill the blanks
+book_en_416_page_4_cropped.png
+Three [plus] four [is] seven!
+minus, two
+en_416_page_4_1.m4a
+
+fill the blanks
+book_en_416_page_8_cropped.png
+[Five] minus three is [two]! 
+Add, Six
+book_en_416_page_8_1.m4a

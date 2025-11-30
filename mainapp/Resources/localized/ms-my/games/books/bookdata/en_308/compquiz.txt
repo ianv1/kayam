@@ -1,0 +1,21 @@
+fill the blanks
+book_en_308_page_1_cropped.png
+There are many [shapes].
+animals
+book_en_308_page_1_1.m4a
+
+tracing question
+book_en_308_page_5_tracing.m4a
+book_en_308_page_5_cropped.png
+circle
+en-uk_circle.m4a
+
+multiple choices
+Which shape has three sides and three angles?
+book_en_308_page_2_cropped.png
+Triangle, Square, Rectangle, Oval
+Triangle
+
+matching
+Oval, Square, Rectangle
+book_en_308_page_6_cropped.png,book_en_308_page_3_cropped.png,book_en_308_page_4_cropped.png

@@ -1,0 +1,21 @@
+multiple choices
+The girl can run.
+book_en_306_page_3_cropped.png,book_en_306_page_6_cropped.png,book_en_306_page_2_cropped.png,book_en_306_page_4_cropped.png
+book_en_306_page_3_cropped.png
+
+multiple choices
+book_en_306_page_4_cropped.png
+The girl can dance., The girl can kick the ball., The boy can swim., The girl can jump.
+The girl can kick the ball.
+ 
+fill the blanks
+book_en_306_page_6_cropped.png
+The [boy] can [swim] across the lake.
+walk
+book_en_306_page_6_quiz.m4a
+ 
+tracing question
+book_en_306_page_5_tracing.m4a
+book_en_306_page_5_cropped.png
+dance
+en-uk_dance.m4a

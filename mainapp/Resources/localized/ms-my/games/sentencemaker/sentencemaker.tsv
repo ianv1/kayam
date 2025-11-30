@@ -1,0 +1,151 @@
+#language	level	problem	solution	wrong words	image	sound
+ms-MY	1	1	Sam/eats		like_5.png	sameats.m4a
+ms-MY	1	2	Ayanda/reads		simo_friends_7_sentence_reads.png	ayandareads.m4a
+ms-MY	1	3	Mac/plays		like_2.png	macplays.m4a
+ms-MY	1	4	Lele/swims		simo_friends_5_sentence_swims.png	leleswims.m4a
+ms-MY	1	5	Khalai/walks		girl_plants_2_sentence_walks.png	khalaiwalks.m4a
+ms-MY	1	6	The plant/grows		plants_7.png	theplantgrows.m4a
+ms-MY	1	7	The ball/bounces		ball_5.png	theballbounces.m4a
+ms-MY	1	8	The crocodile/swims		croc_3.png	thecrocodileswims.m4a
+ms-MY	1	9	Birds/fly		soap_2_sentence_birds.png	birdsfly.m4a
+ms-MY	1	10	The cow/eats		cow_3_sentence_eats.png	thecoweats.m4a
+ms-MY	2	1	I/eat		like_5.png	ieat.m4a
+ms-MY	2	2	She/reads		simo_friends_7_sentence_reads.png	shereads.m4a
+ms-MY	2	3	He/plays		like_2.png	heplays.m4a
+ms-MY	2	4	She/swims		simo_friends_5_sentence_swims.png	sheswims.m4a
+ms-MY	2	5	She/walks		girl_plants_2_sentence_walks.png	shewalks.m4a
+ms-MY	2	6	It/grows		plants_7.png	itgrows.m4a
+ms-MY	2	7	It/bounces		ball_5.png	itbounces.m4a
+ms-MY	2	8	It/swims		croc_3.png	itswims.m4a
+ms-MY	2	9	They/fly		soap_2_sentence_birds.png	theyfly.m4a
+ms-MY	2	10	It/eats		cow_3_sentence_eats.png	iteats.m4a
+ms-MY	3	1	I/eat	play	like_5.png	ieat.m4a
+ms-MY	3	2	She/runs	swims	good_friends_2_sentence_run.png	sheruns.m4a
+ms-MY	3	3	Mac/plays	eats	like_2.png	macplays.m4a
+ms-MY	3	4	She/swims	runs	simo_friends_5_sentence_swims.png	sheswims.m4a
+ms-MY	3	5	She/walks	flies	girl_plants_2_sentence_walks.png	shewalks.m4a
+ms-MY	3	6	The plant/grows	The dog	plants_7.png	theplantgrows.m4a
+ms-MY	3	7	The ball/bounces	The moon	ball_5.png	theballbounces.m4a
+ms-MY	3	8	The crocodile/swims	eats	croc_3.png	thecrocodileswims.m4a
+ms-MY	3	9	The plane/flies	swims	transport_2_cropped_airplane.png	theplaneflies.m4a
+ms-MY	3	10	The cow/eats	crawls	cow_3_sentence_eats.png	thecoweats.m4a
+ms-MY	4	1	Ayanda/is/a girl		animals_10.png	ayandaisagirl.m4a
+ms-MY	4	2	Bahati/is/a student		good_friends_9_sentence_student.png	bahatiisastudent.m4a
+ms-MY	4	3	Simo/is/tall		simo_friends_1_sentence_tall.png	simoistall.m4a
+ms-MY	4	4	Yangu/is/a sister		family_5.png	yanguisasister.m4a
+ms-MY	4	5	John/is/a boy		like_1.png	johnisaboy.m4a
+ms-MY	4	6	The airplane/is/big		transport_2_cropped_airplane.png	theairplaneisbig.m4a
+ms-MY	4	7	The plant/is/green		plants_9.png	theplantisgreen.m4a
+ms-MY	4	8	The milk/is/delicious		cow_9_sentence_drinks.png	themilkisdelicious.m4a
+ms-MY	4	9	The elephant/is/big		animals_1.png	theelephantisbig.m4a
+ms-MY	4	10	The lion/is/strong		animals_7.png	thelionisstrong.m4a
+ms-MY	5	1	Zizo/eats/fast		like_5.png	zizoeatsfast.m4a
+ms-MY	5	2	Jill/runs/fast		good_friends_2_sentence_run.png	jillrunsfast.m4a
+ms-MY	5	3	The dogs/run/fast		night_2_sentence_dogs_2.png	thedogsrunfast.m4a
+ms-MY	5	4	Jill/screams/loudly		soap_8.png	jillscreamsloudly.m4a
+ms-MY	5	5	We/swam/yesterday		simo_friends_15_sentence_swam.png	weswamyesterday.m4a
+ms-MY	5	6	The tree/grows/slowly		girl_plants_5_sentence_tree.png	thetreegrowsslowly.m4a
+ms-MY	5	7	The ball/bounces/high		ball_8.png	theballbounceshigh.m4a
+ms-MY	5	8	The elephant/runs/fast		elephant_frogs_3_sentence_elephant.png	theelephantrunsfast.m4a
+ms-MY	5	9	The bird/flies/high		soap_2_sentence_onebird.png	thebirdflieshigh.m4a
+ms-MY	5	10	Dogs/bark/loudly		night_2_sentence_dogs_2.png	dogsbarkloudly.m4a
+ms-MY	6	1	Mary/eats/an apple		eating_3.png	maryeatsanapple.m4a
+ms-MY	6	2	Lilo/reads/a book		simo_friends_7_sentence_reads.png	liloreadsabook.m4a
+ms-MY	6	3	Zizo/plays/a game		simo_friends_16_sentence_game.png	zizoplaysagame.m4a
+ms-MY	6	4	Yaya/sings/a song		like_3.png	yayasingsasong.m4a
+ms-MY	6	5	Bahati/drinks/milk		cow_9_sentence_drinks.png	bahatidrinksmilk.m4a
+ms-MY	6	6	The tree/grows/tall		girl_plants_5_sentence_tree.png	thetreegrowstall.m4a
+ms-MY	6	7	The cow/makes/milk		cow_7_sentence_cowmilk.png	thecowmakesmilk.m4a
+ms-MY	6	8	The Post Office/mails/letters		letter_7_cropped_post_office.png	thepostofficemailsletters.m4a
+ms-MY	6	9	The truck/carries/things		transport_11_sentence_truck.png	thetruckcarriesthings.m4a
+ms-MY	6	10	The tree/grows/oranges		orange_tree_1.png	thetreegrowsoranges.m4a
+ms-MY	7	1	Mary/is/a girl	a boy	ball_4.png	maryisagirl.m4a
+ms-MY	7	2	Simo/is/a boy	a girl	simo_friends_1_sentence_boy.png	simoisaboy.m4a
+ms-MY	7	3	Bahati and Rehema/are/students	doctors	good_friends_9.png	bahatiandrehemaarestudents.m4a
+ms-MY	7	4	They/are/students	doctors	good_friends_9.png	theyarestudents.m4a
+ms-MY	7	5	Tumo/is/a farmer	a lion	tumo_6_sentence_farmer.png	tumoisafarmer.m4a
+ms-MY	7	6	The snake/is/long	furry	woof_9.png	thesnakeislong.m4a
+ms-MY	7	7	I/am/happy	sad	emotions_1.png	iamhappy.m4a
+ms-MY	7	8	The motorbike/is/fast	slow	transport_16_cropped_motorbike.png	themotorbikeisfast.m4a
+ms-MY	7	9	The tree/is/beautiful	dry	girl_plants_7_sentence_beautiful.png	thetreeisbeautiful.m4a
+ms-MY	7	10	The ball/is/red	yellow	ball_1.png	theballisred.m4a
+ms-MY	8	1	Zizo/eats/fast	swims	like_5.png	zizoeatsfast.m4a
+ms-MY	8	2	Jill/runs/fast	flies	good_friends_2_sentence_run.png	jillrunsfast.m4a
+ms-MY	8	3	The dog/runs/fast	The bird	night_2_sentence_dogs.png	thedogsrunfast.m4a
+ms-MY	8	4	Jill/screams/loudly	writes	soap_8.png	jillscreamsloudly.m4a
+ms-MY	8	5	We/swam/yesterday	sang	simo_friends_15_sentence_swam.png	weswamyesterday.m4a
+ms-MY	8	6	The tree/grows/slowly	The ant	girl_plants_5_sentence_tree.png	thetreegrowsslowly.m4a
+ms-MY	8	7	The ball/bounces/high	The moon	ball_8.png	theballbounceshigh.m4a
+ms-MY	8	8	The elephant/runs/fast	swims	elephant_frogs_3_sentence_elephant.png	theelephantrunsfast.m4a
+ms-MY	8	9	The bird/flies/high	walks	soap_2_sentence_onebird.png	thebirdflieshigh.m4a
+ms-MY	8	10	Dogs/bark/loudly	Cats	night_2_sentence_dogs_2.png	dogsbarkloudly.m4a
+ms-MY	9	1	Mary/eats/an apple	a lion	eating_3.png	maryeatsanapple.m4a
+ms-MY	9	2	Lilo/reads/a book	sings	simo_friends_7_sentence_reads.png	liloreadsabook.m4a
+ms-MY	9	3	Zizo/plays/a game	cooks	simo_friends_16_sentence_game.png	zizoplaysagame.m4a
+ms-MY	9	4	Yaya/sings/a song	runs	like_3.png	yayasingsasong.m4a
+ms-MY	9	5	Bahati/drinks/milk	meat	cow_9_sentence_drinks.png	bahatidrinksmilk.m4a
+ms-MY	9	6	The tree/grows/tall	walks	girl_plants_5_sentence_tree.png	thetreegrowstall.m4a
+ms-MY	9	7	The cow/makes/milk	eggs	cow_7_sentence_cowmilk.png	thecowmakesmilk.m4a
+ms-MY	9	8	The Post Office/mails/letters	The hospital	letter_7_cropped_post_office.png	thepostofficemailsletters.m4a
+ms-MY	9	9	The truck/carries/things	mails	transport_11_sentence_truck.png	thetruckcarriesthings.m4a
+ms-MY	9	10	The tree/grows/oranges	letters	orange_tree_1.png	thetreegrowsoranges.m4a
+ms-MY	10	1	Jill/is/a smart/kid		wangari_3_sentence_smartkid.png	jillisasmartkid.m4a
+ms-MY	10	2	Bahati/is/a helpful/friend		good_friends_1.png	bahatiisahelpfulfriend.m4a
+ms-MY	10	3	Simo/is/a tall/boy		simo_friends_1_sentence_tall.png	simoisatallboy.m4a
+ms-MY	10	4	Lele/is/a fast/swimmer		simo_friends_5_sentence_swims.png	leleisafastswimmer.m4a
+ms-MY	10	5	Tumo/is/a good/farmer		tumo_6_sentence_farmer.png	tumoisagoodfarmer.m4a
+ms-MY	10	6	It/is/a red/ball		ball_1.png	itisaredball.m4a
+ms-MY	10	7	It/is/a large/airplane		transport_2_cropped_airplane.png	itisalargeairplane.m4a
+ms-MY	10	8	It/is/a strong/lion		animals_7.png	itisastronglion.m4a
+ms-MY	10	9	Where/is/the bat?		bat_7.png	whereisthebat.m4a
+ms-MY	10	10	Where/is/the cat?		cat_2_cropped_underchair.png	whereisthecat.m4a
+ms-MY	11	1	Mary/eats/an apple/every day		eating_3.png	maryeatsanappleeveryday.m4a
+ms-MY	11	2	Simo/reads/a book/at school		girl_plants_6_sentence_reads.png	simoreadsabookatschool.m4a
+ms-MY	11	3	Jill/plays/a game/alone		simo_friends_4_cropped_playball.png	jillplaysagamealone.m4a
+ms-MY	11	4	They/sell/milk/together		cow_10_sentence_sellsmilk.png	theysellmilktogether.m4a
+ms-MY	11	5	Bahati/drinks/milk/every day		cow_9_sentence_drinks.png	bahatidrinksmilkeveryday.m4a
+ms-MY	11	6	The/frogs/make/noise/every night		elephant_frogs_4_sentence_frogs_2.png	thefrogsmakenoiseeverynight.m4a
+ms-MY	11	7	The/rooster/crows/every morning		sun_9_sentence_rooster.png	theroostercrowseverymorning.m4a
+ms-MY	11	8	The/sun/shines/brightly		sun_10_sentence_sun.png	thesunshinesbrightly.m4a
+ms-MY	11	9	The/van/drives/down the road		rats_7.png	thevandrivesdowntheroad.m4a
+ms-MY	11	10	The/snake/moves/slowly		animals_6.png	thesnakemovesslowly.m4a
+ms-MY	12	1	Mary/eats/many/apples		eating_3.png	maryeatsmanyapples.m4a
+ms-MY	12	2	Mary/eats/three/apples		eating_3.png	maryeatsthreeapples.m4a
+ms-MY	12	3	Lilo/reads/many/books		simo_friends_7_sentence_tenbooks.png	liloreadsmanybooks.m4a
+ms-MY	12	4	Lilo/reads/ten/books		simo_friends_7_sentence_tenbooks.png	liloreadstenbooks.m4a
+ms-MY	12	5	The orange tree/has/many/oranges		orange_tree_1.png	theorangetreehasmanyoranges.m4a
+ms-MY	12	6	The pond/has/many/frogs		elephant_frogs_4_sentence_frogs_2.png	thepondhasmanyfrogs.m4a
+ms-MY	12	7	The book/has/many/pages		book_1.png	thebookhasmanypages.m4a
+ms-MY	12	8	The earth/has/one/moon		world_1.png	theearthhasonemoon.m4a
+ms-MY	12	9	I/have/many/friends		simo_friends_3_sentence_friends.png	ihavemanyfriends.m4a
+ms-MY	12	10	The girl/has/a purple/dress		color_15_sentence_dress.png	thegirlhasapurpledress.m4a
+ms-MY	13	1	Jill/is/a smart/kid	kids	girl_plants_6_sentence_reads.png	jillisasmartkid.m4a
+ms-MY	13	2	Bahati/is/a helpful/friend	be	good_friends_1.png	bahatiisahelpfulfriend.m4a
+ms-MY	13	3	Simo/is/a tall/boy	tallest	simo_friends_1_sentence_tall.png	simoisatallboy.m4a
+ms-MY	13	4	Lele/is/a fast/swimmer	speed	simo_friends_5_sentence_swims.png	leleisafastswimmer.m4a
+ms-MY	13	5	Tumo/is/a good/farmer	are	tumo_6_sentence_farmer.png	tumoisagoodfarmer.m4a
+ms-MY	13	6	It/is/a red/ball	They	ball_1.png	itisaredball.m4a
+ms-MY	13	7	It/is/a large/airplane	are	transport_2_cropped_airplane.png	itisalargeairplane.m4a
+ms-MY	13	8	It/is/a strong/lion	are	animals_7.png	itisastronglion.m4a
+ms-MY	13	9	Where/is/the bat?	Who	bat_7.png	whereisthebat.m4a
+ms-MY	13	10	Where/is/the cat?	Why	cat_2_cropped_underchair.png	whereisthecat.m4a
+ms-MY	14	1	Mary/eats/an apple/every day	They	eating_3.png	maryeatsanappleeveryday.m4a
+ms-MY	14	2	Simo/reads/a book/at school	It	simo_friends_12_sentence_schoolread.png	simoreadsabookatschool.m4a
+ms-MY	14	3	Jill/plays/a game/alone	play	simo_friends_4_cropped_playball.png	jillplaysagamealone.m4a
+ms-MY	14	4	They/sell/milk/together	sells	cow_10_sentence_sellmilk.png	theysellmilktogether.m4a
+ms-MY	14	5	Bahati/drinks/milk/every day	milks	cow_9_sentence_drinks.png	bahatidrinksmilkeveryday.m4a
+ms-MY	14	6	The/frogs/make/noise/every night	makes	elephant_frogs_4_sentence_frogs_2.png	thefrogsmakenoiseeverynight.m4a
+ms-MY	14	7	The/rooster/crows/every morning	crow	sun_9_sentence_rooster.png	theroostercrowseverymorning.m4a
+ms-MY	14	8	The/sun/shines/brightly	loud	sun_10_sentence_sun.png	thesunshinesbrightly.m4a
+ms-MY	14	9	The/van/drives/down the road	down road	rats_7.png	thevandrivesdowntheroad.m4a
+ms-MY	14	10	The/snake/moves/slowly	speed	woof_9.png	thesnakemovesslowly.m4a
+ms-MY	15	1	Mary/eats/many/apples	We	eating_3.png	maryeatsmanyapples.m4a
+ms-MY	15	2	Mary/eats/three/apples	It	eating_3.png	maryeatsthreeapples.m4a
+ms-MY	15	3	Lilo/reads/many/books	reading	simo_friends_7_sentence_tenbooks.png	liloreadsmanybooks.m4a
+ms-MY	15	4	Lilo/reads/ten/books	reading	simo_friends_7_sentence_tenbooks.png	liloreadstenbooks.m4a
+ms-MY	15	5	The orange tree/has/many/oranges	have	orange_tree_1.png	theorangetreehasmanyoranges.m4a
+ms-MY	15	6	The pond/has/many/frogs	have	elephant_frogs_4_sentence_frogs_2.png	thepondhasmanyfrogs.m4a
+ms-MY	15	7	The book/has/many/pages	lot	book_1.png	thebookhasmanypages.m4a
+ms-MY	15	8	The earth/has/one/moon	ones	world_1.png	theearthhasonemoon.m4a
+ms-MY	15	9	I/have/many/friends	friend	simo_friends_3_sentence_friends.png	ihavemanyfriends.m4a
+ms-MY	15	10	The girl/has/a purple/dress	dresses	color_15_sentence_dress.png	thegirlhasapurpledress.m4a

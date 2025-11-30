@@ -1,0 +1,20 @@
+multiple choices
+What color is the egg’s yolk?
+book_en_304_page_7_cropped.png
+Red, Green, Yellow, Blue
+Yellow
+ 
+fill the blanks
+book_en_304_page_3_cropped.png
+Kweyu is wearing a [red] [shirt].
+blue
+book_en_304_page_3_1.m4a
+ 
+multiple choices
+The plants are green.
+book_en_304_page_8_cropped.png,book_en_304_page_9_cropped.png,book_en_304_page_11_cropped.png,book_en_304_page_5_cropped.png
+book_en_304_page_9_cropped.png
+
+matching
+Yellow, Blue, Orange
+book_en_304_page_6_cropped.png,book_en_304_page_10_cropped.png,book_en_304_page_4_cropped.png

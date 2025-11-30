@@ -1,0 +1,23 @@
+fill the blanks
+book_en_229_page_1_cropped.png
+It is [sunny].
+cloudy
+book_en_229_page_1_1.m4a
+
+tracing question
+book_en_229_page_5_tracing.m4a
+book_en_229_page_5_cropped.png
+stormy
+en-uk_stormy.m4a
+
+fill the blanks
+book_en_229_page_2_cropped.png
+It is [foggy].
+sunny
+Book_en_229_page_2_1.m4a
+
+tracing question
+book_en_229_page_1_tracing.m4a
+book_en_229_page_1_cropped.png
+sunny
+en-uk_sunny.m4a

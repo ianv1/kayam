@@ -1,0 +1,23 @@
+fill the blanks
+book_en_341_page_1_cropped.png
+Look at my [face] and you will see how I [feel].
+arms
+book_en_341_page_1_1.m4a
+
+tracing question
+book_en_341_page_2_tracing.m4a
+book_en_341_page_2_cropped.png
+excited
+en-uk_excited.m4a
+
+tracing question
+book_en_341_page_4_tracing.m4a
+book_en_341_page_4_cropped.png
+sad
+en-uk_sad.m4a
+
+multiple choices
+How do I feel? 
+book_en_341_page_5_cropped.png
+Angry, Happy, Scared
+Scared

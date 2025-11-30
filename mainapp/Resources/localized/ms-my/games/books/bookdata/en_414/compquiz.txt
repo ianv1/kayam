@@ -1,0 +1,20 @@
+fill the blanks
+book_en_414_page_1_cropped.png
+Neema [read] a letter from her [friend] Grace.
+calls
+book_en_414_page_1_1.m4a
+
+multiple choices
+What was the first direction to Grace’s house? 
+book_en_414_page_3_cropped.png
+Leave your house and turn right at the big tree., Leave your house and turn right at the big house., Leave your house and walk near the ocean.
+Leave your house and turn right at the big tree.
+
+multiple choices
+What color is Grace’s door? 
+book_en_414_page_6_cropped.png
+Red, Yellow, Blue
+Blue
+
+reordering
+Neema got Grace’s letter., Neema followed the directions., Neema found Grace’s house. 

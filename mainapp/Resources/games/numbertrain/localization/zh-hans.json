@@ -1,0 +1,12 @@
+{
+
+	"[circustrain]direction_largest_to_smallest_number" : "按照从大到小的顺序排列",
+	"[circustrain]direction_largest_to_smallest_shape" : "按照从大到小的顺序排列",
+	"[circustrain]direction_smallest_to_largest_number" : "按照从小到大的顺序排列",
+	"[circustrain]direction_smallest_to_largest_shape" : "按照从小到大的顺序排列",
+	"[circustrain]largest_number" : "最大的",
+	"[circustrain]largest_shape" : "最大的",
+	"[circustrain]smallest_number" : "最小的",
+	"[circustrain]smallest_shape" : "最小的",
+	"Circus Train" : "马戏团火车"
+}

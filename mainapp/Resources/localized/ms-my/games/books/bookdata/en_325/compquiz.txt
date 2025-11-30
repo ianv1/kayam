@@ -1,0 +1,23 @@
+fill the blanks
+book_en_325_page_3_cropped.png
+[Dad] and uncle paint the [house].
+gate
+book_en_325_page_3_1.m4a
+ 
+fill the blanks
+book_en_325_page_6_cropped.png
+[Sister] and brother paint the [gate].
+house
+book_en_325_page_6_quiz.m4a
+ 
+multiple choices
+What color is sister painting the gate in this picture?
+book_en_325_page_6_cropped.png
+Blue, Green, Yellow, Red
+Red
+
+multiple choices
+What do brother and sister do after they paint the gate?
+book_en_325_page_7_cropped.png
+Go to sleep, Eat, Clean up, Paint the house
+Clean up

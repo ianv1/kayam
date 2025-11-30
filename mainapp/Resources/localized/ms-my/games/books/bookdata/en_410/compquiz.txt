@@ -1,0 +1,23 @@
+fill the blanks
+book_en_410_page_1_cropped.png
+It was [nighttime] and the [animals] were sleeping.
+daytime, people
+book_en_410_page_1_1.m4a
+
+multiple choices
+Which animal woke up from the bright moonlight?
+book_en_410_page_3_cropped.png
+The mouse, The chicken, The pig, The dog
+The dog
+
+multiple choices
+The dog found animals awake at night. What was one of these animals? 
+book_en_410_page_7_cropped.png
+A snake, An owl, A zebra, A horse
+An owl 
+
+fill the blanks
+book_en_410_page_9_cropped.png
+Some animals are awake at night and sleep during the day. They are called [nocturnal] animals.
+blue
+book_en_410_page_9_quiz.m4a

@@ -1,0 +1,55 @@
+#Shape_Count	#Attribute_Count	#Language_Count	#Group_Count
+19	2	3	7
+Shape_Key	Sides	Faces	ms-MY	en-KE	sw-TZ	Basic_2D	Advanced_2D	Basic_3D	Advanced_3D	Advanced_ALL	ALL_2D	ALL_3D
+circle	0	None	bulat	circle	duara	0	None	None	None	None	0	None
+square	4	None	semi_empat_sama	square	mraba	1	None	None	None	None	4	None
+triangle	3	None	segi_tiga	triangle	pembe_tatu	2	None	None	None	None	3	None
+rectangle	4	None	segi_empat_tepat	rectangle	mstatili	3	None	None	None	None	4	None
+star	10	None	bintang	star	nyota	4	None	None	None	None	10	None
+rhombus	4	None	rombus	rhombus	rombasi	5	None	None	None	None	4	None
+oval	0	None	oval	oval	mviringo	6	None	None	None	None	0	None
+hexagon	6	None	heksagon	hexagon	pembe_sita	None	0	None	None	0	6	None
+pentagon	5	None	pentagon	pentagon	pembe_tano	None	1	None	None	1	5	None
+trapezoid	4	None	trapezium	trapezoid	trapeza	None	2	None	None	2	4	None
+parallelogram	4	None	segi_empat_selari	parallelogram	msambamba	None	3	None	None	3	4	None
+octagon	8	None	oktagon	octagon	pembe_nane	None	4	None	None	4	8	None
+cone	None	1	kon	cone	pia	None	None	0	None	None	None	1
+sphere	None	0	sfera	sphere	nyanja	None	None	1	None	None	None	0
+cylinder	None	2	silinder	cylinder	mcheduara	None	None	2	None	None	None	2
+cube	None	6	kubus	cube	mche_mraba	None	None	3	None	None	None	6
+rectangular_prism	None	6	prisma_segi_empat_tepat	rectangular_prism	mche_mstatili	None	None	None	0	5	None	6
+triangular_prism	None	5	prisma_segi_tiga	triangular_prism	mche_pembe_tatu	None	None	None	1	6	None	5
+pyramid	None	5	piramid	pyramid	piramidi	None	None	None	2	7	None	5
+# LanguageTag	# LevelID	# WorksheetID	# ProblemID	# PieceNumber		# MatchSound	# Shape	# Card A Type	# Color A	# Size A	# Rotation A	# Card B Type	# Color B	# Size B	# Rotation B
+ms-MY	1	1	1	4		YES	Basic_2D	Image	level1	Random	0	Image	level1	Random	0
+ms-MY	1	1	2	4		YES	Basic_2D	Image	level1	Random	0	Image	level1	Random	0
+ms-MY	1	1	3	4		YES	Basic_2D	Image	level1	Random	0	Image	level1	Random	0
+ms-MY	2	1	1	4		YES	Basic_2D	Image	Random	large	0	Image	Random	large	0
+ms-MY	2	1	2	4		YES	Basic_2D	Image	Random	large	0	Image	Random	large	0
+ms-MY	2	1	3	4		YES	Basic_2D	Image	Random	large	0	Image	Random	large	0
+ms-MY	3	1	1	4		YES	Basic_2D	Image	Random	large	0	Object	N/A	N/A	0
+ms-MY	3	1	2	4		YES	Basic_2D	Image	Random	large	0	Object	N/A	N/A	0
+ms-MY	3	1	3	4		YES	Basic_2D	Image	Random	large	0	Object	N/A	N/A	0
+ms-MY	4	1	1	4		YES	Basic_2D	Image	Random	large	0	Name	N/A	N/A	0
+ms-MY	4	1	2	4		YES	Basic_2D	Image	Random	large	0	Name	N/A	N/A	0
+ms-MY	4	1	3	4		YES	Basic_2D	Image	Random	large	0	Name	N/A	N/A	0
+ms-MY	5	1	1	4		YES	Basic_3D	Image	N/A	N/A	0	Name	N/A	N/A	0
+ms-MY	5	1	2	4		YES	Basic_3D	Image	N/A	N/A	0	Name	N/A	N/A	0
+ms-MY	5	1	3	4		YES	Basic_3D	Image	N/A	N/A	0	Name	N/A	N/A	0
+ms-MY	6	1	1	4		YES	Basic_3D	Image	N/A	Random	0	Image	N/A	Random	0
+ms-MY	6	1	2	4		YES	Basic_3D	Image	N/A	Random	0	Image	N/A	Random	0
+ms-MY	6	1	3	4		YES	Basic_3D	Image	N/A	Random	0	Image	N/A	Random	0
+ms-MY	7	1	1	4		YES	Basic_3D	Image	N/A	N/A	0	Image	N/A	N/A	90
+ms-MY	7	1	2	4		YES	Basic_3D	Image	N/A	N/A	0	Image	N/A	N/A	90
+ms-MY	7	1	3	4		YES	Basic_3D	Image	N/A	N/A	0	Image	N/A	N/A	90
+ms-MY	8	1	1	4		YES	Basic_3D	Image	N/A	N/A	0	Object	N/A	N/A	0
+ms-MY	8	1	2	4		YES	Basic_3D	Image	N/A	N/A	0	Object	N/A	N/A	0
+ms-MY	8	1	3	4		YES	Basic_3D	Image	N/A	N/A	0	Object	N/A	N/A	0
+ms-MY	9	1	1	4		NO	Advanced_ALL	Image	Random	large	0	Name	N/A	N/A	0
+ms-MY	9	1	2	4		NO	Advanced_ALL	Image	Random	large	0	Name	N/A	N/A	0
+ms-MY	10	1	1	4		NO	Advanced_ALL	Image	Random	large	Random	Image	Random	large	Random
+ms-MY	10	1	2	4		NO	Advanced_ALL	Image	Random	large	Random	Image	Random	large	Random
+ms-MY	11	1	1	4		NO	ALL_2D	Image	Random	large	0	Attribute	N/A	N/A	0
+ms-MY	11	1	2	4		NO	ALL_2D	Image	Random	large	0	Attribute	N/A	N/A	0
+ms-MY	12	1	1	4		NO	ALL_3D	Image	N/A	N/A	0	Attribute	N/A	N/A	0
+ms-MY	12	1	2	4		NO	ALL_3D	Image	N/A	N/A	0	Attribute	N/A	N/A	0

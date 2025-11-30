@@ -1,0 +1,21 @@
+fill the blanks
+book_en_310_page_1_cropped.png
+[He] has a [mango].
+banana
+book_en_310_page_1_1.m4a
+ 
+fill the blanks
+book_en_310_page_3_cropped.png
+[They] all have [mangoes].
+I
+book_en_310_page_4_1.m4a
+ 
+multiple choices
+They all have mangoes. We want mangoes!
+book_en_310_page_5_cropped.png,book_en_310_page_4_cropped.png,book_en_310_page_8_cropped.png,book_en_310_page_2_cropped.png
+book_en_310_page_4_cropped.png
+ 
+multiple choices
+Everyone has a mango.
+book_en_310_page_4_cropped.png,book_en_310_page_3_cropped.png,book_en_310_page_7_cropped.png,book_en_310_page_1_cropped.png
+book_en_310_page_7_cropped.png

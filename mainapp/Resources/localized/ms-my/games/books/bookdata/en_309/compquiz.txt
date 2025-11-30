@@ -1,0 +1,22 @@
+fill the blanks
+book_en_309_page_1_cropped.png
+Some [animals] are [big].
+people
+book_en_309_page_1_1.m4a
+ 
+multiple choices
+Other animals like trees.
+book_en_309_page_3_cropped.png,book_en_309_page_5_cropped.png,book_en_309_page_6_cropped.png,book_en_309_page_7_cropped.png
+book_en_309_page_6_cropped.png
+
+tracing question
+book_en_309_page_8_tracing.m4a
+book_en_309_page_8_cropped.png
+eat
+en-uk_eat.m4a
+
+fill the blanks
+book_en_309_page_5_cropped.png
+Some [animals] like the [water].
+drought
+book_en_309_page_5_1.m4a

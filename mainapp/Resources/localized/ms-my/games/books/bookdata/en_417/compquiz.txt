@@ -1,0 +1,23 @@
+multiple choices
+I have 1 basket with 1 coconut. How many coconuts are there? 
+book_en_417_page_2_cropped.png
+One, Two, Three
+One
+
+multiple choices
+I have 2 baskets with 2 coconuts each. How many coconuts are there? 
+book_en_417_page_3_cropped.png
+Two, Three, Four
+Four
+
+multiple choices
+I have 4 baskets with 4 coconuts each. How many coconuts are there? 
+book_en_417_page_4_cropped.png
+Fifteen, Sixteen, Seventeen
+Sixteen
+
+multiple choices
+What is this book about? 
+book_en_417_page_1_cropped.png
+Division, Subtraction, Multiplication
+Multiplication 

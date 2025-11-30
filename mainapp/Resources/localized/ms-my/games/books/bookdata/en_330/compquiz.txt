@@ -1,0 +1,19 @@
+fill the blanks
+book_en_330_page_1_cropped.png 
+Different kinds of [foods] can be [tasty].
+toys
+book_en_330_page_1_1.m4a
+
+multiple choices
+Which picture shows meat?
+book_en_330_page_3_cropped.png,book_en_330_page_4_cropped.png,book_en_330_page_5_cropped.png, book_en_330_page_6_cropped.png 
+book_en_330_page_4_cropped.png  
+
+multiple choices
+book_en_330_page_5_cropped.png
+Rice is a grain., Cheese is made from milk., Fruits can be sweet., Vegetables can be crunchy.
+Rice is a grain.
+
+matching
+Vegetables, Fruit, Milk
+book_en_330_page_3_cropped.png,book_en_330_page_2_cropped.png,book_en_330_page_6_cropped.png

@@ -1,0 +1,23 @@
+multiple choices
+What is this book about? 
+book_en_343_page_1_cropped.png
+Donkeys, Lions, Elephants
+Elephants
+
+fill the blanks
+book_en_343_page_2_cropped.png
+This is an [elephant] and its [baby].
+zebra
+book_en_343_page_2_1.m4a
+
+fill the blanks
+book_en_343_page_3_cropped.png
+An elephant’s [nose] is called a [trunk].
+leg
+book_en_343_page_3_1.m4a
+
+multiple choices
+What do elephants use to eat?
+Book_en_343_page_5_cropped.png
+Elephants use their trunks to eat., Elephants use their feet to eat., Elephant use their tail to eat.
+Elephants use their trunks to eat.

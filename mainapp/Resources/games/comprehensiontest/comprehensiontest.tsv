@@ -1,0 +1,309 @@
+#				#multiple choices	question text	question image	answers (image or text)	right answers (image or text)			
+#				#fill the blanks	question text	question image	text to fill	wrong words			
+#				#matching	question text	left type	right type	left items (image or text)	right items (image or text)	audio	기타 수정사항
+#				#tracing	question text	question image	tracing word				
+#Book Folder	Language	Book Name	Set	#reordering	question text	images in order					
+en_101	en-US	Transport	1	matching		image	image	transport_8_cropped_bus.png,transport_10_cropped_truck.png,transport_16_cropped_motorbike.png	transport_8_cropped_bus.png,transport_10_cropped_truck.png,transport_16_cropped_motorbike.png		
+en_101	en-US	Transport	1	matching		image	image	transport_12_cropped_bike.png,transport_6_cropped_train.png,transport_2_cropped_airplane.png	transport_12_cropped_bike.png,transport_6_cropped_train.png,transport_2_cropped_airplane.png		
+en_101	en-US	Transport	1	matching		text	text	bus,train,bike	bus,train,bike		
+en_101	en-US	Transport	1	tracing		transport_8_cropped_bus.png	bus				
+en_101	en-US	Transport	2	matching		text	image	Bus,Truck,Motorbike	transport_8_cropped_bus.png,transport_10_cropped_truck.png,transport_16_cropped_motorbike.png		
+en_101	en-US	Transport	2	multiple choices	Choose: Airplane.		transport_8_cropped_bus.png,transport_6_cropped_train.png,transport_2_cropped_airplane.png,transport_12_cropped_bike.png	transport_2_cropped_airplane.png			
+en_101	en-US	Transport	2	tracing		transport_12_cropped_bike.png	bike				
+en_101	en-US	Transport	2	multiple choices		transport_8_cropped_bus.png	Bike,Bus,Train,Truck	Bus			
+en_101	en-US	Transport	3	multiple choices		transport_4_cropped_helicopter.png	Helicopter,Airplane,Motorbike,Truck	Helicopter			
+en_101	en-US	Transport	3	tracing		transport_6_cropped_train.png	train				
+en_101	en-US	Transport	3	multiple choices		transport_10_cropped_truck.png	Train,Truck,Bike,Bus	Truck			
+en_101	en-US	Transport	3	multiple choices	Choose: Truck.		transport_8_cropped_bus.png,transport_6_cropped_train.png,transport_10_cropped_truck.png,transport_14_cropped_boat.png	transport_10_cropped_truck.png			
+en_102	en-US	Yummy foods	1	matching		image	image	foods_2_cropped_fruit.png,foods_4_cropped_bread.png,foods_5_cropped_vegetables.png	foods_2_cropped_fruit.png,foods_4_cropped_bread.png,foods_5_cropped_vegetables.png		
+en_102	en-US	Yummy foods	1	matching		image	image	foods_6_cropped_rice.png,foods_7_cropped_water.png,foods_8_cropped_milk.png	foods_6_cropped_rice.png,foods_7_cropped_water.png,foods_8_cropped_milk.png		
+en_102	en-US	Yummy foods	1	matching		text	text	water,rice,bread	water,rice,bread		
+en_102	en-US	Yummy foods	1	tracing		foods_8_cropped_milk.png	milk				
+en_102	en-US	Yummy foods	2	matching		text	image	Fruits,Breads,Vegetables	foods_2_cropped_fruit.png,foods_4_cropped_bread.png,foods_5_cropped_vegetables.png		
+en_102	en-US	Yummy foods	2	multiple choices	Choose: Vegetables.		foods_2_cropped_fruit.png,foods_4_cropped_bread.png,foods_6_cropped_rice.png,foods_5_cropped_vegetables.png	foods_5_cropped_vegetables.png			
+en_102	en-US	Yummy foods	2	tracing		foods_7_cropped_water.png	water				
+en_102	en-US	Yummy foods	2	multiple choices		foods_8_cropped_milk.png	Breads,Milk,Rice,Fruits	Milk			
+en_102	en-US	Yummy foods	3	multiple choices		foods_2_cropped_fruit.png	Breads,Rice,Milk,Fruits	Fruits			
+en_102	en-US	Yummy foods	3	tracing		foods_5_cropped_vegetables.png	vegetables				
+en_102	en-US	Yummy foods	3	multiple choices		foods_7_cropped_water.png	Fruits,Meats,Water,Milk	Water			
+en_102	en-US	Yummy foods	3	multiple choices	Choose: Rice.		foods_4_cropped_bread.png,foods_5_cropped_vegetables.png,foods_6_cropped_rice.png,foods_3_cropped_meat.png	foods_6_cropped_rice.png			
+en_103	en-US	Big and Small	1	matching		image	image	big_small_5_cropped_pigsmall.png,big_small_7_cropped_cowsmall.png,big_small_3_cropped_dogsmall.png	big_small_5_cropped_pigsmall.png,big_small_7_cropped_cowsmall.png,big_small_3_cropped_dogsmall.png		
+en_103	en-US	Big and Small	1	tracing		big_small_3_cropped_dogsmall.png	small				
+en_103	en-US	Big and Small	1	matching		text	text	pig,cow,dog	pig,cow,dog		
+en_103	en-US	Big and Small	1	tracing		big_small_4_cropped_dogbig.png	big				
+en_103	en-US	Big and Small	2	multiple choices	Choose: Pig.		big_small_1_cropped_birdsmall.png,big_small_7_cropped_cowsmall.png,big_small_5_cropped_pigsmall.png,big_small_3_cropped_dogsmall.png	big_small_5_cropped_pigsmall.png			
+en_103	en-US	Big and Small	2	multiple choices	Choose: Small pig.		big_small_1_cropped_birdsmall.png,big_small_5_cropped_pigsmall.png,big_small_6_cropped_pigbig.png,big_small_8_cropped_cowbig.png	big_small_5_cropped_pigsmall.png			
+en_103	en-US	Big and Small	2	matching		text	image	Small dog,Small cow,Small bird	big_small_3_cropped_dogsmall.png,big_small_7_cropped_cowsmall.png,big_small_1_cropped_birdsmall.png		
+en_103	en-US	Big and Small	2	matching		text	image	Big bird,Big cow,Big pig	big_small_2_cropped_birdbig.png,big_small_8_cropped_cowbig.png,big_small_6_cropped_pigbig.png		
+en_103	en-US	Big and Small	3	matching		image	image	big_small_2_cropped_birdbig.png,big_small_4_cropped_dogbig.png,big_small_8_cropped_cowbig.png	big_small_1_cropped_birdsmall.png,big_small_3_cropped_dogsmall.png,big_small_7_cropped_cowsmall.png		
+en_103	en-US	Big and Small	3	multiple choices	Choose: Big dog.		big_small_1_cropped_birdsmall.png,big_small_2_cropped_birdbig.png,big_small_4_cropped_dogbig.png,big_small_3_cropped_dogsmall.png	big_small_4_cropped_dogbig.png			
+en_103	en-US	Big and Small	3	multiple choices	Choose: Small cow.		big_small_5_cropped_pigsmall.png,big_small_3_cropped_dogsmall.png,big_small_8_cropped_cowbig.png,big_small_7_cropped_cowsmall.png	big_small_7_cropped_cowsmall.png			
+en_103	en-US	Big and Small	3	multiple choices		big_small_2_cropped_birdbig.png	Small bird,Small dog,Big bird,Big dog	Big bird			
+en_104	en-US	Colors	3	fill the blanks		color_1.png	Colors! Red, orange, yellow, [green], blue, and purple.	frog		en1_4_14.m4a	
+en_104	en-US	Colors	1	matching		image	image	color_2_cropped_red.png,color_6_cropped_yellow.png,color_8_cropped_green.png	color_2_cropped_red.png,color_6_cropped_yellow.png,color_8_cropped_green.png		
+en_104	en-US	Colors	1	tracing		color_10_cropped_blue.png	blue				
+en_104	en-US	Colors	1	matching		text	text	red,yellow,blue	red,yellow,blue		
+en_104	en-US	Colors	1	matching		text	text	green,purple,orange	green,purple,orange		
+en_104	en-US	Colors	2	matching		text	image	Orange,Yellow,Green	color_4_cropped_orange.png,color_6_cropped_yellow.png,color_8_cropped_green.png		
+en_104	en-US	Colors	2	multiple choices	Choose: red shirt.		color_5_cropped_orangefruit.png,color_3_cropped_shirt.png,color_15_cropped_dress.png,color_11_cropped_sky.png	color_3_cropped_shirt.png			
+en_104	en-US	Colors	2	tracing		color_1.png	colors				
+en_104	en-US	Colors	2	multiple choices		color_15_cropped_dress.png	Blue sky,Red shirt,Purple dress,Orange orange	Purple dress			
+en_104	en-US	Colors	3	multiple choices		color_5_cropped_orangefruit.png	Yellow egg,Green plant,Purple dress,Orange orange	Orange orange			
+en_104	en-US	Colors	3	multiple choices		color_9_cropped_plant.png	Green plant,Yellow egg,Blue sky,Red shirt	Green plant			
+en_104	en-US	Colors	3	multiple choices		color_1_cropped_rainbow.png	red,rainbow,blue,yellow	rainbow			
+en_105	en-US	Let's Write a Letter	3	fill the blanks		letter_8_cropped_lovewriting.png	I love [writing] letters to my friends!	speaking		en1_5_8.m4a	
+en_105	en-US	Let's Write a Letter	1	matching		image	image	letter_2_cropped_pencil.png,letter_1_cropped_paper.png,letter_4_cropped_envelope.png	letter_2_cropped_pencil.png,letter_1_cropped_paper.png,letter_4_cropped_envelope.png		
+en_105	en-US	Let's Write a Letter	1	tracing		letter_2_cropped_pencil.png	pencil				
+en_105	en-US	Let's Write a Letter	1	matching		text	text	pencil,address,post office	pencil,address,post office		
+en_105	en-US	Let's Write a Letter	1	matching		text	text	paper,envelope,words	paper,envelope,words		
+en_105	en-US	Let's Write a Letter	2	multiple choices	Choose: Envelope.		letter_2_cropped_pencil.png,letter_2_cropped_address.png,letter_4_cropped_envelope.png,letter_7_cropped_post_office.png	letter_4_cropped_envelope.png			
+en_105	en-US	Let's Write a Letter	2	multiple choices	Choose: Paper.		letter_1_cropped_paper.png,letter_6_cropped_stamp.png,letter_2_cropped_pencil.png,letter_4_cropped_envelope.png	letter_1_cropped_paper.png			
+en_105	en-US	Let's Write a Letter	2	tracing		letter_1_cropped_paper.png	paper				
+en_105	en-US	Let's Write a Letter	2	matching		text	image	Address,Stamp,Post Office	letter_2_cropped_address.png,letter_6_cropped_stamp.png,letter_7_cropped_post_office.png		
+en_105	en-US	Let's Write a Letter	3	multiple choices		letter_2_cropped_address.png	Paper,Stamp,Post Office,Address	Address			
+en_105	en-US	Let's Write a Letter	3	tracing		letter_3_cropped_writing.png	writing				
+en_105	en-US	Let's Write a Letter	3	tracing		letter_6_cropped_stamp.png	stamp				
+en_106	en-US	I love my family	3	fill the blanks		family_7_cropped_family.png	I love my [family] !	books		en1_6_title.m4a	
+en_106	en-US	I love my family	1	matching		image	image	family_2_cropped_dad.png,family_3_cropped_mom.png,family_7_cropped_grandma.png	family_2_cropped_dad.png,family_3_cropped_mom.png,family_7_cropped_grandma.png		
+en_106	en-US	I love my family	1	tracing		family_3_cropped_mom.png	mom				
+en_106	en-US	I love my family	1	matching		text	text	dad,mom,grandma	dad,mom,grandma		
+en_106	en-US	I love my family	1	matching		text	text	brother,grandpa,sister	brother,grandpa,sister		
+en_106	en-US	I love my family	2	matching		text	image	Dad,Brother,Sister	family_2_cropped_dad.png,family_4_cropped_brother.png,family_5_cropped_sister.png		
+en_106	en-US	I love my family	2	multiple choices	Choose: Mom.		family_2_cropped_dad.png,family_3_cropped_mom.png,family_4_cropped_brother.png,family_7_cropped_grandma.png	family_3_cropped_mom.png			
+en_106	en-US	I love my family	2	tracing		family_7_cropped_family.png	family				
+en_106	en-US	I love my family	2	multiple choices		family_5_cropped_sister.png	Mother,Sister,Grandma,Brother	Sister			
+en_106	en-US	I love my family	3	multiple choices		family_4_cropped_brother.png	Brother,Grandpa,Dad,Grandma	Brother			
+en_106	en-US	I love my family	3	tracing		family_2_cropped_dad.png	dad				
+en_106	en-US	I love my family	3	tracing		family_3_cropped_mom.png	mom				
+en_201	en-US	What do you like?	1	fill the blanks		like_1_cropped_like.png	What do you [like] doing?	need		en2_1_title.m4a	
+en_201	en-US	What do you like?	1	matching		text	image	I like to play.,I like to sing.,I like to eat.	like_2_cropped_play.png,like_3_cropped_sing.png,like_5_cropped_eat.png		
+en_201	en-US	What do you like?	1	tracing		like_6_cropped_draw.png	draw				
+en_201	en-US	What do you like?	1	multiple choices	Choose: I like to run.		like_8_cropped_read.png,like_4_cropped_run.png,like_3_cropped_sing.png,like_6_cropped_draw.png	like_4_cropped_run.png			
+en_201	en-US	What do you like?	2	fill the blanks		like_8_cropped_read.png	I like to [read].	eat		en2_1_8.m4a	
+en_201	en-US	What do you like?	2	fill the blanks		like_2_cropped_play.png	I [like] to play.	make		en2_1_2.m4a	
+en_201	en-US	What do you like?	2	matching		text	image	I like to write.,I like to play.,I like to sing.	like_7_cropped_write.png,like_2_cropped_play.png,like_3_cropped_sing.png		
+en_201	en-US	What do you like?	2	multiple choices	Choose: I like to draw.		like_8_cropped_read.png,like_3_cropped_sing.png,like_6_cropped_draw.png,like_4_cropped_run.png	like_6_cropped_draw.png			
+en_202	en-US	My emotions	1	fill the blanks		emotions_4_cropped_worried.png	I am [worried].	happy		en2_2_4.m4a	
+en_202	en-US	My emotions	1	matching		text	image	Happy,Angry,Shy	emotions_1_cropped_happy.png,emotions_3_cropped_angry.png,emotions_7_cropped_shy.png		
+en_202	en-US	My emotions	1	matching		text	image	I am sad.,I am surprised,I am joyful.	emotions_2_cropped_sad.png,emotions_6_cropped_surprised.png,emotions_8_cropped_joyful.png		
+en_202	en-US	My emotions	1	multiple choices	Choose: I am angry.		emotions_3_cropped_angry.png,emotions_6_cropped_surprised.png,emotions_8_cropped_joyful.png,emotions_1_cropped_happy.png	emotions_3_cropped_angry.png			
+en_202	en-US	My emotions	2	fill the blanks		emotions_5_cropped_excited.png	I am [excited].	angry		en2_2_5.m4a	
+en_202	en-US	My emotions	2	fill the blanks		emotions_2_cropped_sad.png	I [am] sad.	be		en2_2_2.m4a	
+en_202	en-US	My emotions	2	multiple choices		emotions_7_cropped_shy.png	I am joyful.,I am shy.,I am worried.,I am sad.	I am shy.			
+en_202	en-US	My emotions	2	multiple choices		emotions_6_cropped_happy.png	I am angry.,I am surprised.,I am worried.,I am happy.	I am happy.			
+en_203	en-US	Big, small and strong	1	fill the blanks		animals_6_cropped_snake.png	The snake is [long].	square		en2_3_6.m4a	
+en_203	en-US	Big, small and strong	1	matching		text	image	Elephant,Hippo,Peacock	animals_1_cropped_elephant.png,animals_5_cropped_hippo.png,animals_9_cropped_peacock.png		
+en_203	en-US	Big, small and strong	1	multiple choices	Choose: The lion is strong.		animals_5_cropped_hippo.png,animals_7_cropped_lion.png,animals_3_cropped_giraffe.png,animals_1_cropped_elephant.png	animals_7_cropped_lion.png			
+en_203	en-US	Big, small and strong	1	matching		text	image	The snake is long.,The baboon is clever.,The giraffe is tall.	animals_6_cropped_snake.png,animals_8_cropped_baboon.png,animals_3_cropped_giraffe.png		
+en_203	en-US	Big, small and strong	2	fill the blanks		animals_2_cropped_rat.png	The [rat] is small.	elephant		en2_3_2.m4a	
+en_203	en-US	Big, small and strong	2	matching		text	image	The rat is small.,The hippo is round.,The peacock is beautiful.	animals_2_cropped_rat.png,animals_5_cropped_hippo.png,animals_9_cropped_peacock.png		
+en_203	en-US	Big, small and strong	2	multiple choices		animals_3_cropped_giraffe.png	The elephant is big.,The hippo is round.,The giraffe is tall.,The baboon is clever.	The giraffe is tall.			
+en_203	en-US	Big, small and strong	2	multiple choices		animals_1_cropped_elephant.png	The lion is strong.,The peacock is beautiful.,The elephant is big.,The porcupine is prickly.	The elephant is big.			
+en_204	en-US	Oh, rats.	1	fill the blanks		rats_4_cropped_sad.png	The rat is [sad] .	happy		en2_4_4.m4a	
+en_204	en-US	Oh, rats.	1	matching		text	image	Nap,Sad,Mad	rats_3_cropped_sleep.png,rats_4_cropped_sad.png,rats_5_cropped_mad.png		
+en_204	en-US	Oh, rats.	1	multiple choices	Choose: The rat is mad.		rats_3_cropped_sleep.png,rats_4_cropped_sad.png,rats_5_cropped_mad.png,rats_2_cropped_fat.png	rats_5_cropped_mad.png			
+en_204	en-US	Oh, rats.	1	tracing		rats_1_cropped_rat.png	rat				
+en_204	en-US	Oh, rats.	2	fill the blanks		rats_8_cropped_ranvan.png	The rat [ran] to a van.	swims		en2_4_7.m4a	
+en_204	en-US	Oh, rats.	2	fill the blanks		rats_4_cropped_sad.png	The rat is [sad].			en2_4_4.m4a	
+en_204	en-US	Oh, rats.	2	matching		text	image	The rat is fat.,The rat is sad.,The rat ran.	rats_2_cropped_fat.png,rats_4_cropped_sad.png,rats_6.png		
+en_204	en-US	Oh, rats.	2	multiple choices		rats_3_cropped_sleep.png	The rat is fat.,The rat likes to nap.,The rat is sad.,The rat is mad.	The rat likes to nap.			
+en_205	en-US	The World	1	fill the blanks		world_2_cropped_earth.png	The world is so [big].	square		en2_5_1.m4a	
+en_205	en-US	The World	1	multiple choices	Choose: The earth has one moon.		world_4_cropped_land.png,world_6_cropped_morewater.png,world_3_cropped_round.png,world_7_cropped_moon.png	world_7_cropped_moon.png			
+en_205	en-US	The World	1	tracing		world_2_cropped_earth.png	earth				
+en_205	en-US	The World	1	matching		text	image	The earth has a lot of land.,The earth has a lot of water.,The earth has more water than land.	world_4_cropped_land.png,world_5_cropped_water.png,world_6_cropped_morewater.png		
+en_205	en-US	The World	2	fill the blanks		world_6_cropped_morewater.png	The earth has more [water] than land.	trees		en2_5_6.m4a	
+en_205	en-US	The World	2	fill the blanks		world_6_cropped_morewater.png	The earth has more [water] than [land].			en2_5_6.m4a	
+en_205	en-US	The World	2	multiple choices	Choose: The earth is our planet.		world_4_cropped_land.png,world_7_cropped_moon.png,world_8_new.png,world_3_cropped_round.png	world_8_new.png			
+en_205	en-US	The World	2	multiple choices		world_3_cropped_round.png	The earth is our planet.,The earth has a lot of land.,The world is so big.,The earth is round.	The earth is round.			
+en_206	en-US	Woof! Meow! Quack!	1	fill the blanks		woof_7_cropped_sheep.png	[Sheep] says 'Baa baa.'	Mouse		en2_6_7.m4a	
+en_206	en-US	Woof! Meow! Quack!	1	matching		text	image	Dog,Cat,Frog	woof_1_cropped_dog.png,woof_2_cropped_cat.png,woof_5_cropped_frog.png		
+en_206	en-US	Woof! Meow! Quack!	1	tracing		woof_7_cropped_sheep.png	sheep				
+en_206	en-US	Woof! Meow! Quack!	1	multiple choices	Choose: Snake says 'Sss sss.'		woof_6_cropped_cow.png,woof_9_cropped_snake.png,woof_8_cropped_mouse.png,woof_10_cropped_owl.png	woof_9_cropped_snake.png			
+en_206	en-US	Woof! Meow! Quack!	2	fill the blanks		woof_5_cropped_frog.png	[Frog] says 'Ribbit ribbit.'	duck		en2_6_5.m4a	
+en_206	en-US	Woof! Meow! Quack!	2	multiple choices	Choose: Cat says 'Meow meow.'		woof_2_cropped_cat.png,woof_1_cropped_dog.png,woof_5_cropped_duck.png,woof_7_cropped_sheep.png	woof_2_cropped_cat.png			
+en_206	en-US	Woof! Meow! Quack!	2	matching		text	image	Duck,Cow,Sheep	woof_5_cropped_duck.png,woof_6_cropped_cow.png,woof_7_cropped_sheep.png		
+en_206	en-US	Woof! Meow! Quack!	2	tracing		woof_1_cropped_dog.png	dog				
+en_302	en-US	The Hungry Crocodile	1	fill the blanks		croc_1.png	In the [swamp] lived a really hungry [crocodile].			en3_2_1.m4a	
+en_302	en-US	The Hungry Crocodile	1	fill the blanks		croc_5_new.png	BOOM! POW! CRUNCH! The [crocodile] attacked the poor [goat] .			en3_2_5.m4a	
+en_302	en-US	The Hungry Crocodile	1	matching		text	image	In the swamp lived a really hungry crocodile.,"It finally saw a giant, yummy, juicy goat!",Gulp. The crocodile is not hungry anymore. Burp.	croc_1_cropped_crocodile.png,croc_4_cropped_sawgoat.png,croc_6_cropped.png		
+en_302	en-US	The Hungry Crocodile	1	multiple choices	One day, it searched and searched for food.		croc_4_cropped_sawgoat.png,croc_1_cropped_crocodile.png,croc_5_crop.png,croc_2_cropped_searched.png	croc_2_cropped_searched.png			
+en_302	en-US	The Hungry Crocodile	1	multiple choices	Where did the crocodile live?		In the  forest.,In the jungle.,In the swamp.,In the sky.	In the swamp.			
+en_302	en-US	The Hungry Crocodile	2	fill the blanks		croc_5_new.png	The crocodile [saw] a goat and [attacked] it.			sentences_001.m4a	
+en_302	en-US	The Hungry Crocodile	2	fill the blanks		croc_6_cropped.png	After eating, the crocodile is [not] hungry.	very		sentences_002.m4a	
+en_302	en-US	The Hungry Crocodile	2	matching		text	image	The crocodile,The goat,The attack	croc_1_cropped_crocodile.png,croc_4_cropped_sawgoat.png,croc_5_crop.png		
+en_302	en-US	The Hungry Crocodile	2	multiple choices	What happens after the crocodile attacked the goat?		croc_4_cropped_sawgoat.png,croc_1_cropped_crocodile.png,croc_6_cropped_burp.png,croc_2_cropped_searched.png	croc_6_cropped_burp.png			
+en_302	en-US	The Hungry Crocodile	2	multiple choices	Why did the crocodile attack the goat?		It was bored.,It was hungry.,They are friends.,It was full.	It was hungry.			
+en_303	en-US	My Red Ball	1	fill the blanks		ball_6_cropped_tree.png	Oops. The [tree] caught my ball.	dog		en3_3_6.m4a	
+en_303	en-US	My Red Ball	1	fill the blanks		ball_16_cropped_onmoon.png	It is [up] on the [moon]!	ball		en3_3_16.m4a	
+en_303	en-US	My Red Ball	1	multiple choices	What color is the ball?		Blue,Green,Red,Violet	Red			
+en_303	en-US	My Red Ball	1	matching		text	image	"I kicked it really, really hard",Where did it go?,It is up on the moon!	ball_8_cropped_kick.png,ball_10_cropped_whereisball.png,ball_16_cropped_onmoon.png		
+en_303	en-US	My Red Ball	1	multiple choices	Why won't the ball come back?		It is far away on the moon.,It is swimming in the ocean.,It was eaten by a monster.,It went to the zoo.	It is far away on the moon.			
+en_303	en-US	My Red Ball	2	fill the blanks		ball_4_cropped_big.png	[My] [red] ball is big.			sentences_003.m4a	
+en_303	en-US	My Red Ball	2	fill the blanks		ball_10_cropped_whereisball.png	[Where] is that [huge] gigantic [red] ball?			en3_3_12.m4a	
+en_303	en-US	My Red Ball	2	matching		text	image	Ball,Sky,Moon	ball_1_cropped_ball.png,ball_14_cropped_insky.png,ball_16_cropped_onmoon.png		
+en_303	en-US	My Red Ball	2	matching		text	image	My,Red,Big	ball_2_cropped_myball.png,ball_3_cropped_red.png,ball_4_cropped_big.png		
+en_303	en-US	My Red Ball	2	multiple choices	What caught the ball?		The moon.,The ocean.,The tree.,The sky.	The tree.			
+en_304	en-US	Do you know the colors of the rainbow?	1	fill the blanks		color_11_cropped_sky.png	The [beautiful] [sky] is blue.			en3_4_11.m4a	
+en_304	en-US	Do you know the colors of the rainbow?	1	fill the blanks		color_17.png	Do you know the [seven] colors of the [rainbow]?			en3_4_17.m4a	
+en_304	en-US	Do you know the colors of the rainbow?	1	matching		text	image	Egg yolk,Sky,Orange	color_6_cropped_yellow.png,color_10_cropped_blue.png,color_4_cropped_orange.png		
+en_304	en-US	Do you know the colors of the rainbow?	1	multiple choices	What color is the egg yolk?		orange,yellow,blue,indigo	yellow			
+en_304	en-US	Do you know the colors of the rainbow?	1	multiple choices	What color is her dress?		purple,blue,yellow,green	purple			
+en_304	en-US	Do you know the colors of the rainbow?	2	fill the blanks		color_16.png	I like [this] color [very much].			en3_4_16.m4a	
+en_304	en-US	Do you know the colors of the rainbow?	2	fill the blanks		color_1_cropped_rainbow.png	The [first] color is red, and the [second] color is orange.			sentences_004.m4a	
+en_304	en-US	Do you know the colors of the rainbow?	2	matching		text	image	Neema is wearing a red shirt.,This is an orange.,The plants are green.	color_3_cropped_shirt.png,color_5_cropped_orangefruit.png,color_9_cropped_plum.png		
+en_304	en-US	Do you know the colors of the rainbow?	2	multiple choices	What food is orange?		color_7_cropped_egg.png,color_9_cropped_plant.png,color_5.png,color_13.png	color_5.png			
+en_304	en-US	Do you know the colors of the rainbow?	2	multiple choices	What color is NOT in a rainbow?		Purple,Orange,White,Blue	White			
+en_305	en-US	Where is my bat?	1	fill the blanks		bat_1.png	Bill is [looking] for his sports [bat].			en3_5_1.m4a	
+en_305	en-US	Where is my bat?	1	fill the blanks		bat_8.png	That is Bill's [sister]. It looks like she had the [bat] all along!			en3_5_8.m4a	
+en_305	en-US	Where is my bat?	1	matching		text	image	Bed,Trunk,Door	bat_4_cropped_underbed.png,bat_5_cropped_intrunk.png,bat_2_cropped_behinddoor.png		
+en_305	en-US	Where is my bat?	1	multiple choices	What is Bill looking for?		His dog.,His sister.,His trunk.,His sports bat.	His sports bat.			
+en_305	en-US	Where is my bat?	1	multiple choices	Why was Bill really confused?		He could not find his dog.,He could not find his bed.,He could not find his bat.,He could not find his sister.	He could not find his bat.			
+en_305	en-US	Where is my bat?	2	fill the blanks		bat_4_cropped_underbed.png	Bill looks [under] the bed and [in] the trunk for his sports bat.			sentences_005.m4a	
+en_305	en-US	Where is my bat?	2	fill the blanks		bat_3_cropped_onshelf.png	Bill looks [on top of] the shelf and [behind] the door for his sports bat.			sentences_006.m4a	
+en_305	en-US	Where is my bat?	2	multiple choices	Is it under the bed?		bat_5_cropped_intrunk.png,bat_4_cropped_underbed.png,bat_2.png,bat_3_cropped_onshelf.png	bat_4_cropped_underbed.png			
+en_305	en-US	Where is my bat?	2	multiple choices	Is it upstairs?		bat_4_cropped_underbed.png,bat_2_cropped_behinddoor.png,bat_6_cropped_upstairs.png,bat_5_cropped_intrunk.png	bat_6_cropped_upstairs.png			
+en_305	en-US	Where is my bat?	2	multiple choices	Who had Bill's sports bat?		His friend.,His sister.,His father.,His mother.	His sister.			
+en_306	en-US	The Lion and the Mouse	1	fill the blanks		mouse_2.png	The [mouse] met a scary [lion].			en3_6_2.m4a	
+en_306	en-US	The Lion and the Mouse	1	fill the blanks		mouse_4.png	The mouse begged , '[if] you don't eat me, I [will] help you.'			en3_6_4.m4a	
+en_306	en-US	The Lion and the Mouse	1	multiple choices	The lion was hungry. It wanted to eat the mouse!		mouse_1_cropped_mouse.png,mouse_8_cropped_help.png,mouse_6_cropped_caught.png,mouse_3_cropped_eat.png	mouse_3_cropped_eat.png			
+en_306	en-US	The Lion and the Mouse	1	matching		text	image	Mouse,Lion,Trap	mouse_1_cropped_mouse.png,mouse_2_cropped_lion.png,mouse_6_cropped_caught.png		
+en_306	en-US	The Lion and the Mouse	1	multiple choices	How did the mouse escape the lion?		It ran away.,It promised it would help the lion in the future.,It said it helped the lion before.,It said it will pay the lion money.	It promised it would help the lion in the future.			
+en_306	en-US	The Lion and the Mouse	2	fill the blanks		mouse_9_cropped_friends.png	The [lion] and the [mouse] became [friends].			en3_6_9.m4a	
+en_306	en-US	The Lion and the Mouse	2	fill the blanks		mouse_4.png	The mouse begged, 'If you don't eat [me], I will help [you].'			en3_6_4.m4a	
+en_306	en-US	The Lion and the Mouse	2	matching		text	image	To walk,To cry,To help	mouse_1_cropped_walk.png,mouse_7_cropped_cry.png,mouse_8_cropped_help.png		
+en_306	en-US	The Lion and the Mouse	2	reordering	Order of the story	mouse_2_cropped_meetlion.png,mouse_4_cropped_beg.png,mouse_8_cropped_help.png					
+en_306	en-US	The Lion and the Mouse	2	multiple choices	How did the mouse know the lion needed help?		It met the lion.,The lion was hungry.,The lion roared and cried.,The lion let him go.	The lion roared and cried.			
+en_307	en-US	Icky Icky	1	fill the blanks		soap_1_cropped_chasingbutterfly.png	Jill likes [chasing] butterflies.	seeing		en3_7_1.m4a	
+en_307	en-US	Icky Icky	1	fill the blanks		soap_7.png	That [night] Jill had a [nightmare].	dream		en3_7_6.m4a	
+en_307	en-US	Icky Icky	1	multiple choices	Jill likes playing in mud and with toy boats.		soap_7.png,soap_6.png,soap_4.png,soap_9.png	soap_4.png			
+en_307	en-US	Icky Icky	1	tracing		soap_11_cropped_likesbrushing.png	clean				
+en_307	en-US	Icky Icky	1	multiple choices	Why did the germs attack Jill?		Because they are mean.,Because Jill attacked them first.,Because Jill was dirty.,Because Super Soap made them.	Because Jill was dirty.			
+en_307	en-US	Icky Icky	2	fill the blanks		soap_11.png	Jill likes [brushing] her teeth and [taking] showers too!	playing		sentences_007.m4a	
+en_307	en-US	Icky Icky	2	matching		text	text	Jill,Super Soap,Germs	soap_1_cropped_girl.png,soap_7_cropped_germs.png,soap_9_cropped_soap.png		
+en_307	en-US	Icky Icky	2	tracing		soap_7.png	nightmare				
+en_307	en-US	Icky Icky	2	reordering	Order of the story	Jill has a nightmare.,Jill likes soap.,Jill does not want to wash up.					
+en_307	en-US	Icky Icky	2	multiple choices	Who rescues Jill from germs?		The birds.,The butterflies.,Super Soap.,Her mother.	Super Soap.			
+en_401	en-US	Good Friends	1	fill the blanks		good_friends_1.png	Bahati and Rehema are [good] friends. They are best [friends].	bad		en4_1_1.m4a	
+en_401	en-US	Good Friends	1	fill the blanks		good_friends_5_cropped_home.png	Rehema [had] to stay home and help her mom. She [couldn't] go to school.	didn't want to		en4_1_4.m4a	
+en_401	en-US	Good Friends	1	fill the blanks		good_friends_8_cropped_thanks.png	Friends [help] one another. Bahati and Rehema are good friends] who help one another.	challenge		sentences_008.m4a	
+en_401	en-US	Good Friends	1	matching		text	image	Rehema,Bahati,Rehema's mom	good_friends_0_cropped_girl.png,good_friends_0_cropped_boy.png,good_friends_4_cropped_mom.png		
+en_401	en-US	Good Friends	1	multiple choices	What do Bahati and Rehema do together?		"They study, play, and do everything together.",They eat together.,They eat and work together.,They do not do anything together.	"They study, play, and do everything together."			
+en_401	en-US	Good Friends	1	multiple choices	Why couldn't Rehema go to school?		She had to go to town.,She was sick.,She had to stay home and help her mom.,She didn't want to go to school.	She had to stay home and help her mom.			
+en_401	en-US	Good Friends	2	fill the blanks		good_friends_6_cropped_help.png	Bahati told her: \"I'll help you [tomorrow] [again] .\"	yesterday		en4_1_8_2.m4a	
+en_401	en-US	Good Friends	2	matching		text	image	To get sick,To thank,To get better	good_friends_3_cropped_sick.png,good_friends_8_cropped_thanks.png,good_friends_4_cropped_better.png		
+en_401	en-US	Good Friends	2	reordering	Order of the story	good_friends_5_cropped_home.png,good_friends_6_cropped_help.png,good_friends_8_cropped_school.png					
+en_401	en-US	Good Friends	2	multiple choices	Rehema was ___ because she couldn't go to school.		happy,sad,surprised,excited	sad			
+en_401	en-US	Good Friends	2	multiple choices	Bahati told her: 'I'll help you again tomorrow. I'll help you everyday until your mom is well.'		good_friends_4_cropped_better.png,good_friends_6_cropped_help.png,good_friends_3_cropped_sick.png,good_friends_5_cropped_home.png	good_friends_6_cropped_help.png			
+en_401	en-US	Good Friends	2	multiple choices	_____, they study together in school.		Yesterday,One day,Tomorrow,Every day	Every day			
+en_402	en-US	Friends	1	fill the blanks		simo_friends_8_cropped_andyou.png	What about [you], friend? [What] do you like to do?	me		en4_2_13.m4a	
+en_402	en-US	Friends	1	fill the blanks		simo_friends_8_cropped_andyou.png	The narrator is inviting the [reader] to come play too.	his friends		sentences_009.m4a	
+en_402	en-US	Friends	1	multiple choices	My friend Zizo likes to play soccer.		simo_friends_5_cropped_swim.png,simo_friends_6_cropped_hideseek.png,simo_friends_7_cropped_read.png,simo_friends_4_cropped_playball.png	simo_friends_4_cropped_playball.png			
+en_402	en-US	Friends	1	matching		text	image	Swim,Hide and seek,Soccer	simo_friends_5_cropped_swim.png,simo_friends_6_cropped_hideseek.png,simo_friends_4_cropped_playball.png		
+en_402	en-US	Friends	1	matching		text	text	Pool,Under the trees,Field	Swimming,Read,Soccer		
+en_402	en-US	Friends	1	multiple choices	Come and play with us!' Who is 'us'?		Simo and his friends,The reader,The family,Simo	Simo and his friends			
+en_402	en-US	Friends	2	fill the blanks		simo_friends_3_cropped_friends.png	I have four friends. [Their] names are Zizo, Lele, Sisa and Ayanda.	They		en4_2.m4a	
+en_402	en-US	Friends	2	fill the blanks		simo_friends_3_cropped_friends.png	There are [five] children in this story: Simo and his [four] friends.	six		sentences_010.m4a	
+en_402	en-US	Friends	2	matching		text	text	I play soccer with Zizo in the field.,I swim with Lele in the pool.,I read with Ayanda under the trees.	Come and play soccer with us!,Come and swim with us!,Come and read with us!		
+en_402	en-US	Friends	2	multiple choices	Simo and his friends like to:		Play soccer,Talk,Fight,Laugh	Play soccer			
+en_402	en-US	Friends	2	matching		text	text	Name,Friend,I	Names,Friends,We		
+en_402	en-US	Friends	2	multiple choices	Simo and his friends do not like to:		Play soccer,Read a book,Fight,Swim	Fight			
+en_403	en-US	How should I travel today?	1	fill the blanks		transport_5.png	The [helicopter] doesn't fly as [high] as the [plane] .	boat		en4_3_5_1.m4a	
+en_403	en-US	How should I travel today?	1	fill the blanks		transport_15_cropped.png	I am [scared] to use a boat, because I don't know how to [swim] .	happy		sentences_011.m4a	
+en_403	en-US	How should I travel today?	1	tracing		transport_4_cropped_helicopter.png	helicopter				
+en_403	en-US	How should I travel today?	1	multiple choices	I could use the bus.		transport_8_cropped_bus.png,transport_16_cropped_motorbike.png,transport_14_cropped_boat.png,transport_2_cropped_airplane.png	transport_8_cropped_bus.png			
+en_403	en-US	How should I travel today?	1	matching		text	text	Planes,The truck,The train station	fly high in the sky.,carries so many things.,is so far.		
+en_403	en-US	How should I travel today?	1	multiple choices	Why did the narrator decide to use the motorbike?		It was his first choice.,It was the best option.,It was the cheapest option.,His mom told him to.	It was the best option.			
+en_403	en-US	How should I travel today?	2	multiple choices	We use _____ to travel on water.		a train,a bicycle,a boat,a bus	a boat			
+en_403	en-US	How should I travel today?	2	matching		text	text	Plane,Bus,Boat	Sky,Land,Sea		
+en_403	en-US	How should I travel today?	2	multiple choices	How many buses are there in the village?		One,Two,Three,Four	One			
+en_403	en-US	How should I travel today?	2	multiple choices	We use _____ to travel on land.		transport_2_cropped_airplane.png,transport_8_cropped_bus.png,transport_4_cropped_helicopter.png,transport_14_cropped_boat.png	transport_8_cropped_bus.png			
+en_403	en-US	How should I travel today?	2	multiple choices	I will travel on _______.		a boat,a motorbike,a plane,a bus	a motorbike			
+en_403	en-US	How should I travel today?	2	matching		text	text	Travel,Move,Fly	Travelling,Moving,Flying		
+en_406	en-US	My Favorite Cow	1	fill the blanks		cow_3.png	Adhra is my good [friend] . We [help] each other. I [walk] with her while she eats grass.			en4_6_3.m4a	
+en_406	en-US	My Favorite Cow	1	multiple choices	What is the cow's name?		Adhra,Ahm,Adam,Aria	Adhra			
+en_406	en-US	My Favorite Cow	1	matching		image	text	cow_10_cropped_sellmilk.png,cow_9_cropped_drinkmilk.png,cow_5_cropped_givewater.png	Then I help my family sell bottles of Adhra's milk in our village. I like to help my family.,"When I am done, I go back home. I drink some delicious milk and spend time with my favorite cow.","Then I give her water so she can drink. She can drink much more than me, too!"		
+en_406	en-US	My Favorite Cow	1	tracing		cow_8_cropped_bottle.png	bottle				
+en_406	en-US	My Favorite Cow	1	tracing		cow_6_cropped_feedcow.png	friend				
+en_406	en-US	My Favorite Cow	1	tracing		cow_12_cropped_withcow.png	care				
+en_406	en-US	My Favorite Cow	1	multiple choices	What does Adhra love to eat?		Milk,Cookies,Carrots,Wheat	Carrots			
+en_406	en-US	My Favorite Cow	1	multiple choices	If Adhra got sick, the boy would ______.		worry.,feel happy.,feel tired.,be shy.	worry.			
+en_406	en-US	My Favorite Cow	2	fill the blanks		cow_10_cropped_sellmilk.png	The boy [sells] Adhra's [milk] in the village.	cheese		sentences_012.m4a	
+en_406	en-US	My Favorite Cow	2	multiple choices	Who are the main characters in this story?		"A boy and his cow, Adhra.","A boy and his dog, Adhra.",A boy and his family.,"A girl and her cow, Adhra."	"A boy and his cow, Adhra."			
+en_406	en-US	My Favorite Cow	2	matching		image	text	cow_9_cropped_drinkmilk.png,cow_10_cropped_sellmilk.png,cow_6_cropped_feedcow.png	Drinking milk,Selling milk,Feeding a cow		
+en_406	en-US	My Favorite Cow	2	reordering	Order of the story	"After she has eaten food and drank water, she lets us milk her.",Then we sell the bottles of Adra's milk in our village.,"When we are done, I go back home. I drink some delicious milk and spend time with my favorite cow."					
+en_406	en-US	My Favorite Cow	2	matching		text	text	Sometimes if she is still hungry,After she has eaten food and drank water,We take care of her	I even give her carrots to eat.,she let's us milk her.,and she takes care of us.		
+en_406	en-US	My Favorite Cow	2	multiple choices	What would the boy NOT like to do?		To feed his cow.,To help his family.,To sell his cow.,To spend time with his favorite cow.	To sell his cow.			
+en_408	en-US	Wangari Maathai	1	fill the blanks		wangari_4.png	Wangari believed things should be [fair] . She fought for the [rights] of the women in the schools.	fun,lunch		en4_8_4.m4a	
+en_408	en-US	Wangari Maathai	1	fill the blanks		wangari_7_cropped_greenbelt.png	The [Green] Belt movement planted many [trees]. They made the country [more] green. They helped the plants and the animals.	less,Orange		en4_8_8.m4a	
+en_408	en-US	Wangari Maathai	1	fill the blanks		wangari_8_cropped_tree.png	Planting more [trees] is good for the [earth]. Trees are important for our world. We need trees to [survive].	make money		sentences_013.m4a	
+en_408	en-US	Wangari Maathai	1	multiple choices	Who did Wangari fight for?		Monsters.,"Women, plants and animals.",Horses.,"Fish, horses, and monsters."	"Women, plants and animals."			
+en_408	en-US	Wangari Maathai	1	matching		text	image	Nobel Prize,University,Trees	wangari_9_cropped_nobel.png,wangari_3_cropped_diploma.png,wangari_8_cropped_tree.png		
+en_408	en-US	Wangari Maathai	1	multiple choices	What showed people liked Wangari for her hard work to save trees?		She was given the Nobel Peace Prize.,She made a lot of money.,She was President.	She was given the Nobel Peace Prize.			
+en_408	en-US	Wangari Maathai	2	fill the blanks		wangari_1_cropped_wangari.png	Do you know about Wangari Maathai? She made the [world] a [bettter] place.	worse		en4_8_1.m4a	
+en_408	en-US	Wangari Maathai	2	fill the blanks		wangari_1_cropped_wangari.png	I [respect] Wangari Maathai. She worked hard for other people. She tried to do [good] things.	best		sentences_014.m4a	
+en_408	en-US	Wangari Maathai	2	multiple choices	Who is the main character of this story?		animals,Nobel Peace Prize,Wangari Maathai,plants	Wangari Maathai			
+en_408	en-US	Wangari Maathai	2	reordering	Order of the story	"She was born in 1940. She grew up on a farm.","Wangari went to university in the United States. Then she moved back to her home country to work in the schools.","When Wangari was an old woman, she was given the Nobel Peace Prize. It is an award for making the world a better place."					
+en_408	en-US	Wangari Maathai	2	multiple choices	What is the Green Belt Movement?		Wangari made green belts.,Wangari led people to help all the elephants in the country.,Wangari led people to help all the animals in the country.,Wangari led people to plant trees all across the country.	Wangari led people to plant trees all across the country.			
+en_408	en-US	Wangari Maathai	2	reordering	Order of the story	"Wangari was born a long, long time ago.","She worked hard her whole life to make the world a better place for people, animals, and plants.","She was given a special award for her hard work."					
+en_409	en-US	To the Moon!	1	fill the blanks		moon_1_cropped_gotomoon.png	Once there was a [boy] named John and a [girl] named June. One day John and June decided to go to the [moon].	owl,sun		en4_9_1.m4a	
+en_409	en-US	To the Moon!	1	fill the blanks		moon_7_cropped_roll.png	John and June were [happy] to be on the moon. They had [fun] eating and playing in the sand dunes. They even got to [rest] on the moon!	shop,scared		sentences_015.m4a	
+en_409	en-US	To the Moon!	1	matching		text	image	Moon,Melon,Boots	moon_12_cropped_moon.png,moon_4_cropped_melon.png,moon_6_cropped_boots.png		
+en_409	en-US	To the Moon!	1	multiple choices	How did John and June get to the moon?		Rocket ship,Rocket boots,Airplane,Space birds	Rocket boots			
+en_409	en-US	To the Moon!	1	reordering	Order of the story	John and June had an idea to go to the moon.,John and June built rocket boots to get to the moon.,John and June played on the moon until it was time to go home.					
+en_409	en-US	To the Moon!	1	multiple choices	What is another word for snooze?		Run,Sleep,Eat,Lose	Sleep			
+en_409	en-US	To the Moon!	2	fill the blanks		moon_7_cropped_roll.png	John and June got to the moon and [rolled] and rolled down [white] sand dunes.	purple,walked		en4_9_7.m4a	
+en_409	en-US	To the Moon!	2	matching		text	image	One day John and June decided to go to the moon.,John and June built rocket boots with some tools.,And for lunch they ate soup and watched their mule.	moon_1_cropped_gotomoon.png,moon_6_cropped_rocketboots.png,moon_11_cropped_eat.png		
+en_409	en-US	To the Moon!	2	multiple choices	Who are the main characters of the story?		The boots and the owl.,The mule.,John and June.,John and Joan.	John and June.			
+en_409	en-US	To the Moon!	2	multiple choices	This story has a lot of:		facts and true events.,creativity and imagination.,science facts.,math.	creativity and imagination.			
+en_409	en-US	To the Moon!	2	tracing		moon_1_cropped_boots.png	boots				
+en_409	en-US	To the Moon!	2	tracing		moon_6_cropped_rocketboots.png	rocket				
+en_409	en-US	To the Moon!	2	tracing		moon_12_cropped_moon.png	moon				
+en_409	en-US	To the Moon!	2	reordering	Order of the story	My friends and I imagine we want to go some place.,My friends and I think of a creative way to get to that place.,My friends and I imagine we arrive at that place.					
+en_501	en-US	Who will marry mouse?	1	fill the blanks		marry_mouse_1_cropped_mice.png	Once upon a time, there was a [mouse]. The mouse had a beautiful [daughter].	son		sentences_016.m4a	
+en_501	en-US	Who will marry mouse?	1	fill the blanks		marry_mouse_3_cropped_mousecat.png	First he thought of a cat. He said to the cat: \"You are [stronger] than me. You will [marry] my daughter.\"	braver		sentences_017.m4a	
+en_501	en-US	Who will marry mouse?	1	fill the blanks		marry_mouse_6_cropped.png	I think one [lesson] of the story is that everyone is [strong] in their own way. What do you think?			sentences_018.m4a	
+en_501	en-US	Who will marry mouse?	1	fill the blanks		marry_mouse_17.png	It is [funny] that the [mouse] married his [daughter] to a mouse in the end. He talked to so [many] other beings!	dog		sentences_019.m4a	
+en_501	en-US	Who will marry mouse?	1	multiple choices	What kind of being did the mouse want to marry his daugher to?		A rich being.,A powerful being.,A smart being.,A sneaky being.	A powerful being.			
+en_501	en-US	Who will marry mouse?	1	matching		text	text	was,had,thought	is,has,think		
+en_501	en-US	Who will marry mouse?	1	matching		text	text	The cat replied:,The sun smiled and revealed:,The wind wheezed:	"\"I am stronger than you, but the dog is stronger than me.\"","\"I am stronger than the man, but the cloud is stronger than me.\"","\"I am stronger than the cloud, but the wall is stronger than me.\""		
+en_501	en-US	Who will marry mouse?	1	multiple choices	What was every animal's excuse to the mouse?		There were all too weak.,They did not like mouse's daughter.,There was always another being that was stronger.,They did not want to marry.	There was always another being that was stronger.			
+en_503	en-US	The Seventh Sun	1	fill the blanks		sun_1.png	Once upon a time, there were [seven] suns in our sky. The seven suns brought [incredible] light and heat. It was so hot and so sunny. It was actually [too hot] and too sunny.	one		sentences_020.m4a	
+en_503	en-US	The Seventh Sun	1	fill the blanks		sun_5.png	The animals held a [meeting]. They wanted to [solve] this problem. The rabbit explained that six suns were gone. But there was a seventh sun still [hiding] behind the [mountain] .	dancing		sentences_021.m4a	
+en_503	en-US	The Seventh Sun	1	fill the blanks		sun_9_cropped.png	The story is a [folktale]. It tries to explain why we only have [one] sun and why we can hear roosters [crow] every morning.			sentences_022.m4a	
+en_503	en-US	The Seventh Sun	1	reordering	Order of the story	It was too hot and too sunny.,Tried to kill the seven suns.,All the animals were confused.					
+en_503	en-US	The Seventh Sun	1	tracing		sun_5_cropped_animalmeeting.png	animals				
+en_503	en-US	The Seventh Sun	1	matching		text	image	Lion,Elephant,Peacock	sun_6_cropped_lion.png,sun_7_cropped_elephant.png,sun_8_cropped_peacock.png		
+en_503	en-US	The Seventh Sun	1	multiple choices	Why did the other animals laugh at the rooster?		The rooster told a joke.,They think the rooster looks funny.,They didn't think he could convince the sun to come out.,They didn't think the rooster is smart.	They didn't think he could convince the sun to come out.			
+en_503	en-US	The Seventh Sun	1	multiple choices	Why couldn't the people kill the seventh sun?		It was too fast.,It was too strong.,It was hiding behind a mountain.,It was too small.	It was hiding behind a mountain.			
+en_504	en-US	The Fox and the Grapes	1	fill the blanks		fox_grapes_3.png	The fox thought, “Wow. These [grapes] look really yummy.” He wanted to pull the grapes off their [vine]. He took a few steps back and jumped.	rocketed		sentences_023.m4a	
+en_504	en-US	The Fox and the Grapes	1	fill the blanks		fox_grapes_6_cropped_fall.png	The fox tried and tried to jump. And he kept [falling] . He must have [felt] pretty mad and [sad].			sentences_024.m4a	
+en_504	en-US	The Fox and the Grapes	1	fill the blanks		fox_grapes_8_cropped_sour.png	Sometimes when things don't happen the way we [want] them to, we will think of an [excuse] to explain why.			sentences_025.m4a	
+en_504	en-US	The Fox and the Grapes	1	multiple choices	Who is the main character of the story?		The fox.,The grapes.,The vines.,The birds.	The fox.			
+en_504	en-US	The Fox and the Grapes	1	multiple choices	Why couldn't the fox reach the grapes?		They were in a box.,They were too high.,He hurt his paw.,He didn't have money.	They were too high.			
+en_504	en-US	The Fox and the Grapes	1	reordering	Order of the story	fox_grapes_1_cropped_hungry_2.png,fox_grapes_6_cropped_fall.png,fox_grapes_8_cropped_sour.png					
+en_504	en-US	The Fox and the Grapes	1	tracing		fox_grapes_1_cropped_hungry_2.png	rumbling				
+en_504	en-US	The Fox and the Grapes	1	multiple choices	Why did the fox tell himself the grapes looked sour?		Because he couldn’t eat them and didn't want to feel sad.,Because he knew they were sour.,Because his friend said they were sour.,Because all grapes are sour.	Because he couldn’t eat them and didn't want to feel sad.			
+en_505	en-US	The Elephant and the Frogs	1	fill the blanks		elephant_frogs_1_cropped_lion.png	Once upon a time, the king of the jungle was a [mighty] lion, King Lion. The King Lion really liked [silence]. He liked everything to be very [quiet].	weak		sentences_026.m4a	
+en_505	en-US	The Elephant and the Frogs	1	fill the blanks		elephant_frogs_10.png	The King told all the animals to [listen] carefully and to do only [exactly] as he says.			sentences_027.m4a	
+en_505	en-US	The Elephant and the Frogs	1	fill the blanks		elephant_frogs_1_cropped_lion.png	Sometimes it is good to do [exactly] as someone says. But sometimes we have to [think] for [ourselves].	punish		sentences_028.m4a	
+en_505	en-US	The Elephant and the Frogs	1	tracing		elephant_frogs_3_cropped_elephant.png	elephant				
+en_505	en-US	The Elephant and the Frogs	1	multiple choices	Who stopped the frogs from making noise?		The lion.,The elephant.,The bugs.,The other animals.	The elephant.			
+en_505	en-US	The Elephant and the Frogs	1	multiple choices	Why did the Lion want the frogs to come back?		To eat the bugs.,To make noise again.,To say sorry.,To eat them.	To eat the bugs.			
+en_505	en-US	The Elephant and the Frogs	1	reordering	Order of the story	The elephant began to chase the frogs.,Bugs started hurting their fields.,The king was so angry at the elephant.					
+en_505	en-US	The Elephant and the Frogs	1	matching		text	image	Powerful,Noisy,Helpful	elephant_frogs_1_cropped_lion.png,elephant_frogs_4_cropped_frog.png,elephant_frogs_3_cropped_elephant.png		
+en_508	en-US	Tall Tumo	1	fill the blanks		tumo_1_cropped_tumo.png	Once there was a man named Tumo who was much too [tall] for his own good. Tumo's [height] made everything [difficult].	weight		sentences_029.m4a	
+en_508	en-US	Tall Tumo	1	fill the blanks		tumo_10_cropped.png	Tumo [explained] to the villagers how [hard] his life was. The villagers realized that it was not Tumo's [fault] he was so tall, and so they decided to help him out.	whined		sentences_030.m4a	
+en_508	en-US	Tall Tumo	1	matching		text	image	The bicycle is too small.,The house is too small.,The bed is too small.	tumo_2_cropped_bike.png,tumo_3_cropped_house.png,tumo_4_cropped_bed.png		
+en_508	en-US	Tall Tumo	1	multiple choices	Why was life difficult for Tumo?		He lost his favorite book.,He was too tall for everything.,He  was too short for everything.,He lost his favorite bike.	He was too tall for everything.			
+en_508	en-US	Tall Tumo	1	reordering	Order of the story	Tumo’s height made everything difficult.,Life was hard for Tumo and the villagers felt bad for him.,He lives his life easily and it is all thanks to his friends in the village.					
+en_508	en-US	Tall Tumo	1	multiple choices	How did the villagers help Tumo?		They did not help him at all.,They found him another tall friend.,They got him some medicine.,"They got him a new bike, new home, new hoe,  and new bed."	"They got him a new bike, new home, new hoe,  and new bed."			
+en_508	en-US	Tall Tumo	1	matching		text	text	Problem,Resolution,Main Character	"Tumo was too tall for everything, and the villagers laughed at him.","Tumo explained his problem and the villagers helped him.",Tall Tumo		
+en_508	en-US	Tall Tumo	1	multiple choices	At the end of the story, how does Tumo feel?		Annoyed,Grateful,Mad,Scared	Grateful			
+en_510	en-US	Khalai, the girl who loves plants	1	fill the blanks		girl_plants_1_cropped_girl.png	She loves [plants] and trees, and all things beautiful and [green].	red		sentences_031.m4a	
+en_510	en-US	Khalai, the girl who loves plants	1	fill the blanks		girl_plants_8_cropped_girlface.png	I'll ask [again] tomorrow, orange tree. And I'll [continue] to take care of you. And perhaps tomorrow, you will give me a ripe orange.	never		sentences_032.m4a	
+en_510	en-US	Khalai, the girl who loves plants	1	fill the blanks		girl_plants_7_cropped.png	Khalai [asks] each of the plants and trees to grow so they can [help] her and her loved ones. She tries to [take care of] them, so they can grow strong to help her.	destroy		sentences_033.m4a	
+en_510	en-US	Khalai, the girl who loves plants	1	matching		text	image	Khalai,Grass,Flowers	girl_plants_1_cropped_girl.png,girl_plants_3_cropped_grass.png,girl_plants_4_cropped_flowers.png		
+en_510	en-US	Khalai, the girl who loves plants	1	multiple choices	Why does Khalai want the orange tree to grow?		So she can eat its yummy oranges.,Because it should grow.,So she can read beneath it.,Because she promised her mom it would grow.	So she can eat its yummy oranges.			
+en_510	en-US	Khalai, the girl who loves plants	1	multiple choices	Who is the main character of the story?		The birds.,The trees,Khalai,Oranges	Khalai			
+en_510	en-US	Khalai, the girl who loves plants	1	matching		text	text	Pretty flowers,Big tree,Grass	For her hair,For reading books beneath,For laying down when she's tired		
+en_510	en-US	Khalai, the girl who loves plants	1	reordering	Order of the story	We learn Khalai loves plants and trees.,We learn Khalai talks to different plants and trees and asks them to grow strong.,"We learn that even if they grow slowly, Khalai will continue to wait and take care of them."					

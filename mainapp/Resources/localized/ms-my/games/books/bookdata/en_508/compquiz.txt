@@ -1,0 +1,20 @@
+fill the blanks
+book_en_508_page_5_cropped.png
+The [king] wants the people and animals to dance and show off their [legs] at the festival.
+shoes, snake
+book_en_508_page_5_quiz.m4a
+ 
+fill the blanks
+book_en_508_page_8_cropped.png
+The [animals] in the book have [different] kinds of legs.
+plants, same
+book_en_508_page_8_quiz.m4a
+ 
+multiple choices
+Which animal is sad that the festival is about dancing and legs?
+book_en_508_page_13_cropped.png
+The caterpillar, The mouse, The snake, The alligator
+The snake
+ 
+reordering
+The king tells everyone he wants a festival., The king meets many dancing people and animals., The king meets the snake, and remembers not everyone has legs.

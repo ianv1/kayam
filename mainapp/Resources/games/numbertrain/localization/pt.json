@@ -1,0 +1,12 @@
+{
+
+	"[circustrain]direction_largest_to_smallest_number" : "Organize em ordem do maior para o menor",
+	"[circustrain]direction_largest_to_smallest_shape" : "Organize em ordem do maior para o menor",
+	"[circustrain]direction_smallest_to_largest_number" : "Organize em ordem do menor para o maior",
+	"[circustrain]direction_smallest_to_largest_shape" : "Organize em ordem do menor para o maior",
+	"[circustrain]largest_number" : "Maior",
+	"[circustrain]largest_shape" : "Maior",
+	"[circustrain]smallest_number" : "Menor",
+	"[circustrain]smallest_shape" : "Menor",
+	"Circus Train" : "Trem de circo"
+}
