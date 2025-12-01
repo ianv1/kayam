@@ -102,7 +102,7 @@ PostTest_5	1	5001, 5002~5003, 5004~5007, 5008~5010, 5011, 5012, 5013, 5014, 5015
 			5004	biggest_and_smallest	biggest	Yang mana paling besar?	which_is_the_biggest.m4a			11~50				
 			5005	biggest_and_smallest	smallest	Yang mana paling kecil?	which_is_the_smallest.m4a			11~50				
 			5006	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			11~50				
-			5007	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			11~50				
+			5007	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			11~50				
 			5008	missing_number_drag	1	2	ascending			1~50				
 			5009	missing_number_drag	5	3	ascending			1~50	5			
 			5010	missing_number_drag	10	4	descending			1~50	10			
@@ -160,7 +160,7 @@ MiniTest_7_2	1	72001, 72002, 72003, 72004, 72005
 			72001	missing_number_drag	2	4	descending			1~10	2			
 			72002	operations_drag	11~19+11~19=?	regroupingfalse	horizontal			20~30				
 			72003	operations_drag	20-1~10=?		horizontal			1~10				
-			72004	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
+			72004	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
 			72005	word_problem	Razak mempunyai 2 guli. Aida mempunyai 3 guli daripada Razak. Berapa banyak guli yang dimiliki Aida?	en_uk_d3_02.m4a				5				
 MiniTest_7_3	1	73001, 73002, 73003, 73004, 73005												
 			73001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
@@ -171,7 +171,7 @@ MiniTest_7_3	1	73001, 73002, 73003, 73004, 73005
 PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012, 7013												
 			7001	use_magnitude_symbols	51~100	51~100	Isi tempat kosong.	fill_in_the_blank.m4a						
 			7002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~100				
-			7003	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
+			7003	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
 			7004	missing_number_drag	3	4	ascending			10~50	3			
 			7005	missing_number_drag	5	3	descending			10~50	5			
 			7006	operations_with_objects	11~19+1~9=?	regroupingtrue				20~30				
@@ -189,7 +189,7 @@ MiniTest_8_1	1	81001, 81002, 81003, 81004, 81005
 			81004	operations_drag	11~50-11~50=?	regroupingfalse	vertical			20~50				
 			81005	word_problem	Terdapat 14 ikan dalam tangki air. Kartini meletakkan 3 lagi ikan ke dalam tangki. Berapa banyak ikan yang ada?	en_uk_a1_04.m4a				17				
 MiniTest_8_2	1	82001, 82002, 82003, 82004, 82005												
-			82001	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
+			82001	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
 			82002	missing_number_drag	1	4	ascending			100~500				
 			82003	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
 			82004	word_problem	Terdapat 10 plat di meja makan. Terdapat 5 orang lagi daripada plat. Berapa banyak orang yang sedang makan malam?	en_uk_d3_09.m4a				15				
@@ -247,18 +247,18 @@ SpecialTest_1	1	10001, 10002, 10003, 10004, 10005
 			10001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~6	1			
 			10002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			5~10	1			
 			10003	use_magnitude_symbols	1~10	1~10	Isi tempat kosong.	fill_in_the_blank.m4a			2			
-			10004	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			1~6	1			
-			10005	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			5~10	1			
+			10004	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			1~6	1			
+			10005	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			5~10	1			
 SpecialTest_2	1	20001, 20002, 20003, 20004, 20005												
 			20001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			11~50				
 			20002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
 			20003	use_magnitude_symbols	11~50	11~50	Isi tempat kosong.	fill_in_the_blank.m4a						
 			20004	use_magnitude_symbols	11~99	11~99	Isi tempat kosong.	fill_in_the_blank.m4a						
-			20005	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			11~99				
+			20005	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			11~99				
 SpecialTest_3	1	30001, 30002, 30003, 30004, 30005												
 			30001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			100~500				
 			30002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			100~999				
-			30003	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			100~500				
+			30003	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			100~500				
 			30004	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
 			30005	use_magnitude_symbols	100~999	100~999	Isi tempat kosong.	fill_in_the_blank.m4a						
 SpecialTest_4	1	40001, 40002, 40003, 40004, 40005												
@@ -557,7 +557,7 @@ FishTest_7_3	1	731, 732, 733, 734~735, 736
 			733	operations_drag	11~20-1~9=?	regroupingtrue	vertical			1~19				
 			734	operations_drag	20-1~9=?	regroupingtrue	vertical			11~19				
 			735	operations_drag	20-11~19=?	regroupingtrue	vertical			1~9				
-			736	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			71~99				
+			736	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			71~99				
 FishTest_8_1	1	811, 812~813, 814, 815, 816												
 			811	missing_number_drag	3	4	ascending			1~20	3			
 			812	operations_with_objects	11~19-1~9=?	regroupingtrue				1~9				
@@ -569,7 +569,7 @@ FishTest_8_2	1	821, 822, 823, 824, 825
 			821	missing_number_drag	2	4	descending			1~10	2			
 			822	operations_drag	11~19+11~19=?	regroupingfalse	horizontal			20~30				
 			823	operations_drag	20-1~10=?		horizontal			1~10				
-			824	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
+			824	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
 			825	word_problem	Billy has 2 marbles. Audrey has 3 more marbles than Billy. How many marbles does Audrey have?	en_uk_d3_02.m4a				5				
 FishTest_8_3	1	831, 832, 833, 834, 835												
 			831	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
@@ -584,7 +584,7 @@ FishTest_9_1	1	911, 912, 913, 914, 915
 			914	operations_drag	11~50-11~50=?	regroupingfalse	vertical			20~50				
 			915	word_problem	There are 14 fish in a water tank. Kerri put 3 more fish into the tank. How many fish are there?	en_uk_a1_04.m4a				17				
 FishTest_9_2	1	921, 922, 923, 924, 925												
-			921	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
+			921	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
 			922	missing_number_drag	1	4	ascending			100~500				
 			923	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
 			924	word_problem	There are 10 plates at the dinner table. There are 5 more people than plates. How many people are at dinner?	en_uk_d3_09.m4a				15				
