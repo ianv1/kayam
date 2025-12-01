@@ -155,19 +155,19 @@ MiniTest_7_1	1	71001,71002, 71003, 71004, 71005
 			71002	operations_with_objects	11~19-1~9=?	regroupingtrue				1~9				
 			71003	operations_drag	1~10+1~10=?	regroupingtrue	vertical			10~20				
 			71004	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
-			71005	word_problem	7 red apples and 2 green apples are in the basket. How many apples are in the basket?	en_uk_a1_08.m4a				9				
+			71005	word_problem	7 epal merah dan 2 epal hijau berada di dalam bakul. Berapa banyak epal dalam bakul?	en_uk_a1_08.m4a				9				
 MiniTest_7_2	1	72001, 72002, 72003, 72004, 72005												
 			72001	missing_number_drag	2	4	descending			1~10	2			
 			72002	operations_drag	11~19+11~19=?	regroupingfalse	horizontal			20~30				
 			72003	operations_drag	20-1~10=?		horizontal			1~10				
 			72004	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
-			72005	word_problem	Billy has 2 marbles. Audrey has 3 more marbles than Billy. How many marbles does Audrey have?	en_uk_d3_02.m4a				5				
+			72005	word_problem	Razak mempunyai 2 guli. Aida mempunyai 3 guli daripada Razak. Berapa banyak guli yang dimiliki Aida?	en_uk_d3_02.m4a				5				
 MiniTest_7_3	1	73001, 73002, 73003, 73004, 73005												
 			73001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
 			73002	missing_number_drag	2	3	descending			11~30	2			
 			73003	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
 			73004	operations_drag	21~50-10~20=?	regroupingfalse	vertical			1~40				
-			73005	word_problem	5 apples are on the table. Sam eats 2 apples. How many apples are left on the table?	en_uk_b1_01.m4a				3				
+			73005	word_problem	5 epal ada di atas meja. Daud makan 2 epal. Berapa banyak epal yang tersisa di atas meja?	en_uk_b1_01.m4a				3				
 PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012, 7013												
 			7001	use_magnitude_symbols	51~100	51~100	Isi tempat kosong.	fill_in_the_blank.m4a						
 			7002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~100				
@@ -178,28 +178,28 @@ PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012
 			7007	operations_with_objects	1~9+11~19=?	regroupingtrue				20~30				
 			7008	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
 			7009	operations_drag	11~50-11~30=?	regroupingfalse	vertical			1~50				
-			7010	word_problem	Stacie caught 5 fish in the morning. She caught 4 more fish in the afternoon. How many fish did Stacie catch in all?	en_uk_a1_01.m4a				9				
-			7011	word_problem	Thomas has 2 goats on his farm. There are 6 more chickens than goats on his farm. How many chickens does he have?	en_uk_d3_07.m4a				8				
-			7012	word_problem	4 birds are sitting on a branch. 1 flies away. How many birds are left on the branch?	en_uk_b1_03.m4a				3				
-			7013	word_problem	You have 7 balloons and your friend has 5 balloons. How many more balloons do you have than your friend?	en_uk_d1_02.m4a				2				
+			7010	word_problem	Mariam menangkap 5 ikan pada waktu pagi. Dia menangkap 4 lagi ikan pada sebelah petang. Berapa banyak ikan yang ditangkap Mariam dalam semua?	en_uk_a1_01.m4a				9				
+			7011	word_problem	Ismail mempunyai 2 kambing di ladangnya. Terdapat 6 lagi ayam daripada kambing di ladangnya. Berapa banyak ayam yang dia ada?	en_uk_d3_07.m4a				8				
+			7012	word_problem	4 burung duduk di cawangan. 1 terbang jauh. Berapa banyak burung yang tinggal di cawangan?	en_uk_b1_03.m4a				3				
+			7013	word_problem	Anda mempunyai 7 belon dan rakan anda mempunyai 5 belon. Berapa banyak lagi belon yang anda ada daripada rakan anda?	en_uk_d1_02.m4a				2				
 MiniTest_8_1	1	81001, 81002, 81003, 81004, 81005												
 			81001	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
 			81002	missing_number_drag	2	4	descending			50~100	2			
 			81003	operations_drag	11~50+11~50=?	regroupingfalse	vertical			20~50				
 			81004	operations_drag	11~50-11~50=?	regroupingfalse	vertical			20~50				
-			81005	word_problem	There are 14 fish in a water tank. Kerri put 3 more fish into the tank. How many fish are there?	en_uk_a1_04.m4a				17				
+			81005	word_problem	Terdapat 14 ikan dalam tangki air. Kartini meletakkan 3 lagi ikan ke dalam tangki. Berapa banyak ikan yang ada?	en_uk_a1_04.m4a				17				
 MiniTest_8_2	1	82001, 82002, 82003, 82004, 82005												
 			82001	compare_number_magnitudes	descending	Order the numbers from largest to smallest.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
 			82002	missing_number_drag	1	4	ascending			100~500				
 			82003	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
-			82004	word_problem	There are 10 plates at the dinner table. There are 5 more people than plates. How many people are at dinner?	en_uk_d3_09.m4a				15				
-			82005	word_problem	There are 12 cats on a fence. 1 cat jumps down off of the fence. How many cats are left on the fence?	en_uk_b1_09.m4a				11				
+			82004	word_problem	Terdapat 10 plat di meja makan. Terdapat 5 orang lagi daripada plat. Berapa banyak orang yang sedang makan malam?	en_uk_d3_09.m4a				15				
+			82005	word_problem	Terdapat 12 kucing di pagar. 1 kucing melompat dari pagar. Berapa banyak kucing yang tinggal di pagar?	en_uk_b1_09.m4a				11				
 MiniTest_8_3	1	83001, 83002, 83003, 83004, 83005												
 			83001	missing_number_drag	100	2	ascending			100~900	100			
 			83002	operations_drag	11~18-1~9=?	regroupingtrue	horizontal			1~9				
 			83003	operations_drag	21~50-11~30=?	regroupingtrue	vertical			1~40				
-			83004	word_problem	Janet has 8 oranges and Sharon has 4 oranges. How many oranges do they have altogether?	en_uk_a2_08.m4a				12				
-			83005	word_problem	Sandy is 5 years old. Mia is 7 years older than Sandy. How old is Mia?	en_uk_d4_10.m4a				12				
+			83004	word_problem	Janet mempunyai 8 oren dan Sharifah mempunyai 4 oren. Berapa banyak oren yang mereka ada?	en_uk_a2_08.m4a				12				
+			83005	word_problem	Sandy berumur 5 tahun. Mia berusia 7 tahun lebih tua daripada Sandy. Berapa umur Mia?	en_uk_d4_10.m4a				12				
 PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010												
 			8001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			300~700				
 			8002	missing_number_drag	1	3	ascending			200~999				
@@ -207,17 +207,17 @@ PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010
 			8004	missing_number_drag	100	4	descending			100~500	100			
 			8005	operations_drag	11~50+11~20=?	regroupingtrue	vertical			1~50				
 			8006	operations_drag	31~50-11~20=?	regroupingtrue	vertical			1~50				
-			8007	word_problem	Tom has 6 books. James has 2 books. How many books do they have in all?	en_uk_a1_05.m4a				8				
-			8008	word_problem	Diego has 11 mangos in a basket. Diego gives 4 mangos to his sister. How many mangos are left in the basket?	en_uk_b2_05.m4a				7				
-			8009	word_problem	Fred is 12 years old. His brother Tom is 8 years old. How much younger is Tom than Fred?	en_uk_d2_06.m4a				4				
-			8010	word_problem	A farmer gathered 16 eggs. She used 4 eggs to make breakfast. How many eggs does she have left?	en_uk_b1_06.m4a				12				
+			8007	word_problem	Ali mempunyai 6 buku. Hassan mempunyai 2 buku. Berapa banyak buku yang mereka ada dalam semua?	en_uk_a1_05.m4a				8				
+			8008	word_problem	Daud mempunyai 11 mangga dalam bakul. Daud memberikan 4 mangga kepada kakaknya. Berapa banyak mangga yang tinggal di dalam bakul?	en_uk_b2_05.m4a				7				
+			8009	word_problem	Hamid berumur 12 tahun. Saudaranya Ali berumur 8 tahun. Berapa lebih muda Ali daripada Hamid?	en_uk_d2_06.m4a				4				
+			8010	word_problem	Seorang petani berkumpul 16 biji telur. Dia menggunakan 4 biji telur untuk membuat sarapan. Berapa banyak telur yang dia tinggalkan?	en_uk_b1_06.m4a				12				
 MiniTest_9_1	1	91001~91003, 91004, 91005, 91006, 91007												
 			91001	operations_drag	11~99+10, 20, 30, 40, 50, 60, 70, 70, 80=?		horizontal			1~100				
 			91002	operations_drag	10, 20, 30, 40, 50, 60, 70, 80+11~99=?		horizontal			1~100				
 			91003	operations_drag	10, 20, 30, 40, 50, 60, 70, 80, 90-5,10=?		horizontal			1~100				
 			91004	operations_without_objects	2, 3, 4, 5x1~9=?		horizontal			2~45				
 			91005	missing_number_drag	10	3	ascending			500~990	10			
-			91006	word_problem	Jane has 9 balloons. 6 are green and the rest are blue. How many balloons are blue?	en_uk_c1_04.m4a				3				
+			91006	word_problem	Noriza mempunyai 9 belon. 6 berwarna hijau dan selebihnya berwarna biru. Berapa banyak belon berwarna biru?	en_uk_c1_04.m4a				3				
 			91007	shapes	what	Apakah bentuk ini?	What_is_this_shape			circle,square,triangle,rectangle	circle,square,triangle,rectangle			
 MiniTest_9_2	1	92001~92002, 92003, 92004, 92005, 92006												
 			92001	missing_number_drag	1	4	descending			100~999				
@@ -225,12 +225,12 @@ MiniTest_9_2	1	92001~92002, 92003, 92004, 92005, 92006
 			92003	operations_drag	31~50+20~50=?	regroupingfalse	vertical			1~100				
 			92004	operations_drag	10~99-10=?		vertical			1~90				
 			92005	operations_without_objects	6, 7, 8, 9x1~9=?		horizontal			6~81				
-			92006	word_problem	A farmer had 7 apple trees. She bought some more trees and now has 10 apple trees in her orchard. How many apple trees did she buy?	en_uk_e1_04.m4a				3				
+			92006	word_problem	Seorang petani mempunyai 7 pokok epal. Dia membeli lebih banyak pokok dan kini mempunyai 10 pokok epal di kebunnya. Berapa banyak pokok epal yang dia beli?	en_uk_e1_04.m4a				3				
 MiniTest_9_3	1	93001, 93002, 93003, 93004, 93005												
 			93001	operations_drag	11~30+20~70=?	regroupingtrue	vertical			1~99				
 			93002	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~99				
 			93003	missing_number_drag	10	4	descending			100~999	10			
-			93004	word_problem	The tennis team has 12 players. 6 of the players are girls. Some are boys. How many tennis players are boys?	en_uk_c2_09.m4a				6				
+			93004	word_problem	Pasukan tenis mempunyai 12 pemain. 6 pemain adalah gadis. Ada lelaki. Berapa banyak pemain tenis lelaki?	en_uk_c2_09.m4a				6				
 			93005	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,heksagon,segi_empat_selari,trapezium	pentagon,heksagon,segi_empat_selari,trapezium
 PostTest_9	1	9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010												
 			9001	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~100				
