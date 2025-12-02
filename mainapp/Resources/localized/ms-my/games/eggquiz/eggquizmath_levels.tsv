@@ -180,7 +180,7 @@ PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012
 			7009	operations_drag	11~50-11~30=?	regroupingfalse	vertical			1~50				
 			7010	word_problem	Mariam menangkap 5 ikan pada waktu pagi. Dia menangkap 4 lagi ikan pada sebelah petang. Berapa banyak ikan yang ditangkap Mariam dalam semua?	en_uk_a1_01.m4a				9				
 			7011	word_problem	Ismail mempunyai 2 kambing di ladangnya. Terdapat 6 lagi ayam daripada kambing di ladangnya. Berapa banyak ayam yang dia ada?	en_uk_d3_07.m4a				8				
-			7012	word_problem	4 burung duduk di cawangan. 1 terbang jauh. Berapa banyak burung yang tinggal di cawangan?	en_uk_b1_03.m4a				3				
+			7012	word_problem	4 ekor burung sedang bertenggek di atas dahan. Seekor terbang pergi. Berapa ekor burung yang tinggal di atas dahan?	en_uk_b1_03.m4a				3				
 			7013	word_problem	Anda mempunyai 7 belon dan rakan anda mempunyai 5 belon. Berapa banyak lagi belon yang anda ada daripada rakan anda?	en_uk_d1_02.m4a				2				
 MiniTest_8_1	1	81001, 81002, 81003, 81004, 81005												
 			81001	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
