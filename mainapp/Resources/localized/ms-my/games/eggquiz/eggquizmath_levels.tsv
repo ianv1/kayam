@@ -76,7 +76,7 @@ PostTest_4	1	4001, 4002, 4003, 4004~4005, 4006, 4007, 4008, 4009~4010, 4011~4014
 			4012	shapes	which	Yang manakah segi empat sama?	which_is_a_square			square	circle,square,triangle,rectangle			
 			4013	shapes	which	Yang manakah segi tiga?	which_is_a_triangle			triangle	circle,square,triangle,rectangle			
 			4014	shapes	which	Yang manakah segi empat tepat?	which_is_a_rectangle			rectangle	circle,square,triangle,rectangle			
-			4015	shapes	what	Apakah bentuk ini?	What_is_this_shape			bulatan,segi_empat_sama,segi_tiga,segi_empat_tempat	bulatan,segi_empat_sama,segi_tiga,segi_empat_tempat
+			4015	shapes	what	Apakah bentuk ini?	What_is_this_shape			bulatan,segi_empat_sama,segi_tiga,segi_empat_tepat	bulatan,segi_empat_sama,segi_tiga,segi_empat_tepat
 MiniTest_5_1	1	51001, 51002, 51003, 51004, 51005												
 			51001	operations_drag	1~9+1~9=?		horizontal			1~10				
 			51002	operations_drag	1~10-1~9=?		horizontal			1~9				
@@ -218,7 +218,7 @@ MiniTest_9_1	1	91001~91003, 91004, 91005, 91006, 91007
 			91004	operations_without_objects	2, 3, 4, 5x1~9=?		horizontal			2~45				
 			91005	missing_number_drag	10	3	ascending			500~990	10			
 			91006	word_problem	Noriza mempunyai 9 belon. 6 berwarna hijau dan selebihnya berwarna biru. Berapa banyak belon berwarna biru?	en_uk_c1_04.m4a				3				
-			91007	shapes	what	Apakah bentuk ini?	What_is_this_shape			circle,square,triangle,rectangle	circle,square,triangle,rectangle			
+			91007	shapes	what	Apakah bentuk ini?	What_is_this_shape			bulatan,segi_empat_sama,segi_tiga,segi_empat_sama	bulatan,segi_empat_sama,segi_tiga,segi_empat_tepat			
 MiniTest_9_2	1	92001~92002, 92003, 92004, 92005, 92006												
 			92001	missing_number_drag	1	4	descending			100~999				
 			92002	missing_number_drag	5	3	ascending			100~999	5			
