@@ -238,11 +238,11 @@ PostTest_9	1	9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010
 			9003	missing_number_drag	5	4	descending			100~999	5			
 			9004	missing_number_drag	3	3	ascending			1~20				
 			9005	operations_without_objects	2~9x2~9=?		horizontal			4~81				
-			9006	word_problem	Peter has 4 marbles. Sue gives Peter some marbles and now he has 6 marbles in all. How many marbles did Sue give Peter?	en_uk_e1_02.m4a				2				
-			9007	word_problem	I have 10 apples. I eat some apples. I have 4 apples left. How many apples did I eat?	en_uk_e2_01.m4a				6				
+			9006	word_problem	Petrus mempunyai 4 biji guli. Suzana memberikan Petrus beberapa biji guli dan kini dia mempunyai 6 biji guli semuanya. Berapa biji guli yang diberikan oleh Suzana kepada Petrus?	en_uk_e1_02.m4a				2				
+			9007	word_problem	Saya mempunyai 10 biji epal. Saya memakan beberapa biji epal. Saya mempunyai 4 biji epal yang tinggal. Berapa biji epal yang saya makan?	en_uk_e2_01.m4a				6				
 			9008	shapes	what	Apakah bentuk ini?	What_is_this_shape			silinder,kubus,sfera,kon	silinder,kubus,sfera,kon
-			9009	word_problem	A bee has 6 legs. How many legs do 2 bees have?	en_uk_f1_02.m4a				12				
-			9010	word_problem	2 children share 8 sweets equally. How many sweets does each child get?	en_uk_f2_01.m4a				4				
+			9009	word_problem	Seekor lebah mempunyai 6 kaki. Berapakah jumlah kaki bagi 2 ekor lebah?	en_uk_f1_02.m4a				12				
+			9010	word_problem	2 orang kanak-kanak berkongsi 8 gula-gula sama rata. Berapa banyak gula-gula yang diperoleh setiap kanak-kanak?	en_uk_f2_01.m4a				4				
 SpecialTest_1	1	10001, 10002, 10003, 10004, 10005												
 			10001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~6	1			
 			10002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			5~10	1			
