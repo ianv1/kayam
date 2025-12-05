@@ -192,7 +192,7 @@ MiniTest_8_2	1	82001, 82002, 82003, 82004, 82005
 			82001	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
 			82002	missing_number_drag	1	4	ascending			100~500				
 			82003	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
-			82004	word_problem	Terdapat 10 plat di meja makan. Terdapat 5 orang lagi daripada plat. Berapa banyak orang yang sedang makan malam?	en_uk_d3_09.m4a				15				
+			82004	word_problem	Terdapat 10 pinggan di meja makan. Terdapat 5 orang lagi daripada pinggan. Berapa banyak orang yang sedang makan malam?	en_uk_d3_09.m4a				15				
 			82005	word_problem	Terdapat 12 kucing di pagar. 1 kucing melompat dari pagar. Berapa banyak kucing yang tinggal di pagar?	en_uk_b1_09.m4a				11				
 MiniTest_8_3	1	83001, 83002, 83003, 83004, 83005												
 			83001	missing_number_drag	100	2	ascending			100~900	100			
@@ -427,7 +427,7 @@ SpecialTest_25	1	250001, 250002, 250003, 250004, 250005
 			250004	operations_without_objects	8~9x2~9=?		horizontal			16~81				
 			250005	operations_without_objects	2~9x2~9=?		horizontal			4~81				
 SpecialTest_26	1	260001~260010, 260001~260010, 260001~260010, 260001~260010, 260001~260010												
-			260001	word_problem	Miranda baked 18 brownies. She put an equal number of brownies on to 2 plates. How many brownies are on each plate?	en_uk_f2_05.m4a				9				
+			260001	word_problem	Miranda baked 18 brownies. She put an equal number of brownies on to 2 plates. How many brownies are on each platese?	en_uk_f2_05.m4a				9				
 			260002	word_problem	A farmer has 16 eggs and puts them into 2 boxes equally. How many eggs are in each box?	en_uk_f2_03.m4a				8				
 			260003	word_problem	Sarah picked 6 flowers. She put an equal amount of flowers into 2 vases. How many flowers did she put in each vase?	en_uk_f2_04.m4a				3				
 			260004	word_problem	Shante picked 6 mangos from a tree. He put an equal number of mangos into 3 boxes. How many mangos did he put in each box?	en_uk_f2_07.m4a				2				
