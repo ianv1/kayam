@@ -40,13 +40,41 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/ll_language_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textView_language_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="EN"
+                android:textColor="#673309"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/switch_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false" />
+
+        </LinearLayout>
+
         <ImageView
             android:id="@+id/imageView_coin"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_centerVertical="true"
             android:layout_marginEnd="8dp"
-            android:layout_toStartOf="@+id/textView_numCoin"
+            android:layout_toStartOf="@+id/ll_language_toggle"
             android:background="@android:color/transparent"
             android:src="@drawable/tools_image_icon_coin" />
 
@@ -54,9 +82,9 @@
             android:id="@+id/textView_numCoin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/imageView_coin"
+            android:layout_marginEnd="8dp"
             android:textColor="#FDDB68"
             android:textSize="32sp" />
 
