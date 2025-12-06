@@ -3,6 +3,8 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
+    namespace "asia.chumbaka.kayam.bookviewer"
+    ndkVersion "14.1.3816874"
     compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()
     buildToolsVersion "25.0.0"
 
@@ -149,8 +151,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':libcocos2dx')
-    compile project(':kitkitlogger')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':libcocos2dx')
+    implementation project(':kitkitlogger')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     //compile project(path: ':kitkitlogger', configuration: 'swahiliRelease')
 }

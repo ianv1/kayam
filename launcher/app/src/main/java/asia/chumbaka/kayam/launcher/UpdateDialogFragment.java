@@ -99,7 +99,7 @@ public class UpdateDialogFragment extends DialogFragment {
         TextView bookViewerRemoteVersion = (TextView) dialogView.findViewById(R.id.bookviewer_remote_version);
 
         try {
-            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.bookviewer", 0);
+            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.bookviewer.bm", 0);
             int version = pInfo.versionCode;
             bookviewerVersion = version;
             bookViewerCurrentVersion.setText(String.valueOf(version));
