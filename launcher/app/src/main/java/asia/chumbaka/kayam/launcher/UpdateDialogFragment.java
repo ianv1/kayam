@@ -73,7 +73,7 @@ public class UpdateDialogFragment extends DialogFragment {
         TextView mainRemoteVersion = (TextView) dialogView.findViewById(R.id.main_remote_version);
 
         try {
-            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.xprize", 0);
+            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.xprize.bm", 0);
             int version = pInfo.versionCode;
             mainVersion = version;
             mainCurrentVersion.setText(String.valueOf(version));

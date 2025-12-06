@@ -1,4 +1,4 @@
-package asia.chumbaka.kayam.library;
+package asia.chumbaka.kayam.library.bm;
 
 import android.app.Application;
 import android.content.Context;
@@ -9,7 +9,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
-// import asia.chumbaka.kayam.library.BuildConfig; // Removed - using ApplicationInfo instead
+// import asia.chumbaka.kayam.library.bm.BuildConfig; // Removed - using ApplicationInfo instead
 
 /**
  * Created by ingtellect on 7/21/17.

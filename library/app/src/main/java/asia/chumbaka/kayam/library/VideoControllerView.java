@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package asia.chumbaka.kayam.library;
+package asia.chumbaka.kayam.library.bm;
 
 import android.content.Context;
 import android.os.Handler;

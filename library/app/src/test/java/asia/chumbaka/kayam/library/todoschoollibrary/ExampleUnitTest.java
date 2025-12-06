@@ -1,4 +1,4 @@
-package asia.chumbaka.kayam.library;
+package asia.chumbaka.kayam.library.bm;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package asia.chumbaka.kayam.library;
+package asia.chumbaka.kayam.library.bm;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
