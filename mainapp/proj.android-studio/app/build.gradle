@@ -3,7 +3,7 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
-    namespace "asia.chumbaka.kayam.xprize"
+    namespace "asia.chumbaka.kayam.xprize.bm"
     ndkVersion "14.1.3816874"
     splits {
         abi {
@@ -17,7 +17,7 @@ android {
     buildToolsVersion "34.0.0"
 
     defaultConfig {
-        applicationId "asia.chumbaka.kayam.xprize"
+        applicationId "asia.chumbaka.kayam.xprize.bm"
         minSdkVersion PROP_MIN_SDK_VERSION
         targetSdkVersion PROP_TARGET_SDK_VERSION
         versionCode 1

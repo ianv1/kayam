@@ -176,7 +176,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         loadApps();
 
         Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
-        AppDetail todoschool = getAppDetail("asia.chumbaka.kayam.xprize");
+        AppDetail todoschool = getAppDetail("asia.chumbaka.kayam.xprize.bm");
         Button todoSchoolButton = (Button) findViewById(R.id.button_todoschool);
         todoSchoolButton.setTypeface(face);
         todoSchoolButton.setOnClickListener(new View.OnClickListener() {
@@ -190,7 +190,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                 try {
                     if (!gotoTnC()) {
                         Intent i = new Intent(Intent.ACTION_MAIN);
-                        i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize", "org.cocos2dx.cpp.AppActivity"));
+                        i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize.bm", "org.cocos2dx.cpp.AppActivity"));
                         startActivity(i);
                     }
                 } catch (Exception e) {
@@ -1179,7 +1179,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                         user.setAcceptTnC(true);
                         ((LauncherApplication) getApplication()).getDbHandler().updateUser(user);
                         Intent i = new Intent(Intent.ACTION_MAIN);
-                        i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize", "org.cocos2dx.cpp.AppActivity"));
+                        i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize.bm", "org.cocos2dx.cpp.AppActivity"));
                         startActivity(i);
                     })
                     .setNegativeButton(R.string.dialog_no, null)

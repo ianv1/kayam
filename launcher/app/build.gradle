@@ -11,7 +11,7 @@ android {
         minSdkVersion 30
         targetSdkVersion 30
         applicationId "asia.chumbaka.kayam.launcher"
-        versionCode 3
+        versionCode 1
         versionName "1.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

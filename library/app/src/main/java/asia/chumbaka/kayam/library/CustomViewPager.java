@@ -1,4 +1,4 @@
-package asia.chumbaka.kayam.library;
+package asia.chumbaka.kayam.library.bm;
 
 import androidx.viewpager.widget.ViewPager;
 import android.content.Context;
