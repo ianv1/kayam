@@ -65,7 +65,7 @@ public class KitKitLoggerActivity extends AppCompatActivity {
     @Override
     protected void attachBaseContext(Context newBase) {
         try {
-            Context launcherContext = newBase.createPackageContext("asia.chumbaka.kayam.launcher.bm",0);
+            Context launcherContext = newBase.createPackageContext("asia.chumbaka.kayam.launcher",0);
             SharedPreferences pref = launcherContext.getSharedPreferences("sharedPref", Context.MODE_PRIVATE);
             appLanguage = pref.getString("appLanguage", newBase.getString(R.string.defaultLanguage));
 
@@ -106,7 +106,7 @@ public class KitKitLoggerActivity extends AppCompatActivity {
         super.onResume();
         Log.d(TAG,"onResume");
         try {
-            Context context = createPackageContext("asia.chumbaka.kayam.launcher.bm",0);
+            Context context = createPackageContext("asia.chumbaka.kayam.launcher",0);
             //this seems working but Context.MODE_MULTI_PROCESS is deprecated since SDK 23. If it has problem, need to change to ContentProvider for sharing data.
             SharedPreferences pref = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
             String sharedLang = pref.getString("appLanguage", getString(R.string.defaultLanguage));
