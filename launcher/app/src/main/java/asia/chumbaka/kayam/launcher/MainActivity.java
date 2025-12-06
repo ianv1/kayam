@@ -35,6 +35,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -90,6 +91,8 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
     private Context cntx = null;
     private TextView mTvUserName;
+    private Switch languageSwitch;
+    private TextView languageLabel;
 
     private boolean isEnglish = true;
 
@@ -175,6 +178,24 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
         loadApps();
 
+        // Initialize language toggle switch
+        languageSwitch = (Switch) findViewById(R.id.switch_language);
+        languageLabel = (TextView) findViewById(R.id.textView_language_label);
+        
+        // Load saved toggle state
+        SharedPreferences prefs = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
+        boolean isBM = prefs.getBoolean("language_bm", false);
+        languageSwitch.setChecked(isBM);
+        updateLanguageLabel(isBM);
+        
+        // Handle toggle switch changes
+        languageSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            updateLanguageLabel(isChecked);
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.putBoolean("language_bm", isChecked);
+            editor.apply();
+        });
+
         Typeface face = Typeface.createFromAsset(getAssets(), "TodoMainCurly.ttf");
         AppDetail todoschool = getAppDetail("asia.chumbaka.kayam.xprize.bm");
         Button todoSchoolButton = (Button) findViewById(R.id.button_todoschool);
@@ -189,8 +210,20 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                 }
                 try {
                     if (!gotoTnC()) {
-                        Intent i = new Intent(Intent.ACTION_MAIN);
-                        i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize.bm", "org.cocos2dx.cpp.AppActivity"));
+                        Intent i;
+                        if (languageSwitch.isChecked()) {
+                            // BM mode - launch asia.chumbaka.kayam.xprize.bm
+                            i = new Intent(Intent.ACTION_MAIN);
+                            i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize.bm", "org.cocos2dx.cpp.AppActivity"));
+                        } else {
+                            // EN mode - launch asia.chumbaka.kayam.xprize
+                            i = getPackageManager().getLaunchIntentForPackage("asia.chumbaka.kayam.xprize");
+                            if (i == null) {
+                                // Fallback: try to launch with ComponentName if getLaunchIntentForPackage fails
+                                i = new Intent(Intent.ACTION_MAIN);
+                                i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize", "org.cocos2dx.cpp.AppActivity"));
+                            }
+                        }
                         startActivity(i);
                     }
                 } catch (Exception e) {
@@ -923,6 +956,12 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         Util.displayUserName(this, mTvUserName);
     }
 
+    private void updateLanguageLabel(boolean isBM) {
+        if (languageLabel != null) {
+            languageLabel.setText(isBM ? "BM" : "EN");
+        }
+    }
+
     public static File[] getImageFolderList(File folder) {
         File[] result = folder.listFiles(new FileFilter() {
             @Override
@@ -1178,8 +1217,20 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                     .setPositiveButton(R.string.dialog_yes, (dialog, which) -> {
                         user.setAcceptTnC(true);
                         ((LauncherApplication) getApplication()).getDbHandler().updateUser(user);
-                        Intent i = new Intent(Intent.ACTION_MAIN);
-                        i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize.bm", "org.cocos2dx.cpp.AppActivity"));
+                        Intent i;
+                        if (languageSwitch != null && languageSwitch.isChecked()) {
+                            // BM mode - launch asia.chumbaka.kayam.xprize.bm
+                            i = new Intent(Intent.ACTION_MAIN);
+                            i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize.bm", "org.cocos2dx.cpp.AppActivity"));
+                        } else {
+                            // EN mode - launch asia.chumbaka.kayam.xprize
+                            i = getPackageManager().getLaunchIntentForPackage("asia.chumbaka.kayam.xprize");
+                            if (i == null) {
+                                // Fallback: try to launch with ComponentName if getLaunchIntentForPackage fails
+                                i = new Intent(Intent.ACTION_MAIN);
+                                i.setComponent(new ComponentName("asia.chumbaka.kayam.xprize", "org.cocos2dx.cpp.AppActivity"));
+                            }
+                        }
                         startActivity(i);
                     })
                     .setNegativeButton(R.string.dialog_no, null)
