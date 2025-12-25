@@ -3,13 +3,13 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
-    namespace "asia.chumbaka.kayam.bookviewer"
+    namespace "asia.chumbaka.kayam.bookviewer.bm"
     ndkVersion "14.1.3816874"
     compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()
     buildToolsVersion "25.0.0"
 
     defaultConfig {
-        applicationId "asia.chumbaka.kayam.bookviewer"
+        applicationId "asia.chumbaka.kayam.bookviewer.bm"
         minSdkVersion PROP_MIN_SDK_VERSION
         targetSdkVersion PROP_TARGET_SDK_VERSION
         versionCode 1
@@ -69,7 +69,7 @@ android {
         }
 
         english {
-            assets.srcDirs       = ['../../../mainapp/Resources/bookviewer', '../../../mainapp/Resources/Localized/en-US/Games/Books']
+            assets.srcDirs       = ['../../../mainapp/Resources/bookviewer', '../../../mainapp/Resources/Localized/ms-MY/Games/Books']
         }
 
         swahili {

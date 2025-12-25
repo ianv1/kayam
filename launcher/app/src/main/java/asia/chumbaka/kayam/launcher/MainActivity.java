@@ -232,7 +232,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             }
         });
 
-        AppDetail library = getAppDetail("asia.chumbaka.kayam.library");
+        AppDetail library = getAppDetail("asia.chumbaka.kayam.library.bm");
         Button libraryButton = (Button) findViewById(R.id.button_library);
         libraryButton.setTypeface(face);
         libraryButton.setOnClickListener(view -> {
@@ -244,7 +244,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             if (view.isEnabled()) {
                 try {
                     Intent i = new Intent(Intent.ACTION_MAIN);
-                    i.setComponent(new ComponentName("asia.chumbaka.kayam.library", "asia.chumbaka.kayam.library.SelectActivity"));
+                    i.setComponent(new ComponentName("asia.chumbaka.kayam.library.bm", "asia.chumbaka.kayam.library.bm.SelectActivity"));
                     startActivity(i);
                 } catch (Exception e) {
                     Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
