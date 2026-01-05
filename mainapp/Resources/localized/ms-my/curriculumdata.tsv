@@ -42,7 +42,7 @@ game	TutorialTrace	3	x
 game	AnimalPuzzle	2	x
 game	LetterMatching	3	x
 
-level	ms-MY	English 1	L	1	9
+level	ms-MY	BM 1	L	1	9
 day	1	5
 game	AlphabetPuzzle	1	x
 game	Video	0	en_vdo_abc
@@ -253,7 +253,7 @@ game	EggQuizLiteracy	0	SpecialTest_25
 
 level	ms-MY	Fish Present	L	11	0
 
-level	ms-MY	English 2	L	2	27
+level	ms-MY	BM 2	L	2	27
 day	1	4
 game	Video	0	en_vdo_ub_a
 game	LetterMatching	4	x
@@ -387,7 +387,7 @@ game	Book	0	en_z
 day	27	1
 game	EggQuizLiteracy	0	PostTest_2
 
-level	ms-MY	English 3	L	3	28
+level	ms-MY	BM 3	L	3	28
 day	1	4
 game	LetterTrace	5	x
 game	Video	0	en_vdo_102
@@ -527,7 +527,7 @@ game	Spelling	4	x
 day	28	1
 game	EggQuizLiteracy	0	PostTest_3
 
-level	ms-MY	English 4	L	4	32
+level	ms-MY	BM 4	L	4	32
 day	1	5
 game	Spelling	5	x
 game	ReadingBird	1	x
@@ -690,7 +690,7 @@ game	Spelling	13	x
 day	32	1
 game	EggQuizLiteracy	0	PostTest_4
 
-level	ms-MY	English 5	L	5	28
+level	ms-MY	BM 5	L	5	28
 day	1	5
 game	Spelling	14	x
 game	Labeling	1	x
@@ -826,7 +826,7 @@ game	WordKicker	6	x
 day	28	1
 game	EggQuizLiteracy	0	PostTest_5
 
-level	ms-MY	English 6	L	6	30
+level	ms-MY	BM 6	L	6	30
 day	1	4
 game	WhatIsThis	1	x
 game	Labeling	12	x
@@ -966,7 +966,7 @@ game	LRComprehension	5	x
 day	30	1
 game	EggQuizLiteracy	0	PostTest_6
 
-level	ms-MY	English 7	L	7	30
+level	ms-MY	BM 7	L	7	30
 day	1	4
 game	Labeling	20	x
 game	WhatIsThis	5	x
@@ -1106,7 +1106,7 @@ game	LRComprehension	12	x
 day	30	1
 game	EggQuizLiteracy	0	PostTest_7
 
-level	ms-MY	English 8	L	8	30
+level	ms-MY	BM 8	L	8	30
 day	1	4
 game	ReadingBird	14	x
 game	Book	0	en_415
@@ -1246,7 +1246,7 @@ game	LRComprehension	26	x
 day	30	1
 game	EggQuizLiteracy	0	PostTest_8
 
-level	ms-MY	English 9	L	9	30
+level	ms-MY	BM 9	L	9	30
 day	1	4
 game	Video	0	en_vdo_1030
 game	Book	0	en_408
