@@ -264,7 +264,7 @@ void LanguageManager::initLocalizationMap()
     _localizationMapMalay["Error"] = "Ralat";
     _localizationMapMalay["Enter"] = "Masuk";
     _localizationMapMalay["Clear"] = "Kosongkan";
-    _localizationMapMalay["English"] = "Bahasa Melayu";
+    _localizationMapMalay["English"] = "BM";
     _localizationMapMalay["Math"] = "Matematik";
     
     _localizationMapSwahili["Great!"] = "Vizuri!";
