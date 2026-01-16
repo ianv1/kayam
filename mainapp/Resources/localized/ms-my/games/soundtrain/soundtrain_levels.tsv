@@ -1,30 +1,30 @@
 #Level	#ProblemCount	#Problem	#Answer	#Word1	#Word2	#Word3
 1	5	1	s	s		
-1	5	2	t	t		
-1	5	3	p	p		
-1	5	4	m	m		
-1	5	5	n	n		
+1	5	2	m	m		
+1	5	3	n	n		
+1	5	4	t	t		
+1	5	5	p	p		
 2	5	1	d	d		
-2	5	2	g	g		
-2	5	3	c	c		
-2	5	4	b	b		
-2	5	5	r	r		
-3	5	1	h	h		
-3	5	2	k	k		
-3	5	3	f	f		
-3	5	4	l	l		
-3	5	5	j	j		
-4	5	1	v	v		
-4	5	2	w	w		
+2	5	2	b	b		
+2	5	3	k	k		
+2	5	4	r	r		
+2	5	5	c	c		
+3	5	1	g	g		
+3	5	2	h	h		
+3	5	3	l	l		
+3	5	4	j	j		
+3	5	5	f	f		
+4	5	1	q	q		
+4	5	2	v	v		
 4	5	3	x	x		
 4	5	4	y	y		
 4	5	5	z	z		
-4	5	6	q	q		
-5	5	1	a	a		
-5	5	2	e	e		
-5	5	3	i	i		
+4	5	6	w	w		
+5	5	1	u	u		
+5	5	2	i	i		
+5	5	3	a	a		
 5	5	4	o	o		
-5	5	5	u	u		
+5	5	5	e	e		
 6	5	1	ba	b	a	
 6	5	2	ca	c	a	
 6	5	3	da	d	a	
@@ -69,158 +69,158 @@
 10	5	7	mu	m	u	
 10	5	8	pu	p	u	
 10	5	9	ru	r	u	
-11	5	1	dad	d	a	d
-11	5	2	mad	m	a	d
-11	5	3	sad	s	a	d
-11	5	4	bag	b	a	g
-11	5	5	map	m	a	p
-11	5	6	bet	b	e	t
-11	5	7	get	g	e	t
-11	5	8	bed	b	e	d
-11	5	9	red	r	e	d
-11	5	10	leg	l	e	g
-11	5	11	bin	b	i	n
-11	5	12	fin	f	i	n
-11	5	13	win	w	i	n
-11	5	14	did	d	i	d
-11	5	15	hid	h	i	d
-11	5	16	hop	h	o	p
-11	5	17	top	t	o	p
-11	5	18	nod	n	o	d
-11	5	19	dot	d	o	t
-11	5	20	not	n	o	t
-11	5	21	bug	b	u	g
-11	5	22	hug	h	u	g
-11	5	23	fun	f	u	n
-11	5	24	run	r	u	n
-11	5	25	nut	n	u	t
-12	4	1	th	th		
-12	4	2	ch	ch		
-12	4	3	sh	sh		
-12	4	4	wh	wh		
-13	4	1	chap	ch	a	p
-13	4	2	chat	ch	a	t
-13	4	3	chin	ch	i	n
-13	4	4	chop	ch	o	p
-14	5	1	sheep	sh	ee	p
-14	5	2	ship	sh	i	p
-14	5	3	shirt	sh	ir	t
-14	5	4	shop	sh	o	p
-14	5	5	shot	sh	o	t
-14	5	6	show	sh	ow	
-14	5	7	shut	sh	u	t
-15	5	1	that	th	a	t
-15	5	2	them	th	e	m
-15	5	3	then	th	e	n
-15	5	4	they	th	e	y
-15	5	5	this	th	i	s
-16	4	1	whip	wh	i	p
-16	4	2	whiz	wh	i	z
-16	4	3	what	wh	a	t
-16	4	4	when	wh	e	n
-17	5	1	neck	n	e	ck
-17	5	2	sick	s	i	ck
-17	5	3	pick	p	i	ck
-17	5	4	wish	w	i	sh
-17	5	5	fish	f	i	sh
-17	5	6	dish	d	i	sh
-17	5	7	with	w	i	th
-17	5	8	rich	r	i	ch
-17	5	9	bash	b	a	sh
-17	5	10	dash	d	a	sh
-17	5	11	back	b	a	ck
-17	5	12	cash	c	a	sh
-17	5	13	mash	m	a	sh
-17	5	14	path	p	a	th
-17	5	15	bath	b	a	th
-17	5	16	math	m	a	th
-17	5	17	back	b	a	ck
-17	5	18	sack	s	a	ck
-17	5	19	tack	t	a	ck
-17	5	20	mash	m	a	sh
-17	5	21	rush	r	u	sh
-17	5	22	duck	d	u	ck
-17	5	23	such	s	u	ch
-17	5	24	much	m	u	ch
-17	5	25	gosh	g	o	sh
-18	5	1	blue	bl	ue	
-18	5	2	blob	bl	o	b
-18	5	3	clue	cl	ue	
-18	5	4	clay	cl	ay	
-18	5	5	flip	fl	i	p
-18	5	6	drip	dr	i	p
-18	5	7	drab	dr	a	b
-18	5	8	play	pl	ay	
-18	5	9	scar	sc	ar	
-18	5	10	skip	sk	i	p
-18	5	11	skin	sk	i	n
-18	5	12	swim	sw	i	m
-18	5	13	snow	sn	ow	
-18	5	14	snip	sn	i	p
-18	5	15	snap	sn	a	p
-18	5	16	span	sp	a	n
-18	5	17	spot	sp	o	t
-18	5	18	spin	sp	i	n
-18	5	19	slow	sl	ow	
-18	5	20	grab	gr	a	b
-18	5	21	grow	gr	ow	
-18	5	22	crab	cr	a	b
-18	5	23	crib	cr	i	b
-18	5	24	stem	st	e	m
-18	5	25	step	st	e	p
-19	5	1	moon	m	oo	n
-19	5	2	soon	s	oo	n
-19	5	3	room	r	oo	m
-19	5	4	foot	f	oo	t
-19	5	5	meet	m	ee	t
-19	5	6	meat	m	ea	t
-19	5	7	seal	s	ea	l
-19	5	8	seed	s	ee	d
-19	5	9	sheep	sh	ee	p
-19	5	10	beep	b	ee	p
-19	5	11	each	ea	ch	
-19	5	12	paid	p	ai	d
-19	5	13	pain	p	ai	n
-19	5	14	sail	s	ai	l
-19	5	15	fail	f	ai	l
-19	5	16	pair	p	ai	r
-19	5	17	stay	st	ay	
-19	5	18	gray	gr	ay	
-19	5	19	boat	b	oa	t
-19	5	20	goat	g	oa	t
-19	5	21	road	r	oa	d
-19	5	22	float	fl	oa	t
-19	5	23	bowl	b	ow	l
-19	5	24	mouth	m	ou	th
-19	5	25	ouch	ou	ch	
-19	5	26	show	sh	ow	
-19	5	27	grow	gr	ow	
-19	5	28	boil	b	oi	l
-19	5	29	soil	s	oi	l
-19	5	30	tray	tr	ay	
-19	5	31	play	pl	ay	
-20	5	1	car	c	ar	
-20	5	2	star	st	ar	
-20	5	3	jar	j	ar	
-20	5	4	art	ar	t	
-20	5	5	arm	ar	m	
-20	5	6	dark	d	ar	k
-20	5	7	mark	m	ar	k
-20	5	8	far	f	ar	
-20	5	9	barn	b	ar	n
-20	5	10	fern	f	er	n
-20	5	11	stir	st	ir	
-20	5	12	shirt	sh	ir	t
-20	5	13	skirt	sk	ir	t
-20	5	14	first	f	ir	st
-21	5	1	sing	s	ing	
-21	5	2	ring	r	ing	
-21	5	3	king	k	ing	
-21	5	4	song	s	ong	
-21	5	5	long	l	ong	
-21	5	6	lung	l	ung	
-21	5	7	sung	s	ung	
-21	5	8	rung	r	ung	
-21	5	9	hang	h	ang	
-21	5	10	bang	b	ang	
-21	5	11	rang	r	ang	
+11	5	1	bas	b	a	s
+11	5	2	jam	j	a	m
+11	5	3	gas	g	a	s
+11	5	4	cat	c	a	t
+11	5	5	van	v	a	n
+11	5	6	beg	b	e	g
+11	5	7	bek	b	e	k
+11	5	8	cek	c	e	k
+11	5	9	sen	s	e	n
+11	5	10	lem	l	e	m
+11	5	11	zip	z	i	p
+11	5	12	tin	t	i	n
+11	5	13	pin	p	i	n
+11	5	14	bin	b	i	n
+11	5	15	pit	p	i	t
+11	5	16	bom	b	o	m
+11	5	17	pos	p	o	s
+11	5	18	kos	k	o	s
+11	5	19	roh	r	o	h
+11	5	20	ton	t	o	n
+11	5	21	bus	b	u	s
+11	5	22	sup	s	u	p
+11	5	23	jus	j	u	s
+11	5	24	lum	l	u	m
+11	5	25	pun	p	u	n
+12	4	1	kha	k	h	a
+12	4	2	nya	n	y	a
+12	4	3	sya	s	y	a
+12	4	4	nga	n	g	a
+13	4	1	skru	skru		
+13	4	2	glob	glob		
+13	4	3	dram	dram		
+13	4	4	klip	klip		
+14	5	1	khemah	khe	mah	
+14	5	2	tanya	ta	nya	
+14	5	3	syampu	syam	pu	
+14	5	4	syiling	syi	ling	
+14	5	5	wangi	wa	ngi	
+14	5	6	bunga	bu	nga	
+14	5	7	nyala	nya	la	
+15	5	1	biola	bio	la	
+15	5	2	piano	pia	no	
+15	5	3	tupai	tu	pai	
+15	5	4	rambai	ram	bai	
+15	5	5	petai	pe	tai	
+16	4	1	skuter	sku	ter	
+16	4	2	traktor	trak	tor	
+16	4	3	treler	tre	ler	
+16	4	4	troli	tro	li	
+17	5	1	ungu	u	ngu	
+17	5	2	ngeri	nge	ri	
+17	5	3	nyiru	nyi	ru	
+17	5	4	pelangi	pe	la	ngi
+17	5	5	nyaring	nya	ring	
+17	5	6	nganga	nga	nga	
+17	5	7	angin	a	ngin	
+17	5	8	bangun	ba	ngun	
+17	5	9	lengan	le	ngan	
+17	5	10	langit	la	ngit	
+17	5	11	nyala	nya	la	
+17	5	12	nyanyi	nya	nyi	
+17	5	13	nyamuk	nya	muk	
+17	5	14	nyonya	nyo	nya	
+17	5	15	syarat	sya	rat	
+17	5	16	syiling	syi	ling	
+17	5	17	syukur	syu	kur	
+17	5	18	syurga	syur	ga	
+17	5	19	khabar	kha	bar	
+17	5	20	khamis	kha	mis	
+17	5	21	sangat	sa	ngat	
+17	5	22	dengar	de	ngar	
+17	5	23	dingin	di	ngin	
+17	5	24	singa	si	nga	
+17	5	25	nyawa	nya	wa	
+18	5	1	angkat	ang	kat	
+18	5	2	angka	ang	ka	
+18	5	3	angsa	ang	sa	
+18	5	4	langsat	lang	sat	
+18	5	5	gangsa	gang	sa	
+18	5	6	enggan	eng	gan	
+18	5	7	engkau	eng	kau	
+18	5	8	engku	eng	ku	
+18	5	9	engsel	eng	sel	
+18	5	10	bengkel	beng	kel	
+18	5	11	inggeris	ing	geris	
+18	5	12	ingkar	ing	kar	
+18	5	13	bingka	bing	ka	
+18	5	14	pinggan	ping	gan	
+18	5	15	tinggal	ting	gal	
+18	5	16	onggak	ong	gak	
+18	5	17	longkang	long	kang	
+18	5	18	kongsi	kong	si	
+18	5	19	tongkat	tong	kat	
+18	5	20	longgar	long	gar	
+18	5	21	unggul	ung	gul	
+18	5	22	ungkap	ung	kap	
+18	5	23	ungkit	ung	kit	
+18	5	24	tunggu	tung	gu	
+18	5	25	bungkus	bung	kus	
+19	5	1	khamis	kha	mis	
+19	5	2	nyamuk	nya	muk	
+19	5	3	syarikat	sya	ri	kat
+19	5	4	nganga	nga	nga	
+19	5	5	stesen	ste	sen	
+19	5	6	khabar	kha	bar	
+19	5	7	khemah	khe	mah	
+19	5	8	khatam	kha	tam	
+19	5	9	nyala	nya	la	
+19	5	10	nyanyi	nya	nyi	
+19	5	11	nyiru	nyi	ru	
+19	5	12	nyaring	nya	ring	
+19	5	13	nyonya	nyo	nya	
+19	5	14	syarat	sya	rat	
+19	5	15	syiling	syi	ling	
+19	5	16	syukur	syu	kur	
+19	5	17	syurga	syur	ga	
+19	5	18	ngilu	ngi	lu	
+19	5	19	ngeri	nge	ri	
+19	5	20	bunga	bu	nga	
+19	5	21	langit	la	ngit	
+19	5	22	sangat	sa	ngat	
+19	5	23	dengar	de	ngar	
+19	5	24	bingka	bing	ka	
+19	5	25	pinggan	ping	gan	
+19	5	26	tinggal	ting	gal	
+19	5	27	unggul	ung	gul	
+19	5	28	ungkap	ung	kap	
+19	5	29	ungkit	ung	kit	
+19	5	30	tunggu	tung	gu	
+19	5	31	bungkus	bung	kus	
+20	5	1	khurafat	khu	ra	fat
+20	5	2	keringat	ke	ri	ngat
+20	5	3	kenangan	ke	na	ngan
+20	5	4	sengaja	se	nga	ja
+20	5	5	penyakit	pe	nya	kit
+20	5	6	pengadil	pe	nga	dil
+20	5	7	pengisar	pe	ngi	sar
+20	5	8	senyuman	se	nyu	man
+20	5	9	denyutan	de	nyu	tan
+20	5	10	khazanah	kha	za	nah
+20	5	11	khayalan	kha	ya	lan
+20	5	12	syarahan	sya	ra	han
+20	5	13	nyanyian	nya	nyi	an
+20	5	14	penyapu	pe	nya	pu
+21	5	1	menyorok	me	nyo	rok
+21	5	2	mengantuk	me	ngan	tuk
+21	5	3	mengingat	me	ngi	ngat
+21	5	4	mengaji	me	nga	ji
+21	5	5	menyapu	me	nya	pu
+21	5	6	menyala	me	nya	la
+21	5	7	menyiram	me	nyi	ram
+21	5	8	menyikat	me	nyi	kat
+21	5	9	menyusun	me	nyu	sun
+21	5	10	mengajar	me	nga	jar
+21	5	11	mengira	me	ngi	ra
