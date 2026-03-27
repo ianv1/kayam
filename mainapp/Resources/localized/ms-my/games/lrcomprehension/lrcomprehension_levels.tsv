@@ -35,38 +35,38 @@ ms-MY	5	1	5	title	Story 2
 ms-MY	5	1	6	listeningonly	en_uk_lc_1_10_story.m4a								
 ms-MY	5	1	7	fillintheblank		The [sun] is bright.	en_uk_lc_1_10_q1.m4a	text	night	shadow			
 ms-MY	5	1	8	multiplechoices		When does the sun shine bright and hot?	en_uk_lc_1_10_q2.m4a	text	During the day	At night	Never		During the day
-ms-MY	6	1	1	title	Story 1								
-ms-MY	6	1	2	readingonly	Asilia likes to go to school. Asilia likes to learn. Asilia has nice teachers at school.								
-ms-MY	6	1	3	multiplechoices		What does Asilia like to do?	en_uk_rc_1_4_q1.m4a	text	Go to school	Go to the hospital	Go to the store		Go to school
-ms-MY	6	1	4	fillintheblank		Asilia likes to [learn].	en_uk_rc_1_4_q2.m4a	text	run	walk			
-ms-MY	6	1	5	title	Story 2								
-ms-MY	6	1	6	readingonly	Tim likes animals. He likes small animals. He likes big animals. Tim likes all animals.								
-ms-MY	6	1	7	multiplechoices		What does Tim like?	en_uk_rc_1_1_q1.m4a	text	Animals	Only birds	Mountains		Animals
-ms-MY	6	1	8	fillintheblank		Tim likes [all] animals.	en_uk_rc_1_1_q2.m4a	text	no	two			
-ms-MY	7	1	1	title	Story 1								
-ms-MY	7	1	2	readingonly	Mangoes are a type of fruit. Mangoes can be yellow, green or red. They are good to eat.								
-ms-MY	7	1	3	fillintheblank		Mangoes are a type of [fruit].	en_uk_rc_1_3_q1.m4a	text	animal	meat			
-ms-MY	7	1	4	multiplechoices		What color can mangoes be?	en_uk_rc_1_3_q2.m4a	text	Yellow	Purple	Black		Yellow
-ms-MY	7	1	5	title	Story 2								
-ms-MY	7	1	6	readingonly	Chaniya lives in a small village. Chaniya has friends in the village. Chaniya likes to play in the village.								
-ms-MY	7	1	7	fillintheblank		Chaniya lives in a small [village].	en_uk_rc_1_5_q1.m4a	text	city	house			
-ms-MY	7	1	8	multiplechoices		What does Chaniya like to do in the village?	en_uk_rc_1_5_q2.m4a	text	Play	Hide	Study		Play
-ms-MY	8	1	1	title	Story 1								
-ms-MY	8	1	2	readingonly	Fruit is a type of food. Fruits can be sweet. Fruits can be sour.								
-ms-MY	8	1	3	fillintheblank		Fruit is a type of [food].	en_uk_rc_1_2_q1.m4a	text	animal	tree			
-ms-MY	8	1	4	multiplechoices		What can fruit be?	en_uk_rc_1_2_q2.m4a	text	Sweet	Bitter	Salty		Sweet
-ms-MY	8	1	5	title	Story 2								
-ms-MY	8	1	6	readingonly	Hediye likes to run. She runs fast. She runs near. She runs far. She runs a lot.								
-ms-MY	8	1	7	multiplechoices		What does Hediye like to do?	en_uk_rc_1_6_q1.m4a	text	Run	Swim	Sleep		Run
-ms-MY	8	1	8	fillintheblank		She [runs] a lot.	en_uk_rc_1_6_q2.m4a	text	swims	sleeps			
-ms-MY	9	1	1	title	Story 1								
-ms-MY	9	1	2	readingonly	The rat is small. It likes to eat. The rat eats a lot. The rat sleeps a lot too.								
-ms-MY	9	1	3	fillintheblank		The rat is [small].	en_uk_rc_1_8_q1.m4a	text	large	tall			
-ms-MY	9	1	4	multiplechoices		What does the rat like to do?	en_uk_rc_1_8_q2.m4a	text	Eat	Dance	Fly		Eat
-ms-MY	9	1	5	title	Story 2								
-ms-MY	9	1	6	readingonly	Karume likes music. He sings to the music. He dances to the music. He likes music.								
-ms-MY	9	1	7	multiplechoices		What does Karume like?	en_uk_rc_1_7_q1.m4a	text	Music	Cooking	Drawing		Music
-ms-MY	9	1	8	fillintheblank		He [sings] to the music.	en_uk_rc_1_7_q2.m4a	text	works	sleeps			
+ms-MY	6	1	1	title	Cerita 1								
+ms-MY	6	1	2	readingonly	Aini suka pergi sekolah. Aini suka belajar. Guru Aini baik.								
+ms-MY	6	1	3	fillintheblank		Aini suka [belajar].	ms_my_rc_6_1_p3_q.m4a	text	berlari	berjalan			belajar
+ms-MY	6	1	4	multiplechoices		Aini suka buat apa?	ms_my_rc_6_1_p4_q.m4a	text	Pergi ke sekolah	Pergi ke hospital	Pergi ke kedai		Pergi ke sekolah
+ms-MY	6	2	1	title	Cerita 2								
+ms-MY	6	2	2	readingonly	Ravi suka haiwan. Ravi suka haiwan kecil. Ravi suka haiwan besar. Ravi suka semua haiwan.								
+ms-MY	6	2	3	fillintheblank		Ravi suka [semua] jenis haiwan.	ms_my_rc_6_2_p3_q.m4a	text	satu	dua			semua
+ms-MY	6	2	4	multiplechoices		Ravi suka apa?	ms_my_rc_6_2_p4_q.m4a	text	Haiwan	Burung	Gunung		Haiwan
+ms-MY	7	1	1	title	Cerita 1								
+ms-MY	7	1	2	readingonly	Mangga sejenis buah. Mangga warna kuning. Mangga sedap dimakan.								
+ms-MY	7	1	3	fillintheblank		Mangga sejenis [buah].	ms_my_rc_7_1_p3_q.m4a	text	haiwan	daging			buah
+ms-MY	7	1	4	multiplechoices		Mangga warna apa?	ms_my_rc_7_1_p4_q.m4a	text	Biru	Putih	Kuning		Kuning
+ms-MY	7	2	1	title	Cerita 2								
+ms-MY	7	2	2	readingonly	Siti tinggal di kampung kecil. Siti ada banyak kawan di kampung. Siti suka main di kampung.								
+ms-MY	7	2	3	fillintheblank		Siti tinggal di [kampung] kecil.	ms_my_rc_7_2_p3_q.m4a	text	bandar	rumah			kampung
+ms-MY	7	2	4	multiplechoices		Siti suka buat apa di kampung?	ms_my_rc_7_2_p4_q.m4a	text	Bermain	Menyorok	Belajar		Bermain
+ms-MY	8	1	1	title	Cerita 1								
+ms-MY	8	1	2	readingonly	Buah-buahan sejenis makanan. Buah-buahan ada yang rasa manis, ada yang rasa masam.								
+ms-MY	8	1	3	fillintheblank		Buah-buahan sejenis [makanan].	ms_my_rc_8_1_p3_q.m4a	text	haiwan	pokok			makanan
+ms-MY	8	1	4	multiplechoices		Buah-buahan rasa apa?	ms_my_rc_8_1_p4_q.m4a	text	Manis sahaja	Manis dan masam	Pahit		Manis dan masam
+ms-MY	8	2	1	title	Cerita 2								
+ms-MY	8	2	2	readingonly	Kavita suka berlari. Kavita berlari pantas. Kavita berlari jauh. Kavita berlari setiap hari.								
+ms-MY	8	2	3	fillintheblank		Kavita suka buat apa?	ms_my_rc_8_2_p3_q.m4a	text	Berlari	Berenang	Tidur		
+ms-MY	8	2	4	multiplechoices		Kavita berlari [pantas].	ms_my_rc_8_2_p4_q.m4a	text	perlahan	tinggi			
+ms-MY	9	1	1	title	Cerita 1								
+ms-MY	9	1	2	readingonly	Tikus itu kecil. Tikus itu warna hitam. Tikus itu suka makan.								
+ms-MY	9	1	3	fillintheblank		Tikus itu [kecil].	ms_my_rc_9_1_p3_q.m4a	text	besar	tinggi			kecil
+ms-MY	9	1	4	multiplechoices		Tikus suka buat apa?	ms_my_rc_9_1_p4_q.m4a	text	Makan	Menari	Terbang		Makan
+ms-MY	9	2	1	title	Cerita 2								
+ms-MY	9	2	2	readingonly	Kumar suka muzik. Kumar menyanyi ikut muzik. Kumar menari ikut muzik.								
+ms-MY	9	2	3	fillintheblank		Kumar [menyanyi] ikut muzik.	ms_my_rc_9_2_p3_q.m4a	text	bekerja	tidur			menyanyi
+ms-MY	9	2	4	multiplechoices		Kumar suka apa?	ms_my_rc_9_2_p4_q.m4a	text	Muzik	Memasak	Melukis		Muzik
 ms-MY	10	1	1	title	Story 1								
 ms-MY	10	1	2	lcallinone	en_uk_lc_2_3_story.m4a	How old is Dafina?	en_uk_lc_2_3_q1.m4a	text	Eight years old	Five years old	One year old		Eight years old
 ms-MY	10	1	3	lcallinone	en_uk_lc_2_3_story.m4a	What do Dafina and her dad do together?	en_uk_lc_2_3_q3.m4a	text	Feed the chickens	Feed the cows	Wash the chickens		Feed the chickens
@@ -106,118 +106,114 @@ ms-MY	14	1	5	title	Story 2
 ms-MY	14	1	6	listeningonly	en_uk_lc_2_4_story.m4a								
 ms-MY	14	1	7	multiplechoices		What is this story about?	en_uk_lc_2_4_q1.m4a	text	Bugs	Plants	People		Bugs
 ms-MY	14	1	8	multiplechoices		Where can bugs be found?	en_uk_lc_2_4_q3.m4a	text	Everywhere	Nowhere	Only in water		Everywhere
-ms-MY	15	1	1	title	Story 1								
-ms-MY	15	1	2	readingonly	Dafina has chickens. Dafina feeds the chickens. The chickens lay eggs. Dafina collects the eggs. Dafina takes care of the chickens.								
-ms-MY	15	1	3	multiplechoices		What does Dafina have?	en_uk_rc_2_3_q1.m4a	text	Chickens	Pigs	Cows		Chickens
-ms-MY	15	1	4	multiplechoices		What do the chickens lay?	en_uk_rc_2_3_q2.m4a	text	Eggs	Pigs	Sweets		Eggs
-ms-MY	15	1	5	title	Story 2								
-ms-MY	15	1	6	readingonly	Trees can be tall. Trees can be short. Some trees have many leaves. Some trees do not have many leaves.								
-ms-MY	15	1	7	fillintheblank		Trees can be tall and [short].	en_uk_rc_2_10_q1.m4a	text	furry	hot			
-ms-MY	15	1	8	multiplechoices		What is this story about?	en_uk_rc_2_10_q3.m4a	text	Trees	Animals	People		Trees
-ms-MY	16	1	1	title	Story 1								
-ms-MY	16	1	2	readingonly	Jabiri likes to cook. He cooks with his mom. They cook dinner for their family. It is nice to cook for family.								
-ms-MY	16	1	3	multiplechoices		What does Jabiri like to do?	en_uk_rc_2_2_q1.m4a	text	Cook	Clean	Walk		Cook
-ms-MY	16	1	4	fillintheblank		He cooks with his [mom].	en_uk_rc_2_2_q2.m4a	text	dad	grandfather			mom
-ms-MY	16	1	5	multiplechoices		What do they cook for their family?	en_uk_rc_2_2_q3.m4a	text	Dinner	Breakfast	Bread		Dinner
-ms-MY	16	1	6	title	Story 2								
-ms-MY	16	1	7	readingonly	My family has cows. The cows look for food. They walk and look for food. I walk with the cows. I take care of the cows.								
-ms-MY	16	1	8	multiplechoices		What does the family have?	en_uk_rc_2_9_q1.m4a	text	Cows	Dogs	Coconuts		Cows
-ms-MY	16	1	9	fillintheblank		I take [care] of the cows.	en_uk_rc_2_9_q3.m4a	text	photos	count			
-ms-MY	17	1	1	title	Story 1								
-ms-MY	17	1	2	readingonly	Mbwana writes stories everyday. He writes happy stories. He writes scary stories. He writes sad stories too. He likes to write stories. He reads the stories to his sister.								
-ms-MY	17	1	3	multiplechoices		What does Mbwana do everyday?	en_uk_rc_2_7_q1.m4a	text	Writes stories	Draws pictures	Plays ball		Writes stories
-ms-MY	17	1	4	fillintheblank		He writes [scary] stories.	en_uk_rc_2_7_q2.m4a	text	boring	mean			
-ms-MY	17	1	5	multiplechoices		Who does he read the stories to?	en_uk_rc_2_7_q3.m4a	text	His sister	His chickens	No one		His sister
-ms-MY	17	1	6	title	Story 2								
-ms-MY	17	1	7	readingonly	Mgeni has a baby brother. Her baby brother is small. Her baby brother likes to cry. Her baby brother likes to sleep. Mgeni loves her baby brother.								
-ms-MY	17	1	8	fillintheblank		Mgeni has a baby [brother].	en_uk_rc_2_11_q1.m4a	text	uncle	friend			
-ms-MY	17	1	9	multiplechoices		What does her baby brother like to do?	en_uk_rc_2_11_q2.m4a	text	Cry and sleep	Run and speak	Swim and cook		Cry and sleep
-ms-MY	18	1	1	title	Story 1								
-ms-MY	18	1	2	readingonly	Imara has a sister. Her sister is a doctor. Her sister is thirty years old. She is a doctor in the city. Imara likes to visit her sister in the city.								
-ms-MY	18	1	3	fillintheblank		Her [sister] is a doctor.	en_uk_rc_2_1_q1.m4a	text	brother	father			sister
-ms-MY	18	1	4	multiplechoices		Where is she a doctor?	en_uk_rc_2_1_q2.m4a	text	In the city	On a farm	In the ocean		In the city
-ms-MY	18	1	5	fillintheblank		Imara likes to [visit] her sister in the city.	en_uk_rc_2_1_q3.m4a	text	call	forget			
-ms-MY	18	1	6	title	Story 2								
-ms-MY	18	1	7	readingonly	Frog likes to jump. He jumps on the road. He jumps on the tree. He jumps far. Frog jumps high.								
-ms-MY	18	1	8	multiplechoices		What does Frog like to do?	en_uk_rc_2_8_q1.m4a	text	Jump	Run	Walk		Jump
-ms-MY	18	1	9	fillintheblank		He jumps on the [road].	en_uk_rc_2_8_q2.m4a	text	water	house			
-ms-MY	18	1	10	fillintheblank		Frog jumps far and [high].	en_uk_rc_2_8_q3.m4a	text	low	slowly			
-ms-MY	19	1	1	title	Story 1								
-ms-MY	19	1	2	readingonly	Bashira has a pig. Bashira feeds the pig. Bashira likes to watch the pig. The pig can be loud. The pig can be lazy. Bashira takes care of the pig.								
-ms-MY	19	1	3	multiplechoices		What does Bashira have?	en_uk_rc_2_6_q1.m4a	text	A pig	A dog	A shoe		A pig
-ms-MY	19	1	4	multiplechoices		What does Bashira like to do?	en_uk_rc_2_6_q2.m4a	text	Watch the pig	Collect wood	Cook food		Watch the pig
-ms-MY	19	1	5	title	Story 2								
-ms-MY	19	1	6	readingonly	The forest has many animals. The forest has small animals. The forest has big animals. Some animals live in trees. Some animals live on the ground.								
-ms-MY	19	1	7	multiplechoices		What is in the forest?	en_uk_rc_2_4_q1.m4a	text	Many animals	Many people	No animals		Many animals
-ms-MY	19	1	8	fillintheblank		The forest has small and [big] animals.	en_uk_rc_2_4_q2.m4a	text	blue	silly			
-ms-MY	20	1	1	title	Story 1								
-ms-MY	20	1	2	listeningonly	en_uk_lc_2_5_story.m4a								
-ms-MY	20	1	3	multiplechoices		What is Etana’s favorite food?	en_uk_lc_2_5_q1.m4a	text	Beans	Bananas	Fish		Beans
-ms-MY	20	1	4	fillintheblank		She is very happy when her [dad] cooks beans.	en_uk_lc_2_5_q2.m4a	text	mom	brother			
-ms-MY	20	1	5	title	Story 2								
-ms-MY	20	1	6	readingonly	Etana likes beans. Etana helps cook the beans. She adds the salt. Etana and her family eat beans for dinner.								
-ms-MY	20	1	7	multiplechoices		What does Etana like?	en_uk_rc_2_5_q1.m4a	text	Beans	Rice	Bananas		Beans
-ms-MY	20	1	8	multiplechoices		What does Etana help do?	en_uk_rc_2_5_q2.m4a	text	Cook the beans	Buy the beans	Grow the beans		Cook the beans
-ms-MY	21	1	1	title	Story 1								
-ms-MY	21	1	2	readingonly	Zaina and her father live next to the ocean. They catch fish. They catch fish with a net. They catch many fish each day. They eat the fish. They sell some fish at the market.								
-ms-MY	21	1	3	multiplechoices		What do Zaina and her father do?	en_uk_rc_3_4_q1.m4a	text	They catch fish.	They paint fish.	They buy fish.		They catch fish.
-ms-MY	21	1	4	multiplechoices		How do they catch the fish?	en_uk_rc_3_4_q2.m4a	text	With a net	With a fishing rod	With a bucket		With a net
-ms-MY	21	1	5	fillintheblank		They catch [many] fish each day.	en_uk_rc_3_4_q3.m4a	text	no	none			
-ms-MY	21	1	6	title	Story 2								
-ms-MY	21	1	7	readingonly	I like rabbits. Some rabbits are small like a mango. Some rabbits are big like a coconut. Rabbits do not run. They hop. Rabbits can hop very fast. Can you hop fast?								
-ms-MY	21	1	8	multiplechoices		How do rabbits move?	en_uk_rc_3_5_q2.m4a	text	They hop.	They run.	They fly.		They hop.
-ms-MY	21	1	9	fillintheblank		Rabbits can hop very [fast].	en_uk_rc_3_5_q3.m4a	text	slow	high			
-ms-MY	21	1	10	multiplechoices		What is this story about?	en_uk_rc_3_5_q4.m4a	text	Rabbits	Monkeys	Chickens		Rabbits
-ms-MY	22	1	1	title	Story 1								
-ms-MY	22	1	2	readingonly	Tahira has a big family. She has two brothers. One is older. One is younger. She has two sisters. One is older. One is younger. Tahira likes to play with her brothers and sisters. They are lots of fun.								
-ms-MY	22	1	3	fillintheblank		Tahira has a [big] family.	en_uk_rc_3_8_q1.m4a	text	small	no			
-ms-MY	22	1	4	multiplechoices		What does Tahira like to do with her brothers and sisters?	en_uk_rc_3_8_q3.m4a	text	Play	Nothing	Study		Play
-ms-MY	22	1	5	multiplechoices		How do you think Tahira feels?	en_uk_rc_3_8_q4.m4a	text	Happy	Sad	Angry		Happy
-ms-MY	22	1	6	title	Story 2								
-ms-MY	22	1	7	readingonly	I see a tree. The tree has a trunk. The trunk helps the tree stand strong. The trunk is brown. The trunk has branches. The branches are brown too. The tree has many leaves. The leaves are green.								
-ms-MY	22	1	8	multiplechoices		What is this story about?	en_uk_rc_3_12_q1.m4a	text	A tree	A mouse	A lion		A tree
-ms-MY	22	1	9	fillintheblank		The trunk helps the tree stand [strong].	en_uk_rc_3_12_q2.m4a	text	weak	shorter			
-ms-MY	22	1	10	multiplechoices		What are some parts of the tree?	en_uk_rc_3_12_q3.m4a	text	The trunk and branches	The door and window	The basket and food		The trunk and branches
-ms-MY	23	1	1	title	Story 1								
-ms-MY	23	1	2	readingonly	Rashidi is a nurse. He helps people when they are sick. He helps them feel better. He works with doctors. He helps doctor doctors. Rashidi is a very good nurse. He loves his job.								
-ms-MY	23	1	3	multiplechoices		What is Rashidi’s job?	en_uk_rc_3_2_q1.m4a	text	A nurse	A teacer	A police office		A nurse
-ms-MY	23	1	4	multiplechoices		Who does Rashidi help?	en_uk_rc_3_2_q2.m4a	text	People when they are sick	People when they are healthy	No one		People when they are sick
-ms-MY	23	1	5	multiplechoices		Who does Rashidi work with?	en_uk_rc_3_2_q3.m4a	text	Doctors	Police officers	Teachers		Doctors
-ms-MY	23	1	6	title	Story 2								
-ms-MY	23	1	7	readingonly	Lucy loves the ocean. The ocean is big. The ocean is full of water. Lucy sees boats on the ocean. Lucy sees fish in the ocean. Lucy can swim in the ocean. She is very happy to live near the ocean.								
-ms-MY	23	1	8	fillintheblank		Lucy [loves] the ocean.	en_uk_rc_3_3_q1.m4a	text	hates	dislikes			
-ms-MY	23	1	9	multiplechoices		What does Lucy do in the ocean?	en_uk_rc_3_3_q3.m4a	text	Swims	Flies	Runs		Swims
-ms-MY	23	1	10	multiplechoices		How does Lucy feel?	en_uk_rc_3_3_q4.m4a	text	Happy	Sad	Angry		Happy
-ms-MY	24	1	1	title	Story 1								
-ms-MY	24	1	2	readingonly	I love elephants. They are very big. I love elephants. They have very long trunks. I love elephants. They need to eat a lot of food. I love elephants. They eat grass, leaves, and other plants.								
-ms-MY	24	1	3	fillintheblank		Elephants are very [big].	en_uk_rc_3_6_q1.m4a	text	small	tiny			
-ms-MY	24	1	4	multiplechoices		What do elephants eat?	en_uk_rc_3_6_q3.m4a	text	Grass, leaves, and other plants	Goats and other animals	Only rice		Grass, leaves, and other plants
-ms-MY	24	1	5	multiplechoices		What is this story about?	en_uk_rc_3_6_q4.m4a	text	Elephants	Goats	Birds		Elephants
-ms-MY	24	1	6	title	Story 2								
-ms-MY	24	1	7	readingonly	Uzuri likes to draw. She draws what she can see. She draws her house. She draws the sun. She draws a tree. She draws a cow. She draws her family. Uzuri can draw all day!								
-ms-MY	24	1	8	fillintheblank		Uzuri likes to [draw].	en_uk_rc_3_9_q1.m4a	text	count	sing			
-ms-MY	24	1	9	fillintheblank		She draws what she can [see].	en_uk_rc_3_9_q2.m4a	text	hear	touch			
-ms-MY	24	1	10	multiplechoices		How long can Uzuri draw?	en_uk_rc_3_9_q4.m4a	text	A very long time	A very short time	Only at night		A very long time
-ms-MY	25	1	1	title	Story 1								
-ms-MY	25	1	2	readingonly	Shawana likes to look at the stars. She can see them from her house. She can see them at night. She can see them in the sky. Shawana wants to count all the stars, but there are too many.								
-ms-MY	25	1	3	multiplechoices		What does Shawana like to look at?	en_uk_rc_3_7_q1.m4a	text	The stars	The sun	The clouds		The stars
-ms-MY	25	1	4	multiplechoices		What does Shawana try to count?	en_uk_rc_3_7_q3.m4a	text	The stars	The flowers	The animals		The stars
-ms-MY	25	1	5	multiplechoices		Why can she not count them?	en_uk_rc_3_7_q4.m4a	text	There are too many.	She does not see them.	There are none.		There are too many.
-ms-MY	25	1	6	title	Story 2								
-ms-MY	25	1	7	readingonly	Bananas grow on trees. Bananas grow in bunches. Bananas can have a green peel. Bananas can have a yellow peel. Bananas can have a brown peel, too. I like to eat bananas with yellow peels. They are just right for eating! So sweet!								
-ms-MY	25	1	8	multiplechoices		What color are banana peels?	en_uk_rc_3_11_q2.m4a	text	Green, yellow and brown	Purple, orange and white	Black, blue and green		Green, yellow and brown
-ms-MY	25	1	9	fillintheblank		I like to eat bananas with [yellow] peels.	en_uk_rc_3_11_q3.m4a	text	white	orange			
-ms-MY	25	1	10	multiplechoices		What is good about bananas with yellow peels?	en_uk_rc_3_11_q4.m4a	text	They are just right for eating.	They are pretty.	They are bitter.		They are just right for eating.
-ms-MY	26	1	1	title	Story 1								
-ms-MY	26	1	2	readingonly	Suwesi runs to the market. Suwesi runs very fast. He likes to run fast. Oh no! He falls on a rock. He hurts his knee. Next time Suwesi goes to the market, he runs slowly. He is more careful.								
-ms-MY	26	1	3	multiplechoices		Where does Suwesi run to?	en_uk_rc_3_10_q1.m4a	text	The market	The school	The hospital		The market
-ms-MY	26	1	4	multiplechoices		What happens after Suwesi falls on a rock?	en_uk_rc_3_10_q3.m4a	text	He runs slowly in the future.	He runs faster in the future.	He does not run ever again.		He runs slowly in the future.
-ms-MY	26	1	5	ordering			en_uk_rc_3_10_q4.m4a	text	Suwesi runs to the market.	He falls on a rock.	He hurts his knee.		
-ms-MY	26	1	6	title	Story 2								
-ms-MY	26	1	7	readingonly	Worm and bird are friends. Worm likes to slide. Bird likes to fly. Worm likes the dirt. Bird likes the sky. Worm likes the rain. Bird likes the sun. But worm and bird both like to play!								
-ms-MY	26	1	8	multiplechoices		What is something that Bird likes?	en_uk_rc_3_1_q2.m4a	text	To fly	To swim	To read		To fly
-ms-MY	26	1	9	multiplechoices		What is something that Worm likes?	en_uk_rc_3_1_q3.m4a	text	The rain	The snow	The summer		The rain
-ms-MY	26	1	10	fillintheblank		They are very different, but they both like to [play].	en_uk_rc_3_1_q4.m4a	text	fight	read			
+ms-MY	15	1	1	title	Cerita 1								
+ms-MY	15	1	2	readingonly	Mei ada ayam. Ayam Mei bertelur. Mei kutip telur ayam setiap pagi.								
+ms-MY	15	1	3	multiplechoices		Mei ada haiwan apa?	ms_my_rc_15_1_p3_q.m4a	text	Ayam	Itik	Lembu		Ayam
+ms-MY	15	1	4	multiplechoices		Mei kutip apa setiap pagi?	ms_my_rc_15_1_p4_q.m4a	text	Telur	Sayur	Gula-gula		Telur
+ms-MY	15	2	1	title	Cerita 2								
+ms-MY	15	2	2	readingonly	Pokok ada yang tinggi, ada yang rendah. Pokok ada dahan dan daun.								
+ms-MY	15	2	3	fillintheblank		Pokok ada yang tinggi, ada yang [rendah].	ms_my_rc_15_2_p3_q.m4a	text	sejuk	panas			rendah
+ms-MY	15	2	4	multiplechoices		Petikan ini tentang apa?	ms_my_rc_15_2_p4_q.m4a	text	Pokok	Haiwan	Manusia		Pokok
+ms-MY	16	1	1	title	Cerita 1								
+ms-MY	16	1	2	readingonly	Lina suka masak. Lina masak dengan ibu. Mereka masak di dapur.								
+ms-MY	16	1	3	fillintheblank		Lina memasak dengan [ibu].	ms_my_rc_16_1_p3_q.m4a	text	ayah	datuk			ibu
+ms-MY	16	1	4	multiplechoices		Lina suka buat apa?	ms_my_rc_16_1_p4_q.m4a	text	Memasak	Membersih	Berjalan		Memasak
+ms-MY	16	1	5	multiplechoices		Mereka masak di mana?	ms_my_rc_16_1_p5_q.m4a	text	Bilik	Dapur	Ruang tamu		Dapur
+ms-MY	16	2	1	title	Cerita 2								
+ms-MY	16	2	2	readingonly	Bapa ada lembu. Lembu makan rumput di padang. Saya berjalan dengan lembu. Saya bantu bapa jaga lembu.								
+ms-MY	16	2	3	fillintheblank		Saya [jaga] lembu.	ms_my_rc_16_2_p3_q.m4a	text	bantu	mandi			jaga
+ms-MY	16	2	4	multiplechoices		Lembu makan apa?	ms_my_rc_16_2_p4_q.m4a	text	Rumput	Sayur	Daging		Rumput
+ms-MY	17	1	1	title	Cerita 1								
+ms-MY	17	1	2	readingonly	Ming tulis cerita setiap hari. Dia tulis cerita gembira. Dia juga tulis cerita sedih. Dia baca cerita yang ditulis kepada adiknya.								
+ms-MY	17	1	3	fillintheblank		Dia menulis cerita [gembira dan sedih].	ms_my_rc_17_1_p3_q.m4a	text	seram	bosan			gembira dan sedih
+ms-MY	17	1	4	fillintheblank		Ming tulis cerita setiap [hari].	ms_my_rc_17_1_p4_q.m4a	text	malam	petang			hari
+ms-MY	17	1	5	multiplechoices		Ming baca cerita kepada siapa?	ms_my_rc_17_1_p5_q.m4a	text	Adik	Ibu	Bapa		Adik
+ms-MY	17	2	1	title	Cerita 2								
+ms-MY	17	2	2	readingonly	Aini ada seorang adik lelaki. Adik Aini kecil. Adik Aini suka menangis. Adik Aini suka tidur. Aini sayang adiknya.								
+ms-MY	17	2	3	fillintheblank		Aini ada seorang adik [lelaki].	ms_my_rc_17_2_p3_q.m4a	text	perempuan	baik			lelaki
+ms-MY	17	2	4	multiplechoices		Aini sayang siapa?	ms_my_rc_17_2_p4_q.m4a	text	Adik	Makcik	Guru		Adik
+ms-MY	18	1	1	title	Cerita 1								
+ms-MY	18	1	2	readingonly	Kakak Aini seorang doktor. Umur kakak Aini tiga puluh tahun. Kakak Aini kerja di bandar. Aini suka melawat kakaknya di bandar.								
+ms-MY	18	1	3	fillintheblank		Kakak Aini seorang [doktor].	ms_my_rc_18_1_p3_q.m4a	text	guru	polis			doktor
+ms-MY	18	1	4	fillintheblank		Aini suka [melawat] kakaknya di bandar.	ms_my_rc_18_1_p4_q.m4a	text	menelefon	lihat			melawat
+ms-MY	18	1	5	multiplechoices		Kakak Aini kerja di mana?	ms_my_rc_18_1_p5_q.m4a	text	Di bandar	Di ladang	Di laut		Di bandar
+ms-MY	18	2	1	title	Cerita 2								
+ms-MY	18	2	2	readingonly	Katak suka melompat. Katak melompat di jalan. Katak melompat di pokok. Katak melompat jauh. Katak melompat tinggi.								
+ms-MY	18	2	3	fillintheblank		Katak melompat di [jalan].	ms_my_rc_18_2_p3_q.m4a	text	air	rumah			jalan
+ms-MY	18	2	4	fillintheblank		Katak melompat jauh dan [tinggi].	ms_my_rc_18_2_p4_q.m4a	text	rendah	perlahan			tinggi
+ms-MY	18	2	5	multiplechoices		Katak suka buat apa?	ms_my_rc_18_2_p5_q.m4a	text	Melompat	Berlari	Berjalan		Melompat
+ms-MY	19	1	1	title	Cerita 1								
+ms-MY	19	1	2	readingonly	Lina ada seekor kucing. Dia beri kucing makan. Dia jaga kucing itu. Dia suka main dengan kucingnya.								
+ms-MY	19	1	3	multiplechoices		Lina ada haiwan apa?	ms_my_rc_19_1_p3_q.m4a	text	Burung	Anjing	Kucing		Kucing
+ms-MY	19	1	4	multiplechoices		Lina suka buat apa?	ms_my_rc_19_1_p4_q.m4a	text	Bermain dengan kucingnya	Berlari	Memasak		Bermain dengan kucingnya
+ms-MY	19	2	1	title	Cerita 2								
+ms-MY	19	2	2	readingonly	Di dalam hutan ada banyak haiwan. Ada haiwan kecil dan ada haiwan besar. Ada yang tinggal di pokok dan ada yang tinggal di tanah.								
+ms-MY	19	2	3	fillintheblank		Di dalam hutan ada haiwan kecil dan haiwan [besar].	ms_my_rc_19_2_p3_q.m4a	text	biru	rendah			besar
+ms-MY	19	2	4	multiplechoices		Haiwan tinggal di mana?	ms_my_rc_19_2_p4_q.m4a	text	Pokok dan tanah	Tanah sahaja	Pokok sahaja		Pokok dan tanah
+ms-MY	20	2	1	title	Cerita 2								
+ms-MY	20	2	2	readingonly	Devi suka makan ikan. Devi bantu ibu masak ikan. Devi letak kicap. Devi dan keluarga makan ikan untuk makan malam.								
+ms-MY	20	2	3	multiplechoices		Devi suka makan apa?	ms_my_rc_20_2_p3_q.m4a	text	Ikan	Nasi	Pisang		Ikan
+ms-MY	20	2	4	multiplechoices		Devi makan dengan siapa?	ms_my_rc_20_2_p4_q.m4a	text	Guru	Kawan	Keluarga		Keluarga
+ms-MY	21	1	1	title	Cerita 1								
+ms-MY	21	1	2	readingonly	Ali dan bapa tinggal di tepi laut. Mereka tangkap ikan. Mereka tangkap ikan dengan jala. Mereka dapat banyak ikan setiap hari. Mereka jual ikan di pasar.								
+ms-MY	21	1	3	fillintheblank		Ali dan bapa tinggal di tepi [laut].	ms_my_rc_21_1_p3_q.m4a	text	sungai	hutan			laut
+ms-MY	21	1	4	multiplechoices		Ali dan bapa buat apa?	ms_my_rc_21_1_p4_q.m4a	text	Bina rumah	Tangkap ikan	Beli ikan		Tangkap ikan
+ms-MY	21	1	5	multiplechoices		Mereka tangkap ikan dengan apa?	ms_my_rc_21_1_p5_q.m4a	text	Jala	Joran	Baldi		Jala
+ms-MY	21	2	1	title	Cerita 2								
+ms-MY	21	2	2	readingonly	Saya suka arnab. Ada arnab yang kecil seperti mangga. Ada arnab yang besar seperti kelapa. Arnab pandai melompat. Arnab melompat tinggi.								
+ms-MY	21	2	3	fillintheblank		Arnab melompat [tinggi].	ms_my_rc_21_2_p3_q.m4a	text	perlahan	rendah			tinggi
+ms-MY	21	2	4	multiplechoices		Arnab pandai buat apa?	ms_my_rc_21_2_p4_q.m4a	text	Melompat	Berlari	Terbang		Melompat
+ms-MY	21	2	5	multiplechoices		Petikan ini tentang apa?	ms_my_rc_21_2_p5_q.m4a	text	Arnab	Monyet	Ayam		Arnab
+ms-MY	22	1	1	title	Cerita 1								
+ms-MY	22	1	2	readingonly	Kavita ada keluarga besar. Kavita ada seorang abang dan seorang kakak. Dia ada dua orang adik. Seorang adik perempuan dan seorang adik lelaki. Kavita suka main dengan adik-beradik. Dia rasa seronok.								
+ms-MY	22	1	3	fillintheblank		Kavita ada keluarga [besar].	ms_my_rc_22_1_p3_q.m4a	text	kecil	banyak			besar
+ms-MY	22	1	4	multiplechoices		Kavita suka buat apa dengan adik-beradik?	ms_my_rc_22_1_p4_q.m4a	text	Bermain	Berlari	Belajar		Bermain
+ms-MY	22	1	5	multiplechoices		Kavita ada berapa orang adik?	ms_my_rc_22_1_p5_q.m4a	text	Dua	Seorang	Tiga		Dua
+ms-MY	22	2	1	title	Cerita 2								
+ms-MY	22	2	2	readingonly	Saya nampak sebatang pokok. Pokok itu ada batang yang kuat. Batang pokok warna coklat. Pokok itu ada dahan. Dahan pokok warna coklat juga. Pokok itu ada banyak daun. Daun warna hijau.								
+ms-MY	22	2	3	fillintheblank		Batang pokok [kuat].	ms_my_rc_22_2_p3_q.m4a	text	lemah	pendek			kuat
+ms-MY	22	2	4	multiplechoices		Petikan ini tentang apa?	ms_my_rc_22_2_p4_q.m4a	text	Pokok	Tikus	Singa		Pokok
+ms-MY	22	2	5	multiplechoices		Daun warna apa?	ms_my_rc_22_2_p5_q.m4a	text	Coklat	Hijau	Biru		Hijau
+ms-MY	23	1	1	title	Cerita 1								
+ms-MY	23	1	2	readingonly	Devi seorang jururawat. Dia bantu orang sakit. Dia kerja dengan doktor. Devi seorang jururawat yang baik. Devi suka kerjanya.								
+ms-MY	23	1	3	multiplechoices		Devi kerja apa?	ms_my_rc_23_1_p3_q.m4a	text	Jururawat	Guru	Polis		Jururawat
+ms-MY	23	1	4	multiplechoices		Devi bantu siapa?	ms_my_rc_23_1_p4_q.m4a	text	Orang sakit	Orang sihat	Haiwan		Orang sakit
+ms-MY	23	1	5	multiplechoices		Devi kerja dengan siapa?	ms_my_rc_23_1_p5_q.m4a	text	Doktor	Polis	Guru		Doktor
+ms-MY	23	2	1	title	Cerita 2								
+ms-MY	23	2	2	readingonly	Ming suka tinggal dekat laut. Laut sangat luas dan penuh dengan air. Ming boleh nampak bot di laut. Dia juga boleh nampak ikan. Ming boleh berenang di laut.								
+ms-MY	23	2	3	fillintheblank		Ming [suka] laut.	ms_my_rc_23_2_p3_q.m4a	text	rindu	tidak suka			suka
+ms-MY	23	2	4	multiplechoices		Ming buat apa di laut?	ms_my_rc_23_2_p4_q.m4a	text	Berenang	Terbang	Berlari		Berenang
+ms-MY	23	2	5	multiplechoices		Ming boleh nampak apa di laut?	ms_my_rc_23_2_p5_q.m4a	text	Bot sahaja	Rumput	Bot dan ikan		Bot dan ikan
+ms-MY	24	1	1	title	Cerita 1								
+ms-MY	24	1	2	readingonly	Saya suka gajah. Gajah sangat besar. Gajah ada belalai yang panjang. Gajah makan banyak. Gajah makan rumput, daun dan tumbuhan lain.								
+ms-MY	24	1	3	fillintheblank		Gajah sangat [besar].	ms_my_rc_24_1_p3_q.m4a	text	kecil	comel			besar
+ms-MY	24	1	4	multiplechoices		Gajah makan apa?	ms_my_rc_24_1_p4_q.m4a	text	Rumput, daun, dan tumbuhan lain	Daging	Daun sahaja		Rumput, daun, dan tumbuhan lain
+ms-MY	24	1	5	fillintheblank		Belalai gajah [panjang].	ms_my_rc_24_1_p5_q.m4a	text	pendek	tajam			panjang
+ms-MY	24	2	1	title	Cerita 2								
+ms-MY	24	2	2	readingonly	Aini suka melukis. Dia lukis benda yang dia nampak. Dia lukis rumah. Dia lukis matahari. Dia lukis pokok. Dia lukis lembu. Aini boleh melukis sepanjang hari.								
+ms-MY	24	2	3	fillintheblank		Aini suka [melukis].	ms_my_rc_24_2_p3_q.m4a	text	menulis	menyanyi			melukis
+ms-MY	24	2	4	multiplechoices		Aini lukis apa?	ms_my_rc_24_2_p4_q.m4a	text	Rumah, matahari, pokok, dan lembu	Sungai, laut, dan langit	Padang, jalan, dan kereta		Rumah, matahari, pokok, dan lembu
+ms-MY	24	2	5	fillintheblank		Aini boleh melukis [sepanjang hari].	ms_my_rc_24_2_p5_q.m4a	text	kadangkala	sebentar			sepanjang hari
+ms-MY	25	1	1	title	Cerita 1								
+ms-MY	25	1	2	readingonly	Mei suka tengok bintang. Dia tengok bintang dari rumah. Dia tengok bintang pada waktu malam. Dia tengok bintang di langit. Dia cuba kira semua bintang tetapi bintang terlalu banyak.								
+ms-MY	25	1	3	multiplechoices		Mei suka tengok apa?	ms_my_rc_25_1_p3_q.m4a	text	Bintang	Matahari	Awan		Bintang
+ms-MY	25	1	4	multiplechoices		Waktu bila Mei tengok bintang?	ms_my_rc_25_1_p4_q.m4a	text	Pagi	Petang	Malam		Malam
+ms-MY	25	1	5	fillintheblank		Mei tengok bintang di [langit].	ms_my_rc_25_1_p5_q.m4a	text	laut	hutan	Tiada		langit
+ms-MY	25	2	1	title	Cerita 2								
+ms-MY	25	2	2	readingonly	Itu sebatang pokok pisang. Buah pisang tumbuh dalam tandan. Kulit pisang ada yang hijau, ada yang kuning dan ada yang perang. Saya suka makan pisang yang berkulit kuning. Pisang itu manis dan sedap.								
+ms-MY	25	2	3	fillintheblank		Saya suka makan pisang yang berkulit [kuning].	ms_my_rc_25_2_p3_q.m4a	text	putih	hijau			kuning
+ms-MY	25	2	4	fillintheblank		Pisang kuning manis dan [sedap].	ms_my_rc_25_2_p4_q.m4a	text	pahit	pedas			sedap
+ms-MY	25	2	5	multiplechoices		Kulit pisang warna apa?	ms_my_rc_25_2_p5_q.m4a	text	Hijau sahaja	Hijau, kuning, dan perang	Biru		Hijau, kuning, dan perang
+ms-MY	26	1	1	title	Cerita 1								
+ms-MY	26	1	2	readingonly	Ali suka berlari. Dia berlari ke pasar. Dia berlari pantas. Dia tersepak batu dan jatuh. Lutut Ali sakit. Selepas itu, Ali berjalan ke pasar. Dia lebih berhati-hati.								
+ms-MY	26	1	3	multiplechoices		Ali berlari ke mana?	ms_my_rc_26_1_p3_q.m4a	text	Pasar	Sekolah	Hospital		Pasar
+ms-MY	26	1	4	multiplechoices		Kenapa Ali jatuh?	ms_my_rc_26_1_p4_q.m4a	text	Dia tersepak batu	Cuaca panas	Dia letih		Dia tersepak batu
+ms-MY	26	1	5	ordering		Susun urutan	ms_my_rc_26_1_p5_q.m4a	text	Ali berlari ke pasar.	Dia jatuh.	Lututnya sakit.		Urutan betul
+ms-MY	26	2	1	title	Cerita 2								
+ms-MY	26	2	2	readingonly	Ini cacing dan ini burung. Cacing tinggal di dalam tanah. Burung tinggal di atas pokok. Cacing suka hujan. Burung suka matahari. Cacing dan burung suka bermain bersama.								
+ms-MY	26	2	3	fillintheblank		Cacing dan burung suka [bermain] bersama.	ms_my_rc_26_2_p3_q.m4a	text	bergaduh	makan			bermain
+ms-MY	26	2	4	multiplechoices		Burung suka apa?	ms_my_rc_26_2_p4_q.m4a	text	Hujan	Matahari	Bulan		Matahari
+ms-MY	26	2	5	multiplechoices		Cacing suka apa?	ms_my_rc_26_2_p5_q.m4a	text	Hujan	Matahari	Salji		Hujan
 ms-MY	27	1	1	title	Story 1								
 ms-MY	27	1	2	lcallinone	en_uk_lc_3_3_story.m4a	What does Zaina live next to?	en_uk_lc_3_3_q1.m4a	text	The ocean	The mountains	The highway		The ocean
 ms-MY	27	1	3	lcallinone	en_uk_lc_3_3_story.m4a	What does Zaina do with her father every morning?	en_uk_lc_3_3_q2.m4a	text	Catch fish	Feed their pigs	Open their shop		Catch fish
@@ -277,76 +273,76 @@ ms-MY	32	1	7	listeningonly	en_uk_lc_3_12_story.m4a
 ms-MY	32	1	8	fillintheblank		Worm and grasshopper are [friends].	en_uk_lc_3_12_q1.m4a	text	enemies	family			
 ms-MY	32	1	9	fillintheblank		Worm and grasshopper are very [different].	en_uk_lc_3_12_q2.m4a	text	alike	loud			
 ms-MY	32	1	10	multiplechoices		What do worm and grasshopper both like to do?	en_uk_lc_3_12_q3.m4a	text	To play	To cry	To sleep		To play
-ms-MY	33	1	1	title	Story 1								
-ms-MY	33	1	2	readingonly	Kwasi has a brother. His name is Fogo. Fogo went to the city for a visit. When he came back home, he brought Kwasi some new pens. The new pens were very nice. He bought one red pen, one blue pen and one green pen. Kwasi likes to write and draw pictures with the new pens.								
-ms-MY	33	1	3	multiplechoices		Where did Fogo go?	en_uk_rc_4_4_q2.m4a	text	The city	The village	The countryside		The city
-ms-MY	33	1	4	multiplechoices		What did Fogo buy for Kwasi?	en_uk_rc_4_4_q3.m4a	text	New pens	New bags	New books		New pens
-ms-MY	33	1	5	ordering			en_uk_rc_4_4_q4.m4a	text	Fogo goes to the city.	Fogo buys pens for Kwasi.	Kwasi likes to draw and write with the new pens.		
-ms-MY	33	1	6	title	Story 2								
-ms-MY	33	1	7	readingonly	Coconuts and mangoes are the same in many ways. They both can taste sweet or sour. They both grow on trees. Coconuts and mangoes are also different. Coconuts have juice you can drink, mangoes do not. Coconuts have a hard shell, mangoes do not. I like both of them very much, but I like coconuts best!								
-ms-MY	33	1	8	multiplechoices		What is this story about?	en_uk_rc_4_9_q1.m4a	text	Coconuts and mangoes	All kinds of fruits	Different animals		Coconuts and mangoes
-ms-MY	33	1	9	multiplechoices		How are coconuts and mangoes the same?	en_uk_rc_4_9_q2.m4a	text	They both grow on trees, and can be sweet or sour.	They are not the same at all.	They both grow in the ground.		They both grow on trees, and can be sweet or sour.
-ms-MY	33	1	10	fillintheblank		Coconuts and mangoes are [also] different.	en_uk_rc_4_9_q3.m4a	text	never	not			
-ms-MY	34	1	1	title	Story 1								
-ms-MY	34	1	2	readingonly	I like to swim. I like to swim in the ocean. I like to swim in the river. I like to swim in the lake. I do not like to run. I can swim for hours. I never get tired when I swim. I feel very tired after I run. I like to swim more than run.								
-ms-MY	34	1	3	multiplechoices		What does she like to do?	en_uk_rc_4_10_q1.m4a	text	Swim	Walk	Fly		Swim
-ms-MY	34	1	4	multiplechoices		Where does she like to swim?	en_uk_rc_4_10_q2.m4a	text	In the ocean, the river and the lake	In the ocean only	In the mud		In the ocean, the river and the lake
-ms-MY	34	1	5	fillintheblank		I do not like to [run].	en_uk_rc_4_10_q3.m4a	text	swim	fly			
-ms-MY	34	1	6	title	Story 2								
-ms-MY	34	1	7	readingonly	Ghipe and Haamid helped their teacher clean up the classroom for the new school year. They helped sweep. They moved the chairs and tables. The classroom was very dusty because it was not used for many weeks. After Ghipe and Haamid are done cleaning, the classroom is very clean. Their teacher tells them they did a great job.								
-ms-MY	34	1	8	multiplechoices		Who did Ghipe and Haamid help?	en_uk_rc_4_5_q1.m4a	text	Their teacher	Their uncle	Their mom		Their teacher
-ms-MY	34	1	9	multiplechoices		Why did they need to clean up the classroom?	en_uk_rc_4_5_q3.m4a	text	It was very dusty.	Someone made a mess.	They made a mess.		It was very dusty.
-ms-MY	34	1	10	ordering			en_uk_rc_4_5_q4.m4a	text	The classroom was not used for many weeks.	They help clean the classroom.	The classroom is very clean.		
-ms-MY	35	1	1	title	Story 1								
-ms-MY	35	1	2	readingonly	Paul and his family need soap. His father gives Paul money to buy the soap. On his way to the store, Paul sees some sweets. He does not have money for both the sweets and the soap. He wants the sweets, but he gets the soap. His family needs the soap.								
-ms-MY	35	1	3	multiplechoices		What do Paul and his family need?	en_uk_rc_4_2_q1.m4a	text	Soap	Sweets	Bread		Soap
-ms-MY	35	1	4	fillintheblank		He does not have [money] for both the sweets and the soap.	en_uk_rc_4_2_q3.m4a	text	time	room			
-ms-MY	35	1	5	ordering			en_uk_rc_4_2_q4.m4a	text	Paul was on his way to the store to buy soap.	Paul saw some sweets.	Paul did not buy the sweets, but bought the soap.		
-ms-MY	35	1	6	title	Story 2								
-ms-MY	35	1	7	readingonly	Bird loves to sing. She sings each day. She sings when she finds a worm. She sings when she rests on a branch. She sings when the sun begins to set. At night, she stops singing. Bird rests. Tomorrow, she will wake up and sing again!								
-ms-MY	35	1	8	multiplechoices		What does Bird love to do?	en_uk_rc_4_12_q1.m4a	text	Sing	Fly	Dance		Sing
-ms-MY	35	1	9	multiplechoices		When does Bird stop singing?	en_uk_rc_4_12_q3.m4a	text	At night	Never	During the day		At night
-ms-MY	35	1	10	multiplechoices		What will Bird do tomorrow?	en_uk_rc_4_12_q4.m4a	text	Wake up and sing again	Nothing	Visit friends		Wake up and sing again
-ms-MY	36	1	1	title	Story 1								
-ms-MY	36	1	2	readingonly	Tim wanted to buy a donkey. A donkey would help. A donkey could carry water from the river. Tim did not have money to buy a donkey. He asked his good friend Sam for help. Sam was such a good friend, he gave Tim his donkey. Tim was very happy. Tim took the donkey home.								
-ms-MY	36	1	3	multiplechoices		Why did Tim want a donkey?	en_uk_rc_4_3_q2.m4a	text	To help him carry water from the river	To help him clean	To play with		To help him carry water from the river
-ms-MY	36	1	4	multiplechoices		What was Tim’s problem?	en_uk_rc_4_3_q3.m4a	text	He did not have money to buy a donkey.	He did not like donkeys.	He had too many donkeys.		He did not have money to buy a donkey.
-ms-MY	36	1	5	ordering			en_uk_rc_4_3_q4.m4a	text	Tim did not have money to buy a donkey.	Sam gave Tim a donkey.	Tim was happy and took the donkey home.		
-ms-MY	36	1	6	title	Story 2								
-ms-MY	36	1	7	readingonly	It was a very sunny day. Chega and his mom put their clothes out to dry. Then Chega went to play with his friends. Suddenly, it began to rain. The rain was heavy and very loud. Oh no! The clothes would get all wet again. Chega ran home to help his mom put away the clothes.								
-ms-MY	36	1	8	multiplechoices		What was the weather like at the start of the story?	en_uk_rc_4_7_q1.m4a	text	It was sunny.	It was snowy.	It was raining.		It was sunny.
-ms-MY	36	1	9	multiplechoices		Why did Chega run home?	en_uk_rc_4_7_q3.m4a	text	To help his mom put away the clothes	To help his mom cook	To eat dinner		To help his mom put away the clothes
-ms-MY	36	1	10	ordering			en_uk_rc_4_7_q4.m4a	text	It was sunny and Chega played with his friends.	Suddenly, it began to rain.	Chega ran home to help his mom put away the clothes.		
-ms-MY	37	1	1	title	Story 1								
-ms-MY	37	1	2	readingonly	Ayubu is going to visit his grandmother and wants to wear his best red shirt. But he cannot find it. He looks all over his house. He walks outside and sees his little brother wearing the red shirt. Ayubu smiles. His brother looks good in his best red shirt too.								
-ms-MY	37	1	3	multiplechoices		What does Ayubu want to wear?	en_uk_rc_4_6_q2.m4a	text	His best red shirt	His best hat	His worst shirt		His best red shirt
-ms-MY	37	1	4	multiplechoices		What is the problem?	en_uk_rc_4_6_q3.m4a	text	Ayubu cannot find his best red shirt.	Ayubu does not remember his grandmother.	Ayubu’s grandmother is sick.		Ayubu cannot find his best red shirt.
-ms-MY	37	1	5	fillintheblank		His brother looks [good] in his best red shirt too.	en_uk_rc_4_6_q4.m4a	text	bad	horrible			
-ms-MY	37	1	6	title	Story 2								
-ms-MY	37	1	7	readingonly	I go to school with my friends. My friends and I do many things at school. I read books with my friends. I tell jokes with my friends. I play sports with my friends. I eat lunch with my friends. I walk home with my friends. I say goodbye to my friends. I can’t wait to see my friends again tomorrow!								
-ms-MY	37	1	8	fillintheblank		I go to [school] with my friends.	en_uk_rc_4_11_q1.m4a	text	hospital	market			
-ms-MY	37	1	9	multiplechoices		What do they do after school?	en_uk_rc_4_11_q3.m4a	text	Walk home and say goodbye	Walk to the market	Run to the forest		Walk home and say goodbye
-ms-MY	37	1	10	multiplechoices		Why is she happy for tomorrow?	en_uk_rc_4_11_q4.m4a	text	To see her friends again	To see her teacher again	To go to the store		To see her friends again
-ms-MY	38	1	1	title	Story 1								
-ms-MY	38	1	2	readingonly	Chiku has a big sister. She is two years older than Chiku. Her sister helps teach Chiku many things. She teaches her how to do math. She teaches her how to read. She teaches her how to play sports. Chiku has many teachers. But she likes her sister the most.								
-ms-MY	38	1	3	multiplechoices		What does Chiku’s sister teach her?	en_uk_rc_4_8_q2.m4a	text	Many things, like math and reading	Nothing	Some things, like cooking		Many things, like math and reading
-ms-MY	38	1	4	multiplechoices		Why does Chiku feel her sister is a teacher?	en_uk_rc_4_8_q3.m4a	text	Because she teaches Chiku many things.	Because she wants to be a teacher too.	Because she likes teachers.		Because she teaches Chiku many things.
-ms-MY	38	1	5	multiplechoices		Who is Chiku’s favorite teacher?	en_uk_rc_4_8_q4.m4a	text	Her sister	Her class teacher	Her dad		Her sister
-ms-MY	38	1	6	title	Story 2								
-ms-MY	38	1	7	readingonly	Martin wants to play football. He does not know how to play. Martin asks his friends. They tell him to kick the ball. They tell him to run down the field. They tell him to pass the ball to his team. They tell him to aim for the goal. Martin does his best. His friends cheer for him. Martin thinks football is fun!								
-ms-MY	38	1	8	multiplechoices		Why doesn’t Martin play football at first?	en_uk_rc_4_13_q2.m4a	text	He does not know how to play.	He does not like football.	His leg hurts.		He does not know how to play.
-ms-MY	38	1	9	multiplechoices		Who teaches Martin to play football?	en_uk_rc_4_13_q3.m4a	text	His friends	The headmaster	His sister		His friends
-ms-MY	38	1	10	ordering			en_uk_rc_4_13_q4.m4a	text	Martin does not know how to play football.	His friends teach him how to play football.	Martin thinks football is fun.		
-ms-MY	39	1	1	title	Story 1								
-ms-MY	39	1	2	readingonly	Sara had a big cat. The big cat was black. Sara and the cat liked to play. One day Sara came home from school. She looked for the big cat, but it was not at home. Sara was sad. After a while the cat came back. Sara gave the cat some milk. The big cat was happy and slept on her lap. Sara was happy too.								
-ms-MY	39	1	3	multiplechoices		What do Sara and the cat like to do?	en_uk_rc_4_1_q2.m4a	text	Play	Sleep	Read		Play
-ms-MY	39	1	4	multiplechoices		Why was Sara sad at first?	en_uk_rc_4_1_q3.m4a	text	She could not find her cat at home.	She does not like her cat.	She could not find her chicken.		She could not find her cat at home.
-ms-MY	39	1	5	multiplechoices		Why was Sara happy?	en_uk_rc_4_1_q4.m4a	text	The cat came home.	The cat never came home.	She got a new cat.		The cat came home.
-ms-MY	39	1	6	title	Story 2								
-ms-MY	39	1	7	readingonly	I have a baby brother. He is no fun! My baby brother is messy. He throws his food. My baby brother is loud. He cries a lot. My baby brother is smelly. He needs to be changed. Sometimes my baby brother looks at me and smiles. Sometimes he gives me a hug. I really love my baby brother.								
-ms-MY	39	1	8	multiplechoices		Why is baby brother no fun sometimes?	en_uk_rc_4_14_q2.m4a	text	He is messy, loud, and smelly.	He is mean.	He smiles too much.		He is messy, loud, and smelly.
-ms-MY	39	1	9	fillintheblank		Sometimes my baby brother looks at me and [smiles].	en_uk_rc_4_14_q3.m4a	text	sings	speaks			
-ms-MY	39	1	10	multiplechoices		How does she really feel about her baby brother?	en_uk_rc_4_14_q4.m4a	text	She really loves him.	She does not like him very much.	She does not care.		She really loves him.
+ms-MY	33	1	1	title	Cerita 1								
+ms-MY	33	1	2	readingonly	Kumar ada seorang abang. Nama abang Kumar ialah Ravi. Ravi pergi ke bandar. Dia beli pensel baharu untuk Kumar. Pensel itu cantik. Warna pensel merah, biru dan hijau. Kumar suka menulis dengan pensel itu.								
+ms-MY	33	1	3	multiplechoices		Ravi pergi ke mana?	ms_my_rc_33_1_p3_q.m4a	text	Bandar	Kampung	Ladang		Bandar
+ms-MY	33	1	4	multiplechoices		Ravi beli apa untuk Kumar?	ms_my_rc_33_1_p4_q.m4a	text	Pensel	Baju	Buku		Pensel
+ms-MY	33	1	5	ordering		Susun urutan	ms_my_rc_33_1_p5_q.m4a	text	Ravi pergi ke bandar.	Ravi beli pensel.	Kumar menulis dengan pensel itu.		Urutan betul
+ms-MY	33	2	1	title	Cerita 2								
+ms-MY	33	2	2	readingonly	Kelapa dan mangga ada banyak persamaan. Isi buah kelapa dan buah mangga rasa manis. Kedua-duanya tumbuh di atas pokok. Kelapa dan mangga juga ada perbezaan. Buah kelapa ada tempurung keras dan ada air di dalam. Buah mangga ada kulit lembut dan ada biji di dalam. Saya suka kedua-duanya tetapi saya lebih suka kelapa.								
+ms-MY	33	2	3	fillintheblank		Kelapa dan mangga ada persamaan dan [perbezaan].	ms_my_rc_33_2_p3_q.m4a	text	tugas	contoh			perbezaan
+ms-MY	33	2	4	multiplechoices		Petikan ini tentang apa?	ms_my_rc_33_2_p4_q.m4a	text	Kelapa dan mangga	Sayur	Haiwan		Kelapa dan mangga
+ms-MY	33	2	5	multiplechoices		Buah kelapa dan buah mangga tumbuh di mana?	ms_my_rc_33_2_p5_q.m4a	text	Atas pokok	Di tanah	Di sungai		Atas pokok
+ms-MY	34	1	1	title	Cerita 1								
+ms-MY	34	1	2	readingonly	Devi suka berenang. Devi berenang di laut. Devi berenang di sungai. Devi berenang di tasik. Devi tidak suka berlari. Devi boleh berenang lama dan tidak rasa penat. Tetapi, Devi cepat penat bila berlari.								
+ms-MY	34	1	3	fillintheblank		Devi tidak suka [berlari].	ms_my_rc_34_1_p3_q.m4a	text	berenang	terbang			berlari
+ms-MY	34	1	4	multiplechoices		Devi suka buat apa?	ms_my_rc_34_1_p4_q.m4a	text	Berenang	Berjalan	Terbang		Berenang
+ms-MY	34	1	5	multiplechoices		Devi berenang di mana?	ms_my_rc_34_1_p5_q.m4a	text	Laut, sungai dan tasik	Laut sahaja	Kolam		Laut, sungai dan tasik
+ms-MY	34	2	1	title	Cerita 2								
+ms-MY	34	2	2	readingonly	Ming dan Hao bantu guru bersih kelas. Mereka sapu lantai. Mereka susun kerusi dan meja. Kelas ada banyak habuk. Selepas itu, kelas sangat bersih. Guru puji mereka.								
+ms-MY	34	2	3	multiplechoices		Ming dan Hao bantu siapa?	ms_my_rc_34_2_p3_q.m4a	text	Guru	Pakcik	Ibu		Guru
+ms-MY	34	2	4	multiplechoices		Kena mereka bersihkan kelas?	ms_my_rc_34_2_p4_q.m4a	text	Kelas banjir	Kelas bersepah	Kelas ada banyak habuk		Kelas ada banyak habuk
+ms-MY	34	2	5	ordering		Susun urutan	ms_my_rc_34_2_p5_q.m4a	text	Ming dan Hao sapu lantai	Mereka susun kerusi dan meja.	Kelas bersih.		Urutan betul
+ms-MY	35	1	1	title	Cerita 1								
+ms-MY	35	1	2	readingonly	Minyak masak di rumah Ravi habis. Bapa Ravi beri duit untuk beli minyak masak. Di kedai, Ravi nampak gula-gula. Dia mahu beli gula-gula tetapi duit tidak cukup. Ravi beli minyak masak. Ibu Ravi perlu minyak masak.								
+ms-MY	35	1	3	multiplechoices		Ravi namapk apa di kedai?	ms_my_rc_35_1_p3_q.m4a	text	Roti	Gula-gula	Sayur		Gula-gula
+ms-MY	35	1	4	multiplechoices		Ibu Ravi perlu apa?	ms_my_rc_35_1_p4_q.m4a	text	Minyak masak	Gula-gula	Roti		Minyak masak
+ms-MY	35	1	5	ordering		Susun urutan	ms_my_rc_35_1_p5_q.m4a	text	Bapa Ravi beri duit.	Ravi pergi ke kedai.	Dia beli minyak masak.		Urutan betul
+ms-MY	35	2	1	title	Cerita 2								
+ms-MY	35	2	2	readingonly	Burung suka menyanyi. Burung menyanyi setiap hari. Burung menyanyi apabila jumpa cacing. Burung menyanyi di atas dahan. Pada waktu malam burung berhenti menyanyi dan tidur. Pada waktu pagi, burung bangun dan menyanyi lagi.								
+ms-MY	35	2	3	multiplechoices		Burung suka buat apa?	ms_my_rc_35_2_p3_q.m4a	text	Menyanyi	Terbang	Menari		Menyanyi
+ms-MY	35	2	4	multiplechoices		Burung menyanyi di mana?	ms_my_rc_35_2_p4_q.m4a	text	Tepi sungai	Atas dahan	Padang		Atas dahan
+ms-MY	35	2	5	multiplechoices		Waktu bila burung berhenti menanyi?	ms_my_rc_35_2_p5_q.m4a	text	Pagi	Petang	Malam		Malam
+ms-MY	36	1	1	title	Cerita 1								
+ms-MY	36	1	2	readingonly	Ali mahu beli basikal. Ali boleh naik basikal ke sekolah. Ali tidak ada duit untuk beli basikal. Ravi kawan baik Ali. Ravi beri basikal kepada Ali. Ali sangat gembira.								
+ms-MY	36	1	3	multiplechoices		Ali mahu beli apa?	ms_my_rc_36_1_p3_q.m4a	text	Kereta	Basikal	Kerusi		Basikal
+ms-MY	36	1	4	multiplechoices		Siapa beri basikal kepada Ali?	ms_my_rc_36_1_p4_q.m4a	text	Abu	Bapa	Ravi		Ravi
+ms-MY	36	1	5	ordering		Susun urutan	ms_my_rc_36_1_p5_q.m4a	text	Ali mahu beli basikal.	Ali tidak ada duit.	Ravi beri basikal kepada Ali.		Urutan betul
+ms-MY	36	2	1	title	Cerita 2								
+ms-MY	36	2	2	readingonly	Cuaca hari ini panas. Aini bantu ibu jemur baju. Selapas itu, Aini pergi bermain. Tiba-tiba hujan turn dengan lebat. Aini lari balik ke rumah dan bantu ibu angkat baju.								
+ms-MY	36	2	3	multiplechoices		Aini bantu ibu buat apa?	ms_my_rc_36_2_p3_q.m4a	text	Cuci baju	Jemur baju	Lipat baju		Jemur baju
+ms-MY	36	2	4	multiplechoices		Kenapa Aini lari balik ke rumah?	ms_my_rc_36_2_p4_q.m4a	text	Bantu ibu angkat baju	Tidur	Makan		Bantu ibu angkat baju
+ms-MY	36	2	5	ordering		Susun urutan	ms_my_rc_36_2_p5_q.m4a	text	Cuaca panas.	Aini pergi bermain.	Huajn turun.		Urutan betul
+ms-MY	37	1	1	title	Cerita 1								
+ms-MY	37	1	2	readingonly	Amir mahu melawat neneknya. Dia mahu memakai baju merah baharu. Dia mencari baju itu di bilik tetapi tidak jumpa. Dia nampak adiknya memakai baju itu. Amir senyum. Adiknya nampak kemas dengan baju merah itu.								
+ms-MY	37	1	3	fillintheblank		Amir mahu [melawat] neneknya.	ms_my_rc_37_1_p3_q.m4a	text	menelefon	menonton			melawat
+ms-MY	37	1	4	multiplechoices		Amir mahu pakai apa?	ms_my_rc_37_1_p4_q.m4a	text	Baju merah baharu	Topi	Baju lama		Baju merah baharu
+ms-MY	37	1	5	multiplechoices		Kenapa Amir tidak dapat jumpa baju itu?	ms_my_rc_37_1_p5_q.m4a	text	Adik Amir memakai baju itu.	Amir lupa baju itu di mana.	Baju itu dicuci.		Adik Amir memakai baju itu.
+ms-MY	37	2	1	title	Cerita 2								
+ms-MY	37	2	2	readingonly	Lina pergi ke sekolah dengan kawan-kawan. Mereka suka baca buku bersama-sama. Kadang-kadang mereka bergurau dan bersukan. Mereka duduk bersama semasa waktu rehat. Selepas sekolah, mereka berjalan kaki balik ke rumah.								
+ms-MY	37	2	3	fillintheblank		Lina pergi ke [sekolah].	ms_my_rc_37_2_p3_q.m4a	text	hospital	pasar			sekolah
+ms-MY	37	2	4	multiplechoices		Mereka suka buat apa bersama-sama?	ms_my_rc_37_2_p4_q.m4a	text	Baca buku	Menanyi	Mewarna		Baca buku
+ms-MY	37	2	5	multiplechoices		Mereka pergi ke mana selepas sekolah?	ms_my_rc_37_2_p5_q.m4a	text	Kedai	Rumah	Klinik		Rumah
+ms-MY	38	1	1	title	Cerita 1								
+ms-MY	38	1	2	readingonly	Kavita ada seorang kakak. Kakak Kavita dua tahun lebih tua. Kakaknya ajar Kavita mengira, membaca, dan bersukan. Kavita ada banyak guru, tetapi Kavita paling suka kakaknya mengajar.								
+ms-MY	38	1	3	multiplechoices		Kakak ajar Kavita apa?	ms_my_rc_38_1_p3_q.m4a	text	Mengira, membaca, dan bersukan.	Menanyi dan menari	Memasak		Mengira, membaca, dan bersukan.
+ms-MY	38	1	4	fillintheblank		Kakak Kavita dua tahun lebih [tua].	ms_my_rc_38_1_p4_q.m4a	text	muda	berat			tua
+ms-MY	38	1	5	multiplechoices		Kavita paling suka siapa mengajarnya?	ms_my_rc_38_1_p5_q.m4a	text	Kakaknya	Guru	Ayah		Kakaknya
+ms-MY	38	2	1	title	Cerita 2								
+ms-MY	38	2	2	readingonly	Ming mahu bermain bola sepak. Dia tidak tahu bermain bola sepak. Kawan-kawan ajar Ming bermain bola sepak. Mereka ajar Ming sepak bola. Ming cuba dengan baik. Ming rasa seronok bermain bola sepak.								
+ms-MY	38	2	3	multiplechoices		Ming mahu bermain apa?	ms_my_rc_38_2_p3_q.m4a	text	Bola sepak	Badminton	Bola keranjang		Bola sepak
+ms-MY	38	2	4	multiplechoices		Siapa ajar Ming bermain bola sepak?	ms_my_rc_38_2_p4_q.m4a	text	Kawan-kawan	Guru	Kakak		Kawan-kawan
+ms-MY	38	2	5	ordering		Susun urutan	ms_my_rc_38_2_p5_q.m4a	text	Ming mahu bermain bola sepak.	Kawan-kawan ajar Ming.	Ming rasa seronok.		Urutan betul
+ms-MY	39	1	1	title	Cerita 1								
+ms-MY	39	1	2	readingonly	Siti ada seekor kucing. Kucing itu hitam. Siti suka bermain dengan kucing itu. Pada suatu hari, Siti balik dari sekolah. Dia cari kucing itu tetapi tidak jumpa. Siti rasa sedih. Tidak lama kemudian, kucing itu balik. Siti beri susu kepadanya. Kucing itu tidur di riba Siti. Siti rasa gembira.								
+ms-MY	39	1	3	fillintheblank		Siti ada kucing [hitam].	ms_my_rc_39_1_p3_q.m4a	text	putih	kuning			hitam
+ms-MY	39	1	4	multiplechoices		Kenapa Siti sedih?	ms_my_rc_39_1_p4_q.m4a	text	Dia tidak jumpa kucingnya.	Bukunya hilang.	Dia lapar.		Dia tidak jumpa kucingnya.
+ms-MY	39	1	5	multiplechoices		Di mana kucing Siti tidur?	ms_my_rc_39_1_p5_q.m4a	text	Riba Siti.	Atas meja.	Dalam kotak.		Riba Siti.
+ms-MY	39	2	1	title	Cerita 2								
+ms-MY	39	2	2	readingonly	Mei ada seorang adik lelaki. Adiknya suka makan. Dia suka ketawa. Adik Mei senyum apabila nampaknya. Mei selalu peluk adiknya. Mei sayang adiknya.								
+ms-MY	39	2	3	fillintheblank		Mei ada seorang [adik] lelaki.	ms_my_rc_39_2_p3_q.m4a	text	abang	kakak			adik
+ms-MY	39	2	4	multiplechoices		Adik Mei senyum apabila nampak siapa?	ms_my_rc_39_2_p4_q.m4a	text	Ibu	Mei	Abang		Mei
+ms-MY	39	2	5	multiplechoices		Mei selalu peluk siapa?	ms_my_rc_39_2_p5_q.m4a	text	Adiknya	Ibunya	Bapanya		Adiknya
 ms-MY	40	1	1	title	Story 1								
 ms-MY	40	1	2	listeningonly	en_uk_lc_4_3_story.m4a								
 ms-MY	40	1	3	multiplechoices		Where did Fogo go for a visit?	en_uk_lc_4_3_q1.m4a	text	To the city	To the beach	To the moon		To the city
