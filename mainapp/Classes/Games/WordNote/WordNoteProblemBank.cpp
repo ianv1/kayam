@@ -38,13 +38,16 @@ vector<int> ProblemBank::getLevels() {
 }
 
 vector<WordNoteLevelStruct> ProblemBank::loadData(int level, int *currentWorkSheet) {
+    CCLOG("[WordNote::loadData] BEGIN level=%d", level);
     std::string rawString = cocos2d::FileUtils::getInstance()->getStringFromFile("WordNote/WordNote_Levels.tsv");
+    CCLOG("[WordNote::loadData] rawString length=%lu", (unsigned long)rawString.size());
     auto data = TodoUtil::readTSV(rawString);
-    
+    CCLOG("[WordNote::loadData] parsed rows=%lu", (unsigned long)data.size());
+
     vector<WordNoteLevelStruct> problemsAllWorkSheet, problems;
     problemsAllWorkSheet.clear();
     problems.clear();
-    
+
     int maxWorkSheet = 0;
     
     for (auto row : data) {
@@ -91,22 +94,33 @@ vector<WordNoteLevelStruct> ProblemBank::loadData(int level, int *currentWorkShe
         });
         
     }
+    CCLOG("[WordNote::loadData] level=%d maxWorkSheet=%d allWorkSheetRows=%lu", level, maxWorkSheet, (unsigned long)problemsAllWorkSheet.size());
+    if (maxWorkSheet < 1) {
+        CCLOG("[WordNote::loadData] FATAL: maxWorkSheet=%d (no rows for level %d) - returning empty to avoid recursion crash", maxWorkSheet, level);
+        *currentWorkSheet = 0;
+        return problems;
+    }
     *currentWorkSheet = random<int>(1, maxWorkSheet);
-    
+    CCLOG("[WordNote::loadData] picked worksheet=%d", *currentWorkSheet);
+
     for (auto problem : problemsAllWorkSheet) {
         if (*currentWorkSheet != problem.worksheet) continue;
         problems.push_back(problem);
     }
-    
+    CCLOG("[WordNote::loadData] END problems=%lu", (unsigned long)problems.size());
+
     return problems;
-    
+
 }
 
 bool sortWordNoteSoundSheet(const SoundDuration &i, const SoundDuration &j) { return (i.word.size() > j.word.size()); };
 
 vector<SoundDuration> ProblemBank::loadSoundDurationSheet() {
+    CCLOG("[WordNote::loadSoundDurationSheet] BEGIN");
     std::string rawString = cocos2d::FileUtils::getInstance()->getStringFromFile("WordNote/Sounds/Durations.tsv");
+    CCLOG("[WordNote::loadSoundDurationSheet] rawString length=%lu", (unsigned long)rawString.size());
     auto data = TodoUtil::readTSV(rawString);
+    CCLOG("[WordNote::loadSoundDurationSheet] parsed rows=%lu", (unsigned long)data.size());
     
     vector<SoundDuration> soundDurationSheet;
     soundDurationSheet.clear();

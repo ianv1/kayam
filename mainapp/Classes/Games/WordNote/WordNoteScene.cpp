@@ -45,88 +45,124 @@ void WordNoteScene::removeObjects() {
 }
 
 bool WordNoteScene::init() {
-    
+
     LOGFN();
-    
-    if (!Layer::init()) return false;
+    CCLOG("[WordNote::init] BEGIN");
+
+    if (!Layer::init()) { CCLOG("[WordNote::init] Layer::init failed"); return false; }
+    CCLOG("[WordNote::init] Layer::init OK");
 
     _zIndex = 10;
     _totalProblemCount = 0;
 
     _soundDurationSheet.clear();
-    
+
     if (!LanguageManager::getInstance()->isEnglish()) {
+        CCLOG("[WordNote::init] loading sound duration sheet");
         _soundDurationSheet = ProblemBank::getInstance()->loadSoundDurationSheet();
+        CCLOG("[WordNote::init] sound duration sheet loaded, size=%lu", (unsigned long)_soundDurationSheet.size());
     }
 
     srand((unsigned)time(NULL));
-    
+
+    CCLOG("[WordNote::init] creating progress bar");
     _progressBar = ProgressIndicator::create();
-    
+    CCLOG("[WordNote::init] progress bar = %p", _progressBar);
+
     _winSize = getContentSize();
-    
+    CCLOG("[WordNote::init] winSize = %f x %f", _winSize.width, _winSize.height);
+
+    CCLOG("[WordNote::init] creating bg sprite");
     auto bg = Sprite::create("WordNote/Images/WordNote_image_effect_BG.png");
+    CCLOG("[WordNote::init] bg sprite = %p", bg);
+    if (!bg) { CCLOG("[WordNote::init] FATAL: bg is NULL"); return false; }
     auto bgSize = bg->getContentSize();
+    CCLOG("[WordNote::init] bg size = %f x %f", bgSize.width, bgSize.height);
     auto bgScale = MAX(_winSize.width / bgSize.width, _winSize.height / bgSize.height);
     bg->setScale(bgScale);
     bg->setPosition(_winSize/2);
     bg->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
     addChild(bg);
+    CCLOG("[WordNote::init] bg added");
 
+    CCLOG("[WordNote::init] creating bgCorrect sprite");
     _bgCorrect = Sprite::create("WordNote/Images/WordNote_image_effect_BG.png");
+    CCLOG("[WordNote::init] bgCorrect sprite = %p", _bgCorrect);
+    if (!_bgCorrect) { CCLOG("[WordNote::init] FATAL: bgCorrect is NULL"); return false; }
     _bgCorrect->setScale(bgScale);
     _bgCorrect->setPosition(_winSize/2);
     _bgCorrect->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
-    
+
     _gameSize = Size(2560, 1800);
     //_gameSize = Size(3200, 1800);
     _gameScale = _winSize.height / 1800;
-    
+
     _gameNode = Node::create();
     _gameNode->setContentSize(_gameSize);
     _gameNode->setScale(_gameScale);
     _gameNode->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
     _gameNode->setPosition(Vec2(_winSize.width/2, _winSize.height/2));
     addChild(_gameNode);
-    
+    CCLOG("[WordNote::init] gameNode added");
+
     auto backButton = TodoSchoolBackButton::create();
     backButton->setAnchorPoint(Vec2::ANCHOR_TOP_LEFT);
     backButton->setPosition(Vec2(25, _winSize.height-25));
     addChild(backButton);
-    
+    CCLOG("[WordNote::init] backButton added");
+
     _progressBar->setPosition(Vec2(_winSize.width/2, _winSize.height - _progressBar->getContentSize().height-50));
     addChild(_progressBar);
-    
+    CCLOG("[WordNote::init] progressBar added");
+
+    CCLOG("[WordNote::init] creating paperBG");
     auto paperBG = Sprite::create("WordNote/Images/WordNote_image_paper_BG.png");
+    CCLOG("[WordNote::init] paperBG = %p", paperBG);
+    if (!paperBG) { CCLOG("[WordNote::init] FATAL: paperBG is NULL"); return false; }
     paperBG->setAnchorPoint(Vec2::ANCHOR_MIDDLE_TOP);
     paperBG->setPosition(_gameNode->getContentSize().width/2, _gameNode->getContentSize().height);
     _gameNode->addChild(paperBG);
-    
+
     auto guideFilter = LayerColor::create(Color4B(0, 0, 0, 128), 2560, 690);
     //guideFilter->setAnchorPoint(Vec2::ANCHOR_MIDDLE_BOTTOM);
     guideFilter->setPosition(0, 0);
     guideFilter->setName("guideFilter");
     guideFilter->setVisible(false);
     _gameNode->addChild(guideFilter);
-    
+
+    CCLOG("[WordNote::init] creating plate");
     auto plate = Sprite::create("WordNote/Images/WordNote_image_wooden-plate.png");
+    CCLOG("[WordNote::init] plate = %p", plate);
+    if (!plate) { CCLOG("[WordNote::init] FATAL: plate is NULL"); return false; }
     plate->setAnchorPoint(Vec2::ANCHOR_MIDDLE_BOTTOM);
     plate->setPosition(paperBG->getPositionX(), 0);
     _gameNode->addChild(plate);
-    
+
+    CCLOG("[WordNote::init] creating selectedEffect1");
     _selectedEffect1 = Sprite::create("WordNote/Images/WordNote_image_slot-selected-effect_single.png");
+    CCLOG("[WordNote::init] selectedEffect1 = %p", _selectedEffect1);
+    if (!_selectedEffect1) { CCLOG("[WordNote::init] FATAL: selectedEffect1 is NULL"); return false; }
     _selectedEffect1->setVisible(false);
     _gameNode->addChild(_selectedEffect1);
-    
+
+    CCLOG("[WordNote::init] creating selectedEffect2");
     _selectedEffect2 = Sprite::create("WordNote/Images/WordNote_image_slot-selected-effect_double.png");
+    CCLOG("[WordNote::init] selectedEffect2 = %p", _selectedEffect2);
+    if (!_selectedEffect2) { CCLOG("[WordNote::init] FATAL: selectedEffect2 is NULL"); return false; }
     _selectedEffect2->setVisible(false);
     _gameNode->addChild(_selectedEffect2);
 
+    CCLOG("[WordNote::init] creating selectedEffect3");
     _selectedEffect3 = Sprite::create("WordNote/Images/WordNote_image_slot-selected-effect_triple.png");
+    CCLOG("[WordNote::init] selectedEffect3 = %p", _selectedEffect3);
+    if (!_selectedEffect3) { CCLOG("[WordNote::init] FATAL: selectedEffect3 is NULL"); return false; }
     _selectedEffect3->setVisible(false);
     _gameNode->addChild(_selectedEffect3);
-    
+
+    CCLOG("[WordNote::init] creating selectedEffect4");
     _selectedEffect4 = Sprite::create("WordNote/Images/WordNote_image_slot-selected-effect_quad.png");
+    CCLOG("[WordNote::init] selectedEffect4 = %p", _selectedEffect4);
+    if (!_selectedEffect4) { CCLOG("[WordNote::init] FATAL: selectedEffect4 is NULL"); return false; }
     _selectedEffect4->setVisible(false);
     _gameNode->addChild(_selectedEffect4);
     
@@ -136,8 +172,10 @@ bool WordNoteScene::init() {
     _problemNode->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
     _problemNode->setPosition(Vec2(_gameNode->getContentSize()/2));
     _gameNode->addChild(_problemNode);
-    
+    CCLOG("[WordNote::init] problemNode added");
+
     _plate = plate;
+    CCLOG("[WordNote::init] END (returning true)");
     
     if (UserManager::getInstance()->isDebugMode()) {
         auto skip = Button::create();
@@ -164,13 +202,18 @@ bool WordNoteScene::init() {
 
 void WordNoteScene::onEnter(){
     LOGFN();
+    CCLOG("[WordNote::onEnter] BEGIN level=%d", _currentLevel);
     Layer::onEnter();
+    CCLOG("[WordNote::onEnter] calling loadData");
     _problems = ProblemBank::getInstance()->loadData(_currentLevel, &_currentSheetNo);
+    CCLOG("[WordNote::onEnter] loadData returned, problems=%lu sheetNo=%d", (unsigned long)_problems.size(), _currentSheetNo);
     _currentProblemIndex = 0;
     _totalProblemCount = (int)_problems.size();
     _progressBar->setMax(_totalProblemCount);
 
+    CCLOG("[WordNote::onEnter] calling setProblem");
     setProblem();
+    CCLOG("[WordNote::onEnter] END");
 }
 
 void WordNoteScene::onEnterTransitionDidFinish() {
