@@ -1,271 +1,271 @@
-#LanguageTag	#Level	#Worksheet	#Problem	#Word/Sentence	#Card	#ActiveCard	#Sound	#Image	#HintWord/Sentence	#CanDuplicate
-en-US	1	1	1	cat	ca,t	ca,t	cat.m4a	cat.png	TRUE	TRUE
-en-US	1	1	2	hat	ha,t	ha,t	hat.m4a	hat.png	TRUE	TRUE
-en-US	1	1	3	mat	ma,t	ma,t	mat.m4a	mat.png	TRUE	TRUE
-en-US	1	1	4	rat	ra,t	ra,t	rat.m4a	rat.png	TRUE	TRUE
-en-US	1	1	5	fan	fa,n	fa,n	fan.m4a	fan.png	TRUE	TRUE
-en-US	1	2	1	dog	do,g	do,g	dog.m4a	dog.png	TRUE	TRUE
-en-US	1	2	2	log	lo,g	lo,g	log.m4a	log.png	TRUE	TRUE
-en-US	1	2	3	bag	ba,g	ba,g	bag.m4a	bag.png	TRUE	TRUE
-en-US	1	2	4	bug	bu,g	bu,g	bug.m4a	bug.png	TRUE	TRUE
-en-US	1	2	5	mug	mu,g	mu,g	mug.m4a	mug.png	TRUE	TRUE
-en-US	1	3	1	cat	c,at	c,at	cat.m4a	cat.png	TRUE	TRUE
-en-US	1	3	2	hat	h,at	h,at	hat.m4a	hat.png	TRUE	TRUE
-en-US	1	3	3	mat	m,at	m,at	mat.m4a	mat.png	TRUE	TRUE
-en-US	1	3	4	rat	r,at	r,at	rat.m4a	rat.png	TRUE	TRUE
-en-US	1	3	5	fan	f,an	f,an	fan.m4a	fan.png	TRUE	TRUE
-en-US	1	4	1	dog	d,og	d,og	dog.m4a	dog.png	TRUE	TRUE
-en-US	1	4	2	log	l,og	l,og	log.m4a	log.png	TRUE	TRUE
-en-US	1	4	3	bag	b,ag	b,ag	bag.m4a	bag.png	TRUE	TRUE
-en-US	1	4	4	bug	b,ug	b,ug	bug.m4a	bug.png	TRUE	TRUE
-en-US	1	4	5	mug	m,ug	m,ug	mug.m4a	mug.png	TRUE	TRUE
-en-US	2	1	1	frog	fr,og	fr,og	frog.m4a	frog.png	TRUE	TRUE
-en-US	2	1	2	blue	bl,ue	bl,ue	blue.m4a	blue.png	TRUE	TRUE
-en-US	2	1	3	fish	f,ish	f,ish	fish.m4a	fish.png	TRUE	TRUE
-en-US	2	1	4	tree	tr,ee	tr,ee	tree.m4a	tree.png	TRUE	TRUE
-en-US	2	1	5	price	pr,ice	pr,ice	price.m4a	price.png	TRUE	TRUE
-en-US	2	2	1	drum	dr,um	dr,um	drum.m4a	drum.png	TRUE	TRUE
-en-US	2	2	2	black	bl,ack	bl,ack	black.m4a	black.png	TRUE	TRUE
-en-US	2	2	3	clock	cl,ock	cl,ock	clock.m4a	clock.png	TRUE	TRUE
-en-US	2	2	4	green	gr,een	gr,een	green.m4a	green.png	TRUE	TRUE
-en-US	2	2	5	white	wh,ite	wh,ite	white.m4a	white.png	TRUE	TRUE
-en-US	3	1	1	cake	c,ake	c,ake	cake.m4a	cake.png	TRUE	TRUE
-en-US	3	1	2	face	f,ace	f,ace	face.m4a	face.png	TRUE	TRUE
-en-US	3	1	3	fire	f,ire	f,ire	fire.m4a	fire.png	TRUE	TRUE
-en-US	3	1	4	rice	r,ice	r,ice	rice.m4a	rice.png	TRUE	TRUE
-en-US	3	1	5	nose	n,ose	n,ose	nose.m4a	nose.png	TRUE	TRUE
-en-US	3	2	1	cane	c,ane	c,ane	cane.m4a	cane.png	TRUE	TRUE
-en-US	3	2	2	bowl	b,owl	b,owl	bowl.m4a	bowl.png	TRUE	TRUE
-en-US	3	2	3	baby	ba,by	ba,by	baby.m4a	baby.png	TRUE	TRUE
-en-US	3	2	4	leaf	l,eaf	l,eaf	leaf.m4a	leaf.png	TRUE	TRUE
-en-US	3	2	5	donkey	don,key	don,key	donkey.m4a	donkey.png	TRUE	TRUE
-en-US	4	1	1	train	tr,ain	tr,ain	train.m4a		TRUE	TRUE
-en-US	4	1	2	snail	sn,ail	sn,ail	snail.m4a		TRUE	TRUE
-en-US	4	1	3	clean	cl,ean	cl,ean	clean.m4a		TRUE	TRUE
-en-US	4	1	4	cream	cr,eam	cr,eam	cream.m4a		TRUE	TRUE
-en-US	4	1	5	goat	g,oat	g,oat	goat.m4a		TRUE	TRUE
-en-US	4	2	1	window	win,dow	win,dow	window.m4a		TRUE	TRUE
-en-US	4	2	2	brown	br,own	br,own	brown.m4a		TRUE	TRUE
-en-US	4	2	3	flower	fl,ower	fl,ower	flower.m4a		TRUE	TRUE
-en-US	4	2	4	blouse	bl,ouse	bl,ouse	blouse.m4a		TRUE	TRUE
-en-US	4	2	5	shampoo	sham,poo	sham,poo	shampoo.m4a		TRUE	TRUE
-en-US	5	1	1	chick	ch,ick	ch,ick	chick.m4a		TRUE	TRUE
-en-US	5	1	2	lunch	lun,ch	lun,ch	lunch.m4a		TRUE	TRUE
-en-US	5	1	3	shop	sh,op	sh,op	shop.m4a		TRUE	TRUE
-en-US	5	1	4	dish	di,sh	di,sh	dish.m4a		TRUE	TRUE
-en-US	5	1	5	that	th,at	th,at	that.m4a		TRUE	TRUE
-en-US	5	2	1	phone	ph,one	ph,one	phone.m4a		TRUE	TRUE
-en-US	5	2	2	pink	p,ink	p,ink	pink.m4a		TRUE	TRUE
-en-US	5	2	3	bank	b,ank	b,ank	bank.m4a		TRUE	TRUE
-en-US	5	2	4	farm	f,arm	f,arm	farm.m4a		TRUE	TRUE
-en-US	5	2	5	park	p,ark	p,ark	park.m4a		TRUE	TRUE
-en-US	6	1	1	cat	c,a,t	c,a,t	cat.m4a	cat.png	TRUE	TRUE
-en-US	6	1	2	hat	h,a,t	h,a,t	hat.m4a	hat.png	TRUE	TRUE
-en-US	6	1	3	mat	m,a,t	m,a,t	mat.m4a	mat.png	TRUE	TRUE
-en-US	6	1	4	rat	r,a,t	r,a,t	rat.m4a	rat.png	TRUE	TRUE
-en-US	6	1	5	fan	f,a,n	f,a,n	fan.m4a	fan.png	TRUE	TRUE
-en-US	6	2	1	dog	d,o,g	d,o,g	dog.m4a	dog.png	TRUE	TRUE
-en-US	6	2	2	log	l,o,g	l,o,g	log.m4a	log.png	TRUE	TRUE
-en-US	6	2	3	bag	b,a,g	b,a,g	bag.m4a	bag.png	TRUE	TRUE
-en-US	6	2	4	bug	b,u,g	b,u,g	bug.m4a	bug.png	TRUE	TRUE
-en-US	6	2	5	mug	m,u,g	m,u,g	mug.m4a	mug.png	TRUE	TRUE
-en-US	7	1	1	frog	f,r,o,g	f,r,o,g	frog.m4a	frog.png	TRUE	TRUE
-en-US	7	1	2	blue	b,l,ue	b,l,ue	blue.m4a	blue.png	TRUE	TRUE
-en-US	7	1	3	fish	f,i,sh	f,i,sh	fish.m4a	fish.png	TRUE	TRUE
-en-US	7	1	4	tree	t,r,ee	t,r,ee	tree.m4a	tree.png	TRUE	TRUE
-en-US	7	1	5	price	p,r,i,c,e	p,r,i,c,e	price.m4a	price.png	TRUE	TRUE
-en-US	7	2	1	drum	d,r,u,m	d,r,u,m	drum.m4a	drum.png	TRUE	TRUE
-en-US	7	2	2	black	b,l,a,ck	b,l,a,ck	black.m4a	black.png	TRUE	TRUE
-en-US	7	2	3	clock	c,l,o,ck	c,l,o,ck	clock.m4a	clock.png	TRUE	TRUE
-en-US	7	2	4	green	g,r,ee,n	g,r,ee,n	green.m4a	green.png	TRUE	TRUE
-en-US	7	2	5	white	wh,i,t,e	wh,i,t,e	white.m4a	white.png	TRUE	TRUE
-en-US	8	1	1	cake	c,a,ke	c,a,ke	cake.m4a	cake.png	TRUE	TRUE
-en-US	8	1	2	face	f,a,ce	f,a,ce	face.m4a	face.png	TRUE	TRUE
-en-US	8	1	3	fire	f,i,re	f,i,re	fire.m4a	fire.png	TRUE	TRUE
-en-US	8	1	4	rice	r,i,ce	r,i,ce	rice.m4a	rice.png	TRUE	TRUE
-en-US	8	1	5	nose	n,o,se	n,o,se	nose.m4a	nose.png	TRUE	TRUE
-en-US	8	2	1	cane	c,a,ne	c,a,ne	cane.m4a	cane.png	TRUE	TRUE
-en-US	8	2	2	bowl	b,ow,l	b,ow,l	bowl.m4a	bowl.png	TRUE	TRUE
-en-US	8	2	3	baby	b,a,b,y	b,a,b,y	baby.m4a	baby.png	TRUE	TRUE
-en-US	8	2	4	leaf	l,ea,f	l,ea,f	leaf.m4a	leaf.png	TRUE	TRUE
-en-US	8	2	5	donkey	d,o,n,k,ey	d,o,n,k,ey	donkey.m4a	donkey.png	TRUE	TRUE
-en-US	9	1	1	train	t,r,ai,n	t,r,ai,n	train.m4a		TRUE	TRUE
-en-US	9	1	2	snail	s,n,ai,l	s,n,ai,l	snail.m4a		TRUE	TRUE
-en-US	9	1	3	clean	c,l,ea,n	c,l,ea,n	clean.m4a		TRUE	TRUE
-en-US	9	1	4	cream	c,r,ea,m	c,r,ea,m	cream.m4a		TRUE	TRUE
-en-US	9	1	5	goat	g,oa,t	g,oa,t	goat.m4a		TRUE	TRUE
-en-US	9	2	1	window	w,i,n,d,ow	w,i,n,d,ow	window.m4a		TRUE	TRUE
-en-US	9	2	2	brown	b,r,ow,n	b,r,ow,n	brown.m4a		TRUE	TRUE
-en-US	9	2	3	flower	f,l,ow,er	f,l,ow,er	flower.m4a		TRUE	TRUE
-en-US	9	2	4	blouse	b,l,ou,se	b,l,ou,se	blouse.m4a		TRUE	TRUE
-en-US	9	2	5	shampoo	sh,a,m,p,oo	sh,a,m,p,oo	shampoo.m4a		TRUE	TRUE
-en-US	10	1	1	chick	ch,i,ck	ch,i,ck	chick.m4a		TRUE	TRUE
-en-US	10	1	2	lunch	l,u,n,ch	l,u,n,ch	lunch.m4a		TRUE	TRUE
-en-US	10	1	3	shop	sh,o,p	sh,o,p	shop.m4a		TRUE	TRUE
-en-US	10	1	4	dish	d,i,sh	d,i,sh	dish.m4a		TRUE	TRUE
-en-US	10	1	5	that	th,a,t	th,a,t	that.m4a		TRUE	TRUE
-en-US	10	2	1	phone	ph,o,ne	ph,o,ne	phone.m4a		TRUE	TRUE
-en-US	10	2	2	pink	p,i,nk	p,i,nk	pink.m4a		TRUE	TRUE
-en-US	10	2	3	bank	b,a,nk	b,a,nk	bank.m4a		TRUE	TRUE
-en-US	10	2	4	farm	f,a,r,m	f,a,r,m	farm.m4a		TRUE	TRUE
-en-US	10	2	5	park	p,a,r,k	p,a,r,k	park.m4a		TRUE	TRUE
-en-US	11	1	1	tap	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	t,a,p	tap.m4a		TRUE	TRUE
-en-US	11	1	2	cap	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,a,p	cap.m4a		TRUE	TRUE
-en-US	11	1	3	hen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,e,n	hen.m4a		TRUE	TRUE
-en-US	11	1	4	pen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,e,n	pen.m4a		TRUE	TRUE
-en-US	11	1	5	fan	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	f,a,n	fan.m4a		TRUE	TRUE
-en-US	11	2	1	van	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	v,a,n	van.m4a		TRUE	TRUE
-en-US	11	2	2	bag	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,a,g	bag.m4a		TRUE	TRUE
-en-US	11	2	3	mug	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	m,u,g	mug.m4a		TRUE	TRUE
-en-US	11	2	4	sun	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,u,n	sun.m4a		TRUE	TRUE
-en-US	11	2	5	run	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	r,u,n	run.m4a		TRUE	TRUE
-en-US	12	1	1	pig	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,i,g	pig.m4a		TRUE	TRUE
-en-US	12	1	2	hit	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,i,t	hit.m4a		TRUE	TRUE
-en-US	12	1	3	jet	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	j,e,t	jet.m4a		TRUE	TRUE
-en-US	12	1	4	net	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	n,e,t	net.m4a		TRUE	TRUE
-en-US	12	1	5	hot	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,o,t	hot.m4a		TRUE	TRUE
-en-US	12	2	1	top	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	t,o,p	top.m4a		TRUE	TRUE
-en-US	12	2	2	cut	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,u,t	cut.m4a		TRUE	TRUE
-en-US	12	2	3	bug	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,u,g	bug.m4a		TRUE	TRUE
-en-US	12	2	4	big	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,i,g	big.m4a		TRUE	TRUE
-en-US	12	2	5	pin	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,i,n	pin.m4a		TRUE	TRUE
-en-US	13	1	1	tall	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	t,a,l	tall.m4a		TRUE	TRUE
-en-US	13	1	2	ball	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,a,l	ball.m4a		TRUE	TRUE
-en-US	13	1	3	bell	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,e,l	bell.m4a		TRUE	TRUE
-en-US	13	1	4	doll	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	d,o,l	doll.m4a		TRUE	TRUE
-en-US	13	1	5	small	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,m,a,l	small.m4a		TRUE	TRUE
-en-US	13	2	1	class	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,l,a,s	class.m4a		TRUE	TRUE
-en-US	13	2	2	glass	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	g,l,a,s	glass.m4a		TRUE	TRUE
-en-US	13	2	3	cross	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,r,o,s	cross.m4a		TRUE	TRUE
-en-US	13	2	4	space	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,p,a,c,e	space.m4a		TRUE	TRUE
-en-US	13	2	5	swim	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,w,i,m	swim.m4a		TRUE	TRUE
-en-US	14	1	1	mouse	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	m,o,u,s,e	mouse.m4a		TRUE	TRUE
-en-US	14	1	2	house	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	h,o,u,s,e	house.m4a		TRUE	TRUE
-en-US	14	1	3	count	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	c,o,u,n,t	count.m4a		TRUE	TRUE
-en-US	14	1	4	cloud	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	c,l,o,u,d	cloud.m4a		TRUE	TRUE
-en-US	14	1	5	blouse	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,l,o,u,s,e	blouse.m4a		TRUE	TRUE
-en-US	14	2	1	brother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,r,o,th,e	brother.m4a		TRUE	TRUE
-en-US	14	2	2	mother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	m,o,th,e,r	mother.m4a		TRUE	TRUE
-en-US	14	2	3	father	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	f,a,th,e,r	father.m4a		TRUE	TRUE
-en-US	14	2	4	sister	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	s,i,s,t,e,r	sister.m4a		TRUE	TRUE
-en-US	14	2	5	grandma	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	g,r,a,n,d,m	grandma.m4a		TRUE	TRUE
-en-US	15	1	1	church	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	ch,u,r	church.m4a		TRUE	TRUE
-en-US	15	1	2	bench	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,e,n,ch	bench.m4a		TRUE	TRUE
-en-US	15	1	3	shoes	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	sh,o,e,s	shoes.m4a		TRUE	TRUE
-en-US	15	1	4	brush	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,r,u,sh	brush.m4a		TRUE	TRUE
-en-US	15	1	5	whisper	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	wh,i,s,p,e,r	whisper.m4a		TRUE	TRUE
-en-US	15	2	1	elephant	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,ph	e,l,ph,a,n,t	elephant.m4a		TRUE	TRUE
-en-US	15	2	2	teacher	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	t,e,a,ch,r	teacher.m4a		TRUE	TRUE
-en-US	15	2	3	phone	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,ph	ph,o,n,e	phone.m4a		TRUE	TRUE
-en-US	15	2	4	shirt	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	sh,i,r,t	shirt.m4a		TRUE	TRUE
-en-US	15	2	5	touch	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	t,o,u,ch	touch.m4a		TRUE	TRUE
-en-US	16	1	1	hand	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,a,n,d	hand.m4a		TRUE	TRUE
-en-US	16	1	2	fast	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	f,a,s,t,	fast.m4a		TRUE	TRUE
-en-US	16	1	3	angry	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,n,g,r,y	angry.m4a		TRUE	TRUE
-en-US	16	1	4	hungry	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,u,n,g,r,y	hungry.m4a		TRUE	TRUE
-en-US	16	1	5	lion	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	l,i,o,n	lion.m4a		TRUE	TRUE
-en-US	16	2	1	bird	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,i,r,d	bird.m4a		TRUE	TRUE
-en-US	16	2	2	river	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	r,i,v,e,r	river.m4a		TRUE	TRUE
-en-US	16	2	3	girl	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	g,i,r,l	girl.m4a		TRUE	TRUE
-en-US	16	2	4	water	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	w,a,t,e,r	water.m4a		TRUE	TRUE
-en-US	16	2	5	number	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	n,u,m,b,e,r	number.m4a		TRUE	TRUE
-en-US	17	1	1	apple	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,p,l,e	apple.m4a		TRUE	TRUE
-en-US	17	1	2	brother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,r,o,t,h,e	brother.m4a		TRUE	TRUE
-en-US	17	1	3	yellow	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	y,e,l,o,w	yellow.m4a		TRUE	TRUE
-en-US	17	1	4	book	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,o,k	book.m4a		TRUE	TRUE
-en-US	17	1	5	rabbit	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	r,a,b,i,t	rabbit.m4a		TRUE	TRUE
-en-US	17	2	1	paper	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,a,e,r	paper.m4a		TRUE	TRUE
-en-US	17	2	2	carrot	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	c,a,r,o,t	carrot.m4a		TRUE	TRUE
-en-US	17	2	3	salad	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,a,l,d	salad.m4a		TRUE	TRUE
-en-US	17	2	4	sleep	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,l,e,p	sleep.m4a		TRUE	TRUE
-en-US	17	2	5	happy	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	h,a,p,y	happy.m4a		TRUE	TRUE
-en-US	18	1	1	tomato	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	t,o,m,a	tomato.m4a		TRUE	TRUE
-en-US	18	1	2	banana	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,a,n	banana.m4a		TRUE	TRUE
-en-US	18	1	3	potato	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	p,o,t,a,	potato.m4a		TRUE	TRUE
-en-US	18	1	4	boots	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	b,o,t,s	boots.m4a		TRUE	TRUE
-en-US	18	1	5	school	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	s,c,h,o,l	school.m4a		TRUE	TRUE
-en-US	18	2	1	football	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	f,o,t,b,a,l	football.m4a		TRUE	TRUE
-en-US	18	2	2	onion	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	o,n,i	onion.m4a		TRUE	TRUE
-en-US	18	2	3	little	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	l,i,t,e	little.m4a		TRUE	TRUE
-en-US	18	2	4	shoulder	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	sh,o,u,l,d,e,r	shoulder.m4a		TRUE	TRUE
-en-US	18	2	5	kitchen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	k,i,t,ch,e,n	kitchen.m4a		TRUE	TRUE
-en-US	19	1	1	tap	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	tap.m4a		TRUE	TRUE
-en-US	19	1	2	cap	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	cap.m4a		TRUE	TRUE
-en-US	19	1	3	hen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hen.m4a		TRUE	TRUE
-en-US	19	1	4	pen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	pen.m4a		TRUE	TRUE
-en-US	19	1	5	fan	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	fan.m4a		TRUE	TRUE
-en-US	19	2	1	van	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	van.m4a		TRUE	TRUE
-en-US	19	2	2	bag	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	bag.m4a		TRUE	TRUE
-en-US	19	2	3	mug	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	mug.m4a		TRUE	TRUE
-en-US	19	2	4	sun	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	sun.m4a		TRUE	TRUE
-en-US	19	2	5	run	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	run.m4a		TRUE	TRUE
-en-US	20	1	1	pig	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	pig.m4a		TRUE	TRUE
-en-US	20	1	2	hit	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hit.m4a		TRUE	TRUE
-en-US	20	1	3	jet	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	jet.m4a		TRUE	TRUE
-en-US	20	1	4	net	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	net.m4a		TRUE	TRUE
-en-US	20	1	5	hot	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hot.m4a		TRUE	TRUE
-en-US	20	2	1	top	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	top.m4a		TRUE	TRUE
-en-US	20	2	2	cut	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	cut.m4a		TRUE	TRUE
-en-US	20	2	3	bug	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	bug.m4a		TRUE	TRUE
-en-US	20	2	4	big	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	big.m4a		TRUE	TRUE
-en-US	20	2	5	pin	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	pin.m4a		TRUE	TRUE
-en-US	21	1	1	tall	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	tall.m4a		TRUE	TRUE
-en-US	21	1	2	ball	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	ball.m4a		TRUE	TRUE
-en-US	21	1	3	bell	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	bell.m4a		TRUE	TRUE
-en-US	21	1	4	doll	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	doll.m4a		TRUE	TRUE
-en-US	21	1	5	small	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	small.m4a		TRUE	TRUE
-en-US	21	2	1	class	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	class.m4a		TRUE	TRUE
-en-US	21	2	2	glass	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	glass.m4a		TRUE	TRUE
-en-US	21	2	3	cross	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	cross.m4a		TRUE	TRUE
-en-US	21	2	4	space	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	space.m4a		TRUE	TRUE
-en-US	21	2	5	swim	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	swim.m4a		TRUE	TRUE
-en-US	22	1	1	mouse	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	mouse.m4a		TRUE	TRUE
-en-US	22	1	2	house	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	house.m4a		TRUE	TRUE
-en-US	22	1	3	count	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	count.m4a		TRUE	TRUE
-en-US	22	1	4	cloud	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	cloud.m4a		TRUE	TRUE
-en-US	22	1	5	blouse	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	blouse.m4a		TRUE	TRUE
-en-US	22	2	1	brother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	brother.m4a		TRUE	TRUE
-en-US	22	2	2	mother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	mother.m4a		TRUE	TRUE
-en-US	22	2	3	father	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	father.m4a		TRUE	TRUE
-en-US	22	2	4	sister	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	sister.m4a		TRUE	TRUE
-en-US	22	2	5	grandma	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,th,wh	grandma.m4a		TRUE	TRUE
-en-US	23	1	1	church	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	church.m4a		TRUE	TRUE
-en-US	23	1	2	bench	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	bench.m4a		TRUE	TRUE
-en-US	23	1	3	shoes	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	shoes.m4a		TRUE	TRUE
-en-US	23	1	4	brush	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	brush.m4a		TRUE	TRUE
-en-US	23	1	5	whisper	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,,z,ch,sh,ph,wh	whisper.m4a		TRUE	TRUE
-en-US	23	2	1	elephant	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	elephant.m4a		TRUE	TRUE
-en-US	23	2	2	teacher	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	teacher.m4a		TRUE	TRUE
-en-US	23	2	3	phone	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	phone.m4a		TRUE	TRUE
-en-US	23	2	4	shirt	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	shirt.m4a		TRUE	TRUE
-en-US	23	2	5	touch	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,ph,wh	touch.m4a		TRUE	TRUE
-en-US	24	1	1	hand	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hand.m4a		TRUE	TRUE
-en-US	24	1	2	fast	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	fast.m4a		TRUE	TRUE
-en-US	24	1	3	angry	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	angry.m4a		TRUE	TRUE
-en-US	24	1	4	hungry	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	hungry.m4a		TRUE	TRUE
-en-US	24	1	5	lion	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	lion.m4a		TRUE	TRUE
-en-US	24	2	1	bird	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	bird.m4a		TRUE	TRUE
-en-US	24	2	2	river	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	river.m4a		TRUE	TRUE
-en-US	24	2	3	girl	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	girl.m4a		TRUE	TRUE
-en-US	24	2	4	water	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	water.m4a		TRUE	TRUE
-en-US	24	2	5	number	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	number.m4a		TRUE	TRUE
-en-US	25	1	1	apple	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	apple.m4a		TRUE	TRUE
-en-US	25	1	2	brother	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	brother.m4a		TRUE	TRUE
-en-US	25	1	3	yellow	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	yellow.m4a		TRUE	TRUE
-en-US	25	1	4	book	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	book.m4a		TRUE	TRUE
-en-US	25	1	5	rabbit	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	rabbit.m4a		TRUE	TRUE
-en-US	25	2	1	paper	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	paper.m4a		TRUE	TRUE
-en-US	25	2	2	carrot	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	carrot.m4a		TRUE	TRUE
-en-US	25	2	3	salad	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	salad.m4a		TRUE	TRUE
-en-US	25	2	4	sleep	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	sleep.m4a		TRUE	TRUE
-en-US	25	2	5	happy	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z	happy.m4a		TRUE	TRUE
-en-US	26	1	1	tomato	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	tomato.m4a		TRUE	TRUE
-en-US	26	1	2	banana	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	banana.m4a		TRUE	TRUE
-en-US	26	1	3	potato	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	potato.m4a		TRUE	TRUE
-en-US	26	1	4	boots	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	boots.m4a		TRUE	TRUE
-en-US	26	1	5	school	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	school.m4a		TRUE	TRUE
-en-US	26	2	1	football	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	football.m4a		TRUE	TRUE
-en-US	26	2	2	onion	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	onion.m4a		TRUE	TRUE
-en-US	26	2	3	little	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	little.m4a		TRUE	TRUE
-en-US	26	2	4	shoulder	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	shoulder.m4a		TRUE	TRUE
-en-US	26	2	5	kitchen	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z/ch,sh,th,wh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ch,sh,wh,ck	kitchen.m4a		TRUE	TRUE
+#LanguageTag	#Level	#Worksheet	#Problem	#Word/Sentence	#Card	#ActiveCard	#Sound	#Image	#HintWord/Sentence	#CanDuplicate					
+ms-MY	1	1	1	sawi	sa,wi	sa,wi	sawi.m4a	sawi.png	TRUE	TRUE
+ms-MY	1	1	2	piza	pi,za	pi,za	piza.m4a	piza.png	TRUE	TRUE
+ms-MY	1	1	3	tebu	te,bu	te,bu	tebu.m4a	tebu.png	TRUE	TRUE
+ms-MY	1	1	4	ratu	ra,tu	ra,tu	ratu.m4a	ratu.png	TRUE	TRUE
+ms-MY	1	1	5	hoki	ho,ki	ho,ki	hoki.m4a	hoki.png	TRUE	TRUE
+ms-MY	1	2	1	labu	la,bu	la,bu	labu.m4a	labu.png	TRUE	TRUE
+ms-MY	1	2	2	buku	bu,ku	bu,ku	buku.m4a	buku.png	TRUE	TRUE
+ms-MY	1	2	3	batu	ba,tu	ba,tu	batu.m4a	batu.png	TRUE	TRUE
+ms-MY	1	2	4	kaki	ka,ki	ka,ki	kaki.m4a	kaki.png	TRUE	TRUE
+ms-MY	1	2	5	kuda	ku,da	ku,da	kuda.m4a	kuda.png	TRUE	TRUE
+ms-MY	1	3	1	kuku	ku,ku	ku,ku	kuku.m4a	kuku.png	TRUE	TRUE
+ms-MY	1	3	2	gula	gu,la	gu,la	gula.m4a	gula.png	TRUE	TRUE
+ms-MY	1	3	3	mata	ma,ta	ma,ta	mata.m4a	mata.png	TRUE	TRUE
+ms-MY	1	3	4	sudu	su,du	su,du	sudu.m4a	sudu.png	TRUE	TRUE
+ms-MY	1	3	5	baju	ba,ju	ba,ju	baju.m4a	baju.png	TRUE	TRUE
+ms-MY	1	4	1	roti	ro,ti	ro,ti	roti.m4a	roti.png	TRUE	TRUE
+ms-MY	1	4	2	padi	pa,di	pa,di	padi.m4a	padi.png	TRUE	TRUE
+ms-MY	1	4	3	sapu	sa,pu	sa,pu	sapu.m4a	sapu.png	TRUE	TRUE
+ms-MY	1	4	4	tali	ta,li	ta,li	tali.m4a	tali.png	TRUE	TRUE
+ms-MY	1	4	5	bola	bo,la	bo,la	bola.m4a	bola.png	TRUE	TRUE
+ms-MY	2	1	1	ibu	i,bu	i,bu	ibu.m4a	ibu.png	TRUE	TRUE
+ms-MY	2	1	2	ubi	u,bi	u,bi	ubi.m4a	ubi.png	TRUE	TRUE
+ms-MY	2	1	3	uli	u,li	u,li	uli.m4a		TRUE	TRUE
+ms-MY	2	1	4	api	a,pi	a,pi	api.m4a	api.png	TRUE	TRUE
+ms-MY	2	1	5	aki	a,ki	a,ki	aki.m4a		TRUE	TRUE
+ms-MY	2	2	1	ada	a,da	a,da	ada.m4a		TRUE	TRUE
+ms-MY	2	2	2	ini	i,ni	i,ni	ini.m4a		TRUE	TRUE
+ms-MY	2	2	3	itu	i,tu	i,tu	itu.m4a		TRUE	TRUE
+ms-MY	2	2	4	aku	a,ku	a,ku	aku.m4a		TRUE	TRUE
+ms-MY	2	2	5	ala	a,la	a,la	ala.m4a		TRUE	TRUE
+ms-MY	3	1	1	kereta	ke,re,ta	ke,re,ta	kereta.m4a	kereta.png	TRUE	TRUE
+ms-MY	3	1	2	sepatu	se,pa,tu	se,pa,tu	sepatu.m4a	sepatu.png	TRUE	TRUE
+ms-MY	3	1	3	tomato	to,ma,to	to,ma,to	tomato.m4a	tomato.png	TRUE	TRUE
+ms-MY	3	1	4	perigi	pe,ri,gi	pe,ri,gi	perigi.m4a	perigi.png	TRUE	TRUE
+ms-MY	3	1	5	kamera	ka,me,ra	ka,me,ra	kamera.m4a	kamera.png	TRUE	TRUE
+ms-MY	3	2	1	kelapa	ke,la,pa	ke,la,pa	kelapa.m4a	kelapa.png	TRUE	TRUE
+ms-MY	3	2	2	budaya	bu,da,ya	bu,da,ya	budaya.m4a		TRUE	TRUE
+ms-MY	3	2	3	lelaki	le,la,ki	le,la,ki	lelaki.m4a	lelaki.png	TRUE	TRUE
+ms-MY	3	2	4	kerusi	ke,ru,si	ke,ru,si	kerusi.m4a	kerusi.png	TRUE	TRUE
+ms-MY	3	2	5	petani	pe,ta,ni	pe,ta,ni	petani.m4a	petani.png	TRUE	TRUE
+ms-MY	4	1	1	jus	j,u,s	j,u,s	jus.m4a	jus.png	TRUE	TRUE
+ms-MY	4	1	2	sos	s,o,s	s,o,s	sos.m4a	sos.png	TRUE	TRUE
+ms-MY	4	1	3	zip	z,i,p	z,i,p	zip.m4a	zip.png	TRUE	TRUE
+ms-MY	4	1	4	sup	s,u,p	s,u,p	sup.m4a	sup.png	TRUE	TRUE
+ms-MY	4	1	5	kad	k,a,d	k,a,d	kad.m4a	kad.png	TRUE	TRUE
+ms-MY	4	2	1	jet	j,e,t	j,e,t	jet.m4a	jet.png	TRUE	TRUE
+ms-MY	4	2	2	jem	j,e,m	j,e,m	jem.m4a	jem.png	TRUE	TRUE
+ms-MY	4	2	3	bos	b,o,s	b,o,s	bos.m4a	bos.png	TRUE	TRUE
+ms-MY	4	2	4	lif	l,i,f	l,i,f	lif.m4a	lif.png	TRUE	TRUE
+ms-MY	4	2	5	rim	r,i,m	r,i,m	rim.m4a		TRUE	TRUE
+ms-MY	5	1	1	otak	o,tak	o,tak	otak.m4a	otak.png	TRUE	TRUE
+ms-MY	5	1	2	ubat	u,bat	u,bat	ubat.m4a	ubat.png	TRUE	TRUE
+ms-MY	5	1	3	awan	a,wan	a,wan	awan.m4a	awan.png	TRUE	TRUE
+ms-MY	5	1	4	enam	e,nam	e,nam	enam.m4a	enam.png	TRUE	TRUE
+ms-MY	5	1	5	itik	i,tik	i,tik	itik.m4a	itik.png	TRUE	TRUE
+ms-MY	5	2	1	ikan	i,kan	i,kan	ikan.m4a	ikan.png	TRUE	TRUE
+ms-MY	5	2	2	ekor	e,kor	e,kor	ekor.m4a	ekor.png	TRUE	TRUE
+ms-MY	5	2	3	akar	a,kar	a,kar	akar.m4a	akar.png	TRUE	TRUE
+ms-MY	5	2	4	asap	a,sap	a,sap	asap.m4a	asap.png	TRUE	TRUE
+ms-MY	5	2	5	ular	u,lar	u,lar	ular.m4a	ular.png	TRUE	TRUE
+ms-MY	6	1	1	nanas	na,nas	na,nas	nanas.m4a	nanas.png	TRUE	TRUE
+ms-MY	6	1	2	tiram	ti,ram	ti,ram	tiram.m4a	tiram.png	TRUE	TRUE
+ms-MY	6	1	3	kakak	ka,kak	ka,kak	kakak.m4a	kakak.png	TRUE	TRUE
+ms-MY	6	1	4	cerek	ce,rek	ce,rek	cerek.m4a	cerek.png	TRUE	TRUE
+ms-MY	6	1	5	roket	ro,ket	ro,ket	roket.m4a	roket.png	TRUE	TRUE
+ms-MY	6	2	1	raket	ra,ket	ra,ket	raket.m4a	raket.png	TRUE	TRUE
+ms-MY	6	2	2	pikat	pi,kat	pi,kat	pikat.m4a		TRUE	TRUE
+ms-MY	6	2	3	rakit	ra,kit	ra,kit	rakit.m4a	rakit.png	TRUE	TRUE
+ms-MY	6	2	4	sekat	se,kat	se,kat	sekat.m4a		TRUE	TRUE
+ms-MY	6	2	5	bakat	ba,kat	ba,kat	bakat.m4a		TRUE	TRUE
+ms-MY	7	1	1	panda	pan,da	pan,da	panda.m4a	panda.png	TRUE	TRUE
+ms-MY	7	1	2	jambu	jam,bu	jam,bu	jambu.m4a	jambu.png	TRUE	TRUE
+ms-MY	7	1	3	gincu	gin,cu	gin,cu	gincu.m4a	gincu.png	TRUE	TRUE
+ms-MY	7	1	4	teksi	tek,si	tek,si	teksi.m4a	teksi.png	TRUE	TRUE
+ms-MY	7	1	5	bomba	bom,ba	bom,ba	bomba.m4a	bomba.png	TRUE	TRUE
+ms-MY	7	2	1	manja	man,ja	man,ja	manja.m4a	manja.png	TRUE	TRUE
+ms-MY	7	2	2	pintu	pin,tu	pin,tu	pintu.m4a	pintu.png	TRUE	TRUE
+ms-MY	7	2	3	tanda	tan,da	tan,da	tanda.m4a		TRUE	TRUE
+ms-MY	7	2	4	janji	jan,ji	jan,ji	janji.m4a		TRUE	TRUE
+ms-MY	7	2	5	senja	sen,ja	sen,ja	senja.m4a	senja.png	TRUE	TRUE
+ms-MY	8	1	1	coklat	cok,lat	cok,lat	coklat.m4a	coklat.png	TRUE	TRUE
+ms-MY	8	1	2	kaktus	kak,tus	kak,tus	kaktus.m4a	kaktus.png	TRUE	TRUE
+ms-MY	8	1	3	bantal	ban,tal	ban,tal	bantal.m4a	bantal.png	TRUE	TRUE
+ms-MY	8	1	4	sampan	sam,pan	sam,pan	sampan.m4a	sampan.png	TRUE	TRUE
+ms-MY	8	1	5	pensel	pen,sel	pen,sel	pensel.m4a	pensel.png	TRUE	TRUE
+ms-MY	8	2	1	lampin	lam,pin	lam,pin	lampin.m4a	lampin.png	TRUE	TRUE
+ms-MY	8	2	2	jamban	jam,ban	jam,ban	jamban.m4a	jamban.png	TRUE	TRUE
+ms-MY	8	2	3	tempat	tem,pat	tem,pat	tempat.m4a	tempat.png	TRUE	TRUE
+ms-MY	8	2	4	tandas	tan,das	tan,das	tandas.m4a	tandas.png	TRUE	TRUE
+ms-MY	8	2	5	sempat	sem,pat	sem,pat	sempat.m4a		TRUE	TRUE
+ms-MY	9	1	1	kelawar	ke,la,war	ke,la,war	kelawar.m4a	kelawar.png	TRUE	TRUE
+ms-MY	9	1	2	karipap	ka,ri,pap	ka,ri,pap	karipap.m4a	karipap.png	TRUE	TRUE
+ms-MY	9	1	3	mekanik	me,ka,nik	me,ka,nik	mekanik.m4a	mekanik.png	TRUE	TRUE
+ms-MY	9	1	4	sekolah	se,ko,lah	se,ko,lah	sekolah.m4a	sekolah.png	TRUE	TRUE
+ms-MY	9	1	5	telefon	te,le,fon	te,le,fon	telefon.m4a	telefon.png	TRUE	TRUE
+ms-MY	9	2	1	ketuhar	ke,tu,har	ke,tu,har	ketuhar.m4a	ketuhar.png	TRUE	TRUE
+ms-MY	9	2	2	semalam	se,ma,lam	se,ma,lam	semalam.m4a		TRUE	TRUE
+ms-MY	9	2	3	senaman	se,na,man	se,na,man	senaman.m4a	senaman.png	TRUE	TRUE
+ms-MY	9	2	4	keramat	ke,ra,mat	ke,ra,mat	keramat.m4a		TRUE	TRUE
+ms-MY	9	2	5	ketupat	ke,tu,pat	ke,tu,pat	ketupat.m4a	ketupat.png	TRUE	TRUE
+ms-MY	10	1	1	jentolak	jen,to,lak	jen,to,lak	jentolak.m4a	jentolak.png	TRUE	TRUE
+ms-MY	10	1	2	hospital	hos,pi,tal	hos,pi,tal	hospital.m4a	hospital.png	TRUE	TRUE
+ms-MY	10	1	3	tempayan	tem,pa,yan	tem,pa,yan	tempayan.m4a	tempayan.png	TRUE	TRUE
+ms-MY	10	1	4	pembaris	pem,ba,ris	pem,ba,ris	pembaris.m4a	pembaris.png	TRUE	TRUE
+ms-MY	10	1	5	komputer	kom,pu,ter	kom,pu,ter	komputer.m4a	komputer.png	TRUE	TRUE
+ms-MY	10	2	1	pendapat	pen,da,pat	pen,da,pat	pendapat.m4a		TRUE	TRUE
+ms-MY	10	2	2	hantaran	han,ta,ran	han,ta,ran	hantaran.m4a		TRUE	TRUE
+ms-MY	10	2	3	sambutan	sam,bu,tan	sam,bu,tan	sambutan.m4a		TRUE	TRUE
+ms-MY	10	2	4	rambutan	ram,bu,tan	ram,bu,tan	rambutan.m4a	rambutan.png	TRUE	TRUE
+ms-MY	10	2	5	sempadan	sem,pa,dan	sem,pa,dan	sempadan.m4a		TRUE	TRUE
+ms-MY	11	1	1	gong	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	g,o,n,g	gong.m4a	gong.png	TRUE	TRUE
+ms-MY	11	1	2	wang	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	w,a,n,g	wang.m4a	wang.png	TRUE	TRUE
+ms-MY	11	1	3	tong	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	t,o,n,g	tong.m4a	tong.png	TRUE	TRUE
+ms-MY	11	1	4	bank	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,a,n,k	bank.m4a	bank.png	TRUE	TRUE
+ms-MY	11	1	5	zink	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	z,i,n,k	zink.m4a		TRUE	TRUE
+ms-MY	11	2	1	bung	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,u,n,g	bung.m4a		TRUE	TRUE
+ms-MY	11	2	2	yang	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	y,a,n,g	yang.m4a		TRUE	TRUE
+ms-MY	11	2	3	kung	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	k,u,n,g	kung.m4a		TRUE	TRUE
+ms-MY	11	2	4	geng	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	g,e,n,g	geng.m4a		TRUE	TRUE
+ms-MY	11	2	5	sang	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,a,n,g	sang.m4a		TRUE	TRUE
+ms-MY	12	1	1	helang	he,gu,lo,te,pi,bu,ku,su,to,ki/lang	he,lang	helang.m4a	helang.png	TRUE	TRUE
+ms-MY	12	1	2	gunung	he,gu,lo,te,pi,bu,ku,su,to,ki/nung	gu,nung	gunung.m4a	gunung.png	TRUE	TRUE
+ms-MY	12	1	3	loceng	he,gu,lo,te,pi,bu,ku,su,to,ki/ceng	lo,ceng	loceng.m4a	loceng.png	TRUE	TRUE
+ms-MY	12	1	4	terung	he,gu,lo,te,pi,bu,ku,su,to,ki/rung	te,rung	terung.m4a	terung.png	TRUE	TRUE
+ms-MY	12	1	5	pinang	he,gu,lo,te,pi,bu,ku,su,to,ki/nang	pi,nang	pinang.m4a	pinang.png	TRUE	TRUE
+ms-MY	12	2	1	burung	he,gu,lo,te,pi,bu,ku,su,to,ki/rung	bu,rung	burung.m4a	burung.png	TRUE	TRUE
+ms-MY	12	2	2	kurung	he,gu,lo,te,pi,bu,ku,su,to,ki/rung	ku,rung	kurung.m4a		TRUE	TRUE
+ms-MY	12	2	3	sulung	he,gu,lo,te,pi,bu,ku,su,to,ki/lung	su,lung	sulung.m4a		TRUE	TRUE
+ms-MY	12	2	4	topeng	he,gu,lo,te,pi,bu,ku,su,to,ki/peng	to,peng	topeng.m4a	topeng.png	TRUE	TRUE
+ms-MY	12	2	5	kilang	he,gu,lo,te,pi,bu,ku,su,to,ki/lang	ki,lang	kilang.m4a	kilang.png	TRUE	TRUE
+ms-MY	13	1	1	arang	a,e,i,o,u,rang	a,rang	arang.m4a	arang.png	TRUE	TRUE
+ms-MY	13	1	2	udang	a,e,i,o,u,dang	u,dang	udang.m4a	udang.png	TRUE	TRUE
+ms-MY	13	1	3	abang	a,e,i,o,u,bang	a,bang	abang.m4a	abang.png	TRUE	TRUE
+ms-MY	13	1	4	orang	a,e,i,o,u,rang	o,rang	orang.m4a	orang.png	TRUE	TRUE
+ms-MY	13	1	5	usung	a,e,i,o,u,sung	u,sung	usung.m4a		TRUE	TRUE
+ms-MY	13	2	1	ulang	a,e,i,o,u,lang	u,lang	ulang.m4a		TRUE	TRUE
+ms-MY	13	2	2	usang	a,e,i,o,u,sang	u,sang	usang.m4a		TRUE	TRUE
+ms-MY	13	2	3	awang	a,e,i,o,u,wang	a,wang	awang.m4a		TRUE	TRUE
+ms-MY	13	2	4	apung	a,e,i,o,u,pung	a,pung	apung.m4a		TRUE	TRUE
+ms-MY	13	2	5	inang	a,e,i,o,u,nang	i,nang	inang.m4a		TRUE	TRUE
+ms-MY	14	1	1	kentang	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	ken,tung,tang	kentang.m4a	kentang.png	TRUE	TRUE
+ms-MY	14	1	2	jantung	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	jan,tang,tung	jantung.m4a	jantung.png	TRUE	TRUE
+ms-MY	14	1	3	lembing	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	lem,bing,dang	lembing.m4a	lembing.png	TRUE	TRUE
+ms-MY	14	1	4	gunting	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	gun,dang,ting	gunting.m4a	gunting.png	TRUE	TRUE
+ms-MY	14	1	5	gendang	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	gen,bing,dang	gendang.m4a	gendang.png	TRUE	TRUE
+ms-MY	14	2	1	bendang	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	ben,ding,dang	bendang.m4a	bendang.png	TRUE	TRUE
+ms-MY	14	2	2	rendang	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	ren,dang,tung	rendang.m4a	rendang.png	TRUE	TRUE
+ms-MY	14	2	3	banding	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	ban,dung,ding	banding.m4a		TRUE	TRUE
+ms-MY	14	2	4	kandung	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	kan,pung,dung	kandung.m4a		TRUE	TRUE
+ms-MY	14	2	5	kampung	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	kam,dang,pung	kampung.m4a	kampung.png	TRUE	TRUE
+ms-MY	15	1	1	mangga	mang,rang,bang,sing,bing/ga,ka,ku,ki	mang,ka,ga	mangga.m4a	mangga.png	TRUE	TRUE
+ms-MY	15	1	2	rangka	mang,rang,bang,sing,bing/ga,ka,ku,ki	rang,ga,ka	rangka.m4a	rangka.png	TRUE	TRUE
+ms-MY	15	1	3	bangku	mang,rang,bang,sing,bing/ga,ka,ku,ki	bang,ki,ku	bangku.m4a	bangku.png	TRUE	TRUE
+ms-MY	15	1	4	singki	mang,rang,bang,sing,bing/ga,ka,ku,ki	sing,ga,ki	singki.m4a	singki.png	TRUE	TRUE
+ms-MY	15	1	5	bingka	mang,rang,bang,sing,bing/ga,ka,ku,ki	bing,ku,ka	bingka.m4a		TRUE	TRUE
+ms-MY	15	2	1	nangka	nang,tang,sang,kong,bang/ka,ga,si	nang,ga,ka	nangka.m4a	nangka.png	TRUE	TRUE
+ms-MY	15	2	2	tangga	nang,tang,sang,kong,bang/ka,ga,si	tang,ka,ga	tangga.m4a	tangga.png	TRUE	TRUE
+ms-MY	15	2	3	sangka	nang,tang,sang,kong,bang/ka,ga,si	sang,si,ka	sangka.m4a		TRUE	TRUE
+ms-MY	15	2	4	kongsi	nang,tang,sang,kong,bang/ka,ga,si	kong,ga,si	kongsi.m4a		TRUE	TRUE
+ms-MY	15	2	5	bangga	nang,tang,sang,kong,bang/ka,ga,si	bang,ka,ga	bangga.m4a		TRUE	TRUE
+ms-MY	16	1	1	sangkar	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	sang,kok,kar	sangkar.m4a	sangkar.png	TRUE	TRUE
+ms-MY	16	1	2	songkok	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	song,kap,kok	songkok.m4a	songkok.png	TRUE	TRUE
+ms-MY	16	1	3	cangkul	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	cang,kar,kul	cangkul.m4a	cangkul.png	TRUE	TRUE
+ms-MY	16	1	4	langsir	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	lang,kul,sir	langsir.m4a	langsir.png	TRUE	TRUE
+ms-MY	16	1	5	tingkap	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	ting,kar,kap	tingkap.m4a	tingkap.png	TRUE	TRUE
+ms-MY	16	2	1	bengkok	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	beng,kap,kok	bengkok.m4a	bengkok.png	TRUE	TRUE
+ms-MY	16	2	2	langsat	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	lang,kas,sat	langsat.m4a	langsat.png	TRUE	TRUE
+ms-MY	16	2	3	tongkat	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	tong,kap,kat	tongkat.m4a	tongkat.png	TRUE	TRUE
+ms-MY	16	2	4	tangkap	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	tang,kat,kap	tangkap.m4a	tangkap.png	TRUE	TRUE
+ms-MY	16	2	5	ringkas	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	ring,sat,kas	ringkas.m4a		TRUE	TRUE
+ms-MY	17	1	1	kangkung	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	kang,gung,kung,lung	kangkung.m4a	kangkung.png	TRUE	TRUE
+ms-MY	17	1	2	longkang	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	long,gang,kang,gung	longkang.m4a	longkang.png	TRUE	TRUE
+ms-MY	17	1	3	tanglung	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	tang,kang,lung,gung	tanglung.m4a	tanglung.png	TRUE	TRUE
+ms-MY	17	1	4	tongkang	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	tong,lung,kang,gung	tongkang.m4a	tongkang.png	TRUE	TRUE
+ms-MY	17	1	5	panggang	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	pang,kung,gang,gung	panggang.m4a	panggang.png	TRUE	TRUE
+ms-MY	17	2	1	panggung	pang,ping,lang,pung/gung,gang,sung,pong	pang,pong,gung,gang	panggung.m4a	panggung.png	TRUE	TRUE
+ms-MY	17	2	2	pinggang	pang,ping,lang,pung/gung,gang,sung,pong	ping,gung,gang,pong	pinggang.m4a	pinggang.png	TRUE	TRUE
+ms-MY	17	2	3	langsung	pang,ping,lang,pung/gung,gang,sung,pong	lang,pong,sung,gang	langsung.m4a		TRUE	TRUE
+ms-MY	17	2	4	punggung	pang,ping,lang,pung/gung,gang,sung,pong	pung,sung,gung,gang	punggung.m4a	punggung.png	TRUE	TRUE
+ms-MY	17	2	5	pingpong	pang,ping,lang,pung/gung,gang,sung,pong	ping,gang,pong,gung	pingpong.m4a	pingpong.png	TRUE	TRUE
+ms-MY	18	1	1	pepatung	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	pe,la,pa,tung,lang	pepatung.m4a	pepatung.png	TRUE	TRUE
+ms-MY	18	1	2	belalang	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	be,ro,la,lang,yang	belalang.m4a	belalang.png	TRUE	TRUE
+ms-MY	18	1	3	lelayang	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	le,pa,la,yang,wong	lelayang.m4a	lelayang.png	TRUE	TRUE
+ms-MY	18	1	4	terowong	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	te,na,ro,wong,lang	terowong.m4a	terowong.png	TRUE	TRUE
+ms-MY	18	1	5	binatang	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	bi,pa,na,tang,yang	binatang.m4a	binatang.png	TRUE	TRUE
+ms-MY	18	2	1	belakang	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	be,ri,la,kang,lang	belakang.m4a		TRUE	TRUE
+ms-MY	18	2	2	keriting	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	ke,la,ri,ting,lang	keriting.m4a	keriting.png	TRUE	TRUE
+ms-MY	18	2	3	kelalang	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	ke,ru,la,lang,bang	kelalang.m4a	kelalang.png	TRUE	TRUE
+ms-MY	18	2	4	seruling	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	se,la,ru,ling,ting	seruling.m4a	seruling.png	TRUE	TRUE
+ms-MY	18	2	5	kelabang	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	ke,ri,la,bang,kang	kelabang.m4a	kelabang.png	TRUE	TRUE
+ms-MY	19	1	1	belimbing	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	be,lan,lim,bing,dang	belimbing.m4a	belimbing.png	TRUE	TRUE
+ms-MY	19	1	2	pelampung	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	pe,len,lam,pung,bing	pelampung.m4a	pelampung.png	TRUE	TRUE
+ms-MY	19	1	3	selendang	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	se,lim,len,dang,cong	selendang.m4a	selendang.png	TRUE	TRUE
+ms-MY	19	1	4	pelancong	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	pe,lam,lan,cong,dang	pelancong.m4a	pelancong.png	TRUE	TRUE
+ms-MY	19	1	5	menendang	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	me,lan,nen,dang,pung	menendang.m4a	menendang.png	TRUE	TRUE
+ms-MY	19	2	1	penumpang	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	pe,run,num,pang,ding	penumpang.m4a	penumpang.png	TRUE	TRUE
+ms-MY	19	2	2	serunding	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	se,num,run,ding,dang	serunding.m4a	serunding.png	TRUE	TRUE
+ms-MY	19	2	3	gegendang	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	ge,run,gen,dang,dong	gegendang.m4a	gegendang.png	TRUE	TRUE
+ms-MY	19	2	4	kedondong	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	ke,nim,don,dong,bang	kedondong.m4a	kedondong.png	TRUE	TRUE
+ms-MY	19	2	5	penimbang	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	pe,gen,nim,bang,pang	penimbang.m4a	penimbang.png	TRUE	TRUE
+ms-MY	20	1	1	tempurung	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	tem,bo,pu,rung,rong	tempurung.m4a	tempurung.png	TRUE	TRUE
+ms-MY	20	1	2	pemborong	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	pem,da,bo,rong,yung	pemborong.m4a	pemborong.png	TRUE	TRUE
+ms-MY	20	1	3	pendayung	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	pen,bo,da,yung,wang	pendayung.m4a	pendayung.png	TRUE	TRUE
+ms-MY	20	1	4	pembilang	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	pem,ca,bi,lang,rung	pembilang.m4a		TRUE	TRUE
+ms-MY	20	1	5	pencawang	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	pen,bi,ca,wang,lang	pencawang.m4a	pencawang.png	TRUE	TRUE
+ms-MY	20	2	1	pendukung	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pen,do,du,kung,tung	pendukung.m4a		TRUE	TRUE
+ms-MY	20	2	2	pendorong	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pen,da,do,rong,ring	pendorong.m4a		TRUE	TRUE
+ms-MY	20	2	3	pendatang	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pen,be,da,tang,rong	pendatang.m4a	pendatang.png	TRUE	TRUE
+ms-MY	20	2	4	penjaring	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pen,du,ja,ring,kung	penjaring.m4a	penjaring.png	TRUE	TRUE
+ms-MY	20	2	5	pembetung	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pem,da,be,tung,tang	pembetung.m4a		TRUE	TRUE
+ms-MY	21	1	1	cengkerik	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	ceng,ko,ke,rik,rak	cengkerik.m4a	cengkerik.png	TRUE	TRUE
+ms-MY	21	1	2	tengkorak	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	teng,sa,ko,rak,lok	tengkorak.m4a	tengkorak.png	TRUE	TRUE
+ms-MY	21	1	3	tengkolok	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	teng,ka,ko,lok,rak	tengkolok.m4a	tengkolok.png	TRUE	TRUE
+ms-MY	21	1	4	pangkalan	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	pang,ke,ka,lan,wan	pangkalan.m4a	pangkalan.png	TRUE	TRUE
+ms-MY	21	1	5	bangsawan	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	bang,ko,sa,wan,lan	bangsawan.m4a		TRUE	TRUE
+ms-MY	21	2	1	tingkatan	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	ting,ge,ka,tan,man	tingkatan.m4a		TRUE	TRUE
+ms-MY	21	2	2	cengkaman	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	ceng,ge,ka,man,lam	cengkaman.m4a		TRUE	TRUE
+ms-MY	21	2	3	tenggelam	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	teng,ka,ge,lam,ran	tenggelam.m4a		TRUE	TRUE
+ms-MY	21	2	4	ringkasan	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	ring,ge,ka,san,lam	ringkasan.m4a		TRUE	TRUE
+ms-MY	21	2	5	lingkaran	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	ling,ge,ka,ran,tan	lingkaran.m4a		TRUE	TRUE
+ms-MY	22	1	1	belangkas	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	be,long,lang,kas,kap	belangkas.m4a	belangkas.png	TRUE	TRUE
+ms-MY	22	1	2	perangkap	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	pe,long,rang,kap,kak	perangkap.m4a	perangkap.png	TRUE	TRUE
+ms-MY	22	1	3	merangkak	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	me,lang,rang,kak,kap	merangkak.m4a	merangkak.png	TRUE	TRUE
+ms-MY	22	1	4	selonggok	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	se,rang,long,gok,kas	selonggok.m4a		TRUE	TRUE
+ms-MY	22	1	5	tetingkap	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	te,lang,ting,kap,kas	tetingkap.m4a	tetingkap.png	TRUE	TRUE
+ms-MY	22	2	1	gelongsor	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	ge,ring,long,sor,kat	gelongsor.m4a	gelongsor.png	TRUE	TRUE
+ms-MY	22	2	2	tetingkat	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	te,long,ting,kat,gar	tetingkat.m4a	tetingkat.png	TRUE	TRUE
+ms-MY	22	2	3	melanggar	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	me,ring,lang,gar,gan	melanggar.m4a		TRUE	TRUE
+ms-MY	22	2	4	setinggan	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	se,long,ting,gan,gar	setinggan.m4a	setinggan.png	TRUE	TRUE
+ms-MY	22	2	5	peringkat	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	pe,lang,ring,kat,sor	peringkat.m4a		TRUE	TRUE
+ms-MY	23	1	1	laici	lai,pe,ge,pu,ran/ci,tai,rai,lau	pe,lai,ci,tai	laici.m4a	laici.png	TRUE	TRUE
+ms-MY	23	1	2	petai	lai,pe,ge,pu,ran/ci,tai,rai,lau	pe,rai,tai,lai	petai.m4a	petai.png	TRUE	TRUE
+ms-MY	23	1	3	gerai	lai,pe,ge,pu,ran/ci,tai,rai,lau	ge,lai,rai,ci	gerai.m4a	gerai.png	TRUE	TRUE
+ms-MY	23	1	4	pulau	lai,pe,ge,pu,ran/ci,tai,rai,lau	pu,rai,lau,ci	pulau.m4a	pulau.png	TRUE	TRUE
+ms-MY	23	1	5	rantai	lai,pe,ge,pu,ran/ci,tai,rai,lau	ran,ci,tai,lai	rantai.m4a	rantai.png	TRUE	TRUE
+ms-MY	23	2	1	pantai	pan,sam,kel,se,tau/tai,pai,dai,rai,hu	pan,sam,tai,pai	pantai.m4a	pantai.png	TRUE	TRUE
+ms-MY	23	2	2	sampai	pan,sam,kel,se,tau/tai,pai,dai,rai,hu	sam,rai,pai,tai	sampai.m4a		TRUE	TRUE
+ms-MY	23	2	3	keldai	pan,sam,kel,se,tau/tai,pai,dai,rai,hu	kel,pai,dai,tai	keldai.m4a	keldai.png	TRUE	TRUE
+ms-MY	23	2	4	serai	pan,sam,kel,se,tau/tai,pai,dai,rai,hu	se,dai,rai,pai	serai.m4a	serai.png	TRUE	TRUE
+ms-MY	23	2	5	tauhu	pan,sam,kel,se,tau/tai,pai,dai,rai,hu	tau,kel,hu,tai	tauhu.m4a	tauhu.png	TRUE	TRUE
+ms-MY	24	1	1	paus	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,a,e,i,o,u,s	paus.m4a	paus.png	TRUE	TRUE
+ms-MY	24	1	2	daun	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	d,a,e,i,o,u,n	daun.m4a	daun.png	TRUE	TRUE
+ms-MY	24	1	3	suis	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,a,e,i,o,u,s	suis.m4a	suis.png	TRUE	TRUE
+ms-MY	24	1	4	kiub	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	k,a,e,i,o,u,b	kiub.m4a	kiub.png	TRUE	TRUE
+ms-MY	24	1	5	kuih	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	k,a,e,i,o,u,h	kuih.m4a	kuih.png	TRUE	TRUE
+ms-MY	24	2	1	puak	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	p,a,e,i,o,u,k	puak.m4a		TRUE	TRUE
+ms-MY	24	2	2	lauk	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	l,a,e,i,o,u,k	lauk.m4a	lauk.png	TRUE	TRUE
+ms-MY	24	2	3	kaum	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	k,a,e,i,o,u,m	kaum.m4a		TRUE	TRUE
+ms-MY	24	2	4	laut	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	l,a,e,i,o,u,t	laut.m4a	laut.png	TRUE	TRUE
+ms-MY	24	2	5	buih	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	b,a,e,i,o,u,h	buih.m4a	buih.png	TRUE	TRUE
+ms-MY	25	1	1	ngeri	nge,si,nga,bu,u/ri,nga,ngu	nge,nga,ri,ngu	ngeri.m4a		TRUE	TRUE
+ms-MY	25	1	2	singa	nge,si,nga,bu,u/ri,nga,ngu	si,nge,nga,ngu	singa.m4a	singa.png	TRUE	TRUE
+ms-MY	25	1	3	nganga	nge,si,nga,bu,u/ri,nga,ngu	nga,bu,nga,ri	nganga.m4a	nganga.png	TRUE	TRUE
+ms-MY	25	1	4	bunga	nge,si,nga,bu,u/ri,nga,ngu	bu,si,nga,ngu	bunga.m4a	bunga.png	TRUE	TRUE
+ms-MY	25	1	5	ungu	nge,si,nga,bu,u/ri,nga,ngu	u,nga,ngu,ri	ungu.m4a	ungu.png	TRUE	TRUE
+ms-MY	25	2	1	pengat	pe,lo,ta,le,ba/ngat,ngan,ngun	pe,lo,ngan,ngat	pengat.m4a		TRUE	TRUE
+ms-MY	25	2	2	longan	pe,lo,ta,le,ba/ngat,ngan,ngun	lo,le,ngat,ngan	longan.m4a	longan.png	TRUE	TRUE
+ms-MY	25	2	3	tangan	pe,lo,ta,le,ba/ngat,ngan,ngun	ta,ba,ngun,ngan	tangan.m4a	tangan.png	TRUE	TRUE
+ms-MY	25	2	4	lengan	pe,lo,ta,le,ba/ngat,ngan,ngun	le,pe,ngat,ngun	lengan.m4a	lengan.png	TRUE	TRUE
+ms-MY	25	2	5	bangun	pe,lo,ta,le,ba/ngat,ngan,ngun	ba,ta,ngan,ngat	bangun.m4a		TRUE	TRUE
+ms-MY	26	1	1	kunyit	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	ku,nya,nyit,nyu	kunyit.m4a		TRUE	TRUE
+ms-MY	26	1	2	syiling	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	syi,pe,ling,nyit	syiling.m4a	syiling.png	TRUE	TRUE
+ms-MY	26	1	3	penyu	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	pe,mi,nyu,nyak	penyu.m4a	penyu.png	TRUE	TRUE
+ms-MY	26	1	4	nyanyi	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	nya,ku,nyak,nyi	nyanyi.m4a	nyanyi.png	TRUE	TRUE
+ms-MY	26	1	5	minyak	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	mi,syi,nyak,nyu	minyak.m4a	minyak.png	TRUE	TRUE
+ms-MY	26	2	1	sunyi	su,mo,nya,sya/nyi,nyet,muk,ir,ta	su,nyi,nya,muk	sunyi.m4a	sunyi.png	TRUE	TRUE
+ms-MY	26	2	2	monyet	su,mo,nya,sya/nyi,nyet,muk,ir,ta	mo,nyet,nya,ir	monyet.m4a	monyet.png	TRUE	TRUE
+ms-MY	26	2	3	nyamuk	su,mo,nya,sya/nyi,nyet,muk,ir,ta	nya,muk,sya,nyet	nyamuk.m4a	nyamuk.png	TRUE	TRUE
+ms-MY	26	2	4	syair	su,mo,nya,sya/nyi,nyet,muk,ir,ta	sya,ir,mo,nyi	syair.m4a		TRUE	TRUE
+ms-MY	26	2	5	nyata	su,mo,nya,sya/nyi,nyet,muk,ir,ta	nya,ta,sya,nyet	nyata.m4a		TRUE	TRUE
