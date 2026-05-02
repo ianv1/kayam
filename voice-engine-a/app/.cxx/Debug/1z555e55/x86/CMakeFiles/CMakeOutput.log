@@ -1,0 +1,426 @@
+The target system is: Android - 1 - i686
+The host system is: Darwin - 24.5.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;
+Id flags: -c;--target=i686-none-linux-android19 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11
+Id flags: -c;--target=i686-none-linux-android19 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_e2659 && [1/2] Building C object CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: i686-none-linux-android19
+Thread model: posix
+InstalledDir: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin
+ (in-process)
+ "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple i686-none-linux-android19 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu i686 -target-feature +ssse3 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.6 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp -resource-dir /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6 -dependency-file CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -mstackrealign -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o -x c /Users/ian/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-apple-darwin24.5.0
+ignoring nonexistent directory "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_e2659
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: i686-none-linux-android19
+Thread model: posix
+InstalledDir: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin
+ "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_e2659 /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386 -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include]
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android]
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android]
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  implicit include dirs: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_e2659 && [1/2] Building C object CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: i686-none-linux-android19]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple i686-none-linux-android19 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu i686 -target-feature +ssse3 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.6 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp -resource-dir /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6 -dependency-file CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -mstackrealign -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o -x c /Users/ian/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-apple-darwin24.5.0]
+  ignore line: [ignoring nonexistent directory "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_e2659]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: i686-none-linux-android19]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  link line: [ "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_e2659 /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386 -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e2659] ==> ignore
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o] ==> obj [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o]
+    arg [-L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386] ==> dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386]
+    arg [-L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19] ==> dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19]
+    arg [-L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android]
+    arg [-L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_e2659.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o] ==> obj [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
+  remove lib [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a]
+  remove lib [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a]
+  collapse library dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386]
+  collapse library dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19]
+  collapse library dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android]
+  collapse library dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
+  implicit dirs: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_7b87a && [1/2] Building CXX object CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: i686-none-linux-android19
+Thread model: posix
+InstalledDir: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin
+ (in-process)
+ "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple i686-none-linux-android19 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu i686 -target-feature +ssse3 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.6 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp -resource-dir /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6 -dependency-file CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -std=c++11 -fdeprecated-macro -fdebug-compilation-dir=/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -mstackrealign -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ian/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-apple-darwin24.5.0
+ignoring nonexistent directory "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android
+ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_7b87a
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: i686-none-linux-android19
+Thread model: posix
+InstalledDir: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin
+ "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_7b87a /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386 -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include]
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android]
+    add: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android]
+  collapse include dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  implicit include dirs: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_7b87a && [1/2] Building CXX object CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: i686-none-linux-android19]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple i686-none-linux-android19 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu i686 -target-feature +ssse3 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.6 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp -resource-dir /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6 -dependency-file CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include -internal-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -std=c++11 -fdeprecated-macro -fdebug-compilation-dir=/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -mstackrealign -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ian/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-apple-darwin24.5.0]
+  ignore line: [ignoring nonexistent directory "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/include]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/i686-linux-android]
+  ignore line: [ /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_7b87a]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: i686-none-linux-android19]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  link line: [ "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_7b87a /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386 -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7b87a] ==> ignore
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o] ==> obj [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o]
+    arg [-L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386] ==> dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386]
+    arg [-L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19] ==> dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19]
+    arg [-L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android]
+    arg [-L/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_7b87a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o] ==> obj [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
+  remove lib [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a]
+  remove lib [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-i686-android.a]
+  collapse library dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386]
+  collapse library dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19]
+  collapse library dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android]
+  collapse library dir [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
+  implicit dirs: [/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.6/lib/linux/i386;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android;/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_25ad4 && [1/2] Building C object CMakeFiles/cmTC_25ad4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_25ad4
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_a38b1 && [1/2] Building C object CMakeFiles/cmTC_a38b1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a38b1
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_ab191 && [1/2] Building C object CMakeFiles/cmTC_ab191.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ab191
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_61be8 && [1/2] Building C object CMakeFiles/cmTC_61be8.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_61be8
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_bbf27 && [1/2] Building C object CMakeFiles/cmTC_bbf27.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bbf27
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_9ee29 && [1/2] Building C object CMakeFiles/cmTC_9ee29.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9ee29
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_fe307 && [1/2] Building C object CMakeFiles/cmTC_fe307.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fe307
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_16e5d && [1/2] Building C object CMakeFiles/cmTC_16e5d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_16e5d
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_c775b && [1/2] Building C object CMakeFiles/cmTC_c775b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c775b
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_af2b7 && [1/2] Building C object CMakeFiles/cmTC_af2b7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_af2b7
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_b2342 && [1/2] Building C object CMakeFiles/cmTC_b2342.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b2342
+
+
+
+Determining if the memmove exist passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_9a7ee && [1/2] Building C object CMakeFiles/cmTC_9a7ee.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9a7ee
+
+
+File /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function mmap exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_f10f9 && [1/2] Building C object CMakeFiles/cmTC_f10f9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f10f9
+
+
+
+Determining if the function arc4random_buf exists passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_4c423 && [1/2] Building C object CMakeFiles/cmTC_4c423.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4c423
+
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_0ca26 && [1/2] Building C object CMakeFiles/cmTC_0ca26.dir/STDC_HEADERS.c.o
+[2/2] Linking C executable cmTC_0ca26
+
+
+
+Performing C SOURCE FILE Test HAVE_SYSCALL_GETRANDOM succeeded with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_be6a2 && [1/2] Building C object CMakeFiles/cmTC_be6a2.dir/src.c.o
+[2/2] Linking C executable cmTC_be6a2
+
+
+Source file was:
+
+        #include <stdlib.h>  /* for NULL */
+        #include <unistd.h>  /* for syscall */
+        #include <sys/syscall.h>  /* for SYS_getrandom */
+        int main() {
+            syscall(SYS_getrandom, NULL, 0, 0);
+            return 0;
+        }
+Performing C SOURCE FILE Test FLAG_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_c7386 && [1/2] Building C object CMakeFiles/cmTC_c7386.dir/src.c.o
+[2/2] Linking C executable cmTC_c7386
+
+
+Source file was:
+int main(void) { return 0; }

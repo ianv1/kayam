@@ -1,0 +1,160 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libttscompat.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"libs/ttscompat/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fno-limit-debug-info  -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "ttscompat_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/../aosp-monkey-patch"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/../base/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/../libnativehelper/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "aosp-monkey-patch::@8d09a5b813ca9864ceb9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "nativehelper::@c6025e2369d48865ec84"
+		}
+	],
+	"id" : "ttscompat::@89a4a02329ebe12ee1ae",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libs/aosp-monkey-patch/libaosp-monkey-patch.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libs/libnativehelper/libnativehelper.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libs/aosp-monkey-patch/libaosp-monkey-patch.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "ttscompat",
+	"nameOnDisk" : "libttscompat.so",
+	"paths" : 
+	{
+		"build" : "libs/ttscompat",
+		"source" : "libs/ttscompat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/ttscompat/jni/com_android_tts_compat_SynthProxy.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

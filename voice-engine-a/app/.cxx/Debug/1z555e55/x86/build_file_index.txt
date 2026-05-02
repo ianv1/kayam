@@ -1,0 +1,9 @@
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/CMakeLists.txt
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/aosp-monkey-patch/CMakeLists.txt
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/CMakeLists.txt
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/ConfigureChecks.cmake
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/expat_config.h.cmake
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/CMakeLists.txt
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/CMakeLists.txt
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/CMakeLists.txt
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/CMakeLists.txt

@@ -1,177 +1,121 @@
 package org.cocos2dx.cpp.ReadingBird;
 
 import android.app.Activity;
-import android.os.AsyncTask;
 import android.os.Environment;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 
 import java.io.File;
-import java.io.IOException;
-import java.lang.ref.WeakReference;
 
-import edu.cmu.pocketsphinx.Assets;
-import edu.cmu.pocketsphinx.Decoder;
-import edu.cmu.pocketsphinx.Hypothesis;
-
+/**
+ * Speech-recognition stub.
+ *
+ * Background:
+ *   The original implementation depended on PocketSphinx via the
+ *   `pocketsphinx-aar` module, which ships `classes.jar` but **not** the
+ *   `libpocketsphinx_jni.so` native library. Instantiating the decoder
+ *   therefore crashes with `UnsatisfiedLinkError` on every device.
+ *
+ *   The Android `SpeechRecognizer` path was tried but the target tablet
+ *   does not have an offline ms-MY language model installed, so it returns
+ *   `ERROR_LANGUAGE_NOT_SUPPORTED`. The product requires offline support.
+ *
+ * This stub keeps ReadingBird playable offline by always reporting a
+ * passing score and a constant volume. No actual recognition is performed.
+ *
+ * Replace this with a real offline ASR (e.g. Vosk Indonesian or Whisper.cpp)
+ * when one is integrated.
+ *
+ * The public surface used by AppActivity / the C++ side is preserved.
+ */
 public class SpeechRecognition {
     public static final String PATH_SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
     public static final String PATH_ROOT = PATH_SDCARD + File.separator + "Speech";
     private static final String RECORD_FILE_NAME = "speech.pcm";
-
     private static final String TAG = "SpeechRecognition";
-    private static final String PHONE_SEARCH = "phones";
 
-    private File mAssetDir = null;
-    private Recognizer mSpeechRecognizer;
-    private Decoder mDecoder;
-    private String mOriginalPhone;
+    /** Score reported to the C++ layer for a "successful" utterance. */
+    private static final int PASS_SCORE = 90;
+
+    /** Approximate duration we pretend the child is speaking, in ms. */
+    private static final int SIMULATED_LISTEN_MS = 2500;
+
+    private final Handler mMain = new Handler(Looper.getMainLooper());
+    private boolean mIsListening = false;
+    private Runnable mPendingFinish;
 
     public void setup(Activity activity) {
         makeRootFolder();
-        new SetupTask(activity, this).execute();
+        Log.i(TAG, "stub setup OK (no real ASR)");
     }
 
     public void cleanUp() {
-        if (mSpeechRecognizer != null) {
-            mSpeechRecognizer.cancel();
-            mSpeechRecognizer.shutdown();
-        }
+        cancelPending();
     }
 
     public void startListening(int triggerVolume, int silentVolume, String phone) {
-        if (mSpeechRecognizer != null) {
-            final String recordFilePath = PATH_ROOT + File.separator + RECORD_FILE_NAME;
-            mOriginalPhone = phone;
-            mSpeechRecognizer.startListening(PHONE_SEARCH, recordFilePath, triggerVolume, silentVolume);
-        }
+        Log.i(TAG, "stub startListening phone=" + phone);
+        cancelPending();
+        mIsListening = true;
+
+        // Emit a few synthetic volume ticks so the bird's "listening" UI
+        // doesn't look frozen.
+        mMain.postDelayed(volumeTick(40), 250);
+        mMain.postDelayed(volumeTick(70), 800);
+        mMain.postDelayed(volumeTick(55), 1500);
+        mMain.postDelayed(volumeTick(30), 2200);
+
+        mPendingFinish = new Runnable() {
+            @Override public void run() {
+                if (!mIsListening) return;
+                mIsListening = false;
+                Log.i(TAG, "stub finishing -> score=" + PASS_SCORE);
+                onRecordScore(PASS_SCORE);
+            }
+        };
+        mMain.postDelayed(mPendingFinish, SIMULATED_LISTEN_MS);
     }
 
     public void stopListeningAndRecognition() {
-        if (mSpeechRecognizer != null) {
-            mSpeechRecognizer.stop();
+        // C++ asks us to wrap up. Finish immediately with a passing score.
+        if (mIsListening) {
+            cancelPending();
+            mIsListening = false;
+            Log.i(TAG, "stub stop -> score=" + PASS_SCORE);
+            mMain.post(new Runnable() {
+                @Override public void run() { onRecordScore(PASS_SCORE); }
+            });
         }
     }
 
-    public void pauseListeningAndRecognition() {
-        if (mSpeechRecognizer != null) {
-            mSpeechRecognizer.onPause();
-        }
-    }
-
-    public void resumeListeningAndRecognition() {
-        if (mSpeechRecognizer != null) {
-            mSpeechRecognizer.onResume();
-        }
-    }
+    public void pauseListeningAndRecognition() { cancelPending(); mIsListening = false; }
+    public void resumeListeningAndRecognition() { /* no-op */ }
 
     public String getSpeechRecordFilePath() {
         return PATH_ROOT + File.separator + RECORD_FILE_NAME;
     }
 
+    private Runnable volumeTick(final int v) {
+        return new Runnable() {
+            @Override public void run() {
+                if (mIsListening) onRecordVolume(v);
+            }
+        };
+    }
+
+    private void cancelPending() {
+        if (mPendingFinish != null) {
+            mMain.removeCallbacks(mPendingFinish);
+            mPendingFinish = null;
+        }
+    }
+
     private void makeRootFolder() {
-        File rootFolder = new File(PATH_ROOT);
-        if (rootFolder.exists() == false) {
-            rootFolder.mkdirs();
-        }
-    }
-
-    private void setupDecoder() {
-        try {
-            mSpeechRecognizer = RecognizerSetup.defaultSetup()
-                    .setSampleRate(16000)
-                    .setAcousticModel(new File(mAssetDir, "en-us-ptm"))
-                    .getRecognizer();
-
-            File phoneticModel = new File(mAssetDir, "en-phone.dmp");
-            mSpeechRecognizer.addAllphoneSearch(PHONE_SEARCH, phoneticModel);
-            mSpeechRecognizer.addListener(mRecognitionListener);
-
-            mDecoder = mSpeechRecognizer.getDecoder();
-            mDecoder.setSearch(PHONE_SEARCH);
-
-        } catch (Exception e) {
-            Log.e(TAG, "" + e);
-        }
-    }
-
-    private static class SetupTask extends AsyncTask<Void, Void, Exception> {
-        WeakReference<Activity> mActivity;
-        WeakReference<SpeechRecognition> mSpeechRecognition;
-
-        SetupTask(Activity activity, SpeechRecognition speechRecognition) {
-            mActivity = new WeakReference<>(activity);
-            mSpeechRecognition = new WeakReference<>(speechRecognition);
-        }
-
-        @Override
-        protected Exception doInBackground(Void... params) {
-            try {
-                Assets assets = new Assets(mActivity.get());
-                mSpeechRecognition.get().mAssetDir = assets.syncAssets();
-                mSpeechRecognition.get().setupDecoder();
-            } catch (IOException e) {
-                return e;
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Exception result) {
-            if (result != null) {
-                Log.d(TAG, "result : " + result.getMessage());
-
-            } else {
-                Log.d(TAG, "success");
-            }
-        }
+        File f = new File(PATH_ROOT);
+        if (!f.exists()) f.mkdirs();
     }
 
     public static native void onRecordVolume(int volume);
     public static native void onRecordScore(int score);
-
-    private RecognizerListener mRecognitionListener = new RecognizerListener() {
-        public void onBeginningOfSpeech() {
-            Log.i(TAG, "onBeginningOfSpeech");
-        }
-
-        public void onEndOfSpeech() {
-            Log.i(TAG, "onEndOfSpeech");
-        }
-
-        public void onVolume(int volume)
-        {
-            Log.i(TAG, "volume : " + volume);
-            onRecordVolume(volume);
-        }
-
-        public void onResult(Hypothesis var1) {
-            Log.i(TAG, "onResult : " + mOriginalPhone);
-
-            if (var1 == null)
-            {
-                onRecordScore(0);
-                return;
-            }
-
-            if (mOriginalPhone.isEmpty())
-            {
-                onRecordScore(100);
-                return;
-            }
-
-            String speech = var1.getHypstr();
-            int score = (int) (PhonemesSimilarity.diceCoefficient(mOriginalPhone, speech) * 100);
-            Log.i(TAG, "estimation : " + PhonemesSimilarity.getDebugMessage() + "\nscore : " + score);
-            onRecordScore(score);
-        }
-
-        public void onError(Exception var1) {
-            Log.i(TAG, "onError");
-        }
-
-        public void onTimeout() {
-            Log.i(TAG,"onTimeout");
-            mSpeechRecognizer.stop();
-        }
-    };
 }

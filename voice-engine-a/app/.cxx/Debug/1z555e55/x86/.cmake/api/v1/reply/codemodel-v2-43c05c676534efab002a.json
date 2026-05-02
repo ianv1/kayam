@@ -1,0 +1,262 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libs/aosp-monkey-patch",
+					"jsonFile" : "directory-libs.aosp-monkey-patch-Debug-54fbab9f9909a3a48e31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs/aosp-monkey-patch",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libs/svoxpico",
+					"jsonFile" : "directory-libs.svoxpico-Debug-9c531a5151273c891a70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs/svoxpico",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "libs/ttscompat",
+					"jsonFile" : "directory-libs.ttscompat-Debug-e2baa6774135fa442d9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs/ttscompat",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "libs/ttspico",
+					"jsonFile" : "directory-libs.ttspico-Debug-29fc6c422cc59b46d0be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs/ttspico",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "libs/libexpat/expat",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.libexpat.expat-Debug-1a517975ad16a42c97e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/libexpat/expat",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						6,
+						10
+					]
+				},
+				{
+					"build" : "libs/libnativehelper",
+					"jsonFile" : "directory-libs.libnativehelper-Debug-71a0cb33bbd5cbec1108.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs/libnativehelper",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "expat",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						6,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "aosp-monkey-patch::@8d09a5b813ca9864ceb9",
+					"jsonFile" : "target-aosp-monkey-patch-Debug-580419d2ef89f5953ef2.json",
+					"name" : "aosp-monkey-patch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "elements::@a52e30e6dd0dcde803d7",
+					"jsonFile" : "target-elements-Debug-e589ba40677aa2831a77.json",
+					"name" : "elements",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "expat::@a52e30e6dd0dcde803d7",
+					"jsonFile" : "target-expat-Debug-cdf7301053a9a7dfc384.json",
+					"name" : "expat",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "nativehelper::@c6025e2369d48865ec84",
+					"jsonFile" : "target-nativehelper-Debug-0ac02fefac6b7d894f42.json",
+					"name" : "nativehelper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "outline::@a52e30e6dd0dcde803d7",
+					"jsonFile" : "target-outline-Debug-f42fd6c0b3df8e1317a6.json",
+					"name" : "outline",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "runtests::@a52e30e6dd0dcde803d7",
+					"jsonFile" : "target-runtests-Debug-79a8c9d4577e279132fa.json",
+					"name" : "runtests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "runtestspp::@a52e30e6dd0dcde803d7",
+					"jsonFile" : "target-runtestspp-Debug-0e2686e630c3640d47be.json",
+					"name" : "runtestspp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "svoxpico::@0452eb611c423aabcc1b",
+					"jsonFile" : "target-svoxpico-Debug-1c7d35f8a65b7c1cd741.json",
+					"name" : "svoxpico",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ttscompat::@89a4a02329ebe12ee1ae",
+					"jsonFile" : "target-ttscompat-Debug-c8a6ea0801a5a91b478e.json",
+					"name" : "ttscompat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ttspico::@4e2edacb0622d5f0c0b9",
+					"jsonFile" : "target-ttspico-Debug-7826c5b0db977ddb12fe.json",
+					"name" : "ttspico",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "xmlwf::@a52e30e6dd0dcde803d7",
+					"jsonFile" : "target-xmlwf-Debug-26355ef275a055f61703.json",
+					"name" : "xmlwf",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+		"source" : "/Users/ian/projects/kayam/kayam/voice-engine-a/app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

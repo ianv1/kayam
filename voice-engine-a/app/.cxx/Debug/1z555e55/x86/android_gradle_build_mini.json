@@ -1,0 +1,107 @@
+{
+  "buildFiles": [
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/CMakeLists.txt",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/aosp-monkey-patch/CMakeLists.txt",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/CMakeLists.txt",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/ConfigureChecks.cmake",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/expat_config.h.cmake",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/CMakeLists.txt",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/CMakeLists.txt",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/CMakeLists.txt",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "runtests::@a52e30e6dd0dcde803d7": {
+      "artifactName": "runtests",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat/tests/runtests",
+      "runtimeFiles": [
+        "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libexpat.so"
+      ]
+    },
+    "xmlwf::@a52e30e6dd0dcde803d7": {
+      "artifactName": "xmlwf",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat/xmlwf/xmlwf",
+      "runtimeFiles": [
+        "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libexpat.so"
+      ]
+    },
+    "ttspico::@4e2edacb0622d5f0c0b9": {
+      "artifactName": "ttspico",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libttspico.so",
+      "runtimeFiles": [
+        "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libexpat.so"
+      ]
+    },
+    "ttscompat::@89a4a02329ebe12ee1ae": {
+      "artifactName": "ttscompat",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libttscompat.so",
+      "runtimeFiles": []
+    },
+    "svoxpico::@0452eb611c423aabcc1b": {
+      "artifactName": "svoxpico",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/svoxpico/libsvoxpico.a",
+      "runtimeFiles": []
+    },
+    "elements::@a52e30e6dd0dcde803d7": {
+      "artifactName": "elements",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat/examples/elements",
+      "runtimeFiles": [
+        "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libexpat.so"
+      ]
+    },
+    "nativehelper::@c6025e2369d48865ec84": {
+      "artifactName": "nativehelper",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libnativehelper/libnativehelper.a",
+      "runtimeFiles": []
+    },
+    "expat::@a52e30e6dd0dcde803d7": {
+      "artifactName": "expat",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libexpat.so",
+      "runtimeFiles": []
+    },
+    "outline::@a52e30e6dd0dcde803d7": {
+      "artifactName": "outline",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat/examples/outline",
+      "runtimeFiles": [
+        "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libexpat.so"
+      ]
+    },
+    "runtestspp::@a52e30e6dd0dcde803d7": {
+      "artifactName": "runtestspp",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat/tests/runtestspp",
+      "runtimeFiles": [
+        "/Users/ian/projects/kayam/kayam/voice-engine-a/app/build/intermediates/cxx/Debug/1z555e55/obj/x86/libexpat.so"
+      ]
+    },
+    "aosp-monkey-patch::@8d09a5b813ca9864ceb9": {
+      "artifactName": "aosp-monkey-patch",
+      "abi": "x86",
+      "output": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/aosp-monkey-patch/libaosp-monkey-patch.a",
+      "runtimeFiles": []
+    }
+  }
+}

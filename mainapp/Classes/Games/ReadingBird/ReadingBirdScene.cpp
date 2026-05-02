@@ -286,8 +286,11 @@ void ReadingBirdScene::readLevelData(int *curWorksheet)
     p = LanguageManager::getInstance()->findLocalizedResource("Games/" + ASSET_PREFIX + "/ReadingBird_Levels.tsv");
 #endif
 
+    CCLOG("[ReadingBird] reading TSV path=%s", p.c_str());
     string s = FileUtils::getInstance()->getStringFromFile(p);
+    CCLOG("[ReadingBird] TSV bytes=%zu", s.size());
     auto data = TodoUtil::readTSV(s);
+    CCLOG("[ReadingBird] TSV rows=%zu mLevelID=%d", data.size(), mLevelID);
 
     // data[6][2] : Worksheet or WorksheetAll
     bool bWorkSheetAll = UserManager::getInstance()->isWorksheetTestMode();
@@ -459,8 +462,14 @@ void ReadingBirdScene::changeMainState(MAIN_STATE state)
         mIsPronunciation = false;
         mTriggerVolume = 0;
         
+        CCLOG("[ReadingBird] mData.size=%zu mCurrentProblemID=%d", mData.size(), mCurrentProblemID);
+        if (mCurrentProblemID - 1 >= (int)mData.size() || mCurrentProblemID < 1) {
+            CCLOG("[ReadingBird] FATAL: out-of-range index, mData empty? size=%zu", mData.size());
+            return;
+        }
         mCurrentText = mData[mCurrentProblemID - 1].mSuggest;
         mbShortCurrentText = mCurrentText.length() <= 6;
+        CCLOG("[ReadingBird] picked problem %d suggest='%s' sound='%s'", mCurrentProblemID, mCurrentText.c_str(), mData[mCurrentProblemID - 1].mSound.c_str());
         CCLOG("result - %d,text - %s, %d", mbShortCurrentText, mCurrentText.c_str(), (mCurrentText.find(" ") != std::string::npos));
         if (mbShortCurrentText == false && (mCurrentText.find(" ") != std::string::npos))
         {

@@ -1,0 +1,99 @@
+Determining if the function getpagesize exists failed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_dbc05 && [1/2] Building C object CMakeFiles/cmTC_dbc05.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_dbc05
+FAILED: cmTC_dbc05 
+: && /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=getpagesize -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_dbc05.dir/CheckFunctionExists.c.o -o cmTC_dbc05  -latomic -lm && :
+ld: error: undefined symbol: getpagesize
+>>> referenced by CheckFunctionExists.c:17 (/Users/ian/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:17)
+>>>               CMakeFiles/cmTC_dbc05.dir/CheckFunctionExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function bcopy exists failed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_0dcda && [1/2] Building C object CMakeFiles/cmTC_0dcda.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0dcda
+FAILED: cmTC_0dcda 
+: && /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=bcopy -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_0dcda.dir/CheckFunctionExists.c.o -o cmTC_0dcda  -latomic -lm && :
+ld: error: undefined symbol: bcopy
+>>> referenced by CheckFunctionExists.c:17 (/Users/ian/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:17)
+>>>               CMakeFiles/cmTC_0dcda.dir/CheckFunctionExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function getrandom exists failed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_f6fd6 && [1/2] Building C object CMakeFiles/cmTC_f6fd6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f6fd6
+FAILED: cmTC_f6fd6 
+: && /Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=getrandom -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_f6fd6.dir/CheckFunctionExists.c.o -o cmTC_f6fd6  -latomic -lm && :
+ld: error: undefined symbol: getrandom
+>>> referenced by CheckFunctionExists.c:17 (/Users/ian/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:17)
+>>>               CMakeFiles/cmTC_f6fd6.dir/CheckFunctionExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the off_t exist failed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_dc0a7 && [1/2] Building C object CMakeFiles/cmTC_dc0a7.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_dc0a7.dir/CheckSymbolExists.c.o 
+/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_dc0a7.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_dc0a7.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_dc0a7.dir/CheckSymbolExists.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: unexpected type name 'off_t': expected expression
+  return ((int*)(&off_t))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef off_t
+  return ((int*)(&off_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the size_t exist failed with the following output:
+Change Dir: /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ian/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_350c8 && [1/2] Building C object CMakeFiles/cmTC_350c8.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_350c8.dir/CheckSymbolExists.c.o 
+/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_350c8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_350c8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_350c8.dir/CheckSymbolExists.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: unexpected type name 'size_t': expected expression
+  return ((int*)(&size_t))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef size_t
+  return ((int*)(&size_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

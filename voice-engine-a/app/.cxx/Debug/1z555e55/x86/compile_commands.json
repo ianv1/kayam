@@ -1,0 +1,302 @@
+[
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/aosp-monkey-patch/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/aosp-monkey-patch/CMakeFiles/aosp-monkey-patch.dir/cutils/strdup8to16.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/aosp-monkey-patch/cutils/strdup8to16.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/aosp-monkey-patch/cutils/strdup8to16.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/aosp-monkey-patch/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/aosp-monkey-patch/CMakeFiles/aosp-monkey-patch.dir/cutils/strdup16to8.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/aosp-monkey-patch/cutils/strdup16to8.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/aosp-monkey-patch/cutils/strdup16to8.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picoacph.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoacph.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoacph.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picoapi.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoapi.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoapi.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picobase.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picobase.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picobase.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picocep.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picocep.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picocep.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picoctrl.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoctrl.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoctrl.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picodata.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picodata.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picodata.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picodbg.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picodbg.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picodbg.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picoextapi.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoextapi.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoextapi.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picofftsg.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picofftsg.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picofftsg.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picokdbg.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokdbg.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokdbg.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picokdt.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokdt.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokdt.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picokfst.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokfst.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokfst.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picoklex.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoklex.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoklex.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picoknow.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoknow.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoknow.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picokpdf.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokpdf.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokpdf.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picokpr.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokpr.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picokpr.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picoktab.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoktab.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoktab.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picoos.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoos.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picoos.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picopal.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picopal.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picopal.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picopam.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picopam.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picopam.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picopr.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picopr.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picopr.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picorsrc.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picorsrc.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picorsrc.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picosa.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picosa.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picosa.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picosig.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picosig.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picosig.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picosig2.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picosig2.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picosig2.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picospho.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picospho.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picospho.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picotok.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picotok.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picotok.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picotrns.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picotrns.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picotrns.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o libs/svoxpico/CMakeFiles/svoxpico.dir/picowa.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picowa.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/svoxpico/picowa.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dttscompat_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/../aosp-monkey-patch -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/../base/include -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/../libnativehelper/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fno-limit-debug-info  -fPIC -o libs/ttscompat/CMakeFiles/ttscompat.dir/jni/com_android_tts_compat_SynthProxy.cpp.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/jni/com_android_tts_compat_SynthProxy.cpp",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttscompat/jni/com_android_tts_compat_SynthProxy.cpp"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dttspico_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/../aosp-monkey-patch -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/../svoxpico -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/../ttscompat/include -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/../libexpat/expat/lib -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fno-limit-debug-info  -fPIC -o libs/ttspico/CMakeFiles/ttspico.dir/com_svox_picottsengine.cpp.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/com_svox_picottsengine.cpp",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/com_svox_picottsengine.cpp"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dttspico_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/../aosp-monkey-patch -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/../svoxpico -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/../ttscompat/include -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/../libexpat/expat/lib -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fno-limit-debug-info  -fPIC -o libs/ttspico/CMakeFiles/ttspico.dir/svox_ssml_parser.cpp.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/svox_ssml_parser.cpp",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/ttspico/svox_ssml_parser.cpp"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -Dexpat_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIC -o libs/libexpat/expat/CMakeFiles/expat.dir/lib/loadlibrary.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/loadlibrary.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/loadlibrary.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -Dexpat_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIC -o libs/libexpat/expat/CMakeFiles/expat.dir/lib/xmlparse.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmlparse.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmlparse.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -Dexpat_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIC -o libs/libexpat/expat/CMakeFiles/expat.dir/lib/xmlrole.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmlrole.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmlrole.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -Dexpat_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIC -o libs/libexpat/expat/CMakeFiles/expat.dir/lib/xmltok.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmltok.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmltok.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -Dexpat_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIC -o libs/libexpat/expat/CMakeFiles/expat.dir/lib/xmltok_impl.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmltok_impl.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmltok_impl.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -Dexpat_EXPORTS -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIC -o libs/libexpat/expat/CMakeFiles/expat.dir/lib/xmltok_ns.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmltok_ns.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib/xmltok_ns.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/xmlwf.dir/xmlwf/xmlwf.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/xmlwf/xmlwf.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/xmlwf/xmlwf.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/xmlwf.dir/xmlwf/xmlfile.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/xmlwf/xmlfile.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/xmlwf/xmlfile.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/xmlwf.dir/xmlwf/codepage.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/xmlwf/codepage.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/xmlwf/codepage.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/xmlwf.dir/xmlwf/readfilemap.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/xmlwf/readfilemap.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/xmlwf/readfilemap.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/elements.dir/examples/elements.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/examples/elements.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/examples/elements.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/outline.dir/examples/outline.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/examples/outline.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/examples/outline.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtests.dir/tests/runtests.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/runtests.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/runtests.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtests.dir/tests/chardata.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/chardata.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/chardata.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtests.dir/tests/structdata.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/structdata.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/structdata.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtests.dir/tests/minicheck.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/minicheck.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/minicheck.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtests.dir/tests/memcheck.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/memcheck.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/memcheck.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11  -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtestspp.dir/tests/runtestspp.cpp.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/runtestspp.cpp",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/runtestspp.cpp"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtestspp.dir/tests/chardata.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/chardata.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/chardata.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtestspp.dir/tests/structdata.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/structdata.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/structdata.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtestspp.dir/tests/minicheck.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/minicheck.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/minicheck.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EXPAT_CONFIG_H -DXML_DEV_URANDOM -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/lib -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86/libs/libexpat/expat -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-strict-aliasing -fno-limit-debug-info  -fPIE -o libs/libexpat/expat/CMakeFiles/runtestspp.dir/tests/memcheck.c.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/memcheck.c",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libexpat/expat/tests/memcheck.c"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/../aosp-monkey-patch -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/include/nativehelper -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fno-limit-debug-info  -fPIC -o libs/libnativehelper/CMakeFiles/nativehelper.dir/JNIHelp.cpp.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/JNIHelp.cpp",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/JNIHelp.cpp"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/../aosp-monkey-patch -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/include/nativehelper -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fno-limit-debug-info  -fPIC -o libs/libnativehelper/CMakeFiles/nativehelper.dir/JniConstants.cpp.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/JniConstants.cpp",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/JniConstants.cpp"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/../aosp-monkey-patch -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/include/nativehelper -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fno-limit-debug-info  -fPIC -o libs/libnativehelper/CMakeFiles/nativehelper.dir/toStringArray.cpp.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/toStringArray.cpp",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/toStringArray.cpp"
+},
+{
+  "directory": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/.cxx/Debug/1z555e55/x86",
+  "command": "/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/ian/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/../aosp-monkey-patch -I/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/include/nativehelper -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fno-limit-debug-info  -fPIC -o libs/libnativehelper/CMakeFiles/nativehelper.dir/JniInvocation.cpp.o -c /Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/JniInvocation.cpp",
+  "file": "/Users/ian/projects/kayam/kayam/voice-engine-a/app/libs/libnativehelper/JniInvocation.cpp"
+}
+]
