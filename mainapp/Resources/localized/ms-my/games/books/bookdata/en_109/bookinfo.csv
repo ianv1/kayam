@@ -1,37 +1,29 @@
-title,Our Sky,book_en_109_page_0_1.m4a,book_en_109_page_0.jpg,landscape,audio,
+title,Matahari,book_en_109_page_0_1.m4a,book_en_109_page_0.png,landscape,audio,
 page,1,book_en_109_page_1.png,wordwrap,
 paragraph
 sentence,book_en_109_page_1_1.m4a,0,
-word,0,1.608,Sun,en-uk_sun.m4a,1.808,
+word,0,1.704,Matahari panas,book_en_109_page_1_1.m4a,
 page,2,book_en_109_page_2.png,wordwrap,
 paragraph
 sentence,book_en_109_page_2_1.m4a,0,
-word,0,0.666,Hot,en-uk_hot.m4a,0.866,
-word,0.666,1.444,sun,en-uk_sun.m4a,0.978,
+word,0,1.080,Awan,book_en_109_page_2_1.m4a,
 page,3,book_en_109_page_3.png,wordwrap,
 paragraph
 sentence,book_en_109_page_3_1.m4a,0,
-word,0,1.185,Clouds,en-uk_clouds.m4a,1.385,
+word,0,1.488,Awan gebu,book_en_109_page_3_1.m4a,
 page,4,book_en_109_page_4.png,wordwrap,
 paragraph
 sentence,book_en_109_page_4_1.m4a,0,
-word,0,0.7777,Fluffy,en-uk_fluffy.m4a,0.9777,
-word,0.7777,1.99546,clouds,en-uk_clouds.m4a,0.8663,
+word,0,1.104,Bulan,book_en_109_page_4_1.m4a,
 page,5,book_en_109_page_5.png,wordwrap,
 paragraph
 sentence,book_en_109_page_5_1.m4a,0,
-word,0,1.026,Moon,en-uk_moon.m4a,1.226,
+word,0,1.272,Bulan bulat,book_en_109_page_5_1.m4a,
 page,6,book_en_109_page_6.png,wordwrap,
 paragraph
 sentence,book_en_109_page_6_1.m4a,0,
-word,0,0.777,Round,en-uk_round.m4a,0.977,
-word,0.777,1.57751,moon,en-uk_moon.m4a,0.978,
+word,0,1.200,Bintang,book_en_109_page_6_1.m4a,
 page,7,book_en_109_page_7.png,wordwrap,
 paragraph
 sentence,book_en_109_page_7_1.m4a,0,
-word,0,1.184,Stars,en-uk_stars.m4a,1.384,
-page,8,book_en_109_page_8.png,wordwrap,
-paragraph
-sentence,book_en_109_page_8_1.m4a,0,
-word,0,0.666,Bright,en-uk_bright.m4a,0.866,
-word,0.666,1.6281,stars,en-uk_stars.m4a,0.867,
+word,0,1.680,Bintang terang,book_en_109_page_7_1.m4a,
