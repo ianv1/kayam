@@ -1,29 +1,33 @@
-title,Tikus.,book_en_204_page_0_1.m4a,book_en_204_page_0.png,book_en_204_page_0.png,audio,
+title,Tikus,book_en_204_page_0_1.m4a,book_en_204_page_0.png,landscape,audio,
 page,1,book_en_204_page_1.png,wordwrap,
 paragraph
 sentence,book_en_204_page_1_1.m4a,0,
-word,0,1.680,Tikus itu gemuk.,book_en_204_page_1_1.m4a,
+word,0,1.056,Tikus.,book_en_204_page_1_1.m4a,
 page,2,book_en_204_page_2.png,wordwrap,
 paragraph
 sentence,book_en_204_page_2_1.m4a,0,
-word,0,2.256,Tikus itu suka tidur.,book_en_204_page_2_1.m4a,
+word,0,1.680,Tikus itu gemuk.,book_en_204_page_2_1.m4a,
 page,3,book_en_204_page_3.png,wordwrap,
 paragraph
 sentence,book_en_204_page_3_1.m4a,0,
-word,0,1.752,Tikus itu sedih.,book_en_204_page_3_1.m4a,
+word,0,2.256,Tikus itu suka tidur.,book_en_204_page_3_1.m4a,
 page,4,book_en_204_page_4.png,wordwrap,
 paragraph
 sentence,book_en_204_page_4_1.m4a,0,
-word,0,1.704,Tikus itu marah.,book_en_204_page_4_1.m4a,
+word,0,1.752,Tikus itu sedih.,book_en_204_page_4_1.m4a,
 page,5,book_en_204_page_5.png,wordwrap,
 paragraph
 sentence,book_en_204_page_5_1.m4a,0,
-word,0,1.992,Tikus itu berlari.,book_en_204_page_5_1.m4a,
+word,0,1.704,Tikus itu marah.,book_en_204_page_5_1.m4a,
 page,6,book_en_204_page_6.png,wordwrap,
 paragraph
 sentence,book_en_204_page_6_1.m4a,0,
-word,0,2.616,Tikus itu berlari ke van.,book_en_204_page_6_1.m4a,
+word,0,1.992,Tikus itu berlari.,book_en_204_page_6_1.m4a,
 page,7,book_en_204_page_7.png,wordwrap,
 paragraph
 sentence,book_en_204_page_7_1.m4a,0,
-word,0,1.5,Tikus, oh, tikus.,book_en_204_page_7_1.m4a,
+word,0,2.616,Tikus itu berlari ke van.,book_en_204_page_7_1.m4a,
+page,8,book_en_204_page_8.png,wordwrap,
+paragraph
+sentence,book_en_204_page_8_1.m4a,0,
+word,0,2.448,Tikus, oh, tikus.,book_en_204_page_8_1.m4a,
