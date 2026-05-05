@@ -8,7 +8,7 @@
 */captures
 **/.externalNativeBuild
 *.keystore
-*.apk
+**/*.apk
 
 launcher/app/release/*
 
