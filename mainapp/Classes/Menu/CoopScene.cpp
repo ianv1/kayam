@@ -302,6 +302,8 @@ void CoopScene::setupCoop()
         LevelCurriculum cur = it.second;
         if (cur.lang!=lang) continue;
         if (cur.category!=category) continue;
+        // Hide special course (10) and fish bowl (11) rooms.
+        if (cur.categoryLevel >= LEVEL_SPECIAL_COURSE) continue;
 
         Room *room = Room::create();
         room->setupRoom(cur);
