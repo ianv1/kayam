@@ -924,28 +924,9 @@ bool CCAppController::startGame(std::string gameName, int level, std::string par
     _allowSkipTutorial = true;
 
     bool firstLevel = (level==1) || ( (level==0) && (atoi(param.c_str()))==1);
-    
-    if ( firstLevel && TutorialVideoScene::tutorialExists(gameName))
-    {
-        auto tutorialCreator = [creator, gameName, allowSkip](){
-            auto scene = TutorialVideoScene::createScene(gameName, creator, allowSkip);
-            return scene;
-        };
-        Director::getInstance()->pushScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(tutorialCreator)));
-    }
-    // MangoShop Level #5 : using custom tutorial
-    else if (level == 5 && gameName == "MangoShop" && TutorialVideoScene::tutorialExistsWithCustomName("xPrize Tutorial - MangoShop2.m4v"))
-    {
-        auto tutorialCreator = [creator, gameName](){
-            auto scene = TutorialVideoScene::createSceneWithCustomFileName("xPrize Tutorial - MangoShop2.m4v", creator);
-            return scene;
-        };
-        Director::getInstance()->pushScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(tutorialCreator)));
-    }
-    else
-    {
-        Director::getInstance()->pushScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(creator)));
-    }
+    (void)firstLevel; (void)allowSkip; // tutorial videos disabled for ms-MY build
+    // Tutorial videos suppressed — go straight into the game.
+    Director::getInstance()->pushScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(creator)));
     
     return true;
 
@@ -1114,25 +1095,11 @@ void CCAppController::startComprehensionScene(std::string bookFolder, int set, b
         return ComprehensionScene::createScene("Books/BookData/" + bookFolder, set, checkCompleteCondition);
     };
     
-    string tutorialName = "";
-    if (bookFolder=="sw_101" || bookFolder=="sw_102") tutorialName = "Comprehension Quiz Line";
-    if (bookFolder=="sw_201" || bookFolder=="sw_202") tutorialName = "Comprehension Quiz Sound";
-    
-    if (tutorialName!="" && TutorialVideoScene::tutorialExists(tutorialName)) {
-        auto tutorialCreator = [creator, tutorialName](){
-            auto scene = TutorialVideoScene::createScene(tutorialName, creator);
-            return scene;
-            
-        };
-        
-        Director::getInstance()->pushScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(tutorialCreator)));
+    // Tutorial videos suppressed — straight into the scene.
+    if (replaceParent) {
+        Director::getInstance()->replaceScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(creator)));
     } else {
-        
-        if (replaceParent) {
-            Director::getInstance()->replaceScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(creator)));
-        } else {
-            Director::getInstance()->pushScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(creator)));
-        }
+        Director::getInstance()->pushScene(TransitionFade::create(0.5, TodoLoadingScene::createScene(creator)));
     }
     
     
