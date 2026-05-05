@@ -43,51 +43,43 @@ game	AnimalPuzzle	2	x
 game	LetterMatching	3	x
 
 level	ms-MY	BM 1	L	1	9
-day	1	5
+day	1	4
 game	AlphabetPuzzle	1	x
-game	Video	0	en_vdo_abc
 game	LetterTrace	1	x
 game	LetterMatching	4	x
 game	AnimalPuzzle	5	x
-day	2	5
+day	2	4
 game	AlphabetPuzzle	1	x
-game	Video	0	en_vdo_vowel
 game	LetterTrace	2	x
 game	LetterMatching	5	x
 game	AnimalPuzzle	6	x
-day	3	5
+day	3	4
 game	AlphabetPuzzle	2	x
-game	Video	0	en_vdo_1025
 game	LetterTrace	1	x
 game	LetterMatching	4	x
 game	AnimalPuzzle	7	x
-day	4	5
+day	4	4
 game	AlphabetPuzzle	1	x
-game	Video	0	en_vdo_abc
 game	LetterTrace	2	x
 game	LetterMatching	5	x
 game	AnimalPuzzle	8	x
-day	5	5
+day	5	4
 game	AlphabetPuzzle	2	x
-game	Video	0	en_vdo_1025
 game	LetterTrace	3	x
 game	LetterMatching	6	x
 game	AnimalPuzzle	5	x
-day	6	5
+day	6	4
 game	AlphabetPuzzle	2	x
-game	Video	0	en_vdo_vowel
 game	LetterTrace	4	x
 game	LetterMatching	7	x
 game	AnimalPuzzle	6	x
-day	7	5
+day	7	4
 game	AlphabetPuzzle	1	x
-game	Video	0	en_vdo_abc
 game	LetterTrace	1	x
 game	LetterMatching	6	x
 game	AnimalPuzzle	7	x
-day	8	5
+day	8	4
 game	AlphabetPuzzle	1	x
-game	Video	0	en_vdo_vowel
 game	LetterTrace	2	x
 game	LetterMatching	7	x
 game	AnimalPuzzle	8	x
@@ -95,47 +87,40 @@ day	9	1
 game	EggQuizLiteracy	0	PostTest_1
 
 level	ms-MY	Special Course	L	10	25
-day	1	6
-game	Video	0	en_vdo_upperlowercase
+day	1	5
 game	AlphabetPuzzle	1	x
 game	LetterMatching	8	x
 game	LetterTrace	3	x
 game	LetterTrace	4	x
 game	EggQuizLiteracy	0	SpecialTest_1
-day	2	6
-game	Video	0	en_vdo_1025
+day	2	5
 game	SoundTrain	1	x
 game	SoundTrain	2	x
 game	SoundTrain	3	x
 game	SoundTrain	4	x
 game	EggQuizLiteracy	0	SpecialTest_2
-day	3	5
-game	Video	0	en_vdo_1026
+day	3	4
 game	WordMatrix	6	x
 game	WordNote	3	x
 game	WordMatrix	8	x
 game	EggQuizLiteracy	0	SpecialTest_3
-day	4	6
-game	Video	0	en_vdo_sc_initialsound
+day	4	5
 game	BirdPhonics	1	x
 game	WordMatrix	9	x
 game	BirdPhonics	2	x
 game	BirdPhonics	4	x
 game	EggQuizLiteracy	0	SpecialTest_4
-day	5	5
-game	Video	0	en_vdo_ub_fifteen_14
+day	5	4
 game	BirdPhonics	10	x
 game	BirdPhonics	13	x
 game	WordMatrix	11	x
 game	EggQuizLiteracy	0	SpecialTest_5
-day	6	5
-game	Video	0	en_vdo_202_t_caption
+day	6	4
 game	Book	0	en_202
 game	WordKicker	13	x
 game	Book	0	en_345
 game	EggQuizLiteracy	0	SpecialTest_6
-day	7	5
-game	Video	0	en_vdo_302_t_caption
+day	7	4
 game	Book	0	en_302
 game	WordKicker	14	x
 game	Labeling	22	x
@@ -146,94 +131,78 @@ game	WordKicker	3	x
 game	Book	0	en_332
 game	Labeling	3	x
 game	EggQuizLiteracy	0	SpecialTest_8
-day	9	5
-game	Video	0	en_vdo_ub_fifteen_4
+day	9	4
 game	WhatIsThis	8	x
 game	WordKicker	16	x
 game	Book	0	en_349
 game	EggQuizLiteracy	0	SpecialTest_9
-day	10	5
-game	Video	0	en_vdo_301_t_caption
+day	10	4
 game	WordKicker	19	x
 game	WhatIsThis	10	x
 game	WordKicker	20	x
 game	EggQuizLiteracy	0	SpecialTest_10
-day	11	5
-game	Video	0	en_vdo_1027
+day	11	4
 game	SoundTrain	6	x
 game	SoundTrain	8	x
 game	WordNote	11	x
 game	EggQuizLiteracy	0	SpecialTest_11
-day	12	5
-game	Video	0	en_vdo_1028
+day	12	4
 game	WordKicker	7	x
 game	Labeling	15	x
 game	SentenceBridge	6	x
 game	EggQuizLiteracy	0	SpecialTest_12
-day	13	6
-game	Video	0	en_vdo_ub_fifteen_8
+day	13	5
 game	WordKicker	1	x
 game	WhatIsThis	5	x
 game	Book	0	en_334
 game	Labeling	17	x
 game	EggQuizLiteracy	0	SpecialTest_13
-day	14	5
-game	Video	0	en_vdo_1029
+day	14	4
 game	WordMatrix	33	x
 game	ReadingBird	2	x
 game	ReadingBird	3	x
 game	EggQuizLiteracy	0	SpecialTest_14
-day	15	5
-game	Video	0	en_vdo_sc_syllable
+day	15	4
 game	SoundTrain	11	x
 game	WordNote	12	x
 game	WordNote	19	x
 game	EggQuizLiteracy	0	SpecialTest_15
-day	16	6
-game	Video	0	en_vdo_1033
+day	16	4
 game	WordTracing	1	x
 game	WordTracing	2	x
 game	SentenceBridge	7	x
-game	Video	0	en_vdo_1045
 game	EggQuizLiteracy	0	SpecialTest_16
-day	17	5
-game	Video	0	en_vdo_uppercase
+day	17	4
 game	SentenceBridge	8	x
 game	SentenceBridge	10	x
 game	SentenceBridge	12	x
 game	EggQuizLiteracy	0	SpecialTest_17
-day	18	5
-game	Video	0	en_vdo_sc_sentence
+day	18	4
 game	SentenceBridge	5	x
 game	SentenceMaker	4	x
 game	WordKicker	9	x
 game	EggQuizLiteracy	0	SpecialTest_18
-day	19	5
-game	Video	0	en_vdo_1034
+day	19	4
 game	SentenceBridge	11	x
 game	SentenceBridge	13	x
 game	SentenceBridge	22	x
 game	EggQuizLiteracy	0	SpecialTest_19
-day	20	5
-game	Video	0	en_vdo_punctuation
+day	20	4
 game	SentenceBridge	20	x
 game	SentenceBridge	21	x
 game	SentenceBridge	23	x
 game	EggQuizLiteracy	0	SpecialTest_20
-day	21	5
-game	Video	0	en_vdo_sc_lc
+day	21	4
 game	LRComprehension	1	x
 game	LRComprehension	3	x
 game	LRComprehension	11	x
 game	EggQuizLiteracy	0	SpecialTest_21
-day	22	5
-game	Video	0	en_vdo_1030
+day	22	4
 game	LRComprehension	14	x
 game	LRComprehension	28	x
 game	LRComprehension	29	x
 game	EggQuizLiteracy	0	SpecialTest_22
-day	23	5
-game	Video	0	en_vdo_201_rt
+day	23	4
 game	LRComprehension	6	x
 game	LRComprehension	7	x
 game	LRComprehension	9	x
@@ -244,8 +213,7 @@ game	LRComprehension	16	x
 game	LRComprehension	18	x
 game	LRComprehension	19	x
 game	EggQuizLiteracy	0	SpecialTest_24
-day	25	5
-game	Video	0	en_vdo_1032
+day	25	4
 game	LRComprehension	21	x
 game	LRComprehension	23	x
 game	LRComprehension	26	x
@@ -254,133 +222,107 @@ game	EggQuizLiteracy	0	SpecialTest_25
 level	ms-MY	Fish Present	L	11	0
 
 level	ms-MY	BM 2	L	2	27
-day	1	4
-game	Video	0	en_vdo_ub_a
+day	1	3
 game	LetterMatching	4	x
 game	LetterTracingCard	1	x
 game	Book	0	en_a
-day	2	4
-game	Video	0	en_vdo_ub_b
+day	2	3
 game	LetterMatching	5	x
 game	LetterTracingCard	2	x
 game	Book	0	en_b
-day	3	4
-game	Video	0	en_vdo_ub_c
+day	3	3
 game	AlphabetPuzzle	1	x
 game	LetterTracingCard	3	x
 game	Book	0	en_c
-day	4	4
-game	Video	0	en_vdo_ub_d
+day	4	3
 game	AlphabetPuzzle	2	x
 game	LetterTracingCard	4	x
 game	Book	0	en_d
-day	5	4
-game	Video	0	en_vdo_ub_e
+day	5	3
 game	LetterTrace	3	x
 game	LetterTracingCard	5	x
 game	Book	0	en_e
-day	6	4
-game	Video	0	en_vdo_ub_f
+day	6	3
 game	LetterTrace	4	x
 game	LetterTracingCard	6	x
 game	Book	0	en_f
-day	7	4
-game	Video	0	en_vdo_ub_g
+day	7	3
 game	LetterMatching	4	x
 game	LetterTracingCard	7	x
 game	Book	0	en_g
-day	8	4
-game	Video	0	en_vdo_ub_h
+day	8	3
 game	LetterMatching	5	x
 game	LetterTracingCard	8	x
 game	Book	0	en_h
-day	9	4
-game	Video	0	en_vdo_ub_i
+day	9	3
 game	LetterMatching	6	x
 game	LetterTracingCard	9	x
 game	Book	0	en_i
-day	10	4
-game	Video	0	en_vdo_ub_j
+day	10	3
 game	LetterMatching	7	x
 game	LetterTracingCard	10	x
 game	Book	0	en_j
-day	11	4
-game	Video	0	en_vdo_ub_k
+day	11	3
 game	AlphabetPuzzle	1	x
 game	LetterTracingCard	11	x
 game	Book	0	en_k
-day	12	4
-game	Video	0	en_vdo_ub_l
+day	12	3
 game	AlphabetPuzzle	2	x
 game	LetterTracingCard	12	x
 game	Book	0	en_l
-day	13	4
-game	Video	0	en_vdo_ub_m
+day	13	3
 game	LetterMatching	6	x
 game	LetterTracingCard	13	x
 game	Book	0	en_m
-day	14	4
-game	Video	0	en_vdo_ub_n
+day	14	3
 game	LetterMatching	7	x
 game	LetterTracingCard	14	x
 game	Book	0	en_n
-day	15	4
-game	Video	0	en_vdo_ub_o
+day	15	3
 game	LetterMatching	4	x
 game	LetterTracingCard	15	x
 game	Book	0	en_o
-day	16	4
-game	Video	0	en_vdo_ub_p
+day	16	3
 game	LetterMatching	5	x
 game	LetterTracingCard	16	x
 game	Book	0	en_p
-day	17	4
-game	Video	0	en_vdo_ub_q
+day	17	3
 game	AlphabetPuzzle	1	x
 game	LetterTracingCard	17	x
 game	Book	0	en_q
-day	18	4
-game	Video	0	en_vdo_ub_r
+day	18	3
 game	AlphabetPuzzle	2	x
 game	LetterTracingCard	18	x
 game	Book	0	en_r
-day	19	4
-game	Video	0	en_vdo_ub_s
+day	19	3
 game	LetterTrace	3	x
 game	LetterTracingCard	19	x
 game	Book	0	en_s
-day	20	4
-game	Video	0	en_vdo_ub_t
+day	20	3
 game	LetterTrace	4	x
 game	LetterTracingCard	20	x
 game	Book	0	en_t
-day	21	4
-game	Video	0	en_vdo_ub_u
+day	21	3
 game	AlphabetPuzzle	1	x
 game	LetterTracingCard	21	x
 game	Book	0	en_u
-day	22	4
-game	Video	0	en_vdo_ub_v
+day	22	3
 game	AlphabetPuzzle	2	x
 game	LetterTracingCard	22	x
 game	Book	0	en_v
-day	23	4
-game	Video	0	en_vdo_ub_w
+day	23	3
 game	LetterMatching	8	x
 game	LetterTracingCard	23	x
 game	Book	0	en_w
-day	24	4
-game	Video	0	en_vdo_ub_x
+day	24	3
 game	LetterMatching	9	x
 game	LetterTracingCard	24	x
 game	Book	0	en_x
-day	25	4
-game	Video	0	en_vdo_ub_y
+day	25	3
 game	LetterTrace	3	x
 game	LetterTracingCard	25	x
 game	Book	0	en_y
-day	26	4
-game	Video	0	en_vdo_ub_z
+day	26	3
 game	LetterTrace	4	x
 game	LetterTracingCard	26	x
 game	Book	0	en_z
@@ -388,30 +330,25 @@ day	27	1
 game	EggQuizLiteracy	0	PostTest_2
 
 level	ms-MY	BM 3	L	3	28
-day	1	4
+day	1	3
 game	LetterTrace	5	x
-game	Video	0	en_vdo_102
 game	SoundTrain	1	x
 game	AnimalPuzzle	9	x
-day	2	4
+day	2	3
 game	LetterTrace	6	x
-game	Video	0	en_vdo_103
 game	SoundTrain	2	x
 game	AnimalPuzzle	11	x
-day	3	4
+day	3	3
 game	WordMachine	1	x
-game	Video	0	en_vdo_106
 game	SoundTrain	3	x
 game	AnimalPuzzle	10	x
-day	4	4
+day	4	3
 game	WordMachine	2	x
-game	Video	0	en_vdo_112
 game	SoundTrain	1	x
 game	Spelling	1	x
-day	5	5
+day	5	4
 game	LetterTrace	5	x
 game	Book	0	en_101
-game	Video	0	en_vdo_1025
 game	SoundTrain	2	x
 game	Spelling	2	x
 day	6	4
@@ -429,10 +366,9 @@ game	WordMatrix	2	x
 game	Book	0	en_104
 game	SoundTrain	5	x
 game	AnimalPuzzle	12	x
-day	9	5
+day	9	4
 game	WordMatrix	3	x
 game	Book	0	en_105
-game	Video	0	en_vdo_1027
 game	SoundTrain	6	x
 game	AnimalPuzzle	13	x
 day	10	4
@@ -450,10 +386,9 @@ game	WordMatrix	3	x
 game	Book	0	en_108
 game	SoundTrain	9	x
 game	Spelling	2	x
-day	13	5
+day	13	4
 game	WordMatrix	4	x
 game	Book	0	en_109
-game	Video	0	en_vdo_1027
 game	SoundTrain	10	x
 game	Spelling	3	x
 day	14	4
@@ -461,10 +396,9 @@ game	WordMachine	1	x
 game	Book	0	en_111
 game	SoundTrain	11	x
 game	Spelling	4	x
-day	15	5
+day	15	4
 game	WordMachine	2	x
 game	Book	0	en_112
-game	Video	0	en_vdo_1026
 game	SoundTrain	12	x
 game	AnimalPuzzle	15	x
 day	16	1
@@ -528,10 +462,9 @@ day	28	1
 game	EggQuizLiteracy	0	PostTest_3
 
 level	ms-MY	BM 4	L	4	32
-day	1	5
+day	1	4
 game	Spelling	5	x
 game	ReadingBird	1	x
-game	Video	0	en_vdo_201_rt
 game	WordNote	3	x
 game	SoundTrain	14	x
 day	2	4
@@ -539,21 +472,18 @@ game	Spelling	6	x
 game	ReadingBird	1	x
 game	BookWithQuiz	0	en_201
 game	WordMatrix	1	x
-day	3	5
+day	3	4
 game	Spelling	7	x
 game	ReadingBird	2	x
-game	Video	0	en_vdo_202_t
 game	WordMatrix	9	x
 game	SoundTrain	15	x
-day	4	4
+day	4	3
 game	Spelling	8	x
-game	Video	0	en_vdo_1026
 game	BookWithQuiz	0	en_202
 game	BirdPhonics	1	x
-day	5	5
+day	5	4
 game	Spelling	9	x
 game	ReadingBird	2	x
-game	Video	0	en_vdo_203
 game	WordMatrix	10	x
 game	BirdPhonics	2	x
 day	6	4
@@ -561,10 +491,9 @@ game	Spelling	10	x
 game	WordMatrix	11	x
 game	BookWithQuiz	0	en_203
 game	BirdPhonics	3	x
-day	7	5
+day	7	4
 game	Spelling	11	x
 game	WordMatrix	12	x
-game	Video	0	en_vdo_205
 game	WordNote	4	x
 game	BirdPhonics	4	x
 day	8	1
@@ -574,10 +503,9 @@ game	WordMatrix	13	x
 game	WordNote	5	x
 game	BookWithQuiz	0	en_205
 game	BirdPhonics	5	x
-day	10	5
+day	10	4
 game	WordMatrix	14	x
 game	ReadingBird	3	x
-game	Video	0	en_vdo_209
 game	WordNote	6	x
 game	BirdPhonics	6	x
 day	11	4
@@ -611,14 +539,12 @@ game	WordNote	11	x
 game	SoundTrain	15	x
 day	16	1
 game	EggQuizLiteracy	0	MiniTest_4_2
-day	17	4
+day	17	3
 game	ReadingBird	5	x
-game	Video	0	en_vdo_ub_fifteen_14
 game	Book	0	en_204
 game	SoundTrain	16	x
-day	18	4
+day	18	3
 game	WordMatrix	20	x
-game	Video	0	en_vdo_ub_fifteen_5
 game	BookWithQuiz	0	en_205
 game	SoundTrain	17	x
 day	19	4
@@ -636,15 +562,13 @@ game	WordMatrix	11	x
 game	BirdPhonics	6	x
 game	BookWithQuiz	0	en_214
 game	WordMachine	4	x
-day	22	5
+day	22	4
 game	WordMatrix	12	x
 game	BirdPhonics	7	x
-game	Video	0	en_vdo_210
 game	WordNote	12	x
 game	SoundTrain	19	x
-day	23	4
+day	23	3
 game	WordMatrix	13	x
-game	Video	0	en_vdo_ub_fifteen_14
 game	BookWithQuiz	0	en_210
 game	SoundTrain	20	x
 day	24	1
@@ -655,9 +579,8 @@ game	Spelling	11	x
 game	Book	0	en_215
 game	WordNote	13	x
 game	SoundTrain	21	x
-day	26	4
+day	26	3
 game	WordMatrix	15	x
-game	Video	0	en_vdo_ub_fifteen_5
 game	BookWithQuiz	0	en_215
 game	SoundTrain	20	x
 day	27	4
@@ -691,10 +614,9 @@ day	32	1
 game	EggQuizLiteracy	0	PostTest_4
 
 level	ms-MY	BM 5	L	5	28
-day	1	5
+day	1	4
 game	Spelling	14	x
 game	Labeling	1	x
-game	Video	0	en_vdo_212
 game	ReadingBird	7	x
 game	BirdPhonics	8	x
 day	2	4
@@ -743,8 +665,7 @@ game	Labeling	5	x
 game	Book	0	en_220
 game	ReadingBird	8	x
 game	BirdPhonics	13	x
-day	11	4
-game	Video	0	en_vdo_1028
+day	11	3
 game	Labeling	6	x
 game	BookWithQuiz	0	en_220
 game	BirdPhonics	14	x
@@ -781,9 +702,8 @@ game	WordTracing	4	x
 game	WordNote	22	x
 game	BookWithQuiz	0	en_230
 game	WordKicker	4	x
-day	19	4
+day	19	3
 game	WordNote	23	x
-game	Video	0	en_vdo_1028
 game	BookWithQuiz	0	en_231
 game	WordKicker	5	x
 day	20	4
@@ -938,11 +858,10 @@ game	ReadingBird	13	x
 game	WordKicker	11	x
 game	BookWithQuiz	0	en_311
 game	LRComprehension	2	x
-day	25	4
+day	25	3
 game	ReadingBird	14	x
 game	WordKicker	12	x
 game	BookWithQuiz	0	en_328
-game	Video	0	en_vdo_ub_fifteen_4
 day	26	4
 game	ReadingBird	15	x
 game	WordKicker	13	x
@@ -953,11 +872,10 @@ game	Labeling	19	x
 game	WordKicker	11	x
 game	BookWithQuiz	0	en_326
 game	LRComprehension	4	x
-day	28	4
+day	28	3
 game	Labeling	21	x
 game	WordKicker	12	x
 game	BookWithQuiz	0	en_321
-game	Video	0	en_vdo_ub_fifteen_4
 day	29	4
 game	Labeling	20	x
 game	WordKicker	13	x
@@ -967,16 +885,14 @@ day	30	1
 game	EggQuizLiteracy	0	PostTest_6
 
 level	ms-MY	BM 7	L	7	30
-day	1	4
+day	1	3
 game	Labeling	20	x
 game	WhatIsThis	5	x
 game	BookWithQuiz	0	en_330
-game	Video	0	en_vdo_uppercase
-day	2	4
+day	2	3
 game	Labeling	14	x
 game	WhatIsThis	5	x
 game	BookWithQuiz	0	en_329
-game	Video	0	en_vdo_1033
 day	3	4
 game	Labeling	13	x
 game	WhatIsThis	6	x
@@ -987,13 +903,11 @@ game	Labeling	10	x
 game	WhatIsThis	6	x
 game	BookWithQuiz	0	en_332
 game	WordKicker	15	x
-day	5	4
-game	Video	0	en_vdo_1033
+day	5	3
 game	WhatIsThis	7	x
 game	BookWithQuiz	0	en_345
 game	WordKicker	16	x
-day	6	4
-game	Video	0	en_vdo_ub_fifteen_8
+day	6	3
 game	WhatIsThis	7	x
 game	BookWithQuiz	0	en_310
 game	WordKicker	17	x
@@ -1046,9 +960,8 @@ game	WordKicker	15	x
 game	ReadingBird	18	x
 game	BookWithQuiz	0	en_339
 game	SentenceMaker	7	x
-day	18	4
+day	18	3
 game	WordKicker	16	x
-game	Video	0	en_vdo_uppercase
 game	BookWithQuiz	0	en_343
 game	SentenceMaker	8	x
 day	19	4
@@ -1068,18 +981,15 @@ game	BookWithQuiz	0	en_334
 game	LRComprehension	7	x
 day	22	1
 game	EggQuizLiteracy	0	MiniTest_7_3
-day	23	4
-game	Video	0	en_vdo_punctuation
+day	23	3
 game	SentenceBridge	9	x
 game	BookWithQuiz	0	en_342
 game	LRComprehension	8	x
-day	24	4
-game	Video	0	en_vdo_ub_fifteen_8
+day	24	3
 game	SentenceBridge	9	x
 game	BookWithQuiz	0	en_349
 game	LRComprehension	9	x
-day	25	4
-game	Video	0	en_vdo_punctuation
+day	25	3
 game	SentenceBridge	10	x
 game	BookWithQuiz	0	en_421
 game	SentenceMaker	9	x
@@ -1201,8 +1111,7 @@ game	WhatIsThis	16	x
 game	BookWithQuiz	0	en_405
 game	SentenceBridge	14	x
 game	StarFall	5	x
-day	21	4
-game	Video	0	en_vdo_1034
+day	21	3
 game	Book	0	en_424
 game	SentenceBridge	15	x
 game	LRComprehension	21	x
@@ -1228,11 +1137,10 @@ game	WordKicker	22	x
 game	Book	0	en_407
 game	SentenceBridge	13	x
 game	LRComprehension	24	x
-day	27	4
+day	27	3
 game	SentenceMaker	10	x
 game	BookWithQuiz	0	en_407
 game	SentenceBridge	14	x
-game	Video	0	en_vdo_1034
 day	28	4
 game	SentenceMaker	11	x
 game	Book	0	en_411
@@ -1247,8 +1155,7 @@ day	30	1
 game	EggQuizLiteracy	0	PostTest_8
 
 level	ms-MY	BM 9	L	9	30
-day	1	4
-game	Video	0	en_vdo_1030
+day	1	3
 game	Book	0	en_408
 game	LRComprehension	27	x
 game	StarFall	6	x
@@ -1267,11 +1174,10 @@ game	WhatIsThis	13	x
 game	BookWithQuiz	0	en_410
 game	SentenceBridge	18	x
 game	StarFall	6	x
-day	5	4
+day	5	3
 game	WhatIsThis	14	x
 game	Book	0	en_412
 game	LRComprehension	29	x
-game	Video	0	en_vdo_1030
 day	6	4
 game	WhatIsThis	15	x
 game	BookWithQuiz	0	en_412
@@ -1321,8 +1227,7 @@ game	WhatIsThis	18	x
 game	BookWithQuiz	0	en_509
 game	SentenceBridge	21	x
 game	StarFall	9	x
-day	17	4
-game	Video	0	en_vdo_1032
+day	17	3
 game	Book	0	en_510
 game	LRComprehension	34	x
 game	SentenceBridge	22	x
@@ -1336,8 +1241,7 @@ game	WhatIsThis	19	x
 game	Book	0	en_506
 game	LRComprehension	35	x
 game	SentenceMaker	14	x
-day	20	4
-game	Video	0	en_vdo_1032
+day	20	3
 game	BookWithQuiz	0	en_506
 game	SentenceMaker	15	x
 game	StarFall	10	x
@@ -1412,10 +1316,9 @@ game	PatternTrain	1	x
 game	Tapping	2	x
 
 level	ms-MY	Math 1	M	1	16
-day	1	5
+day	1	4
 game	NumberPuzzle	1	x
 game	PatternTrain	2	x
-game	Video	0	en_vdo_ub_fifteen_13
 game	NumberTracing	1	x
 game	NumberMatching	3	x
 day	2	4
@@ -1423,12 +1326,11 @@ game	NumberPuzzle	1	x
 game	LineMatching	1	x
 game	FindTheMatch	3	x
 game	NumberMatching	3	x
-day	3	5
+day	3	4
 game	NumberPuzzle	1	x
 game	Counting	1	x
 game	PatternTrain	2	x
 game	NumberTracing	1	x
-game	Video	0	en_vdo_ub_fifteen_13
 day	4	4
 game	NumberPuzzle	2	x
 game	LineMatching	1	x
@@ -1444,10 +1346,9 @@ game	NumberPuzzle	2	x
 game	Counting	2	x
 game	LineMatching	2	x
 game	FindTheMatch	4	x
-day	7	5
+day	7	4
 game	NumberPuzzle	1	x
 game	PatternTrain	2	x
-game	Video	0	en_vdo_count10
 game	NumberTracing	2	x
 game	NumberMatching	5	x
 day	8	4
@@ -1455,21 +1356,19 @@ game	NumberPuzzle	1	x
 game	LineMatching	2	x
 game	FindTheMatch	4	x
 game	NumberMatching	5	x
-day	9	5
+day	9	4
 game	NumberPuzzle	2	x
 game	Counting	3	x
 game	PatternTrain	3	x
 game	NumberTracing	1	x
-game	Video	0	en_vdo_ub_fifteen_3
 day	10	4
 game	NumberPuzzle	2	x
 game	Counting	2	x
 game	FindTheMatch	5	x
 game	NumberMatching	6	x
-day	11	5
+day	11	4
 game	NumberPuzzle	1	x
 game	Counting	1	x
-game	Video	0	en_vdo_ub_fifteen_3
 game	NumberTracing	2	x
 game	NumberMatching	6	x
 day	12	5
@@ -1478,12 +1377,11 @@ game	Counting	3	x
 game	PatternTrain	3	x
 game	FindTheMatch	5	x
 game	NumberMatching	7	x
-day	13	5
+day	13	4
 game	NumberPuzzle	3	x
 game	PatternTrain	3	x
 game	NumberTracing	2	x
 game	NumberMatching	7	x
-game	Video	0	en_vdo_ub_fifteen_15
 day	14	4
 game	NumberPuzzle	2	x
 game	Counting	4	x
@@ -1499,22 +1397,20 @@ day	16	1
 game	EggQuizMath	0	PostTest_1
 
 level	ms-MY	Math 2	M	2	17
-day	1	5
+day	1	4
 game	PatternTrain	4	x
 game	ThirtyPuzzle	1	x
 game	NumberPuzzle	4	x
-game	Video	0	en_vdo_ub_fifteen_10
 game	NumberTracingExt	1	x
 day	2	4
 game	PatternTrain	4	x
 game	ThirtyPuzzle	2	x
 game	NumberPuzzle	4	x
 game	NumberTracingExt	3	x
-day	3	5
+day	3	4
 game	PatternTrain	5	x
 game	ThirtyPuzzle	2	x
 game	NumberPuzzle	5	x
-game	Video	0	en_vdo_ub_fifteen_10
 game	NumberTracingExt	2	x
 day	4	5
 game	PatternTrain	5	x
@@ -1522,22 +1418,20 @@ game	ThirtyPuzzle	3	x
 game	NumberPuzzle	5	x
 game	Tapping	1	x
 game	NumberTracingExt	4	x
-day	5	5
+day	5	4
 game	NumberTrain	1	x
 game	ThirtyPuzzle	3	x
 game	NumberPuzzle	4	x
-game	Video	0	en_vdo_ub_fifteen_1
 game	Tapping	2	x
 day	6	4
 game	NumberTrain	1	x
 game	ThirtyPuzzle	4	x
 game	NumberMatching	9	x
 game	Tapping	1	x
-day	7	5
+day	7	4
 game	NumberTrain	2	x
 game	ThirtyPuzzle	4	x
 game	NumberMatching	9	x
-game	Video	0	en_vdo_ub_fifteen_1
 game	Tapping	2	x
 day	8	4
 game	NumberTrain	2	x
@@ -1550,11 +1444,10 @@ game	ThirtyPuzzle	5	x
 game	NumberMatching	10	x
 game	NumberTracingExt	4	x
 game	Counting	5	x
-day	10	5
+day	10	4
 game	FindTheMatch	7	x
 game	ThirtyPuzzle	5	x
 game	NumberPuzzle	4	x
-game	Video	0	en_vdo_bigsmall
 game	Counting	6	x
 day	11	4
 game	FeedingTime	1	x
@@ -1585,9 +1478,8 @@ game	ThirtyPuzzle	7	x
 game	NumberPuzzle	5	x
 game	NumberTracingExt	2	x
 game	FeedingTime	1	x
-day	16	5
+day	16	4
 game	FindTheMatch	8	x
-game	Video	0	en_vdo_equalsgreatless
 game	NumberPuzzle	6	x
 game	NumberTracingExt	4	x
 game	FeedingTime	2	x
@@ -1607,12 +1499,11 @@ game	ThirtyPuzzle	6	x
 game	NumberTrain	3	x
 game	EquationMaker	1	x
 game	MissingNumber	1	x
-day	3	5
+day	3	4
 game	MovingInsects	1	x
 game	NumberTrain	3	x
 game	EquationMaker	2	x
 game	MissingNumber	1	x
-game	Video	0	en_vdo_keypad
 day	4	6
 game	MovingInsects	2	x
 game	FeedingTime	1	x
@@ -1620,12 +1511,11 @@ game	NumberTrain	4	x
 game	EquationMaker	2	x
 game	MissingNumber	2	x
 game	ThirtyPuzzle	7	x
-day	5	5
+day	5	4
 game	MovingInsects	2	x
 game	NumberTrain	4	x
 game	FishTank	1	x
 game	MissingNumber	2	x
-game	Video	0	en_vdo_equalsgreatless
 day	6	6
 game	MovingInsects	2	x
 game	FeedingTime	1	x
@@ -1642,13 +1532,12 @@ game	NumberTrain	5	x
 game	FishTank	2	x
 game	NumberTracingExt	7	x
 game	FeedingTime	2	x
-day	9	6
+day	9	5
 game	MovingInsects	3	x
 game	Counting	6	x
 game	NumberTrain	5	x
 game	FishTank	2	x
 game	ThirtyPuzzle	8	x
-game	Video	0	en_vdo_plusminus
 day	10	5
 game	MovingInsects	3	x
 game	FeedingTime	2	x
@@ -1667,22 +1556,20 @@ game	FeedingTime	3	x
 game	NumberTrain	6	x
 game	EquationMaker	4	x
 game	MissingNumber	3	x
-day	13	6
+day	13	5
 game	MovingInsects	4	x
 game	Counting	7	x
 game	NumberTrain	6	x
 game	EquationMaker	4	x
 game	MissingNumber	3	x
-game	Video	0	en_vdo_ub_fifteen_10
 day	14	1
 game	EggQuizMath	0	MiniTest_3_2
-day	15	6
+day	15	5
 game	MovingInsects	5	x
 game	Counting	8	x
 game	NumberTrain	7	x
 game	EquationMaker	5	x
 game	NumberTracingExt	8	x
-game	Video	0	en_vdo_ub_fifteen_1
 day	16	6
 game	MovingInsects	5	x
 game	PlaceValue	1	x
@@ -1729,13 +1616,12 @@ game	FeedingTime	5	x
 game	NumberTrain	4	x
 game	FishTank	4	x
 game	MissingNumber	5	x
-day	24	6
+day	24	5
 game	MovingInsects	7	x
 game	PlaceValue	3	x
 game	NumberTrain	5	x
 game	EquationMaker	6	x
 game	MissingNumber	5	x
-game	Video	0	en_vdo_ub_fifteen_7
 day	25	5
 game	MovingInsects	8	x
 game	PlaceValue	3	x
@@ -1758,11 +1644,10 @@ day	28	1
 game	EggQuizMath	0	PostTest_3
 
 level	ms-MY	Math 4	M	4	21
-day	1	5
+day	1	4
 game	NumberTracingExt	9	x
 game	EquationMaker	7	x
 game	NumberTrain	6	x
-game	Video	0	en_vdo_shapesevery
 game	ShapeMatching	1	x
 day	2	5
 game	NumberTracingExt	10	x
@@ -1788,24 +1673,21 @@ game	HundredPuzzle	2	x
 game	NumberTrain	8	x
 game	MissingNumber	4	x
 game	FeedingTime	12	x
-day	6	4
-game	Video	0	en_vdo_placevalues
+day	6	3
 game	HundredPuzzle	2	x
 game	NumberTrain	8	x
 game	MissingNumber	4	x
 day	7	1
 game	EggQuizMath	0	MiniTest_4_1
-day	8	5
+day	8	4
 game	PlaceValue	1	x
 game	EquationMaker	8	x
-game	Video	0	en_vdo_shapes
 game	FeedingTime	13	x
 game	ShapeMatching	2	x
-day	9	5
+day	9	4
 game	PlaceValue	2	x
 game	EquationMaker	8	x
 game	NumberTrain	9	x
-game	Video	0	en_vdo_keypad
 game	FeedingTime	13	x
 day	10	5
 game	PlaceValue	2	x
@@ -1832,12 +1714,11 @@ game	NumberTrain	11	x
 game	FishTank	5	x
 day	14	1
 game	EggQuizMath	0	MiniTest_4_2
-day	15	5
+day	15	4
 game	PlaceValue	4	x
 game	HundredPuzzle	4	x
 game	NumberTrain	11	x
 game	FishTank	6	x
-game	Video	0	en_vdo_verticaladd
 day	16	5
 game	PlaceValue	5	x
 game	HundredPuzzle	4	x
@@ -1872,10 +1753,9 @@ day	21	1
 game	EggQuizMath	0	PostTest_4
 
 level	ms-MY	Math 5	M	5	28
-day	1	5
+day	1	4
 game	PlaceValue	1	x
 game	HundredPuzzle	4	x
-game	Video	0	en_vdo_verticalsub
 game	DoubleDigit	36	x
 game	FeedingTime	12	x
 day	2	5
@@ -1896,8 +1776,7 @@ game	HundredPuzzle	6	x
 game	NumberTrain	12	x
 game	DoubleDigit	6	x
 game	FeedingTime	13	x
-day	5	5
-game	Video	0	en_vdo_placevalues
+day	5	4
 game	MissingNumber	8	x
 game	NumberTrain	12	x
 game	DoubleDigit	36	x
@@ -1910,8 +1789,7 @@ game	DoubleDigit	5	x
 game	ShapeMatching	4	x
 day	7	1
 game	EggQuizMath	0	MiniTest_5_1
-day	8	5
-game	Video	0	en_vdo_airshapes
+day	8	4
 game	NumberTrain	13	x
 game	EquationMaker	7	x
 game	DoubleDigit	2	x
@@ -1922,8 +1800,7 @@ game	HundredPuzzle	7	x
 game	EquationMaker	7	x
 game	FeedingTime	14	x
 game	ShapeMatching	5	x
-day	10	5
-game	Video	0	en_vdo_airshapes
+day	10	4
 game	HundredPuzzle	7	x
 game	EquationMaker	8	x
 game	DoubleDigit	2	x
@@ -1934,12 +1811,11 @@ game	HundredPuzzle	8	x
 game	EquationMaker	8	x
 game	ShapeMatching	5	x
 game	MangoShop	1	x
-day	12	5
+day	12	4
 game	MissingNumber	10	x
 game	HundredPuzzle	8	x
 game	PlaceValue	5	x
 game	DoubleDigit	4	x
-game	Video	0	en_vdo_verticaladd
 day	13	5
 game	MissingNumber	10	x
 game	NumberTrain	15	x
@@ -1948,8 +1824,7 @@ game	DoubleDigit	4	x
 game	MangoShop	2	x
 day	14	1
 game	EggQuizMath	0	MiniTest_5_2
-day	15	5
-game	Video	0	en_vdo_shapesevery
+day	15	4
 game	MissingNumber	11	x
 game	EquationMaker	9	x
 game	ShapeMatching	6	x
@@ -1971,8 +1846,7 @@ game	LineMatching	6	x
 game	HundredPuzzle	9	x
 game	PlaceValue	7	x
 game	MangoShop	3	x
-day	19	5
-game	Video	0	en_vdo_verticaladd2
+day	19	4
 game	NumberTrain	12	x
 game	MangoShop	5	x
 game	DoubleDigit	7	x
@@ -1985,9 +1859,8 @@ game	MangoShop	5	x
 game	PlaceValue	8	x
 day	21	1
 game	EggQuizMath	0	MiniTest_5_3
-day	22	5
+day	22	4
 game	ShapeMatching	8	x
-game	Video	0	en_vdo_verticaladd2
 game	HundredPuzzle	10	x
 game	MangoShop	6	x
 game	DoubleDigit	9	x
@@ -2008,9 +1881,8 @@ game	LineMatching	8	x
 game	NumberTrain	15	x
 game	MissingNumber	13	x
 game	MangoShop	4	x
-day	26	5
+day	26	4
 game	ShapeMatching	10	x
-game	Video	0	en_vdo_verticalsub
 game	NumberTrain	15	x
 game	DoubleDigit	10	x
 game	MissingNumber	13	x
@@ -2024,11 +1896,10 @@ day	28	1
 game	EggQuizMath	0	PostTest_5
 
 level	ms-MY	Math 6	M	6	28
-day	1	5
+day	1	4
 game	PlaceValue	10	x
 game	FeedingTime	13	x
 game	MissingNumber	15	x
-game	Video	0	en_vdo_verticaladd
 game	QuickFacts	1	x
 day	2	5
 game	PlaceValue	10	x
@@ -2036,10 +1907,9 @@ game	NumberTrain	14	x
 game	MissingNumber	15	x
 game	MangoShop	2	x
 game	FishTank	9	x
-day	3	6
+day	3	5
 game	PlaceValue	11	x
 game	FeedingTime	13	x
-game	Video	0	en_vdo_placevalues
 game	MangoShop	2	x
 game	FishTank	9	x
 game	QuickFacts	2	x
@@ -2069,23 +1939,21 @@ game	FeedingTime	14	x
 game	MissingNumber	17	x
 game	MangoShop	4	x
 game	FishTank	10	x
-day	9	6
+day	9	5
 game	PlaceValue	13	x
 game	NumberTrain	16	x
 game	MissingNumber	17	x
 game	MangoShop	5	x
 game	FishTank	10	x
-game	Video	0	en_vdo_verticalsub
 day	10	5
 game	PlaceValue	14	x
 game	FeedingTime	19	x
 game	QuickFacts	4	x
 game	MangoShop	5	x
 game	DoubleDigit	8	x
-day	11	6
+day	11	5
 game	PlaceValue	14	x
 game	NumberTrain	16	x
-game	Video	0	en_vdo_plusminus
 game	MangoShop	6	x
 game	DoubleDigit	11	x
 game	QuickFacts	5	x
@@ -2115,10 +1983,9 @@ game	NumberTrain	17	x
 game	MissingNumber	19	x
 game	MangoShop	7	x
 game	FishTank	11	x
-day	17	5
+day	17	4
 game	ThirtyPuzzle	20	x
 game	FeedingTime	7	x
-game	Video	0	en_vdo_airshapes
 game	MangoShop	7	x
 game	QuickFacts	6	x
 day	18	5
@@ -2142,11 +2009,10 @@ game	DoubleDigit	39	x
 game	QuickFacts	8	x
 day	21	1
 game	EggQuizMath	0	MiniTest_6_3
-day	22	5
+day	22	4
 game	MangoShop	6	x
 game	FeedingTime	9	x
 game	QuickFacts	9	x
-game	Video	0	en_vdo_verticaladd2
 game	PlaceValue	16	x
 day	23	5
 game	ThirtyPuzzle	24	x
@@ -2165,11 +2031,10 @@ game	NumberTrain	18	x
 game	QuickFacts	10	x
 game	MangoShop	7	x
 game	FishTank	11	x
-day	26	5
+day	26	4
 game	MangoShop	8	x
 game	FeedingTime	11	x
 game	QuickFacts	11	x
-game	Video	0	en_vdo_airshapes
 game	ThirtyPuzzle	26	x
 day	27	5
 game	ThirtyPuzzle	27	x
@@ -2199,16 +2064,14 @@ game	MangoShop	6	x
 game	DoubleDigit	8	x
 game	NumberTrain	16	x
 game	PlaceValue	18	x
-day	4	5
+day	4	4
 game	MissingNumber	22	x
 game	QuickFacts	14	x
-game	Video	0	en_vdo_1048
 game	WordWindow	1	x
 game	PlaceValue	18	x
-day	5	5
+day	5	4
 game	MangoShop	7	x
 game	QuickFacts	15	x
-game	Video	0	en_vdo_1048
 game	WordWindow	1	x
 game	PlaceValue	18	x
 day	6	5
@@ -2219,14 +2082,12 @@ game	WordWindow	1	x
 game	PlaceValue	19	x
 day	7	1
 game	EggQuizMath	0	MiniTest_7_1
-day	8	5
-game	Video	0	en_vdo_verticalsub
+day	8	4
 game	DoubleDigit	39	x
 game	QuickFacts	17	x
 game	NumberTrain	16	x
 game	PlaceValue	19	x
-day	9	5
-game	Video	0	en_vdo_ub_fifteen_12
+day	9	4
 game	MangoShop	8	x
 game	DoubleDigit	39	x
 game	NumberTrain	17	x
@@ -2237,35 +2098,30 @@ game	MangoShop	8	x
 game	MathKicker	3	x
 game	NumberTrain	17	x
 game	PlaceValue	20	x
-day	11	5
+day	11	4
 game	MissingNumber	23	x
 game	MangoShop	9	x
 game	MathKicker	3	x
-game	Video	0	en_vdo_sc_wordproblem3
 game	WordWindow	2	x
-day	12	5
+day	12	4
 game	MultiplicationBoard	1	x
 game	QuickFacts	18	x
 game	MathKicker	10	x
-game	Video	0	en_vdo_sc_wordproblem3
 game	WordWindow	2	x
-day	13	5
+day	13	4
 game	MultiplicationBoard	1	x
 game	MangoShop	9	x
 game	MathKicker	10	x
-game	Video	0	en_vdo_verticalsub2
 game	WordWindow	2	x
 day	14	1
 game	EggQuizMath	0	MiniTest_7_2
-day	15	5
+day	15	4
 game	MissingNumber	24	x
 game	MangoShop	10	x
 game	DoubleDigit	13	x
 game	NumberTrain	18	x
-game	Video	0	en_vdo_ub_fifteen_12
-day	16	5
+day	16	4
 game	MissingNumber	24	x
-game	Video	0	en_vdo_verticalsub2
 game	QuickFacts	19	x
 game	NumberTrain	18	x
 game	PlaceValue	21	x
@@ -2275,43 +2131,37 @@ game	MangoShop	10	x
 game	DoubleDigit	33	x
 game	QuickFacts	20	x
 game	PlaceValue	21	x
-day	18	5
+day	18	4
 game	MissingNumber	25	x
 game	MangoShop	11	x
 game	DoubleDigit	29	x
-game	Video	0	en_vdo_1049
 game	WordWindow	3	x
-day	19	5
+day	19	4
 game	MultiplicationBoard	2	x
 game	MangoShop	11	x
 game	QuickFacts	21	x
-game	Video	0	en_vdo_1049
 game	WordWindow	3	x
-day	20	5
+day	20	4
 game	MultiplicationBoard	2	x
 game	DoubleDigit	29	x
-game	Video	0	en_vdo_verticalsub3
 game	WordWindow	3	x
 game	PlaceValue	22	x
 day	21	1
 game	EggQuizMath	0	MiniTest_7_3
-day	22	5
+day	22	4
 game	MissingNumber	26	x
-game	Video	0	en_vdo_sc_wordproblem1
 game	MathKicker	11	x
 game	WordWindow	4	x
 game	QuickFacts	22	x
-day	23	5
+day	23	4
 game	MissingNumber	26	x
-game	Video	0	en_vdo_sc_wordproblem1
 game	MangoShop	6	x
 game	MathKicker	11	x
 game	WordWindow	4	x
-day	24	5
+day	24	4
 game	MissingNumber	27	x
 game	MangoShop	7	x
 game	QuickFacts	23	x
-game	Video	0	en_vdo_verticalsub3
 game	PlaceValue	22	x
 day	25	5
 game	MissingNumber	27	x
@@ -2319,15 +2169,13 @@ game	MangoShop	8	x
 game	MathKicker	4	x
 game	MultiplicationBoard	3	x
 game	QuickFacts	24	x
-day	26	5
+day	26	4
 game	ThirtyPuzzle	29	x
-game	Video	0	en_vdo_ub_fifteen_12
 game	MathKicker	10	x
 game	MultiplicationBoard	3	x
 game	PlaceValue	23	x
-day	27	5
+day	27	4
 game	ThirtyPuzzle	30	x
-game	Video	0	en_vdo_sc_wordproblem1
 game	WordWindow	4	x
 game	QuickFacts	25	x
 game	PlaceValue	23	x
@@ -2335,8 +2183,7 @@ day	28	1
 game	EggQuizMath	0	PostTest_7
 
 level	ms-MY	Math 8	M	8	28
-day	1	5
-game	Video	0	en_vdo_1048
+day	1	4
 game	WordWindow	5	x
 game	DoubleDigit	29	x
 game	PlaceValue	18	x
@@ -2347,8 +2194,7 @@ game	MissingNumber	24	x
 game	PlaceValue	18	x
 game	NumberTrain	14	x
 game	LineMatching	10	x
-day	3	5
-game	Video	0	en_vdo_sc_wordproblem3
+day	3	4
 game	WordWindow	6	x
 game	DoubleDigit	29	x
 game	PlaceValue	19	x
@@ -2359,8 +2205,7 @@ game	MathKicker	3	x
 game	MissingNumber	25	x
 game	PlaceValue	20	x
 game	MultiplicationBoard	4	x
-day	5	5
-game	Video	0	en_vdo_sc_wordproblem3
+day	5	4
 game	WordWindow	6	x
 game	DoubleDigit	33	x
 game	PlaceValue	21	x
@@ -2373,8 +2218,7 @@ game	MultiplicationBoard	4	x
 game	LineMatching	10	x
 day	7	1
 game	EggQuizMath	0	MiniTest_8_1
-day	8	5
-game	Video	0	en_vdo_ub_fifteen_12
+day	8	4
 game	DoubleDigit	33	x
 game	MissingNumber	27	x
 game	PlaceValue	22	x
@@ -2385,8 +2229,7 @@ game	MathKicker	10	x
 game	DoubleDigit	31	x
 game	PlaceValue	22	x
 game	NumberTrain	16	x
-day	10	5
-game	Video	0	en_vdo_1049
+day	10	4
 game	WordWindow	7	x
 game	DoubleDigit	31	x
 game	PlaceValue	23	x
@@ -2397,8 +2240,7 @@ game	LineMatching	11	x
 game	MissingNumber	27	x
 game	MultiplicationBoard	5	x
 game	NumberTrain	17	x
-day	12	5
-game	Video	0	en_vdo_1048
+day	12	4
 game	WordWindow	11	x
 game	MissingNumber	28	x
 game	MathKicker	10	x
@@ -2411,15 +2253,13 @@ game	PlaceValue	24	x
 game	MultiplicationBoard	6	x
 day	14	1
 game	EggQuizMath	0	MiniTest_8_2
-day	15	5
-game	Video	0	en_vdo_1048
+day	15	4
 game	WordWindow	11	x
 game	QuickFacts	29	x
 game	PlaceValue	24	x
 game	LineMatching	12	x
-day	16	5
+day	16	4
 game	MissingNumber	29	x
-game	Video	0	en_vdo_sc_wordproblem4
 game	WordWindow	12	x
 game	PlaceValue	25	x
 game	DoubleDigit	35	x
@@ -2429,16 +2269,14 @@ game	DoubleDigit	35	x
 game	QuickFacts	29	x
 game	PlaceValue	25	x
 game	NumberTrain	18	x
-day	18	5
+day	18	4
 game	QuickFacts	30	x
 game	MathKicker	11	x
 game	MissingNumber	30	x
-game	Video	0	en_vdo_sc_wordproblem4
 game	WordWindow	12	x
-day	19	5
+day	19	4
 game	MathKicker	11	x
 game	MissingNumber	30	x
-game	Video	0	en_vdo_1049
 game	WordWindow	13	x
 game	MultiplicationBoard	6	x
 day	20	5
@@ -2449,16 +2287,14 @@ game	PlaceValue	25	x
 game	MultiplicationBoard	7	x
 day	21	1
 game	EggQuizMath	0	MiniTest_8_3
-day	22	5
+day	22	4
 game	QuickFacts	29	x
 game	FeedingTime	23	x
 game	MissingNumber	31	x
-game	Video	0	en_vdo_ub_fifteen_12
 game	MultiplicationBoard	7	x
-day	23	5
+day	23	4
 game	MathKicker	13	x
 game	MissingNumber	32	x
-game	Video	0	en_vdo_1049
 game	WordWindow	13	x
 game	MultiplicationBoard	8	x
 day	24	5
@@ -2467,8 +2303,7 @@ game	FeedingTime	24	x
 game	MathKicker	13	x
 game	PlaceValue	26	x
 game	ShapeMatching	10	x
-day	25	5
-game	Video	0	en_vdo_sc_wordproblem2
+day	25	4
 game	WordWindow	14	x
 game	MissingNumber	32	x
 game	PlaceValue	27	x
@@ -2479,8 +2314,7 @@ game	MathKicker	14	x
 game	MissingNumber	33	x
 game	ShapeMatching	10	x
 game	MultiplicationBoard	9	x
-day	27	5
-game	Video	0	en_vdo_sc_wordproblem2
+day	27	4
 game	WordWindow	14	x
 game	MissingNumber	33	x
 game	PlaceValue	27	x
@@ -2489,16 +2323,14 @@ day	28	1
 game	EggQuizMath	0	PostTest_8
 
 level	ms-MY	Math 9	M	9	28
-day	1	5
+day	1	4
 game	QuickFacts	31	x
 game	DoubleDigit	17	x
-game	Video	0	en_vdo_1050
 game	WordWindow	8	x
 game	ShapeMatching	1	x
-day	2	5
+day	2	4
 game	QuickFacts	32	x
 game	DoubleDigit	17	x
-game	Video	0	en_vdo_1050
 game	WordWindow	8	x
 game	ShapeMatching	2	x
 day	3	5
@@ -2507,17 +2339,15 @@ game	DoubleDigit	18	x
 game	MathKicker	1	x
 game	ShapeMatching	3	x
 game	PlaceValue	24	x
-day	4	5
+day	4	4
 game	QuickFacts	34	x
 game	MultiplicationBoard	9	x
 game	MissingNumber	28	x
-game	Video	0	en_vdo_sc_wordproblem5
 game	WordWindow	9	x
-day	5	5
+day	5	4
 game	QuickFacts	35	x
 game	MissingNumber	29	x
 game	MathKicker	2	x
-game	Video	0	en_vdo_sc_wordproblem6
 game	WordWindow	9	x
 day	6	4
 game	QuickFacts	36	x
@@ -2526,29 +2356,25 @@ game	MissingNumber	30	x
 game	MathKicker	4	x
 day	7	1
 game	EggQuizMath	0	MiniTest_9_1
-day	8	5
+day	8	4
 game	QuickFacts	37	x
 game	DoubleDigit	18	x
-game	Video	0	en_vdo_sc_wordproblem7
 game	WordWindow	10	x
 game	ShapeMatching	4	x
-day	9	5
+day	9	4
 game	QuickFacts	38	x
 game	DoubleDigit	19	x
-game	Video	0	en_vdo_sc_wordproblem8
 game	WordWindow	10	x
 game	ShapeMatching	5	x
-day	10	5
+day	10	4
 game	QuickFacts	39	x
 game	DoubleDigit	19	x
-game	Video	0	en_vdo_verticaladd2
 game	MathKicker	5	x
 game	ShapeMatching	6	x
-day	11	5
+day	11	4
 game	QuickFacts	40	x
 game	MissingNumber	31	x
 game	MathKicker	6	x
-game	Video	0	en_vdo_verticalsub3
 game	PlaceValue	25	x
 day	12	5
 game	QuickFacts	41	x
@@ -2556,24 +2382,21 @@ game	MultiplicationBoard	9	x
 game	MissingNumber	32	x
 game	MathKicker	7	x
 game	PlaceValue	26	x
-day	13	5
+day	13	4
 game	QuickFacts	41	x
 game	MultiplicationBoard	9	x
 game	MissingNumber	33	x
-game	Video	0	en_vdo_ub_fifteen_11
 game	MathKicker	6	x
 day	14	1
 game	EggQuizMath	0	MiniTest_9_2
-day	15	5
+day	15	4
 game	PlaceValue	24	x
 game	DoubleDigit	20	x
-game	Video	0	en_vdo_1050
 game	WordWindow	15	x
 game	ShapeMatching	7	x
-day	16	5
+day	16	4
 game	PlaceValue	25	x
 game	MissingNumber	34	x
-game	Video	0	en_vdo_1050
 game	WordWindow	15	x
 game	ShapeMatching	8	x
 day	17	5
@@ -2582,36 +2405,31 @@ game	DoubleDigit	21	x
 game	MathKicker	8	x
 game	ShapeMatching	9	x
 game	QuickFacts	23	x
-day	18	5
+day	18	4
 game	PlaceValue	27	x
 game	MissingNumber	34	x
-game	Video	0	en_vdo_1051
 game	WordWindow	16	x
 game	QuickFacts	25	x
-day	19	5
+day	19	4
 game	MultiplicationBoard	9	x
 game	DoubleDigit	20	x
 game	MathKicker	9	x
-game	Video	0	en_vdo_1051
 game	WordWindow	16	x
-day	20	5
+day	20	4
 game	QuickFacts	41	x
 game	MultiplicationBoard	9	x
 game	MissingNumber	35	x
 game	MathKicker	12	x
-game	Video	0	en_vdo_verticalsub3
 day	21	1
 game	EggQuizMath	0	MiniTest_9_3
-day	22	5
+day	22	4
 game	PlaceValue	24	x
 game	DoubleDigit	21	x
-game	Video	0	en_vdo_1052
 game	WordWindow	17	x
 game	ShapeMatching	10	x
-day	23	5
+day	23	4
 game	PlaceValue	25	x
 game	DoubleDigit	22	x
-game	Video	0	en_vdo_1052
 game	WordWindow	17	x
 game	MissingNumber	35	x
 day	24	5
@@ -2620,23 +2438,20 @@ game	DoubleDigit	22	x
 game	MissingNumber	36	x
 game	MathKicker	6	x
 game	QuickFacts	28	x
-day	25	5
+day	25	4
 game	PlaceValue	27	x
 game	MissingNumber	36	x
-game	Video	0	en_vdo_sc_wordproblem6
 game	WordWindow	9	x
 game	QuickFacts	30	x
-day	26	5
-game	Video	0	en_vdo_ub_fifteen_11
+day	26	4
 game	MultiplicationBoard	9	x
 game	MissingNumber	37	x
 game	MathKicker	7	x
 game	QuickFacts	41	x
-day	27	5
+day	27	4
 game	MultiplicationBoard	9	x
 game	MissingNumber	37	x
 game	MathKicker	9	x
-game	Video	0	en_vdo_sc_wordproblem8
 game	WordWindow	10	x
 day	28	1
 game	EggQuizMath	0	PostTest_9
