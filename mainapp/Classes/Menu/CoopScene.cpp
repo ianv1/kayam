@@ -461,6 +461,32 @@ void CoopScene::setupCoop()
         return r->bird->getCategoryLevel() > l->bird->getCategoryLevel();
     });
 
+    // Helper: add a "lights-off" cover that flickers off in sync with the room lights
+    auto addSlotCover = [this, roomSize, coopSize](int slot) -> Sprite* {
+        auto cover = Sprite::create("CoopScene/coop-shade.png");
+        if (!cover) return nullptr;
+        float cx = (slot%4) * roomSize.width + (coopSize.width - roomSize.width*4)/2.f + roomSize.width/2.f;
+        float cy = (2 - (slot/4)) * roomSize.height + 45;
+        cover->setAnchorPoint(Vec2::ANCHOR_MIDDLE_BOTTOM);
+        cover->setPosition(Vec2(cx, cy));
+        _coopView->addChild(cover, 100);
+        // Mimic Room::turnLight animation: brief flicker then off (cover hidden)
+        auto seq = Sequence::create(
+            DelayTime::create(random(0.5f, 0.9f)),
+            CallFunc::create([cover](){ cover->setVisible(false); }),
+            DelayTime::create(random(0.02f, 0.10f)),
+            CallFunc::create([cover](){ cover->setVisible(true); }),
+            DelayTime::create(random(0.02f, 0.10f)),
+            CallFunc::create([cover](){ cover->setVisible(false); }),
+            DelayTime::create(random(0.02f, 0.10f)),
+            CallFunc::create([cover](){ cover->setVisible(true); }),
+            DelayTime::create(random(0.20f, 0.30f)),
+            CallFunc::create([cover](){ cover->setVisible(false); }),
+            nullptr);
+        cover->runAction(seq);
+        return cover;
+    };
+
     // ---- Decorative "END" sign in the empty last slot (slot 11) ----
     {
         auto sign = Sprite::create("MainScene/coop_endsign.png");
@@ -475,6 +501,7 @@ void CoopScene::setupCoop()
                                maxSide / sign->getContentSize().height);
             sign->setScale(s);
             _coopView->addChild(sign);
+            addSlotCover(slot);
         }
     }
 
@@ -511,6 +538,7 @@ void CoopScene::setupCoop()
             auto anim = Animation::createWithSpriteFrames(frames, FRAME_DELAY);
             anim->setLoops(-1);
             deco->runAction(RepeatForever::create(Animate::create(anim)));
+            addSlotCover(slot);
         }
     }
 }
