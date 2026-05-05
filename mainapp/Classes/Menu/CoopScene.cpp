@@ -309,8 +309,11 @@ void CoopScene::setupCoop()
         room->setupRoom(cur);
         room->_onFinishTurnLight = onFinishTurnLight;
         
-        float x = (cur.categoryLevel%4) * roomSize.width + (coopSize.width-roomSize.width*4)/2.f;
-        float y = (2-(cur.categoryLevel/4)) * roomSize.height;
+        // Shift by one slot so the empty space sits at both ends instead of at the end only
+        // (after special course / fish bowl were hidden).
+        int slot = cur.categoryLevel + 1;
+        float x = (slot%4) * roomSize.width + (coopSize.width-roomSize.width*4)/2.f;
+        float y = (2-(slot/4)) * roomSize.height;
         
         room->setPosition(x, y);
         _coopView->addChild(room);
@@ -457,8 +460,59 @@ void CoopScene::setupCoop()
     sort(_rooms.begin(), _rooms.end(), [](CoopSceneSpace::Room* l, CoopSceneSpace::Room* r){
         return r->bird->getCategoryLevel() > l->bird->getCategoryLevel();
     });
-    
-    
+
+    // ---- Decorative "END" sign in the empty last slot (slot 11) ----
+    {
+        auto sign = Sprite::create("MainScene/coop_endsign.png");
+        if (sign) {
+            int slot = 11;
+            float x = (slot%4) * roomSize.width + (coopSize.width - roomSize.width*4)/2.f + roomSize.width/2.f;
+            float y = (2 - (slot/4)) * roomSize.height + roomSize.height/2.f + 80; // nudge up like a hanging sign
+            sign->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
+            sign->setPosition(Vec2(x, y));
+            float maxSide = std::min(roomSize.width, roomSize.height) * 0.7f;
+            float s = std::min(maxSide / sign->getContentSize().width,
+                               maxSide / sign->getContentSize().height);
+            sign->setScale(s);
+            _coopView->addChild(sign);
+        }
+    }
+
+    // ---- Decorative animated "ba" GIF in the empty first slot (slot 0) ----
+    {
+        const int FRAME_COUNT = 32;
+        const float FRAME_DELAY = 0.08f; // ~12.5 fps; tweak if needed
+        Vector<SpriteFrame*> frames;
+        Sprite* firstSprite = nullptr;
+        for (int i = 0; i < FRAME_COUNT; ++i) {
+            char fn[64];
+            snprintf(fn, sizeof(fn), "MainScene/animated_ba/animated_ba_%03d.png", i);
+            auto sp = Sprite::create(fn);
+            if (!sp) continue;
+            if (!firstSprite) firstSprite = sp;
+            frames.pushBack(sp->getSpriteFrame());
+        }
+        if (firstSprite && frames.size() > 0) {
+            // Position in slot 0 (top-left of shelf grid)
+            int slot = 0;
+            float x = (slot%4) * roomSize.width + (coopSize.width - roomSize.width*4)/2.f + roomSize.width/2.f;
+            float y = (2 - (slot/4)) * roomSize.height + roomSize.height/2.f;
+
+            auto deco = Sprite::createWithSpriteFrame(frames.at(0));
+            deco->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
+            deco->setPosition(Vec2(x, y));
+            // Fit within room (leave a bit of margin)
+            float maxSide = std::min(roomSize.width, roomSize.height) * 0.7f;
+            float s = std::min(maxSide / deco->getContentSize().width,
+                               maxSide / deco->getContentSize().height);
+            deco->setScale(s);
+            _coopView->addChild(deco);
+
+            auto anim = Animation::createWithSpriteFrames(frames, FRAME_DELAY);
+            anim->setLoops(-1);
+            deco->runAction(RepeatForever::create(Animate::create(anim)));
+        }
+    }
 }
 
 
