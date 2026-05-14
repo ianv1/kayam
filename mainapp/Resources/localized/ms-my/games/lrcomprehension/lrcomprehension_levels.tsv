@@ -250,7 +250,7 @@ ms-MY	30	1	4	fillintheblank		Gajah guna apa untuk ambil makanan?	ms_my_lc_3_5_q2
 ms-MY	30	1	5	fillintheblank		Gajah makan rumput, daun dan [tumbuhan].	ms_my_lc_3_5_q3.m4a	text	haiwan	ikan			tumbuhan
 ms-MY	30	1	6	title	Cerita 2								
 ms-MY	30	1	7	listeningonly	ms_my_lc_3_8_story.m4a								
-ms-MY	30	1	8	fillintheblank		Aini suka lukis [bentuk].	ms_my_lc_3_8_q1.m4a	text	kartoon	nombor			bentuk
+ms-MY	30	1	8	fillintheblank		Aini suka lukis [bentuk].	ms_my_lc_3_8_q1.m4a	text	kartun	nombor			bentuk
 ms-MY	30	1	9	multiplechoices		Rumah bentuk apa?	ms_my_lc_3_8_q2.m4a	text	Segi empat	Bulatan	Segi tiga		Segi empat
 ms-MY	30	1	10	multiplechoices		Matahari bentuk apa?	ms_my_lc_3_8_q3.m4a	text	Bulatan	Segi empat	Segi tiga		Bulatan
 ms-MY	31	1	1	title	Cerita 1								
@@ -302,7 +302,7 @@ ms-MY	35	2	1	title	Cerita 2
 ms-MY	35	2	2	readingonly	Burung suka menyanyi. Burung menyanyi setiap hari. Burung menyanyi apabila jumpa cacing. Burung menyanyi di atas dahan. Pada waktu malam burung berhenti menyanyi dan tidur. Pada waktu pagi, burung bangun dan menyanyi lagi.								
 ms-MY	35	2	3	multiplechoices		Burung suka buat apa?	ms_my_rc_35_2_p3_q.m4a	text	Menyanyi	Terbang	Menari		Menyanyi
 ms-MY	35	2	4	multiplechoices		Burung menyanyi di mana?	ms_my_rc_35_2_p4_q.m4a	text	Tepi sungai	Atas dahan	Padang		Atas dahan
-ms-MY	35	2	5	multiplechoices		Waktu bila burung berhenti menanyi?	ms_my_rc_35_2_p5_q.m4a	text	Pagi	Petang	Malam		Malam
+ms-MY	35	2	5	multiplechoices		Waktu bila burung berhenti menyanyi?	ms_my_rc_35_2_p5_q.m4a	text	Pagi	Petang	Malam		Malam
 ms-MY	36	1	1	title	Cerita 1								
 ms-MY	36	1	2	readingonly	Ali mahu beli basikal. Ali boleh naik basikal ke sekolah. Ali tidak ada duit untuk beli basikal. Ravi kawan baik Ali. Ravi beri basikal kepada Ali. Ali sangat gembira.								
 ms-MY	36	1	3	multiplechoices		Ali mahu beli apa?	ms_my_rc_36_1_p3_q.m4a	text	Kereta	Basikal	Kerusi		Basikal
@@ -312,7 +312,7 @@ ms-MY	36	2	1	title	Cerita 2
 ms-MY	36	2	2	readingonly	Cuaca hari ini panas. Aini bantu ibu jemur baju. Selapas itu, Aini pergi bermain. Tiba-tiba hujan turn dengan lebat. Aini lari balik ke rumah dan bantu ibu angkat baju.								
 ms-MY	36	2	3	multiplechoices		Aini bantu ibu buat apa?	ms_my_rc_36_2_p3_q.m4a	text	Cuci baju	Jemur baju	Lipat baju		Jemur baju
 ms-MY	36	2	4	multiplechoices		Kenapa Aini lari balik ke rumah?	ms_my_rc_36_2_p4_q.m4a	text	Bantu ibu angkat baju	Tidur	Makan		Bantu ibu angkat baju
-ms-MY	36	2	5	ordering		Susun urutan	ms_my_rc_36_2_p5_q.m4a	text	Cuaca panas.	Aini pergi bermain.	Huajn turun.		Urutan betul
+ms-MY	36	2	5	ordering		Susun urutan	ms_my_rc_36_2_p5_q.m4a	text	Cuaca panas.	Aini pergi bermain.	Hujan turun.		Urutan betul
 ms-MY	37	1	1	title	Cerita 1								
 ms-MY	37	1	2	readingonly	Amir mahu melawat neneknya. Dia mahu memakai baju merah baharu. Dia mencari baju itu di bilik tetapi tidak jumpa. Dia nampak adiknya memakai baju itu. Amir senyum. Adiknya nampak kemas dengan baju merah itu.								
 ms-MY	37	1	3	fillintheblank		Amir mahu [melawat] neneknya.	ms_my_rc_37_1_p3_q.m4a	text	menelefon	menonton			melawat
@@ -321,11 +321,11 @@ ms-MY	37	1	5	multiplechoices		Kenapa Amir tidak dapat jumpa baju itu?	ms_my_rc_3
 ms-MY	37	2	1	title	Cerita 2								
 ms-MY	37	2	2	readingonly	Lina pergi ke sekolah dengan kawan-kawan. Mereka suka baca buku bersama-sama. Kadang-kadang mereka bergurau dan bersukan. Mereka duduk bersama semasa waktu rehat. Selepas sekolah, mereka berjalan kaki balik ke rumah.								
 ms-MY	37	2	3	fillintheblank		Lina pergi ke [sekolah].	ms_my_rc_37_2_p3_q.m4a	text	hospital	pasar			sekolah
-ms-MY	37	2	4	multiplechoices		Mereka suka buat apa bersama-sama?	ms_my_rc_37_2_p4_q.m4a	text	Baca buku	Menanyi	Mewarna		Baca buku
+ms-MY	37	2	4	multiplechoices		Mereka suka buat apa bersama-sama?	ms_my_rc_37_2_p4_q.m4a	text	Baca buku	Menyanyi	Mewarna		Baca buku
 ms-MY	37	2	5	multiplechoices		Mereka pergi ke mana selepas sekolah?	ms_my_rc_37_2_p5_q.m4a	text	Kedai	Rumah	Klinik		Rumah
 ms-MY	38	1	1	title	Cerita 1								
 ms-MY	38	1	2	readingonly	Kavita ada seorang kakak. Kakak Kavita dua tahun lebih tua. Kakaknya ajar Kavita mengira, membaca, dan bersukan. Kavita ada banyak guru, tetapi Kavita paling suka kakaknya mengajar.								
-ms-MY	38	1	3	multiplechoices		Kakak ajar Kavita apa?	ms_my_rc_38_1_p3_q.m4a	text	Mengira, membaca, dan bersukan.	Menanyi dan menari	Memasak		Mengira, membaca, dan bersukan.
+ms-MY	38	1	3	multiplechoices		Kakak ajar Kavita apa?	ms_my_rc_38_1_p3_q.m4a	text	Mengira, membaca, dan bersukan.	Menyanyi dan menari	Memasak		Mengira, membaca, dan bersukan.
 ms-MY	38	1	4	fillintheblank		Kakak Kavita dua tahun lebih [tua].	ms_my_rc_38_1_p4_q.m4a	text	muda	berat			tua
 ms-MY	38	1	5	multiplechoices		Kavita paling suka siapa mengajarnya?	ms_my_rc_38_1_p5_q.m4a	text	Kakaknya	Guru	Ayah		Kakaknya
 ms-MY	38	2	1	title	Cerita 2								
