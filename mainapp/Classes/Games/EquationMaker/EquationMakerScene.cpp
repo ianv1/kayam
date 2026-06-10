@@ -13,6 +13,7 @@
 #include "Common/Effects/FireworksEffect.hpp"
 #include <Common/Basic/SoundEffect.h>
 #include "Managers/GameSoundManager.h"
+#include "Managers/LanguageManager.hpp"
 #include "Managers/StrictLogManager.h"
 #include "Common/Controls/CompletePopup.hpp"
 #include "CCAppController.hpp"
@@ -991,19 +992,32 @@ void EquationMakerScene::setClearAnimationFlow(float)
         }
         
         bool isPrevLongDelay = false;
+        bool isPrevExtraLongDelay = false;
+        bool isMalay = LanguageManager::getInstance()->getCurrentLanguageTag() == "ms-MY";
         for(unsigned int i = 0; i < m_ClearEffectType.size(); ++i){
-            float delay = 0.6f;
-            if(isPrevLongDelay) delay = 0.9f;
+            float delay = isMalay ? 0.85f : 0.6f;
+            if(isPrevLongDelay) delay = isMalay ? 1.15f : 0.9f;
+            if(isPrevExtraLongDelay) delay = 1.8f; // BM "sama dengan" needs more headroom
             vecAnimation.pushBack(DelayTime::create(delay));
             vecAnimation.pushBack(CallFunc::create(CC_CALLBACK_0(EquationMakerScene::playClearAnimationObjectSound, this)));
-            
-            isPrevLongDelay = ((m_ClearEffectType[i]%10 == 7) || (m_ClearEffectType[i]%10 == 6));
+
+            // Long delay after multi-syllable items so the next voice does not
+            // clip the tail of the current one.
+            int t = m_ClearEffectType[i];
+            isPrevLongDelay = ((t%10 == 7) || (t%10 == 6));
+            isPrevExtraLongDelay = false;
+            if (isMalay && t >= K_TYPE_SIGN_PLUS) {
+                // "sama dengan" is two words — give it more pause than "tambah"/"tolak".
+                if (t == K_TYPE_SIGN_EQ) isPrevExtraLongDelay = true;
+                else isPrevLongDelay = true;
+            }
         }
-    
+
     } else{ // Level 1 ~ Level 7
-        
+
         int count = 0;
         bool isPrevLongDelay = false;
+        bool isPrevExtraLongDelay2 = false;
         
         for(int i = m_AnimationStartIndex; i < m_vecSlot.size(); ++i){
             int index = m_vecSlot[i].correctIndex;
@@ -1050,12 +1064,20 @@ void EquationMakerScene::setClearAnimationFlow(float)
                 pObject->runAction(seq);
                 
                 
-                float delayf = 0.6f;
-                if(isPrevLongDelay) delayf = 0.9f;
+                bool isMalay = LanguageManager::getInstance()->getCurrentLanguageTag() == "ms-MY";
+                float delayf = isMalay ? 0.85f : 0.6f;
+                if(isPrevLongDelay) delayf = isMalay ? 1.15f : 0.9f;
+                if(isPrevExtraLongDelay2) delayf = 1.8f; // BM "sama dengan" needs more headroom
                 vecAnimation.pushBack(DelayTime::create(delayf));
                 vecAnimation.pushBack(CallFunc::create(CC_CALLBACK_0(EquationMakerScene::playClearAnimationObjectSound, this)));
-                
-                isPrevLongDelay = ((m_ClearEffectType[i]%10 == 7) || (m_ClearEffectType[i]%10 == 6));
+
+                int t = m_ClearEffectType[i];
+                isPrevLongDelay = ((t%10 == 7) || (t%10 == 6));
+                isPrevExtraLongDelay2 = false;
+                if (isMalay && t >= K_TYPE_SIGN_PLUS) {
+                    if (t == K_TYPE_SIGN_EQ) isPrevExtraLongDelay2 = true;
+                    else isPrevLongDelay = true;
+                }
             }
         }
     }
