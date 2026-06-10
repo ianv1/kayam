@@ -505,39 +505,24 @@ void CoopScene::setupCoop()
         }
     }
 
-    // ---- Decorative animated "ba" GIF in the empty first slot (slot 0) ----
+    // ---- Decorative "START / MULA" sign in the empty first slot (slot 0) ----
+    // The English build resolves this to MainScene/coop_startsign.png ("START");
+    // the ms-MY build's localized search path picks up the "MULA" variant.
+    // Mirrors the same logic as the END/TAMAT sign in slot 11 above.
+    // Applied to both Literacy and Math coops.
     {
-        const int FRAME_COUNT = 32;
-        const float FRAME_DELAY = 0.08f; // ~12.5 fps; tweak if needed
-        Vector<SpriteFrame*> frames;
-        Sprite* firstSprite = nullptr;
-        for (int i = 0; i < FRAME_COUNT; ++i) {
-            char fn[64];
-            snprintf(fn, sizeof(fn), "MainScene/animated_ba/animated_ba_%03d.png", i);
-            auto sp = Sprite::create(fn);
-            if (!sp) continue;
-            if (!firstSprite) firstSprite = sp;
-            frames.pushBack(sp->getSpriteFrame());
-        }
-        if (firstSprite && frames.size() > 0) {
-            // Position in slot 0 (top-left of shelf grid)
+        auto sign = Sprite::create("MainScene/coop_startsign.png");
+        if (sign) {
             int slot = 0;
             float x = (slot%4) * roomSize.width + (coopSize.width - roomSize.width*4)/2.f + roomSize.width/2.f;
-            float y = (2 - (slot/4)) * roomSize.height + roomSize.height/2.f;
-
-            auto deco = Sprite::createWithSpriteFrame(frames.at(0));
-            deco->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
-            deco->setPosition(Vec2(x, y));
-            // Fit within room (leave a bit of margin)
+            float y = (2 - (slot/4)) * roomSize.height + roomSize.height/2.f + 80;
+            sign->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
+            sign->setPosition(Vec2(x, y));
             float maxSide = std::min(roomSize.width, roomSize.height) * 0.7f;
-            float s = std::min(maxSide / deco->getContentSize().width,
-                               maxSide / deco->getContentSize().height);
-            deco->setScale(s);
-            _coopView->addChild(deco);
-
-            auto anim = Animation::createWithSpriteFrames(frames, FRAME_DELAY);
-            anim->setLoops(-1);
-            deco->runAction(RepeatForever::create(Animate::create(anim)));
+            float s = std::min(maxSide / sign->getContentSize().width,
+                               maxSide / sign->getContentSize().height);
+            sign->setScale(s);
+            _coopView->addChild(sign);
             addSlotCover(slot);
         }
     }
