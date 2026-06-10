@@ -925,14 +925,7 @@ void GameSelectScene::onEnter()
             panel->setPosition(panelNodeSize/2);
             _panelNode->addChild(panel);
             
-            // BM "Matematik N" is much longer than "Math N", so shrink the
-            // font in ms-MY so the title still fits inside the wood panel.
-            int titleFontSize = 55;
-            if (LanguageManager::getInstance()->getCurrentLanguageTag() == "ms-MY"
-                && cur->levelTitle.find("Matematik") != std::string::npos) {
-                titleFontSize = 40;
-            }
-            auto panelLabel = TodoUtil::createLabel(cur->levelTitle, titleFontSize, Size::ZERO, fontName, Color4B(255, 240, 184, 255));
+            auto panelLabel = TodoUtil::createLabel(cur->levelTitle, 55, Size::ZERO, fontName, Color4B(255, 240, 184, 255));
             panelLabel->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
             panelLabel->setPosition(panel->getContentSize()/2 - Size(0, 25));
             panel->addChild(panelLabel);
