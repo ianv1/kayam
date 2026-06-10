@@ -229,7 +229,7 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                 }
             }, 500);
         } else if (!password[0].equals("") && !password[1].equals("")) {
-            Toast.makeText(getActivity(), "Password is incorrect", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "Kata laluan tidak betul", Toast.LENGTH_SHORT).show();
         }
     }
 }

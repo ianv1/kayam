@@ -205,7 +205,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             public void onClick(View view) {
                 User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
                 if (currentUser == null) {
-                    Toast.makeText(MainActivity.this, "Please select a user", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Sila pilih pengguna", Toast.LENGTH_LONG).show();
                     return;
                 }
                 try {
@@ -238,7 +238,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         libraryButton.setOnClickListener(view -> {
             User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
             if (currentUser == null) {
-                Toast.makeText(MainActivity.this, "Please select a user", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Sila pilih pengguna", Toast.LENGTH_LONG).show();
                 return;
             }
             if (view.isEnabled()) {
@@ -268,7 +268,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
         buttonLogout.setTypeface(face);
         buttonLogout.setOnClickListener(view -> {
-            Toast.makeText(MainActivity.this, "You have successfully logged out", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "Anda telah berjaya log keluar", Toast.LENGTH_LONG).show();
             generateCSV();
             KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
             dbHandler.deleteCurrentUser();
@@ -516,6 +516,12 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             buttonLogin.setVisibility(View.VISIBLE);
             buttonLogout.setVisibility(View.GONE);
             exitAdminButton.setVisibility(View.GONE);
+            // No logged-in user (fresh launch or just exited admin):
+            // hide Start and Library — these only make sense for a real user.
+            Button startBtnHidden = (Button) findViewById(R.id.button_todoschool);
+            if (startBtnHidden != null) startBtnHidden.setVisibility(View.GONE);
+            Button libraryBtnHidden = (Button) findViewById(R.id.button_library);
+            if (libraryBtnHidden != null) libraryBtnHidden.setVisibility(View.GONE);
             return;
         } else {
             imageViewCoin.setVisibility(View.VISIBLE);
@@ -954,11 +960,65 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     private void displayCurrentUser() {
         mTvUserName = (TextView) findViewById(R.id.textView_currentUserId);
         Util.displayUserName(this, mTvUserName);
+        // Re-apply BM/EN labels so the welcome line just set by Util uses the
+        // Malay format string when the toggle is on. (Util.displayUserName
+        // always reads R.string.welcome which is English.)
+        SharedPreferences prefs = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
+        applyHomeScreenLabels(prefs.getBoolean("language_bm", false));
     }
 
     private void updateLanguageLabel(boolean isBM) {
         if (languageLabel != null) {
             languageLabel.setText(isBM ? "BM" : "EN");
+        }
+        applyHomeScreenLabels(isBM);
+    }
+
+    /**
+     * Swap the three home-screen button texts and the welcome line between
+     * English and Bahasa Melayu based on the BM/EN toggle in the top-right.
+     *
+     * We do this in code (rather than via values-ms-rMY resources) because the
+     * toggle just flips a SharedPreferences flag — it does not call
+     * Configuration.setLocale, so the Android resource system would not pick a
+     * different translation automatically.
+     */
+    private void applyHomeScreenLabels(boolean isBM) {
+        // Start and Library buttons are only meaningful for a logged-in user.
+        User loggedInUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+
+        Button startBtn = (Button) findViewById(R.id.button_todoschool);
+        if (startBtn != null) {
+            startBtn.setText(isBM ? "MULA" : getString(R.string.start));
+            startBtn.setVisibility(loggedInUser != null ? View.VISIBLE : View.GONE);
+        }
+
+        Button loginBtn = (Button) findViewById(R.id.button_login);
+        if (loginBtn != null) loginBtn.setText(isBM ? "LOG MASUK" : getString(R.string.login));
+
+        Button logoutBtn = (Button) findViewById(R.id.button_logout);
+        if (logoutBtn != null) logoutBtn.setText(isBM ? "LOG KELUAR" : getString(R.string.logout));
+
+        Button libBtn = (Button) findViewById(R.id.button_library);
+        if (libBtn != null) {
+            libBtn.setText(isBM ? "PERPUSTAKAAN" : getString(R.string.library));
+            // Hide the Library button entirely when no user is logged in.
+            libBtn.setVisibility(loggedInUser != null ? View.VISIBLE : View.GONE);
+        }
+
+        Button exitAdminBtn = (Button) findViewById(R.id.button_exit_admin);
+        if (exitAdminBtn != null) exitAdminBtn.setText(isBM ? "KELUAR ADMIN" : getString(R.string.exit_admin_mode));
+
+        TextView powered = (TextView) findViewById(R.id.tv_powered);
+        if (powered != null) powered.setText(isBM ? "Dikuasakan oleh " : "Powered by ");
+
+        TextView welcome = (TextView) findViewById(R.id.textView_currentUserId);
+        if (welcome != null) {
+            User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+            if (user != null) {
+                String fmt = isBM ? "Selamat kembali, %s" : getString(R.string.welcome);
+                welcome.setText(String.format(fmt, user.getDisplayName()));
+            }
         }
     }
 

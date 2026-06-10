@@ -157,7 +157,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
             String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
             Button titleButton = (Button) findViewById(R.id.title_btn);
-            titleButton.setText("KAYAM SCHOOL " + "(TABLET ID: " + tabletNumber + ")");
+            titleButton.setText("KAYAM SCHOOL " + "(ID TABLET: " + tabletNumber + ")");
             titleButton.setOnClickListener(view -> {
                 DialogFragment dialog = new QRFragment();
                 Bundle bundle = new Bundle();
@@ -198,23 +198,23 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         lastBackupTimeTextView.setTypeface(face);
 
         if (lastBackupTime != 0L) {
-            lastBackupTextView.setText("Last backup: ");
+            lastBackupTextView.setText("Sandaran terakhir: ");
             SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy hh:mm:ssa");
             Date resultdate = new Date(lastBackupTime);
             lastBackupTimeTextView.setText(sdf.format(resultdate));
             lastBackupTimeTextView.setVisibility(View.VISIBLE);
             lastBackupTextView.setOnClickListener(view -> {
                 if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
-                    Toast.makeText(LoginActivity.this, "Last backup file: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Fail sandaran terakhir: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
                 }
             });
             lastBackupTimeTextView.setOnClickListener(view -> {
                 if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
-                    Toast.makeText(LoginActivity.this, "Last backup file: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Fail sandaran terakhir: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
                 }
             });
         } else {
-            lastBackupTextView.setText("No backup");
+            lastBackupTextView.setText("Tiada sandaran");
             lastBackupTimeTextView.setVisibility(View.GONE);
         }
 
@@ -334,13 +334,13 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
             return;
         }
         new AlertDialog.Builder(this)
-                .setTitle("Delete " + user.getDisplayName())
-                .setMessage("Are you sure you want to delete this user?")
+                .setTitle("Padam " + user.getDisplayName())
+                .setMessage("Adakah anda pasti mahu memadam pengguna ini?")
                 .setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         new AlertDialog.Builder(LoginActivity.this)
-                                .setTitle("Generate a CSV report?")
-                                .setMessage("Before you delete this user, would you like to generate a CSV report?")
+                                .setTitle("Jana laporan CSV?")
+                                .setMessage("Sebelum anda memadam pengguna ini, adakah anda mahu menjana laporan CSV?")
                                 .setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int which) {
                                         generateCSV();

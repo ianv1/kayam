@@ -24,10 +24,11 @@
 
     <com.google.android.material.tabs.TabLayout
         android:layout_below="@id/toolbar"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="0dp"
         android:layout_width="match_parent"
         android:background="#ffffff"
         android:id="@+id/tabLayout"
+        android:visibility="gone"
         android:elevation="4dp"
         app:tabGravity="fill"
         app:tabMaxWidth="0dp"
@@ -37,11 +38,7 @@
         app:tabIndicatorHeight="6dp"
         app:tabIndicatorColor="?attr/colorPrimary">
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/tab_video" />
-
+        <!-- Videos tab hidden for Kayam BM release; only Books fragment is shown. -->
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="match_parent"

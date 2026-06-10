@@ -32,6 +32,18 @@ public class SelectActivity extends KitKitLoggerActivity {
         Log.d(TAG, "onCreate()");
         Util.hideSystemUI(this);
 
+        // Kayam BM release: Videos are hidden, so the Videos/Books picker
+        // page is a single-button screen. Skip it entirely and jump straight
+        // into the Books tab. finish() ensures pressing Back from MainActivity
+        // returns to the launcher rather than coming back to this blank shell.
+        // Books is the only fragment now (position 0 after VideoFragment removal).
+        Intent skip = new Intent(this, MainActivity.class);
+        skip.putExtra("tab", 0);
+        startActivity(skip);
+        finish();
+        return;
+
+        /* Original picker UI (unreachable) — kept for reference:
         setContentView(R.layout.activity_select);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -42,7 +54,7 @@ public class SelectActivity extends KitKitLoggerActivity {
                 onBackPressed();
             }
         });
-
+        */
     }
 
     @Override
