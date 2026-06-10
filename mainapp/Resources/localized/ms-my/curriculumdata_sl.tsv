@@ -1193,7 +1193,7 @@ game	NumberMatching	2	x
 game	PatternTrain	1	x
 game	Tapping	2	x
 
-level	ms-MY	Math 1	M	1	16
+level	ms-MY	Matematik 1	M	1	16
 day	1	5
 game	NumberPuzzle	1	x
 game	PatternTrain	2	x
@@ -1278,7 +1278,7 @@ game	NumberMatching	8	x
 day	16	1
 game	EggQuizMath	0	PostTest_1
 
-level	ms-MY	Math 2	M	2	17
+level	ms-MY	Matematik 2	M	2	17
 day	1	4
 game	PatternTrain	4	x
 game	ThirtyPuzzle	1	x
@@ -1375,7 +1375,7 @@ game	FeedingTime	2	x
 day	17	1
 game	EggQuizMath	0	PostTest_2
 
-level	ms-MY	Math 3	M	3	28
+level	ms-MY	Matematik 3	M	3	28
 day	1	6
 game	MovingInsects	1	x
 game	ThirtyPuzzle	4	x
@@ -1550,7 +1550,7 @@ game	FeedingTime	5	x
 day	28	1
 game	EggQuizMath	0	PostTest_3
 
-level	ms-MY	Math 4	M	4	28
+level	ms-MY	Matematik 4	M	4	28
 day	1	5
 game	NumberTracingExt	9	x
 game	EquationMaker	7	x
@@ -1704,7 +1704,7 @@ game	ShapeMatching	3	x
 day	28	1
 game	EggQuizMath	0	PostTest_4
 
-level	ms-MY	Math 5	M	5	23
+level	ms-MY	Matematik 5	M	5	23
 day	1	5
 game	ShapeMatching	1	x
 game	Video	0	en_vdo_shapes
@@ -1831,7 +1831,7 @@ game	FeedingTime	14	x
 day	23	1
 game	EggQuizMath	0	PostTest_5
 
-level	ms-MY	Math 6	M	6	28
+level	ms-MY	Matematik 6	M	6	28
 day	1	5
 game	ThirtyPuzzle	18	x
 game	FeedingTime	12	x
@@ -1971,7 +1971,7 @@ game	MissingNumber	27	x
 day	28	1
 game	EggQuizMath	0	PostTest_6
 
-level	ms-MY	Math 7	M	7	29
+level	ms-MY	Matematik 7	M	7	29
 day	1	4
 game	MissingNumber	27	x
 game	MangoShop	5	x
@@ -2109,7 +2109,7 @@ game	FeedingTime	19	x
 day	29	1
 game	EggQuizMath	0	PostTest_7
 
-level	ms-MY	Math 8	M	8	28
+level	ms-MY	Matematik 8	M	8	28
 day	1	4
 game	FeedingTime	16	x
 game	Video	0	en_vdo_plusminus
