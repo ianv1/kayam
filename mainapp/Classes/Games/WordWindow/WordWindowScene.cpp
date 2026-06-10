@@ -490,6 +490,12 @@ void WordWindowScene::loadData(int level)
 
 		WordWindowLevelStruct s;
 
+		// Defensive: any row with fewer than the expected 29 columns would
+		// crash below when reading row[25..28]. Pad missing trailing fields
+		// with empty strings instead. This protects against TSV rows that
+		// were written without the optional empty objectSourceC/D tabs.
+		while ((int)row.size() < 29) row.push_back("");
+
 		s.m_languageTag = row[0];
 		s.m_level = TodoUtil::stoi(row[1]);
 		if (s.m_level != level)
