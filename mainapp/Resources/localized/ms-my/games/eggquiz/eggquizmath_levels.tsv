@@ -193,12 +193,12 @@ MiniTest_8_2	1	82001, 82002, 82003, 82004, 82005
 			82002	missing_number_drag	1	4	ascending			100~500				
 			82003	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
 			82004	word_problem	Terdapat 10 pinggan di meja makan. Terdapat 5 orang lagi daripada pinggan. Berapa banyak orang yang sedang makan malam?	en_uk_d3_09.m4a				15				
-			82005	word_problem	Terdapat 12 kucing di pagar. 1 kucing melompat dari pagar. Berapa banyak kucing yang tinggal di pagar?	en_uk_b1_09.m4a				11				
+			82005	word_problem	Terdapat 12 kucing di sebalik pagar. 1 kucing melompat dari pagar. Berapa banyak kucing yang tinggal di pagar?	en_uk_b1_09.m4a				11				
 MiniTest_8_3	1	83001, 83002, 83003, 83004, 83005												
 			83001	missing_number_drag	100	2	ascending			100~900	100			
 			83002	operations_drag	11~18-1~9=?	regroupingtrue	horizontal			1~9				
 			83003	operations_drag	21~50-11~30=?	regroupingtrue	vertical			1~40				
-			83004	word_problem	Janet mempunyai 8 oren dan Sharifah mempunyai 4 oren. Berapa banyak oren yang mereka ada?	en_uk_a2_08.m4a				12				
+			83004	word_problem	Janet mempunyai 8 biji oren dan Sharifah mempunyai 4 biji oren. Berapa banyak biji oren yang mereka ada?	en_uk_a2_08.m4a				12				
 			83005	word_problem	Sandy berumur 5 tahun. Mia berusia 7 tahun lebih tua daripada Sandy. Berapa umur Mia?	en_uk_d4_10.m4a				12				
 PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010												
 			8001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			300~700				
@@ -208,9 +208,9 @@ PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010
 			8005	operations_drag	11~50+11~20=?	regroupingtrue	vertical			1~50				
 			8006	operations_drag	31~50-11~20=?	regroupingtrue	vertical			1~50				
 			8007	word_problem	Ali mempunyai 6 buku. Hassan mempunyai 2 buku. Berapa banyak buku yang mereka ada dalam semua?	en_uk_a1_05.m4a				8				
-			8008	word_problem	Daud mempunyai 11 mangga dalam bakul. Daud memberikan 4 mangga kepada kakaknya. Berapa banyak mangga yang tinggal di dalam bakul?	en_uk_b2_05.m4a				7				
+			8008	word_problem	Diego mempunyai 11 biji mangga dalam bakul. Diego memberikan 4 biji mangga kepada kakaknya. Berapa banyak biji mangga yang tinggal di dalam bakul?	en_uk_b2_05.m4a				7				
 			8009	word_problem	Hamid berumur 12 tahun. Saudaranya Ali berumur 8 tahun. Berapa lebih muda Ali daripada Hamid?	en_uk_d2_06.m4a				4				
-			8010	word_problem	Seorang petani berkumpul 16 biji telur. Dia menggunakan 4 biji telur untuk membuat sarapan. Berapa banyak telur yang dia tinggalkan?	en_uk_b1_06.m4a				12				
+			8010	word_problem	Seorang petani mengumpulkan 16 biji telur. Dia menggunakan 4 biji telur untuk membuat sarapan. Berapakah biji telur yang tinggal?	en_uk_b1_06.m4a				12				
 MiniTest_9_1	1	91001~91003, 91004, 91005, 91006, 91007												
 			91001	operations_drag	11~99+10, 20, 30, 40, 50, 60, 70, 70, 80=?		horizontal			1~100				
 			91002	operations_drag	10, 20, 30, 40, 50, 60, 70, 80+11~99=?		horizontal			1~100				

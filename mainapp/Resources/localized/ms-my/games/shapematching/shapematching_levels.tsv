@@ -2,7 +2,7 @@
 19	2	3	7
 Shape_Key	Sides	Faces	ms-MY	en-KE	sw-TZ	Basic_2D	Advanced_2D	Basic_3D	Advanced_3D	Advanced_ALL	ALL_2D	ALL_3D
 circle	0	None	bulat	circle	duara	0	None	None	None	None	0	None
-square	4	None	semi_empat_sama	square	mraba	1	None	None	None	None	4	None
+square	4	None	segi_empat_sama	square	mraba	1	None	None	None	None	4	None
 triangle	3	None	segi_tiga	triangle	pembe_tatu	2	None	None	None	None	3	None
 rectangle	4	None	segi_empat_tepat	rectangle	mstatili	3	None	None	None	None	4	None
 star	10	None	bintang	star	nyota	4	None	None	None	None	10	None
