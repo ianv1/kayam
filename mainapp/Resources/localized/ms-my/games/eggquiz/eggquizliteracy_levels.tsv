@@ -29,10 +29,10 @@ PostTest_2	1	2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010
 			2004	word_word		n				N	N^W^M
 			2005	word_word		b				B	P^D^B
 			2006	word_word		h				H	J^T^H
-			2007	image_word		mango.png				mango	fish^mango^nest
-			2008	image_word		cow.png				cow	cow^milk^duck
-			2009	image_word		egg.png				egg	grape^apple^egg
-			2010	image_word		hat.png				hat	jar^hat^bear
+			2007	image_word		mangga.png				mangga	mangga^qari^tangga
+			2008	image_word		ikan.png				ikan	vitamin^ikan^cincin
+			2009	image_word		epal.png				epal	epal^tongkat^rusa
+			2010	image_word		topi.png				topi	sarang^topi^udang
 											
 PostTest_2	2	2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020									
 			2011	word_word		T				t	t^y^d
@@ -41,31 +41,31 @@ PostTest_2	2	2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020
 			2014	word_word		q				Q	Z^G^Q
 			2015	word_word		o				O	O^C^U
 			2016	word_word		d				D	L^D^T
-			2017	image_word		truck.png				truck	truck^key^lemon
-			2018	image_word		water.png				water	soap^net^water
-			2019	image_word		zebra.png				zebra	snake^zebra^rabbit
-			2020	image_word		frog.png				frog	frog^camel^quiet
+			2017	image_word		basikal.png				basikal	basikal^nyamuk^foto
+			2018	image_word		susu.png				susu	almari^susu^wau
+			2019	image_word		zirafah.png				zirafah	dacing^zirafah^pintu
+			2020	image_word		katak.png				katak	katak^warung^permata
 											
 MiniTest_3_1	1	31001, 31002, 31003, 31004, 31005									
 			31001	word_word		ra				r+a	s+a^r+a^l+a
 			31002	soundonly_word					j_sound.m4a	j	j^g^z
 			31003	soundonly_word					ba.m4a	ba	va^pa^ba
-			31004	soundonly_image					cat.m4a	cat.png	cat.png^duck.png^hen.png
-			31005	soundonly_image					fish.m4a	fish.png	fish.png^sun.png^nest.png
+			31004	soundonly_image					foto.m4a	foto.png	ciku.png^foto.png^sate.png
+			31005	soundonly_image					kon.m4a	kon.png	pil.png^kon.png^gam.png
 											
 MiniTest_3_1	2	31006, 31007, 31008, 31009, 31010									
 			31006	word_word		ma				m+a	d+a^y+a^m+a
 			31007	soundonly_word					d_sound.m4a	d	d^c^p
 			31008	soundonly_word					ge.m4a	ge	he^be^ge
-			31009	soundonly_image					duck.m4a	duck.png	cat.png^duck.png^hen.png
-			31010	soundonly_image					sun.m4a	sun.png	fish.png^nest.png^sun.png
+			31009	soundonly_image					buku.m4a	buku.png	bola.png^dadu.png^buku.png
+			31010	soundonly_image					ros.m4a	ros.png	ros.png^jet.png^cat.png
 											
 MiniTest_3_1	3	31011, 31012, 31013, 31014, 31015									
 			31011	word_word		sa				s+a	s+a^j+e^l+a
 			31012	soundonly_word					t_sound.m4a	t	d^t^v
 			31013	soundonly_word					fa.m4a	fa	fi^fu^fa
-			31014	soundonly_image					hen.m4a	hen.png	cat.png^duck.png^hen.png
-			31015	soundonly_image					nest.m4a	nest.png	fish.png^nest.png^sun.png
+			31014	soundonly_image					kaki.m4a	kaki.png	foto.png^kaki.png^sate.png
+			31015	soundonly_image					bot.m4a	bot.png	gam.png^bot.png^pil.png
 											
 MiniTest_3_2	1	32001, 32002, 32003, 32004, 32005									
 			32001	word_word		li				l+i	l+i^b+i^h+i
@@ -112,548 +112,548 @@ MiniTest_3_3	3	33011, 33012, 33013, 33014, 33015
 PostTest_3	1	3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010									
 			3001	word_word		ca				c+a	s+a^h+a^c+a
 			3002	word_word		ne				n+e	n+e^l+e^b+e
-			3003	word_word		do				d+o	l+o^d+o^v+o
-			3004	image_word	_at	mat.png				m	b^c^m
-			3005	image_word	b__	bag.png				ag	ug^ag^og
+			3003	word_word		du				d+u	l+u^d+u^v+u
+			3004	image_word	_il	pil.png				p	c^p^g
+			3005	image_word	c__	cat.png				at	at^et^am
 			3006	soundonly_word					ta.m4a	t+a	t+a^b+a^r+a
 			3007	soundonly_word					ge.m4a	g+e	j+e^g+e^k+e
 			3008	soundonly_word					fi.m4a	f+i	b+i^w+i^f+i
-			3009	soundonly_image					sun.m4a	sun.png	sun.png^bus.png^star.png
-			3010	soundonly_image					cow.m4a	cow.png	dog.png^pig.png^cow.png
+			3009	soundonly_image					tebu.m4a	tebu.png	tebu.png^roti.png^gula.png
+			3010	soundonly_image					kaki.m4a	kaki.png	baju.png^kaki.png^piza.png
 											
 PostTest_3	2	3011, 3012, 3013, 3014, 3015, 3016, 3017, 3018, 3019, 3020									
 			3011	word_word		va				v+a	v+a^l+a^j+a
 			3012	word_word		se				s+e	f+e^d+e^s+e
 			3013	word_word		hu				h+u	n+u^h+u^c+u
-			3014	image_word	_ug	mug.png				m	m^g^s
-			3015	image_word	f__	fan.png				an	at^an^am
+			3014	image_word	_am	gam.png				g	j^g^p
+			3015	image_word	j__	jet.png				et	il^et^at
 			3016	soundonly_word					bi.m4a	b+i	v+i^k+i^b+i
 			3017	soundonly_word					co.m4a	c+o	c+o^f+o^p+o
 			3018	soundonly_word					ju.m4a	j+u	t+u^j+u^n+u
-			3019	soundonly_image					bed.m4a	bed.png	bus.png^bed.png^box.png
-			3020	soundonly_image					rat.m4a	rat.png	bat.png^mat.png^rat.png
+			3019	soundonly_image					sawi.m4a	sawi.png	bola.png^sawi.png^ubi.png
+			3020	soundonly_image					ratu.m4a	ratu.png	ratu.png^labu.png^sudu.png
 											
 MiniTest_4_1	1	41001, 41002, 41003, 41004, 41005									
-			41001	image_word		bus.png				bus	bug^bus^bat
-			41002	image_word		mom.png				mom	mom^mop^man
-			41003	soundonly_word					zip.m4a	zip	cap^net^zip
-			41004	soundonly_word					bed.m4a	bed	bed^dad^vet
-			41005	soundonly_word					hat.m4a	hat	mat^hat^cat
+			41001	image_word		zip.png				zip	air^zip^sen
+			41002	image_word		dua.png				dua	dua^beg^api
+			41003	soundonly_word					tin.m4a	tin	tin^kek^jus
+			41004	soundonly_word					kek.m4a	kek	jag^kek^jip
+			41005	soundonly_word					jus.m4a	jus	kon^jus^bas
 											
 MiniTest_4_1	2	41006, 41007, 41008, 41009, 41010									
-			41006	image_word		six.png				six	six^box^fox
-			41007	image_word		dog.png				dog	dot^dog^dad
-			41008	soundonly_word					red.m4a	red	red^sad^mad
-			41009	soundonly_word					box.m4a	box	fox^six^box
-			41010	soundonly_word					log.m4a	log	mug^log^bug
+			41006	image_word		ais.png				ais	jam^ais^cat
+			41007	image_word		ubi.png				ubi	ubi^gas^ini
+			41008	soundonly_word					jag.m4a	jag	mop^jag^pen
+			41009	soundonly_word					jip.m4a	jip	jip^pil^zip
+			41010	soundonly_word					kon.m4a	kon	but^nat^kon
 											
 MiniTest_4_1	3	41011, 41012, 41013, 41014, 41015									
-			41011	image_word		kid.png				kid	bed^kit^kid
-			41012	image_word		rat.png				rat	rat^red^ram
-			41013	soundonly_word					man.m4a	man	pan^man^mat
-			41014	soundonly_word					bug.m4a	bug	bug^bus^bag
-			41015	soundonly_word					bag.m4a	bag	hug^bad^bag
+			41011	image_word		rak.png				rak	rak^ibu^jus
+			41012	image_word		bas.png				bas	bas^ubi^ada
+			41013	soundonly_word					bas.m4a	bas	cap^bas^gol
+			41014	soundonly_word					mop.m4a	mop	bil^mop^hon
+			41015	soundonly_word					pen.m4a	pen	jem^pen^sos
 											
 MiniTest_4_2	1	42001, 42002, 42003, 42004, 42005									
-			42001	image_word	__um	drum.png				dr	cr^dr^br
-			42002	image_word	tr__	tree.png				ee	ee^ie^oa
-			42003	soundonly_word					cake.m4a	cake	fake^make^cake
-			42004	soundonly_word					nose.m4a	nose	hose^nose^rose
-			42005	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	hand, house	hand, house^bug, ten^jump, fan
+			42001	image_word	__wi	sawi.png				sa	pi^sa^ku
+			42002	image_word	ro__	roti.png				ti	ti^bu^la
+			42003	soundonly_word					satu.m4a	satu	saku^satu^sapu
+			42004	soundonly_word					nama.m4a	nama	lama^nama^nada
+			42005	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	nama, nada	nama, nada^tali, sari^buku, gusi
 											
 MiniTest_4_2	2	42006, 42007, 42008, 42009, 42010									
-			42006	image_word	__og	frog.png				fr	fr^pr^br
-			42007	image_word	bl__	blue.png				ue	ee^oo^ue
-			42008	soundonly_word					face.m4a	face	pace^face^lace
-			42009	soundonly_word					bowl.m4a	bowl	bowl^blow^brown
-			42010	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	cat, car	vest, door^hot, girl^cat, car
+			42006	image_word	__la	gula.png				gu	ku^gu^ba
+			42007	image_word	ka__	kaki.png				ki	ki^tu^di
+			42008	soundonly_word					tali.m4a	tali	tari^tali^kali
+			42009	soundonly_word					baju.m4a	baju	baku^baju^laku
+			42010	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	baju, baku	kali, lali^baju, baku^api, ikan
 											
 MiniTest_4_2	3	42011, 42012, 42013, 42014, 42015									
-			42011	image_word	__ack	black.png				bl	pl^fl^bl
-			42012	image_word	st__	star.png				ar	ir^ar^ur
-			42013	soundonly_word					rice.m4a	rice	rice^nice^mice
-			42014	soundonly_word					baby.m4a	baby	navy^bake^baby
-			42015	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	zoo, zebra	king, book^zoo, zebra^sad, map
+			42011	image_word	__da	kuda.png				ku	pa^ku^su
+			42012	image_word	ba__	batu.png				tu	ti^tu^wi
+			42013	soundonly_word					buku.m4a	buku	budi^buku^suku
+			42014	soundonly_word					ikan.m4a	ikan	iman^ikan^adat
+			42015	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	satu, saku	nasi, lada^satu, saku^ubi, adat
 											
 MiniTest_4_3	1	43001, 43002, 43003, 43004, 43005									
-			43001	word_word		__eep			sheep.m4a	sh	sh^ch^th
-			43002	image_word		milk.png				milk	milk^cherry^bread
-			43003	soundonly_word					goat.m4a	goat	gift^boat^goat
-			43004	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	under, ugly	under, ugly^enter, ink^and, onion
-			43005	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	what, why	the, shoe^what, why^chain, shape
+			43001	word_word		__ma			nama.m4a	na	na^la^sa
+			43002	image_word		kereta.png				kereta	kereta^kelapa^bantal
+			43003	soundonly_word					baju.m4a	baju	baju^buku^bola
+			43004	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	lampin, lampu	lampin, lampu^buncis, bantal^logo, ratu
+			43005	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	lembing, lembu	lembing, lembu^sampah, bantal^gigi, nasi
 											
 MiniTest_4_3	2	43006, 43007, 43008, 43009, 43010									
-			43006	image_word		cow.png				cow	cat^frog^cow
-			43007	word_word		__at			chat.m4a	ch	ch^wh^sh
-			43008	soundonly_word					flower.m4a	flower	fly^flower^plane
-			43009	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	idea, ice	onion, arm^idea, ice^egg, ant
-			43010	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	choose, chicken	white, chair^ship, chat^choose, chicken
+			43006	image_word		pensel.png				pensel	pintu^pensel^tomato
+			43007	word_word		__ku			buku.m4a	bu	bu^su^ka
+			43008	soundonly_word					ciku.m4a	ciku	cari^ciku^ceri
+			43009	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	buncis, buntal	lampu, sampan^buncis, buntal^baju, keju
+			43010	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	menara, menari	menara, menari^kelisa, pelita^tali, pili
 											
 MiniTest_4_3	3	43011, 43012, 43013, 43014, 43015									
-			43011	word_word		__ip			ship.m4a	sh	sh^wh^th
-			43012	image_word		lion.png				lion	lion^tiger^bear
-			43013	soundonly_word					dish.m4a	dish	fish^mash^dish
-			43014	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	only, old	only, old^it, ax^uncle, idea
-			43015	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	this, then	what, that^this, then^child, ship
+			43011	word_word		__li			tali.m4a	ta	ta^ka^la
+			43012	image_word		burung.png				burung	helang^burung^topeng
+			43013	soundonly_word					singa.m4a	singa	saya^singa^sate
+			43014	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	kamera, kemeja	sekali, lokasi^kamera, kemeja^sapu, topi
+			43015	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	baharu, bahasa	kerusi, kamera^baharu, bahasa^logo, ratu
 											
 PostTest_4	1	4001, 4002, 4003, 4004, 4005, 4006, 4007, 4008, 4009, 4010									
-			4001	image_word		cat.png				cat	rat^dog^cat
-			4002	image_word		duck.png				duck	duck^crab^nest
-			4003	image_word	__og	frog.png				fr	fr^pr^fl
-			4004	image_word	__ue	blue.png				bl	br^bl^pl
-			4005	soundonly_word					chick.m4a	chick	chop^ship^chick
-			4006	image_word		l8_boyreading.png				read	read^sing^swim
-			4007	image_word		l6_hedoctor.png				doctor	doctor^teacher^farmer
-			4008	soundonly_word					cream.m4a	cream	crown^cream^cloud
-			4009	sentence_sentence		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	gas, girl	zebra, salad^door, book^gas, girl
-			4010	sentence_sentence		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	water, watch	water, watch^vest, bed^quiet, piano
+			4001	image_word		landak.png				landak	landak^rumput^tangga
+			4002	image_word		nyamuk.png				nyamuk	mangga^nyamuk^kerang
+			4003	image_word	__nga	bunga.png				bu	bu^ru^ka
+			4004	image_word	__mah	rumah.png				ru	hu^ru^pa
+			4005	soundonly_word					khamis.m4a	khamis	khabar^syarat^khamis
+			4006	image_word		mangga.png				mangga	mangga^nangka^tangga
+			4007	image_word		gunting.png				gunting	gendang^gunting^lembing
+			4008	soundonly_word					nyamuk.m4a	nyamuk	nyala^nyamuk^nganga
+			4009	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	batu, baku	batu, baku^sari, lari^nama, lama
+			4010	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	nama, nada	kali, tali^nama, nada^baju, laku
 											
 PostTest_4	2	4011, 4012, 4013, 4014, 4015, 4016, 4017, 4018, 4019, 4020									
-			4011	image_word		mug.png				mug	hug^mug^mat
-			4012	image_word		rain.png				rain	lamp^nest^rain
-			4013	image_word	__ock	clock.png				cl	fl^pl^cl
-			4014	image_word	__een	green.png				gr	gr^br^pr
-			4015	soundonly_word					shirt.m4a	shirt	chin^shirt^short
-			4016	image_word		l8_heswimming.png				swim	read^sing^swim
-			4017	image_word		l6_heteacher.png				teacher	doctor^teacher^farmer
-			4018	soundonly_word					blouse.m4a	blouse	flower^yellow^blouse
-			4019	sentence_sentence		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	jump, juice	jump, juice^game, dirty^find, visit
-			4020	sentence_sentence		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	color, cube	tend, ball^lake, room^color, cube
+			4011	image_word		pisang.png				pisang	pisang^baldi^lembu
+			4012	image_word		hujan.png				hujan	cicak^katak^hujan
+			4013	image_word	__jan	hujan.png				hu	ma^hu^ka
+			4014	image_word	__sut	kasut.png				ka	ru^bu^ka
+			4015	soundonly_word					syiling.m4a	syiling	syukur^nyiru^syiling
+			4016	image_word		kampung.png				kampung	kampung^kentang^jantung
+			4017	image_word		bangku.png				bangku	rangka^singki^bangku
+			4018	soundonly_word					nganga.m4a	nganga	khemah^nganga^nyonya
+			4019	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	satu, saku	bala, kala^tari, lari^satu, saku
+			4020	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	gula, gusi	api, abu^gula, gusi^ikan, iman
 											
 MiniTest_5_1	1	51001, 51002, 51003, 51004, 51005									
-			51001	sentence_word		Choose the right one.			nest.m4a	nest	best^pest^nest
-			51002	sentence_word		Choose the right one.			snake.m4a	snake	snake^smake^spake
-			51003	image_word		cake.png				cake	cake^lake^make
+			51001	sentence_word		Pilih yang betul.			sekolah.m4a	sekolah	sekolah^sekolam^sekalah
+			51002	sentence_word		Pilih yang betul.			pensel.m4a	pensel	pensal^pensel^pansel
+			51003	image_word		sangkar.png				sangkar	sangkar^songkok^cangkul
 			51004	soundonly_image					book_en_216_page_5_1.m4a	book_en_216_page_5.png	book_en_216_page_5.png^book_en_216_page_6.png^book_en_216_page_3.png
-			51005	sentence_word		Some cats have __________.			book_en_215_page_8_1.m4a	long ears	long ears^spots^small eyes
+			51005	sentence_word		Kucing ada yang __________.			book_en_215_page_8_1.m4a	bertelinga panjang	bertelinga panjang^bertompok^bermata kecil
 											
 MiniTest_5_1	2	51006, 51007, 51008, 51009, 51010									
-			51006	sentence_word		Choose the right one.			face.m4a	face	vase^face^case
-			51007	sentence_word		Choose the right one.			chair.m4a	chair	shair^whair^chair
-			51008	image_word		flower.png				flower	flower^toilet^basket
+			51006	sentence_word		Pilih yang betul.			meja.m4a	meja	maja^meja^meju
+			51007	sentence_word		Pilih yang betul.			buku.m4a	buku	buku^buka^baku
+			51008	image_word		tingkap.png				tingkap	langsir^tingkap^tongkat
 			51009	soundonly_image					book_en_216_page_3_1.m4a	book_en_216_page_3.png	book_en_216_page_5.png^book_en_216_page_6.png^book_en_216_page_3.png
-			51010	sentence_word		Some cats like _________.			book_en_215_page_6_1.m4a	the sun	the moon^the sun^the rain
+			51010	sentence_word		Kucing ada yang suka _________.			book_en_215_page_6_1.m4a	matahari	bulan^matahari^hujan
 											
 MiniTest_5_1	3	51011, 51012, 51013, 51014, 51015									
-			51011	sentence_word		Choose the right one.			ball.m4a	ball	ball^fall^call
-			51012	sentence_word		Choose the right one.			train.m4a	train	drain^train^crain
-			51013	image_word		helmet.png				helmet	helmet^number^sunset
+			51011	sentence_word		Pilih yang betul.			topi.m4a	topi	tapi^topi^tupi
+			51012	sentence_word		Pilih yang betul.			bunga.m4a	bunga	bunga^bangga^binga
+			51013	image_word		songkok.png				songkok	songkok^bengkok^langsat
 			51014	soundonly_image					book_en_216_page_6_1.m4a	book_en_216_page_6.png	book_en_216_page_5.png^book_en_216_page_6.png^book_en_216_page_3.png
-			51015	sentence_word		Some cats like _________.			book_en_215_page_7_1.m4a	the moon	the moon^the sun^the rain
+			51015	sentence_word		Kucing ada yang suka _________.			book_en_215_page_7_1.m4a	bulan	bulan^matahari^hujan
 											
 MiniTest_5_2	1	52001, 52002, 52003, 52004, 52005									
-			52001	sentence_word		Choose the right one.			duck.m4a	duck	duck^buck^luck
-			52002	sentence_word		Choose the right one.			heart.m4a	heart	hiert^heart^hart
-			52003	soundonly_word					play.m4a	play	fly^clay^play
-			52004	sentence_word		This is my ____.			thisismybrother.m4a	brother	brother^mother^dad
-			52005	sentence_word		Fred is in his _____.			fredisinhisbedroom.m4a	bedroom	bedroom^kitchen^house
+			52001	sentence_word		Pilih yang betul.			belon.m4a	belon	belon^balon^belan
+			52002	sentence_word		Pilih yang betul.			datuk.m4a	datuk	datuk^datak^datik
+			52003	soundonly_word					tandas.m4a	tandas	tandas^tonton^tanduk
+			52004	sentence_word		Ini ____ saya.			iniabangsaya.m4a	brother	abang^ibu^bapa
+			52005	sentence_word		Hao di _____.			haodisekolah.m4a	sekolah	bilik^dapur^sekolah
 											
 MiniTest_5_2	2	52006, 52007, 52008, 52009, 52010									
-			52006	sentence_word		Choose the right one.			news.m4a	news	mews^vews^news
-			52007	sentence_word		Choose the right one.			paper.m4a	paper	paper^peper^papir
-			52008	soundonly_word					sweet.m4a	sweet	sweet^green^brown
-			52009	sentence_word		This is my ____.			thisismymother.m4a	mother	brother^mother^dad
-			52010	sentence_word		Cindy is in the _____.			cindyisinthekitchen.m4a	kitchen	bedroom^kitchen^house
+			52006	sentence_word		Pilih yang betul.			nenek.m4a	nenek	nenek^nanek^nenik
+			52007	sentence_word		Pilih yang betul.			gunung.m4a	gunung	gonung^gunung^gunang
+			52008	soundonly_word					mangga.m4a	mangga	mangkuk^mangga^nangka
+			52009	sentence_word		Ini ____ saya.			iniibusaya.m4a	mother	abang^ibu^bapa
+			52010	sentence_word		Aini di _____.			ainididapur.m4a	dapur	bilik^dapur^sekolah
 											
 MiniTest_5_2	3	52011, 52012, 52013, 52014, 52015									
-			52011	sentence_word		Choose the right one.			lion.m4a	lion	bion^lion^rion
-			52012	sentence_word		Choose the right one.			water.m4a	water	wator^watur^water
-			52013	soundonly_word					boat.m4a	boat	boat^lunch^goat
-			52014	sentence_word		This is my ____.			thisismydad.m4a	dad	brother^mother^dad
-			52015	sentence_word		We need a ____.			weneedalamp.m4a	lamp	chair^picture^lamp
+			52011	sentence_word		Pilih yang betul.			gambar.m4a	gambar	gambar^gambir^gambur
+			52012	sentence_word		Pilih yang betul.			dapur.m4a	dapur	dapor^dapir^dapur
+			52013	soundonly_word					tingkap.m4a	tingkap	tinggi^tingkap^janggut
+			52014	sentence_word		Ini ____ saya.			inibapasaya.m4a	dad	abang^ibu^bapa
+			52015	sentence_word		Saya perlu ____.			sayaperlukertas.m4a	kertas	kertas^kerusi^lampu
 											
 MiniTest_5_3	1	53001, 53002, 53003, 53004, 53005									
-			53001	sentence_word		Choose the right one.			stick.m4a	stick	skick^spick^stick
-			53002	sentence_word		Choose the right one.			father.m4a	father	pather^father^fathor
-			53003	soundonly_word					pants.m4a	pants	pants^boots^shorts
-			53004	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	flood, fly	grass, cross^flood, fly^drive, crab
-			53005	sentence_word		I want to play near _______.			book_en_222_page_2_1.m4a	the car	the car^at home^the tent
+			53001	sentence_word		Pilih yang betul.			kerusi.m4a	kerusi	kerusi^karusi^kerasi
+			53002	sentence_word		Pilih yang betul.			kentang.m4a	kentang	kentang^kantang^kenteng
+			53003	soundonly_word					langsir.m4a	langsir	langsir^rangkap^rangka
+			53004	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	batik, batuk	gerak, jarak^batik, batuk^panda, tempe
+			53005	sentence_word		Saya boleh buat _______.			book_en_218_page_1_1.m4a	bentuk	bentuk^bot^gula-gula
 											
 MiniTest_5_3	2	53006, 53007, 53008, 53009, 53010									
-			53006	sentence_word		Choose the right one.			floor.m4a	floor	floor^bloor^froor
-			53007	sentence_word		Choose the right one.			dress.m4a	dress	bress^dress^dres
-			53008	soundonly_word					shorts.m4a	shorts	pants^boots^shorts
-			53009	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	black, blow	cold, bear^enter, under^black, blow
-			53010	sentence_word		I want to play _______.			book_en_222_page_3_1.m4a	at home	the car^at home^the tent
+			53006	sentence_word		Pilih yang betul.			monyet.m4a	monyet	monyet^monyat^monyit
+			53007	sentence_word		Pilih yang betul.			komputer.m4a	komputer	komputer^komputar^kompiter
+			53008	soundonly_word					cangkul.m4a	cangkul	cangkul^cangkuk^canggih
+			53009	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	sekat, sepak	sekat, sepak^gerak, jarak^batik, betik
+			53010	sentence_word		Saya boleh buat _______.			book_en_218_page_2_1.m4a	bot	bentuk^bot^gula-gula
 											
 MiniTest_5_3	3	53011, 53012, 53013, 53014, 53015									
-			53011	sentence_word		Choose the right one.			money.m4a	money	mony^money^monye
-			53012	sentence_word		Choose the right one.			brush.m4a	brush	brush^bruch^blush
-			53013	soundonly_word					boots.m4a	boots	pants^boots^shorts
-			53014	sentence_word		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	shake, shirt	shake, shirt^stay, there^blush, snake
-			53015	sentence_word		I want to play in _______.			book_en_222_page_5_1.m4a	the tent	the car^at home^the tent
+			53011	sentence_word		Pilih yang betul.			pelajar.m4a	pelajar	palajar^pelajar^pelajir
+			53012	sentence_word		Pilih yang betul.			sentiasa.m4a	sentiasa	sentiasa^santiasa^sentiasa
+			53013	soundonly_word					tongkat.m4a	tongkat	tangki^tongkat^tongkang
+			53014	sentence_word		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	gerak, geram	batik, betik^gerak, geram^sekat, batuk
+			53015	sentence_word		Saya boleh buat _______.			book_en_218_page_3_1.m4a	gula-gula	bentuk^bot^gula-gula
 											
 PostTest_5	1	5001, 5002, 5003, 5004, 5005, 5006, 5007, 5008, 5009, 5010									
-			5001	soundonly_word					fish.m4a	fish	dish^fish^farm
-			5002	soundonly_word					chair.m4a	chair	shop^church^chair
-			5003	soundonly_word					teacher.m4a	teacher	teacher^student^classroom
-			5004	sentence_sentence		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	choose, chick	child, that^choose, chick^shape, whale
-			5005	sentence_sentence		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	play, plane	play, plane^flood, black^small, crab
-			5006	image_word		yellow.png				yellow	white^black^yellow
-			5007	image_word		house.png				house	house^paper^clock
-			5008	sentence_word		Some animals are ______.			someanimalsarebig.m4a	big	tall^big^small
-			5009	sentence_word		These are our ______.			theseareourhands.m4a	hands	knees^ears^hands
-			5010	sentence_word		Hamisi rides his bicycle to _________.			book_en_232_page_3_1.m4a	the store 	the store^the market^school
+			5001	soundonly_word					ikan.m4a	ikan	hitam^ikan^makan
+			5002	soundonly_word					kerusi.m4a	kerusi	baharu^kerusi^bahasa
+			5003	soundonly_word					lelaki.m4a	lelaki	kereta^lelaki^kelapa
+			5004	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	baju, baku	gerak, batik^baju, baku^panda, tempe
+			5005	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	nama, nada	sekat, batuk^nama, nada^kali, gusi
+			5006	image_word		singa.png				singa	kuda^roti^singa
+			5007	image_word		kerusi.png				kerusi	kerusi^lampu^bakul
+			5008	sentence_word		Rumah ini ______.			rumahinibesar.m4a	besar	tinggi^besar^kecil
+			5009	sentence_word		Ini ______ saya.			iniibusaya.m4a	ibu	abang^bapa^ibu
+			5010	sentence_word		Baju hujan _________ saya! 			book_en_217_page_1_1.m4a	baharu	kecil^baharu^lama
 											
 PostTest_5	2	5011, 5012, 5013, 5014, 5015, 5016, 5017, 5018, 5019, 5020									
-			5011	soundonly_word					lion.m4a	lion	lion^frog^duck
-			5012	soundonly_word					snake.m4a	snake	stop^snail^snake
-			5013	soundonly_word					student.m4a	student	teahcer^student^classroom
-			5014	sentence_sentence		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	they, them	shoe, chap^what, short^they, them
-			5015	sentence_sentence		Choose the pair with the same first sound.			choosepairwithsamefirstsound.m4a	truck, tree	dress, cross^truck, tree^blow, clock
-			5016	image_word		heart.png				heart	heart^grass^stick
-			5017	image_word		river.png				river	mouse^words^river
-			5018	sentence_word		Some animals ______.			someanimalswalk.m4a	walk	walk^swim^fly
-			5019	sentence_word		This is your ______.			thisisyourhead.m4a	head	face^hair^head
-			5020	sentence_word		Hamisi rides his bicycle to _________.			book_en_232_page_4_1.m4a	the market	the store^the market^school
+			5011	soundonly_word					kucing.m4a	kucing	kering^kucing^dacing
+			5012	soundonly_word					nyamuk.m4a	nyamuk	nganga^nyala^nyamuk
+			5013	soundonly_word					stesen.m4a	stesen	statik^stesen^stadium
+			5014	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	satu, saku	satu, saku^lekat, panda^gerak, batik
+			5015	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	batik, batuk	panda, tempe^sekat, batuk^batik, batuk
+			5016	image_word		bunga.png				bunga	telur^bunga^tandas
+			5017	image_word		sungai.png				sungai	ladang^keldai^sungai
+			5018	sentence_word		Sudu di atas ______.			sududiatasmeja.m4a	meja	meja^buku^lampu
+			5019	sentence_word		Burung di ______.			burungdilangit.m4a	langit	batu^sungai^langit
+			5020	sentence_word		Saya suka _________.			book_en_217_page_6_1.m4a	hujan	hujan^matahari^salji
 											
 MiniTest_6_1	1	61001, 61002, 61003, 61004, 61005									
-			61001	soundonly_word					window.m4a	window	window^bathroom^door
-			61002	soundonly_word					rain.m4a	rain	rain^storm^earth
-			61003	sentence_word		The ______ are in the sky.			thebirdsareinthesky.m4a	birds	birds^chicken^frogs
-			61004	image_sentence		l1_littlemouse.png			alittlemouse.m4a	A little mouse.	A little mouse.^An orange dress.^A black book.
-			61005	image_sentence		l1_tallboy.png			atallboy.m4a	A tall boy.	A tall boy.^A tall baby.^A tall girl.
+			61001	soundonly_word					telur.m4a	telur	telur^roti^susu
+			61002	soundonly_word					pisang.m4a	pisang	pisang^oren^ceri
+			61003	sentence_word		Baju saya ______.			bajusayakotor.m4a	kotor	kotor^bersih^putih
+			61004	image_sentence		mangga_kuning.png			sebijimanggakuning.m4a	Sebiji mangga kuning.	Sebiji mangga kuning.^Sebuah topi oren.^Sebiji bola merah.
+			61005	image_sentence		dua_singa.png			duaekorsinga.m4a	Dua ekor singa.	Dua ekor singa.^Seekor kucing kecil.^Lima ekor semut.
 											
 MiniTest_6_1	2	61006, 61007, 61008, 61009, 61010									
-			61006	soundonly_word					bathroom.m4a	bathroom	window^bathroom^door
-			61007	soundonly_word					storm.m4a	storm	rain^storm^earth
-			61008	sentence_word		The ______ are in the nest.			thebirdsareinthenest.m4a	birds	birds^chicken^frogs
-			61009	image_sentence		l3_3pails.png			threepails.m4a	Three pails.	Two pails.^Three boxes.^Three pails.
-			61010	image_sentence		l1_orangehat.png			anorangehat.m4a	An orange hat.	An orange shirt.^An orange hat.^An orange orange.
+			61006	soundonly_word					guru.m4a	guru	guru^doktor^petani
+			61007	soundonly_word					kucing.m4a	kucing	anjing^kucing^lembu
+			61008	sentence_word		Ini ______.			inilampu.m4a	lampu	lampu^buku^meja
+			61009	image_sentence		budak_lelaki_tinggi.png			seorangbudaklelakitinggi.m4a	Seorang budak lelaki tinggi.	Seorang budak lelaki tinggi.^Seorang budak lelaki.^Seekor kucing kecil.
+			61010	image_sentence		topi_oren.png			sebuahtopioren.m4a	Sebuah topi oren.	Sebuah topi oren.^Sebuah buku hijau.^Sebiji bola merah.
 											
 MiniTest_6_1	3	61011, 61012, 61013, 61014, 61015									
-			61011	soundonly_word					door.m4a	door	window^bathroom^door
-			61012	soundonly_word					earth.m4a	earth	rain^storm^earth
-			61013	sentence_word		Brian cannot ______ high.			briancannotjumphigh.m4a	jump	run^dance^jump
-			61014	image_sentence		l1_littleant.png			alittleant.m4a	A little ant.	A little mouse.^A little ant.^A big cat.
-			61015	image_sentence		l2_blackbear.png			ablackbear.m4a	A black bear.	A black bear.^A black boot.^A black dog.
+			61011	soundonly_word					berlari.m4a	berlari	berenang^berlari^berbasikal
+			61012	soundonly_word					bola_sepak.m4a	bola_sepak	bola_sepak^bola keranjang^bola tenis
+			61013	sentence_word		Ayam di dalam ______.			ayamdidalamsarang.m4a	sarang	sarang^pokok^bilik
+			61014	image_sentence		tiga_kereta.png			tigabuahkereta.m4a	Tiga buah kereta.	Tiga buah kereta.^Dua buah baldi.^Empat biji bola.
+			61015	image_sentence		lima_semut.png			limaekorsemut.m4a	Lima ekor semut.	Lima ekor semut.^Dua ekor singa.^Seekor kucing kecil.
 											
 MiniTest_6_2	1	62001, 62002, 62003, 62004, 62005									
-			62001	image_sentence		l4_1boy2chairs.png			aboyandtwochairs.m4a	A boy and two chairs.	A boy and two chairs.^A spoon and two forks.^Two lemons and a tomato.
-			62002	image_sentence		like_5.png			sameats.m4a	Sam eats.	Sam eats.^Mac plays.^The plant grows.
-			62003	sentence_word		A _____ bus.			ayellowbus.m4a	yellow	yellow^big^black
-			62004	sentence_word		Amy _____ sick.			amyissick.m4a	is	is^are^am
-			62005	soundonly_image					igiveourcowwater.m4a	book_en_314_page_5.png	book_en_314_page_6.png^book_en_314_page_7.png^book_en_314_page_5.png
+			62001	image_sentence		seorang_budak_lelaki_dua_kerusi.png			seorangbudaklelakidanduabuahkerusi.m4a	Seorang budak lelaki dan dua buah kerusi.	Seorang budak lelaki dan dua buah kerusi.^Sebatang sudu dan dua batang garpu.^Dua biji lemon dan sebiji tomato.
+			62002	image_sentence		sebatang_sudu_dua_garpu.png			sebatangsududanduabatanggarpu.m4a	Sebatang sudu dan dua batang garpu.	Seorang budak lelaki dan dua buah kerusi.^Sebatang sudu dan dua batang garpu.^Dua biji lemon dan sebiji tomato.
+			62003	sentence_word		Siti dan Aini _____ makan kentang.			sitidanainisukamakankentang.m4a	suka	suka^ada^beli
+			62004	sentence_word		Buah mangga itu _____.			buahmanggaitusedap.m4a	sedap	sedap^pandai^bersih
+			62005	soundonly_image					book_en_207_page_2_1.m4a	book_en_207_page_2.png	book_en_207_page_2.png^book_en_207_page_3.png^book_en_207_page_5.png
 											
 MiniTest_6_2	2	62006, 62007, 62008, 62009, 62010									
-			62006	image_sentence		l4_1spoon2forks.png			aspoonandtwoforks.m4a	A spoon and two forks.	A boy and two chairs.^A spoon and two forks.^Two lemons and a tomato.
-			62007	image_sentence		like_2.png			macplays.m4a	Mac plays.	Sam eats.^Mac plays.^The plant grows.
-			62008	sentence_word		A pink ______.			apinkdress.m4a	dress	dress^house^shirt
-			62009	sentence_word		I _____ thirsty.			iamthirsty.m4a	am	is^are^am
-			62010	soundonly_image					shelikescarrots.m4a	book_en_314_page_6.png	book_en_314_page_6.png^book_en_314_page_7.png^book_en_314_page_5.png
+			62006	image_sentence		dua_lemon_satu_tomato.png			duabijilemondansebijitomato.m4a	Dua biji lemon dan sebiji tomato.	Seorang budak lelaki dan dua buah kerusi.^Sebatang sudu dan dua batang garpu.^Dua biji lemon dan sebiji tomato.
+			62007	image_sentence		tiga_bulatan_satu_segi_empat.png			tigabulatandansatusegiempat.m4a	Tiga bulatan dan satu segi empat.	Tiga bulatan dan satu segi empat.^Empat biji bola.^Dua buah baldi.
+			62008	sentence_word		Ali _____ pantas.			aliberlaripantas.m4a	berlari	berlari^berjalan^berenang
+			62009	sentence_word		Kumar _____ ke sekolah.			kumarberjalankesekolah.m4a	berjalan	berjalan^berlari^melompat
+			62010	soundonly_image					book_en_207_page_3_1.m4a	book_en_207_page_3.png	book_en_207_page_2.png^book_en_207_page_3.png^book_en_207_page_5.png
 											
 MiniTest_6_2	3	62011, 62012, 62013, 62014, 62015									
-			62011	image_sentence		l4_2lemons1tomato.png			twolemonsandatomato.m4a	Two lemons and a tomato.	A boy and two chairs.^A spoon and two forks.^Two lemons and a tomato.
-			62012	image_sentence		plants_7.png			theplantgrows.m4a	The plant grows.	Sam eats.^Mac plays.^The plant grows.
-			62013	sentence_word		_____ cups.			fourcups.m4a	Four	Four^Ten^Clean
-			62014	sentence_word		My brothers _____ students.			mybrothersarestudents.m4a	are	is^are^am
-			62015	soundonly_image					fathermilksourcoweveryday.m4a	book_en_314_page_7.png	book_en_314_page_6.png^book_en_314_page_7.png^book_en_314_page_5.png
+			62011	image_sentence		seekor_anjing_seekor_kucing.png			seekoranjingdanseekorkucing.m4a	Seekor anjing dan seekor kucing.	Seekor anjing dan seekor kucing.^Dua ekor singa.^Seekor kucing kecil.
+			62012	image_sentence		tiga_buah_kereta.png			tigabuahkereta.m4a	Tiga buah kereta.	Tiga buah kereta.^Dua buah baldi.^Empat biji bola.
+			62013	sentence_word		Ali _____ di sungai.			aliberenangdisungai.m4a	berenang	berenang^berjalan^berlari
+			62014	sentence_word		Mei _____ menyanyi.			meipandaimenyanyi.m4a	pandai	pandai^suka^ada
+			62015	soundonly_image					book_en_207_page_5_1.m4a	book_en_207_page_5.png	book_en_207_page_2.png^book_en_207_page_3.png^book_en_207_page_5.png
 											
 MiniTest_6_3	1	63001, 63002, 63003, 63004, 63005									
-			63001	sentence_word		Choose the right one.			dolphin.m4a	dolphin	dolphin^airplane^sleep
-			63002	sentence_word		Choose the right sentence.			shewalks.m4a	She walks.	She walks.^Shewalks.^she walks
-			63003	sentence_word		They are _______.			theyarefarmers.m4a	farmers	farmers^strong^doctors
-			63004	image_sentence		book_en_328_page_2.png			book_en_328_page_2_1.m4a	This red food can be hot.	This red food can be hot.^Yellow food can be a drink.^This brown food is sweet.
-			63005	sentence_sentence		_________ Rabbit said.			book_en_323_page_7_12.m4a	"I'm sorry,"	"I'm sad,"^"I'm happy,"^"I'm sorry,"
+			63001	sentence_word		Pilih yang betul.			penyu.m4a	penyu	penyu^burung^kuda
+			63002	sentence_word		Pilih ayat yang betul.			burunghelangterbangtinggi.m4a	Burung helang terbang tinggi.	Burung helang terbang tinggi.^Burunghelangterbangtinggi.^burung helang terbang tinggi
+			63003	sentence_word		Ali dan Amir _____ ke sekolah.			alidanamirpergikesekolah.m4a	pergi	pergi^ada^bantu
+			63004	image_sentence		book_en_221_page_1.png			book_en_221_page_1_1.m4a	Saya boleh berenang.	Saya boleh berenang.^Saya makan lalat.^Saya boleh terbang.
+			63005	sentence_sentence		Saya nampak _________.			book_en_228_page_1_1.m4a	pantai	pantai^gunung^gurun
 											
 MiniTest_6_3	2	63006, 63007, 63008, 63009, 63010									
-			63006	sentence_word		Choose the right one.			airplane.m4a	airplane	dolphin^airplane^sleep
-			63007	sentence_word		Choose the right sentence.			birdsfly.m4a	Birds fly.	Birds fly.^Birdsfly.^birds fly
-			63008	sentence_word		He is at _______.			heisatschool.m4a	school	school^home^the park
-			63009	image_sentence		book_en_328_page_5.png			book_en_328_page_5_1.m4a	Yellow food can make a drink.	This red food can be hot.^Yellow food can make a drink.^This brown food is sweet.
-			63010	sentence_sentence		Rabbit said, "____________"			book_en_323_page_2_12.m4a	Let's play a game.	Let's jump.^Let's play a game.^Let's play ball.
+			63006	sentence_word		Pilih yang betul.			zirafah.m4a	zirafah	kerbau^zirafah^gajah
+			63007	sentence_word		Pilih ayat yang betul.			amirbermainbola.m4a	Amir bermain bola.	Amir bermain bola.^Amirbermainbola.^amir bermain bola
+			63008	sentence_word		Aini bantu _____.			ainibantuibu.m4a	ibu	ibu^abang^guru
+			63009	image_sentence		book_en_221_page_6.png			book_en_221_page_6_1.m4a	Saya makan lalat.	Saya boleh berenang.^Saya makan lalat.^Saya boleh terbang.
+			63010	sentence_sentence		Saya nampak _________.			book_en_228_page_2_1.m4a	gunung	pantai^gunung^gurun
 											
 MiniTest_6_3	3	63011, 63012, 63013, 63014, 63015									
-			63011	sentence_word		Choose the right one.			sleep.m4a	sleep	dolphin^airplane^sleep
-			63012	sentence_word		Choose the right sentence.			heplays.m4a	He plays.	He plays.^Heplays.^he plays
-			63013	sentence_word		He doesn't have a _______.			hedoesnthaveapen.m4a	pen	pen^sister^car
-			63014	image_sentence		book_en_328_page_8.png			book_en_328_page_8_1.m4a	This brown food is sweet.	This red food can be hot.^Yellow food can make a drink.^This brown food is sweet.
-			63015	sentence_sentence		_________ said Elephant.			book_en_323_page_4_12.m4a	"Now it is my turn,"	"Now it is my turn,"^"Now let's go,"^"Now we can play,"
+			63011	sentence_word		Pilih yang betul.			kelapa.m4a	kelapa	mangga^nanas^kelapa
+			63012	sentence_word		Pilih ayat yang betul.			sitiberjalankaki.m4a	Siti berjalan kaki.	Siti berjalan kaki.^Sitiberjalankaki.^siti berjalan kaki
+			63013	sentence_word		Lina _____ Kavita suka minum susu.			linadankavitasukaminumsusu.m4a	dan	dan^ada^pergi
+			63014	image_sentence		book_en_221_page_7.png			book_en_221_page_7_1.m4a	Saya boleh terbang.	Saya boleh berenang.^Saya makan lalat.^Saya boleh terbang.
+			63015	sentence_sentence		Saya nampak _________.			book_en_228_page_3_1.m4a	gurun	pantai^gunung^gurun
 											
 PostTest_6	1	6001, 6002, 6003, 6004, 6005, 6006, 6007, 6008, 6009, 6010									
-			6001	soundonly_word					helmet.m4a	helmet	toilet^helmet^sunset
-			6002	image_sentence		l1_orangehat.png			anorangehat.m4a	An orange hat.	An orange shirt.^An orange hat.^A black hat.
-			6003	image_sentence		l4_1lemon2tomatos.png			alemonandtwotomatoes.m4a	A lemon and two tomatoes.	An orange and two tomatoes.^A lemon and two tomatoes.^Two lemons and two tomatoes.
-			6004	image_sentence		l3_5ants.png			fiveants.m4a	Five ants.	Five ants.^Five apples.^Four ants.
-			6005	soundonly_sentence					myhouse.m4a	my house	my desk^my house^your house
-			6006	soundonly_sentence					longsnakes.m4a	long snakes	long snakes^long pants^long pencils
-			6007	soundonly_sentence					goodmorning.m4a	Good morning.	Hello.^Good morning.^Good afternoon.
-			6008	paragraph_sentence	What has no angles?	Let's learn about shapes. A triangle has three sides and three angles. A square has four equal sides and four equal angles. A circle has no angles. It is perfectly round.				A circle.	A triangle.^A square.^A circle.
-			6009	paragraph_sentence	Who milks our cow?	This is our cow. I give our cow water. I give our cow treats. She likes carrots. Father milks our cow every day. We sell some of the milk for money.				Father.	Father.^I.^Our cow.
-			6010	imageseq_sentence		Pomegranates are red.		Papayas are also filled with seeds.	book_en_321_page_34.m4a	They are full of seeds that taste sweet.	Some fruit grow on trees.^They are full of seeds that taste sweet.^Some guavas are pink, too
+			6001	soundonly_word					bukit.m4a	bukit	rumah^jalan^bukit
+			6002	image_sentence		topi_oren.png			sebuahtopioren.m4a	Sebuah topi oren.	Sebuah topi oren.^Sebuah buku hijau.^Seekor beruang perang.
+			6003	image_sentence		dua_lemon_satu_tomato.png			duabijilemondansebijitomato.m4a	Dua biji lemon dan sebiji tomato.	Dua biji lemon dan sebiji tomato.^Tiga bulatan dan satu segi empat.^Sebatang sudu dan dua batang garpu.
+			6004	image_sentence		lima_semut.png			limaekorsemut.m4a	Lima ekor semut.	Lima ekor semut.^Empat biji bola.^Dua buah baldi.
+			6005	soundonly_sentence					cicakadaempatkaki.m4a	Cicak ada empat kaki.	Cicak ada empat kaki.^Lembu makan rumput.^Ravi kuat.
+			6006	soundonly_sentence					lembumakanrumput.m4a	Lembu makan rumput.	Lembu makan rumput.^Hao main dengan adik.^Kami masak di rumah.
+			6007	soundonly_sentence					haomaindenganadik.m4a	Hao main dengan adik.	Hao main dengan adik.^Siti suka kucing.^Amir memancing ikan.
+			6008	paragraph_sentence	Bentuk apa tiada sudut?	Mari belajar tentang bentuk. Segi tiga ada tiga sisi dan tiga sudut. Segi empat sama ada empat sisi yang sama panjang dan empat sudut yang sama. Bulatan tidak ada sudut.				Bulatan.	Segi tiga.^Segi empat sama.^Bulatan.
+			6009	paragraph_sentence	Siapa memerah susu lembu?	Ini lembu kami. Saya beri lembu kami air. Saya beri lembu kami makanan. Lembu kami suka lobak merah. Ayah memerah susu lembu kami setiap hari.				Father.	Ayah.^Saya.^Kakak.
+			6010	imageseq_sentence		Tiada hujan, tiada baju hujan.		Jangan lupa pakai baju hujan!	book_en_217_page_5_1.m4a	Sekarang hujan akan turun!	Bila hujan akan turun?^Sekarang hujan akan turun!^Saya suka hujan!
 											
 PostTest_6	2	6011, 6012, 6013, 6014, 6015, 6016, 6017, 6018, 6019, 6020									
-			6011	soundonly_word					sunset.m4a	sunset	toilet^helmet^sunset
-			6012	image_sentence		l2_blackbear.png			ablackbear.m4a	A black bear.	A black bear.^A white bear.^A black dog.
-			6013	image_sentence		l4_2spoons2forks.png			twospoonsandtwoforks.m4a	Two spoons and two forks.	Two spoons and a fork.^Two spoons and two forks.^A spoon and two forks.
-			6014	image_sentence		l3_2cars.png			twocars.m4a	Two cars.	Two cars.^Two buses.^Three cars.
-			6015	soundonly_sentence					threedogs.m4a	three dogs	three cats^three dogs^four dogs
-			6016	soundonly_sentence					shorthair.m4a	short hair	short hair^long hair^short skirt
-			6017	soundonly_sentence					itisatruck.m4a	It is a truck.	It is a tree.^It is a car.^It is a truck.
-			6018	paragraph_sentence	What has four equal sides and angles?	Let's learn about shapes. A triangle has three sides and three angles. A square has four equal sides and four equal angles. A circle has no angles. It is perfectly round.				A square.	A triangle.^A square.^A circle.
-			6019	paragraph_sentence	What does our cow like?	This is our cow. I give our cow water. I give our cow treats. She likes carrots. Father milks our cow every day. We see some of the milk for money.				Carrots.	Money.^Milk.^Carrots.
-			6020	imageseq_sentence		Fruits can be sweet.		Vegetables can be crunchy.	book_en_330_page_23.m4a	They can be full of vitamins.	They can be full of vitamins.^It can make you strong.^Always drink lots of water.
+			6011	soundonly_word					petani.m4a	petani	petani^lembu^baldi
+			6012	image_sentence		beruang_perang.png			seekorberuangperang.m4a	Seekor beruang perang.	Seekor beruang perang.^Seekor kucing kecil.^Dua ekor singa.
+			6013	image_sentence		sudu_garpu.png			sebatangsududanduabatanggarpu.m4a	Sebatang sudu dan dua batang garpu.	Sebatang sudu dan dua batang garpu.^Seorang budak lelaki dan dua buah kerusi.^Dua biji lemon dan sebiji tomato.
+			6014	image_sentence		tiga_kereta.png			tigabuahkereta.m4a	Tiga buah kereta.	Tiga buah kereta.^Dua buah baldi.^Empat biji bola.
+			6015	soundonly_sentence					cuacahariinicerah.m4a	Cuaca hari ini cerah.	Cuaca hari ini cerah.^Cuaca hari ini hujan.^Saya berlari pantas.
+			6016	soundonly_sentence					inihidung_saya.m4a	Ini hidung saya.	Ini hidung saya.^Ini pipi saya.^Ini mata saya.
+			6017	soundonly_sentence					inimulut_saya.m4a	Ini mulut saya.	Ini mulut saya.^Ini telinga saya.^Ini dahi saya.
+			6018	paragraph_sentence	Bentuk apa ada empat sisi dan empat sudut yang sama?	Mari belajar tentang bentuk. Segi tiga ada tiga sisi dan tiga sudut. Segi empat sama ada empat sisi yang sama panjang dan empat sudut yang sama. Bulatan tidak ada sudut.				Segi empat sama.	Segi tiga.^Segi empat sama.^Bulatan.
+			6019	paragraph_sentence	Lembu suka makan apa?	Ini lembu kami. Saya beri lembu kami air. Saya beri lembu kami makanan. Lembu kami suka lobak merah. Ayah memerah susu lembu kami setiap hari.				Lobak merah.	Pokok.^Susu.^Lobak merah.
+			6020	imageseq_sentence		Saya mengantuk.		Gagak suruh saya bangun.	book_en_220_page_2_1.m4a	Saya perlu bekerja.	Saya perlu bekerja.^Lembu tidak boleh bangunkan saya.^Ayam jantan tidak boleh bangunkan saya.
 											
 MiniTest_7_1	1	71001, 71002, 71003, 71004, 71005									
-			71001	image_sentence		l7_hecandrive.png			hecandrive.m4a	He can drive.	He can drive.^She can drive.^He can draw.
-			71002	image_sentence		l5_shirtdirty.png			thisshirtisdirty.m4a	This shirt is dirty.	This shoe is dirty.^This shirt is clean.^This shirt is dirty.
-			71003	sentence_sentence		Choose the right one.			choosetherightone.m4a	Leo can run fast.	Leo can run fast.^Leo can running fast.^Leo runs can fast.
-			71004	sentence_sentence		Choose the right one.			choosetherightone.m4a	She has a mango.	She has a mango.^She have a mango.^She having a mango.
-			71005	soundonly_image					shemetadolphin.m4a	book_en_319_page_6.png	book_en_319_page_7.png^book_en_319_page_6.png^book_en_319_page_10.png
+			71001	image_sentence		l7_diabolehmelompat.png			diabolehmelompat.m4a	Dia boleh melompat.	Dia boleh melompat.^Dia boleh melukis.^Dia boleh membina bot.
+			71002	image_sentence		l5_butinikotor.png			butinikotor.m4a	But ini kotor.	But ini kotor.^Kasut ini kotor.^Cuaca cerah.
+			71003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Rumah ini besar.	Rumah ini besar.^Rumah ini sangat besar ini.^Rumah besar ini adalah.
+			71004	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Kucing ada empat kaki.	Kucing ada empat kaki.^Kucing ada kaki empat.^Kucing empat ada kaki.
+			71005	soundonly_image					book_en_204_page_3_1.m4a	book_en_204_page_3.png	book_en_204_page_3.png^book_en_204_page_4.png^book_en_204_page_6.png
 											
 MiniTest_7_1	2	71006, 71007, 71008, 71009, 71010									
-			71006	image_sentence		l6_potato.png			itisapotato.m4a	It is a potato.	It is a tomato.^It is a potato.^These are tomatoes.
-			71007	image_sentence		l5_hesick.png			helookssick.m4a	He looks sick.	He looks sick.^She looks sick.^He looks happy.
-			71008	sentence_sentence		Choose the right one.			choosetherightone.m4a	Snakes do not have legs.	Snakes do not have legs.^Snakes are not have legs.^Snakes have not legs.
-			71009	sentence_sentence		Choose the right one.			choosetherightone.m4a	They have mangoes.	They have mangoes.^They has mangoes.^They having mangoes.
-			71010	soundonly_image					shemetasnail.m4a	book_en_319_page_7.png	book_en_319_page_7.png^book_en_319_page_6.png^book_en_319_page_10.png
+			71006	image_sentence		l6_itusebijikentang.png			itusebijikentang.m4a	Itu sebiji kentang.	Itu sebiji kentang.^Ini buah anggur.^Dua biji lemon dan sebiji tomato.
+			71007	image_sentence		l5_diagembira.png			diagembira.m4a	Dia gembira.	Dia gembira.^Dia sedih.^Budak lelaki itu tinggi.
+			71008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ali berlari pantas.	Ali berlari pantas.^Ali pantas berlari dia.^Ali berlari adalah pantas.
+			71009	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mei beli pisang.	Mei beli pisang.^Mei pisang beli.^Mei beli kepada pisang.
+			71010	soundonly_image					book_en_204_page_4_1.m4a	book_en_204_page_4.png	book_en_204_page_3.png^book_en_204_page_4.png^book_en_204_page_6.png
 											
 MiniTest_7_1	3	71011, 71012, 71013, 71014, 71015									
-			71011	image_sentence		l6_carrots.png			thesearecarrots.m4a	These are carrots.	This is not a carrot.^There are onions.^These are carrots.
-			71012	image_sentence		l6_shesinger.png			sheisasinger.m4a	She is a singer.	She is a teacher.^She is a singer.^She is a nurse.
-			71013	sentence_sentence		Choose the right one.			choosetherightone.m4a	She does not like dogs.	She does not like dogs.^She are not like dogs.^She not like dogs.
-			71014	sentence_sentence		Choose the right one.			choosetherightone.m4a	I want a mango.	I want a mango.^I wants a mango.^I wanting a mango.
-			71015	soundonly_image					shesatonhermom.m4a	book_en_319_page_10.png	book_en_319_page_7.png^book_en_319_page_6.png^book_en_319_page_10.png
+			71011	image_sentence		l6_inibuahanggur.png			inibuahanggur.m4a	Ini buah anggur.	Ini buah anggur.^Itu sebiji kentang.^Sebiji mangga kuning.
+			71012	image_sentence		l6_diaseorangguru.png			diaseorangguru.m4a	Dia seorang guru.	Dia seorang guru.^Dia seorang jururawat.^Dia seorang tukang masak.
+			71013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Saya lapar.	Saya lapar.^Saya ialah lapar.^Saya lapar makan.
+			71014	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Hao gosok gigi.	Hao gosok gigi.^Hao gigi gosok.^Hao gosok kepada gigi.
+			71015	soundonly_image					book_en_204_page_6_1.m4a	book_en_204_page_6.png	book_en_204_page_3.png^book_en_204_page_4.png^book_en_204_page_6.png
 											
 MiniTest_7_2	1	72001, 72002, 72003, 72004, 72005									
-			72001	image_sentence		l8_heeatingsalad.png			heiseatingsalad.m4a	He is eating salad.	He is eating chicken.^He is eating rice.^He is eating salad.
-			72002	image_sentence		l8_sheswimming.png			sheisswimming.m4a	She is swimming.	She is shopping.^He is swimming.^She is swimming.
-			72003	sentence_sentence		Choose the right one.			choosetherightone.m4a	The plant is green.	The plant green.^The plant green is.^The plant is green.
-			72004	sentence_sentence		Choose the right one.			choosetherightone.m4a	They eat fast.	They eats fast.^They eat fast.^They eating fast.
-			72005	sentence_word		I need _____.			ineedpaper.m4a	paper	paper^pencil^envelope
+			72001	image_sentence		l8_diamakansalad.png			diamakansalad.m4a	Dia makan salad.	Dia makan ikan.^Dia makan nasi.^Dia makan salad.
+			72002	image_sentence		l8_diaberenang.png			diaberenang.m4a	Dia berenang.	Dia memasak.^Dia berlari.^Dia berenang.
+			72003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ini buku biru.	Ini buku biru.^Ini biru buku.^Ini buku adalah biru.
+			72004	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Bas ini kuning.	Bas ini kuning.^Bas kuning ini adalah.^Bas ini warna kuning punya.
+			72005	sentence_word		Rumah ini _____.			rumahinibesar.m4a	besar	besar^kecil^kotor
 											
 MiniTest_7_2	2	72006, 72007, 72008, 72009, 72010									
-			72006	image_sentence		l9_rabbitundertable.png			arabbitisunderthetable.m4a	A rabbit is under the table.	A rabbit is on the table.^A rabbit is under the table.^A cat is under the table.
-			72007	image_sentence		l7_hecandrive.png			hecandrive.m4a	He can drive.	He can drive.^She can drive.^He can draw.
-			72008	sentence_sentence		Choose the right one.			choosetherightone.m4a	The milk is delicious.	The milk delicious is.^The milk is delicious.^The milk delicious.
-			72009	sentence_sentence		Choose the right one.			choosetherightone.m4a	She runs fast.	She runs fast.^She fast runs.^She running fast.
-			72010	sentence_word		I need a _____.			ineedapencil.m4a	pencil	paper^pencil^envelope
+			72006	image_sentence		l9_anjingdibawahmeja.png			anjingdibawahmeja.m4a	Seekor anjing di bawah meja.	Seekor anjing di atas meja.^Seekor anjing di bawah meja.^Seekor kucing di bawah meja.
+			72007	image_sentence		l7_diabolehmelompat.png			diabolehmelompat.m4a	Dia boleh melompat.	Dia boleh melompat.^Dia boleh melukis.^Dia boleh membina bot.
+			72008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Rumah itu besar.	Rumah itu besar.^Rumah besar itu adalah.^Rumah itu sangat besar ini.
+			72009	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Siti sangat lapar.	Siti sangat lapar.^Siti ialah sangat lapar.^Siti lapar sangat dia.
+			72010	sentence_word		Ini _____ saya.			iniibusaya.m4a	ibu	ibu^abang^bapa
 											
 MiniTest_7_2	3	72011, 72012, 72013, 72014, 72015									
-			72011	image_sentence		l9_teachersitschair.png			ateachersitsinthechair.m4a	A teacher sits in the chair.	A teacher sits in the chair.^A teacher cleans the chair.^A boy sits in the chair.
-			72012	image_sentence		l8_heeatingfish.png			heiseatingfish.m4a	He is eating fish.	They are eating fish.^He is eating fish.^He is eating salad.
-			72013	sentence_sentence		Choose the right one.			choosetherightone.m4a	He has bananas.	He have bananas.^He has bananas.^He is have bananas.
-			72014	sentence_sentence		Choose the right one.			choosetherightone.m4a	Mary eats many apples.	Mary eats many apples.^Mary many apples eats.^Mary eating many apples.
-			72015	sentence_word		I need an _____.			ineedanenvelop.m4a	envelope	paper^pencil^envelope
+			72011	image_sentence		l9_budaklelakidudukdiataskerusi.png			budaklelakidudukdiataskerusi.m4a	Seorang budak lelaki duduk di atas kerusi.	Seorang budak lelaki duduk di atas kerusi.^Seorang budak lelaki di sebelah pokok.^Budak lelaki itu tinggi.
+			72012	image_sentence		l8_diamemasak.png			diamemasak.m4a	Dia memasak.	Dia memasak.^Dia berlari.^Dia berenang.
+			72013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Amir bermain bola.	Amir bermain bola.^Amir bola bermain.^Amir bermain kepada bola.
+			72014	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Kakak berjalan kaki.	Kakak berjalan kaki.^Kakak kaki berjalan.^Kakak berjalan dengan kaki-kaki.
+			72015	sentence_word		Di mana _____ kamu?			dimanapenselkamu.m4a	pensel	pensel^beg^pen
 											
 MiniTest_7_3	1	73001, 73002, 73003, 73004, 73005									
-			73001	soundonly_image					shelikestheyellowshoes.m4a	l11_shelikesyellowshoes.png	l11_shelikesyellowshoes.png^l11_shelikespinkshoes.png^l11_shelikespinkhat.png
-			73002	soundonly_image					surprised.m4a	emotions_6_cropped_surprised.png	emotions_6_cropped_surprised.png^emotions_5_cropped_excited.png^emotions_3_cropped_angry.png
-			73003	sentence_sentence		Choose the right one.			choosetherightone.m4a	Mary eats an apple.	Mary eats a apples.^Mary eats an apple.^Mary eating apple.
-			73004	sentence_sentence		Mouse said, “Please, Lion. ______________”			book_en_401_page_3_234.m4a	Do not eat me.	Do not eat me.^I will help you.^That is silly.
-			73005	sentence_sentence		This kitten has _________. 			book_en_403_page_2_1.m4a	four legs	four legs^two legs^no legs
+			73001	soundonly_image					diadidapur.m4a	l9_diadidapur.png	l9_diadidapur.png^l9_bolaitudibawahmeja.png^l9_burungdilangit.png
+			73002	soundonly_image					anjingdibawahmeja.m4a	l9_anjingdibawahmeja.png	l9_anjingdibawahmeja.png^l9_kucingdiataskotak.png^l9_begitudibawahkatil.png
+			73003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mary makan sebiji epal.	Mary makan sebiji epal.^Mary makan seekor epal.^Mary sebiji epal makan.
+			73004	sentence_sentence		Ibu selalu buat ______________.			book_en_213_page_2_1.m4a	kerja rumah	kerja rumah^idea^Hari ini
+			73005	sentence_sentence		Ini seorang _________. 			book_en_206_page_2_1.m4a	bayi	bayi^ibu^nenek
 											
 MiniTest_7_3	2	73006, 73007, 73008, 73009, 73010									
-			73006	soundonly_image					thegirlhasgreenmangoes.m4a	l11_girlhasgreenmangoes.png	l11_girlhasgreenbananas.png^l11_girlhasgreenmangoes.png^l11_shehasball.png
-			73007	soundonly_image					excited.m4a	emotions_5_cropped_excited.png	emotions_6_cropped_surprised.png^emotions_5_cropped_excited.png^emotions_3_cropped_angry.png
-			73008	sentence_sentence		Choose the right one.			choosetherightone.m4a	He sings a song.	He sings song.^He singing a song.^He sings a song.
-			73009	sentence_sentence		Mouse said, “Let me go. Someday, ________"			book_en_401_page_4_12.m4a	I will help you.	Do not eat me.^I will help you.^That is silly.
-			73010	sentence_sentence		These two fish do not have _________. 			book_en_403_page_3_1.m4a	legs	legs^eyes^tails
+			73006	soundonly_image					kucingdiataskotak.m4a	l9_kucingdiataskotak.png	l9_kucingdiataskotak.png^l9_anjingdibawahmeja.png^l9_katakdiatasdaun.png
+			73007	soundonly_image					budaklelakidudukdiataskerusi.m4a	l9_budaklelakidudukdiataskerusi.png	l9_budaklelakidudukdiataskerusi.png^l9_budaklelakidisebelahpokok.png^l9_diadidapur.png
+			73008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Dia menyanyi lagu.	Dia menyanyi lagu.^Dia lagu menyanyi.^Dia menyanyi kepada lagu.
+			73009	sentence_sentence		Hao ada ________ yang baik.			book_en_213_page_4_1.m4a	idea	kerja rumah^idea^Hari ini
+			73010	sentence_sentence		Ini seorang _________. 			book_en_206_page_6_1.m4a	ibu	bayi^ibu^nenek
 											
 MiniTest_7_3	3	73011, 73012, 73013, 73014, 73015									
-			73011	soundonly_image					thegirlhasgreenbananas.m4a	l11_girlhasgreenbananas.png	l11_girlhasgreenbananas.png^l11_girlhasgreenmangoes.png^l11_shehasball.png
-			73012	soundonly_image					angry.m4a	emotions_3_cropped_angry.png	emotions_6_cropped_surprised.png^emotions_5_cropped_excited.png^emotions_3_cropped_angry.png
-			73013	sentence_sentence		Choose the right one.			choosetherightone.m4a	They drink milk.	They drink milk.^They milk drink.^They drinking milk.
-			73014	sentence_sentence		Lion said, "__________"			book_en_401_page_5_12.m4a	That is silly.	Do not eat me.^I will help you.^That is silly.
-			73015	sentence_sentence		These four birds have __________ each.			book_en_403_page_5_1.m4a	two legs	four legs^two legs^no legs
+			73011	soundonly_image					bolaitudibawahmeja.m4a	l9_bolaitudibawahmeja.png	l9_bolaitudibawahmeja.png^l9_buahepaldi_dalambakul.png^l9_begitudibawahkatil.png
+			73012	soundonly_image					burungdilangit.m4a	l9_burungdilangit.png	l9_burungdilangit.png^l9_katakdiatasdaun.png^l9_kucingdiataskotak.png
+			73013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mereka minum susu.	Mereka minum susu.^Mereka susu minum.^Mereka minum kepada susu.
+			73014	sentence_sentence		__________ dia akan buat kerja rumah!			book_en_213_page_5_1.m4a	Hari ini	kerja rumah^idea^Hari ini
+			73015	sentence_sentence		Ini seorang _________. 			book_en_206_page_9_1.m4a	nenek	bayi^ibu^nenek
 											
 PostTest_7	1	7001, 7002, 7003, 7004, 7005, 7006, 7007, 7008, 7009, 7010									
-			7001	sentence_sentence		Who is he?				He is my brother.	It is a chair.^He is my brother.^I am a student.
-			7002	sentence_sentence		Are you happy?				Yes, I am.	Yes, I am.^Yes, it is.^Yes, they are.
-			7003	soundonly_image					acatisunderthetable.m4a	l9_catundertable.png	l9_catundertable.png^l9_dogundertable.png^l9_catonbox.png
-			7004	soundonly_image					thebagisnexttothebed.m4a	l10_bagnextbed.png	l10_bagonbed.png^l10_bagunderbed.png^l10_bagnextbed.png
-			7005	soundonly_sentence					theyarefarmers.m4a	They are farmers.	He is a farmer.^They are not farmers.^They are farmers.
-			7006	soundonly_sentence					sheisnotyoung.m4a	She is not young.	She is young.^She is not young.^He is very young.
-			7007	sentence_sentence		Choose the right one.			choosetherightone.m4a	He swims fast.	He swim fast.^He swimming fast.^He swims fast.
-			7008	sentence_sentence		Choose the right one.			choosetherightone.m4a	The dogs run every day.	The dogs runs every day.^The dogs run every day.^The dogs are run every day.
-			7009	imageseq_sentence		Cows make milk.		A baby cow is called a calf.	book_en_347_page_45_121.m4a	Baby cows eat grass.	Baby cows eat grass.^Som people eat cows.^I don't drink milk.
-			7010	imageseq_image		book_en_349_page_2.png		book_en_349_page_6.png	book_en_349_page_246.m4a	book_en_349_page_4.png	book_en_349_page_4.png^book_en_349_page_5.png^book_en_349_page_3.png
+			7001	sentence_sentence		Siapa dia?				Dia abang saya.	Itu kerusi.^Dia abang saya.^Saya seorang murid.
+			7002	sentence_sentence		Adakah kamu gembira?				Ya, saya gembira.	Ya, saya gembira.^Ya, betul.^Ya, mereka gembira.
+			7003	soundonly_image					sebijibolamerah.m4a	l_ball_red.png	l_ball_red.png^l_ball_blue.png^l_ball_green.png
+			7004	soundonly_image					seekorkucingkecil.m4a	l_cat_small.png	l_cat_small.png^l_dog_small.png^l_cat_big.png
+			7005	soundonly_sentence					badakitubesar.m4a	Badak itu besar.	Badak itu besar.^Tikus itu kecil.^Lori itu besar.
+			7006	soundonly_sentence					iniseekorgajah.m4a	Ini seekor gajah.	Ini seekor gajah.^Ini seekor singa.^Ini seekor itik.
+			7007	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Siti gembira.	Siti gembira.^Siti dalam gembira.^Siti dan gembira.
+			7008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ali tinggi.	Ali tinggi.^Ali adalah tinggi.^Ali ke tinggi.
+			7009	imageseq_sentence		Saya boleh buat bentuk.		Saya boleh buat gula-gula.	book_en_218_page_2_1.m4a	Saya boleh buat bot!	Saya boleh buat bot!^Saya boleh buat kereta!^Saya boleh buat kapal terbang!
+			7010	imageseq_image		book_en_221_page_1.png		book_en_221_page_3.png	book_en_221_page_2_1.m4a	book_en_221_page_2.png	book_en_221_page_2.png^book_en_221_page_4.png^book_en_221_page_5.png
 											
 PostTest_7	2	7011, 7012, 7013, 7014, 7015, 7016, 7017, 7018, 7019, 7020									
-			7011	sentence_sentence		What's this?				It's a frog.	I'm good.^He is sad.^It's a frog.
-			7012	sentence_sentence		Is she a doctor?				No, she isn't.	No, I am not.^No, she isn't.^No, it isn't.
-			7013	soundonly_image					shestandsnexttothetree.m4a	l9_shestandtree.png	l9_shestandtree.png^l9_theystandtree.png^l9_hestandtree.png
-			7014	soundonly_image					thebirdsareontheroof.m4a	l10_birdsonroof.png	l10_birdsinsky.png^l10_birdsinnest.png^l10_birdsonroof.png
-			7015	soundonly_sentence					heisatschool.m4a	He is at school.	He is at home.^He is at school.^I am at school.
-			7016	soundonly_sentence					iamnottall.m4a	I am not tall.	I am not tall.^I am tall.^He is not tall.
-			7017	sentence_sentence		Choose the right one.			choosetherightone.m4a	She runs fast.	She running fast.^She runs fast.^She run fast.
-			7018	sentence_sentence		Choose the right one.			choosetherightone.m4a	They play a game.	They play a game.^They are play a game.^They plays a game.
-			7019	imageseq_sentence		Kelvin and Baba wake up with the sun.		Kelvin does, too.	book_en_349_page_23.m4a	Baba washes his face.	Baba washes his face.^Kelvin washes his hands.^They work all day.
-			7020	imageseq_image		book_en_347_page_1.png		book_en_347_page_7.png	book_en_347_page_137.m4a	book_en_347_page_3.png	book_en_347_page_3.png^book_en_347_page_5.png^book_en_347_page_4.png
+			7011	sentence_sentence		Apa ini?				Ini seekor katak.	Saya baik.^Dia sedih.^Ini seekor katak.
+			7012	sentence_sentence		Adakah dia seorang doktor?				Tidak, dia bukan doktor.	Tidak, saya tidak.^Tidak, dia bukan doktor.^Tidak, bukan saya.
+			7013	soundonly_image					diaberlari.m4a	l_boy_running.png	l_boy_running.png^l_boy_drawing.png^l_boy_swimming.png
+			7014	soundonly_image					katakdiatasdaun.m4a	l_frogonleaf.png	l_frogonleaf.png^l_catonbox.png^l_dogundertable.png
+			7015	soundonly_sentence					aliialahabangsaya.m4a	Ali ialah abang saya.	Ali ialah abang saya.^Ali ialah bapa saya.^Ali ialah datuk saya.
+			7016	soundonly_sentence					inibungamatahari.m4a	Ini bunga matahari.	Ini bunga matahari.^Ini buku merah.^Ini beg saya.
+			7017	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Amir membaca buku.	Amir membaca buku.^Amir membaca di buku.^Amir buku membaca.
+			7018	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Burung terbang tinggi.	Burung terbang tinggi.^Burung tinggi terbang.^Burung terbang di tinggi.
+			7019	imageseq_sentence		Kita boleh buat apa sahaja!		Kita boleh berkawan!	book_en_218_page_5_1.m4a	Saya boleh buat lubang.	Saya boleh buat lubang.^Saya boleh buat bintang.^Saya boleh buat bunga.
+			7020	imageseq_image		book_en_221_page_3.png		book_en_221_page_5.png	book_en_221_page_4_1.m4a	book_en_221_page_4.png	book_en_221_page_2.png^book_en_221_page_4.png^book_en_221_page_6.png
 											
 MiniTest_8_1	1	81001, 81002, 81003, 81004, 81005									
-			81001	image_sentence		l13_lionbetweentrees.png			thelionisbetweenthetrees.m4a	The lion is between the trees.	The lion is between the trees.^The lion is in front of the trees.^The lion is behind the trees.
-			81002	soundonly_image					hecan'tcookwell.m4a	l12_hecantcookwell.png	l12_shecancookwell.png^l12_theycannotcookwell.png^l12_hecantcookwell.png
-			81003	sentence_sentence		Choose the right one.			choosetherightone.m4a	It is not sunny today.	It is not sunny today.^It not sunny today.^It not is sunny today.
-			81004	sentence_sentence		Choose the right one.			choosetherightone.m4a	You have big hands.	You have big hands.^You has big hands.^You are have big hands.
-			81005	soundonly_image					wouldyouliketobeorangelikefish.m4a	book_en_406_page_3.png	book_en_406_page_4.png^book_en_406_page_3.png^book_en_406_page_2.png
+			81001	image_sentence		l13_anjingdiantarahaiwan.png			anjingdiantarakambingdanbiribiri.m4a	Anjing itu di antara kambing dan biri-biri.	Anjing itu di antara kambing dan biri-biri.^Anjing itu di depan kambing dan biri-biri.^Anjing itu di belakang kambing dan biri-biri.
+			81002	soundonly_image					diaseorangtukangmasak.m4a	l12_diaseorangtukangmasak.png	l12_diaseorangguru.png^l12_diaseorangjururawat.png^l12_diaseorangtukangmasak.png
+			81003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ming tanam petola di kebun.	Ming tanam petola di kebun.^Ming tanam kebun di petola.^Ming petola tanam di kebun.
+			81004	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mei berkelah di tepi pantai.	Mei berkelah di tepi pantai.^Mei pergi berkelah tepi pantai.^Mei pantai berkelah di tepi.
+			81005	soundonly_image					book_en_415_page_3_2.m4a	book_en_415_page_3.png	book_en_415_page_3.png^book_en_415_page_4.png^book_en_415_page_6.png
 											
 MiniTest_8_1	2	81006, 81007, 81008, 81009, 81010									
-			81006	image_sentence		l13_oldmanfrontgirl.png			theoldmanisinfrontofthegirl.m4a	The old man is in front of the girl.	The old man is in front of the girl.^The old man is behind the girl.^The old man is next to the girl.
-			81007	soundonly_image					shecannotreadwell.m4a	l12_shecannotreadwell.png	l12_hecannotreadwell.png^l12_shecannotreadwell.png^l12_shecannotwritewell.png
-			81008	sentence_sentence		Choose the right one.			choosetherightone.m4a	The boys are not tall.	The boys are not tall.^They boys not tall.^The boys not are tall.
-			81009	sentence_sentence		Choose the right one.			choosetherightone.m4a	She has a long neck.	She has a long neck.^She have a long neck.^She is have a long neck.
-			81010	soundonly_image					wouldyouliketohaveeightarmslikeanoctopus.m4a	book_en_406_page_2.png	book_en_406_page_4.png^book_en_406_page_3.png^book_en_406_page_2.png
+			81006	image_sentence		l13_datukdiantarabudaklelaki.png			datukdiantaraalidanamir.m4a	Datuk di antara Ali dan Amir.	Datuk di antara Ali dan Amir.^Datuk di depan Ali dan Amir.^Datuk di belakang Ali dan Amir.
+			81007	soundonly_image					linasukamembacabuku.m4a	l12_linasukamembacabuku.png	l12_budaklelakimelukis.png^l12_linasukamembacabuku.png^l12_diamelukis.png
+			81008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Aini baring di bilik tidur.	Aini baring di bilik tidur.^Aini baring ke tidur bilik.^Aini bilik tidur di baring.
+			81009	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Adik siram pokok bunga.	Adik siram pokok bunga.^Adik siram bunga pokok.^Adik pokok bunga siram.
+			81010	soundonly_image					book_en_415_page_4_1.m4a	book_en_415_page_4.png	book_en_415_page_3.png^book_en_415_page_4.png^book_en_415_page_6.png
 											
 MiniTest_8_1	3	81011, 81012, 81013, 81014, 81015									
-			81011	image_sentence		l12_shecannotwritewell.png			shecannotwritewell.m4a	She cannot write well.	She cannot write well.^She cannot cook well.^She cannot jump well.
-			81012	soundonly_image					thecatisbehindthebox.m4a	l13_catbehindbox.png	l13_catbetweenboxes.png^l13_catfrontbox.png^l13_catbehindbox.png
-			81013	sentence_sentence		Choose the right one.			choosetherightone.m4a	It is not cold today.	It is not cold today.^It not cold today.^It not is cold today.
-			81014	sentence_sentence		Choose the right one.			choosetherightone.m4a	This is my mouth.	This is my mouth.^This are my mouth.^This am my mouth.
-			81015	soundonly_image					wouldyouliketojumpandplaylikeadolphin.m4a	book_en_406_page_4.png	book_en_406_page_4.png^book_en_406_page_3.png^book_en_406_page_2.png
+			81011	image_sentence		l12_budaklelakimelukis.png			budaklelakiitumelukis.m4a	Budak lelaki itu melukis.	Budak lelaki itu melukis.^Budak lelaki itu berlari.^Budak lelaki itu berenang.
+			81012	soundonly_image					kucingdidepankotak.m4a	l13_kucingdidepankotak.png	l13_kucingdiataskotak.png^l13_kucingdidepankotak.png^l13_anjingdibawahmeja.png
+			81013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Kucing tidur di atas sofa.	Kucing tidur di atas sofa.^Kucing sofa di atas tidur.^Kucing sofa tidur di atas.
+			81014	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Helang terbang di langit.	Helang terbang di langit.^Helang di terbang langit.^Helang langit terbang di.
+			81015	soundonly_image					book_en_415_page_6_1.m4a	book_en_415_page_6.png	book_en_415_page_3.png^book_en_415_page_4.png^book_en_415_page_6.png
 											
 MiniTest_8_2	1	82001, 82002, 82003, 82004, 82005									
-			82001	soundonly_sentence					iwasangry.m4a	I was angry.	I was angry.^I did angry.^I were angry.
-			82002	sentence_word		Look at the frogs __________.			lookatthefrogsontherock.m4a	on the rock	on the rock^in the sky^in the nest
-			82003	sentence_word		This is __________.			thisismybag.m4a	my bag	my bag^me bag^I bag.
-			82004	listeningcomp_sentence	en_uk_lc_2_4_story.m4a	What is this story about?				It is about bugs.	It is about bugs.^It is about food.^It is about people.
-			82005	paragraph_sentence	What does Jabiri like to do?	Jabiri likes to cook. He cooks with his mom. They cook dinner for their family. It is nice to cook for family. 				He likes to cook.	He likes to cook.^He likes to read.^He likes to jump.
+			82001	soundonly_sentence					datukdiantaraalidanamir.m4a	Datuk di antara Ali dan Amir.	Datuk di antara Ali dan Amir.^Datuk antara Ali dan Amir.^Datuk di antara Ali.
+			82002	sentence_word		Kucing di __________ kotak.			kucingdidepankotak.m4a	depan	depan^bawah^atas
+			82003	sentence_word		Datuk di antara __________.			datukdiantaraalidanamir.m4a	Ali dan Amir	Ali dan Amir^Ali dengan Amir^Ali
+			82004	listeningcomp_sentence	en_uk_lc_3_3_story.m4a	Ali tinggal di mana?				Tepi laut	Tepi laut^Gunung^Jalan raya
+			82005	paragraph_sentence	Lina memasak dengan siapa?	Lina suka masak. Lina masak dengan ibu. Mereka masak di dapur.				Ibu	Ibu^Bapa^Nenek
 											
 MiniTest_8_2	2	82006, 82007, 82008, 82009, 82010									
-			82006	soundonly_sentence					hewascute.m4a	He was cute.	He was cute.^He were cute.^He did cute.
-			82007	sentence_word		The boy is __________.			theboyisunderthetable.m4a	under the table	under the table^in the room^on the box
-			82008	sentence_word		They are __________.			theyarehiscats.m4a	his cats	his cats^he cats^him cats
-			82009	listeningcomp_sentence	en_uk_lc_2_4_story.m4a	Where are bugs?				They are everywhere.	They are everywhere.^They are in the ocean.^We cannot see them.
-			82010	paragraph_sentence	Does Jabiri cook with his dad?	Jabiri likes to cook. He cooks with his mom. They cook dinner for their family. It is nice to cook for family. 				No, he does not.	Yes, he does.^No, he does not.^We do not know.
+			82006	soundonly_sentence					kumarberdiriditepiperhentianbas.m4a	Kumar berdiri di tepi perhentian bas.	Kumar berdiri di tepi perhentian bas.^Kumar berdiri tepi perhentian bas.^Kumar di tepi perhentian bas.
+			82007	sentence_word		Ming kayuh __________.			mingkayuhbasikal.m4a	basikal	basikal^kereta^kayuh basikal
+			82008	sentence_word		Kumar berdiri di tepi __________.			kumarberdiriditepiperhentianbas.m4a	perhentian bas	perhentian bas^berhenti bas^bas
+			82009	listeningcomp_sentence	en_uk_lc_3_3_story.m4a	Ali dan ayah buat apa setiap pagi?				Tangkap ikan	Tangkap ikan^Tanam sayur^Buka kedai
+			82010	paragraph_sentence	Lina suka buat apa?	Lina suka masak. Lina masak dengan ibu. Mereka masak di dapur.				Memasak	Memasak^Membersih^Berjalan
 											
 MiniTest_8_2	3	82011, 82012, 82013, 82014, 82015									
-			82011	soundonly_sentence					theywerekind.m4a	They were kind.	They were kind.^They was kind.^They did kind.
-			82012	sentence_word		The bus stop is _________ the school.			thebusstopisinfrontoftheschool.m4a	in front of	in front of^between^next to
-			82013	sentence_word		She likes __________.			shelikesherdress.m4a	her dress	her dress^she dress^you dress
-			82014	listeningcomp_sentence	en_uk_lc_2_4_story.m4a	Why is it sometimes hard to see bugs?				Because they are so small.	Because they are so small.^Because they are so big.^Because they are sad.
-			82015	paragraph_sentence	Does Jabiri cook dinner with his mom?	Jabiri likes to cook. He cooks with his mom. They cook dinner for their family. It is nice to cook for family. 				Yes, he does.	Yes, he does.^No, he does not.^We do not know.
+			82011	soundonly_sentence					rumahdisebelahpokok.m4a	Rumah di sebelah pokok.	Rumah di sebelah pokok.^Rumah sebelah pokok.^Rumah di sebelah.
+			82012	sentence_word		Rumah di sebelah __________.			rumahdisebelahpokok.m4a	pokok	pokok^sekolah^kotak
+			82013	sentence_word		Aini mahu __________.			ainimahutidur.m4a	tidur	tidur^makan^minum
+			82014	listeningcomp_sentence	en_uk_lc_3_3_story.m4a	Mereka jual ikan di mana?				Pasar	Pasar^Sekolah^Rumah
+			82015	paragraph_sentence	Mereka masak di mana?	Lina suka masak. Lina masak dengan ibu. Mereka masak di dapur.				Dapur	Dapur^Bilik^Ruang tamu
 											
 MiniTest_8_3	1	83001, 83002, 83003, 83004, 83005									
-			83001	soundonly_image					theboywantstobeadoctor.m4a	l16_hewantsdoctor.png	l16_hewantsteacher.png^l16_girlwantsdoctor.png^l16_hewantsdoctor.png
-			83002	sentence_sentence		Choose the right one.			choosetherightone.m4a	She is seven years old.	She is seven years old.^She seven old years.^she is sevenyearsold
-			83003	paragraph_sentence		Etana loves beans. _____________ She is very happy when her dad cooks beans. Her dad adds just the right amount of salt. The beans are very tasty.			en_uk_lc_2_5_story.m4a	Beans are her favorite food.	Beans are her favorite food.^She likes mangoes.^Carrots are her favorite food.
-			83004	sentence_sentence		He caught _______.			hecaughtnothing.m4a	nothing	nothing^animals^birds
-			83005	sentence_sentence		Mother says, "______________"			mothersaysyouaretoodirty.m4a	You are too dirty!	Now I like to wash!^I don't want to wash!^You are too dirty!
+			83001	soundonly_image					mingkayuhbasikal.m4a	l16_mingkayuhbasikal.png	l16_mingkayuhbasikal.png^l16_kumaradakambing.png^l16_ainimahutidur.png
+			83002	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ravi sangat gembira.	Ravi sangat gembira.^Ravi gembira sangat.^Sangat Ravi gembira.
+			83003	paragraph_sentence		_____________. Ayah masak petai dengan sambal. Petai itu sangat sedap.			mt83_83003_answer.m4a	Kavita suka makan petai.	Kavita suka makan petai.^Ayah masak petai dengan sambal.^Petai itu sangat sedap.
+			83004	sentence_sentence		_____________. Ravi tidak dapat apa-apa. Haiwan nampak Ravi lalu lari. 			book_en_405_page_1_1.m4a	Ravi pergi memburu.	Ravi pergi memburu.^Ravi tidak dapat apa-apa.^Haiwan nampak Ravi lalu lari.
+			83005	sentence_sentence		Ibu kata, “Kamu sangat kotor! ___________”			book_en_404_page_4_3.m4a	Ambil sabun ini dan mandi.	Sekarang saya akan mandi.^Kamu sangat kotor!^Ambil sabun ini dan mandi.
 											
 MiniTest_8_3	2	83006, 83007, 83008, 83009, 83010									
-			83006	soundonly_image					thegirlwantstobeadoctor.m4a	l16_girlwantsdoctor.png	l16_hewantsteacher.png^l16_girlwantsdoctor.png^l16_hewantsdoctor.png
-			83007	sentence_sentence		Choose the right one.			choosetherightone.m4a	He has three brothers.	He has three brothers.^He threebrothers has.^he has threebrothers
-			83008	paragraph_sentence		Etana loves beans. Beans are her favorite food. She is very happy when her dad cooks beans. Her dad adds just the right amount of salt. _________________			en_uk_lc_2_5_story.m4a	The beans are very tasty.	The beans are very tasty.^The beans are not tasty.^She doesn't like beans.
-			83009	sentence_sentence		Masha went hunting ________.			mashawenthuntingatnight.m4a	at night	in the day^every day^at night
-			83010	sentence_sentence		Nia says, "___________"			niasaysidon'twanttowash.m4a	I don't want to wash!	Now I like to wash!^I don't want to wash!^You are too dirty!
+			83006	soundonly_image					kumardankavitamahubelipisang.m4a	l16_kumardankavitamahubelipisang.png	l16_kumardankavitamahubelipisang.png^l16_ravimahujadidoktor.png^l16_aliandamirpergiberenang.png
+			83007	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Tupai melompat tinggi.	Tupai melompat tinggi.^Tupai tinggi melompat.^Melompat tupai tinggi.
+			83008	paragraph_sentence		Kavita suka makan petai. _____________. Petai itu sangat sedap.			mt83_83008_answer.m4a	Ayah masak petai dengan sambal.	Ayah masak petai dengan sambal.^Kavita suka makan petai.^Petai itu sangat sedap.
+			83009	sentence_sentence		Ravi pergi memburu. _____________. Haiwan nampak Ravi lalu lari. 			book_en_405_page_1_2.m4a	Ravi tidak dapat apa-apa.	Ravi tidak dapat apa-apa.^Ravi pergi memburu.^Haiwan nampak Ravi lalu lari.
+			83010	sentence_sentence		Aini kata, “___________” Aini menendang sabun itu.			book_en_404_page_5_2.m4a	Saya tidak mahu mandi.	Sekarang saya akan mandi.^Saya tidak mahu mandi.^Ambil sabun ini dan mandi.
 											
 MiniTest_8_3	3	83011, 83012, 83013, 83014, 83015									
-			83011	soundonly_image					theboywantstobeateacher.m4a	l16_hewantsteacher.png	l16_hewantsteacher.png^l16_girlwantsdoctor.png^l16_hewantsdoctor.png
-			83012	sentence_sentence		Choose the right one.			choosetherightone.m4a	My mom likes yellow.	My mom likes yellow.^mymom likesyellow.^My mom yellow likes.
-			83013	paragraph_sentence		Etana loves beans. Beans are her favorite food. _____________ when her dad cooks beans. Her dad adds just the right amount of salt. The beans are very tasty.			en_uk_lc_2_5_story.m4a	She is happy	She is happy^She is sad^She is scared
-			83014	sentence_sentence		He was scared, but he did not _______.			hewasscaredbuthedidnotgiveup.m4a	give up	go alone^give up^go hunting
-			83015	sentence_sentence		Nia says, "___________"			niasaysnowiliketowash.m4a	Now I like to wash!	Now I like to wash!^I don't want to wash!^You are too dirty!
+			83011	soundonly_image					ainimahutidur.m4a	l16_ainimahutidur.png	l16_ainimahutidur.png^l16_mingkayuhbasikal.png^l16_kumaradakambing.png
+			83012	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Amir suka membaca buku.	Amir suka membaca buku.^Amir membaca suka buku.^Suka Amir membaca buku.
+			83013	paragraph_sentence		Kavita suka makan petai. Ayah masak petai dengan sambal. _____________.			mt83_83013_answer.m4a	Petai itu sangat sedap.	Petai itu sangat sedap.^Kavita suka makan petai.^Ayah masak petai dengan sambal.
+			83014	sentence_sentence		Ravi pergi memburu. Ravi tidak dapat apa-apa. _____________.			book_en_405_page_1_3.m4a	Haiwan nampak Ravi lalu lari.	Haiwan nampak Ravi lalu lari.^Ravi tidak dapat apa-apa.^Ravi pergi memburu.
+			83015	sentence_sentence		Aini kata, "___________"			book_en_404_page_10_3.m4a	Sekarang saya akan mandi.	Sekarang saya akan mandi.^Saya tidak mahu mandi.^Ambil sabun ini dan mandi.
 											
 PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010									
-			8001	soundonly_sentence					acatisonthechair.m4a	A cat is on the chair.	A cat is on the chair.^a cat is on the Chair.^A cat is onthechair.
-			8002	sentence_word		He ______ a doctor then.			hewasadoctorthen.m4a	was	was^is^were
-			8003	sentence_word		Mark ______ scared yesterday.			marklookedscaredyesterday.m4a	looked	looked^looks^looking
-			8004	soundonly_image					jillplaysagamealone.m4a	simo_friends_4_cropped_playball.png	simo_friends_4_cropped_playball.png^eating_3.png^elephant_frogs_4_sentence_frogs_2.png
-			8005	listeningcom_image		What has a hard shell on its back?			book_en_426_page_234.m4a	book_en_426_page_3.png	book_en_426_page_3.png^book_en_426_page_2.png^book_en_426_page_4.png
-			8006	paragraph_sentence	What does Worm like to do?	Worm and bird are friends. Worm likes to slide. Bird likes to fly. Worm likes the dirt. Bird  likes the sky. Worm likes the rain. Bird likes the sun. But worm and bird both like to play!				Worm likes to slide.	Worm likes to slide.^Worm likes to fly.^Worm likes to sing.
-			8007	paragraph_sentence	What is true?	Tahira has a big family. She has two brothers. One is older. One is younger. She has two sisters. One is older. One is younger. Tahira likes to play with her brothers and sisters. They are lots of fun. 				Tahira has two sisters.	Tahira has a small family.^Tahira has two older brothers.^Tahira has two sisters.
-			8008	paragraph_sentence	What does Suwesi like to do?	Suwesi runs to the market. Suwesi runs very fast. He likes to run fast. Oh no! He falls on a rock. He hurts his knee. Next time Suwesi goes to the market, he runs slowly. He is more careful.				He likes to run fast.	He likes to run fast.^He likes to fall down.^He likes to drink milk.
-			8009	imageseq_sentence	What best describes the image sequence?	book_en_407_page_1.png	book_en_407_page_6.png	book_en_407_page_7.png		A fawn was running in the forest. The fawn tripped. The fawn cried and cried.	A fawn was running in the forest. He ran faster than the rabbit. The fawn cried and cried.^A fawn was running in the forest. The fawn tripped. The fawn cried and cried.^The fawn ran faster than the rabbit. The fawn tripped. Finally he fawn stopped crying.
+			8001	soundonly_sentence					cikgumimiberiroti.m4a	Cikgu Mimi beri roti.	Cikgu Mimi beri roti.^Siti bantu ibu jemur baju.^Pak Cik memandu bas.
+			8002	sentence_word		Amir dan Ravi ______ tinggi.			amirdanravimelompattinggi.m4a	melompat	melompat^berjalan^berenang
+			8003	sentence_word		Mei ______ lantai.			meisapulantai.m4a	sapu	sapu^buka^cuci
+			8004	soundonly_image					meimembacabukudibawahpokok.m4a	meimembacabukudibawahpokok.png	meimembacabukudibawahpokok.png^meimembacabukudibawahmeja.png^meimembacabukudiatasmeja.png
+			8005	listeningcom_image		Haiwan apa ada cankerang yang keras?			book_en_426_page_3_2.m4a	book_en_426_page_3.png	book_en_426_page_3.png^book_en_426_page_2.png^book_en_426_page_4.png
+			8006	paragraph_sentence	Burung suka apa?	Ini cacing dan ini burung. Cacing tinggal di dalam tanah. Burung tinggal di atas pokok. Cacing suka hujan. Burung suka matahari. Cacing dan burung suka bermain bersama.				Matahari	Matahari^Hujan^Bulan
+			8007	paragraph_sentence	Pilih yang betul.	Kavita ada keluarga besar. Kavita ada seorang abang dan seorang kakak. Dia ada dua orang adik. Seorang adik perempuan dan seorang adik lelaki. Kavita suka main dengan adik-beradik. Dia rasa seronok.				Kavita ada seorang kakak.	Kavita ada keluarga kecil.^Kavita ada dua orang abang.^Kavita ada seorang kakak.
+			8008	paragraph_sentence	Ali berlari ke mana?	Ali suka berlari. Dia berlari ke pasar. Dia berlari pantas. Dia tersepak batu dan jatuh. Lutut Ali sakit. Selepas itu, Ali berjalan ke pasar. Dia lebih berhati-hati.				Pasar	Pasar^Sekolah^Hospital
+			8009	imageseq_sentence	Apa yang berlaku dalam gambar-gambar ini?	book_en_407_page_1.png	book_en_407_page_6.png	book_en_407_page_7.png		Seekor anak rusa berlari di dalam hutan. Anak rusa itu jatuh. Dia menangis dengan kuat.	Seekor anak rusa berlari di dalam hutan. Anak rusa itu jatuh. Dia menangis dengan kuat.^Seekor anak rusa berlari di dalam hutan. Dia berlari lebih laju daripada arnab. Dia berlari lebih laju daripada gajah. ^Kaki anak rusa sakit. Dia menangis dengan kuat. Seekor monyet cuba tolongnya. Seekor beruang cuba mengangkatnya.
 			8010	imageseq_image		book_en_404_page_5.png		book_en_404_page_7.png	book_en_404_page_567.m4a	book_en_404_page_6.png	book_en_404_page_6.png^book_en_404_page_2.png^book_en_404_page_9.png
 											
 PostTest_8	2	8011, 8012, 8013, 8014, 8015, 8016, 8017, 8018, 8019, 8011									
-			8011	soundonly_sentence					adogisonthebox.m4a	A dog is on the box.	A dog is on the box.^a dog is on the box^A dog is onthebox.
-			8012	sentence_word		You ______ a strong boy then.			youwereastrongboythen.m4a	were	was^are^were
-			8013	sentence_word		The man ______ his car yesterday.			themanwashedhiscaryesterday.m4a	washed	washed^wash^washing
-			8014	soundonly_image					thefrogsmakenoiseeverynight.m4a	elephant_frogs_4_sentence_frogs_2.png	simo_friends_4_cropped_playball.png^eating_3.png^elephant_frogs_4_sentence_frogs_2.png
-			8015	listeningcom_image		What has wings like a bird?			book_en_426_page_234.m4a	book_en_426_page_4.png	book_en_426_page_3.png^book_en_426_page_2.png^book_en_426_page_4.png
-			8016	paragraph_sentence	What does Bird like?	Worm and bird are friends. Worm likes to slide. Bird likes to fly. Worm likes the dirt. Bird  likes the sky. Worm likes the rain. Bird likes the sun. But worm and bird both like to play!				Bird likes the sky and the sun.	Bird likes the sky and the sun.^Bird likes the rain and the dirt.^Bird likes the dirt and the slide. 
-			8017	paragraph_sentence	What is true?	Tahira has a big family. She has two brothers. One is older. One is younger. She has two sisters. One is older. One is younger. Tahira likes to play with her brothers and sisters. They are lots of fun. 				Tahira has a big family.	Tahira has a big family.^Tahira has two older brothers.^Tahira has one sister.
-			8018	paragraph_sentence	Does Suwesi hurt his face?	Suwesi runs to the market. Suwesi runs very fast. He likes to run fast. Oh no! He falls on a rock. He hurts his knee. Next time Suwesi goes to the market, he runs slowly. He is more careful.				No, he doesn't.	Yes, he does.^No, he doesn't.^Yes, he is.
-			8019	imageseq_sentence	What best describes the image sequence?	book_en_407_page_7.png	book_en_407_page_8.png	book_en_407_page_10.png		The fawn hurt his leg. The monkey tried to help him. His mother came and gave him a hug.	The fawn hurt his leg. The monkey tried to help him. His mother came and gave him a hug.^The fawn was running in the forest. He hurt his leg. The monkey tried to help him.^The monkey tried to help the frawn. His mother came and gave him a hug. He hurt his leg.
-			8020	imageseq_image		book_en_408_page_1.png		book_en_408_page_5.png	book_en_408_page_1345.m4a	book_en_408_page_4.png	book_en_408_page_6.png^book_en_408_page_2.png^book_en_408_page_4.png
+			8011	soundonly_sentence					burungkuningdidalamsarang.m4a	Burung kuning di dalam sarang.	Burung kuning di dalam sarang.^Kucing di depan kotak.^Buah oren di dalam kotak.
+			8012	sentence_word		Bapa Ali seorang ______.			bapaaliseorangdoktor.m4a	doktor	doktor^guru^murid
+			8013	sentence_word		Pisang itu warna ______.			pisangituwarnahijau.m4a	hijau	hijau^merah^putih
+			8014	soundonly_image					buahorendidalamkotak.m4a	buahorendidalamkotak.png	buahorendidalamkotak.png^buahmanggadidalambakul.png^buahorendiataskotak.png
+			8015	listeningcom_image		Haiwan apa ada sirip seperti burung?			book_en_426_page_4_2.m4a	book_en_426_page_4.png	book_en_426_page_3.png^book_en_426_page_2.png^book_en_426_page_4.png
+			8016	paragraph_sentence	Cacing suka apa?	Ini cacing dan ini burung. Cacing tinggal di dalam tanah. Burung tinggal di atas pokok. Cacing suka hujan. Burung suka matahari. Cacing dan burung suka bermain bersama.				Hujan	Hujan^Matahari^Salji
+			8017	paragraph_sentence	Pilih yang betul.	Kavita ada keluarga besar. Kavita ada seorang abang dan seorang kakak. Dia ada dua orang adik. Seorang adik perempuan dan seorang adik lelaki. Kavita suka main dengan adik-beradik. Dia rasa seronok.				Kavita ada keluarga besar.	Kavita ada keluarga besar.^Kavita ada dua orang abang.^Kavita ada seorang adik.
+			8018	paragraph_sentence	Kenapa Ali jatuh?	Ali suka berlari. Dia berlari ke pasar. Dia berlari pantas. Dia tersepak batu dan jatuh. Lutut Ali sakit. Selepas itu, Ali berjalan ke pasar. Dia lebih berhati-hati.				Dia tersepak batu.	Cuaca panas.^Dia tersepak batu.^Dia letih.
+			8019	imageseq_sentence	Apa yang berlaku dalam gambar-gambar ini?	book_en_407_page_7.png	book_en_407_page_8.png	book_en_407_page_10.png		Kaki anak rusa sakit. Seekor monyet cuba tolongnya. Ibunya datang dan memeluknya.	Kaki anak rusa sakit. Seekor monyet cuba tolongnya. Ibunya datang dan memeluknya.^Seekor anak rusa berlari di dalam hutan. Anak rusa itu jatuh. Seekor monyet cuba tolongnya.^Seekor monyet cuba tolong anak rusa. Ibunya datang dan memeluknya. Kakinya sakit. 
+			8020	imageseq_image		book_en_404_page_1.png		book_en_404_page_3.png	book_en_404_page_123.m4a	book_en_404_page_2.png	book_en_404_page_6.png^book_en_404_page_5.png^book_en_404_page_2.png
 											
 MiniTest_9_1	1	91001, 91002, 91003, 91004, 91005									
-			91001	soundonly_image					sheisreadingunderthetable.m4a	l15_shereadundertable.png	l15_shereadundertable.png^l15_shereadontable.png^l15_shereadundertree.png
-			91002	soundonly_image					thecatisbehindthebox.m4a	l13_catbehindbox.png	l13_catbetweenboxes.png^l13_catfrontbox.png^l13_catbehindbox.png
-			91003	sentence_sentence		Choose the right one.			choosetherightone.m4a	I have a pencil.	I have a pencil.^Ihave apencil.^i have A pencils.
-			91004	listeningcomp_sentence	en_uk_lc_3_1_story.m4a	What is Rashidi's job?				He is a nurse.	He is a nurse.^He is a teacher.^He is a farmer.
-			91005	imageseq_sentence		Wangari was born in 1940. She grew up on a farm.		When Wangari was an old woman, she was given the Nobel Peace Prize.	book_en_412_page_279.m4a	Wangari began the Green Belt movement.	She led people to plant trees all across the country.^Wangari went to university in the United States.^Wangari began the Green Belt movement.
+			91001	soundonly_image					kumar_berdiri_di_tepi_perhentian_bas.m4a	l15_kumar_berdiri_di_tepi_perhentian_bas.png	l15_ming_di_antara_kerusi.png^l15_kumar_berdiri_di_tepi_perhentian_bas.png^l15_rumah_di_sebelah_pokok.png
+			91002	soundonly_image					rumah_di_sebelah_pokok.m4a	l15_rumah_di_sebelah_pokok.png	l15_sekolah_di_depan_taman.png^l15_rumah_di_sebelah_pokok.png^l15_buah_oren_di_dalam_kotak.png
+			91003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Saya ada sebatang pensel.	Saya ada sebatang pensel.^Saya ada sebatang pensel-pensel.^Saya ada sebatang pensel saya.
+			91004	listeningcomp_sentence	en_uk_lc_3_1_story.m4a	Aini kerja apa?				Jururawat	Jururawat^Guru^Petani
+			91005	imageseq_sentence		Hari ini hari jadi Bobo.		Bobo membuat hajat lalu meniup lilin.	book_en_408_page_1_1_2_1_2_2.m4a	Lina nyanyikan lagu hari jadi untuk Bobo.	Bobo sangat gembira.^Tiba-tiba hujan turun.^Lina nyanyikan lagu hari jadi untuk Bobo.
 											
 MiniTest_9_1	2	91006, 91007, 91008, 91009, 91010									
-			91006	soundonly_image					sheisreadingonthetable.m4a	l15_shereadontable.png	l15_shereadundertable.png^l15_shereadontable.png^l15_shereadundertree.png
-			91007	soundonly_image					theschoolisnexttothepark.m4a	l13_schoolnextpark.png	l13_schoolnextpark.png^l13_oldmanbtwboys.png^l13_dogbtwgoat_sheep.png
-			91008	sentence_sentence		Choose the right one.			choosetherightone.m4a	She cannot read well.	She cannot read well.^She cannotread well.^She cannot reading well.
-			91009	listeningcomp_sentence	en_uk_lc_3_1_story.m4a	What helps people from getting sick?				Being healthy.	Being healthy.^Being happy.^Being hungry.
-			91010	imageseq_sentence		Wangari believed things should be fair.		Wangari began the Green Belt movement.	book_en_412_page_457.m4a	Wangari knew that plants and animals are improtant to our world.	She led people to plant trees all across the country.^Wangari went to university in the United States.^Wangari knew that plants and animals are improtant to our world.
+			91006	soundonly_image					buah_oren_di_dalam_kotak.m4a	l15_buah_oren_di_dalam_kotak.png	l15_buah_epal_di_dalam_bakul.png^l15_buah_oren_di_dalam_kotak.png^l15_bola_di_bawah_meja.png
+			91007	soundonly_image					ali_bermain_bola.m4a	l16_ali_bermain_bola.png	l16_ali_bermain_bola.png^l16_ali_dan_amir_pergi_berenang.png^l16_aini_mahu_tidur.png
+			91008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ming berenang di kolam.	Ming berenang di kolam.^Ming berenang pada kolam.^Ming berenang ke kolam.
+			91009	listeningcomp_sentence	en_uk_lc_3_1_story.m4a	Aini beri apa kepada orang sakit?				Ubat	Ubat^Makanan^Air
+			91010	imageseq_sentence		Bobo membuat hajat lalu meniup lilin.		Tiba-tiba juga, ikan jatuh dari langit!	book_en_408_page_2_2_3_1_4_1.m4a	Tiba-tiba hujan turun.	Bobo sangat gembira.^Tiba-tiba hujan turun.^Lina nyanyikan lagu hari jadi untuk Bobo.
 											
 MiniTest_9_1	3	91011, 91012, 91013, 91014, 91015									
-			91011	soundonly_image					sheisreadingunderthetree.m4a	l15_shereadundertree.png	l15_shereadundertable.png^l15_shereadontable.png^l15_shereadundertree.png
-			91012	soundonly_image					thecatisbehindthebox.m4a	l13_catbehindbox.png	l13_catbetweenboxes.png^l13_catfrontbox.png^l13_catbehindbox.png
-			91013	sentence_sentence		Choose the right one.			choosetherightone.m4a	Lions don't eat carrots.	Lions don't eat carrots.^Lions doesn't eating carrots.^Lions not eat carrots.
-			91014	listeningcomp_sentence	en_uk_lc_3_1_story.m4a	Is Rashidi a doctor?				No, he is not.	No, he is not.^Yes, he is.^We do not know.
-			91015	imageseq_sentence		Wangari went to university in the United States.		They made the country more green.	book_en_412_page_378.m4a	She led people to plant trees all across the country.	She fought for the rights to the women in the schools.^She led people to plant trees all across the country.^When Wangari was an old woman, she was given the Nobel Peace Prize.
+			91011	soundonly_image					ali_dan_amir_pergi_berenang.m4a	l16_ali_dan_amir_pergi_berenang.png	l16_ali_bermain_bola.png^l16_ali_dan_amir_pergi_berenang.png^l16_ravi_mahu_jadi_doktor.png
+			91012	soundonly_image					ravi_mahu_jadi_doktor.m4a	l16_ravi_mahu_jadi_doktor.png	l16_ravi_mahu_jadi_doktor.png^l16_kumar_dan_kavita_mahu_beli_pisang.png^l16_aini_mahu_tidur.png
+			91013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Kucing itu di atas kotak.	Kucing itu di atas kotak.^Kucing itu atas di kotak.^Kucing itu di kotak atas.
+			91014	listeningcomp_sentence	en_uk_lc_3_1_story.m4a	Aini jaga siapa?				Orang sakit	Orang sakit^Orang sihat^Orang muda
+			91015	imageseq_sentence		Tiba-tiba juga, ikan jatuh dari langit!		Dia cuba tangkap ikan dengan bakul.	book_en_408_page_4_1_4_2_4_3.m4a	Bobo sangat gembira.	Bobo sangat gembira.^Tiba-tiba hujan turun.^Lina nyanyikan lagu hari jadi untuk Bobo.
 											
 MiniTest_9_2	1	92001, 92002, 92003, 92004, 92005									
-			92001	soundonly_sentence					hedoesntdance.m4a	He doesn't dance.	He doesn't dance.^He dances well.^He doesn't sing.
-			92002	soundonly_image					sheishelpingherdadcarryboxes.m4a	l17_shehelpdadcarry.png	l17_shehelpmomdry.png^l17_shehelpmomcook.png^l17_shehelpdadcarry.png
-			92003	sentence_sentence		Choose the right one.			choosetherightone.m4a	They sell milk together.	They sell milk together.^They sells milk together.^They selling milk together.
-			92004	listeningcomp_sentence	en_uk_lc_3_6_story.m4a	Are there many stars in the sky?				Yes, there are.	Yes, there are.^No, there are not.^We do not know.
-			92005	paragraph_sentence		In the morning, Fox went for a walk. He walked _________________________. His stomach rumbled with hunger. He looked all around for something to eat.			book_en_504_page_12.m4a	until the sun is high	until he met a tree^until he found the sun^until the sun is high
+			92001	soundonly_sentence					kucingtidurdiaatassofa.m4a	Kucing tidur di atas sofa.	Kucing tidur di atas sofa.^Kucing tidur di bawah meja.^Kucing makan di dapur.
+			92002	soundonly_image					sitibantuibujemurbaju.m4a	sitibantuibujemurbaju.png	sitibantuibujemurbaju.png^sitidankavitamemasak.png^abangangkatkotakbesar.png
+			92003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Datuk minum jus oren.	Datuk minum jus oren.^Datuk minum oren jus.^Datuk jus oren minum.
+			92004	listeningcomp_sentence	en_uk_lc_3_6_story.m4a	Mei suka tengok apa?				Bintang	Bintang^Matahari^Bulan
+			92005	paragraph_sentence		Pada waktu pagi, Si Musang keluar berjalan-jalan. Si Musang berjalan sehingga waktu tengah hari. _________________________.			book_en_504_page_1_1_1_2_1_3.m4a	Perutnya berbunyi kerana lapar.	Perutnya berbunyi kerana lapar.^Perutnya buncit kerana kenyang.^Perutnya berbunyi kerana sakit.
 											
 MiniTest_9_2	2	92006, 92007, 92008, 92009, 92010									
-			92006	soundonly_sentence					shedoesntlikecats.m4a	She doesn't like cats.	She doesn't like cats.^She likes cats.^She doesn't have dogs.
-			92007	soundonly_image					sheishelpinghermomcookdinner.m4a	l17_shehelpmomcook.png	l17_shehelpmomdry.png^l17_shehelpmomcook.png^l17_shehelpdadcarry.png
-			92008	sentence_sentence		Choose the right one.			choosetherightone.m4a	He drinks milk every day.	He drinking milk every day.^He drink milk every day.^He drinks milk every day.
-			92009	listeningcomp_sentence	en_uk_lc_3_6_story.m4a	What does Shawan like to do?				She likes to look at the stars.	She likes to look at the stars.^She likes to clean the house.^She likes to feed goats.
-			92010	paragraph_sentence		He saw some grapes high in a tree. ____________________ How could he get them? Fox reached with his arms. He could almost taste the grapes!			book_en_504_page_23.m4a	They must be so sweet!	They must be too sour!^They must be so sweet!^They must be grapes!
+			92006	soundonly_sentence					helangterbangdilangit.m4a	Helang terbang di langit.	Helang terbang di langit.^Helang rehat di atas pokok.^Burung itu terbang rendah.
+			92007	soundonly_image					sitidankavitamemasak.m4a	sitidankavitamemasak.png	sitibantuibujemurbaju.png^sitidankavitamemasak.png^abangangkatkotakbesar.png
+			92008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Hao berenang di kolam.	Hao berenang di kolam.^Hao di kolam berenang.^Hao berenang ke kolam.
+			92009	listeningcomp_sentence	en_uk_lc_3_6_story.m4a	Mei cuba buat apa?				Kira bintang	Kira bintang^Lukis bintang^Baca buku
+			92010	paragraph_sentence		Si Musang melihat sekelilingnya untuk mencari makanan. Si Musang nampak buah anggur _________________________. Anggur itu kelihatan sangat manis!			book_en_504_page_2_1_2_2_2_3.m4a	pada sepohon pokok yang tinggi	di dalam laut yang besar^pada sepohon pokok yang tinggi^di atas batu yang besar
 											
 MiniTest_9_2	3	92011, 92012, 92013, 92014, 92015									
-			92011	soundonly_sentence					theydonteatfish.m4a	They don't eat fish.	They don't eat fish.^They are eating fish.^They don't catch frogs.
-			92012	soundonly_image					sheishelpinghermomdryclothes.m4a	l17_shehelpmomdry.png	l17_shehelpmomdry.png^l17_shehelpmomcook.png^l17_shehelpdadcarry.png
-			92013	sentence_sentence		Choose the right one.			choosetherightone.m4a	The van drives down the road.	The van drive down the road.^The van drives down the road.^The van driving down the road.
-			92014	listeningcomp_sentence	en_uk_lc_3_6_story.m4a	What does Shawan look at each evening?				The stars in the sky.	The stars in the sky.^The house from outside.^Her baby brother.
-			92015	paragraph_sentence		Fox could not get the grapes by jumping. _______________ Could he find another way? We will never know, because Fox stopped trying. 			book_en_504_page_67.m4a	He was getting upset.	He was getting happy.^He was getting upset.^It was getting dark.
+			92011	soundonly_sentence					kataklompatkedalamkolam.m4a	Katak lompat ke dalam kolam.	Katak lompat ke dalam kolam.^Ikan berenang di dalam kolam.^Kambing itu di dalam kandang.
+			92012	soundonly_image					abangangkatkotakbesar.m4a	abangangkatkotakbesar.png	sitibantuibujemurbaju.png^sitidankavitamemasak.png^abangangkatkotakbesar.png
+			92013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Burung itu terbang rendah.	Burung itu terbang rendah.^Burung itu rendah terbang.^Burung terbang di rendah.
+			92014	listeningcomp_sentence	en_uk_lc_3_6_story.m4a	Kenapa Mei tidak dapat kira semua bintang?				Bintang terlalu banyak.	Bintang terlalu banyak.^Dia tidak pandai kira.^Bintang bergerak laju.
+			92015	paragraph_sentence		Si Musang _______________. Dia cuba mencapai gugusan anggur itu. Si Musang hampir berjaya, tetapi masih tidak dapat mencapainya.			book_en_504_page_5_1_5_2_5_3.m4a	melompat sekali lagi	suka menari dan menyanyi^melompat sekali lagi^berjalan berhati-hati
 											
 MiniTest_9_3	1	93001, 93002, 93003, 93004, 93005									
-			93001	soundonly_image					thecatisbiggerthanthebird.m4a	l4_catbird.png	l4_dogcat.png^l4_catbird.png^l4_dogbird.png
-			93002	soundonly_image					basketisfullofbunchesofgrapes.m4a	l10_grapesinbasket.png	l10_grapesinbasket.png^l10_applesinbasket.png^l10_birdsinnest.png
-			93003	sentence_sentence		Choose the right one.			choosetherightone.m4a	Are they students?	Are they students?^Are they students.^are they students?
-			93004	sentence_sentence		Choose the right one.			choosetherightone.m4a	We had lunch.	We had lunch.^We has lunch.^We haved lunch.
-			93005	paragraph_sentence		Cindy was late for school. _________________, but it had already passed her street. Cindy yelled for the driver to stop, but the driver didn't hear.			book_en_501_page_1.m4a	She ran to catch the bus	She walked slowly^She ran to catch the bus^She shouted alone
+			93001	soundonly_image					cikgumimiberirotikepadamurid.m4a	cikgumimiberirotikepadamurid.png	cikgumimiberirotikepadamurid.png^jururawatjagabayi.png^pakcikmemandubas.png
+			93002	soundonly_image					sitibantuibujemurbaju.m4a	sitibantuibujemurbaju.png	sitibantuibujemurbaju.png^makcikcucitangandibilikair.png^datukcatmeja.png
+			93003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ayah sedang cuci longkang.	Ayah sedang cuci longkang.^Ayah sedang longkang cuci.^Ayah telah cuci longkang.
+			93004	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mei kemas bilik tidur.	Mei kemas bilik tidur.^Mei bilik tidur kemas.^Mei kemas di bilik tidur.
+			93005	paragraph_sentence		Mei lewat ke sekolah. _________________, tetapi bas itu sudah berlalu. Mei menjerit supaya pemandu berhenti, tetapi pemandu tidak mendengarnya.			book_en_501_page_1_1_1_2_1_3.m4a	Mei berlari mengejar bas	Mei berjalan perlahan^Mei berlari mengejar bas^Mei menjerit dengan kuat
 											
 MiniTest_9_3	2	93006, 93007, 93008, 93009, 93010									
-			93006	soundonly_image					thebirdissmallerthanthedog.m4a	l4_dogbird.png	l4_dogcat.png^l4_catbird.png^l4_dogbird.png
-			93007	soundonly_image					thebasketisfullofmellowapples.m4a	l10_applesinbasket.png	l10_grapesinbasket.png^l10_applesinbasket.png^l10_birdsinnest.png
-			93008	sentence_sentence		Choose the right one.			choosetherightone.m4a	Does he like bananas?	Does he like bananas?^Does he like bananas.^does he like bananas?
-			93009	sentence_sentence		Choose the right one.			choosetherightone.m4a	They ran fast.	They runs fast.^They runned fast.^They ran fast.
-			93010	paragraph_sentence		Then, a truck passed Cindy. "_____________," Cindy thought. "I could learn to drive and drive to school."			book_en_501_page_5.m4a	If only I had a truck	If only I had a truck^If only I had a boat^If only I got up early
+			93006	soundonly_image					datukcatmeja.m4a	datukcatmeja.png	datukcatmeja.png^samidankumarbinaistanapasir.png^sitibantuibujemurbaju.png
+			93007	soundonly_image					pakcikmemandubas.m4a	pakcikmemandubas.png	pakcikmemandubas.png^jururawatjagabayi.png^cikgumimiberirotikepadamurid.png
+			93008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ibu potong buah tembikai.	Ibu potong buah tembikai.^Ibu potong dua buah tembikai.^Ibu buah tembikai potong.
+			93009	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Kucing itu di atas sofa.	Kucing itu di atas sofa.^Kucing itu sofa atas.^Kucing itu di dalam sofa.
+			93010	paragraph_sentence		Kemudian, sebuah lori lalu di hadapan Mei. “_____________,” fikir Mei. “Saya boleh memandu ke sekolah.”			book_en_501_page_5_1_5_2_5_3_5_4.m4a	Kalaulah saya ada lori	Kalaulah saya ada lori^Kalaulah saya ada bot^Kalaulah saya bangun awal
 											
 MiniTest_9_3	3	93011, 93012, 93013, 93014, 93015									
-			93011	soundonly_image					thecatissmallerthanthedog.m4a	l4_dogcat.png	l4_dogcat.png^l4_catbird.png^l4_dogbird.png
-			93012	soundonly_image					nestisfullofthreeyellowbirds.m4a	l10_birdsinnest.png	l10_grapesinbasket.png^l10_applesinbasket.png^l10_birdsinnest.png
-			93013	sentence_sentence		Choose the right one.			choosetherightone.m4a	Where is the cat?	Where is the cat?^Where is the cat.^where is the cat?
-			93014	sentence_sentence		Choose the right one.			choosetherightone.m4a	She made a chair.	She made a chair.^She maked a chair.^She make a chair.
-			93015	paragraph_sentence		Cindy's school wasn't near the water, though. A boat couldn't take Cindy to school, either. "_________________," Cindy asked herself again. "I know! I'll take a motorcycle!" Cindy shouted.			book_en_501_page_1415.m4a	How can I get to school?	How can I buy a bicycle?^How can I drive a truck?^How can I get to school?
+			93011	soundonly_image					burungkuningdidalamSarang.m4a	burungkuningdidalamsarang.png	burungkuningdidalamsarang.png^buahorendidalamkotak.png^kucingdidepankotak.png
+			93012	soundonly_image					amirdaduabuahkerusi.m4a	amiradaduabuahkerusi.png	amiradaduabuahkerusi.png^duabijitomatodanduabijilemon.png^tigabuahkereta.png
+			93013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Budak itu berlari di padang.	Budak itu berlari di padang.^Budak itu berlari ke padang.^Budak itu di padang berlari.
+			93014	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Buku cerita itu tebal.	Buku cerita itu tebal.^Buku itu cerita tebal.^Buku cerita itu tinggi.
+			93015	paragraph_sentence		“Saya tahu! _________________!” jerit Mei. “Saya hanya perlu sebuah motosikal.”			book_en_501_page_15_1_15_2_15_3_15_4.m4a	Saya akan naik motosikal	Saya tidak ada motosikal^Saya akan berjalan kaki^Saya akan naik motosikal
 											
 PostTest_9	1	9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010									
-			9001	sentence_sentence		Choose the right one.			choosetherightone.m4a	She is a smart kid.	She is a smart kid.^She is a kid smart kids.^She be a smart kid.
-			9002	sentence_sentence		Choose the right one.			choosetherightone.m4a	The snake moves slowly.	The snake move slowly.^The snakes moves slowly.^The snake moves slowly.
-			9003	soundonly_image					theboystandingbehindchair.m4a	l15_boystandbhdchair.png	l15_boystandbhdchair.png^l15_boystandbtwchairs.png^l15_boystandnextchair.png
-			9004	soundonly_image					sheisgivingtheboysmilk.m4a	l17_shegivingmilk.png	l17_shegivingmilk.png^l17_shegivingbread.png^l17_shegivingwater.png
-			9005	paragraph_sentence		Every morning, Lucy thinks about the plants she will see on the walk to school. On the way to school, Lucy walks through a field of flowers. She picks a pretty pink flower. ______________________________. The flower smells sweet.			book_en_502_page_1234.m4a	Lucy takes a deep breath through her nose.	Lucy wll eat some fresh fruit.^Lucy takes away the pink flower.^Lucy takes a deep breath through her nose.
-			9006	paragraph_sentence		In the morning, Fox went for a walk. He walked until the sun was high. _______________________________. He looked all around for something to eat.			book_en_504_page_12.m4a	His stomach rumbled with hunger.	His head was full of fear.^His stomach rumbled with hunger.^He could almost taste the grapes.
-			9007	imageseq_sentence		"I am mad. I had a bad day at school."		"Your day wasn't all bad."	book_en_503_page_61213.m4a	“Miss Anna helped me up.”	“I tripped over it.”^“Miss Anna helped me up.”^“This boy laughed at me.”
-			9008	imageseq_sentence		book_en_413_page_4.png		book_en_413_page_8.png	book_en_413_page_468.m4a	John and June build rockets boots with some tools.	John and June build rockets boots with some tools.^John and June knew they must be home soon.^They landed back at home around noon.
-			9009	imageseq_image		book_en_507_page_1.png		book_en_507_page_10.png	book_en_507_page_1510.m4a	book_en_507_page_5.png	book_en_507_page_8.png^book_en_507_page_5.png^book_en_507_page_9.png
-			9010	paragraph_sentence	Why did Lion summon Elephant to his log?	In the evening, Elephant was thirsty. She went back to the watering hole. When she tried to get a drink, several frogs got in her way. She accidentally stepped on two of them. Lion summoned Elephant to his log. "You are very large," he said. "You must be careful of the frogs, because they are very small."			book_en_506_page_56.m4a	To tell him to be careful.	To tell him to get a drink.^To tell him to leave the savanna.^To tell him to be careful.
+			9001	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Sekolah Aini besar.	Sekolah Aini besar.^Sekolah Aini besar-besar.^Sekolah Aini adalah besar.
+			9002	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Kucing itu di atas kotak.	Kucing itu di atas kotak.^Kucing itu pada atas kotak.^Kucing itu atas di kotak.
+			9003	soundonly_image					ravimahujadidoktor.m4a	ravimahujadidoktor.png	ravimahujadidoktor.png^kumaradakambing.png^ainimahutidur.png
+			9004	soundonly_image					sitibantuibujemurbaju.m4a	sitibantuibujemurbaju.png	datukcatmeja.png^sitibantuibujemurbaju.png^pakcikmemandubas.png
+			9005	paragraph_sentence		Dalam perjalanan ke sekolah, ______________________________. Aini memetik sekuntum bunga yang cantik.			book_en_502_page_3_1_3_2.m4a	Aini melalui padang yang berbunga	Aini membeli sebiji buah^Aini memetik sekuntum bunga ungu^Aini melalui padang yang berbunga
+			9006	paragraph_sentence		Pada waktu pagi, ____________________. Si Musang berjalan sehingga waktu tengah hari. Perutnya berbunyi kerana lapar.			pt9_9006_answer.m4a	Si Musang keluar berjalan-jalan	Si Musang melompat tinggi^Si Musang keluar berjalan-jalan^Si Musang keluar bermain
+			9007	imageseq_sentence		Mimi berasa marah!		Ayah memberikan Mimi segelas susu.	book_en_503_9007_answer.m4a	Ayah Mimi membawanya pulang dengan basikal.	Mimi berjalan kaki balik ke rumah.^Ayah Mimi membawanya pulang dengan basikal.^Hujan mula turun.
+			9008	imageseq_sentence		book_en_413_page_2.png		book_en_413_page_4.png	pt9_9008_answer.m4a	“Makanan apa yang patut kita bawa?”	“Makanan apa yang patut kita bawa?”^Mereka berguling turun bukit pasir putih.^Mereka guna kasut roket lalu terus meluncur ke bulan.
+			9009	imageseq_image		book_en_507_page_1.png		book_en_507_page_10.png	pt9_9009_answer.m4a	book_en_507_page_5.png	book_en_507_page_8.png^book_en_507_page_5.png^book_en_507_page_9.png
+			9010	paragraph_sentence	Kenapa Singa bertemu dengan Gajah?	Pada waktu petang, Gajah berasa haus. Dia kembali ke kolam itu. Malangnya, Gajah terpijak dua ekor katak tanpa sengaja. Singa bertemu dengan Gajah. “Kamu sangat besar,” katanya. “Kamu mesti berhati-hati kerana katak sangat kecil.”			pt9_9010_answer.m4a	Untuk mengingatkan Gajah supaya berhati-hati.	Untuk mengajak Gajah pergi makan.^Untuk menghalau Gajah dari hutan.^Untuk mengingatkan Gajah supaya berhati-hati.
 											
 PostTest_9	2	9011, 9012, 9013, 9014, 9015, 9016, 9017, 9018, 9019, 9020									
-			9011	sentence_sentence		Choose the right one.			choosetherightone.m4a	He is a tall boy.	He is a tall boys.^He is tall boy.^He is a tall boy.
-			9012	sentence_sentence		Choose the right one.			choosetherightone.m4a	They eat an apple every day.	They eats an apple every day.^They eat an apple every day.^They eat apple every day.
-			9013	soundonly_image					thegirlwantstogotobed.m4a	l16_girlwantsbed.png	l16_girlwantbicycle.png^l16_girlwantsairplane.png^l16_girlwantsbed.png
-			9014	soundonly_image					oldmanpaintingdeskwhite.m4a	l17_oldmanpaintingdesk.png	l17_oldmanpaintingdesk.png^l17_youngmanpaintingdesk.png^l17_oldmanpaintingchair.png
-			9015	paragraph_sentence		Lucy passes a fruit tree. The fruits on the tree are green. The fruits are not ripe yet. "Get ripe soon," Lucy tells the fruit. "___________." Lucy greets the tree at school.			book_en_502_page_678.m4a	I am hungry!	I am not hungry!^I am hungry!^I am very happy!
-			9016	paragraph_sentence		Fox could not get the grapes by jumping. He was getting upset. Could he find another way? We will never know, _________________________.			book_en_504_page_67.m4a	because Fox stopped trying	because Fox stopped trying^because Fox walked away feeling sad^because Fox was still hungry
-			9017	imageseq_sentence		Maddie first she drew a red block.		She forgot to be mad and kept drawing.	book_en_504_page_81214.m4a	Then Maddie drew a picture of her teacher.	Maddie scowled at the monkeys.^Maddie ate the sweet and felt a little better.^Then Maddie drew a picture of her teacher.
-			9018	imageseq_sentence		book_en_413_page_1.png		book_en_413_page_10.png	book_en_413_page_1510.m4a	John and June packed a melon and a spoon.	John and June packed a melon and a spoon.^They ate their breakfast of melon with a spoon.^They landed back at home around noon.
-			9019	imageseq_image		book_en_507_page_3.png		book_en_507_page_9.png	book_en_507_page_389.m4a	book_en_507_page_7.png	book_en_507_page_4.png^book_en_507_page_7.png^book_en_507_page_2.png
-			9020	paragraph_sentence	What was the problem?	In the evening, Elephant was thirsty. She went back to the watering hole. When she tried to get a drink, several frogs got in her way. She accidentally stepped on two of them. Lion summoned Elephant to his log. "You are very large," he said. "You must be careful of the frogs, because they are very small."			book_en_506_page_56.m4a	Elephant stepped on two of the frogs accidentally.	Elephant tried to get a drink in the evening.^Elephant did not want to live with the frogs.^Elephant stepped on two of the frogs accidentally.
+			9011	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mei bercita-cita menjadi doktor.	Mei bercita-cita menjadi doktor.^Mei bercita seorang doktor.^Mei cita-cita doktor.
+			9012	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Bayi suka minum susu.	Bayi suka minum susu.^Bayi suka minumkan susu.^Bayi minum suka susu.
+			9013	soundonly_image					kucinglebihkecildaripadaanjing.m4a	kucinglebihkecildaripadaanjing.png	kucingdidepankotak.png^kucinglebihkecildaripadaanjing.png^singadibawahpokok.png
+			9014	soundonly_image					burungkuningdidalamsarang.m4a	burungkuningdidalamsarang.png	burungdilangit.png^katakdiatasdaun.png^burungkuningdidalamsarang.png
+			9015	paragraph_sentence		Aini duduk di padang. Bunga-bunga yang cantik mengelilinginya. _____________.			pt9_9015_answer.m4a	Aini rasa gembira	Aini tidak lapar^Aini rasa gembira^Aini rasa sedih
+			9016	paragraph_sentence		Si Musang melompat sekali lagi. Dia cuba mencapai gugusan anggur itu. _____________________ , tetapi masih tidak dapat mencapainya.			pt9_9016_answer.m4a	Si Musang hampir berjaya	Si Musang hampir berjaya^Si Musang telah berjaya^Si Musang tengok buah anggur
+			9017	imageseq_sentence		Mula-mula, Mimi melukis sebuah segi empat merah.		Mimi melukis seekor burung dengan krayon ungu.	book_en_503_9017_answer.m4a	Mimi melukis seorang budak lelaki.	Mimi melambai kepada monyet^Mimi minum susu.^Mimi melukis seorang budak lelaki.
+			9018	imageseq_sentence		book_en_413_page_1.png		book_en_413_page_10.png	book_en_413_page_1_2_6_2_10_2.m4a	Mereka guna kasut roket lalu terus meluncur ke bulan.	Mereka guna kasut roket lalu terus meluncur ke bulan.^Hao dan Mei makan tembikai untuk sarapan^Mereka berguling turun bukit pasir putih.
+			9019	imageseq_image		book_en_507_page_3.png		book_en_507_page_5.png	pt9_9019_answer.m4a	book_en_507_page_4.png	book_en_507_page_4.png^book_en_507_page_7.png^book_en_507_page_2.png
+			9020	paragraph_sentence	Apakah telah berlaku?	Pada waktu petang, Gajah berasa haus. Dia kembali ke kolam itu. Malangnya, Gajah terpijak dua ekor katak tanpa sengaja. Singa bertemu dengan Gajah. “Kamu sangat besar,” katanya. “Kamu mesti berhati-hati kerana katak sangat kecil.”			pt9_9020_answer.m4a	Gajah terpijak dua ekor katak tanpa sengaja.	Gajah mandi di kolam.^Gajah bermain dengan Singa.^Gajah terpijak dua ekor katak tanpa sengaja.
 											
 SpecialTest_1	1	10001, 10002, 10003, 10004, 10005									
 			10001	soundonly_word					eng_e.m4a	E	A^E^O
@@ -1038,28 +1038,28 @@ FishTest_2_1	1	2100001, 2100002, 2100003, 2100004, 2100005
 			2100002	soundonly_word					eng_g.m4a	G	G^Q^O
 			2100003	soundonly_word					eng_x.m4a	x	x^k^v
 			2100004	soundonly_word					eng_a.m4a	a	e^a^u
-			2100005	word_word		A → B → C → __ → E				D	D^G^R
+			2100005	word_word		A â				D	D^G^R
 											
 FishTest_2_1	2	2100006, 2100007, 2100008, 2100009, 2100010									
 			2100006	soundonly_word					eng_t.m4a	T	T^P^N
 			2100007	soundonly_word					eng_h.m4a	H	H^M^B
 			2100008	soundonly_word					eng_p.m4a	p	p^f^s
 			2100009	soundonly_word					eng_o.m4a	o	e^o^u
-			2100010	word_word		a → b → __ → d → e				c	c^k^w
+			2100010	word_word		a â				c	c^k^w
 											
 FishTest_2_2	1	2200001, 2200002, 2200003, 2200004, 2200005									
 			2200001	soundonly_word					eng_k.m4a	K	L^R^K
 			2200002	soundonly_word					eng_n.m4a	N	N^U^W
 			2200003	soundonly_word					eng_i.m4a	i	e^i^u
-			2200004	word_word		F → G → __ → I → J				H	H^P^B
-			2200005	word_word		K → L → __ → N → O				M	M^G^X
+			2200004	word_word		F â				H	H^P^B
+			2200005	word_word		K â				M	M^G^X
 											
 FishTest_2_2	2	2200006, 2200007, 2200008, 2200009, 2200010									
 			2200006	soundonly_word					eng_s.m4a	S	S^F^M
 			2200007	soundonly_word					eng_c.m4a	C	C^O^P
 			2200008	soundonly_word					eng_u.m4a	u	e^i^u
-			2200009	word_word		p → q → __ → s → t				r	r^y^d
-			2200010	word_word		v → w → __ → y → z				x	x^q^b
+			2200009	word_word		p â				r	r^y^d
+			2200010	word_word		v â				x	x^q^b
 											
 FishTest_3_1	1	3100001, 3100002, 3100003, 3100004, 3100005									
 			3100001	word_word		c 				C 	P^C^D
@@ -1325,7 +1325,7 @@ FishTest_7_3	1	7300001, 7300002, 7300003, 7300004, 7300005
 			7300002	sentence_word		Choose the right sentence.			shewalks.m4a	She walks.	She walks.^Shewalks.^she walks
 			7300003	sentence_word		They are _______.			theyarefarmers.m4a	farmers	farmers^strong^doctors
 			7300004	image_sentence		book_en_328_page_2.png			book_en_328_page_2_1.m4a	This red food can be hot.	This red food can be hot.^Yellow food can be a drink.^This brown food is sweet.
-			7300005	sentence_sentence		_________ Rabbit said.			book_en_323_page_7_12.m4a	"I'm sorry,"	"I'm sad,"^"I'm happy,"^"I'm sorry,"
+			7300005	sentence_sentence		_________ Rabbit said.			book_en_323_page_7_12.m4a	I'm sorry,	I'm sad,^"I'm happy,"^"I'm sorry,"
 											
 FishTest_7_3	2	7300006, 7300007, 7300008, 7300009, 7300010									
 			7300006	sentence_word		Choose the right one.			airplane.m4a	airplane	dolphin^airplane^sleep
@@ -1339,7 +1339,7 @@ FishTest_7_3	3	7300011, 7300012, 7300013, 7300014, 7300015
 			7300012	sentence_word		Choose the right sentence.			heplays.m4a	He plays.	He plays.^Heplays.^he plays
 			7300013	sentence_word		He doesn't have a _______.			hedoesnthaveapen.m4a	pen	pen^sister^car
 			7300014	image_sentence		book_en_328_page_8.png			book_en_328_page_8_1.m4a	This brown food is sweet.	This red food can be hot.^Yellow food can make a drink.^This brown food is sweet.
-			7300015	sentence_sentence		_________ said Elephant.			book_en_323_page_4_12.m4a	"Now it is my turn,"	"Now it is my turn,"^"Now let's go,"^"Now we can play,"
+			7300015	sentence_sentence		_________ said Elephant.			book_en_323_page_4_12.m4a	Now it is my turn,	Now it is my turn,^"Now let's go,"^"Now we can play,"
 											
 FishTest_8_1	1	8100001, 8100002, 8100003, 8100004, 8100005									
 			8100001	image_sentence		l7_hecandrive.png			hecandrive.m4a	He can drive.	He can drive.^She can drive.^He can draw.
@@ -1387,14 +1387,14 @@ FishTest_8_3	1	8300001, 8300002, 8300003, 8300004, 8300005
 			8300001	soundonly_image					shelikestheyellowshoes.m4a	l11_shelikesyellowshoes.png	l11_shelikesyellowshoes.png^l11_shelikespinkshoes.png^l11_shelikespinkhat.png
 			8300002	soundonly_image					surprised.m4a	emotions_6_cropped_surprised.png	emotions_6_cropped_surprised.png^emotions_5_cropped_excited.png^emotions_3_cropped_angry.png
 			8300003	sentence_sentence		Choose the right one.			choosetherightone.m4a	Mary eats an apple.	Mary eats a apples.^Mary eats an apple.^Mary eating apple.
-			8300004	sentence_sentence		Mouse said, “Please, Lion. ______________”			book_en_401_page_3_234.m4a	Do not eat me.	Do not eat me.^I will help you.^That is silly.
+			8300004	sentence_sentence		Mouse said, â			book_en_401_page_3_234.m4a	Do not eat me.	Do not eat me.^I will help you.^That is silly.
 			8300005	sentence_sentence		This kitten has _________. 			book_en_403_page_2_1.m4a	four legs	four legs^two legs^no legs
 											
 FishTest_8_3	2	8300006, 8300007, 8300008, 8300009, 8300010									
 			8300006	soundonly_image					thegirlhasgreenmangoes.m4a	l11_girlhasgreenmangoes.png	l11_girlhasgreenbananas.png^l11_girlhasgreenmangoes.png^l11_shehasball.png
 			8300007	soundonly_image					excited.m4a	emotions_5_cropped_excited.png	emotions_6_cropped_surprised.png^emotions_5_cropped_excited.png^emotions_3_cropped_angry.png
 			8300008	sentence_sentence		Choose the right one.			choosetherightone.m4a	He sings a song.	He sings song.^He singing a song.^He sings a song.
-			8300009	sentence_sentence		Mouse said, “Let me go. Someday, ________"			book_en_401_page_4_12.m4a	I will help you.	Do not eat me.^I will help you.^That is silly.
+			8300009	sentence_sentence		Mouse said, â			book_en_401_page_4_12.m4a	I will help you.	Do not eat me.^I will help you.^That is silly.
 			8300010	sentence_sentence		These two fish do not have _________. 			book_en_403_page_3_1.m4a	legs	legs^eyes^tails
 											
 FishTest_8_3	3	8300011, 8300012, 8300013, 8300014, 8300015									
