@@ -1002,9 +1002,12 @@ void EquationMakerScene::setClearAnimationFlow(float)
             vecAnimation.pushBack(CallFunc::create(CC_CALLBACK_0(EquationMakerScene::playClearAnimationObjectSound, this)));
 
             // Long delay after multi-syllable items so the next voice does not
-            // clip the tail of the current one.
+            // clip the tail of the current one. The BM digit "sembilan" (9) is
+            // 3 syllables — as long as "tujuh"/"enam" — so include it too.
             int t = m_ClearEffectType[i];
-            isPrevLongDelay = ((t%10 == 7) || (t%10 == 6));
+            int onesDigit = t % 10;
+            isPrevLongDelay = (onesDigit == 7 || onesDigit == 6);
+            if (isMalay && onesDigit == 9) isPrevLongDelay = true;
             isPrevExtraLongDelay = false;
             if (isMalay && t >= K_TYPE_SIGN_PLUS) {
                 // "sama dengan" is two words — give it more pause than "tambah"/"tolak".
@@ -1072,7 +1075,9 @@ void EquationMakerScene::setClearAnimationFlow(float)
                 vecAnimation.pushBack(CallFunc::create(CC_CALLBACK_0(EquationMakerScene::playClearAnimationObjectSound, this)));
 
                 int t = m_ClearEffectType[i];
-                isPrevLongDelay = ((t%10 == 7) || (t%10 == 6));
+                int onesDigit = t % 10;
+                isPrevLongDelay = (onesDigit == 7 || onesDigit == 6);
+                if (isMalay && onesDigit == 9) isPrevLongDelay = true;
                 isPrevExtraLongDelay2 = false;
                 if (isMalay && t >= K_TYPE_SIGN_PLUS) {
                     if (t == K_TYPE_SIGN_EQ) isPrevExtraLongDelay2 = true;
