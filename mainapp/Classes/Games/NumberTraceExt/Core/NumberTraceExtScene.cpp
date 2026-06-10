@@ -371,9 +371,12 @@ void NumberTraceExtScene::playCurrentNumberSound()
         }
         else
         {
+            // BM uses the localized "dan" connector between "seratus" and the
+            // remainder. The original Swahili/Tanzania "na.wav" asset is not
+            // shipped in the ms-MY bundle.
             this->runAction(Sequence::create(CallFunc::create([this](){ playNumberSound(100); }),
                                              DelayTime::create(0.90f),
-                                             CallFunc::create([](){ GameSoundManager::getInstance()->playEffectSound(MainDepot().assetPrefix() + "/Sounds.sw_TZ/na.wav"); }),
+                                             CallFunc::create([](){ GameSoundManager::getInstance()->playEffectSound(MainDepot().assetPrefix() + "/Sounds/dan.m4a"); }),
                                              DelayTime::create(0.30f),
                                              CallFunc::create([this, remainder](){ playNumberSound(remainder); }), nullptr));
         }
