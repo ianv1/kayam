@@ -155,19 +155,19 @@ MiniTest_7_1	1	71001,71002, 71003, 71004, 71005
 			71002	operations_with_objects	11~19-1~9=?	regroupingtrue				1~9				
 			71003	operations_drag	1~10+1~10=?	regroupingtrue	vertical			10~20				
 			71004	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
-			71005	word_problem	7 epal merah dan 2 epal hijau berada di dalam bakul. Berapa banyak epal dalam bakul?	en_uk_a1_08.m4a				9				
+			71005	word_problem	Di dalam bakul ada 7 biji epal merah dan 2 biji epal hijau. Berapakah jumlah epal di dalam bakul?	en_uk_a1_08.m4a				9				
 MiniTest_7_2	1	72001, 72002, 72003, 72004, 72005												
 			72001	missing_number_drag	2	4	descending			1~10	2			
 			72002	operations_drag	11~19+11~19=?	regroupingfalse	horizontal			20~30				
 			72003	operations_drag	20-1~10=?		horizontal			1~10				
 			72004	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
-			72005	word_problem	Kumar ada 2 biji guli. Kavita ada 3 biji guli lebih banyak daripada Kumar. Kavita ada berapa biji guli?	en_uk_d3_02.m4a				5				
+			72005	word_problem	Ravi ada 2 biji guli. Aini ada 3 biji guli lebih daripada Ravi. Aini ada berapa biji guli?	en_uk_d3_02.m4a				5				
 MiniTest_7_3	1	73001, 73002, 73003, 73004, 73005												
 			73001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
 			73002	missing_number_drag	2	3	descending			11~30	2			
 			73003	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
 			73004	operations_drag	21~50-10~20=?	regroupingfalse	vertical			1~40				
-			73005	word_problem	Di atas meja ada 5 biji epal. Siti makan 2 biji epal. Berapa biji epal yang tinggal di atas meja?	en_uk_b1_01.m4a				3				
+			73005	word_problem	Ali ada 5 biji epal. Dia makan 2 biji epal. Ali masih ada berapa biji epal?	en_uk_b1_01.m4a				3				
 PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012, 7013												
 			7001	use_magnitude_symbols	51~100	51~100	Isi tempat kosong.	fill_in_the_blank.m4a						
 			7002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~100				
@@ -178,28 +178,28 @@ PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012
 			7007	operations_with_objects	1~9+11~19=?	regroupingtrue				20~30				
 			7008	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
 			7009	operations_drag	11~50-11~30=?	regroupingfalse	vertical			1~50				
-			7010	word_problem	Ali menangkap 5 ekor ikan pada waktu pagi. Ali menangkap 4 ekor ikan lagi pada waktu petang. Ali menangkap berapa ekor ikan semuanya?	en_uk_a1_01.m4a				9				
-			7011	word_problem	Kumar ada 2 ekor kambing di ladangnya. Kumar ada 6 ekor ayam lebih banyak daripada kambing. Kumar ada berapa ekor ayam?	en_uk_d3_07.m4a				8				
-			7012	word_problem	4 ekor burung sedang berehat di atas dahan. 1 ekor burung terbang pergi. Berapa ekor burung yang tinggal di atas dahan?	en_uk_b1_03.m4a				3				
+			7010	word_problem	Kavita menangkap 5 ekor ikan pada waktu pagi. Kavita menangkap 4 ekor ikan lagi pada waktu petang. Berapakah jumlah ikan yang ditangkap oleh Kavita?	en_uk_a1_01.m4a				9				
+			7011	word_problem	Kumar ada 2 ekor kambing di ladangnya. Dia ada 6 ekor ayam lebih banyak daripada kambing. Kumar ada berapa ekor ayam?	en_uk_d3_07.m4a				8				
+			7012	word_problem	4 ekor burung sedang berehat di atas dahan. Seekor burung terbang pergi. Berapakah bilangan burung yang tinggal di atas dahan?	en_uk_b1_03.m4a				3				
 			7013	word_problem	Ravi ada 7 biji belon. Ali ada 5 biji belon. Ravi ada berapa biji belon lebih daripada Ali?	en_uk_d1_02.m4a				2				
 MiniTest_8_1	1	81001, 81002, 81003, 81004, 81005												
 			81001	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
 			81002	missing_number_drag	2	4	descending			50~100	2			
 			81003	operations_drag	11~50+11~50=?	regroupingfalse	vertical			20~50				
 			81004	operations_drag	11~50-11~50=?	regroupingfalse	vertical			20~50				
-			81005	word_problem	Di dalam tangki ada 14 ekor ikan. Kavita memasukkan 3 ekor ikan lagi ke dalam tangki. Berapa ekor ikan di dalam tangki sekarang?	en_uk_a1_04.m4a				17				
+			81005	word_problem	Di dalam tangki ada 14 ekor ikan. Kavita masukkan 3 ekor ikan lagi ke dalam tangki. Berapakah jumlah ikan di dalam tangki sekarang?	en_uk_a1_04.m4a				17				
 MiniTest_8_2	1	82001, 82002, 82003, 82004, 82005												
 			82001	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
 			82002	missing_number_drag	1	4	ascending			100~500				
 			82003	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
 			82004	word_problem	Di meja makan ada 5 biji pinggan. 10 orang dijemput makan. Berapa biji pinggan lagi diperlukan?	en_uk_d3_09.m4a				5				
-			82005	word_problem	Di atas pagar ada 12 ekor kucing. Seekor kucing melompat turun dari pagar. Berapa ekor kucing di atas pagar sekarang?	en_uk_b1_09.m4a				11				
+			82005	word_problem	12 ekor kucing duduk di atas pagar. Seekor kucing melompat turun. Berapa ekor kucing yang masih ada di atas pagar?	en_uk_b1_09.m4a				11				
 MiniTest_8_3	1	83001, 83002, 83003, 83004, 83005												
 			83001	missing_number_drag	100	2	ascending			100~900	100			
 			83002	operations_drag	11~18-1~9=?	regroupingtrue	horizontal			1~9				
 			83003	operations_drag	21~50-11~30=?	regroupingtrue	vertical			1~40				
 			83004	word_problem	Mei ada 8 biji oren. Lina ada 4 biji oren. Mereka ada berapa biji oren semuanya?	en_uk_a2_08.m4a				12				
-			83005	word_problem	Mei berumur 5 tahun. Lina 7 tahun lebih tua daripada Mei. Berapa umur Lina?	en_uk_d4_10.m4a				12				
+			83005	word_problem	Mei berumur 5 tahun. Lina 7 tahun lebih tua daripada Mei. Lina berumur berapa tahun?	en_uk_d4_10.m4a				12				
 PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010												
 			8001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			300~700				
 			8002	missing_number_drag	1	3	ascending			200~999				
@@ -207,17 +207,17 @@ PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010
 			8004	missing_number_drag	100	4	descending			100~500	100			
 			8005	operations_drag	11~50+11~20=?	regroupingtrue	vertical			1~50				
 			8006	operations_drag	31~50-11~20=?	regroupingtrue	vertical			1~50				
-			8007	word_problem	Ali ada 6 buah buku. Amir ada 2 buah buku. Mereka ada berapa buah buku semuanya?	en_uk_a1_05.m4a				8				
+			8007	word_problem	Ali ada 6 buah buku. Amir ada 2 buah buku. Berapakah jumlah buku yang mereka ada?	en_uk_a1_05.m4a				8				
 			8008	word_problem	Kumar ada 11 biji mangga di dalam bakul. Kumar memberikan 4 biji mangga kepada kakaknya. Berapa biji mangga di dalam bakul sekarang?	en_uk_b2_05.m4a				7				
 			8009	word_problem	Kumar berumur 12 tahun. Ravi berumur 8 tahun. Ravi berapa tahun lebih muda daripada Kumar?	en_uk_d2_06.m4a				4				
-			8010	word_problem	Seorang petani mengutip 16 biji telur. Petani itu menggunakan 4 biji telur untuk membuat sarapan. Petani itu ada berapa biji telur sekarang?	en_uk_b1_06.m4a				12				
+			8010	word_problem	Seorang petani mengutip 16 biji telur. Petani itu menggunakan 4 biji telur untuk membuat sarapan. Berapa biji telur yang tinggal?	en_uk_b1_06.m4a				12				
 MiniTest_9_1	1	91001~91003, 91004, 91005, 91006, 91007												
 			91001	operations_drag	11~99+10, 20, 30, 40, 50, 60, 70, 70, 80=?		horizontal			1~100				
 			91002	operations_drag	10, 20, 30, 40, 50, 60, 70, 80+11~99=?		horizontal			1~100				
 			91003	operations_drag	10, 20, 30, 40, 50, 60, 70, 80, 90-5,10=?		horizontal			1~100				
 			91004	operations_without_objects	2, 3, 4, 5x1~9=?		horizontal			2~45				
 			91005	missing_number_drag	10	3	ascending			500~990	10			
-			91006	word_problem	Ravi ada 9 biji belon. 6 biji belon berwarna hijau dan selebihnya berwarna biru. Berapa biji belon berwarna biru?	en_uk_c1_04.m4a				3				
+			91006	word_problem	Mei ada 9 belon. 6 belon berwarna hijau dan selebihnya berwarna biru. Berapa biji belon berwarna biru?	en_uk_c1_04.m4a				3				
 			91007	shapes	what	Apakah bentuk ini?	What_is_this_shape			bulatan,segi_empat_sama,segi_tiga,segi_empat_sama	bulatan,segi_empat_sama,segi_tiga,segi_empat_tepat			
 MiniTest_9_2	1	92001~92002, 92003, 92004, 92005, 92006												
 			92001	missing_number_drag	1	4	descending			100~999				
@@ -225,7 +225,7 @@ MiniTest_9_2	1	92001~92002, 92003, 92004, 92005, 92006
 			92003	operations_drag	31~50+20~50=?	regroupingfalse	vertical			1~100				
 			92004	operations_drag	10~99-10=?		vertical			1~90				
 			92005	operations_without_objects	6, 7, 8, 9x1~9=?		horizontal			6~81				
-			92006	word_problem	Seorang petani ada 7 pokok langsat. Petani itu membeli beberapa pokok langsat lagi. Sekarang, petani itu ada 10 pokok langsat di kebunnya. Petani itu telah membeli berapa pokok epal?	en_uk_e1_04.m4a				3				
+			92006	word_problem	Seorang petani ada 7 pokok betik. Petani itu menanam beberapa pokok betik lagi. Sekarang, petani itu ada 10 pokok betik di kebunnya. Berapakah bilangan pokok betik yang baru ditanam oleh petani itu?	en_uk_e1_04.m4a				3				
 MiniTest_9_3	1	93001, 93002, 93003, 93004, 93005												
 			93001	operations_drag	11~30+20~70=?	regroupingtrue	vertical			1~99				
 			93002	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~99				
@@ -238,8 +238,8 @@ PostTest_9	1	9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010
 			9003	missing_number_drag	5	4	descending			100~999	5			
 			9004	missing_number_drag	3	3	ascending			1~20				
 			9005	operations_without_objects	2~9x2~9=?		horizontal			4~81				
-			9006	word_problem	Ravi ada 4 biji guli. Aini memberi Ravi beberapa biji guli. Sekarang, Ravi ada 6 biji guli. Aini memberi Ravi berapa biji guli?	en_uk_e1_02.m4a				2				
-			9007	word_problem	Ali ada 10 biji epal. Ali makan beberapa biji epal. Sekarang, Ali ada 4 biji epal. Ali makan berapa biji epal?	en_uk_e2_01.m4a				6				
+			9006	word_problem	Ravi ada 4 biji guli. Aini memberi beberapa biji guli kepada Ravi. Sekarang, Ravi ada 6 biji guli. Berapa biji guli yang Aini beri kepada Ravi?	en_uk_e1_02.m4a				2				
+			9007	word_problem	Ali ada 10 biji epal. Ali makan beberapa biji epal. Sekarang tinggal 4 biji epal. Ali makan berapa biji epal?	en_uk_e2_01.m4a				6				
 			9008	shapes	what	Apakah bentuk ini?	What_is_this_shape			silinder,kubus,sfera,kon	silinder,kubus,sfera,kon
 			9009	word_problem	Seekor lebah ada 6 kaki. 2 ekor lebah ada berapa kaki semuanya?	en_uk_f1_02.m4a				12				
 			9010	word_problem	Ibu ada 8 biji gula-gula. Ibu memberi gula-gula itu sama banyak kepada 2 orang anaknya. Setiap anak mendapat berapa biji gula-gula?	en_uk_f2_01.m4a				4				
@@ -316,49 +316,49 @@ SpecialTest_12	1	120001, 120002, 120003, 120003, 120004
 			120003	operations_drag	11~59+11~59=?	regroupingtrue	vertical			30~70				
 			120004	operations_drag	11~89+11~89=?	regroupingtrue	vertical			71~100				
 SpecialTest_13	1	130001~130010, 130001~130010, 130001~130010, 130001~130010, 130001~130010												
-			130001	word_problem	Shelby earns star stickers when she does math at school. Yesterday, Shelby earned 4 stars. Today, she earned 3 more. How many stars did Shelby earn in all?	en_uk_a1_03.m4a				7				
-			130002	word_problem	Tom has 6 books. James has 2 books. How many books do they have in all?	en_uk_a1_05.m4a				8				
-			130003	word_problem	Helen saw 12 birds in a tree and 7 birds in another tree. How many birds did she see altogether?	en_uk_a1_09.m4a				19				
-			130004	word_problem	A farmer planted 5 rows of corn before lunch. He planted 7 more rows after lunch. How many rows of corn did he plant during the day?	en_uk_a2_03.m4a				12				
-			130005	word_problem	There are 6 girls and 7 boys on the bus. How many children are on the bus?	en_uk_a2_05.m4a				13				
-			130006	word_problem	Stacie caught 5 fish in the morning. She caught 4 more fish in the afternoon. How many fish did Stacie catch in all?	en_uk_a1_01.m4a				9				
-			130007	word_problem	Maya served 3 yams at lunch and 5 yams during dinner. How many yams were served during the day?	en_uk_a1_06.m4a				8				
-			130008	word_problem	Kyle got 3 new shirts on his birthday. He already had 5 shirts. How many shirts does he have now?	en_uk_a1_10.m4a				8				
-			130009	word_problem	Mary is decorating for a birthday party. She blew up 6 balloons this morning and 5 balloons this afternooon. How many balloons did she blow up in all?	en_uk_a2_01.m4a				11				
-			130010	word_problem	There are 7 pencils in the drawer. Dan placed 9 more pencils in the drawer. How many pencils are in the drawer?	en_uk_a2_07.m4a				16				
+			130001	word_problem	Siti mendapat stiker bintang ketika membuat latihan Matematik di sekolah. Semalam, Siti mendapat 4 bintang. Hari ini, Siti mendapat 3 bintang lagi. Siti ada berapa bintang sekarang?	en_uk_a1_03.m4a				7				
+			130002	word_problem	Ali ada 6 buah buku. Amir ada 2 buah buku. Berapakah jumlah buku yang mereka ada?	en_uk_a1_05.m4a				8				
+			130003	word_problem	Lina mengira 12 ekor burung di atas pokok. Lina juga mengira 7 ekor burung di padang. Berapakah jumlah burung yang dikira oleh Lina?	en_uk_a1_09.m4a				19				
+			130004	word_problem	Seorang petani menanam 5 baris jagung pada waktu pagi. Petani itu menanam 7 baris jagung lagi pada waktu petang. Petani itu menanam berapa baris jagung semuanya?	en_uk_a2_03.m4a				12				
+			130005	word_problem	Di dalam bas ada 6 orang budak perempuan dan 7 orang budak lelaki. Berapa orang budak-budak di dalam bas semuanya?	en_uk_a2_05.m4a				13				
+			130006	word_problem	Kavita menangkap 5 ekor ikan pada waktu pagi. Kavita menangkap 4 ekor ikan lagi pada waktu petang. Berapakah jumlah ikan yang ditangkap oleh Kavita?	en_uk_a1_01.m4a				9				
+			130007	word_problem	Mei masak 3 biji ubi pada waktu pagi dan 5 biji ubi pada waktu petang. Berapakah jumlah ubi yang dimasak oleh Mei?	en_uk_a1_06.m4a				8				
+			130008	word_problem	Kumar mendapat 3 helai baju baharu pada hari lahirnya. Kumar sudah ada 5 helai baju. Kumar ada berapa helai baju sekarang?	en_uk_a1_10.m4a				8				
+			130009	word_problem	Aini meniup 6 biji belon pada waktu pagi dan 5 biji belon pada waktu petang. Berapakah jumlah belon yang ditiup oleh Aini?	en_uk_a2_01.m4a				11				
+			130010	word_problem	Di dalam laci ada 7 batang pensel. Ali meletakkan 9 batang pensel lagi ke dalam laci. Berapakah jumlah pensel di dalam laci sekarang?	en_uk_a2_07.m4a				16				
 SpecialTest_14	1	140001~140010, 140001~140010, 140001~140010, 140001~140010, 140001~140010												
-			140001	word_problem	Billy has 2 marbles. Audrey has 3 more marbles than Billy. How many marbles does Audrey have?	en_uk_d3_02.m4a				5				
-			140002	word_problem	Bobby bought 3 more books than Gabby. Gabby bought a book. How many books did Bobby buy?	en_uk_d3_04.m4a				4				
-			140003	word_problem	There are 10 plates at the dinner table. There are 5 more people than plates. How many people are at dinner?	en_uk_d3_09.m4a				15				
-			140004	word_problem	Jackie has 9 pencils. Adam has 5 more pencils than Jackie. How many pencils does Adam have?	en_uk_d4_02.m4a				14				
-			140005	word_problem	Thomas has 2 goats on his farm. There are 6 more chickens than goats on his farm. How many chickens does he have?	en_uk_d3_07.m4a				8				
-			140006	word_problem	Sarah is 5 years old. Her sister Katie is 2 years older than Sarah. How old is Katie?	en_uk_d3_01.m4a				7				
-			140007	word_problem	There are 14 chairs in Ms. Bloom's classroom. There are 3 more chairs in Mr. Peter's classroom. How many chairs are there in Mr. Peter's classroom?	en_uk_d3_10.m4a				17				
-			140008	word_problem	Paul has 7 plums. Brian has 4 more plums than Paul. How many plums does Brian have?	en_uk_d4_01.m4a				11				
-			140009	word_problem	Marin has 7 balls. Ellen has 6 more balls than Marin. How many balls does Ellen have?	en_uk_d4_03.m4a				13				
-			140010	word_problem	Bob has 4 pencils and his sister has 8 more pencils than him. How many pencils does Bob's sister have?	en_uk_d4_08.m4a				12				
+			140001	word_problem	Ravi ada 2 biji guli. Aini ada 3 biji guli lebih daripada Ravi. Aini ada berapa biji guli?	en_uk_d3_02.m4a				5				
+			140002	word_problem	Ali membeli sebuah buku. Amir membeli 3 buah buku lebih banyak daripada Ali. Amir membeli berapa buah buku?	en_uk_d3_04.m4a				4				
+			140003	word_problem	Di meja makan ada 5 biji pinggan. 10 orang dijemput makan. Berapa biji pinggan lagi diperlukan?	en_uk_d3_09.m4a				15				
+			140004	word_problem	Siti ada 9 batang pensel. Aini ada 5 batang pensel lebih banyak daripada Siti. Aini ada berapa batang pensel?	en_uk_d4_02.m4a				14				
+			140005	word_problem	Kumar ada 2 ekor kambing di ladangnya. Dia ada 6 ekor ayam lebih banyak daripada kambing. Kumar ada berapa ekor ayam?	en_uk_d3_07.m4a				8				
+			140006	word_problem	Mei berumur 5 tahun. Lina 2 tahun lebih tua daripada Mei. Berapakah umur Lina?	en_uk_d3_01.m4a				7				
+			140007	word_problem	Bilik darjah Cikgu Mimi ada 14 buah kerusi. Bilik darjah Cikgu Ali ada 3 buah kerusi lebih banyak daripada bilik darjah Cikgu Mimi. Bilik darjah Cikgu Ali ada berapa buah kerusi?	en_uk_d3_10.m4a				17				
+			140008	word_problem	Hao ada 7 biji rambutan. Ming ada 4 biji rambutan lebih banyak daripada Hao. Ming ada berapa biji rambutan?	en_uk_d4_01.m4a				11				
+			140009	word_problem	Ravi ada 7 biji bola. Amir ada 6 biji bola lebih banyak daripada Ravi. Amir ada berapa biji bola?	en_uk_d4_03.m4a				13				
+			140010	word_problem	Ali ada 4 batang pensel. Kakak Ali ada 8 batang pensel lebih banyak daripada Ali. Kakak Ali ada berapa batang pensel?	en_uk_d4_08.m4a				12				
 SpecialTest_15	1	150001~150010, 150001~150010, 150001~150010, 150001~150010, 150001~150010												
-			150001	word_problem	Anita has 5 books. 3 of them are science books and the rest are storybooks. How many are storybooks?	en_uk_c1_08.m4a				2				
-			150002	word_problem	Michael's cat had 9 kittens. 5 of them are white and the rest are gray. How many gray kittens did the cat have?	en_uk_c1_09.m4a				4				
-			150003	word_problem	There are 9 children in a classroom. 6 of them are boys. How many girls are in the classroom?	en_uk_c1_01.m4a				3				
-			150004	word_problem	Ms. Dawson has 12 students in her class. Some students are absent and 7 students are present. How many students are absent?	en_uk_c2_05.m4a				5				
-			150005	word_problem	There are 16 children in a classroom. Some children go outside to play. 7 children stay inside to read books. How many children are outside?	en_uk_c2_08.m4a				9				
-			150006	word_problem	Jane has 9 balloons. 6 are green and the rest are blue. How many balloons are blue?	en_uk_c1_04.m4a				3				
-			150007	word_problem	Katie and her brother picked 6 mangos together. Katie picked 4 mangos. How many mangos did her brother pick?	en_uk_c1_07.m4a				2				
-			150008	word_problem	Harper and Raven drew 8 pictures together. Harper drew 3 pictures. How many pictures did Raven draw?	en_uk_c1_10.m4a				5				
-			150009	word_problem	Laci and Kendra caught 14 fireflies altogether. Laci caught 5 fireflies. How many fireflies did Kendra catch?	en_uk_c2_03.m4a				9				
-			150010	word_problem	A piece of wood is 13 inches long. It is cut into two parts. One part is 6 inches long. How long is the other part?	en_uk_c2_06.m4a				7				
+			150001	word_problem	Aini ada 5 buah buku. 3 buah buku ialah buku Sains dan selebihnya ialah buku cerita. Aini ada berapa buah buku cerita?	en_uk_c1_08.m4a				2				
+			150002	word_problem	Kucing Amir ada 9 ekor anak kucing. 5 ekor daripadanya berwarna putih dan selebihnya berwarna kelabu. Berapa anak kucing Amir berwarna kelabu?	en_uk_c1_09.m4a				4				
+			150003	word_problem	Cikgu Mimi ada 9 orang murid. 6 orang daripadanya ialah murid lelaki. Cikgu Mimi ada berapa orang murid perempuan?	en_uk_c1_01.m4a				3				
+			150004	word_problem	Cikgu Ali ada 12 orang murid. 7 orang murid hadir. Berapa orang murid yang tidak hadir?	en_uk_c2_05.m4a				5				
+			150005	word_problem	Di dalam kelas ada 16 orang kanak-kanak. Beberapa orang kanak-kanak keluar bermain. 7 orang kanak-kanak tinggal di dalam kelas. Berapa orang kanak-kanak di luar?	en_uk_c2_08.m4a				9				
+			150006	word_problem	Mei ada 9 belon. 6 belon berwarna hijau dan selebihnya berwarna biru. Berapa biji belon berwarna biru?	en_uk_c1_04.m4a				3				
+			150007	word_problem	Kavita dan abangnya memetik 6 biji mangga bersama-sama. Kavita memetik 4 biji mangga. Abangnya memetik berapa biji?	en_uk_c1_07.m4a				2				
+			150008	word_problem	Hao dan Siti melukis 8 gambar bersama-sama. Hao melukis 3 gambar. Berapa gambar yang Siti lukis?	en_uk_c1_10.m4a				5				
+			150009	word_problem	Lina dan Kavita menangkap 14 ekor kelip-kelip bersama-sama. Lina menangkap 5 ekor kelip-kelip. Kavita menangkap berapa ekor kelip-kelip?	en_uk_c2_03.m4a				9				
+			150010	word_problem	Sekeping kayu panjangnya 13 inci. Kayu itu dipotong kepada dua bahagian. Satu bahagian panjangnya 6 inci. Berapakah panjang bahagian yang satu lagi?	en_uk_c2_06.m4a				7				
 SpecialTest_16	1	160001~160010, 160001~160010, 160001~160010, 160001~160010, 160001~160010												
-			160001	word_problem	A farmer had 7 apple trees. She bought some more trees and now has 10 apple trees in her orchard. How many apple trees did she buy?	en_uk_e1_04.m4a				3				
-			160002	word_problem	A football team scored 3 goals in the first half. Then they scored more goals in the second half. They won the game with 5 goals! How many goals did they socre in the second half?	en_uk_e1_05.m4a				2				
-			160003	word_problem	Peter read 6 pages of his book before lunch. After lunch he read some more. If Peter read 9 pages in all, how many pages did he read after lunch?	en_uk_e1_08.m4a				3				
-			160004	word_problem	George went to a store and bought some t-shirts. He went to another store and bought 2 more t-shirts. He bought a total of 7 t-shirts. How many t-shirts did he buy at the first store?	en_uk_e1_10.m4a				5				
-			160005	word_problem	You have some stamps. Your brother gives 6 stamps to you. Now you have 10 stamps. How many stamps did you start with?	en_uk_e1_01.m4a				4				
-			160006	word_problem	Tess picked 3 flowers in the morning. She picked some more flowers in the afternoon. If Tess picked 8 flowers in all, how many did she pick in the afternoon?	en_uk_e1_03.m4a				5				
-			160007	word_problem	There are some crickets in a jar. You collect 5 more crickets and now have 10 crickets in all. How many crickets did you start with?	en_uk_e1_06.m4a				5				
-			160008	word_problem	There were some seashells in Megan's pail. She finds 2 more seashells. Now she has 8 seashells in all. How many seashells did she start with?	en_uk_e1_07.m4a				6				
-			160009	word_problem	Kelly saw 4 cats in front of her house. She went to sleep and when she woke up, there were 7 cats in front of her house. How many cats came to her house while she was sleeping?	en_uk_e1_09.m4a				3				
-			160010	word_problem	Peter has 4 marbles. Sue gives Peter some marbles and now he has 6 marbles in all. How many marbles did Sue give Peter?	en_uk_e1_02.m4a				2				
+			160001	word_problem	Seorang petani ada 7 pokok betik. Petani itu menanam beberapa pokok betik lagi. Sekarang, petani itu ada 10 pokok betik di kebunnya. Berapakah bilangan pokok betik yang baru ditanam oleh petani itu?	en_uk_e1_04.m4a				3				
+			160002	word_problem	Pasukan bola sepak menjaringkan 3 gol pada separuh masa pertama. Kemudian, mereka menjaringkan beberapa gol lagi pada separuh masa kedua. Mereka menjaringkan 5 gol semuanya. Berapakah bilangan gol yang dijaringkan pada separuh masa kedua?	en_uk_e1_05.m4a				2				
+			160003	word_problem	Ravi membaca 6 halaman buku sebelum makan tengah hari. Selepas makan tengah hari, Ravi membaca beberapa halaman lagi. Jika Ravi membaca 9 halaman semuanya, berapakah bilangan halaman yang dibaca oleh Ravi selepas makan tengah hari?	en_uk_e1_08.m4a				3				
+			160004	word_problem	Hao pergi ke sebuah kedai dan membeli beberapa helai kemeja-T. Kemudian, Hao pergi ke kedai lain dan membeli 2 helai kemeja-T lagi. Hao membeli 7 helai kemeja-T semuanya. Berapakah bilangan kemeja-T yang dibeli oleh Hao di kedai pertama?	en_uk_e1_10.m4a				5				
+			160005	word_problem	Ali ada beberapa keping setem. Abang Ali memberi Ali 6 keping setem. Sekarang, Ali ada 10 keping setem. Ali ada berapa keping setem pada mulanya?	en_uk_e1_01.m4a				4				
+			160006	word_problem	Lina memetik 3 kuntum bunga pada waktu pagi. Lina memetik beberapa kuntum bunga lagi pada waktu petang. Jika Lina memetik 8 kuntum bunga semuanya, berapakah kuntum bunga yang dipetik oleh Lina pada waktu petang?	en_uk_e1_03.m4a				5				
+			160007	word_problem	Ali ada beberapa ekor cengkerik di dalam bekasnya. Ali mengumpul 5 ekor cengkerik lagi. Sekarang, Ali ada 10 ekor cengkerik. Ali ada berapa ekor cengkerik pada mulanya?	en_uk_e1_06.m4a				5				
+			160008	word_problem	Devi ada beberapa biji kerang di dalam baldinya. Devi menjumpai 2 biji kerang lagi. Sekarang, Devi ada 8 biji kerang semuanya. Devi ada berapa biji kerang pada mulanya?	en_uk_e1_07.m4a				6				
+			160009	word_problem	Mei nampak 4 ekor kucing di halaman rumahnya sebelum tidur. Apabila Mei bangun, dia nampak 7 ekor kucing di halaman rumahnya. Berapa ekor kucing yang datang semasa Mei tidur?	en_uk_e1_09.m4a				3				
+			160010	word_problem	Ravi ada 4 biji guli. Aini memberi beberapa biji guli kepada Ravi. Sekarang, Ravi ada 6 biji guli. Berapa biji guli yang Aini beri kepada Ravi?	en_uk_e1_02.m4a				2				
 SpecialTest_17	1	170001, 170002, 170003, 170004, 170003~170004												
 			170001	operations_with_objects	1~9-1~9=?		horizontal			1~8				
 			170002	operations_with_objects	10-1~9=?		horizontal			1~9				
@@ -388,38 +388,38 @@ SpecialTest_21	1	210001, 210002, 210003, 210003, 210004
 			210003	operations_drag	21~50-21~50=?	regroupingtrue	vertical			1~29				
 			210004	operations_drag	20, 30, 40, 50-11~49=?	regroupingtrue	vertical			1~39				
 SpecialTest_22	1	220001~220010, 220001~220010, 220001~220010, 220001~220010, 220001~220010												
-			220001	word_problem	Millie has 9 bracelets. She loses 2 of them. How many bracelets does Millie have left?	en_uk_b1_05.m4a				7				
-			220002	word_problem	Hannah makes 8 loaves of bread. She gives 3 loaves of bread to her cousin. How many loaves of bread does she have left?	en_uk_b1_04.m4a				5				
-			220003	word_problem	There are 9 kites flying in the sky. A wind blows 3 kites down on the ground. How many kites are still flying in the sky?	en_uk_b1_10.m4a				6				
-			220004	word_problem	There are 15 ducks swimming in a pond. 7 ducks fly away. How many ducks are still swimming in the pond?	en_uk_b2_04.m4a				8				
-			220005	word_problem	Lena has 12 books. She donates 8 books to her class library. How many books does Lena have left?	en_uk_b2_08.m4a				4				
-			220006	word_problem	There are 12 cats on a fence. 1 cat jumps down off of the fence. How many cats are left on the fence?	en_uk_b1_09.m4a				11				
-			220007	word_problem	Lucy has 8 pencils. She loses 7 of them. How many pencils does Lucy have left?	en_uk_b1_07.m4a				1				
-			220008	word_problem	Ana has 7 cookies. She eats 2 of them. How many cookies does she have left?	en_uk_b1_02.m4a				5				
-			220009	word_problem	Nassir picks up a 17-page book. He reads 9 pages. How many pages does he have left to read?	en_uk_b2_01.m4a				8				
-			220010	word_problem	There are 10 students on the school bus. 3 students get off the bus. How many students are left on the bus?	en_uk_b2_03.m4a				7				
+			220001	word_problem	Kavita ada 9 utas gelang. 2 utas gelang hilang. Kavita masih ada berapa utas gelang?	en_uk_b1_05.m4a				7				
+			220002	word_problem	Aini membeli 8 buku roti. Dia memberikan 3 buku roti kepada sepupunya. Aini masih ada berapa buku roti?	en_uk_b1_04.m4a				5				
+			220003	word_problem	9 layang-layang terbang di langit. 3 layang-layang jatuh ke tanah. Berapakah bilangan layang-layang yang masih terbang di langit?	en_uk_b1_10.m4a				6				
+			220004	word_problem	Di kolam ada 15 ekor itik. 7 ekor itik terbang pergi. Berapa ekor itik di kolam sekarang?	en_uk_b2_04.m4a				8				
+			220005	word_problem	Lina ada 12 buah buku. Lina mendermakan 8 buah buku kepada perpustakaan kelasnya. Lina ada berapa buah buku sekarang?	en_uk_b2_08.m4a				4				
+			220006	word_problem	12 ekor kucing duduk di atas pagar. Seekor kucing melompat turun. Berapa ekor kucing yang masih ada di atas pagar?	en_uk_b1_09.m4a				11				
+			220007	word_problem	Lina ada 8 batang pensel. 7 batang pensel Lina hilang. Lina masih ada berapa batang pensel?	en_uk_b1_07.m4a				1				
+			220008	word_problem	Siti ada 7 keping biskut. Dia makan 2 keping biskut. Siti masih ada berapa keping biskut?	en_uk_b1_02.m4a				5				
+			220009	word_problem	Buku Hao ada 17 halaman. Hao sudah membaca 9 halaman. Berapa halaman yang belum dibaca oleh Hao?	en_uk_b2_01.m4a				8				
+			220010	word_problem	Di dalam bas sekolah ada 10 orang murid. 3 orang murid turun dari bas. Berapa orang murid di dalam bas sekarang?	en_uk_b2_03.m4a				7				
 SpecialTest_23	1	230001~230010, 230001~230010, 230001~230010, 230001~230010, 230001~230010												
-			230001	word_problem	Lucy is 9 years old. Her sister Julie is 6 years old. How much older is Lucy than her sister Julie?	en_uk_d1_01.m4a				3				
-			230002	word_problem	Sam ate 7 cookies and Jane ate 2 cookies. How many fewer cookies did Jane eat than Sam?	en_uk_d1_05.m4a				5				
-			230003	word_problem	Amy walks 4 blocks to school. Jane walks 2 blocks to school. How many more blocks does Amy walk than Jane to school?	en_uk_d1_09.m4a				2				
-			230004	word_problem	There are 13 girls and 18 boys in a class. How many more boys are there than girls?	en_uk_d2_05.m4a				5				
-			230005	word_problem	Beth has 13 flowers in her garden. Kate has 8 flowers. How many more flowers does Beth have than Kate?	en_uk_d2_01.m4a				5				
-			230006	word_problem	You have 7 balloons and your friend has 5 balloons. How many more balloons do you have than your friend?	en_uk_d1_02.m4a				2				
-			230007	word_problem	Maria read 3 books and Stacy read 5 books. How many more books did Stacy read than Maria?	en_uk_d1_08.m4a				2				
-			230008	word_problem	Sydney found 20 seashells on the beach. Noah found 6 seashells. How many more seashells did Sydney find than Noah?	en_uk_d2_03.m4a				14				
-			230009	word_problem	Anna bought 12 plants. Her sister bought 7 plants. How many more plants did Anna buy than her sister?	en_uk_d2_04.m4a				5				
-			230010	word_problem	Tom planted 5 seeds in a school garden. Jane planted 8 seeds. How many fewer seeds did Tom plant than Jane?	en_uk_d1_06.m4a				3				
+			230001	word_problem	Mei berumur 9 tahun. Lina berumur 6 tahun. Berapakah beza umur Mei dan Lina?	en_uk_d1_01.m4a				3				
+			230002	word_problem	Ali makan 7 keping biskut. Amir makan 2 keping biskut. Ali makan berapa keping biskut lebih daripada Amir?	en_uk_d1_05.m4a				5				
+			230003	word_problem	Hao berjalan 4 kilometer ke sekolah. Ming berjalan 2 kilometer ke sekolah. Hao berjalan berapa kilometer lebih jauh daripada Ming?	en_uk_d1_09.m4a				2				
+			230004	word_problem	Di dalam kelas ada 13 orang murid perempuan dan 18 orang murid lelaki. Murid lelaki lebih berapa orang daripada murid perempuan?	en_uk_d2_05.m4a				5				
+			230005	word_problem	Aini ada 13 kuntum bunga. Mei ada 8 kuntum bunga. Aini ada berapa kuntum bunga lebih daripada Mei?	en_uk_d2_01.m4a				5				
+			230006	word_problem	Ravi ada 7 biji belon. Ali ada 5 biji belon. Ravi ada berapa biji belon lebih daripada Ali?	en_uk_d1_02.m4a				2				
+			230007	word_problem	Mei membaca 3 buah buku. Siti membaca 5 buah buku. Siti membaca berapa buah buku lebih daripada Mei?	en_uk_d1_08.m4a				2				
+			230008	word_problem	Siti menjumpai 20 biji kerang di pantai. Amir menjumpai 6 biji kerang. Siti menjumpai berapa biji kerang lebih daripada Amir?	en_uk_d2_03.m4a				14				
+			230009	word_problem	Ali membeli 12 pokok bunga. Kakak Ali membeli 7 pokok bunga. Ali membeli berapa pokok bunga lebih daripada kakaknya?	en_uk_d2_04.m4a				5				
+			230010	word_problem	Ali menanam 5 pohon pokok di taman sekolah. Aini menanam 8 pohon pokok. Aini menanam berapa pohon pokok lebih daripada Ali?	en_uk_d1_06.m4a				3				
 SpecialTest_24	1	240001~240010, 240001~240010, 240001~240010, 240001~240010, 240001~240010												
-			240001	word_problem	I have 10 apples. I eat some apples. I have 4 apples left. How many apples did I eat?	en_uk_e2_01.m4a				6				
-			240002	word_problem	Yesterday, the store had 7 bags of rice. Today, the store has 2 bags of rice. How many bags of rice did the store sell?	en_uk_e2_02.m4a				5				
-			240003	word_problem	David and his friends fly 9 kites. Some kites get stuck in a tree. 6 kites are still flying. How many kites are stuck in the tree?	en_uk_e2_07.m4a				3				
-			240004	word_problem	A man was carrying balloons but the wind blew 6 away. He has 2 balloons left. How many balloons did he start with?	en_uk_e2_03.m4a				8				
-			240005	word_problem	Some mangos were in the basket. 4 mangos were taken from the basket. Now there are 6 mangos. How many mangos were in the basket before they were taken?	en_uk_e2_10.m4a				10				
-			240006	word_problem	8 birds sat on a tree branch. Some flew away. Now there are 3 birds on the branch. How many birds flew away?	en_uk_e2_04.m4a				5				
-			240007	word_problem	Mia brought 10 jars of homemade jam to the market. She sold some jars and had 3 jars left. How many jars did she sell at the market?	en_uk_e2_05.m4a				7				
-			240008	word_problem	Tim's dog gave birth to some puppies. Tim gave 6 puppies to his friends. Now he has 2 puppies left. How many puppies did his dog give birth to?	en_uk_e2_06.m4a				8				
-			240009	word_problem	Jen made 6 sandwiches for her family. Her family ate some and 2 were left. How many sandwiches did her family eat?	en_uk_e2_09.m4a				4				
-			240010	word_problem	7 boys ride their bikes. Some of the boys go home. 5 boys continue riding their bikes. How many boys went home?	en_uk_e2_08.m4a				2				
+			240001	word_problem	Ali ada 10 biji epal. Ali makan beberapa biji epal. Sekarang tinggal 4 biji epal. Ali makan berapa biji epal?	en_uk_e2_01.m4a				6				
+			240002	word_problem	Semalam, di kedai itu ada 7 beg beras. Hari ini, hanya 2 beg beras yang tinggal. Berapakah bilangan beg beras yang telah dijual?	en_uk_e2_02.m4a				5				
+			240003	word_problem	Di langit ada 9 layang-layang. Beberapa layang-layang tersangkut pada pokok. 6 layang-layang masih terbang. Berapa layang-layang yang tersangkut pada pokok?	en_uk_e2_07.m4a				3				
+			240004	word_problem	Amir ada beberapa biji belon. 6 biji belon meletup. Sekarang tinggal 2 biji belon. Amir ada berapa biji belon pada mulanya?	en_uk_e2_03.m4a				8				
+			240005	word_problem	Di dalam bakul ada beberapa biji mangga. 4 biji mangga diambil keluar. Sekarang tinggal 6 biji mangga sahaja. Berapa biji mangga ada pada mulanya?	en_uk_e2_10.m4a				10				
+			240006	word_problem	8 ekor burung berehat di dahan pokok. Beberapa ekor burung terbang pergi. Sekarang tinggal 3 ekor burung di atas dahan. Berapa ekor burung yang terbang pergi?	en_uk_e2_04.m4a				5				
+			240007	word_problem	Lina membawa 10 balang jem buatan sendiri ke pasar. Lina menjual beberapa balang jem. Selepas itu, hanya 3 balang jem tinggal. Lina telah menjual berapa balang jem?	en_uk_e2_05.m4a				7				
+			240008	word_problem	Kucing Amir beranak. Amir memberikan 6 ekor anak kucing kepada kawan-kawannya. Sekarang, Amir hanya ada 2 ekor anak kucing. Berapa ekor anak kucing pada mulanya?	en_uk_e2_06.m4a				8				
+			240009	word_problem	Mei membuat 6 sandwic untuk keluarganya. Keluarganya makan beberapa sandwic. Sekarang hanya 2 sandwic tinggal. Berapakah bilangan sandwic yang dimakan oleh keluarganya?	en_uk_e2_09.m4a				4				
+			240010	word_problem	7 orang budak lelaki sedang menunggang basikal. Beberapa orang budak lelaki balik ke rumah. 5 orang budak lelaki terus menunggang basikal. Berapa orang budak lelaki yang balik ke rumah?	en_uk_e2_08.m4a				2				
 SpecialTest_25	1	250001, 250002, 250003, 250004, 250005												
 			250001	operations_without_objects	2~3x2~9=?		horizontal			4~27				
 			250002	operations_without_objects	4~5x2~9=?		horizontal			8~45				
@@ -427,27 +427,27 @@ SpecialTest_25	1	250001, 250002, 250003, 250004, 250005
 			250004	operations_without_objects	8~9x2~9=?		horizontal			16~81				
 			250005	operations_without_objects	2~9x2~9=?		horizontal			4~81				
 SpecialTest_26	1	260001~260010, 260001~260010, 260001~260010, 260001~260010, 260001~260010												
-			260001	word_problem	Miranda baked 18 brownies. She put an equal number of brownies on to 2 plates. How many brownies are on each platese?	en_uk_f2_05.m4a				9				
-			260002	word_problem	A farmer has 16 eggs and puts them into 2 boxes equally. How many eggs are in each box?	en_uk_f2_03.m4a				8				
-			260003	word_problem	Sarah picked 6 flowers. She put an equal amount of flowers into 2 vases. How many flowers did she put in each vase?	en_uk_f2_04.m4a				3				
-			260004	word_problem	Shante picked 6 mangos from a tree. He put an equal number of mangos into 3 boxes. How many mangos did he put in each box?	en_uk_f2_07.m4a				2				
-			260005	word_problem	20 students were equally divided into 4 groups by the teacher. How many students are in each group?	en_uk_f2_09.m4a				5				
-			260006	word_problem	2 children share 8 sweets equally. How many sweets does each child get?	en_uk_f2_01.m4a				4				
-			260007	word_problem	You and your sister share 10 bags of chips equally. How many bags of chips will each of you get?	en_uk_f2_02.m4a				5				
-			260008	word_problem	3 friends share 12 candies equally. How many candies does each friend get?	en_uk_f2_06.m4a				4				
-			260009	word_problem	Mr. Simpson's class has 18 books. He arranges them equally on 3 shelves. How many books are on each shelf?	en_uk_f2_08.m4a				6				
-			260010	word_problem	Marco bought 12 fish. He put an equal number of fish into 4 tanks. How many fish are in each tank?	en_uk_f2_10.m4a				3				
+			260001	word_problem	Mei ada 18 keping biskut. Mei meletakkan biskut itu sama banyak di atas 2 pinggan. Setiap pinggan ada berapa keping biskut?	en_uk_f2_05.m4a				9				
+			260002	word_problem	Petani ada 16 biji telur. Petani meletakkan telur itu sama banyak ke dalam 2 kotak. Setiap kotak ada berapa biji telur?	en_uk_f2_03.m4a				8				
+			260003	word_problem	Siti memetik 6 kuntum bunga. Siti meletakkan bunga itu sama banyak ke dalam 2 pasu. Setiap pasu ada berapa kuntum bunga?	en_uk_f2_04.m4a				3				
+			260004	word_problem	Devi memetik 6 biji mangga. Devi menyimpan mangga itu sama banyak ke dalam 3 kotak. Setiap kotak ada berapa biji mangga?	en_uk_f2_07.m4a				2				
+			260005	word_problem	20 orang murid dibahagikan sama banyak kepada 4 kumpulan. Setiap kumpulan ada berapa orang murid?	en_uk_f2_09.m4a				5				
+			260006	word_problem	Ibu ada 8 biji gula-gula. Ibu memberi gula-gula itu sama banyak kepada 2 orang anaknya. Setiap anak mendapat berapa biji gula-gula?	en_uk_f2_01.m4a				4				
+			260007	word_problem	Ali dan kakaknya berkongsi 10 beg kerepek sama banyak. Ali mendapat berapa beg kerepek?	en_uk_f2_02.m4a				5				
+			260008	word_problem	3 orang rakan berkongsi 12 biji gula-gula sama banyak. Setiap rakan mendapat berapa biji gula-gula?	en_uk_f2_06.m4a				4				
+			260009	word_problem	Cikgu Ali ada 18 buah buku. Cikgu Ali menyusun buku itu sama banyak di atas 3 rak. Setiap rak ada berapa buah buku?	en_uk_f2_08.m4a				6				
+			260010	word_problem	Kumar membeli 12 ekor ikan. Kumar memasukkan ikan itu sama banyak ke dalam 4 tangki. Setiap tangki ada berapa ekor ikan?	en_uk_f2_10.m4a				3				
 SpecialTest_27	1	270001~270010, 270001~270010, 270001~270010, 270001~270010, 270001~270010												
-			270001	word_problem	Mike has 3 pairs of socks. Each pair has 2 socks. How many socks does Mike have?	en_uk_f1_01.m4a				6				
-			270002	word_problem	Allie bought 2 boxes of mangos. Each box has 4 mangos. How many mangos did she buy?	en_uk_f1_03.m4a				8				
-			270003	word_problem	There are 3 sheeps in the pasture. Each sheep has 4 lambs. How many lambs are in the pasture?	en_uk_f1_05.m4a				12				
-			270004	word_problem	Jane counted 3 flowers in the flower pot. Each flower has 5 petals. How many petals are there in all?	en_uk_f1_08.m4a				15				
-			270005	word_problem	There are 2 wagons on the farm. Each wagon carries 8 children. How many children are in the wagons?	en_uk_f1_04.m4a				16				
-			270006	word_problem	A bee has 6 legs. How many legs do 2 bees have?	en_uk_f1_02.m4a				12				
-			270007	word_problem	A duck has 2 legs. How many legs do 3 ducks have?	en_uk_f1_06.m4a				6				
-			270008	word_problem	Shelly bought 4 boxes of donuts. Each box contains 5 donuts. How many donuts did she buy altogether?	en_uk_f1_07.m4a				20				
-			270009	word_problem	It takes Sally 7 minutes to run a mile. How long would it take her to run 4 miles?	en_uk_f1_09.m4a				28				
-			270010	word_problem	Kit, Ruth, and Dean each ate 2 slices of pizza. How many slices of pizza did they eat in all?	en_uk_f1_10.m4a				6				
+			270001	word_problem	Amir ada 3 pasang stoking. Setiap pasang ada 2 helai stoking. Amir ada berapa helai stoking semuanya?	en_uk_f1_01.m4a				6				
+			270002	word_problem	Aini membeli 2 kotak mangga. Setiap kotak ada 4 biji mangga. Aini membeli berapa biji mangga semuanya?	en_uk_f1_03.m4a				8				
+			270003	word_problem	Di padang ada 3 ekor biri-biri. Setiap biri-biri ada 4 ekor anak. Berapa ekor anak biri-biri semuanya?	en_uk_f1_05.m4a				12				
+			270004	word_problem	Aini ada 3 kuntum bunga. Setiap bunga ada 5 kelopak. Bunga itu ada berapa kelopak semuanya?	en_uk_f1_08.m4a				15				
+			270005	word_problem	Di laut ada 2 bot. Setiap bot ada 8 orang nelayan. Berapa orang nelayan di dalam kedua-dua bot itu?	en_uk_f1_04.m4a				16				
+			270006	word_problem	Seekor lebah ada 6 kaki. 2 ekor lebah ada berapa kaki semuanya?	en_uk_f1_02.m4a				12				
+			270007	word_problem	Seekor itik ada 2 kaki. 3 ekor itik ada berapa kaki semuanya?	en_uk_f1_06.m4a				6				
+			270008	word_problem	Kavita membeli 4 kotak donat. Setiap kotak ada 5 biji donat. Kavita membeli berapa biji donat semuanya?	en_uk_f1_07.m4a				20				
+			270009	word_problem	Siti mengambil 7 minit untuk berlari satu pusingan. Siti mengambil berapa minit untuk berlari 4 pusingan?	en_uk_f1_09.m4a				28				
+			270010	word_problem	Ali, Ravi dan Amir masing-masing makan 2 keping piza. Mereka makan berapa keping piza semuanya?	en_uk_f1_10.m4a				6				
 SpecialTest_28	1	280001~280004, 280005~280008, 280009, 280010, 280011												
 			280001	shapes	which	Yang manakah bulat?	which_is_a_circle			circle	circle,square,triangle,rectangle			
 			280002	shapes	which	Yang manakah segi empat sama?	which_is_a_square			square	circle,square,triangle,rectangle			
@@ -564,44 +564,44 @@ FishTest_8_1	1	811, 812~813, 814, 815, 816
 			813	operations_drag	11~19-1~9=?	regroupingtrue	vertical			1~9				
 			814	operations_with_objects	20-1~9=?	regroupingtrue				11~19				
 			815	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~99				
-			816	word_problem	7 red apples and 2 green apples are in the basket. How many apples are in the basket?	en_uk_a1_08.m4a				9				
+			816	word_problem	Di dalam bakul ada 7 biji epal merah dan 2 biji epal hijau. Berapakah jumlah epal di dalam bakul?	en_uk_a1_08.m4a				9				
 FishTest_8_2	1	821, 822, 823, 824, 825												
 			821	missing_number_drag	2	4	descending			1~10	2			
 			822	operations_drag	11~19+11~19=?	regroupingfalse	horizontal			20~30				
 			823	operations_drag	20-1~10=?		horizontal			1~10				
 			824	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
-			825	word_problem	Billy has 2 marbles. Audrey has 3 more marbles than Billy. How many marbles does Audrey have?	en_uk_d3_02.m4a				5				
+			825	word_problem	Ravi ada 2 biji guli. Aini ada 3 biji guli lebih daripada Ravi. Aini ada berapa biji guli?	en_uk_d3_02.m4a				5				
 FishTest_8_3	1	831, 832, 833, 834, 835												
 			831	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
 			832	missing_number_drag	2	3	descending			11~30	2			
 			833	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
 			834	operations_drag	21~50-10~20=?	regroupingfalse	vertical			1~40				
-			835	word_problem	5 apples are on the table. Sam eats 2 apples. How many apples are left on the table?	en_uk_b1_01.m4a				3				
+			835	word_problem	Ali ada 5 biji epal. Dia makan 2 biji epal. Ali masih ada berapa biji epal?	en_uk_b1_01.m4a				3				
 FishTest_9_1	1	911, 912, 913, 914, 915												
 			911	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
 			912	missing_number_drag	2	4	descending			50~100	2			
 			913	operations_drag	11~50+11~50=?	regroupingfalse	vertical			20~50				
 			914	operations_drag	11~50-11~50=?	regroupingfalse	vertical			20~50				
-			915	word_problem	There are 14 fish in a water tank. Kerri put 3 more fish into the tank. How many fish are there?	en_uk_a1_04.m4a				17				
+			915	word_problem	Di dalam tangki ada 14 ekor ikan. Kavita masukkan 3 ekor ikan lagi ke dalam tangki. Berapakah jumlah ikan di dalam tangki sekarang?	en_uk_a1_04.m4a				17				
 FishTest_9_2	1	921, 922, 923, 924, 925												
 			921	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
 			922	missing_number_drag	1	4	ascending			100~500				
 			923	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
-			924	word_problem	There are 10 plates at the dinner table. There are 5 more people than plates. How many people are at dinner?	en_uk_d3_09.m4a				15				
-			925	word_problem	There are 12 cats on a fence. 1 cat jumps down off of the fence. How many cats are left on the fence?	en_uk_b1_09.m4a				11				
+			924	word_problem	Di meja makan ada 5 biji pinggan. 10 orang dijemput makan. Berapa biji pinggan lagi diperlukan?	en_uk_d3_09.m4a				15				
+			925	word_problem	12 ekor kucing duduk di atas pagar. Seekor kucing melompat turun. Berapa ekor kucing yang masih ada di atas pagar?	en_uk_b1_09.m4a				11				
 FishTest_9_3	1	931, 932, 933, 934, 935												
 			931	missing_number_drag	100	2	ascending			100~900	100			
 			932	operations_drag	11~18-1~9=?	regroupingtrue	horizontal			1~9				
 			933	operations_drag	21~50-11~30=?	regroupingtrue	vertical			1~40				
-			934	word_problem	Janet has 8 oranges and Sharon has 4 oranges. How many oranges do they have altogether?	en_uk_a2_08.m4a				12				
-			935	word_problem	Sandy is 5 years old. Mia is 7 years older than Sandy. How old is Mia?	en_uk_d4_10.m4a				12				
+			934	word_problem	Mei ada 8 biji oren. Lina ada 4 biji oren. Mereka ada berapa biji oren semuanya?	en_uk_a2_08.m4a				12				
+			935	word_problem	Mei berumur 5 tahun. Lina 7 tahun lebih tua daripada Mei. Lina berumur berapa tahun?	en_uk_d4_10.m4a				12				
 FishTest_10_1	1	1011~1013, 1014, 1015, 1016, 1017												
 			1011	operations_drag	11~99+10, 20, 30, 40, 50, 60, 70, 70, 80=?		horizontal			1~100				
 			1012	operations_drag	10, 20, 30, 40, 50, 60, 70, 80+11~99=?		horizontal			1~100				
 			1013	operations_drag	11~99-10, 20, 30, 40, 50, 60, 70, 80, 90=?		horizontal			1~100				
 			1014	operations_without_objects	2, 3, 4, 5x1~9=?		horizontal			2~45				
 			1015	missing_number_drag	10	3	ascending			500~990	10			
-			1016	word_problem	Jane has 9 balloons. 6 are green and the rest are blue. How many balloons are blue?	en_uk_c1_04.m4a				3				
+			1016	word_problem	Mei ada 9 belon. 6 belon berwarna hijau dan selebihnya berwarna biru. Berapa biji belon berwarna biru?	en_uk_c1_04.m4a				3				
 			1017	shapes	what	Apakah bentuk ini?	What_is_this_shape			circle,square,triangle,rectangle	circle,square,triangle,rectangle			
 FishTest_10_2	1	1021~1022, 1023, 1024, 1025, 1026												
 			1021	missing_number_drag	1	4	descending			100~999				
@@ -609,10 +609,10 @@ FishTest_10_2	1	1021~1022, 1023, 1024, 1025, 1026
 			1023	operations_drag	31~50+20~50=?	regroupingfalse	vertical			1~100				
 			1024	operations_drag	31~50-11~20=?	regroupingfalse	vertical			1~50				
 			1025	operations_without_objects	6, 7, 8, 9x1~9=?		horizontal			6~81				
-			1026	word_problem	A farmer had 7 apple trees. She bought some more trees and now has 10 apple trees in her orchard. How many apple trees did she buy?	en_uk_e1_04.m4a				3														
+			1026	word_problem	Seorang petani ada 7 pokok betik. Petani itu menanam beberapa pokok betik lagi. Sekarang, petani itu ada 10 pokok betik di kebunnya. Berapakah bilangan pokok betik yang baru ditanam oleh petani itu?	en_uk_e1_04.m4a				3														
 FishTest_10_3	1	1031, 1032, 1033, 1034,1035												
 			1031	operations_drag	11~30+20~70=?	regroupingtrue	vertical			1~100				
 			1032	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~100				
 			1033	missing_number_drag	10	4	descending			100~999	10			
-			1034	word_problem	The tennis team has 12 players. 6 of the players are girls. Some are boys. How many tennis players are boys?	en_uk_c2_09.m4a				6				
+			1034	word_problem	Pasukan tenis ada 12 orang pemain. 6 orang pemain ialah perempuan. Selebihnya ialah lelaki. Berapa orang pemain lelaki?	en_uk_c2_09.m4a				6				
 			1035	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,hexagon,parallelogram,trapezoid	pentagon,hexagon,parallelogram,trapezoid
