@@ -57,10 +57,10 @@ MiniTest_4_2	1	42001, 42002, 42003, 42004, 42005~42008
 			42002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~20				
 			42003	operations_with_objects	2~10-1~4=?					1~9				
 			42004	operations_with_objects	2~10-5~9=?					1~9				
-			42005	shapes	which	Yang manakah bulat?	which_is_a_circle			circle	circle,square,triangle,rectangle			
-			42006	shapes	which	Yang manakah segi empat sama?	which_is_a_square			square	circle,square,triangle,rectangle			
-			42007	shapes	which	Yang manakah segi tiga?	which_is_a_triangle			triangle	circle,square,triangle,rectangle			
-			42008	shapes	which	Yang manakah segi empat tepat?	which_is_a_rectangle			rectangle	circle,square,triangle,rectangle			
+			42005	shapes	which	Yang mana bulatan?	which_is_a_circle			bulatan	bulatan,segi empat sama,segi tiga, segi empat tepat			
+			42006	shapes	which	Yang mana segi empat sama?	which_is_a_square			segi tempat sama	bulatan,segi empat sama,segi tiga, segi empat tepat			
+			42007	shapes	which	Yang mana segi tiga?	which_is_a_triangle			segi tiga	bulatan,segi empat sama,segi tiga, segi empat tepat			
+			42008	shapes	which	Yang mana segi empat tepat?	which_is_a_rectangle			segi empat tepat	bulatan,segi empat sama,segi tiga, segi empat tepat			
 PostTest_4	1	4001, 4002, 4003, 4004~4005, 4006, 4007, 4008, 4009~4010, 4011~4014, 4015												
 			4001	2digit_numbers	howmany.m4a					51~100				
 			4002	number_identification						51~99				
@@ -72,10 +72,10 @@ PostTest_4	1	4001, 4002, 4003, 4004~4005, 4006, 4007, 4008, 4009~4010, 4011~4014
 			4008	missing_number_drag	2	3	ascending			1~20	2			
 			4009	operations_with_objects	1~20+1~20=?	regroupingfalse				1~20				
 			4010	operations_with_objects	1~20-1~20=?	regroupingfalse				1~20				
-			4011	shapes	which	Yang manakah bulat?	which_is_a_circle			circle	circle,square,triangle,rectangle			
-			4012	shapes	which	Yang manakah segi empat sama?	which_is_a_square			square	circle,square,triangle,rectangle			
-			4013	shapes	which	Yang manakah segi tiga?	which_is_a_triangle			triangle	circle,square,triangle,rectangle			
-			4014	shapes	which	Yang manakah segi empat tepat?	which_is_a_rectangle			rectangle	circle,square,triangle,rectangle			
+			4011	shapes	which	Yang mana bulatan?	which_is_a_circle			bulatan	bulatan,segi empat sama,segi tiga, segi empat tepat			
+			4012	shapes	which	Yang mana segi empat sama?	which_is_a_square			segi tempat sama	bulatan,segi empat sama,segi tiga, segi empat tepat			
+			4013	shapes	which	Yang mana segi tiga?	which_is_a_triangle			segi tiga	bulatan,segi empat sama,segi tiga, segi empat tepat			
+			4014	shapes	which	Yang mana segi empat tepat?	which_is_a_rectangle			segi empat tepat	bulatan,segi empat sama,segi tiga, segi empat tepat			
 			4015	shapes	what	Apakah bentuk ini?	What_is_this_shape			bulatan,segi_empat_sama,segi_tiga,segi_empat_tepat	bulatan,segi_empat_sama,segi_tiga,segi_empat_tepat
 MiniTest_5_1	1	51001, 51002, 51003, 51004, 51005												
 			51001	operations_drag	1~9+1~9=?		horizontal			1~10				
@@ -94,7 +94,7 @@ MiniTest_5_3	1	53001, 53002, 53003, 53004, 53005
 			53002	operations_with_objects	10-1~9=?	regroupingtrue				1~9				
 			53003	operations_drag	11~20-1~10=?		vertical			10~20				
 			53004	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~50				
-			53005	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,hexagon,parallelogram,trapezoid	pentagon,heksagon,segi_empat_selari,trapezium
+			53005	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,heksagon,segi_empat_selari,trapezium	pentagon,heksagon,segi_empat_selari,trapezium
 PostTest_5	1	5001, 5002~5003, 5004~5007, 5008~5010, 5011, 5012, 5013, 5014, 5015~5018, 5019												
 			5001	recognize_number						51~100				
 			5002	use_magnitude_symbols	41~50	41~50	Isi tempat kosong.	fill_in_the_blank.m4a						
@@ -110,10 +110,10 @@ PostTest_5	1	5001, 5002~5003, 5004~5007, 5008~5010, 5011, 5012, 5013, 5014, 5015
 			5012	operations_drag	1~9+1~9=?		vertical			10				
 			5013	operations_drag	10+1~10=?		horizontal			11~19				
 			5014	operations_drag	10-1~9=?		vertical			1~9				
-			5015	shapes	which	Yang manakah pentagon?	Which_is_a_pentagon			pentagon	pentagon,hexagon,parallelogram,trapezoid
-			5016	shapes	which	Yang manakah heksagon?	Which_is_a_hexagon			hexagon	pentagon,hexagon,parallelogram,trapezoid
-			5017	shapes	which	Yang manakah segi empat selari?	Which_is_a_parallelogram			parallelogram	pentagon,hexagon,parallelogram,trapezoid
-			5018	shapes	which	Yang manakah trapezoid?	Which_is_a_trapezoid			trapezoid	pentagon,hexagon,parallelogram,trapezoid
+			5015	shapes	which	Yang mana pentagon?	Which_is_a_pentagon			pentagon	pentagon,heksagon,segi_empat_selari,trapezium
+			5016	shapes	which	Yang mana heksagon?	Which_is_a_hexagon			heksagon	pentagon,heksagon,segi_empat_selari,trapezium
+			5017	shapes	which	Yang mana segi empat selari?	Which_is_a_parallelogram			segi empat selari	pentagon,heksagon,segi_empat_selari,trapezium
+			5018	shapes	which	Yang mana trapezoid?	Which_is_a_trapezoid			trapezium	pentagon,heksagon,segi_empat_selari,trapezium
 			5019	shapes	what	Apakah bentuk ini?	What_is_this_shape			silinder,kubus,sfera,kon	silinder,kubus,sfera,kon
 MiniTest_6_1	1	61001, 61002, 61003, 61004, 61005												
 			61001	missing_number_drag	1	3	ascending			51~100				
@@ -161,13 +161,13 @@ MiniTest_7_2	1	72001, 72002, 72003, 72004, 72005
 			72002	operations_drag	11~19+11~19=?	regroupingfalse	horizontal			20~30				
 			72003	operations_drag	20-1~10=?		horizontal			1~10				
 			72004	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~99				
-			72005	word_problem	Razak mempunyai 2 guli. Aida mempunyai 3 guli daripada Razak. Berapa banyak guli yang dimiliki Aida?	en_uk_d3_02.m4a				5				
+			72005	word_problem	Kumar ada 2 biji guli. Kavita ada 3 biji guli lebih banyak daripada Kumar. Kavita ada berapa biji guli?	en_uk_d3_02.m4a				5				
 MiniTest_7_3	1	73001, 73002, 73003, 73004, 73005												
 			73001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			71~99				
 			73002	missing_number_drag	2	3	descending			11~30	2			
 			73003	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
 			73004	operations_drag	21~50-10~20=?	regroupingfalse	vertical			1~40				
-			73005	word_problem	5 epal ada di atas meja. Daud makan 2 epal. Berapa banyak epal yang tersisa di atas meja?	en_uk_b1_01.m4a				3				
+			73005	word_problem	Di atas meja ada 5 biji epal. Siti makan 2 biji epal. Berapa biji epal yang tinggal di atas meja?	en_uk_b1_01.m4a				3				
 PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012, 7013												
 			7001	use_magnitude_symbols	51~100	51~100	Isi tempat kosong.	fill_in_the_blank.m4a						
 			7002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			51~100				
@@ -178,28 +178,28 @@ PostTest_7	1	7001, 7002~7003, 7004, 7005, 7006~7007, 7008, 7009, 7010~7011, 7012
 			7007	operations_with_objects	1~9+11~19=?	regroupingtrue				20~30				
 			7008	operations_with_objects	11~19+11~19=?	regroupingtrue				20~40				
 			7009	operations_drag	11~50-11~30=?	regroupingfalse	vertical			1~50				
-			7010	word_problem	Mariam menangkap 5 ikan pada waktu pagi. Dia menangkap 4 lagi ikan pada sebelah petang. Berapa banyak ikan yang ditangkap Mariam dalam semua?	en_uk_a1_01.m4a				9				
-			7011	word_problem	Ismail mempunyai 2 kambing di ladangnya. Terdapat 6 lagi ayam daripada kambing di ladangnya. Berapa banyak ayam yang dia ada?	en_uk_d3_07.m4a				8				
-			7012	word_problem	4 ekor burung sedang bertenggek di atas dahan. Seekor terbang pergi. Berapa ekor burung yang tinggal di atas dahan?	en_uk_b1_03.m4a				3				
-			7013	word_problem	Anda mempunyai 7 belon dan rakan anda mempunyai 5 belon. Berapa banyak lagi belon yang anda ada daripada rakan anda?	en_uk_d1_02.m4a				2				
+			7010	word_problem	Ali menangkap 5 ekor ikan pada waktu pagi. Ali menangkap 4 ekor ikan lagi pada waktu petang. Ali menangkap berapa ekor ikan semuanya?	en_uk_a1_01.m4a				9				
+			7011	word_problem	Kumar ada 2 ekor kambing di ladangnya. Kumar ada 6 ekor ayam lebih banyak daripada kambing. Kumar ada berapa ekor ayam?	en_uk_d3_07.m4a				8				
+			7012	word_problem	4 ekor burung sedang berehat di atas dahan. 1 ekor burung terbang pergi. Berapa ekor burung yang tinggal di atas dahan?	en_uk_b1_03.m4a				3				
+			7013	word_problem	Ravi ada 7 biji belon. Ali ada 5 biji belon. Ravi ada berapa biji belon lebih daripada Ali?	en_uk_d1_02.m4a				2				
 MiniTest_8_1	1	81001, 81002, 81003, 81004, 81005												
 			81001	use_magnitude_symbols	100, 200, 300, 400, 500, 600, 700, 800, 900	100, 200, 300, 400, 500, 600, 700, 800, 900	Isi tempat kosong.	fill_in_the_blank.m4a						
 			81002	missing_number_drag	2	4	descending			50~100	2			
 			81003	operations_drag	11~50+11~50=?	regroupingfalse	vertical			20~50				
 			81004	operations_drag	11~50-11~50=?	regroupingfalse	vertical			20~50				
-			81005	word_problem	Terdapat 14 ikan dalam tangki air. Kartini meletakkan 3 lagi ikan ke dalam tangki. Berapa banyak ikan yang ada?	en_uk_a1_04.m4a				17				
+			81005	word_problem	Di dalam tangki ada 14 ekor ikan. Kavita memasukkan 3 ekor ikan lagi ke dalam tangki. Berapa ekor ikan di dalam tangki sekarang?	en_uk_a1_04.m4a				17				
 MiniTest_8_2	1	82001, 82002, 82003, 82004, 82005												
 			82001	compare_number_magnitudes	descending	Susun nombor dari terbesar hingga terkecil.	order_the_numbers_from_largest_to_smallest.m4a			51~100				
 			82002	missing_number_drag	1	4	ascending			100~500				
 			82003	operations_drag	21~40+11~20=?	regroupingtrue	vertical			30~60				
-			82004	word_problem	Terdapat 10 pinggan di meja makan. Terdapat 5 orang lagi daripada pinggan. Berapa banyak orang yang sedang makan malam?	en_uk_d3_09.m4a				15				
-			82005	word_problem	Terdapat 12 kucing di sebalik pagar. 1 kucing melompat dari pagar. Berapa banyak kucing yang tinggal di pagar?	en_uk_b1_09.m4a				11				
+			82004	word_problem	Di meja makan ada 5 biji pinggan. 10 orang dijemput makan. Berapa biji pinggan lagi diperlukan?	en_uk_d3_09.m4a				5				
+			82005	word_problem	Di atas pagar ada 12 ekor kucing. Seekor kucing melompat turun dari pagar. Berapa ekor kucing di atas pagar sekarang?	en_uk_b1_09.m4a				11				
 MiniTest_8_3	1	83001, 83002, 83003, 83004, 83005												
 			83001	missing_number_drag	100	2	ascending			100~900	100			
 			83002	operations_drag	11~18-1~9=?	regroupingtrue	horizontal			1~9				
 			83003	operations_drag	21~50-11~30=?	regroupingtrue	vertical			1~40				
-			83004	word_problem	Janet mempunyai 8 biji oren dan Sharifah mempunyai 4 biji oren. Berapa banyak biji oren yang mereka ada?	en_uk_a2_08.m4a				12				
-			83005	word_problem	Sandy berumur 5 tahun. Mia berusia 7 tahun lebih tua daripada Sandy. Berapa umur Mia?	en_uk_d4_10.m4a				12				
+			83004	word_problem	Mei ada 8 biji oren. Lina ada 4 biji oren. Mereka ada berapa biji oren semuanya?	en_uk_a2_08.m4a				12				
+			83005	word_problem	Mei berumur 5 tahun. Lina 7 tahun lebih tua daripada Mei. Berapa umur Lina?	en_uk_d4_10.m4a				12				
 PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010												
 			8001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			300~700				
 			8002	missing_number_drag	1	3	ascending			200~999				
@@ -207,17 +207,17 @@ PostTest_8	1	8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010
 			8004	missing_number_drag	100	4	descending			100~500	100			
 			8005	operations_drag	11~50+11~20=?	regroupingtrue	vertical			1~50				
 			8006	operations_drag	31~50-11~20=?	regroupingtrue	vertical			1~50				
-			8007	word_problem	Ali mempunyai 6 buku. Hassan mempunyai 2 buku. Berapa banyak buku yang mereka ada dalam semua?	en_uk_a1_05.m4a				8				
-			8008	word_problem	Diego mempunyai 11 biji mangga dalam bakul. Diego memberikan 4 biji mangga kepada kakaknya. Berapa banyak biji mangga yang tinggal di dalam bakul?	en_uk_b2_05.m4a				7				
-			8009	word_problem	Hamid berumur 12 tahun. Saudaranya Ali berumur 8 tahun. Berapa lebih muda Ali daripada Hamid?	en_uk_d2_06.m4a				4				
-			8010	word_problem	Seorang petani mengumpulkan 16 biji telur. Dia menggunakan 4 biji telur untuk membuat sarapan. Berapakah biji telur yang tinggal?	en_uk_b1_06.m4a				12				
+			8007	word_problem	Ali ada 6 buah buku. Amir ada 2 buah buku. Mereka ada berapa buah buku semuanya?	en_uk_a1_05.m4a				8				
+			8008	word_problem	Kumar ada 11 biji mangga di dalam bakul. Kumar memberikan 4 biji mangga kepada kakaknya. Berapa biji mangga di dalam bakul sekarang?	en_uk_b2_05.m4a				7				
+			8009	word_problem	Kumar berumur 12 tahun. Ravi berumur 8 tahun. Ravi berapa tahun lebih muda daripada Kumar?	en_uk_d2_06.m4a				4				
+			8010	word_problem	Seorang petani mengutip 16 biji telur. Petani itu menggunakan 4 biji telur untuk membuat sarapan. Petani itu ada berapa biji telur sekarang?	en_uk_b1_06.m4a				12				
 MiniTest_9_1	1	91001~91003, 91004, 91005, 91006, 91007												
 			91001	operations_drag	11~99+10, 20, 30, 40, 50, 60, 70, 70, 80=?		horizontal			1~100				
 			91002	operations_drag	10, 20, 30, 40, 50, 60, 70, 80+11~99=?		horizontal			1~100				
 			91003	operations_drag	10, 20, 30, 40, 50, 60, 70, 80, 90-5,10=?		horizontal			1~100				
 			91004	operations_without_objects	2, 3, 4, 5x1~9=?		horizontal			2~45				
 			91005	missing_number_drag	10	3	ascending			500~990	10			
-			91006	word_problem	Noriza mempunyai 9 belon. 6 berwarna hijau dan selebihnya berwarna biru. Berapa banyak belon berwarna biru?	en_uk_c1_04.m4a				3				
+			91006	word_problem	Ravi ada 9 biji belon. 6 biji belon berwarna hijau dan selebihnya berwarna biru. Berapa biji belon berwarna biru?	en_uk_c1_04.m4a				3				
 			91007	shapes	what	Apakah bentuk ini?	What_is_this_shape			bulatan,segi_empat_sama,segi_tiga,segi_empat_sama	bulatan,segi_empat_sama,segi_tiga,segi_empat_tepat			
 MiniTest_9_2	1	92001~92002, 92003, 92004, 92005, 92006												
 			92001	missing_number_drag	1	4	descending			100~999				
@@ -225,12 +225,12 @@ MiniTest_9_2	1	92001~92002, 92003, 92004, 92005, 92006
 			92003	operations_drag	31~50+20~50=?	regroupingfalse	vertical			1~100				
 			92004	operations_drag	10~99-10=?		vertical			1~90				
 			92005	operations_without_objects	6, 7, 8, 9x1~9=?		horizontal			6~81				
-			92006	word_problem	Seorang petani mempunyai 7 pokok epal. Dia membeli lebih banyak pokok dan kini mempunyai 10 pokok epal di kebunnya. Berapa banyak pokok epal yang dia beli?	en_uk_e1_04.m4a				3				
+			92006	word_problem	Seorang petani ada 7 pokok langsat. Petani itu membeli beberapa pokok langsat lagi. Sekarang, petani itu ada 10 pokok langsat di kebunnya. Petani itu telah membeli berapa pokok epal?	en_uk_e1_04.m4a				3				
 MiniTest_9_3	1	93001, 93002, 93003, 93004, 93005												
 			93001	operations_drag	11~30+20~70=?	regroupingtrue	vertical			1~99				
 			93002	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~99				
 			93003	missing_number_drag	10	4	descending			100~999	10			
-			93004	word_problem	Pasukan tenis mempunyai 12 pemain. 6 pemain adalah gadis. Ada lelaki. Berapa banyak pemain tenis lelaki?	en_uk_c2_09.m4a				6				
+			93004	word_problem	Pasukan tenis ada 12 orang pemain. 6 orang pemain ialah perempuan. Selebihnya ialah lelaki. Berapa orang pemain lelaki?	en_uk_c2_09.m4a				6				
 			93005	shapes	what	Apakah bentuk ini?	What_is_this_shape			pentagon,heksagon,segi_empat_selari,trapezium	pentagon,heksagon,segi_empat_selari,trapezium
 PostTest_9	1	9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010												
 			9001	operations_drag	20~70-11~30=?	regroupingtrue	vertical			1~100				
@@ -238,11 +238,11 @@ PostTest_9	1	9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010
 			9003	missing_number_drag	5	4	descending			100~999	5			
 			9004	missing_number_drag	3	3	ascending			1~20				
 			9005	operations_without_objects	2~9x2~9=?		horizontal			4~81				
-			9006	word_problem	Petrus mempunyai 4 biji guli. Suzana memberikan Petrus beberapa biji guli dan kini dia mempunyai 6 biji guli semuanya. Berapa biji guli yang diberikan oleh Suzana kepada Petrus?	en_uk_e1_02.m4a				2				
-			9007	word_problem	Saya mempunyai 10 biji epal. Saya memakan beberapa biji epal. Saya mempunyai 4 biji epal yang tinggal. Berapa biji epal yang saya makan?	en_uk_e2_01.m4a				6				
+			9006	word_problem	Ravi ada 4 biji guli. Aini memberi Ravi beberapa biji guli. Sekarang, Ravi ada 6 biji guli. Aini memberi Ravi berapa biji guli?	en_uk_e1_02.m4a				2				
+			9007	word_problem	Ali ada 10 biji epal. Ali makan beberapa biji epal. Sekarang, Ali ada 4 biji epal. Ali makan berapa biji epal?	en_uk_e2_01.m4a				6				
 			9008	shapes	what	Apakah bentuk ini?	What_is_this_shape			silinder,kubus,sfera,kon	silinder,kubus,sfera,kon
-			9009	word_problem	Seekor lebah mempunyai 6 kaki. Berapakah jumlah kaki bagi 2 ekor lebah?	en_uk_f1_02.m4a				12				
-			9010	word_problem	2 orang kanak-kanak berkongsi 8 gula-gula sama rata. Berapa banyak gula-gula yang diperoleh setiap kanak-kanak?	en_uk_f2_01.m4a				4				
+			9009	word_problem	Seekor lebah ada 6 kaki. 2 ekor lebah ada berapa kaki semuanya?	en_uk_f1_02.m4a				12				
+			9010	word_problem	Ibu ada 8 biji gula-gula. Ibu memberi gula-gula itu sama banyak kepada 2 orang anaknya. Setiap anak mendapat berapa biji gula-gula?	en_uk_f2_01.m4a				4				
 SpecialTest_1	1	10001, 10002, 10003, 10004, 10005												
 			10001	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			1~6	1			
 			10002	compare_number_magnitudes	ascending	Susun nombor dari terkecil hingga terbesar.	order_the_numbers_from_smallest_to_largest.m4a			5~10	1			
