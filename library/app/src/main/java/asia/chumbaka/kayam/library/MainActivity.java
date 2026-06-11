@@ -1,4 +1,4 @@
-package asia.chumbaka.kayam.library.bm;
+package asia.chumbaka.kayam.library;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -633,15 +633,20 @@ public class MainActivity extends KitKitLoggerActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // Kayam BM release: Videos tab is hidden; only Books remains.
-            // With getCount()==1, position is always 0 and maps to Books.
-            return BookFragment.newInstance();
+            // getItem is called to instantiate the fragment for the given page.
+            // Return a PlaceholderFragment (defined as a static inner class below).
+            if (position == 0) {
+                return VideoFragment.newInstance();
+            } else {
+                return BookFragment.newInstance();
+            }
+
         }
 
         @Override
         public int getCount() {
-            // Books-only — Videos tab hidden for Kayam BM release.
-            return 1;
+            // Show 2 total pages.
+            return 2;
         }
 
     }
@@ -756,7 +761,7 @@ public class MainActivity extends KitKitLoggerActivity {
                 public void onClick(View v) {
                     try {
                         Intent intent = new Intent(Intent.ACTION_MAIN);
-                        intent.setComponent(new ComponentName("asia.chumbaka.kayam.bookviewer.bm", "org.cocos2dx.cpp.AppActivity"));
+                        intent.setComponent(new ComponentName("asia.chumbaka.kayam.bookviewer", "org.cocos2dx.cpp.AppActivity"));
 
                         intent.putExtra("book", item.foldername);
                         Log.d("booktest", item.foldername);
