@@ -1,0 +1,51 @@
+# 데이터를 변경하려면:						
+# 우선 Google Spreadsheet상에서 이 파일을 수정한 후에						
+# File > Download as > Tab-separated values (.tsv) 를 선택합니다.						
+# 다운로드한 파일 이름을 library_book_data.tsv 으로 변경합니다.						
+# 테스트할 기기의 Documents/Books에 tsv 파일과 thumbnail을 복사해 넣습니다.						
+# Category field는 코드에서 사용하는 부분이기 때문에 한번 추가 되면 변경하지 마시고 categoryname을 변경해주시기 바랍니다						
+#id	category	categoryname	title	author	thumbnail	foldername
+en_111	cate_2	Asas	Saya boleh…	Written by: Mike Jaffe Illustrated by: Josh McGill 	book_en_111_thumbnail.png	en_111
+en_101	cate_2	Asas	Haiwan	Written by: Mike Jaffe Illustrated by: Katie Kleinbaum 	book_en_101_thumbnail.png	en_101
+en_112	cate_2	Asas	Saya rasa…	Written by: Mike Jaffe Illustrated by: Tory DeOrian 	book_en_112_thumbnail.png	en_112
+en_102	cate_2	Asas	Makanan Sihat	Written by: Pam Vachatimanont Illustrated by: Nigel Sussman 	book_en_102_thumbnail.png	en_102
+en_103	cate_2	Asas	Besar dan Kecil	Written by: Pam Vachatimanont Illustrated by: Chris Rooney 	book_en_103_thumbnail.png	en_103
+en_105	cate_2	Asas	Bayi	Written by: Mike Jaffe Illustrated by: Tory DeOrian 	book_en_105_thumbnail.png	en_105
+en_104	cate_2	Asas	Bentuk	Written by: Mike Jaffe Illustrated by: Nigel Sussman 	book_en_104_thumbnail.png	en_104
+en_109	cate_2	Asas	Langit Kita	Written by: Pam Vachatimanont Illustrated by: JC Hernandez 	book_en_109_thumbnail.png	en_109
+en_106	cate_2	Asas	Warna	Original title: Rangi za upinde Written by: Caren Echesa, Jesse Breytenbach Adapted by: Mike Jaffe Illustrated by: Jesse Breytenbach 	book_en_106_thumbnail.png	en_106
+en_107	cate_2	Asas	Berapa orang?	Written by: Mike Jaffe Illustrated by: Jose Galeano 	book_en_107_thumbnail.png	en_107
+en_108	cate_2	Asas	Tiga Pakaian	Written by: Simone Yingst Illustrated by: Tory DeOrian 	book_en_108_thumbnail.png	en_108
+en_216	cate_2	Asas	Sepuluh Pokok	Original title: Every Tree Counts Written by: Praba Ram, Sheela Preuitt Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Sangeetha Kadur 	book_en_216_thumbnail.png	en_216
+en_206	cate_2	Asas	Keluarga	Written by: Zack Kushner Illustrated by: Lisa Steyn 	book_en_206_thumbnail.png	en_206
+en_221	cate_3	Mudah	Inilah Saya	Original title: What Makes You Special Written by: Nalini Sorensen Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Greystroke 	book_en_221_thumbnail.png	en_221
+en_204	cate_3	Mudah	Tikus, oh, Tikus	Written by: Pam Vachatimanont Illustrated by: Josh McGill 	book_en_204_thumbnail.png	en_204
+en_228	cate_3	Mudah	Saya nampak laut.	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_228_thumbnail.png	en_228
+en_220	cate_3	Mudah	Si Mengantuk	Original title: Bheema, the sleepyhead Written by: Rajesh Khar Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Shweta Mohapatra 	book_en_220_thumbnail.png	en_220
+en_207	cate_3	Mudah	Pokok	Written by: Mike Jaffe Illustrated by: Nigel Sussman 	book_en_207_thumbnail.png	en_207
+en_213	cate_3	Mudah	Saya Boleh Tolong	Written by: Mary Malhotra Illustrated by: Josh McGill 	book_en_213_thumbnail.png	en_213
+en_218	cate_3	Mudah	Kita Boleh Berkawan!	Original title: Paper Play Written by: Mala Kumar  Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Ruchi Shah 	book_en_218_thumbnail.png	en_218
+en_217	cate_4	Sederhana	Baju Hujan Saya	Original title: The Red Raincoat Written by: Praba Ram, Sheela Preuitt Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Zinab Tambawalla 	book_en_217_thumbnail.png	en_217
+en_215	cate_4	Sederhana	Kucing di mana-mana	Original title: Wild Cat! Wild Cat! Written by: Sejal Mehta Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Rohan Chakravarty 	book_en_215_thumbnail.png	en_215
+en_205	cate_4	Sederhana	Dunia Kita	Written by: Pam Vachatimanont Illustrated by: Daniel Galeano 	book_en_205_thumbnail.png	en_205
+en_425	cate_6	Cekap	Boleh Kamu Gambarkan?	Written by: Zack Kushner Illustrated by: Katie Kleinbaum 	book_en_425_thumbnail.png	en_425
+en_426	cate_6	Cekap	Hidupan di Laut	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_426_thumbnail.png	en_426
+en_424	cate_7	Mencabar	Mari Belajar Membaca Jam	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_424_thumbnail.png	en_424
+en_414	cate_7	Mencabar	Arah Jalan dalam Surat	Written by: Mary Malhotra Illustrated by: Nesia Anindita 	book_en_414_thumbnail.png	en_414
+en_415	cate_7	Mencabar	Hidupan di dalam Hutan	Written by: Zack Kushner Photo by Enuma, Inc.	book_en_415_thumbnail.png	en_415
+en_405	cate_7	Mencabar	Malam dan Siang	Original title: Usiku unaingia kijijini Written by: Robert Ekula, Ursula Nafula, and Wiehan de Jager Adapted by: Zack Kushner Illustrated by: Wiehan de Jager 	book_en_405_thumbnail.png	en_405
+en_408	cate_7	Mencabar	Hari Jadi yang Berhujan	Original title: The Day It Rained Fish Written by: Ramendra Kumar Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Delwyn Remedios 	book_en_408_thumbnail.png	en_408
+en_407	cate_8	Lanjutan	Anak Rusa yang Yakin	Original title: Smile Please! Written by: Manisha Chaudhry Source: StoryWeaver by Pratham Books Adapted by: Pam Vachatimanont Illustrated by: Ajit Narayan 	book_en_407_thumbnail.png	en_407
+en_404	cate_8	Lanjutan	Aini dan Raksasa Comot	Original title: Bunty na Bubbly Written by: Sorit Gupto and Brigid Simiyu Adapted by: Mary Malhotra Illustrated by: Sorit Gupto 	book_en_404_thumbnail.png	en_404
+en_418	cate_8	Lanjutan	Pokok Kelapa	Written by: Zack Kushner Illustrated by: Katie Kleinbaum 	book_en_418_thumbnail.png	en_418
+en_409	cate_8	Lanjutan	Ali dan Dino yang Menari	Original title: Singing in the Rain Written by: Mala Kumar, Manisha Chaudhry Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Rajiv Eipe 	book_en_409_thumbnail.png	en_409
+en_413	cate_8	Lanjutan	Mari ke Bulan!	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_413_thumbnail.png	en_413
+en_502	cate_8	Lanjutan	Perjalanan ke Sekolah	Written by: Mary Malhotra Illustrated by: Tory DeOrian 	book_en_502_thumbnail.png	en_502
+en_504	cate_8	Lanjutan	Jangan Putus Asa!	Written by: Mary Malhotra Illustrated by: JC Hernandez 	book_en_504_thumbnail.png	en_504
+en_506	cate_8	Lanjutan	Singa dan Gajah	Original title: Ndovu na vyura Written by: Ingrid Schechter, Caren Echesa, and Amir Bachir António Necas Adapted by: Mary Malhotra Illustrated by: Amir Bachir António Necas 	book_en_506_thumbnail.png	en_506
+en_501	cate_8	Lanjutan	Pergi ke Sekolah	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_501_thumbnail.png	en_501
+en_510	cate_8	Lanjutan	Apa Itu Hujan?	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_510_thumbnail.png	en_510
+en_503	cate_8	Lanjutan	Jangan Marah, Mimi	Original title: Angry Akku Written by: Vinayak Varma Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Vinayak Varma 	book_en_503_thumbnail.png	en_503
+en_509	cate_8	Lanjutan	Gajah	Written by: Zack Kushner Photo by Enuma, Inc.	book_en_509_thumbnail.png	en_509
+en_507	cate_8	Lanjutan	Adam Yang Tinggi	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_507_thumbnail.png	en_507
+en_508	cate_8	Lanjutan	Kerajaan yang Gembira	Original title: Maguru apatiana miguu Written by: Mutugi Kamundi, Ursula Nafula, Wiehan de Jager Adapted by: Mary Malhotra Illustrated by: Wiehan de Jager 	book_en_508_thumbnail.png	en_508

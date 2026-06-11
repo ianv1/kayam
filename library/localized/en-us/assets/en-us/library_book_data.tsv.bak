@@ -1,0 +1,143 @@
+# 데이터를 변경하려면:						
+# 우선 Google Spreadsheet상에서 이 파일을 수정한 후에						
+# File > Download as > Tab-separated values (.tsv) 를 선택합니다.						
+# 다운로드한 파일 이름을 library_book_data.tsv 으로 변경합니다.						
+# 테스트할 기기의 Documents/Books에 tsv 파일과 thumbnail을 복사해 넣습니다.						
+# Category field는 코드에서 사용하는 부분이기 때문에 한번 추가 되면 변경하지 마시고 categoryname을 변경해주시기 바랍니다						
+#id	category	categoryname	title	author	thumbnail	foldername
+en_111	cate_2	New Readers	Saya boleh…	Written by: Mike Jaffe Illustrated by: Josh McGill 	book_en_111_thumbnail.png	en_111
+en_101	cate_2	New Readers	Haiwan	Written by: Mike Jaffe Illustrated by: Katie Kleinbaum 	book_en_101_thumbnail.png	en_101
+en_112	cate_2	New Readers	Saya rasa…	Written by: Mike Jaffe Illustrated by: Tory DeOrian 	book_en_112_thumbnail.png	en_112
+en_102	cate_2	New Readers	Makanan Sihat	Written by: Pam Vachatimanont Illustrated by: Nigel Sussman 	book_en_102_thumbnail.png	en_102
+en_103	cate_2	New Readers	Besar dan Kecil	Written by: Pam Vachatimanont Illustrated by: Chris Rooney 	book_en_103_thumbnail.png	en_103
+en_105	cate_2	New Readers	Bayi	Written by: Mike Jaffe Illustrated by: Tory DeOrian 	book_en_105_thumbnail.png	en_105
+en_104	cate_2	New Readers	Bentuk	Written by: Mike Jaffe Illustrated by: Nigel Sussman 	book_en_104_thumbnail.png	en_104
+en_109	cate_2	New Readers	Langit Kita	Written by: Pam Vachatimanont Illustrated by: JC Hernandez 	book_en_109_thumbnail.png	en_109
+en_106	cate_2	New Readers	Warna	Original title: Rangi za upinde Written by: Caren Echesa, Jesse Breytenbach Adapted by: Mike Jaffe Illustrated by: Jesse Breytenbach 	book_en_106_thumbnail.png	en_106
+en_107	cate_2	New Readers	Berapa orang?	Written by: Mike Jaffe Illustrated by: Jose Galeano 	book_en_107_thumbnail.png	en_107
+en_224	cate_2	New Readers	Watch Me Go!	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_224_thumbnail.png	en_224
+en_108	cate_2	New Readers	Tiga Pakaian	Written by: Simone Yingst Illustrated by: Tory DeOrian 	book_en_108_thumbnail.png	en_108
+en_208	cate_2	New Readers	Hello, Animals	Written by: Simone Yingst Illustrated by: Katie Kleinbaum 	book_en_208_thumbnail.png	en_208
+en_219	cate_2	New Readers	Cat and Mouse	Original title: Cube Cat, Cone Cat Written by: Praba Ram, Sheela Preuitt Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Rajiv Eipe 	book_en_219_thumbnail.png	en_219
+en_216	cate_2	New Readers	Sepuluh Pokok	Original title: Every Tree Counts Written by: Praba Ram, Sheela Preuitt Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Sangeetha Kadur 	book_en_216_thumbnail.png	en_216
+en_202	cate_2	New Readers	This is My Face	Written by: Zack Kushner Illustrated by: Heleen Steyn 	book_en_202_thumbnail.png	en_202
+en_206	cate_2	New Readers	Keluarga	Written by: Zack Kushner Illustrated by: Lisa Steyn 	book_en_206_thumbnail.png	en_206
+en_201	cate_2	New Readers	Let’s Go!	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_201_thumbnail.png	en_201
+en_222	cate_2	New Readers	Who Wants to Play?	Original title: Hide and Seek Written by: Kanchan Bannerjee Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Harshvardhan Gantha 	book_en_222_thumbnail.png	en_222
+en_210	cate_2	New Readers	Ready to Learn	Written by: Zack Kushner Illustrated by: Heleen Steyn 	book_en_210_thumbnail.png	en_210
+en_223	cate_3	Early Readers	Small Animals, Large Animals	Written by: Zack Kushner Illustrated by: Chris Rooney 	book_en_223_thumbnail.png	en_223
+en_221	cate_3	Early Readers	Inilah Saya	Original title: What Makes You Special Written by: Nalini Sorensen Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Greystroke 	book_en_221_thumbnail.png	en_221
+en_226	cate_3	Early Readers	My Body	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_226_thumbnail.png	en_226
+en_227	cate_3	Early Readers	What Do I Like?	Written by: Pam Vachatimanont Illustrated by: JC Hernandez 	book_en_227_thumbnail.png	en_227
+en_209	cate_3	Early Readers	Who Has Teeth?	Written by: Pam Vachatimanont Illustrated by: Katie Kleinbaum 	book_en_209_thumbnail.png	en_209
+en_204	cate_3	Early Readers	Tikus, oh, Tikus	Written by: Pam Vachatimanont Illustrated by: Josh McGill 	book_en_204_thumbnail.png	en_204
+en_230	cate_3	Early Readers	We Say It Every Day!	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_230_thumbnail.png	en_230
+en_229	cate_3	Early Readers	How is the Weather?	Written by: Minnie Mills Photo by Enuma, Inc.	book_en_229_thumbnail.png	en_229
+en_228	cate_3	Early Readers	Saya Nampak Dunia	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_228_thumbnail.png	en_228
+en_203	cate_3	Early Readers	Animal Sounds	Written by: Mike Jaffe Illustrated by: Katie Kleinbaum 	book_en_203_thumbnail.png	en_203
+en_220	cate_3	Early Readers	Si Mengantuk	Original title: Bheema, the sleepyhead Written by: Rajesh Khar Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Shweta Mohapatra 	book_en_220_thumbnail.png	en_220
+en_212	cate_3	Early Readers	Five Mangoes	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_212_thumbnail.png	en_212
+en_231	cate_3	Early Readers	Neema's Day	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_231_thumbnail.png	en_231
+en_207	cate_3	Early Readers	Tree	Written by: Mike Jaffe Illustrated by: Nigel Sussman 	book_en_207_thumbnail.png	en_207
+en_211	cate_3	Early Readers	Crocodile	Written by: Zack Kushner Illustrated by: Daniel Galeano 	book_en_211_thumbnail.png	en_211
+en_213	cate_3	Early Readers	Saya Boleh Tolong	Written by: Mary Malhotra Illustrated by: Josh McGill 	book_en_213_thumbnail.png	en_213
+en_218	cate_3	Early Readers	Kita Boleh Berkawan!	Original title: Paper Play Written by: Mala Kumar  Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Ruchi Shah 	book_en_218_thumbnail.png	en_218
+en_225	cate_3	Early Readers	Can I?	Written by: Mary Malhotra Illustrated by: JC Hernandez 	book_en_225_thumbnail.png	en_225
+en_232	cate_3	Early Readers	Hamisi's Bicycle	Written by: Lucy Geay Illustrated by: JC Hernandez 	book_en_232_thumbnail.png	en_232
+en_234	cate_4	Beginning Readers	Rain!	Written by: Minnie Mills Photo by Enuma, Inc.	book_en_234_thumbnail.png	en_234
+en_233	cate_4	Beginning Readers	Squirrel and Seed	Written by: Simone Yingst Illustrated by: JC Hernandez 	book_en_233_thumbnail.png	en_233
+en_217	cate_4	Beginning Readers	Baju Hujan Saya	Original title: The Red Raincoat Written by: Praba Ram, Sheela Preuitt Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Zinab Tambawalla 	book_en_217_thumbnail.png	en_217
+en_306	cate_4	Beginning Readers	I Can Do It	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_306_thumbnail.png	en_306
+en_302	cate_4	Beginning Readers	From Head to Foot	Written by: Zack Kushner Illustrated by: Lisa Steyn 	book_en_302_thumbnail.png	en_302
+en_332	cate_4	Beginning Readers	Neema at Home	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_332_thumbnail.png	en_332
+en_333	cate_4	Beginning Readers	Tina and the Ball	Written by: Simone Yingst Illustrated by: JC Hernandez 	book_en_333_thumbnail.png	en_333
+en_309	cate_4	Beginning Readers	All Kinds of Animals	Written by: Zack Kushner Illustrated by: Katie Kleinbaum 	book_en_309_thumbnail.png	en_309
+en_310	cate_4	Beginning Readers	We Have Mangoes	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_310_thumbnail.png	en_310
+en_215	cate_4	Beginning Readers	Kucing di mana-mana	Original title: Wild Cat! Wild Cat! Written by: Sejal Mehta Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Rohan Chakravarty 	book_en_215_thumbnail.png	en_215
+en_317	cate_4	Beginning Readers	Are We All the Same?	Original title: Why is Nita Upside Down? Written by: Roxana Bouwer, Emma Hearne, and Sarah Bouwer Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Sarah Bouwer 	book_en_317_thumbnail.png	en_317
+en_214	cate_4	Beginning Readers	Counting Animals	Original title: Counting Animals Written by: Clare Verbeek, Thembani Dladla, Zanele Buthelezi Adapted by: Pam Vachatimanont Illustrated by: Rob Owen 	book_en_214_thumbnail.png	en_214
+en_205	cate_4	Beginning Readers	Dunia Kita	Written by: Pam Vachatimanont Illustrated by: Daniel Galeano 	book_en_205_thumbnail.png	en_205
+en_312	cate_4	Beginning Readers	Helping My Mom	Written by: Zack Kushner Illustrated by: Tory DeOrian 	book_en_312_thumbnail.png	en_312
+en_303	cate_4	Beginning Readers	My Ball	Written by: Zack Kushner Illustrated by: Tory DeOrian 	book_en_303_thumbnail.png	en_303
+en_335	cate_4	Beginning Readers	Paul and the Goat	Written by: Simone Yingst Illustrated by: JC Hernandez 	book_en_335_thumbnail.png	en_335
+en_345	cate_4	Beginning Readers	My Five Senses	Written by: Mary Malhotra Photo by Enuma, Inc.	book_en_345_thumbnail.png	en_345
+en_339	cate_4	Beginning Readers	Building Signs	Written by: Lucy Geay Illustrated by: JC Hernandez 	book_en_339_thumbnail.png	en_339
+en_341	cate_4	Beginning Readers	How Do You Feel?	Written by: Mary Malhotra Photo by Enuma, Inc.	book_en_341_thumbnail.png	en_341
+en_334	cate_4	Beginning Readers	Opposites	Written by: Mary Malhotra Photo by Enuma, Inc.	book_en_334_thumbnail.png	en_334
+en_328	cate_4	Beginning Readers	Colors on the Street	Original title: Colours on the Street Written by: Mala Kumar  Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Priya Kuriyan 	book_en_328_thumbnail.png	en_328
+en_307	cate_5	Skilled Readers	A Letter for My Friend	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_307_thumbnail.png	en_307
+en_340	cate_5	Skilled Readers	Cooking Beans with Neema	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_340_thumbnail.png	en_340
+en_311	cate_5	Skilled Readers	Cats are Friends	Written by: Zack Kushner Illustrated by: Katie Kleinbaum 	book_en_311_thumbnail.png	en_311
+en_301	cate_5	Skilled Readers	Where Is My Cat?	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_301_thumbnail.png	en_301
+en_305	cate_5	Skilled Readers	Where is My Bat?	Original title: Wapi kigoe changu? Written by: Meera Tendolkar, Madhav Chavan Source: www.africanstorybook.org Adapted by: Pam Vachatimanont Illustrated by: Rijuta Ghate 	book_en_305_thumbnail.png	en_305
+en_316	cate_5	Skilled Readers	Learn About Lions!	Original title: Lion's Written by: Eli Haynes Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Jayaprakash Bojan 	book_en_316_thumbnail.png	en_316
+en_344	cate_5	Skilled Readers	Amana Clinic	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_344_thumbnail.png	en_344
+en_337	cate_5	Skilled Readers	Farida Goes to the Market	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_337_thumbnail.png	en_337
+en_338	cate_5	Skilled Readers	Catherine in the Dark	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_338_thumbnail.png	en_338
+en_342	cate_5	Skilled Readers	Where is Mama?	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum 	book_en_342_thumbnail.png	en_342
+en_329	cate_5	Skilled Readers	The Cock and the Worm	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_329_thumbnail.png	en_329
+en_314	cate_5	Skilled Readers	Our Cow	Original title: Ng'ombe wetu Pendo Written by: Ruth Odondi Adapted by: Zack Kushner Illustrated by: Nesia Anindita 	book_en_314_thumbnail.png	en_314
+en_325	cate_5	Skilled Readers	Little Painters	Original title: Little Painters Written by: Cheryl Rao Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Tanvi Bhat 	book_en_325_thumbnail.png	en_325
+en_343	cate_5	Skilled Readers	Like an Elephant	Written by: Zack Kushner Photo by Enuma, Inc.	book_en_343_thumbnail.png	en_343
+en_346	cate_5	Skilled Readers	Neema at the Clinic	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_346_thumbnail.png	en_346
+en_347	cate_5	Skilled Readers	Our Friend the Cow	Written by: Zack Kushner Photo by Enuma, Inc.	book_en_347_thumbnail.png	en_347
+en_349	cate_5	Skilled Readers	Kelvin and Baba	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum 	book_en_349_thumbnail.png	en_349
+en_315	cate_5	Skilled Readers	One Sun	Original title: Sayari Jua ya Saba Written by: Kamundi Mutugi Adapted by: Mary Malhotra Illustrated by: JC Hernandez 	book_en_315_thumbnail.png	en_315
+en_355	cate_5	Skilled Readers	I Have All I Need	Written by: Zack Kushner Illustrated by: Nesia Anindita 	book_en_355_thumbnail.png	en_355
+en_322	cate_5	Skilled Readers	Airplanes and Birds	Original title: How Do Aeroplanes Fly? Written by: Aditi Sarawagi Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Lavanya Karthik 	book_en_322_thumbnail.png	en_322
+en_348	cate_6	Experienced Readers	Neema’s Journey to the Market	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_348_thumbnail.png	en_348
+en_353	cate_6	Experienced Readers	A Home for Bug	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum 	book_en_353_thumbnail.png	en_353
+en_350	cate_6	Experienced Readers	Neema Helps Her Friends	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_en_350_thumbnail.png	en_350
+en_419	cate_6	Experienced Readers	Edith and Her Book	Written by: Simone Yingst Illustrated by: Katie Kleinbaum 	book_en_419_thumbnail.png	en_419
+en_354	cate_6	Experienced Readers	Learn About the Senses	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_354_thumbnail.png	en_354
+en_330	cate_6	Experienced Readers	Tasty Foods	Written by: Simone Yingst Illustrated by: Nigel Sussman 	book_en_330_thumbnail.png	en_330
+en_313	cate_6	Experienced Readers	Where are the Shapes?	Written by: Pam Vachatimanont Illustrated by: Nigel Sussman 	book_en_313_thumbnail.png	en_313
+en_318	cate_6	Experienced Readers	Up and Down	Original title: I Can Climb! Written by: Mini Shrinivasan Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Deval Maniar 	book_en_318_thumbnail.png	en_318
+en_351	cate_6	Experienced Readers	Birds and Airplanes Fly	Written by: Zack Kushner Photo by Enuma, Inc.	book_en_351_thumbnail.png	en_351
+en_352	cate_6	Experienced Readers	Growing Food	Written by: Zack Kushner Photo by Enuma, Inc.	book_en_352_thumbnail.png	en_352
+en_420	cate_6	Experienced Readers	This is My Body	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_420_thumbnail.png	en_420
+en_421	cate_6	Experienced Readers	Market Day	Written by: Simone Yingst Illustrated by: Nesia Anindita 	book_en_421_thumbnail.png	en_421
+en_324	cate_6	Experienced Readers	Can We Be Friends?	Original title: Is There Anyone Like Me? Written by: Fred Strydom Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Jess Jardim-Wedepohl 	book_en_324_thumbnail.png	en_324
+en_304	cate_6	Experienced Readers	Rainbow	Original title: Rangi za upinde Written by: Caren Echesa, Jesse Breytenbach Adapted by: Pam Vachatimanont Illustrated by: Jesse Breytenbach 	book_en_304_thumbnail.png	en_304
+en_402	cate_6	Experienced Readers	Playing	Original title: Marafiki Written by: Zimbili Dlamini, Hlengiwe Zondi, Ursula Nafula, and Catherine Groenewald Adapted by: Mary Malhotra Illustrated by: Catherine Croenewald 	book_en_402_thumbnail.png	en_402
+en_423	cate_6	Experienced Readers	Be the Beat	Written by: Zack Kushner Illustrated by: Katie Kleinbaum 	book_en_423_thumbnail.png	en_423
+en_425	cate_6	Experienced Readers	Can You Picture That?	Written by: Zack Kushner Illustrated by: Katie Kleinbaum 	book_en_425_thumbnail.png	en_425
+sw_336	cate_6	Experienced Readers	Julius Nyerere	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_336_thumbnail.png	sw_336
+en_426	cate_6	Experienced Readers	Life in the Ocean	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_426_thumbnail.png	en_426
+en_422	cate_7	Advanced Readers	Easy Addition	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_422_thumbnail.png	en_422
+en_321	cate_7	Advanced Readers	Some Fruits Grow on Trees	Original title: A Walk Among Trees Written by: Nimret Handa Source: StoryWeaver by Pratham Books Adapted by: Simone Yingst Illustrated by: Nimret Handa 	book_en_321_thumbnail.png	en_321
+en_308	cate_7	Advanced Readers	Let's Learn About Shapes!	Written by: Mike Jaffe Illustrated by: Dalrae Kim 	book_en_308_thumbnail.png	en_308
+en_320	cate_7	Advanced Readers	Come Fishing	Original title: My Fish!" "No, my fish! Written by: Suraj J Menon Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Soumya Menon 	book_en_320_thumbnail.png	en_320
+en_406	cate_7	Advanced Readers	Animals of the Sea	Original title: Inhabitants of the Sea Written by: Payoshni Saraf Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Muniza Shariq & Sangeeta Das 	book_en_406_thumbnail.png	en_406
+en_319	cate_7	Advanced Readers	Lost Crocodile	Original title: Ghum-Ghum Gharial’s Glorious Adventure Written by: Aparna Kapur Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Roshan Kurichiyanil 	book_en_319_thumbnail.png	en_319
+en_326	cate_7	Advanced Readers	Little Sock Finds Home	Original title: Little Sock and the Tiny Creatures Written by: Jon Keevy Source: StoryWeaver by Pratham Books Adapted by: Simone Yingst Illustrated by: Lili Probart 	book_en_326_thumbnail.png	en_326
+en_424	cate_7	Advanced Readers	Let's Learn About the Clock	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_424_thumbnail.png	en_424
+en_427	cate_7	Advanced Readers	Simple Subtraction	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_427_thumbnail.png	en_427
+en_323	cate_7	Advanced Readers	Big Elephant and Small Rabbit	Original title: Playtime Written by: Manisha Chaudhry Source: StoryWeaver by Pratham Books Adapted by: Mike Jaffe Illustrated by: Ajit Narayan 	book_en_323_thumbnail.png	en_323
+en_414	cate_7	Advanced Readers	Directions in the Letter	Written by: Mary Malhotra Illustrated by: Nesia Anindita 	book_en_414_thumbnail.png	en_414
+en_415	cate_7	Advanced Readers	Life in the Forest	Written by: Zack Kushner Photo by Enuma, Inc.	book_en_415_thumbnail.png	en_415
+en_327	cate_7	Advanced Readers	In The Forest	Original title: Up World, Down World Written by: Padmaparna Ghosh Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Sunaina Coelho 	book_en_327_thumbnail.png	en_327
+en_401	cate_7	Advanced Readers	The Mouse and the Lion	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum 	book_en_401_thumbnail.png	en_401
+en_416	cate_7	Advanced Readers	Let's Do Math!	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_416_thumbnail.png	en_416
+en_403	cate_7	Advanced Readers	How Many Legs?	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum 	book_en_403_thumbnail.png	en_403
+en_405	cate_7	Advanced Readers	Malam dan Siang	Original title: Usiku unaingia kijijini Written by: Robert Ekula, Ursula Nafula, and Wiehan de Jager Adapted by: Zack Kushner Illustrated by: Wiehan de Jager 	book_en_405_thumbnail.png	en_405
+en_408	cate_7	Advanced Readers	Hari Jadi yang Berhujan	Original title: The Day It Rained Fish Written by: Ramendra Kumar Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Delwyn Remedios 	book_en_408_thumbnail.png	en_408
+en_417	cate_7	Advanced Readers	Can You Multiply?	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_417_thumbnail.png	en_417
+en_407	cate_8	Expert Readers	Anak Rusa yang Yakin	Original title: Smile Please! Written by: Manisha Chaudhry Source: StoryWeaver by Pratham Books Adapted by: Pam Vachatimanont Illustrated by: Ajit Narayan 	book_en_407_thumbnail.png	en_407
+en_411	cate_8	Expert Readers	Hungry Animals	Original title: Who Ate All That Up? Written by: Sejal Mehta Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Rohan Chakravarty 	book_en_411_thumbnail.png	en_411
+en_331	cate_8	Expert Readers	Time and the Sun	Written by: Mike Jaffe Illustrated by: Nigel Sussman 	book_en_331_thumbnail.png	en_331
+en_404	cate_8	Expert Readers	Aini dan Raksasa Comot	Original title: Bunty na Bubbly Written by: Sorit Gupto and Brigid Simiyu Adapted by: Mary Malhotra Illustrated by: Sorit Gupto 	book_en_404_thumbnail.png	en_404
+en_410	cate_8	Expert Readers	Night Animals	Original title: Goodnight, Tinku Written by: Preethi Nambiar Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Sonal Goyal & Sumit Sakhuja 	book_en_410_thumbnail.png	en_410
+en_418	cate_8	Expert Readers	In the Coconut Tree	Written by: Zack Kushner Illustrated by: Katie Kleinbaum 	book_en_418_thumbnail.png	en_418
+en_412	cate_8	Expert Readers	Wangari Maathai	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_412_thumbnail.png	en_412
+en_409	cate_8	Expert Readers	Ali dan Dino yang Menari	Original title: Singing in the Rain Written by: Mala Kumar, Manisha Chaudhry Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Rajiv Eipe 	book_en_409_thumbnail.png	en_409
+en_413	cate_8	Expert Readers	To the Moon!	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_413_thumbnail.png	en_413
+en_502	cate_8	Expert Readers	Lucy’s Walk	Written by: Mary Malhotra Illustrated by: Tory DeOrian 	book_en_502_thumbnail.png	en_502
+en_504	cate_8	Expert Readers	Don't Give Up!	Written by: Mary Malhotra Illustrated by: JC Hernandez 	book_en_504_thumbnail.png	en_504
+en_506	cate_8	Expert Readers	Lion and Elephant	Original title: Ndovu na vyura Written by: Ingrid Schechter, Caren Echesa, and Amir Bachir António Necas Adapted by: Mary Malhotra Illustrated by: Amir Bachir António Necas 	book_en_506_thumbnail.png	en_506
+en_501	cate_8	Expert Readers	How Can I Get to School?	Written by: Zack Kushner Illustrated by: JC Hernandez 	book_en_501_thumbnail.png	en_501
+en_510	cate_8	Expert Readers	What is Rain?	Written by: Mike Jaffe Photo by Enuma, Inc.	book_en_510_thumbnail.png	en_510
+en_503	cate_8	Expert Readers	Don’t Get Mad, Maddie! 	Original title: Angry Akku Written by: Vinayak Varma Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Vinayak Varma 	book_en_503_thumbnail.png	en_503
+en_509	cate_8	Expert Readers	Understanding Elephants	Written by: Zack Kushner Photo by Enuma, Inc.	book_en_509_thumbnail.png	en_509
+en_507	cate_8	Expert Readers	Tall Tumo	Written by: Mike Jaffe Illustrated by: Nesia Anindita 	book_en_507_thumbnail.png	en_507
+en_508	cate_8	Expert Readers	A Happy Kingdom	Original title: Maguru apatiana miguu Written by: Mutugi Kamundi, Ursula Nafula, Wiehan de Jager Adapted by: Mary Malhotra Illustrated by: Wiehan de Jager 	book_en_508_thumbnail.png	en_508

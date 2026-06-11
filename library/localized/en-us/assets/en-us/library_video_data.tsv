@@ -1,0 +1,123 @@
+#데이터를변경하려면:					
+# 우선Google Spreadsheet상에서이파일을수정한후에					
+# File > Download as > Tab-separated values (.tsv)를선택합니다.					
+# 다운로드한파일이름을library_video_data.tsv으로변경합니다.					
+# 테스트할기기의Movies/Library에tsv파일과thumbnail,동영상파일을복사해넣습니다.					
+# Category field는코드에서사용하는부분이기때문에한번추가되면변경하지마시고categoryname을변경해주시기바랍니다					
+#id	category	categoryname	title	thumbnail	filename
+tutorial1	tutorial	How to use Kitkit school	Welcome to Kitkit School	en_welcome.png	en_vdo_tut_welcome.mp4
+tutorial2	tutorial	How to use Kitkit school	How to use the tablet	tutorial1.png	en_vdo_tut_tablet.mp4
+tutorial3	tutorial	How to use Kitkit school	How to care for the tablet	tutorial2.png	en_vdo_tut_care.mp4
+tutorial4	tutorial	How to use Kitkit school	How to charge the tablet	tutorial3.png	en_vdo_tut_charge.mp4
+tutorial5	tutorial	How to use Kitkit school	How to use the game in school	tutorial4.png	en_vdo_tut_class.mp4
+tutorial6	tutorial	How to use Kitkit school	Kitkit School Gameplay?	logo_en.png	en_vdo_tut_gameplay2.mp4
+tutorial7	tutorial	How to use Kitkit school	How to use the e-book	book_vdo_en.png	en_vdo_tut_book.mp4
+tutorial8	tutorial	How to use Kitkit school	How to use the tools	tutorial7.png	en_vdo_tut_tools.mp4
+tutorial9	tutorial	How to use Kitkit school	How to use the library	tutorial8.png	en_vdo_tut_library.mp4
+mv1	music_video	Learning Songs	Colorful Shapes	shapes.png	en_vdo_shapes.mp4
+mv2	music_video	Learning Songs	100 Little Chickens	100chickens.png	en_vdo_100chickens.mp4
+mv3	music_video	Learning Songs	Vowels	vowels.png	en_vdo_vowel.mp4
+mv4	music_video	Learning Songs	I Know How to Count	count10.png	en_vdo_count10.mp4
+mv5	music_video	Learning Songs	The Alphabet	abc.png	en_vdo_abc.mp4
+mv6	music_video	Learning Songs	Addition and Subtraction	en_vdo_ub_fifteen_1_thumbnail.png	en_vdo_ub_fifteen_1.mp4
+mv7	music_video	Learning Songs	Full, Half-Full and Empty	en_vdo_ub_fifteen_2_thumbnail.png	en_vdo_ub_fifteen_2.mp4
+mv8	music_video	Learning Songs	Cardinal Numbers	en_vdo_ub_fifteen_3_thumbnail.png	en_vdo_ub_fifteen_3.mp4
+mv9	music_video	Learning Songs	Daily Routine	en_vdo_ub_fifteen_4_thumbnail.png	en_vdo_ub_fifteen_4.mp4
+mv10	music_video	Learning Songs	Days of the Week	en_vdo_ub_fifteen_5_thumbnail.png	en_vdo_ub_fifteen_5.mp4
+mv11	music_video	Learning Songs	Months of the Year	en_vdo_ub_fifteen_6_thumbnail.png	en_vdo_ub_fifteen_6.mp4
+mv12	music_video	Learning Songs	More, Less, the Same	en_vdo_ub_fifteen_7_thumbnail.png	en_vdo_ub_fifteen_7.mp4
+mv13	music_video	Learning Songs	Opposites	en_vdo_ub_fifteen_8_thumbnail.png	en_vdo_ub_fifteen_8.mp4
+mv14	music_video	Learning Songs	Patterns with a Shape	en_vdo_ub_fifteen_9_thumbnail.png	en_vdo_ub_fifteen_9.mp4
+mv15	music_video	Learning Songs	Number Line	en_vdo_ub_fifteen_10_thumbnail.png	en_vdo_ub_fifteen_10.mp4
+mv16	music_video	Learning Songs	Simple Division	en_vdo_ub_fifteen_11_thumbnail.png	en_vdo_ub_fifteen_11.mp4
+mv17	music_video	Learning Songs	Simple Multiplication	en_vdo_ub_fifteen_12_thumbnail.png	en_vdo_ub_fifteen_12.mp4
+mv18	music_video	Learning Songs	Sorting in the Environment	en_vdo_ub_fifteen_13_thumbnail.png	en_vdo_ub_fifteen_13.mp4
+mv19	music_video	Learning Songs	Words Have Beginning and End Sounds	en_vdo_ub_fifteen_14_thumbnail.png	en_vdo_ub_fifteen_14.mp4
+mv20	music_video	Learning Songs	Learn About Zero	en_vdo_ub_fifteen_15_thumbnail.png	en_vdo_ub_fifteen_15.mp4
+l_vdo1	literacy_video	English Learning Videos	Where is the bird?	bird.png	en_vdo_301_t_caption.mp4
+l_vdo2	literacy_video	English Learning Videos	Face	face.png	en_vdo_202_t_caption.mp4
+l_vdo3	literacy_video	English Learning Videos	Body	body.png	en_vdo_302_t_caption.mp4
+l_vdo4	literacy_video	English Learning Videos	Let's read a book: Let's Go	abc.png	en_vdo_201_rt.mp4
+l_vdo5	literacy_video	English Learning Videos	Uppercase Rules	en_vdo_uppercase.png	en_vdo_uppercase.mp4
+l_vdo6	literacy_video	English Learning Videos	Uppercase and Lowercase	en_vdo_upperlowercase.png	en_vdo_upperlowercase.mp4
+l_vdo7	literacy_video	English Learning Videos	Punctuation	en_vdo_punctuation.png	en_vdo_punctuation.mp4
+l2_vdo1	literacy_video_2	English Learning Videos 2	Let's Learn Letter Sounds!	en_vdo_1025_thumbnail.png	en_vdo_1025.mp4
+l2_vdo2	literacy_video_2	English Learning Videos 2	What Sound Does It Start With?	en_vdo_1026_thumbnail.png	en_vdo_1026.mp4
+l2_vdo3	literacy_video_2	English Learning Videos 2	Let's Practice Syllable Sounds!	en_vdo_1027_thumbnail.png	en_vdo_1027.mp4
+l2_vdo4	literacy_video_2	English Learning Videos 2	Reading Familiar Words	en_vdo_1028_thumbnail.png	en_vdo_1028.mp4
+l2_vdo5	literacy_video_2	English Learning Videos 2	Reading Made-Up Words	en_vdo_1029_thumbnail.png	en_vdo_1029.mp4
+l2_vdo6	literacy_video_2	English Learning Videos 2	Let's Hear a Story!	en_vdo_1030_thumbnail.png	en_vdo_1030.mp4
+l2_vdo7	literacy_video_2	English Learning Videos 2	Let's Read a Story!	en_vdo_1032_thumbnail.png	en_vdo_1032.mp4
+l2_vdo8	literacy_video_2	English Learning Videos 2	Let's Write a List!	en_vdo_1033_thumbnail.png	en_vdo_1033.mp4
+l2_vdo9	literacy_video_2	English Learning Videos 2	Let's Write a Sentence!	en_vdo_1034_thumbnail.png	en_vdo_1034.mp4
+l2_vdo10	literacy_video_2	English Learning Videos 2	How to Hold a Pencil	en_vdo_1045_thumbnail.png	en_vdo_1045.mp4
+l2_vdo11	literacy_video_2	English Learning Videos 2	How to indentify initial sounds in words	en_vdo_sc_initialsound_thumbnail.png	en_vdo_sc_initialsound.mp4
+l2_vdo12	literacy_video_2	English Learning Videos 2	Linstening Comprehension Activity	en_vdo_sc_lc_thumbnail.png	en_vdo_sc_lc.mp4
+l2_vdo13	literacy_video_2	English Learning Videos 2	Subject-Verb Agreement	en_vdo_sc_sentence_thumbnail.png	en_vdo_sc_sentence.mp4
+l2_vdo14	literacy_video_2	English Learning Videos 2	How to Make Three-Letter Words	en_vdo_sc_syllable_thumbnail.png	en_vdo_sc_syllable.mp4
+m_vdo1	math_video	Math Learning Videos	Shapes Airplane	airshapes.png	en_vdo_airshapes.mp4
+m_vdo2	math_video	Math Learning Videos	Semi-circles	semicircles.png	en_vdo_semicircle.mp4
+m_vdo3	math_video	Math Learning Videos	Shapes Everywhere	en_vdo_shapesevery.png	en_vdo_shapesevery.mp4
+m_vdo4	math_video	Math Learning Videos	Place Values	en_vdo_placevalues.png	en_vdo_placevalues.mp4
+m_vdo5	math_video	Math Learning Videos	How to use Keypad	en_vdo_keypad.png	en_vdo_keypad.mp4
+m_vdo6	math_video	Math Learning Videos	Big and Small	en_vdo_bigsmall.png	en_vdo_bigsmall.mp4
+m_vdo7	math_video	Math Learning Videos	Plus and Minus	en_vdo_plusminus.png	en_vdo_plusminus.mp4
+m_vdo8	math_video	Math Learning Videos	Counting Frogs	en_vdo_ub_addsub.png	en_vdo_ub_addsub.mp4
+m_vdo9	math_video	Math Learning Videos	Addition	en_vdo_verticaladd.png	en_vdo_verticaladd.mp4
+m_vdo10	math_video	Math Learning Videos	Double-digit Addition	en_vdo_verticaladd2.png	en_vdo_verticaladd2.mp4
+m_vdo11	math_video	Math Learning Videos	Double-digit Addition: Part 2	en_vdo_verticaladd3.png	en_vdo_verticaladd3.mp4
+m_vdo12	math_video	Math Learning Videos	Subtraction	en_vdo_verticalsub.png	en_vdo_verticalsub.mp4
+m_vdo13	math_video	Math Learning Videos	Double-digit Subtraction	en_vdo_verticalsub2.png	en_vdo_verticalsub2.mp4
+m_vdo14	math_video	Math Learning Videos	Double-digit Subtraction: Part 2	en_vdo_verticalsub3.png	en_vdo_verticalsub3.mp4
+m_vdo15	math_video	Math Learning Videos	Equals, Greater than, Less than	en_vdo_equalsgreatless.png	en_vdo_equalsgreatless.mp4
+m2_vdo1	math_video_2	Math Learning Videos 2	Find the Missing Number	en_vdo_1050_thumbnail.png	en_vdo_1050.mp4
+m2_vdo2	math_video_2	Math Learning Videos 2	Multiplication Word Problem	en_vdo_1051_thumbnail.png	en_vdo_1051.mp4
+m2_vdo3	math_video_2	Math Learning Videos 2	Sharing Word Problem	en_vdo_1052_thumbnail.png	en_vdo_1052.mp4
+m2_vdo4	math_video_2	Math Learning Videos 2	Order/Compare numbers 11 to 99	en_vdo_sc_order2digit_thumbnail.png	en_vdo_sc_order2digit.mp4
+m2_vdo5	math_video_2	Math Learning Videos 2	Order/Compare three-digit numbers	en_vdo_sc_order3digit_thumbnail.png	en_vdo_sc_order3digit.mp4
+m2_vdo6	math_video_2	Math Learning Videos 2	Finding a missing number within 20	en_vdo_sc_skipcounting1_thumbnail.png	en_vdo_sc_skipcounting1.mp4
+m2_vdo7	math_video_2	Math Learning Videos 2	Finding a two-digit missing number	en_vdo_sc_skipcounting2_thumbnail.png	en_vdo_sc_skipcounting2.mp4
+m2_vdo8	math_video_2	Math Learning Videos 2	Finding a three-digit missing number	en_vdo_sc_skipcounting3_thumbnail.png	en_vdo_sc_skipcounting3.mp4
+m2_vdo9	math_video_2	Math Learning Videos 2	Addition within 10	en_vdo_sc_addition1_thumbnail.png	en_vdo_sc_addition1.mp4
+m2_vdo10	math_video_2	Math Learning Videos 2	Add numbers within 20 without regrouping	en_vdo_sc_addition2_thumbnail.png	en_vdo_sc_addition2.mp4
+m2_vdo11	math_video_2	Math Learning Videos 2	Adding two-digit numbers with regrouping	en_vdo_sc_addition3_thumbnail.png	en_vdo_sc_addition3.mp4
+m2_vdo12	math_video_2	Math Learning Videos 2	Subtraction within 10	en_vdo_sc_subtraction1_thumbnail.png	en_vdo_sc_subtraction1.mp4
+m2_vdo13	math_video_2	Math Learning Videos 2	Subtracting numbers within 20 with regrouping	en_vdo_sc_subtraction2_thumbnail.png	en_vdo_sc_subtraction2.mp4
+m2_vdo14	math_video_2	Math Learning Videos 2	Subtracting two-digit numbers without regrouping	en_vdo_sc_subtraction3_thumbnail.png	en_vdo_sc_subtraction3.mp4
+m2_vdo15	math_video_2	Math Learning Videos 2	Subtracting two-digit numbers with regrouping	en_vdo_sc_subtraction4_thumbnail.png	en_vdo_sc_subtraction4.mp4
+m2_vdo16	math_video_2	Math Learning Videos 2	Addition Word Problems	en_vdo_1048_thumbnail.png	en_vdo_1048.mp4
+m2_vdo17	math_video_2	Math Learning Videos 2	Subtraction Word Problem	en_vdo_1049_thumbnail.png	en_vdo_1049.mp4
+m2_vdo18	math_video_2	Math Learning Videos 2	Word Problems: Compare - Difference Unknown 1	en_vdo_sc_wordproblem5_thumbnail.png	en_vdo_sc_wordproblem5.mp4
+m2_vdo19	math_video_2	Math Learning Videos 2	Word Problems: Compare - Difference Unknown 2	en_vdo_sc_wordproblem6_thumbnail.png	en_vdo_sc_wordproblem6.mp4
+m2_vdo20	math_video_2	Math Learning Videos 2	Word Problems: Compare - Bigger Unknown 1	en_vdo_sc_wordproblem7_thumbnail.png	en_vdo_sc_wordproblem7.mp4
+m2_vdo21	math_video_2	Math Learning Videos 2	Word Problems: Compare - Bigger Unknown 2	en_vdo_sc_wordproblem8_thumbnail.png	en_vdo_sc_wordproblem8.mp4
+m2_vdo22	math_video_2	Math Learning Videos 2	Word Problems: Add to - Change Unknown	en_vdo_sc_wordproblem5_thumbnail.png	en_vdo_sc_wordproblem5.mp4
+m2_vdo23	math_video_2	Math Learning Videos 2	Word Problems: Add to - Start Unknown	en_vdo_sc_wordproblem6_thumbnail.png	en_vdo_sc_wordproblem6.mp4
+m2_vdo24	math_video_2	Math Learning Videos 2	Word Problems: Take from - Change Unknown	en_vdo_sc_wordproblem7_thumbnail.png	en_vdo_sc_wordproblem7.mp4
+m2_vdo25	math_video_2	Math Learning Videos 2	Word Problems: Take from - Start Unknown	en_vdo_sc_wordproblem8_thumbnail.png	en_vdo_sc_wordproblem8.mp4
+a_vdo1	alphabet_video	Alphabet Videos	A	en_vdo_ub_a_thumbnail.png	en_vdo_ub_a.mp4
+a_vdo2	alphabet_video	Alphabet Videos	B	en_vdo_ub_b_thumbnail.png	en_vdo_ub_b.mp4
+a_vdo3	alphabet_video	Alphabet Videos	C	en_vdo_ub_ch_thumbnail.png	en_vdo_ub_c.mp4
+a_vdo4	alphabet_video	Alphabet Videos	D	en_vdo_ub_d_thumbnail.png	en_vdo_ub_d.mp4
+a_vdo5	alphabet_video	Alphabet Videos	E	en_vdo_ub_e_thumbnail.png	en_vdo_ub_e.mp4
+a_vdo6	alphabet_video	Alphabet Videos	F	en_vdo_ub_f_thumbnail.png	en_vdo_ub_f.mp4
+a_vdo7	alphabet_video	Alphabet Videos	G	en_vdo_ub_g_thumbnail.png	en_vdo_ub_g.mp4
+a_vdo8	alphabet_video	Alphabet Videos	H	en_vdo_ub_h_thumbnail.png	en_vdo_ub_h.mp4
+a_vdo9	alphabet_video	Alphabet Videos	I	en_vdo_ub_i_thumbnail.png	en_vdo_ub_i.mp4
+a_vdo10	alphabet_video	Alphabet Videos	J	en_vdo_ub_j_thumbnail.png	en_vdo_ub_j.mp4
+a_vdo11	alphabet_video	Alphabet Videos	K	en_vdo_ub_k_thumbnail.png	en_vdo_ub_k.mp4
+a_vdo12	alphabet_video	Alphabet Videos	L	en_vdo_ub_l_thumbnail.png	en_vdo_ub_l.mp4
+a_vdo13	alphabet_video	Alphabet Videos	M	en_vdo_ub_m_thumbnail.png	en_vdo_ub_m.mp4
+a_vdo14	alphabet_video	Alphabet Videos	N	en_vdo_ub_n_thumbnail.png	en_vdo_ub_n.mp4
+a_vdo15	alphabet_video	Alphabet Videos	O	en_vdo_ub_o_thumbnail.png	en_vdo_ub_o.mp4
+a_vdo16	alphabet_video	Alphabet Videos	P	en_vdo_ub_p_thumbnail.png	en_vdo_ub_p.mp4
+a_vdo17	alphabet_video	Alphabet Videos	Q	en_vdo_ub_q_thumbnail.png	en_vdo_ub_q.mp4
+a_vdo18	alphabet_video	Alphabet Videos	R	en_vdo_ub_r_thumbnail.png	en_vdo_ub_r.mp4
+a_vdo19	alphabet_video	Alphabet Videos	S	en_vdo_ub_s_thumbnail.png	en_vdo_ub_s.mp4
+a_vdo20	alphabet_video	Alphabet Videos	T	en_vdo_ub_t_thumbnail.png	en_vdo_ub_t.mp4
+a_vdo21	alphabet_video	Alphabet Videos	U	en_vdo_ub_u_thumbnail.png	en_vdo_ub_u.mp4
+a_vdo22	alphabet_video	Alphabet Videos	V	en_vdo_ub_v_thumbnail.png	en_vdo_ub_v.mp4
+a_vdo23	alphabet_video	Alphabet Videos	W	en_vdo_ub_w_thumbnail.png	en_vdo_ub_w.mp4
+a_vdo24	alphabet_video	Alphabet Videos	X	en_vdo_ub_x_thumbnail.png	en_vdo_ub_x.mp4
+a_vdo25	alphabet_video	Alphabet Videos	Y	en_vdo_ub_y_thumbnail.png	en_vdo_ub_y.mp4
+a_vdo26	alphabet_video	Alphabet Videos	Z	en_vdo_ub_z_thumbnail.png	en_vdo_ub_z.mp4

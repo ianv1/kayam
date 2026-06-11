@@ -1,0 +1,31 @@
+#데이터를변경하려면:					
+# 우선Google Spreadsheet상에서이파일을수정한후에					
+# File > Download as > Tab-separated values (.tsv)를선택합니다.					
+# 다운로드한파일이름을library_video_data.tsv으로변경합니다.					
+# 테스트할기기의Movies/Library에tsv파일과thumbnail,동영상파일을복사해넣습니다.					
+# Category field는코드에서사용하는부분이기때문에한번추가되면변경하지마시고categoryname을변경해주시기바랍니다					
+#id	category	categoryname	title	thumbnail	filename
+parents1	parents	Family Support Videos	What is Deafness?	sl_deafness.png	asl_vdo_parent_deafness.mp4
+parents2	parents	Family Support Videos	The Gift of Sign Language	sl_language.png	asl_vdo_parent_language.mp4
+parents3	parents	Family Support Videos	Learning Tools	sl_tools.png	asl_vdo_parent_tools.mp4
+parents4	parents	Family Support Videos	Deaf Culture and Building Community	sl_culture.png	asl_vdo_parent_culture.mp4
+story1	story	Our Stories	Our Stories: Nia Lazarus	sl_nia.png	asl_vdo_story_nia.mp4
+story2	story	Our Stories	Our Stories: Antoine Hunter	sl_antoine.png	asl_vdo_story_antoine.mp4
+story3	story	Our Stories	Our Stories: Joseph Sensor	sl_joseph.png	tsl_en_vdo_story_joseph.mp4
+tutorial1	tutorial	How to Use Kitkit School	How to use the tablet	sl_tablet.png	asl_vdo_tut_tablet.mp4
+tutorial2	tutorial	How to Use Kitkit School	How to care for the tablet	sl_care.png	asl_vdo_tut_care.mp4
+tutorial3	tutorial	How to Use Kitkit School	How to charge the tablet	sl_charge.png	asl_vdo_tut_charge.mp4
+tutorial4	tutorial	How to Use Kitkit School	How to use the game in school	sl_class.png	asl_vdo_tut_class.mp4
+mv1	music_video	Learning Songs	Colorful Shapes	sl_shapes.png	asl_vdo_shapes.mp4
+mv2	music_video	Learning Songs	100 Little Chickens	sl_chickens.png	asl_vdo_100chickens.mp4
+mv3	music_video	Learning Songs	Vowels	sl_vowel.png	asl_vdo_vowel.mp4
+mv4	music_video	Learning Songs	I Know How to Count	sl_count10.png	asl_vdo_count10.mp4
+mv5	music_video	Learning Songs	The Alphabet	sl_abc.png	asl_vdo_abc.mp4
+mv6	music_video	Learning Songs	Addition and Subtraction by Ubongo	sl_frogs.png	asl_vdo_ub_addsub.mp4
+l_vdo1	literacy_video	Learning Videos	Shapes Airplane	sl_airshapes.png	asl_vdo_airshapes.mp4
+l_vdo2	literacy_video	Learning Videos	Semi-circles	sl_semicircle.png	asl_vdo_semicircle.mp4
+l_vdo3	literacy_video	Learning Videos	Where is the bird?	sl_301t.png	asl_vdo_301_t.mp4
+l_vdo4	literacy_video	Learning Videos	Face	sl_202t.png	asl_vdo_202_t.mp4
+l_vdo5	literacy_video	Learning Videos	Body	sl_302t.png	asl_vdo_302_t.mp4
+l_vdo6	literacy_video	Learning Videos	Book ReadAloud 1: I Love Colors!	sl_106book.png	asl_vdo_106.mp4
+l_vdo7	literacy_video	Learning Videos	Book ReadAloud 2: I Can Do It!	sl_306book.png	asl_vdo_306.mp4
