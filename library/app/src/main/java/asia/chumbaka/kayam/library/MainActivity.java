@@ -633,20 +633,15 @@ public class MainActivity extends KitKitLoggerActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-            if (position == 0) {
-                return VideoFragment.newInstance();
-            } else {
-                return BookFragment.newInstance();
-            }
-
+            // Kayam BM release: Videos tab is hidden; only Books remains.
+            // With getCount()==1, position is always 0 and maps to Books.
+            return BookFragment.newInstance();
         }
 
         @Override
         public int getCount() {
-            // Show 2 total pages.
-            return 2;
+            // Books-only — Videos tab hidden for Kayam BM release.
+            return 1;
         }
 
     }
