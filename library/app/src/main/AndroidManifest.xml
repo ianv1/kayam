@@ -7,6 +7,17 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- Android 11+ package-visibility allow-list.
+         Without these, PackageManager#getPackageInfo for either bookviewer
+         throws NameNotFoundException, so the per-language picker in
+         MainActivity#onClick can't probe what's installed and falls
+         through to "Error". -->
+    <queries>
+        <package android:name="asia.chumbaka.kayam.bookviewer" />
+        <package android:name="asia.chumbaka.kayam.bookviewer.bm" />
+    </queries>
+
     <application
         android:name=".LibraryApplication"
         android:allowBackup="true"

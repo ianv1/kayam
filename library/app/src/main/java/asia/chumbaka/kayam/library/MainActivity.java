@@ -1,4 +1,4 @@
-package asia.chumbaka.kayam.library;
+package asia.chumbaka.kayam.library.bm;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -760,11 +760,34 @@ public class MainActivity extends KitKitLoggerActivity {
                 @Override
                 public void onClick(View v) {
                     try {
+                        // Match the bookviewer to *this* library APK, not to a
+                        // launcher-level toggle. Each library variant pairs 1:1
+                        // with the bookviewer of the same suffix:
+                        //   asia.chumbaka.kayam.library     -> asia.chumbaka.kayam.bookviewer
+                        //   asia.chumbaka.kayam.library.bm  -> asia.chumbaka.kayam.bookviewer.bm
+                        // That guarantees the EN library always opens the EN
+                        // bookviewer (and BM always opens BM), regardless of
+                        // whether the user has the BM toggle on in the launcher.
+                        boolean libIsBM = mActivity.getPackageName().endsWith(".bm");
+                        String pkg = libIsBM
+                                ? "asia.chumbaka.kayam.bookviewer.bm"
+                                : "asia.chumbaka.kayam.bookviewer";
+                        android.content.pm.PackageManager pm = mActivity.getPackageManager();
+                        try {
+                            pm.getPackageInfo(pkg, 0);
+                        } catch (android.content.pm.PackageManager.NameNotFoundException nnfe) {
+                            // Chosen variant isn't installed -> last-resort fallback
+                            String alt = libIsBM
+                                    ? "asia.chumbaka.kayam.bookviewer"
+                                    : "asia.chumbaka.kayam.bookviewer.bm";
+                            try { pm.getPackageInfo(alt, 0); pkg = alt; }
+                            catch (android.content.pm.PackageManager.NameNotFoundException ignored) {}
+                        }
                         Intent intent = new Intent(Intent.ACTION_MAIN);
-                        intent.setComponent(new ComponentName("asia.chumbaka.kayam.bookviewer", "org.cocos2dx.cpp.AppActivity"));
+                        intent.setComponent(new ComponentName(pkg, "org.cocos2dx.cpp.AppActivity"));
 
                         intent.putExtra("book", item.foldername);
-                        Log.d("booktest", item.foldername);
+                        Log.d("booktest", item.foldername + " -> " + pkg + " (lib=" + mActivity.getPackageName() + ")");
                         mActivity.startActivity(intent);
                     } catch (Exception e) {
                         Toast.makeText(v.getContext(), "Error", Toast.LENGTH_SHORT).show();
