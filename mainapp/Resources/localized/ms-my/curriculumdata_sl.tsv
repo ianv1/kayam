@@ -382,9 +382,8 @@ game	ReadingBird	1	x
 game	Video	0	en_vdo_201_rt
 game	BirdPhonics	1	x
 game	WordNote	1	x
-day	2	5
+day	2	4
 game	Spelling	9	x
-game	Book	0	en_201
 game	Comprehension	1	en_201
 game	BirdPhonics	2	x
 game	AnimalPuzzle	21	x
@@ -394,9 +393,8 @@ game	ReadingBird	1	x
 game	Video	0	en_vdo_202_t
 game	BirdPhonics	3	x
 game	WordNote	2	x
-day	4	5
+day	4	4
 game	Spelling	11	x
-game	Book	0	en_202
 game	Comprehension	1	en_202
 game	BirdPhonics	4	x
 game	AnimalPuzzle	22	x
@@ -406,9 +404,8 @@ game	ReadingBird	2	x
 game	Video	0	en_vdo_203
 game	BirdPhonics	5	x
 game	WordNote	3	x
-day	6	5
+day	6	4
 game	Spelling	13	x
-game	Book	0	en_203
 game	Comprehension	1	en_203
 game	BirdPhonics	6	x
 game	AnimalPuzzle	23	x
@@ -432,9 +429,8 @@ game	ReadingBird	3	x
 game	Video	0	en_vdo_209
 game	BirdPhonics	2	x
 game	WordNote	5	x
-day	11	5
+day	11	4
 game	SoundTrain	15	x
-game	Book	0	en_209
 game	Comprehension	1	en_209
 game	BirdPhonics	3	x
 game	AnimalPuzzle	25	x
@@ -493,10 +489,9 @@ game	WordMachine	4	x
 game	ReadingBird	5	x
 game	Video	0	en_vdo_210
 game	WordNote	6	x
-day	22	5
+day	22	4
 game	SoundTrain	19	x
 game	ReadingBird	6	x
-game	Book	0	en_210
 game	Comprehension	1	en_210
 game	WordNote	7	x
 day	23	4
@@ -506,9 +501,8 @@ game	Video	0	en_vdo_212
 game	WordNote	8	x
 day	24	1
 game	EggQuizLiteracy	0	MiniTest_4_3
-day	25	5
+day	25	4
 game	SoundTrain	21	x
-game	Book	0	en_212
 game	Comprehension	1	en_212
 game	BirdPhonics	12	x
 game	WordNote	9	x
@@ -517,15 +511,13 @@ game	SoundTrain	20	x
 game	ReadingBird	6	x
 game	BirdPhonics	13	x
 game	AnimalPuzzle	22	x
-day	27	5
+day	27	4
 game	SoundTrain	21	x
-game	Book	0	en_211
 game	Comprehension	1	en_211
 game	BirdPhonics	9	x
 game	AnimalPuzzle	23	x
-day	28	5
+day	28	4
 game	Spelling	9	x
-game	Book	0	en_212
 game	Comprehension	1	en_212
 game	BirdPhonics	10	x
 game	AnimalPuzzle	24	x
@@ -535,9 +527,8 @@ game	Book	0	en_213
 game	Comprehension	1	en_213
 game	BirdPhonics	11	x
 game	AnimalPuzzle	25	x
-day	30	5
+day	30	4
 game	Spelling	11	x
-game	Book	0	en_214
 game	Comprehension	1	en_214
 game	BirdPhonics	12	x
 game	AnimalPuzzle	26	x
@@ -589,327 +580,270 @@ game	Comprehension	1	en_221
 game	BirdPhonics	4	x
 day	7	1
 game	EggQuizLiteracy	0	MiniTest_5_1
-day	8	5
+day	8	4
 game	Spelling	13	x
 game	ReadingBird	7	x
-game	Book	0	en_222
 game	Comprehension	1	en_222
 game	BirdPhonics	5	x
-day	9	5
+day	9	4
 game	Spelling	14	x
 game	ReadingBird	8	x
-game	Book	0	en_225
 game	Comprehension	1	en_225
 game	BirdPhonics	6	x
-day	10	6
+day	10	5
 game	Spelling	15	x
 game	ReadingBird	8	x
 game	Video	0	en_vdo_301
 game	Comprehension	1	en_301
 game	BirdPhonics	7	x
-game	Book	0	en_301
-day	11	6
+day	11	5
 game	Spelling	16	x
 game	ReadingBird	8	x
 game	Video	0	en_vdo_302_t
 game	Comprehension	1	en_302
 game	BirdPhonics	8	x
-game	Book	0	en_302
-day	12	5
+day	12	4
 game	ReadingBird	9	x
 game	Video	0	en_vdo_304
 game	Comprehension	1	en_304
 game	AnimalPuzzle	30	x
-game	Book	0	en_304
-day	13	4
+day	13	3
 game	ReadingBird	9	x
 game	Comprehension	1	en_305
 game	BirdPhonics	9	x
-game	Book	0	en_305
 day	14	1
 game	EggQuizLiteracy	0	MiniTest_5_2
-day	15	6
+day	15	5
 game	WordTracing	1	x
 game	WordNote	16	x
 game	Video	0	en_vdo_306
 game	Comprehension	1	en_306
 game	BirdPhonics	10	x
-game	Book	0	en_306
-day	16	6
+day	16	5
 game	WordTracing	2	x
 game	WordNote	17	x
 game	Video	0	en_vdo_308
 game	Comprehension	1	en_308
 game	BirdPhonics	11	x
-game	Book	0	en_308
-day	17	5
+day	17	4
 game	WordTracing	3	x
 game	WordNote	18	x
 game	Comprehension	1	en_310
 game	BirdPhonics	12	x
-game	Book	0	en_310
-day	18	5
+day	18	3
 game	WordTracing	4	x
 game	WordNote	19	x
-game	Book	0	en_303
 game	BirdPhonics	13	x
-game	Book	0	en_214
-day	19	5
+day	19	4
 game	Spelling	13	x
 game	WordNote	20	x
-game	Book	0	en_307
 game	BirdPhonics	14	x
 game	Book	0	en_221
-day	20	5
+day	20	4
 game	Spelling	14	x
 game	ReadingBird	14	x
-game	Book	0	en_309
 game	BirdPhonics	15	x
 game	Book	0	en_206
-day	21	5
+day	21	4
 game	Spelling	15	x
 game	ReadingBird	14	x
-game	Book	0	en_312
 game	AnimalPuzzle	31	x
 game	Book	0	en_207
 day	22	1
 game	EggQuizLiteracy	0	MiniTest_5_3
-day	23	5
+day	23	3
 game	Spelling	16	x
 game	ReadingBird	9	x
-game	Book	0	en_315
 game	BirdPhonics	13	x
-game	Book	0	en_202
-day	24	5
+day	24	3
 game	Spelling	13	x
 game	ReadingBird	10	x
-game	Book	0	en_316
 game	BirdPhonics	14	x
-game	Book	0	en_222
-day	25	5
+day	25	4
 game	Spelling	14	x
 game	ReadingBird	10	x
-game	Book	0	en_317
 game	BirdPhonics	15	x
 game	Book	0	en_206
-day	26	5
+day	26	3
 game	Spelling	15	x
 game	ReadingBird	10	x
-game	Book	0	en_322
 game	AnimalPuzzle	32	x
-game	Book	0	en_303
-day	27	5
+day	27	3
 game	Spelling	16	x
 game	ReadingBird	11	x
-game	Book	0	en_325
 game	AnimalPuzzle	33	x
-game	Book	0	en_307
 day	28	1
 game	EggQuizLiteracy	0	PostTest_5
 
 level	ms-MY	English 6	L	6	30
-day	1	4
+day	1	3
 game	WhatIsThis	1	x
 game	WordNote	17	x
-game	Book	0	en_310
 game	AnimalPuzzle	28	x
-day	2	4
+day	2	3
 game	WhatIsThis	1	x
 game	WordNote	18	x
-game	Book	0	en_318
 game	BirdPhonics	13	x
-day	3	4
+day	3	3
 game	WhatIsThis	1	x
 game	WordNote	19	x
-game	Book	0	en_328
 game	BirdPhonics	14	x
-day	4	4
+day	4	3
 game	ReadingBird	11	x
 game	WhatIsThis	2	x
-game	Book	0	en_303
 game	BirdPhonics	15	x
-day	5	4
+day	5	3
 game	ReadingBird	11	x
 game	WhatIsThis	2	x
-game	Book	0	en_324
 game	BirdPhonics	16	x
-day	6	4
+day	6	3
 game	ReadingBird	11	x
 game	WhatIsThis	2	x
-game	Book	0	en_311
 game	BirdPhonics	16	x
 day	7	1
 game	EggQuizLiteracy	0	MiniTest_6_1
-day	8	4
+day	8	3
 game	WordNote	20	x
 game	WhatIsThis	3	x
-game	Book	0	en_308
 game	SentenceMaker	1	x
-day	9	5
+day	9	4
 game	WordNote	21	x
 game	WhatIsThis	3	x
-game	Book	0	en_314
 game	Video	0	en_vdo_314_rt
 game	SentenceMaker	2	x
-day	10	4
+day	10	3
 game	WordNote	22	x
 game	WhatIsThis	3	x
-game	Book	0	en_323
 game	SentenceMaker	1	x
-day	11	4
+day	11	3
 game	ReadingBird	12	x
 game	WhatIsThis	4	x
-game	Book	0	en_320
 game	SentenceMaker	2	x
-day	12	4
+day	12	3
 game	ReadingBird	12	x
 game	WhatIsThis	4	x
-game	Book	0	en_326
 game	AnimalPuzzle	29	x
-day	13	4
+day	13	3
 game	ReadingBird	12	x
 game	WhatIsThis	4	x
-game	Book	0	en_321
 game	AnimalPuzzle	30	x
 day	14	1
 game	EggQuizLiteracy	0	MiniTest_6_2
-day	15	5
+day	15	4
 game	WordNote	23	x
 game	WhatIsThis	5	x
-game	Book	0	en_301
 game	Comprehension	1	en_301
 game	SentenceMaker	1	x
-day	16	5
+day	16	4
 game	WordNote	24	x
 game	WhatIsThis	5	x
-game	Book	0	en_302
 game	Comprehension	1	en_302
 game	SentenceMaker	2	x
-day	17	5
+day	17	4
 game	WordNote	25	x
 game	WhatIsThis	5	x
-game	Book	0	en_303
 game	Comprehension	1	en_303
 game	SentenceMaker	3	x
-day	18	5
+day	18	4
 game	WordNote	26	x
 game	WhatIsThis	1	x
-game	Book	0	en_304
 game	Comprehension	1	en_304
 game	AnimalPuzzle	27	x
-day	19	5
+day	19	4
 game	ReadingBird	13	x
 game	WhatIsThis	2	x
-game	Book	0	en_308
 game	Comprehension	1	en_308
 game	SentenceMaker	2	x
-day	20	5
+day	20	4
 game	ReadingBird	13	x
 game	WhatIsThis	3	x
-game	Book	0	en_311
 game	Comprehension	1	en_311
 game	SentenceMaker	3	x
-day	21	5
+day	21	4
 game	ReadingBird	13	x
 game	WhatIsThis	4	x
-game	Book	0	en_314
 game	Comprehension	1	en_314
 game	SentenceMaker	4	x
 day	22	1
 game	EggQuizLiteracy	0	MiniTest_6_3
-day	23	5
+day	23	4
 game	WordNote	24	x
 game	WhatIsThis	5	x
-game	Book	0	en_318
 game	Comprehension	1	en_318
 game	AnimalPuzzle	28	x
-day	24	5
+day	24	4
 game	WordNote	25	x
 game	WhatIsThis	5	x
-game	Book	0	en_320
 game	Comprehension	1	en_320
 game	SentenceMaker	4	x
-day	25	5
+day	25	4
 game	WordNote	26	x
 game	WhatIsThis	6	x
-game	Book	0	en_321
 game	Comprehension	1	en_321
 game	SentenceMaker	3	x
-day	26	5
+day	26	4
 game	ReadingBird	14	x
 game	WhatIsThis	6	x
-game	Book	0	en_324
 game	Comprehension	1	en_324
 game	SentenceMaker	4	x
-day	27	5
+day	27	4
 game	ReadingBird	14	x
 game	WhatIsThis	6	x
-game	Book	0	en_326
 game	Comprehension	1	en_326
 game	SentenceMaker	2	x
-day	28	5
+day	28	4
 game	ReadingBird	15	x
 game	WhatIsThis	7	x
-game	Book	0	en_327
 game	Comprehension	1	en_327
 game	SentenceMaker	3	x
-day	29	5
+day	29	4
 game	ReadingBird	15	x
 game	WhatIsThis	7	x
-game	Book	0	en_328
 game	Comprehension	1	en_328
 game	SentenceMaker	4	x
 day	30	1
 game	EggQuizLiteracy	0	PostTest_6
 
 level	ms-MY	English 7	L	7	30
-day	1	5
+day	1	4
 game	ReadingBird	14	x
 game	Video	0	en_vdo_uppercase
-game	Book	0	en_330
 game	Comprehension	1	en_330
 game	WhatIsThis	7	x
-day	2	5
+day	2	4
 game	ReadingBird	14	x
 game	Video	0	en_vdo_uppercase
-game	Book	0	en_329
 game	Comprehension	1	en_329
 game	WhatIsThis	7	x
-day	3	5
+day	3	4
 game	SentenceMaker	5	x
-game	Book	0	en_331
 game	Comprehension	1	en_331
 game	WhatIsThis	7	x
 game	StarFall	1	x
-day	4	5
+day	4	4
 game	SentenceMaker	5	x
-game	Book	0	en_307
 game	Comprehension	1	en_307
 game	WhatIsThis	8	x
 game	StarFall	1	x
-day	5	5
+day	5	4
 game	ReadingBird	15	x
-game	Book	0	en_309
 game	Comprehension	1	en_309
 game	WhatIsThis	8	x
 game	StarFall	2	x
-day	6	5
+day	6	4
 game	ReadingBird	15	x
-game	Book	0	en_310
 game	Comprehension	1	en_310
 game	WhatIsThis	8	x
 game	StarFall	2	x
 day	7	1
 game	EggQuizLiteracy	0	MiniTest_7_1
-day	8	5
+day	8	4
 game	SentenceMaker	6	x
-game	Book	0	en_406
 game	Comprehension	1	en_406
 game	WhatIsThis	9	x
 game	StarFall	3	x
-day	9	5
+day	9	4
 game	SentenceMaker	6	x
-game	Book	0	en_406
 game	Comprehension	1	en_406
 game	WhatIsThis	9	x
 game	StarFall	3	x
@@ -919,35 +853,31 @@ game	Book	0	en_404
 game	Comprehension	1	en_404
 game	WhatIsThis	9	x
 game	StarFall	3	x
-day	11	5
+day	11	4
 game	SentenceMaker	7	x
 game	Video	0	en_vdo_403
 game	Comprehension	1	en_403
 game	WhatIsThis	10	x
-game	Book	0	en_403
 day	12	4
 game	SentenceMaker	7	x
 game	Video	0	en_vdo_401_rt
 game	Comprehension	1	en_401
 game	WhatIsThis	10	x
-day	13	5
+day	13	4
 game	SentenceMaker	8	x
-game	Book	0	en_401
 game	Comprehension	1	en_401
 game	WhatIsThis	10	x
 game	AnimalPuzzle	29	x
 day	14	1
 game	EggQuizLiteracy	0	MiniTest_7_2
-day	15	5
+day	15	4
 game	SentenceMaker	8	x
 game	Video	0	en_vdo_punctuation
-game	Book	0	en_402
 game	Comprehension	1	en_402
 game	WhatIsThis	11	x
-day	16	5
+day	16	4
 game	SentenceMaker	9	x
 game	Video	0	en_vdo_punctuation
-game	Book	0	en_402
 game	Comprehension	1	en_402
 game	WhatIsThis	11	x
 day	17	5
@@ -962,9 +892,8 @@ game	Book	0	en_405
 game	Comprehension	1	en_405
 game	WhatIsThis	12	x
 game	AnimalPuzzle	30	x
-day	19	5
+day	19	4
 game	SentenceMaker	9	x
-game	Book	0	en_403
 game	Comprehension	1	en_403
 game	WhatIsThis	12	x
 game	StarFall	4	x

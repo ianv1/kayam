@@ -9,11 +9,11 @@
     <string name="btn_credit">Credit</string>
     <string name="about_activity_title">About</string>
     <string name="enuma_info">Enuma, Inc.\nhttp://enuma.com\nxpsupport@enuma.com</string>
-    <string name="password">Kata laluan</string>
-    <string name="cancel">Batal</string>
-    <string name="go_setting">Pergi ke Tetapan Android</string>
-    <string name="enter_password">Masukkan kata laluan</string>
-    <string name="wrong_password">Kata laluan salah</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="go_setting">Go to Android Settings</string>
+    <string name="enter_password">Enter password</string>
+    <string name="wrong_password">Wrong password</string>
     <string name="start">Start</string>
     <string name="defaultLanguage">en-US</string>
     <string name="library">Library</string>
@@ -39,8 +39,8 @@
     <string name="user_name">User name</string>
     <string name="administration_activity_title">Administration</string>
     <string name="submit">SUBMIT</string>
-    <string name="cancel2">BATAL</string>
-    <string name="enter">MASUK</string>
+    <string name="cancel2">CANCEL</string>
+    <string name="enter">ENTER</string>
     <string name="number">number</string>
 
     <string name="drums">Drums</string>
@@ -62,14 +62,14 @@
     <string name="rename">Rename</string>
 
     <string name="login">Login</string>
-    <string name="select_icon_password">Pilih ikon kata laluan anda</string>
-    <string name="enter_your_name">Masukkan nama anda</string>
-    <string name="name_hint">Nama</string>
-    <string name="create">CIPTA</string>
-    <string name="welcome">Selamat kembali, %s</string>
-    <string name="csv_generated">Fail CSV telah dijana: %s</string>
-    <string name="dialog_yes">Ya</string>
-    <string name="dialog_no">Tidak</string>
+    <string name="select_icon_password">Select your icon password</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="name_hint">Name</string>
+    <string name="create">CREATE</string>
+    <string name="welcome">Welcome back, %s</string>
+    <string name="csv_generated">CSV file is generated: %s</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
     <string name="logout">Logout</string>
     <string name="create_user_empty_name_error">Name cannot be empty</string>
     <string name="create_user_admin_name_error">Name is disallowed</string>

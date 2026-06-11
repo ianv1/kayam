@@ -205,7 +205,10 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             public void onClick(View view) {
                 User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
                 if (currentUser == null) {
-                    Toast.makeText(MainActivity.this, "Sila pilih pengguna", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,
+        getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getBoolean("language_bm", false)
+                ? "Sila pilih pengguna" : "Please select a user",
+        Toast.LENGTH_LONG).show();
                     return;
                 }
                 try {
@@ -232,19 +235,37 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             }
         });
 
-        AppDetail library = getAppDetail("asia.chumbaka.kayam.library.bm");
+        // Pick the right Library package per language. The BM toggle is stored
+        // in the same "language_bm" SharedPreferences flag the top-right
+        // switch writes to (default = false → English).
+        boolean isBMLib = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS)
+                .getBoolean("language_bm", false);
+        final String libraryPackage = isBMLib
+                ? "asia.chumbaka.kayam.library.bm"
+                : "asia.chumbaka.kayam.library";
+        AppDetail library = getAppDetail(libraryPackage);
         Button libraryButton = (Button) findViewById(R.id.button_library);
         libraryButton.setTypeface(face);
         libraryButton.setOnClickListener(view -> {
             User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
             if (currentUser == null) {
-                Toast.makeText(MainActivity.this, "Sila pilih pengguna", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,
+        getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getBoolean("language_bm", false)
+                ? "Sila pilih pengguna" : "Please select a user",
+        Toast.LENGTH_LONG).show();
                 return;
             }
             if (view.isEnabled()) {
                 try {
+                    // Re-read the language pref at click-time so a mid-session
+                    // toggle picks the right Library package without restart.
+                    boolean isBMAtClick = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS)
+                            .getBoolean("language_bm", false);
+                    String pkg = isBMAtClick
+                            ? "asia.chumbaka.kayam.library.bm"
+                            : "asia.chumbaka.kayam.library";
                     Intent i = new Intent(Intent.ACTION_MAIN);
-                    i.setComponent(new ComponentName("asia.chumbaka.kayam.library.bm", "asia.chumbaka.kayam.library.bm.SelectActivity"));
+                    i.setComponent(new ComponentName(pkg, pkg + ".SelectActivity"));
                     startActivity(i);
                 } catch (Exception e) {
                     Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
@@ -268,7 +289,11 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
         buttonLogout.setTypeface(face);
         buttonLogout.setOnClickListener(view -> {
-            Toast.makeText(MainActivity.this, "Anda telah berjaya log keluar", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this,
+                    prefs.getBoolean("language_bm", false)
+                            ? "Anda telah berjaya log keluar"
+                            : "You have successfully logged out",
+                    Toast.LENGTH_LONG).show();
             generateCSV();
             KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
             dbHandler.deleteCurrentUser();

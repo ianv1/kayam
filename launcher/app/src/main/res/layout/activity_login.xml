@@ -88,7 +88,7 @@
                 android:id="@+id/tv_last_backup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tiada sandaran"
+                android:text="No backup"
                 android:textColor="#F3D63F"
                 android:textSize="20sp" />
 
@@ -106,7 +106,7 @@
                 android:layout_marginStart="8dp"
                 android:paddingHorizontal="16dp"
                 android:background="@drawable/rounded_corner_bg"
-                android:text="Semak Kemas Kini" />
+                android:text="Check for Updates" />
 
         </LinearLayout>
 

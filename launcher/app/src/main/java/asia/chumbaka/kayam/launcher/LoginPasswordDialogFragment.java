@@ -66,6 +66,12 @@ public class LoginPasswordDialogFragment extends DialogFragment {
         TextView title = (TextView) dialogView.findViewById(R.id.tv_login_password_title);
         Typeface face = Typeface.createFromAsset(getActivity().getAssets(), "TodoMainCurly.ttf");
         title.setTypeface(face);
+        // Honour the BM/EN toggle for the dialog title (strings.xml carries
+        // only the English copy now).
+        boolean isBM = getActivity()
+                .getSharedPreferences("sharedPref", android.content.Context.MODE_MULTI_PROCESS)
+                .getBoolean("language_bm", false);
+        if (isBM) title.setText("Pilih ikon kata laluan anda");
 
         final ImageView ivField1 = (ImageView) dialogView.findViewById(R.id.iv_field_1);
         final ImageView ivField2 = (ImageView) dialogView.findViewById(R.id.iv_field_2);
@@ -229,7 +235,12 @@ public class LoginPasswordDialogFragment extends DialogFragment {
                 }
             }, 500);
         } else if (!password[0].equals("") && !password[1].equals("")) {
-            Toast.makeText(getActivity(), "Kata laluan tidak betul", Toast.LENGTH_SHORT).show();
+            boolean isBM = getActivity()
+                    .getSharedPreferences("sharedPref", android.content.Context.MODE_MULTI_PROCESS)
+                    .getBoolean("language_bm", false);
+            Toast.makeText(getActivity(),
+                    isBM ? "Kata laluan tidak betul" : "Password is incorrect",
+                    Toast.LENGTH_SHORT).show();
         }
     }
 }

@@ -79,8 +79,20 @@ public class PasswordDialogFragment extends DialogFragment {
             }
         });
 
+        boolean isBM = getActivity()
+                .getSharedPreferences("sharedPref", android.content.Context.MODE_MULTI_PROCESS)
+                .getBoolean("language_bm", false);
+        if (isBM) {
+            TextView tvTitle = (TextView) dialogView.findViewById(R.id.tv_password_title);
+            if (tvTitle != null) tvTitle.setText("Masukkan kata laluan");
+            passwordEditText.setHint("Kata laluan");
+        }
         TextView tvCancel = (TextView) dialogView.findViewById(R.id.tv_cancel);
         TextView tvConfirm = (TextView) dialogView.findViewById(R.id.tv_confirm);
+        if (isBM) {
+            tvCancel.setText("BATAL");
+            tvConfirm.setText("MASUK");
+        }
         tvCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

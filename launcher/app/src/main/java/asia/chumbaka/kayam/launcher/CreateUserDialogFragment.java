@@ -71,6 +71,18 @@ public class CreateUserDialogFragment extends DialogFragment {
         nameTitle.setTypeface(face);
         title.setTypeface(face);
 
+        // BM toggle (same SharedPreferences key the home-screen switch writes).
+        boolean isBM = getActivity()
+                .getSharedPreferences("sharedPref", android.content.Context.MODE_MULTI_PROCESS)
+                .getBoolean("language_bm", false);
+        if (isBM) {
+            nameTitle.setText("Masukkan nama anda");
+            title.setText("Pilih ikon kata laluan anda");
+            android.widget.EditText nameField =
+                    (android.widget.EditText) dialogView.findViewById(R.id.et_create_user);
+            if (nameField != null) nameField.setHint("Nama");
+        }
+
         final ImageView ivField1 = (ImageView) dialogView.findViewById(R.id.iv_field_1);
         final ImageView ivField2 = (ImageView) dialogView.findViewById(R.id.iv_field_2);
 
@@ -205,6 +217,7 @@ public class CreateUserDialogFragment extends DialogFragment {
 
         final TextView createTextView = (TextView) dialogView.findViewById(R.id.tv_create);
         final EditText createUserEditText = (EditText) dialogView.findViewById(R.id.et_create_user);
+        if (isBM) createTextView.setText("CIPTA");
         createTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -240,6 +253,7 @@ public class CreateUserDialogFragment extends DialogFragment {
         });
 
         final TextView cancelTextView = (TextView) dialogView.findViewById(R.id.tv_cancel);
+        if (isBM) cancelTextView.setText("BATAL");
         cancelTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

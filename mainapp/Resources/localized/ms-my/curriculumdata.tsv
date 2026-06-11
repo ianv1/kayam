@@ -115,26 +115,21 @@ game	BirdPhonics	10	x
 game	BirdPhonics	13	x
 game	WordMatrix	11	x
 game	EggQuizLiteracy	0	SpecialTest_5
-day	6	4
-game	Book	0	en_202
+day	6	2
 game	WordKicker	13	x
-game	Book	0	en_345
 game	EggQuizLiteracy	0	SpecialTest_6
-day	7	4
-game	Book	0	en_302
+day	7	3
 game	WordKicker	14	x
 game	Labeling	22	x
 game	EggQuizLiteracy	0	SpecialTest_7
-day	8	5
+day	8	4
 game	Book	0	en_206
 game	WordKicker	3	x
-game	Book	0	en_332
 game	Labeling	3	x
 game	EggQuizLiteracy	0	SpecialTest_8
-day	9	4
+day	9	3
 game	WhatIsThis	8	x
 game	WordKicker	16	x
-game	Book	0	en_349
 game	EggQuizLiteracy	0	SpecialTest_9
 day	10	4
 game	WordKicker	19	x
@@ -151,10 +146,9 @@ game	WordKicker	7	x
 game	Labeling	15	x
 game	SentenceBridge	6	x
 game	EggQuizLiteracy	0	SpecialTest_12
-day	13	5
+day	13	4
 game	WordKicker	1	x
 game	WhatIsThis	5	x
-game	Book	0	en_334
 game	Labeling	17	x
 game	EggQuizLiteracy	0	SpecialTest_13
 day	14	4
@@ -467,29 +461,26 @@ game	Spelling	5	x
 game	ReadingBird	1	x
 game	WordNote	3	x
 game	SoundTrain	14	x
-day	2	4
+day	2	3
 game	Spelling	6	x
 game	ReadingBird	1	x
-game	BookWithQuiz	0	en_201
 game	WordMatrix	1	x
 day	3	4
 game	Spelling	7	x
 game	ReadingBird	2	x
 game	WordMatrix	9	x
 game	SoundTrain	15	x
-day	4	3
+day	4	2
 game	Spelling	8	x
-game	BookWithQuiz	0	en_202
 game	BirdPhonics	1	x
 day	5	4
 game	Spelling	9	x
 game	ReadingBird	2	x
 game	WordMatrix	10	x
 game	BirdPhonics	2	x
-day	6	4
+day	6	3
 game	Spelling	10	x
 game	WordMatrix	11	x
-game	BookWithQuiz	0	en_203
 game	BirdPhonics	3	x
 day	7	4
 game	Spelling	11	x
@@ -508,10 +499,9 @@ game	WordMatrix	14	x
 game	ReadingBird	3	x
 game	WordNote	6	x
 game	BirdPhonics	6	x
-day	11	4
+day	11	3
 game	WordMatrix	15	x
 game	WordNote	7	x
-game	BookWithQuiz	0	en_209
 game	BirdPhonics	7	x
 day	12	5
 game	WordMatrix	16	x
@@ -557,19 +547,17 @@ game	ReadingBird	6	x
 game	BirdPhonics	5	x
 game	BookWithQuiz	0	en_207
 game	WordMachine	3	x
-day	21	4
+day	21	3
 game	WordMatrix	11	x
 game	BirdPhonics	6	x
-game	BookWithQuiz	0	en_214
 game	WordMachine	4	x
 day	22	4
 game	WordMatrix	12	x
 game	BirdPhonics	7	x
 game	WordNote	12	x
 game	SoundTrain	19	x
-day	23	3
+day	23	2
 game	WordMatrix	13	x
-game	BookWithQuiz	0	en_210
 game	SoundTrain	20	x
 day	24	1
 game	EggQuizLiteracy	0	MiniTest_4_3
@@ -583,10 +571,9 @@ day	26	3
 game	WordMatrix	15	x
 game	BookWithQuiz	0	en_215
 game	SoundTrain	20	x
-day	27	4
+day	27	3
 game	WordMatrix	16	x
 game	BirdPhonics	8	x
-game	BookWithQuiz	0	en_211
 game	SoundTrain	21	x
 day	28	5
 game	WordMatrix	17	x
@@ -619,10 +606,9 @@ game	Spelling	14	x
 game	Labeling	1	x
 game	ReadingBird	7	x
 game	BirdPhonics	8	x
-day	2	4
+day	2	3
 game	Spelling	15	x
 game	Labeling	4	x
-game	BookWithQuiz	0	en_212
 game	BirdPhonics	9	x
 day	3	5
 game	WordMatrix	1	x
@@ -682,336 +668,272 @@ game	BookWithQuiz	0	en_221
 game	BirdPhonics	16	x
 day	14	1
 game	EggQuizLiteracy	0	MiniTest_5_2
-day	15	4
+day	15	3
 game	WordTracing	1	x
 game	WordNote	19	x
-game	BookWithQuiz	0	en_222
 game	WordKicker	1	x
-day	16	4
+day	16	3
 game	WordTracing	2	x
 game	WordNote	20	x
-game	BookWithQuiz	0	en_226
 game	WordKicker	2	x
-day	17	4
+day	17	3
 game	WordTracing	3	x
 game	WordNote	21	x
-game	BookWithQuiz	0	en_229
 game	WordKicker	3	x
-day	18	4
+day	18	3
 game	WordTracing	4	x
 game	WordNote	22	x
-game	BookWithQuiz	0	en_230
 game	WordKicker	4	x
-day	19	3
+day	19	2
 game	WordNote	23	x
-game	BookWithQuiz	0	en_231
 game	WordKicker	5	x
-day	20	4
+day	20	3
 game	WordNote	24	x
 game	WordTracing	3	x
-game	BookWithQuiz	0	en_227
 game	WordKicker	6	x
-day	21	4
+day	21	3
 game	WordNote	25	x
 game	WordTracing	4	x
-game	BookWithQuiz	0	en_225
 game	WordKicker	1	x
 day	22	1
 game	EggQuizLiteracy	0	MiniTest_5_3
-day	23	4
+day	23	3
 game	Labeling	12	x
 game	WordNote	26	x
-game	BookWithQuiz	0	en_234
 game	WordKicker	2	x
-day	24	4
+day	24	3
 game	Labeling	15	x
 game	ReadingBird	10	x
-game	BookWithQuiz	0	en_232
 game	WordKicker	3	x
-day	25	4
+day	25	3
 game	Labeling	5	x
 game	ReadingBird	10	x
-game	BookWithQuiz	0	en_233
 game	WordKicker	4	x
-day	26	4
+day	26	3
 game	Labeling	9	x
 game	ReadingBird	11	x
-game	BookWithQuiz	0	en_301
 game	WordKicker	5	x
-day	27	4
+day	27	3
 game	Labeling	22	x
 game	ReadingBird	11	x
-game	BookWithQuiz	0	en_302
 game	WordKicker	6	x
 day	28	1
 game	EggQuizLiteracy	0	PostTest_5
 
 level	ms-MY	BM 6	L	6	30
-day	1	4
+day	1	3
 game	WhatIsThis	1	x
 game	Labeling	12	x
-game	BookWithQuiz	0	en_304
 game	WordMatrix	27	x
-day	2	4
+day	2	3
 game	WhatIsThis	1	x
 game	Labeling	7	x
-game	BookWithQuiz	0	en_306
 game	WordMatrix	28	x
-day	3	4
+day	3	3
 game	WhatIsThis	2	x
 game	Labeling	17	x
-game	BookWithQuiz	0	en_308
 game	WordMatrix	29	x
-day	4	4
+day	4	3
 game	WhatIsThis	2	x
 game	Labeling	11	x
-game	BookWithQuiz	0	en_305
 game	WordMatrix	30	x
-day	5	4
+day	5	3
 game	WhatIsThis	3	x
 game	Labeling	2	x
-game	BookWithQuiz	0	en_310
 game	WordMatrix	31	x
-day	6	4
+day	6	3
 game	WhatIsThis	3	x
 game	Labeling	8	x
-game	BookWithQuiz	0	en_303
 game	WordMatrix	32	x
 day	7	1
 game	EggQuizLiteracy	0	MiniTest_6_1
-day	8	4
+day	8	3
 game	WordTracing	1	x
 game	Labeling	24	x
-game	BookWithQuiz	0	en_307
 game	SentenceBridge	1	x
-day	9	4
+day	9	3
 game	WordTracing	2	x
 game	Labeling	23	x
-game	BookWithQuiz	0	en_314
 game	SentenceBridge	1	x
-day	10	4
+day	10	3
 game	WordTracing	3	x
 game	WhatIsThis	4	x
-game	BookWithQuiz	0	en_309
 game	SentenceBridge	2	x
-day	11	4
+day	11	3
 game	WordTracing	4	x
 game	WhatIsThis	4	x
-game	BookWithQuiz	0	en_312
 game	SentenceBridge	2	x
-day	12	4
+day	12	3
 game	ReadingBird	12	x
 game	WordKicker	7	x
-game	BookWithQuiz	0	en_315
 game	SentenceBridge	3	x
-day	13	4
+day	13	3
 game	ReadingBird	13	x
 game	WordKicker	8	x
-game	BookWithQuiz	0	en_316
 game	SentenceBridge	3	x
 day	14	1
 game	EggQuizLiteracy	0	MiniTest_6_2
-day	15	4
+day	15	3
 game	Labeling	16	x
 game	WordKicker	9	x
-game	BookWithQuiz	0	en_317
 game	SentenceBridge	4	x
-day	16	4
+day	16	3
 game	Labeling	7	x
 game	WordKicker	10	x
-game	BookWithQuiz	0	en_322
 game	SentenceBridge	4	x
-day	17	4
+day	17	3
 game	Labeling	10	x
 game	WordKicker	7	x
-game	BookWithQuiz	0	en_325
 game	SentenceBridge	5	x
-day	18	4
+day	18	3
 game	Labeling	8	x
 game	WordKicker	8	x
-game	BookWithQuiz	0	en_333
 game	SentenceBridge	5	x
-day	19	4
+day	19	3
 game	Labeling	24	x
 game	WordKicker	9	x
-game	BookWithQuiz	0	en_318
 game	SentenceBridge	6	x
-day	20	4
+day	20	3
 game	ReadingBird	14	x
 game	WordKicker	10	x
-game	BookWithQuiz	0	en_323
 game	SentenceBridge	6	x
-day	21	4
+day	21	3
 game	ReadingBird	15	x
 game	Labeling	6	x
-game	BookWithQuiz	0	en_347
 game	SentenceBridge	7	x
 day	22	1
 game	EggQuizLiteracy	0	MiniTest_6_3
-day	23	4
+day	23	3
 game	ReadingBird	12	x
 game	SentenceBridge	7	x
-game	BookWithQuiz	0	en_324
 game	LRComprehension	1	x
-day	24	4
+day	24	3
 game	ReadingBird	13	x
 game	WordKicker	11	x
-game	BookWithQuiz	0	en_311
 game	LRComprehension	2	x
-day	25	3
+day	25	2
 game	ReadingBird	14	x
 game	WordKicker	12	x
-game	BookWithQuiz	0	en_328
-day	26	4
+day	26	3
 game	ReadingBird	15	x
 game	WordKicker	13	x
-game	BookWithQuiz	0	en_320
 game	LRComprehension	3	x
-day	27	4
+day	27	3
 game	Labeling	19	x
 game	WordKicker	11	x
-game	BookWithQuiz	0	en_326
 game	LRComprehension	4	x
-day	28	3
+day	28	2
 game	Labeling	21	x
 game	WordKicker	12	x
-game	BookWithQuiz	0	en_321
-day	29	4
+day	29	3
 game	Labeling	20	x
 game	WordKicker	13	x
-game	BookWithQuiz	0	en_327
 game	LRComprehension	5	x
 day	30	1
 game	EggQuizLiteracy	0	PostTest_6
 
 level	ms-MY	BM 7	L	7	30
-day	1	3
+day	1	2
 game	Labeling	20	x
 game	WhatIsThis	5	x
-game	BookWithQuiz	0	en_330
-day	2	3
+day	2	2
 game	Labeling	14	x
 game	WhatIsThis	5	x
-game	BookWithQuiz	0	en_329
-day	3	4
+day	3	3
 game	Labeling	13	x
 game	WhatIsThis	6	x
-game	BookWithQuiz	0	en_331
 game	WordKicker	14	x
-day	4	4
+day	4	3
 game	Labeling	10	x
 game	WhatIsThis	6	x
-game	BookWithQuiz	0	en_332
 game	WordKicker	15	x
-day	5	3
+day	5	2
 game	WhatIsThis	7	x
-game	BookWithQuiz	0	en_345
 game	WordKicker	16	x
-day	6	3
+day	6	2
 game	WhatIsThis	7	x
-game	BookWithQuiz	0	en_310
 game	WordKicker	17	x
 day	7	1
 game	EggQuizLiteracy	0	MiniTest_7_1
-day	8	4
+day	8	3
 game	ReadingBird	14	x
 game	WordKicker	18	x
-game	BookWithQuiz	0	en_348
 game	SentenceMaker	1	x
-day	9	4
+day	9	3
 game	ReadingBird	15	x
 game	WordKicker	19	x
-game	BookWithQuiz	0	en_334
 game	SentenceMaker	2	x
-day	10	4
+day	10	3
 game	ReadingBird	16	x
 game	WhatIsThis	8	x
-game	BookWithQuiz	0	en_337
 game	SentenceMaker	3	x
-day	11	4
+day	11	3
 game	Labeling	25	x
 game	WhatIsThis	8	x
-game	BookWithQuiz	0	en_338
 game	SentenceMaker	3	x
-day	12	4
+day	12	3
 game	Labeling	26	x
 game	WhatIsThis	9	x
-game	BookWithQuiz	0	en_336
 game	SentenceMaker	4	x
-day	13	4
+day	13	3
 game	Labeling	6	x
 game	WhatIsThis	9	x
-game	BookWithQuiz	0	en_335
 game	SentenceMaker	5	x
 day	14	1
 game	EggQuizLiteracy	0	MiniTest_7_2
-day	15	4
+day	15	3
 game	WhatIsThis	10	x
 game	ReadingBird	17	x
-game	BookWithQuiz	0	en_341
 game	SentenceMaker	6	x
-day	16	4
+day	16	3
 game	WhatIsThis	10	x
 game	ReadingBird	18	x
-game	BookWithQuiz	0	en_340
 game	SentenceMaker	7	x
-day	17	4
+day	17	3
 game	WordKicker	15	x
 game	ReadingBird	18	x
-game	BookWithQuiz	0	en_339
 game	SentenceMaker	7	x
-day	18	3
+day	18	2
 game	WordKicker	16	x
-game	BookWithQuiz	0	en_343
 game	SentenceMaker	8	x
-day	19	4
+day	19	3
 game	WordKicker	17	x
 game	ReadingBird	17	x
-game	BookWithQuiz	0	en_344
 game	SentenceMaker	8	x
-day	20	4
+day	20	3
 game	WordKicker	18	x
 game	SentenceBridge	8	x
-game	BookWithQuiz	0	en_347
 game	LRComprehension	6	x
-day	21	4
+day	21	3
 game	WordKicker	19	x
 game	SentenceBridge	8	x
-game	BookWithQuiz	0	en_334
 game	LRComprehension	7	x
 day	22	1
 game	EggQuizLiteracy	0	MiniTest_7_3
-day	23	3
+day	23	2
 game	SentenceBridge	9	x
-game	BookWithQuiz	0	en_342
 game	LRComprehension	8	x
-day	24	3
+day	24	2
 game	SentenceBridge	9	x
-game	BookWithQuiz	0	en_349
 game	LRComprehension	9	x
-day	25	3
+day	25	2
 game	SentenceBridge	10	x
-game	BookWithQuiz	0	en_421
 game	SentenceMaker	9	x
-day	26	4
+day	26	3
 game	WhatIsThis	9	x
 game	SentenceBridge	10	x
-game	BookWithQuiz	0	en_420
 game	SentenceMaker	9	x
-day	27	4
+day	27	3
 game	WhatIsThis	10	x
 game	SentenceBridge	11	x
-game	BookWithQuiz	0	en_403
 game	LRComprehension	10	x
-day	28	4
+day	28	3
 game	WhatIsThis	11	x
 game	SentenceBridge	11	x
-game	BookWithQuiz	0	en_419
 game	LRComprehension	11	x
-day	29	4
+day	29	3
 game	WhatIsThis	12	x
 game	SentenceBridge	9	x
-game	BookWithQuiz	0	en_401
 game	LRComprehension	12	x
 day	30	1
 game	EggQuizLiteracy	0	PostTest_7
@@ -1037,14 +959,12 @@ game	WhatIsThis	13	x
 game	BookWithQuiz	0	en_418
 game	SentenceMaker	9	x
 game	StarFall	2	x
-day	5	4
+day	5	3
 game	WhatIsThis	13	x
-game	BookWithQuiz	0	en_406
 game	SentenceMaker	10	x
 game	LRComprehension	12	x
-day	6	4
+day	6	3
 game	ReadingBird	16	x
-game	BookWithQuiz	0	en_406
 game	SentenceMaker	11	x
 game	LRComprehension	13	x
 day	7	1
@@ -1069,14 +989,12 @@ game	ReadingBird	18	x
 game	BookWithQuiz	0	en_425
 game	WordKicker	19	x
 game	SentenceMaker	12	x
-day	12	4
+day	12	3
 game	ReadingBird	18	x
-game	BookWithQuiz	0	en_402
 game	SentenceBridge	10	x
 game	LRComprehension	15	x
-day	13	4
+day	13	3
 game	WordKicker	20	x
-game	BookWithQuiz	0	en_402
 game	SentenceBridge	11	x
 game	LRComprehension	16	x
 day	14	1

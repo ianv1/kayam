@@ -57,6 +57,12 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
     private boolean isAdmin = false;
 
+    /** True when the user has flipped the BM/EN toggle to Bahasa Melayu. */
+    private boolean isBMLang() {
+        return getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS)
+                .getBoolean("language_bm", false);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -157,7 +163,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
 
             String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
             Button titleButton = (Button) findViewById(R.id.title_btn);
-            titleButton.setText("KAYAM SCHOOL " + "(ID TABLET: " + tabletNumber + ")");
+            titleButton.setText("KAYAM SCHOOL " + "(" + (isBMLang() ? "ID TABLET" : "TABLET ID") + ": " + tabletNumber + ")");
             titleButton.setOnClickListener(view -> {
                 DialogFragment dialog = new QRFragment();
                 Bundle bundle = new Bundle();
@@ -198,26 +204,29 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         lastBackupTimeTextView.setTypeface(face);
 
         if (lastBackupTime != 0L) {
-            lastBackupTextView.setText("Sandaran terakhir: ");
+            lastBackupTextView.setText(isBMLang() ? "Sandaran terakhir: " : "Last backup: ");
             SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy hh:mm:ssa");
             Date resultdate = new Date(lastBackupTime);
             lastBackupTimeTextView.setText(sdf.format(resultdate));
             lastBackupTimeTextView.setVisibility(View.VISIBLE);
             lastBackupTextView.setOnClickListener(view -> {
                 if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
-                    Toast.makeText(LoginActivity.this, "Fail sandaran terakhir: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
+                    String label = isBMLang() ? "Fail sandaran terakhir: " : "Last backup file: ";
+                    Toast.makeText(LoginActivity.this, label + lastBackupFilename, Toast.LENGTH_SHORT).show();
                 }
             });
             lastBackupTimeTextView.setOnClickListener(view -> {
                 if (lastBackupFilename != null && !lastBackupFilename.isEmpty()) {
-                    Toast.makeText(LoginActivity.this, "Fail sandaran terakhir: " + lastBackupFilename, Toast.LENGTH_SHORT).show();
+                    String label = isBMLang() ? "Fail sandaran terakhir: " : "Last backup file: ";
+                    Toast.makeText(LoginActivity.this, label + lastBackupFilename, Toast.LENGTH_SHORT).show();
                 }
             });
         } else {
-            lastBackupTextView.setText("Tiada sandaran");
+            lastBackupTextView.setText(isBMLang() ? "Tiada sandaran" : "No backup");
             lastBackupTimeTextView.setVisibility(View.GONE);
         }
 
+        updateButton.setText(isBMLang() ? "Semak Kemas Kini" : "Check for Updates");
         updateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -334,13 +343,17 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
             return;
         }
         new AlertDialog.Builder(this)
-                .setTitle("Padam " + user.getDisplayName())
-                .setMessage("Adakah anda pasti mahu memadam pengguna ini?")
+                .setTitle((isBMLang() ? "Padam " : "Delete ") + user.getDisplayName())
+                .setMessage(isBMLang()
+                        ? "Adakah anda pasti mahu memadam pengguna ini?"
+                        : "Are you sure you want to delete this user?")
                 .setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         new AlertDialog.Builder(LoginActivity.this)
-                                .setTitle("Jana laporan CSV?")
-                                .setMessage("Sebelum anda memadam pengguna ini, adakah anda mahu menjana laporan CSV?")
+                                .setTitle(isBMLang() ? "Jana laporan CSV?" : "Generate a CSV report?")
+                                .setMessage(isBMLang()
+                                        ? "Sebelum anda memadam pengguna ini, adakah anda mahu menjana laporan CSV?"
+                                        : "Before you delete this user, would you like to generate a CSV report?")
                                 .setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int which) {
                                         generateCSV();
