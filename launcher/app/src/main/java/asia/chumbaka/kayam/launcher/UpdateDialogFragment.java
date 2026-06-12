@@ -31,18 +31,27 @@ public class UpdateDialogFragment extends DialogFragment {
 
     private int launcherVersion = 0;
     private int mainVersion = 0;
+    private int mainBmVersion = 0;
     private int libraryVersion = 0;
+    private int libraryBmVersion = 0;
     private int bookviewerVersion = 0;
+    private int bookviewerBmVersion = 0;
 
     private int launcherVersionRemote = 0;
     private int mainVersionRemote = 0;
+    private int mainBmVersionRemote = 0;
     private int libraryVersionRemote = 0;
+    private int libraryBmVersionRemote = 0;
     private int bookviewerVersionRemote = 0;
+    private int bookviewerBmVersionRemote = 0;
 
     private StorageReference launcherRef = null;
     private StorageReference mainRef = null;
+    private StorageReference mainBmRef = null;
     private StorageReference libraryRef = null;
+    private StorageReference libraryBmRef = null;
     private StorageReference bookviewerRef = null;
+    private StorageReference bookviewerBmRef = null;
 
     @NonNull
     @Override
@@ -73,12 +82,25 @@ public class UpdateDialogFragment extends DialogFragment {
         TextView mainRemoteVersion = (TextView) dialogView.findViewById(R.id.main_remote_version);
 
         try {
-            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.xprize.bm", 0);
+            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.xprize", 0);
             int version = pInfo.versionCode;
             mainVersion = version;
             mainCurrentVersion.setText(String.valueOf(version));
         } catch (PackageManager.NameNotFoundException e) {
             mainCurrentVersion.setText("N/A");
+            e.printStackTrace();
+        }
+
+        TextView mainBmCurrentVersion = (TextView) dialogView.findViewById(R.id.main_bm_current_version);
+        TextView mainBmRemoteVersion = (TextView) dialogView.findViewById(R.id.main_bm_remote_version);
+
+        try {
+            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.xprize.bm", 0);
+            int version = pInfo.versionCode;
+            mainBmVersion = version;
+            mainBmCurrentVersion.setText(String.valueOf(version));
+        } catch (PackageManager.NameNotFoundException e) {
+            mainBmCurrentVersion.setText("N/A");
             e.printStackTrace();
         }
 
@@ -95,16 +117,42 @@ public class UpdateDialogFragment extends DialogFragment {
             e.printStackTrace();
         }
 
+        TextView libraryBmCurrentVersion = (TextView) dialogView.findViewById(R.id.library_bm_current_version);
+        TextView libraryBmRemoteVersion = (TextView) dialogView.findViewById(R.id.library_bm_remote_version);
+
+        try {
+            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.library.bm", 0);
+            int version = pInfo.versionCode;
+            libraryBmVersion = version;
+            libraryBmCurrentVersion.setText(String.valueOf(version));
+        } catch (PackageManager.NameNotFoundException e) {
+            libraryBmCurrentVersion.setText("N/A");
+            e.printStackTrace();
+        }
+
         TextView bookViewerCurrentVersion = (TextView) dialogView.findViewById(R.id.bookviewer_current_version);
         TextView bookViewerRemoteVersion = (TextView) dialogView.findViewById(R.id.bookviewer_remote_version);
 
         try {
-            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.bookviewer.bm", 0);
+            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.bookviewer", 0);
             int version = pInfo.versionCode;
             bookviewerVersion = version;
             bookViewerCurrentVersion.setText(String.valueOf(version));
         } catch (PackageManager.NameNotFoundException e) {
             bookViewerCurrentVersion.setText("N/A");
+            e.printStackTrace();
+        }
+
+        TextView bookViewerBmCurrentVersion = (TextView) dialogView.findViewById(R.id.bookviewer_bm_current_version);
+        TextView bookViewerBmRemoteVersion = (TextView) dialogView.findViewById(R.id.bookviewer_bm_remote_version);
+
+        try {
+            PackageInfo pInfo = getContext().getPackageManager().getPackageInfo("asia.chumbaka.kayam.bookviewer.bm", 0);
+            int version = pInfo.versionCode;
+            bookviewerBmVersion = version;
+            bookViewerBmCurrentVersion.setText(String.valueOf(version));
+        } catch (PackageManager.NameNotFoundException e) {
+            bookViewerBmCurrentVersion.setText("N/A");
             e.printStackTrace();
         }
 
@@ -231,6 +279,90 @@ public class UpdateDialogFragment extends DialogFragment {
                     }
                 }
 
+                if (mainBmRef != null) {
+                    try {
+                        File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "kayam");
+                        if (!folder.exists()) {
+                            folder.mkdir();
+                        }
+                        File localFile = new File(folder.getPath() + "/" + mainBmRef.getName());
+
+                        TextView mainBmStatusTv = dialogView.findViewById(R.id.main_bm_status);
+                        mainBmStatusTv.setText("Downloading");
+                        mainBmRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                mainBmStatusTv.setText("Download successful");
+                                Toast.makeText(getActivity(), "Main BM update is downloaded successfully!", Toast.LENGTH_SHORT).show();
+                            }
+                        }).addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception exception) {
+                                mainBmStatusTv.setText("Download failed");
+                            }
+                        });
+
+                    } catch (Exception e) {
+
+                    }
+                }
+
+                if (libraryBmRef != null) {
+                    try {
+                        File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "kayam");
+                        if (!folder.exists()) {
+                            folder.mkdir();
+                        }
+                        File localFile = new File(folder.getPath() + "/" + libraryBmRef.getName());
+
+                        TextView libraryBmStatusTv = dialogView.findViewById(R.id.library_bm_status);
+                        libraryBmStatusTv.setText("Downloading");
+                        libraryBmRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                libraryBmStatusTv.setText("Download successful");
+                                Toast.makeText(getActivity(), "Library BM update is downloaded successfully!", Toast.LENGTH_SHORT).show();
+                            }
+                        }).addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception exception) {
+                                libraryBmStatusTv.setText("Download failed");
+                            }
+                        });
+
+                    } catch (Exception e) {
+
+                    }
+                }
+
+                if (bookviewerBmRef != null) {
+                    try {
+                        File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "kayam");
+                        if (!folder.exists()) {
+                            folder.mkdir();
+                        }
+                        File localFile = new File(folder.getPath() + "/" + bookviewerBmRef.getName());
+
+                        TextView bookviewerBmStatusTv = dialogView.findViewById(R.id.bookviewer_bm_status);
+                        bookviewerBmStatusTv.setText("Downloading");
+                        bookviewerBmRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                bookviewerBmStatusTv.setText("Download successful");
+                                Toast.makeText(getActivity(), "Bookviewer BM update is downloaded successfully!", Toast.LENGTH_SHORT).show();
+                            }
+                        }).addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception exception) {
+                                bookviewerBmStatusTv.setText("Download failed");
+                            }
+                        });
+
+                    } catch (Exception e) {
+
+                    }
+                }
+
             }
         });
 
@@ -240,12 +372,18 @@ public class UpdateDialogFragment extends DialogFragment {
         Dialog dialog = builder.create();
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 
-        checkUpdates(launcherRemoteVersion, mainRemoteVersion, libraryRemoteVersion, bookViewerRemoteVersion);
+        checkUpdates(launcherRemoteVersion,
+                mainRemoteVersion, mainBmRemoteVersion,
+                libraryRemoteVersion, libraryBmRemoteVersion,
+                bookViewerRemoteVersion, bookViewerBmRemoteVersion);
 
         return dialog;
     }
 
-    private void checkUpdates(TextView launcherRemoteVersion, TextView mainRemoteVersion, TextView libraryRemoteVersion, TextView bookViewerRemoteVersion) {
+    private void checkUpdates(TextView launcherRemoteVersion,
+                              TextView mainRemoteVersion, TextView mainBmRemoteVersion,
+                              TextView libraryRemoteVersion, TextView libraryBmRemoteVersion,
+                              TextView bookViewerRemoteVersion, TextView bookViewerBmRemoteVersion) {
         FirebaseAuth.getInstance().signInAnonymously()
                 .addOnCompleteListener(getActivity(), task -> {
                     if (task.isSuccessful()) {
@@ -257,54 +395,69 @@ public class UpdateDialogFragment extends DialogFragment {
                                     @Override
                                     public void onSuccess(ListResult listResult) {
                                         for (StorageReference item : listResult.getItems()) {
-                                            // All the items under listRef.
-                                            if (item.getName().startsWith("launcher")) {
-                                                String pattern = item.getName();
-                                                int start = pattern.indexOf("_") + 1;
-                                                int end = pattern.indexOf(".");
-                                                if (start != 0 && end != -1 && end > start) {
-                                                    launcherRemoteVersion.setText(pattern.substring(start, end));
-                                                    launcherVersionRemote = Integer.parseInt(pattern.substring(start, end));
+                                            // Firebase naming convention:
+                                            //   launcher_<v>.apk.zip
+                                            //   main_en_<v>.apk.zip       main_bm_<v>.apk.zip
+                                            //   library_en_<v>.apk.zip    library_bm_<v>.apk.zip
+                                            //   bookviewer_en_<v>.apk.zip bookviewer_bm_<v>.apk.zip
+                                            //
+                                            // Version sits between the LAST underscore and the
+                                            // first dot. Match the longest, most-specific prefix
+                                            // first so "main_en_" and "main_bm_" don't both fall
+                                            // through to a generic "main_" branch.
+                                            String name = item.getName();
+                                            int start = name.lastIndexOf("_") + 1;
+                                            int end = name.indexOf(".");
+                                            if (start == 0 || end == -1 || end <= start) continue;
+                                            String versionStr = name.substring(start, end);
+                                            int versionInt;
+                                            try {
+                                                versionInt = Integer.parseInt(versionStr);
+                                            } catch (NumberFormatException nfe) {
+                                                continue;
+                                            }
 
-                                                    if (launcherVersionRemote > launcherVersion) {
-                                                        launcherRef = item;
-                                                    }
+                                            if (name.startsWith("launcher_")) {
+                                                launcherRemoteVersion.setText(versionStr);
+                                                launcherVersionRemote = versionInt;
+                                                if (launcherVersionRemote > launcherVersion) {
+                                                    launcherRef = item;
                                                 }
-                                            } else if (item.getName().startsWith("main")) {
-                                                String pattern = item.getName();
-                                                int start = pattern.indexOf("_") + 1;
-                                                int end = pattern.indexOf(".");
-                                                if (start != 0 && end != -1 && end > start) {
-                                                    mainRemoteVersion.setText(pattern.substring(start, end));
-                                                    mainVersionRemote = Integer.parseInt(pattern.substring(start, end));
-
-                                                    if (mainVersionRemote > mainVersion) {
-                                                        mainRef = item;
-                                                    }
+                                            } else if (name.startsWith("main_en_")) {
+                                                mainRemoteVersion.setText(versionStr);
+                                                mainVersionRemote = versionInt;
+                                                if (mainVersionRemote > mainVersion) {
+                                                    mainRef = item;
                                                 }
-                                            } else if (item.getName().startsWith("library")) {
-                                                String pattern = item.getName();
-                                                int start = pattern.indexOf("_") + 1;
-                                                int end = pattern.indexOf(".");
-                                                if (start != 0 && end != -1 && end > start) {
-                                                    libraryRemoteVersion.setText(pattern.substring(start, end));
-                                                    libraryVersionRemote = Integer.parseInt(pattern.substring(start, end));
-
-                                                    if (libraryVersionRemote > libraryVersion) {
-                                                        libraryRef = item;
-                                                    }
+                                            } else if (name.startsWith("main_bm_")) {
+                                                mainBmRemoteVersion.setText(versionStr);
+                                                mainBmVersionRemote = versionInt;
+                                                if (mainBmVersionRemote > mainBmVersion) {
+                                                    mainBmRef = item;
                                                 }
-                                            } else if (item.getName().startsWith("bookviewer")) {
-                                                String pattern = item.getName();
-                                                int start = pattern.indexOf("_") + 1;
-                                                int end = pattern.indexOf(".");
-                                                if (start != 0 && end != -1 && end > start) {
-                                                    bookViewerRemoteVersion.setText(pattern.substring(start, end));
-                                                    bookviewerVersionRemote = Integer.parseInt(pattern.substring(start, end));
-
-                                                    if (bookviewerVersionRemote > bookviewerVersion) {
-                                                        bookviewerRef = item;
-                                                    }
+                                            } else if (name.startsWith("library_en_")) {
+                                                libraryRemoteVersion.setText(versionStr);
+                                                libraryVersionRemote = versionInt;
+                                                if (libraryVersionRemote > libraryVersion) {
+                                                    libraryRef = item;
+                                                }
+                                            } else if (name.startsWith("library_bm_")) {
+                                                libraryBmRemoteVersion.setText(versionStr);
+                                                libraryBmVersionRemote = versionInt;
+                                                if (libraryBmVersionRemote > libraryBmVersion) {
+                                                    libraryBmRef = item;
+                                                }
+                                            } else if (name.startsWith("bookviewer_en_")) {
+                                                bookViewerRemoteVersion.setText(versionStr);
+                                                bookviewerVersionRemote = versionInt;
+                                                if (bookviewerVersionRemote > bookviewerVersion) {
+                                                    bookviewerRef = item;
+                                                }
+                                            } else if (name.startsWith("bookviewer_bm_")) {
+                                                bookViewerBmRemoteVersion.setText(versionStr);
+                                                bookviewerBmVersionRemote = versionInt;
+                                                if (bookviewerBmVersionRemote > bookviewerBmVersion) {
+                                                    bookviewerBmRef = item;
                                                 }
                                             }
                                         }

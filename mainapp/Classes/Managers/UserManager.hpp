@@ -73,6 +73,11 @@ public:
     void logEvent(int eventNumber, const std::string &rawSubject,
                   const std::string &levelID, int day, int game, int stars);
 
+    // Emit events 4 (day-stars) and conditionally 5 (level-crown). Call
+    // this AFTER updateStars() applies the reward — otherwise the Java
+    // side captures the pre-reward total.
+    void logDayStarsEarned(const std::string &levelID, int day);
+
     // "Math" if levelID's second underscore-segment is "M", else "Literacy".
     // Matches the discriminator AppActivity.setGameCleared uses.
     static std::string subjectFromLevelID(const std::string &levelID);

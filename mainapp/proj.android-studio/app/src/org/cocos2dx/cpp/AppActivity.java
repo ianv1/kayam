@@ -675,8 +675,18 @@ public class AppActivity extends Cocos2dxActivity {
             // in the signature for future use.
             int totalStars = user != null ? user.getNumStars() : 0;
 
+            // Strip the levelID down to just its trailing numeric segment —
+            // e.g. "ms-MY_L_1" -> "1", "ms-MY_M_0" -> "0". The Subject
+            // column already carries the language + L/M discriminator, so
+            // the prefix is redundant here.
+            String levelShort = levelID == null ? "" : levelID;
+            int lastUs = levelShort.lastIndexOf('_');
+            if (lastUs >= 0 && lastUs + 1 < levelShort.length()) {
+                levelShort = levelShort.substring(lastUs + 1);
+            }
+
             dbHandler.logEvent(sessionId, username, eventNumber, subject,
-                    levelID, day, game, totalStars);
+                    levelShort, day, game, totalStars);
         } catch (Exception e) {
             Log.e(TAG, "logEvent failed: " + e);
         }

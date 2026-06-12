@@ -303,21 +303,25 @@ void UserManager::setDayCleared(string levelID, int day, bool isCleared) {
     UserDefault::getInstance()->setBoolForKey(getDayClearedKey(levelID, day).c_str(), isCleared);
     UserDefault::getInstance()->flush();
 
-    if (isCleared) {
-        std::string rawSubject = subjectFromLevelID(levelID);
+    // Events 4 + 5 are NOT fired from here — at the GameSelectScene call
+    // site the star reward is applied via updateStars() AFTER this call
+    // returns, so reading numStars here would capture the pre-reward
+    // total. Fire from logDayStarsEarned() at the actual reward site.
+}
 
-        // Event #4 — "Score stars from a Level-Day". The Stars column is
-        // filled in on the Java side from User.getNumStars() (running
-        // total at event time), so we pass 0 here as a placeholder.
-        logEvent(4, rawSubject, levelID, day, 0, 0);
+void UserManager::logDayStarsEarned(const std::string &levelID, int day) {
+    std::string rawSubject = subjectFromLevelID(levelID);
 
-        // Event #5 — "Score a crown from a Level". Awarded when the day
-        // being cleared is the LAST day of the level (matches
-        // UserManager::isLevelCleared which keys off the last day).
-        auto cur = CurriculumManager::getInstance()->findCurriculum(levelID);
-        if (cur && day == cur->numDays) {
-            logEvent(5, rawSubject, levelID, day, 0, 0);
-        }
+    // Event #4 — "Score stars from a Level-Day". The Java side fills the
+    // Stars column from User.getNumStars() at the moment this fires, so
+    // the reward must have already been applied via updateStars().
+    logEvent(4, rawSubject, levelID, day, 0, 0);
+
+    // Event #5 — "Score a crown from a Level". Awarded when the day being
+    // cleared is the LAST day of the level.
+    auto cur = CurriculumManager::getInstance()->findCurriculum(levelID);
+    if (cur && day == cur->numDays) {
+        logEvent(5, rawSubject, levelID, day, 0, 0);
     }
 }
 

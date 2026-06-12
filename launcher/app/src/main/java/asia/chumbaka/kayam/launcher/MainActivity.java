@@ -425,6 +425,11 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             content.append("\n")
                     .append("Event ID,Event #,Event Datetime,Session ID,Username,Subject,Level,Day,Game,Stars\n");
             for (asia.chumbaka.kitkitProvider.Event ev : events) {
+                // Events 4 (day-stars) and 5 (level-crown) are scoped to a
+                // Level-Day, not a specific game, so render their Game
+                // column as "-" instead of the default 0.
+                String gameCell = (ev.eventNumber == 4 || ev.eventNumber == 5)
+                        ? "-" : String.valueOf(ev.game);
                 content.append(ev.eventId).append(",")
                         .append(ev.eventNumber).append(",")
                         .append(ev.eventDatetime).append(",")
@@ -433,7 +438,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                         .append(ev.subject).append(",")
                         .append(ev.level).append(",")
                         .append(ev.day).append(",")
-                        .append(ev.game).append(",")
+                        .append(gameCell).append(",")
                         .append(ev.stars).append("\n");
             }
 

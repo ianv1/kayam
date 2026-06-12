@@ -1094,10 +1094,15 @@ void GameSelectScene::checkDayClear()
             }
 
             UserManager::getInstance()->setDayCleared(levelID, day);
-            
+
             auto stars = UserManager::getInstance()->getStars();
             UserManager::getInstance()->updateStars(stars+reward);
-            
+
+            // Events 4 (day-stars) + conditionally 5 (level-crown) — fired
+            // AFTER updateStars so the Java side captures the post-reward
+            // numStars total.
+            UserManager::getInstance()->logDayStarsEarned(levelID, day);
+
             SoundEffect::birdJumpEffect().preload();
             SoundEffect::birdGrowEffect().preload();
             
