@@ -405,6 +405,30 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                     .append("\n");
         }
 
+        // Per-session block. A fresh session_id + login unix-second timestamp
+        // were stored at LoginActivity.onLoginPasswordDialogPositiveClick;
+        // logout time is "now". One blank line separates the two datasets so
+        // the file is still valid CSV consumed as two stacked tables.
+        SharedPreferences sessPrefs = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
+        String sessionId = sessPrefs.getString("current_session_id", "");
+        long sessionLogin = sessPrefs.getLong("current_session_login", 0L);
+        long sessionLogout = System.currentTimeMillis() / 1000L;
+        if (!sessionId.isEmpty() && !user.getUserName().equals("admin")) {
+            content.append("\n")
+                    .append("Session ID,Username,Time login,Time logout\n")
+                    .append(sessionId).append(",")
+                    .append(user.getDisplayName()).append(",")
+                    .append(sessionLogin).append(",")
+                    .append(sessionLogout).append("\n");
+            // Clear so the next logout (if any, without a fresh login) doesn't
+            // re-emit a stale session.
+            sessPrefs.edit()
+                    .remove("current_session_id")
+                    .remove("current_session_username")
+                    .remove("current_session_login")
+                    .apply();
+        }
+
         String safeName = user.getDisplayName().replaceAll("[^A-Za-z0-9]", "");
         String filename = tabletNumber + "_"
                 + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss")

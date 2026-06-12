@@ -86,6 +86,26 @@ public class LockScreenReceiver extends BroadcastReceiver {
                         .append("\n");
             }
 
+            // Per-session block — same shape as MainActivity.generateCSV.
+            // session_id + login_ts were persisted at login; logout_ts is now.
+            android.content.SharedPreferences sessPrefs = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
+            String sessionId = sessPrefs.getString("current_session_id", "");
+            long sessionLogin = sessPrefs.getLong("current_session_login", 0L);
+            long sessionLogout = System.currentTimeMillis() / 1000L;
+            if (!sessionId.isEmpty() && !user.getUserName().equals("admin")) {
+                content.append("\n")
+                        .append("Session ID,Username,Time login,Time logout\n")
+                        .append(sessionId).append(",")
+                        .append(user.getDisplayName()).append(",")
+                        .append(sessionLogin).append(",")
+                        .append(sessionLogout).append("\n");
+                sessPrefs.edit()
+                        .remove("current_session_id")
+                        .remove("current_session_username")
+                        .remove("current_session_login")
+                        .apply();
+            }
+
             File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
             if (!folder.exists()) {
                 folder.mkdirs();
