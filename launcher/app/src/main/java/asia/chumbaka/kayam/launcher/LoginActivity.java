@@ -115,9 +115,16 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         // Begin a tracked session — persisted to the shared SQLite DB (via
         // KitkitProvider) so the mainapp APKs in OTHER packages can also
         // read the active session_id when emitting per-event rows.
-        dbHandler.setCurrentSession(
-                java.util.UUID.randomUUID().toString(),
-                System.currentTimeMillis() / 1000L);
+        String sessionUuid = java.util.UUID.randomUUID().toString();
+        long loginUnixSecs = System.currentTimeMillis() / 1000L;
+        dbHandler.setCurrentSession(sessionUuid, loginUnixSecs);
+
+        // Event #0 — login marker. event_id reuses the session_id so the
+        // row is trivially linkable to its session; subject/level/day/game
+        // are blank since they're not meaningful for a session boundary.
+        dbHandler.logEvent(sessionUuid, loginUnixSecs,
+                sessionUuid, user.getDisplayName(), 0,
+                "", "", 0, 0, user.getNumStars());
     }
 
     @Override

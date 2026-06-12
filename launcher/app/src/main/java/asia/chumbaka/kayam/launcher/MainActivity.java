@@ -382,62 +382,47 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
 
         String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
 
-        // The Kayam build tracks 4 subjects (EN / Math / BM / BM Math)
-        // across 2 mainapp APKs. Include all four columns so the dashboard
-        // pipeline gets per-subject progress regardless of which mainapp
-        // variant was used.
-        StringBuilder content = new StringBuilder("Name,Stars,English,Math,BM,BM Math,Last Login\n");
+        // Single events table — login (#0) + gameplay (#1-5) + logout (#6)
+        // all live in the same stream. The earlier per-user summary row and
+        // per-session row are dropped; the dashboard pipeline reconstructs
+        // session boundaries from event_number 0/6.
+        StringBuilder content = new StringBuilder(
+                "Event ID,Event #,Datetime,Session ID,Username,Subject,Level,Day,Game,Stars\n");
 
-        if (!user.getUserName().equals("admin")) {
-            content.append(user.getDisplayName())
-                    .append(",")
-                    .append(user.getNumStars())
-                    .append(",")
-                    .append(user.getCurrentEnglishLevel())
-                    .append(",")
-                    .append(user.getCurrentMathLevel())
-                    .append(",")
-                    .append(user.getCurrentBMLevel())
-                    .append(",")
-                    .append(user.getCurrentBMMathLevel())
-                    .append(",")
-                    .append(user.getLastLogin())
-                    .append("\n");
-        }
-
-        // Per-session block + per-event block. Session and events live in
-        // the shared SQLite DB (via KitkitProvider) so the mainapp APKs in
-        // other packages can write events to the same store.
         KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
         String sessionId = dbHandler.getCurrentSessionId();
-        long sessionLogin = dbHandler.getCurrentSessionLogin();
         long sessionLogout = System.currentTimeMillis() / 1000L;
         if (sessionId != null && !sessionId.isEmpty() && !user.getUserName().equals("admin")) {
-            content.append("\n")
-                    .append("Session ID,Username,Time login,Time logout\n")
-                    .append(sessionId).append(",")
-                    .append(user.getDisplayName()).append(",")
-                    .append(sessionLogin).append(",")
-                    .append(sessionLogout).append("\n");
+            // Event #6 — logout marker. event_id reuses session_id; blank
+            // subject/level/day/game; stars = current running total.
+            dbHandler.logEvent(sessionId, sessionLogout,
+                    sessionId, user.getDisplayName(), 6,
+                    "", "", 0, 0, user.getNumStars());
 
             java.util.ArrayList<asia.chumbaka.kitkitProvider.Event> events =
                     dbHandler.getEventsForSession(sessionId);
-            content.append("\n")
-                    .append("Event ID,Event #,Event Datetime,Session ID,Username,Subject,Level,Day,Game,Stars\n");
             for (asia.chumbaka.kitkitProvider.Event ev : events) {
-                // Events 4 (day-stars) and 5 (level-crown) are scoped to a
-                // Level-Day, not a specific game, so render their Game
-                // column as "-" instead of the default 0.
-                String gameCell = (ev.eventNumber == 4 || ev.eventNumber == 5)
-                        ? "-" : String.valueOf(ev.game);
+                boolean isBoundary = (ev.eventNumber == 0 || ev.eventNumber == 6);
+                String subjectCell = isBoundary ? "" : ev.subject;
+                String levelCell   = isBoundary ? "" : ev.level;
+                String dayCell     = isBoundary ? "" : String.valueOf(ev.day);
+                // Boundary events (0/6) and level-day-scoped events (4/5)
+                // all leave Game blank — only per-game events 1/2/3 carry
+                // a real game index.
+                String gameCell;
+                if (isBoundary
+                        || ev.eventNumber == 4
+                        || ev.eventNumber == 5) gameCell = "";
+                else                            gameCell = String.valueOf(ev.game);
+
                 content.append(ev.eventId).append(",")
                         .append(ev.eventNumber).append(",")
                         .append(ev.eventDatetime).append(",")
                         .append(ev.sessionId).append(",")
                         .append(ev.username).append(",")
-                        .append(ev.subject).append(",")
-                        .append(ev.level).append(",")
-                        .append(ev.day).append(",")
+                        .append(subjectCell).append(",")
+                        .append(levelCell).append(",")
+                        .append(dayCell).append(",")
                         .append(gameCell).append(",")
                         .append(ev.stars).append("\n");
             }

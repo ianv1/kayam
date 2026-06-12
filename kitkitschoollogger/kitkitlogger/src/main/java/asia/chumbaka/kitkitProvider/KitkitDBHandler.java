@@ -514,10 +514,31 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
                          int day,
                          int game,
                          int stars) {
+        logEvent(java.util.UUID.randomUUID().toString(),
+                System.currentTimeMillis() / 1000L,
+                sessionId, username, eventNumber,
+                subject, level, day, game, stars);
+    }
+
+    /**
+     * Overload with explicit event_id + datetime. Used for the login (#0)
+     * and logout (#6) markers, which reuse the session_id as their event_id
+     * and stamp their datetime from the actual session boundary (not "now").
+     */
+    public void logEvent(String eventId,
+                         long datetimeUnixSecs,
+                         String sessionId,
+                         String username,
+                         int eventNumber,
+                         String subject,
+                         String level,
+                         int day,
+                         int game,
+                         int stars) {
         ContentValues values = new ContentValues();
-        values.put(COLUMN_EVENT_ID, java.util.UUID.randomUUID().toString());
+        values.put(COLUMN_EVENT_ID, eventId == null ? "" : eventId);
         values.put(COLUMN_EVENT_NUMBER, eventNumber);
-        values.put(COLUMN_EVENT_DATETIME, System.currentTimeMillis() / 1000L);
+        values.put(COLUMN_EVENT_DATETIME, datetimeUnixSecs);
         values.put(COLUMN_SESSION_ID, sessionId == null ? "" : sessionId);
         values.put(COLUMN_USERNAME, username == null ? "" : username);
         values.put(COLUMN_EVENT_SUBJECT, subject == null ? "" : subject);

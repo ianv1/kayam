@@ -64,58 +64,44 @@ public class LockScreenReceiver extends BroadcastReceiver {
         String tabletNumber = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
 
         try {
-            // Match the other generateCSV writers — 4 subject columns
-            // (EN / Math written by the EN mainapp, BM / BM Math written by
-            // the BM mainapp) plus the last-login timestamp.
-            StringBuilder content = new StringBuilder("Name,Stars,English,Math,BM,BM Math,Last Login\n");
+            // Single events table — login (#0) + gameplay (#1-5) + logout (#6)
+            // all live in the same stream. Session boundaries are
+            // reconstructable from event_number 0/6.
+            StringBuilder content = new StringBuilder(
+                    "Event ID,Event #,Datetime,Session ID,Username,Subject,Level,Day,Game,Stars\n");
 
-            if (!user.getUserName().equals("admin")) {
-                content.append(user.getDisplayName())
-                        .append(",")
-                        .append(user.getNumStars())
-                        .append(",")
-                        .append(user.getCurrentEnglishLevel())
-                        .append(",")
-                        .append(user.getCurrentMathLevel())
-                        .append(",")
-                        .append(user.getCurrentBMLevel())
-                        .append(",")
-                        .append(user.getCurrentBMMathLevel())
-                        .append(",")
-                        .append(user.getLastLogin())
-                        .append("\n");
-            }
-
-            // Per-session + per-event blocks — sourced from the shared DB.
             String sessionId = dbHandler.getCurrentSessionId();
-            long sessionLogin = dbHandler.getCurrentSessionLogin();
             long sessionLogout = System.currentTimeMillis() / 1000L;
             if (sessionId != null && !sessionId.isEmpty() && !user.getUserName().equals("admin")) {
-                content.append("\n")
-                        .append("Session ID,Username,Time login,Time logout\n")
-                        .append(sessionId).append(",")
-                        .append(user.getDisplayName()).append(",")
-                        .append(sessionLogin).append(",")
-                        .append(sessionLogout).append("\n");
+                // Event #6 — logout marker.
+                dbHandler.logEvent(sessionId, sessionLogout,
+                        sessionId, user.getDisplayName(), 6,
+                        "", "", 0, 0, user.getNumStars());
 
                 java.util.ArrayList<asia.chumbaka.kitkitProvider.Event> events =
                         dbHandler.getEventsForSession(sessionId);
-                content.append("\n")
-                        .append("Event ID,Event #,Event Datetime,Session ID,Username,Subject,Level,Day,Game,Stars\n");
                 for (asia.chumbaka.kitkitProvider.Event ev : events) {
-                    // Events 4 (day-stars) and 5 (level-crown) are scoped
-                    // to a Level-Day, not a specific game, so render their
-                    // Game column as "-" instead of the default 0.
-                    String gameCell = (ev.eventNumber == 4 || ev.eventNumber == 5)
-                            ? "-" : String.valueOf(ev.game);
+                    boolean isBoundary = (ev.eventNumber == 0 || ev.eventNumber == 6);
+                    String subjectCell = isBoundary ? "" : ev.subject;
+                    String levelCell   = isBoundary ? "" : ev.level;
+                    String dayCell     = isBoundary ? "" : String.valueOf(ev.day);
+                    // Boundary events (0/6) and level-day-scoped events
+                    // (4/5) all leave Game blank — only per-game events
+                    // 1/2/3 carry a real game index.
+                    String gameCell;
+                    if (isBoundary
+                            || ev.eventNumber == 4
+                            || ev.eventNumber == 5) gameCell = "";
+                    else                            gameCell = String.valueOf(ev.game);
+
                     content.append(ev.eventId).append(",")
                             .append(ev.eventNumber).append(",")
                             .append(ev.eventDatetime).append(",")
                             .append(ev.sessionId).append(",")
                             .append(ev.username).append(",")
-                            .append(ev.subject).append(",")
-                            .append(ev.level).append(",")
-                            .append(ev.day).append(",")
+                            .append(subjectCell).append(",")
+                            .append(levelCell).append(",")
+                            .append(dayCell).append(",")
                             .append(gameCell).append(",")
                             .append(ev.stars).append("\n");
                 }
