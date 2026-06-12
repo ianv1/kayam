@@ -286,6 +286,12 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             startActivity(intent);
         });
 
+        Button buttonDashboard = (Button) findViewById(R.id.button_dashboard);
+        if (buttonDashboard != null) {
+            buttonDashboard.setTypeface(face);
+            buttonDashboard.setOnClickListener(view -> openDashboard());
+        }
+
         Button buttonLogout = (Button) findViewById(R.id.button_logout);
         buttonLogout.setTypeface(face);
         buttonLogout.setOnClickListener(view -> {
@@ -992,6 +998,125 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         applyHomeScreenLabels(prefs.getBoolean("language_bm", false));
     }
 
+    /**
+     * Dashboard button handler. Posts the current student name + tablet id to
+     * the Kayam dashboard endpoint, opens the returned view_url in the system
+     * browser. Shows a spinner while the network round-trip is in flight.
+     */
+    private void openDashboard() {
+        boolean isBM = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS)
+                .getBoolean("language_bm", false);
+
+        User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+        final String username;
+        if (isAdminMode()) {
+            username = "admin";
+        } else if (currentUser != null) {
+            username = currentUser.getDisplayName();
+        } else {
+            Toast.makeText(this,
+                    isBM ? "Sila log masuk dahulu" : "Please log in first",
+                    Toast.LENGTH_LONG).show();
+            return;
+        }
+        final String deviceId = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS)
+                .getString("tablet_number", "");
+
+        // Loading spinner. Indeterminate ProgressDialog is deprecated but the
+        // rest of this launcher already uses it (e.g. CSV upload) so we stay
+        // consistent.
+        final android.app.ProgressDialog dialog = new android.app.ProgressDialog(this);
+        dialog.setMessage(isBM ? "Memuat..." : "Loading...");
+        dialog.setCancelable(false);
+        dialog.show();
+
+        new Thread(() -> {
+            String viewUrl = null;
+            String errorMsg = null;
+            java.net.HttpURLConnection conn = null;
+            try {
+                java.net.URL url = new java.net.URL(
+                        "https://kayam-dashboard-api-286909984186.asia-southeast1.run.app/get-dashboard-link");
+                conn = (java.net.HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("POST");
+                conn.setRequestProperty("Content-Type", "application/json");
+                conn.setRequestProperty("Accept", "application/json");
+                conn.setConnectTimeout(15000);
+                conn.setReadTimeout(20000);
+                conn.setDoOutput(true);
+
+                org.json.JSONObject body = new org.json.JSONObject();
+                body.put("username", username);
+                body.put("device_id", deviceId);
+//                body.put("username", "2Z_ZANIF AKIF");
+//                body.put("device_id", "78D53");
+                byte[] payload = body.toString().getBytes("UTF-8");
+
+                try (java.io.OutputStream os = conn.getOutputStream()) {
+                    os.write(payload);
+                }
+
+                int code = conn.getResponseCode();
+                java.io.InputStream in = (code >= 200 && code < 300)
+                        ? conn.getInputStream()
+                        : conn.getErrorStream();
+                java.io.ByteArrayOutputStream buf = new java.io.ByteArrayOutputStream();
+                byte[] chunk = new byte[4096];
+                int n;
+                if (in != null) {
+                    while ((n = in.read(chunk)) > 0) buf.write(chunk, 0, n);
+                    in.close();
+                }
+                String raw = buf.toString("UTF-8");
+                Log.d(TAG, "dashboard response (" + code + "): " + raw);
+
+                if (code < 200 || code >= 300) {
+                    errorMsg = "HTTP " + code;
+                } else {
+                    org.json.JSONObject resp = new org.json.JSONObject(raw);
+                    viewUrl = resp.optString("view_url", null);
+                    if (viewUrl == null || viewUrl.isEmpty()) {
+                        errorMsg = "Missing view_url in response";
+                    }
+                }
+            } catch (Exception e) {
+                Log.e(TAG, "openDashboard failed", e);
+                errorMsg = e.getClass().getSimpleName() + ": " + e.getMessage();
+            } finally {
+                if (conn != null) conn.disconnect();
+            }
+
+            final String finalUrl = viewUrl;
+            final String finalError = errorMsg;
+            runOnUiThread(() -> {
+                if (dialog.isShowing()) dialog.dismiss();
+                if (finalUrl != null) {
+                    try {
+                        Intent browse = new Intent(MainActivity.this, DashboardWebActivity.class);
+                        browse.putExtra(DashboardWebActivity.EXTRA_URL, finalUrl);
+                        startActivity(browse);
+                    } catch (Exception e) {
+                        Toast.makeText(MainActivity.this,
+                                (isBM ? "Tidak dapat membuka papan pemuka: " : "Cannot open dashboard: ")
+                                        + e.getMessage(),
+                                Toast.LENGTH_LONG).show();
+                    }
+                } else {
+                    Toast.makeText(MainActivity.this,
+                            (isBM ? "Gagal memuatkan papan pemuka. " : "Failed to load dashboard. ")
+                                    + (finalError == null ? "" : finalError),
+                            Toast.LENGTH_LONG).show();
+                }
+            });
+        }, "kayam-dashboard").start();
+    }
+
+    /** True if the launcher is currently in admin mode. */
+    private boolean isAdminMode() {
+        return getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS)
+                .getBoolean("review_mode_on", false);
+    }
+
     private void updateLanguageLabel(boolean isBM) {
         if (languageLabel != null) {
             languageLabel.setText(isBM ? "BM" : "EN");
@@ -1016,6 +1141,12 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         if (startBtn != null) {
             startBtn.setText(isBM ? "MULA" : getString(R.string.start));
             startBtn.setVisibility(loggedInUser != null ? View.VISIBLE : View.GONE);
+        }
+
+        Button dashboardBtn = (Button) findViewById(R.id.button_dashboard);
+        if (dashboardBtn != null) {
+            dashboardBtn.setText(isBM ? "PAPAN PEMUKA" : getString(R.string.dashboard));
+            dashboardBtn.setVisibility(loggedInUser != null ? View.VISIBLE : View.GONE);
         }
 
         Button loginBtn = (Button) findViewById(R.id.button_login);

@@ -36,14 +36,21 @@ LRLevelData* LRLevelData::parse()
     {
         if (row.size() < 2) continue;
         if (row[0][0] == '#') continue;
-        
+
+        // Defensive: every Col below up to Answer (index 13) is read
+        // unconditionally. A row that ends early in the TSV (e.g. a
+        // `readingonly` story without an audio/answer field) would index
+        // past the vector end and SIGSEGV. Pad missing trailing fields
+        // with empty strings so the row parses as best-effort.
+        while ((int)row.size() < (int)Col::Answer + 1) row.push_back("");
+
         LRProblem* pb = new LRProblem();
 
         CCLOG("%s", row[4].c_str());
-        
+
         if (TodoUtil::trim(row[(int)Col::QuestionType]).empty())
             continue;
-        
+
         if (LanguageManager::getInstance()->getCurrentLanguageTag() != row[(int)Col::LanguageTag])
             continue;
         

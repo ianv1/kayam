@@ -366,13 +366,22 @@ public class MainActivity extends KitKitLoggerActivity {
 
             String bookDataFilename = "library_book_data.tsv";
 
+            // Pin the asset folder to *this APK's* variant rather than the
+            // launcher's BM/EN toggle. asia.chumbaka.kayam.library.bm always
+            // reads ms-my/library_book_data.tsv (Malay categories); the plain
+            // asia.chumbaka.kayam.library always reads en-us/library_book_data.tsv
+            // (English categories). Without this the BM library shows English
+            // category headers whenever the launcher's toggle is set to EN.
+            boolean libIsBM = getActivity().getPackageName().endsWith(".bm");
+            String assetLang = libIsBM ? "ms-my" : "en-us";
+
             try {
                 InputStream is;
                 if (MainActivity.useExternalData) {
-                    is = new FileInputStream(pathExternalAsset + File.separator + appLanguage + File.separator + bookDataFilename);
+                    is = new FileInputStream(pathExternalAsset + File.separator + assetLang + File.separator + bookDataFilename);
                 }
                 else {
-                    is = getActivity().getAssets().open(appLanguage +  File.separator + bookDataFilename);
+                    is = getActivity().getAssets().open(assetLang +  File.separator + bookDataFilename);
                 }
 
 
@@ -389,7 +398,10 @@ public class MainActivity extends KitKitLoggerActivity {
                         bookData.categoryName = RowData[2];
                         bookData.title = RowData[3];
                         bookData.author = RowData[4];
-                        bookData.thumbnail = appLanguage +  File.separator + RowData[5];
+                        // Thumbnails are shared across language variants — they live
+                        // only under `en-us/` (the ms-my/ folder ships only the TSV).
+                        // Resolve from en-us regardless of the BM/EN library variant.
+                        bookData.thumbnail = "en-us" + File.separator + RowData[5];
                         bookData.foldername = RowData[6];
 
                         ArrayList<BookData> bookArray;
