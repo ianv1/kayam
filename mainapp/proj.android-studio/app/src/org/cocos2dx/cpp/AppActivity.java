@@ -587,33 +587,39 @@ public class AppActivity extends Cocos2dxActivity {
                 KitkitDBHandler dbHandler = ((KitkitSchoolApplication) _activity.getApplication()).getDbHandler();
                 User user = dbHandler.getCurrentUser();
 
+                // This BM mainapp APK (asia.chumbaka.kayam.xprize.bm) writes
+                // progress into the BM-side columns (bm_level / bm_math_level)
+                // so the EN mainapp APK's english_level / math_level are not
+                // overwritten. The category split is still EN vs Math because
+                // that's how the curriculum is structured — "isEnglish" here
+                // means "literacy", not "English-language".
                 if (isEnglish) {
-                    String currentEnglishLevel = user.getCurrentEnglishLevel();
-                    String[] split = currentEnglishLevel.split("_");
+                    String currentBMLevel = user.getCurrentBMLevel();
+                    String[] split = currentBMLevel == null ? new String[0] : currentBMLevel.split("_");
                     if (split.length == 3) {
                         if (Integer.parseInt(split[0]) < Integer.parseInt(level)) {
-                            user.setCurrentEnglishLevel(currentLevel);
+                            user.setCurrentBMLevel(currentLevel);
                         } else if (Integer.parseInt(split[0]) == Integer.parseInt(level) && Integer.parseInt(split[1]) < day) {
-                            user.setCurrentEnglishLevel(currentLevel);
+                            user.setCurrentBMLevel(currentLevel);
                         } else if (Integer.parseInt(split[0]) == Integer.parseInt(level) && Integer.parseInt(split[1]) == day && Integer.parseInt(split[2]) < gameIndex) {
-                            user.setCurrentEnglishLevel(currentLevel);
+                            user.setCurrentBMLevel(currentLevel);
                         }
                     } else {
-                        user.setCurrentEnglishLevel(currentLevel);
+                        user.setCurrentBMLevel(currentLevel);
                     }
                 } else {
-                    String currentMathLevel = user.getCurrentMathLevel();
-                    String[] split = currentMathLevel.split("_");
+                    String currentBMMathLevel = user.getCurrentBMMathLevel();
+                    String[] split = currentBMMathLevel == null ? new String[0] : currentBMMathLevel.split("_");
                     if (split.length == 3) {
                         if (Integer.parseInt(split[0]) < Integer.parseInt(level)) {
-                            user.setCurrentMathLevel(currentLevel);
+                            user.setCurrentBMMathLevel(currentLevel);
                         } else if (Integer.parseInt(split[0]) == Integer.parseInt(level) && Integer.parseInt(split[1]) < day) {
-                            user.setCurrentMathLevel(currentLevel);
+                            user.setCurrentBMMathLevel(currentLevel);
                         } else if (Integer.parseInt(split[0]) == Integer.parseInt(level) && Integer.parseInt(split[1]) == day && Integer.parseInt(split[2]) < gameIndex) {
-                            user.setCurrentMathLevel(currentLevel);
+                            user.setCurrentBMMathLevel(currentLevel);
                         }
                     } else {
-                        user.setCurrentMathLevel(currentLevel);
+                        user.setCurrentBMMathLevel(currentLevel);
                     }
                 }
                 dbHandler.updateUser(user);

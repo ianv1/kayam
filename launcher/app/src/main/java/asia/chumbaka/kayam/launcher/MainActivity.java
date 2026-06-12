@@ -374,51 +374,129 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
     private void generateCSV() {
-        if (!checkStoragePermissions()) {
-            requestForStoragePermissions();
+        User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
+        if (user == null) {
+            Log.w(TAG, "generateCSV: no current user; skipping");
             return;
         }
 
-        User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
-
         String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
 
-        try {
-            StringBuilder content = new StringBuilder("Name,Stars,English,Math,Last Login\n");
+        // The Kayam build tracks 4 subjects (EN / Math / BM / BM Math)
+        // across 2 mainapp APKs. Include all four columns so the dashboard
+        // pipeline gets per-subject progress regardless of which mainapp
+        // variant was used.
+        StringBuilder content = new StringBuilder("Name,Stars,English,Math,BM,BM Math,Last Login\n");
 
-            if (!user.getUserName().equals("admin")) {
-                content.append(user.getDisplayName())
-                        .append(",")
-                        .append(user.getNumStars())
-                        .append(",")
-                        .append(user.getCurrentEnglishLevel())
-                        .append(",")
-                        .append(user.getCurrentMathLevel())
-                        .append(",")
-                        .append(user.getLastLogin())
-                        .append("\n");
-            }
-
-            File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
-            if (!folder.exists()) {
-                folder.mkdirs();
-            }
-
-            String name = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser().getDisplayName().replaceAll("[^A-Za-z0-9]", "");
-            File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS) + "/kayam-reports/", tabletNumber + "_" + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss") + "_" + name + ".csv");
-            if (!file.exists()) {
-                file.createNewFile();
-            }
-
-            FileWriter fw = new FileWriter(file.getAbsoluteFile());
-            BufferedWriter bw = new BufferedWriter(fw);
-            bw.write(content.toString());
-            bw.close();
-
-            Toast.makeText(this, getString(R.string.csv_generated, file.getName()), Toast.LENGTH_LONG).show();
-        } catch (IOException e) {
-            e.printStackTrace();
+        if (!user.getUserName().equals("admin")) {
+            content.append(user.getDisplayName())
+                    .append(",")
+                    .append(user.getNumStars())
+                    .append(",")
+                    .append(user.getCurrentEnglishLevel())
+                    .append(",")
+                    .append(user.getCurrentMathLevel())
+                    .append(",")
+                    .append(user.getCurrentBMLevel())
+                    .append(",")
+                    .append(user.getCurrentBMMathLevel())
+                    .append(",")
+                    .append(user.getLastLogin())
+                    .append("\n");
         }
+
+        String safeName = user.getDisplayName().replaceAll("[^A-Za-z0-9]", "");
+        String filename = tabletNumber + "_"
+                + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss")
+                + "_" + safeName + ".csv";
+
+        String writtenPath = writeCsvAnywhere(filename, content.toString());
+        if (writtenPath != null) {
+            Toast.makeText(this,
+                    getString(R.string.csv_generated, writtenPath),
+                    Toast.LENGTH_LONG).show();
+            Log.i(TAG, "CSV written to " + writtenPath);
+        } else {
+            Toast.makeText(this,
+                    "Failed to write CSV — check storage permission",
+                    Toast.LENGTH_LONG).show();
+            Log.e(TAG, "CSV write failed in all targets");
+        }
+    }
+
+    /**
+     * Write the CSV to the most user-visible location available on this
+     * Android version, returning the human-readable path that succeeded (or
+     * null if every target failed).
+     *
+     * Strategy:
+     *   API 29+ (Android 10/11/12+): MediaStore.Downloads
+     *     -> /storage/emulated/0/Download/kayam-reports/<filename>
+     *     No permission needed; appears in every file manager.
+     *   API < 29 (pre-Android 10): legacy File API
+     *     -> /storage/emulated/0/Documents/kayam-reports/<filename>
+     *
+     * On any failure, also retries to app-private external storage
+     *     -> /storage/emulated/0/Android/data/<pkg>/files/Documents/kayam-reports/<filename>
+     * so the file at least exists somewhere even if storage permissions are
+     * denied. The path returned to the caller is whatever actually worked.
+     */
+    private String writeCsvAnywhere(String filename, String content) {
+        // 1) MediaStore.Downloads (Android 10+)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            try {
+                android.content.ContentValues v = new android.content.ContentValues();
+                v.put(android.provider.MediaStore.Downloads.DISPLAY_NAME, filename);
+                v.put(android.provider.MediaStore.Downloads.MIME_TYPE, "text/csv");
+                v.put(android.provider.MediaStore.Downloads.RELATIVE_PATH,
+                        Environment.DIRECTORY_DOWNLOADS + "/kayam-reports/");
+                Uri uri = getContentResolver().insert(
+                        android.provider.MediaStore.Downloads.EXTERNAL_CONTENT_URI, v);
+                if (uri != null) {
+                    try (java.io.OutputStream os = getContentResolver().openOutputStream(uri)) {
+                        if (os != null) {
+                            os.write(content.getBytes("UTF-8"));
+                            os.flush();
+                        }
+                    }
+                    return "Download/kayam-reports/" + filename;
+                }
+            } catch (Exception e) {
+                Log.w(TAG, "MediaStore.Downloads write failed: " + e.getMessage());
+            }
+        }
+
+        // 2) Legacy public Documents (pre-API 29, or as a backup)
+        try {
+            File folder = new File(Environment.getExternalStoragePublicDirectory(
+                    Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
+            if (!folder.exists()) folder.mkdirs();
+            File file = new File(folder, filename);
+            try (FileWriter fw = new FileWriter(file);
+                 BufferedWriter bw = new BufferedWriter(fw)) {
+                bw.write(content);
+            }
+            return file.getAbsolutePath();
+        } catch (Exception e) {
+            Log.w(TAG, "Public Documents write failed: " + e.getMessage());
+        }
+
+        // 3) Last-resort: app-private external storage (no permission needed,
+        //    visible in file manager under Android/data/<pkg>/files/Documents/).
+        try {
+            File priv = new File(getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS),
+                    "kayam-reports");
+            if (!priv.exists()) priv.mkdirs();
+            File file = new File(priv, filename);
+            try (FileWriter fw = new FileWriter(file);
+                 BufferedWriter bw = new BufferedWriter(fw)) {
+                bw.write(content);
+            }
+            return file.getAbsolutePath();
+        } catch (Exception e) {
+            Log.e(TAG, "All CSV write targets failed: " + e.getMessage());
+        }
+        return null;
     }
 
     /**
@@ -548,11 +626,13 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             buttonLogout.setVisibility(View.GONE);
             exitAdminButton.setVisibility(View.GONE);
             // No logged-in user (fresh launch or just exited admin):
-            // hide Start and Library — these only make sense for a real user.
+            // hide Start, Library, and Dashboard — these only make sense for a real user.
             Button startBtnHidden = (Button) findViewById(R.id.button_todoschool);
             if (startBtnHidden != null) startBtnHidden.setVisibility(View.GONE);
             Button libraryBtnHidden = (Button) findViewById(R.id.button_library);
             if (libraryBtnHidden != null) libraryBtnHidden.setVisibility(View.GONE);
+            Button dashboardBtnHidden = (Button) findViewById(R.id.button_dashboard);
+            if (dashboardBtnHidden != null) dashboardBtnHidden.setVisibility(View.GONE);
             return;
         } else {
             imageViewCoin.setVisibility(View.VISIBLE);

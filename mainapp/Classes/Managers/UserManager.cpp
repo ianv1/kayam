@@ -383,10 +383,19 @@ void UserManager::setGameCleared(string levelID, int day, int gameIndex, bool is
     auto dayCurr = cur->getDayCurriculum(day);
 
     if (dayCurr) {
-        if (day == cur->numDays && gameIndex == dayCurr->numGames-1) {
-            JniHelper::callStaticVoidMethod("org/cocos2dx/cpp/AppActivity", "setGameCleared", levelID,
-                                            day, gameIndex, isCleared);
-        }
+        // Previously this JNI hop fired only when the user finished the LAST
+        // game of the LAST day of an entire level (`day == cur->numDays &&
+        // gameIndex == dayCurr->numGames-1`). That meant the DB column
+        // english_level / math_level / bm_level / bm_math_level only moved on
+        // full level completion — so the dashboard CSV showed 0_0_0 for any
+        // user who'd "played some games" without finishing a whole level.
+        //
+        // Push every cleared game across to Java. The Java side already
+        // compares against the stored tuple and only writes when the new
+        // (level, day, game) is higher, so this doesn't churn the DB —
+        // it just unblocks within-level progress.
+        JniHelper::callStaticVoidMethod("org/cocos2dx/cpp/AppActivity", "setGameCleared", levelID,
+                                        day, gameIndex, isCleared);
     }
 
     auto key = make_tuple(levelID, day, gameIndex);

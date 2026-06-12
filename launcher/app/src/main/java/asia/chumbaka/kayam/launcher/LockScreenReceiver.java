@@ -64,7 +64,10 @@ public class LockScreenReceiver extends BroadcastReceiver {
         String tabletNumber = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
 
         try {
-            StringBuilder content = new StringBuilder("Name,Stars,English,Math,Last Login\n");
+            // Match the other generateCSV writers — 4 subject columns
+            // (EN / Math written by the EN mainapp, BM / BM Math written by
+            // the BM mainapp) plus the last-login timestamp.
+            StringBuilder content = new StringBuilder("Name,Stars,English,Math,BM,BM Math,Last Login\n");
 
             if (!user.getUserName().equals("admin")) {
                 content.append(user.getDisplayName())
@@ -74,6 +77,10 @@ public class LockScreenReceiver extends BroadcastReceiver {
                         .append(user.getCurrentEnglishLevel())
                         .append(",")
                         .append(user.getCurrentMathLevel())
+                        .append(",")
+                        .append(user.getCurrentBMLevel())
+                        .append(",")
+                        .append(user.getCurrentBMMathLevel())
                         .append(",")
                         .append(user.getLastLogin())
                         .append("\n");

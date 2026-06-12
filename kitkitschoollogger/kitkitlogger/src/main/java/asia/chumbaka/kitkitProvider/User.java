@@ -29,6 +29,12 @@ public class User {
     private String _password;
     private String _englishLevel;
     private String _mathLevel;
+    // The Kayam build splits the curriculum into 4 subjects across 2 APKs:
+    // the EN mainapp tracks _englishLevel + _mathLevel; the BM mainapp tracks
+    // _bmLevel + _bmMathLevel. Each APK writes its own pair so progress in
+    // one language doesn't clobber progress in the other.
+    private String _bmLevel;
+    private String _bmMathLevel;
     private String _lastLogin;
 
     public User() {
@@ -50,6 +56,8 @@ public class User {
         this._finishWritingBoardTutorial = false;
         this._englishLevel = "";
         this._mathLevel = "";
+        this._bmLevel = "";
+        this._bmMathLevel = "";
         this._acceptTnC = false;
     }
 
@@ -72,6 +80,8 @@ public class User {
         this._finishWritingBoardTutorial = false;
         this._englishLevel = "";
         this._mathLevel = "";
+        this._bmLevel = "";
+        this._bmMathLevel = "";
         this._acceptTnC = false;
     }
 
@@ -94,6 +104,8 @@ public class User {
         this._password = password;
         this._englishLevel = "0_0_0";
         this._mathLevel = "0_0_0";
+        this._bmLevel = "0_0_0";
+        this._bmMathLevel = "0_0_0";
         this._acceptTnC = false;
     }
 
@@ -208,6 +220,25 @@ public class User {
 
     public String getCurrentMathLevel() {
         return _mathLevel;
+    }
+
+    // BM-side counterparts to the *EnglishLevel / *MathLevel accessors above.
+    // The BM mainapp writes here so its progress lives in its own DB columns
+    // and doesn't overwrite the EN mainapp's `english_level` / `math_level`.
+    public void setCurrentBMLevel(String level) {
+        _bmLevel = level;
+    }
+
+    public String getCurrentBMLevel() {
+        return _bmLevel;
+    }
+
+    public void setCurrentBMMathLevel(String level) {
+        _bmMathLevel = level;
+    }
+
+    public String getCurrentBMMathLevel() {
+        return _bmMathLevel;
     }
 
     public void setLastLogin(String lastLogin) {

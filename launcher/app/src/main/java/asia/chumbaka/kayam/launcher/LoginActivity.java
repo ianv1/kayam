@@ -290,7 +290,12 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
 
         try {
-            StringBuilder content = new StringBuilder("Name,Stars,English,Math,Last Login\n");
+            // 4-subject CSV: EN / Math live in english_level + math_level
+            // (written by the EN mainapp), BM / BM Math live in bm_level +
+            // bm_math_level (written by the BM mainapp). Including all four
+            // gives the dashboard the full picture regardless of which
+            // mainapp variant the student used.
+            StringBuilder content = new StringBuilder("Name,Stars,English,Math,BM,BM Math,Last Login\n");
 
             for (User user : users) {
                 if (!user.getUserName().equals("admin")) {
@@ -301,6 +306,10 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                             .append(user.getCurrentEnglishLevel())
                             .append(",")
                             .append(user.getCurrentMathLevel())
+                            .append(",")
+                            .append(user.getCurrentBMLevel())
+                            .append(",")
+                            .append(user.getCurrentBMMathLevel())
                             .append(",")
                             .append(user.getLastLogin())
                             .append("\n");
