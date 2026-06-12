@@ -27,12 +27,13 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
 
     // v19: added bm_level + bm_math_level columns so the BM mainapp logs
     //      progress separately from the EN mainapp's english_level/math_level.
-    private static final int DATABASE_VERSION = 19;
+    private static final int DATABASE_VERSION = 20;
     public static final String DATABASE_NAME = "userDB.db";
     public static final String TABLE_USERS = "users";
     public static final String TABLE_CURRENT_USER = "current_user";
     public static final String TABLE_SNTP_RESULT = "sntp_result_id";
     public static final String TABLE_FISHES = "fishes";
+    public static final String TABLE_EVENTS = "events";
 
     public static final String COLUMN_ID = "_id";
     public static final String COLUMN_USERNAME = "username";
@@ -62,6 +63,20 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
     public static final String COLUMN_SERVER_SPEC = "server_spec";
     public static final String COLUMN_TIME_NOW = "time_now";
     public static final String COLUMN_TIME_SNOW = "time_snow";
+
+    // Session columns on the current_user single-row table.
+    public static final String COLUMN_SESSION_ID = "session_id";
+    public static final String COLUMN_SESSION_LOGIN = "session_login";
+
+    // Per-event columns on the events table.
+    public static final String COLUMN_EVENT_ID = "event_id";
+    public static final String COLUMN_EVENT_NUMBER = "event_number";
+    public static final String COLUMN_EVENT_DATETIME = "event_datetime";
+    public static final String COLUMN_EVENT_SUBJECT = "subject";
+    public static final String COLUMN_EVENT_LEVEL = "level";
+    public static final String COLUMN_EVENT_DAY = "day";
+    public static final String COLUMN_EVENT_GAME = "game";
+    public static final String COLUMN_EVENT_STARS = "stars";
 
     public static final String COLUMN_FISH_ID = "fish_id";
     public static final String COLUMN_FISH_SKIN_NO = "skin_no";
@@ -101,7 +116,25 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             + TABLE_CURRENT_USER
             + "("
             + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-            + COLUMN_USERNAME + " TEXT"
+            + COLUMN_USERNAME + " TEXT,"
+            + COLUMN_SESSION_ID + " TEXT,"
+            + COLUMN_SESSION_LOGIN + " INTEGER"
+            + ")";
+
+    final String CREATE_EVENTS_TABLE = "CREATE TABLE "
+            + TABLE_EVENTS
+            + "("
+            + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
+            + COLUMN_EVENT_ID + " TEXT,"
+            + COLUMN_EVENT_NUMBER + " INTEGER,"
+            + COLUMN_EVENT_DATETIME + " INTEGER,"
+            + COLUMN_SESSION_ID + " TEXT,"
+            + COLUMN_USERNAME + " TEXT,"
+            + COLUMN_EVENT_SUBJECT + " TEXT,"
+            + COLUMN_EVENT_LEVEL + " TEXT,"
+            + COLUMN_EVENT_DAY + " INTEGER,"
+            + COLUMN_EVENT_GAME + " INTEGER,"
+            + COLUMN_EVENT_STARS + " INTEGER"
             + ")";
 
     final String CREATE_SNTP_RESULT_TABLE = "CREATE TABLE "
@@ -130,7 +163,8 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             CREATE_USER_TABLE,
             CREATE_CURRENT_USER_TABLE,
             CREATE_SNTP_RESULT_TABLE,
-            CREATE_FISH_TABLE
+            CREATE_FISH_TABLE,
+            CREATE_EVENTS_TABLE
     };
 
     public KitkitDBHandler(Context context) {
@@ -162,6 +196,10 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
             // v18 -> v19: bm_level / bm_math_level for the BM mainapp's progress tracking.
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_BM_LEVEL + " TEXT DEFAULT ('');");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_BM_MATH_LEVEL + " TEXT DEFAULT ('');");
+
+            // v20: per-session tracking on current_user + per-event table.
+            arrSql.add("ALTER TABLE " + TABLE_CURRENT_USER + " ADD COLUMN " + COLUMN_SESSION_ID + " TEXT DEFAULT ('');");
+            arrSql.add("ALTER TABLE " + TABLE_CURRENT_USER + " ADD COLUMN " + COLUMN_SESSION_LOGIN + " INTEGER DEFAULT (0);");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_ACCEPT_TNC + " BOOLEAN DEFAULT (" + 0 + ");");
             arrSql.add("ALTER TABLE " + TABLE_USERS + " ADD COLUMN " + COLUMN_LAST_LOGIN + " TEXT DEFAULT ('');");
 
@@ -409,6 +447,133 @@ public class KitkitDBHandler extends SQLiteOpenHelper {
 
     public void deleteCurrentUser() {
         myCR.delete(KitkitProvider.CURRENT_USER_URI, null, null);
+    }
+
+    /**
+     * Begin a tracked session. Writes session_id + login (unix-second) onto
+     * the existing current_user row so any process holding the shared DB
+     * (launcher, mainapp variants, library) can read it back.
+     */
+    public void setCurrentSession(String sessionId, long loginUnixSecs) {
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_SESSION_ID, sessionId);
+        values.put(COLUMN_SESSION_LOGIN, loginUnixSecs);
+        myCR.update(KitkitProvider.CURRENT_USER_URI, values, null, null);
+    }
+
+    /** Active session UUID, or empty string when no session is in progress. */
+    public String getCurrentSessionId() {
+        String[] projection = {COLUMN_SESSION_ID};
+        Cursor cursor = myCR.query(KitkitProvider.CURRENT_USER_URI,
+                projection, null, null, null);
+        String result = "";
+        if (cursor != null) {
+            try {
+                if (cursor.moveToFirst()) {
+                    String v = cursor.getString(0);
+                    if (v != null) result = v;
+                }
+            } catch (Exception e) {
+                Log.e(KitkitDBHandler.class.getName(), "getCurrentSessionId: " + e);
+            } finally {
+                cursor.close();
+            }
+        }
+        return result;
+    }
+
+    /** Active session's login time (unix seconds), or 0 when no session. */
+    public long getCurrentSessionLogin() {
+        String[] projection = {COLUMN_SESSION_LOGIN};
+        Cursor cursor = myCR.query(KitkitProvider.CURRENT_USER_URI,
+                projection, null, null, null);
+        long result = 0L;
+        if (cursor != null) {
+            try {
+                if (cursor.moveToFirst()) result = cursor.getLong(0);
+            } catch (Exception e) {
+                Log.e(KitkitDBHandler.class.getName(), "getCurrentSessionLogin: " + e);
+            } finally {
+                cursor.close();
+            }
+        }
+        return result;
+    }
+
+    /**
+     * Append a per-event row. Called from launcher Java code or from the
+     * mainapp via the AppActivity.logEvent JNI bridge. Caller passes the
+     * already-resolved session_id + username so this can be invoked safely
+     * even after the session row is cleared.
+     */
+    public void logEvent(String sessionId,
+                         String username,
+                         int eventNumber,
+                         String subject,
+                         String level,
+                         int day,
+                         int game,
+                         int stars) {
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_EVENT_ID, java.util.UUID.randomUUID().toString());
+        values.put(COLUMN_EVENT_NUMBER, eventNumber);
+        values.put(COLUMN_EVENT_DATETIME, System.currentTimeMillis() / 1000L);
+        values.put(COLUMN_SESSION_ID, sessionId == null ? "" : sessionId);
+        values.put(COLUMN_USERNAME, username == null ? "" : username);
+        values.put(COLUMN_EVENT_SUBJECT, subject == null ? "" : subject);
+        values.put(COLUMN_EVENT_LEVEL, level == null ? "" : level);
+        values.put(COLUMN_EVENT_DAY, day);
+        values.put(COLUMN_EVENT_GAME, game);
+        values.put(COLUMN_EVENT_STARS, stars);
+        myCR.insert(KitkitProvider.EVENTS_URI, values);
+    }
+
+    /**
+     * All events for a given session, ordered by event_datetime ascending.
+     * Used by the launcher when emitting the CSV "Per event" block.
+     */
+    public ArrayList<Event> getEventsForSession(String sessionId) {
+        ArrayList<Event> result = new ArrayList<>();
+        if (sessionId == null || sessionId.isEmpty()) return result;
+        String[] projection = {
+                COLUMN_EVENT_ID,
+                COLUMN_EVENT_NUMBER,
+                COLUMN_EVENT_DATETIME,
+                COLUMN_SESSION_ID,
+                COLUMN_USERNAME,
+                COLUMN_EVENT_SUBJECT,
+                COLUMN_EVENT_LEVEL,
+                COLUMN_EVENT_DAY,
+                COLUMN_EVENT_GAME,
+                COLUMN_EVENT_STARS
+        };
+        String selection = COLUMN_SESSION_ID + " = ?";
+        String[] args = new String[]{sessionId};
+        Cursor cursor = myCR.query(KitkitProvider.EVENTS_URI,
+                projection, selection, args, COLUMN_EVENT_DATETIME + " ASC");
+        if (cursor != null) {
+            try {
+                if (cursor.moveToFirst()) {
+                    do {
+                        Event ev = new Event();
+                        ev.eventId = cursor.getString(0);
+                        ev.eventNumber = cursor.getInt(1);
+                        ev.eventDatetime = cursor.getLong(2);
+                        ev.sessionId = cursor.getString(3);
+                        ev.username = cursor.getString(4);
+                        ev.subject = cursor.getString(5);
+                        ev.level = cursor.getString(6);
+                        ev.day = cursor.getInt(7);
+                        ev.game = cursor.getInt(8);
+                        ev.stars = cursor.getInt(9);
+                        result.add(ev);
+                    } while (cursor.moveToNext());
+                }
+            } finally {
+                cursor.close();
+            }
+        }
+        return result;
     }
 
     public User getCurrentUser() {

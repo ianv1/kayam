@@ -29,6 +29,7 @@ public class KitkitProvider extends ContentProvider {
     private static final String SNTP_RESULT_TABLE = "sntp_result";
     private static final String PREFERENCE = "preference";
     private static final String FISHES_TABLE = "fishes";
+    private static final String EVENTS_TABLE = "events";
 
     public static final Uri CONTENT_URI =
             Uri.parse("content://" + AUTHORITY + "/" + USER_TABLE);
@@ -45,12 +46,16 @@ public class KitkitProvider extends ContentProvider {
     public static final Uri FISHES_URI =
             Uri.parse("content://" + AUTHORITY + "/" + FISHES_TABLE);
 
+    public static final Uri EVENTS_URI =
+            Uri.parse("content://" + AUTHORITY + "/" + EVENTS_TABLE);
+
     public static final int USER = 1;
     public static final int USER_ID = 2;
     public static final int CURRENT_USER = 3;
     public static final int SNTP_RESULT = 4;
     public static final int PREFERENCE_INFO = 5;
     public static final int FISHES = 6;
+    public static final int EVENTS = 7;
 
     private static final UriMatcher sURIMatcher =
             new UriMatcher(UriMatcher.NO_MATCH);
@@ -64,6 +69,7 @@ public class KitkitProvider extends ContentProvider {
         sURIMatcher.addURI(AUTHORITY, SNTP_RESULT_TABLE, SNTP_RESULT);
         sURIMatcher.addURI(AUTHORITY, PREFERENCE, PREFERENCE_INFO);
         sURIMatcher.addURI(AUTHORITY, FISHES_TABLE, FISHES);
+        sURIMatcher.addURI(AUTHORITY, EVENTS_TABLE, EVENTS);
     }
 
     private KitkitDBHandler myDB;
@@ -104,6 +110,9 @@ public class KitkitProvider extends ContentProvider {
                 return cursor;
             case FISHES:
                 queryBuilder.setTables(KitkitDBHandler.TABLE_FISHES);
+                break;
+            case EVENTS:
+                queryBuilder.setTables(KitkitDBHandler.TABLE_EVENTS);
                 break;
             default:
                 throw new IllegalArgumentException("Unknown URI");
@@ -147,6 +156,10 @@ public class KitkitProvider extends ContentProvider {
                 break;
             case FISHES:
                 id = sqlDB.insert(KitkitDBHandler.TABLE_FISHES,
+                        null, values);
+                break;
+            case EVENTS:
+                id = sqlDB.insert(KitkitDBHandler.TABLE_EVENTS,
                         null, values);
                 break;
             default:
@@ -196,6 +209,11 @@ public class KitkitProvider extends ContentProvider {
                     break;
                 case FISHES:
                     rowsDeleted = sqlDB.delete(KitkitDBHandler.TABLE_FISHES,
+                            selection,
+                            selectionArgs);
+                    break;
+                case EVENTS:
+                    rowsDeleted = sqlDB.delete(KitkitDBHandler.TABLE_EVENTS,
                             selection,
                             selectionArgs);
                     break;
@@ -255,6 +273,10 @@ public class KitkitProvider extends ContentProvider {
             case FISHES:
                 rowsUpdated =
                         sqlDB.update(KitkitDBHandler.TABLE_FISHES, values, selection, selectionArgs);
+                break;
+            case EVENTS:
+                rowsUpdated =
+                        sqlDB.update(KitkitDBHandler.TABLE_EVENTS, values, selection, selectionArgs);
                 break;
         }
         getContext().getContentResolver().notifyChange(uri,

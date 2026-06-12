@@ -86,24 +86,40 @@ public class LockScreenReceiver extends BroadcastReceiver {
                         .append("\n");
             }
 
-            // Per-session block — same shape as MainActivity.generateCSV.
-            // session_id + login_ts were persisted at login; logout_ts is now.
-            android.content.SharedPreferences sessPrefs = context.getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
-            String sessionId = sessPrefs.getString("current_session_id", "");
-            long sessionLogin = sessPrefs.getLong("current_session_login", 0L);
+            // Per-session + per-event blocks — sourced from the shared DB.
+            String sessionId = dbHandler.getCurrentSessionId();
+            long sessionLogin = dbHandler.getCurrentSessionLogin();
             long sessionLogout = System.currentTimeMillis() / 1000L;
-            if (!sessionId.isEmpty() && !user.getUserName().equals("admin")) {
+            if (sessionId != null && !sessionId.isEmpty() && !user.getUserName().equals("admin")) {
                 content.append("\n")
                         .append("Session ID,Username,Time login,Time logout\n")
                         .append(sessionId).append(",")
                         .append(user.getDisplayName()).append(",")
                         .append(sessionLogin).append(",")
                         .append(sessionLogout).append("\n");
-                sessPrefs.edit()
-                        .remove("current_session_id")
-                        .remove("current_session_username")
-                        .remove("current_session_login")
-                        .apply();
+
+                java.util.ArrayList<asia.chumbaka.kitkitProvider.Event> events =
+                        dbHandler.getEventsForSession(sessionId);
+                content.append("\n")
+                        .append("Event ID,Event #,Event Datetime,Session ID,Username,Subject,Level,Day,Game,Stars\n");
+                for (asia.chumbaka.kitkitProvider.Event ev : events) {
+                    content.append(ev.eventId).append(",")
+                            .append(ev.eventNumber).append(",")
+                            .append(ev.eventDatetime).append(",")
+                            .append(ev.sessionId).append(",")
+                            .append(ev.username).append(",")
+                            .append(ev.subject).append(",")
+                            .append(ev.level).append(",")
+                            .append(ev.day).append(",")
+                            .append(ev.game).append(",")
+                            .append(ev.stars).append("\n");
+                }
+
+                dbHandler.setCurrentSession("", 0L);
+                context.getContentResolver().delete(
+                        asia.chumbaka.kitkitProvider.KitkitProvider.EVENTS_URI,
+                        asia.chumbaka.kitkitProvider.KitkitDBHandler.COLUMN_SESSION_ID + " = ?",
+                        new String[]{sessionId});
             }
 
             File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "kayam-reports");

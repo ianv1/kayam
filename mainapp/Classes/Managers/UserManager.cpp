@@ -302,6 +302,23 @@ void UserManager::setDayCleared(string levelID, int day, bool isCleared) {
     _dayClearedMap[key] = isCleared;
     UserDefault::getInstance()->setBoolForKey(getDayClearedKey(levelID, day).c_str(), isCleared);
     UserDefault::getInstance()->flush();
+
+    if (isCleared) {
+        std::string rawSubject = subjectFromLevelID(levelID);
+
+        // Event #4 — "Score stars from a Level-Day". The Stars column is
+        // filled in on the Java side from User.getNumStars() (running
+        // total at event time), so we pass 0 here as a placeholder.
+        logEvent(4, rawSubject, levelID, day, 0, 0);
+
+        // Event #5 — "Score a crown from a Level". Awarded when the day
+        // being cleared is the LAST day of the level (matches
+        // UserManager::isLevelCleared which keys off the last day).
+        auto cur = CurriculumManager::getInstance()->findCurriculum(levelID);
+        if (cur && day == cur->numDays) {
+            logEvent(5, rawSubject, levelID, day, 0, 0);
+        }
+    }
 }
 
 bool UserManager::checkIfNextDayIsAvailable(string levelID, int day) {
@@ -378,6 +395,22 @@ bool UserManager::isGameCleared(string levelID, int day, int gameIndex) {
     return cleared;
 }
 
+void UserManager::logEvent(int eventNumber, const std::string &rawSubject,
+                           const std::string &levelID, int day, int game, int stars) {
+    JniHelper::callStaticVoidMethod("org/cocos2dx/cpp/AppActivity", "logEvent",
+                                    rawSubject, levelID, day, game, stars, eventNumber);
+}
+
+std::string UserManager::subjectFromLevelID(const std::string &levelID) {
+    size_t firstUs = levelID.find('_');
+    if (firstUs == std::string::npos) return "Literacy";
+    size_t secondUs = levelID.find('_', firstUs + 1);
+    std::string seg = levelID.substr(firstUs + 1,
+            (secondUs == std::string::npos ? std::string::npos
+                                          : secondUs - firstUs - 1));
+    return (seg == "M") ? std::string("Math") : std::string("Literacy");
+}
+
 void UserManager::setGameCleared(string levelID, int day, int gameIndex, bool isCleared) {
     auto cur = CurriculumManager::getInstance()->findCurriculum(levelID);
     auto dayCurr = cur->getDayCurriculum(day);
@@ -396,6 +429,11 @@ void UserManager::setGameCleared(string levelID, int day, int gameIndex, bool is
         // it just unblocks within-level progress.
         JniHelper::callStaticVoidMethod("org/cocos2dx/cpp/AppActivity", "setGameCleared", levelID,
                                         day, gameIndex, isCleared);
+
+        // Event #3 — "Complete a Level-Day-Game".
+        if (isCleared) {
+            logEvent(3, subjectFromLevelID(levelID), levelID, day, gameIndex, 0);
+        }
     }
 
     auto key = make_tuple(levelID, day, gameIndex);

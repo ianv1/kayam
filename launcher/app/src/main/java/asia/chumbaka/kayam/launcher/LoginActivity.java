@@ -112,13 +112,12 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         user.setLastLogin(KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss"));
         dbHandler.updateUser(user);
 
-        // Begin a tracked session: persist a fresh UUID + unix-second login
-        // timestamp so the next logout (MainActivity logout button /
-        // LockScreenReceiver screen-off) can emit a "Per session" CSV row.
-        SharedPreferences.Editor sessEditor = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).edit();
-        sessEditor.putString("current_session_id", java.util.UUID.randomUUID().toString());
-        sessEditor.putLong("current_session_login", System.currentTimeMillis() / 1000L);
-        sessEditor.apply();
+        // Begin a tracked session — persisted to the shared SQLite DB (via
+        // KitkitProvider) so the mainapp APKs in OTHER packages can also
+        // read the active session_id when emitting per-event rows.
+        dbHandler.setCurrentSession(
+                java.util.UUID.randomUUID().toString(),
+                System.currentTimeMillis() / 1000L);
     }
 
     @Override

@@ -65,6 +65,17 @@ public:
 
 
     void flushData();
+
+    // Per-event log bridge. eventNumber: 1=enter, 2=exit, 3=complete,
+    // 4=stars from level-day, 5=crown from level. rawSubject is "Literacy"
+    // or "Math"; AppActivity.logEvent maps it + package suffix to one of
+    // English / Math / BM / BM Math.
+    void logEvent(int eventNumber, const std::string &rawSubject,
+                  const std::string &levelID, int day, int game, int stars);
+
+    // "Math" if levelID's second underscore-segment is "M", else "Literacy".
+    // Matches the discriminator AppActivity.setGameCleared uses.
+    static std::string subjectFromLevelID(const std::string &levelID);
     
     string getWelcomeVideoPlayedKey();
     string getCurrentLevelIDKey();

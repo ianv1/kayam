@@ -405,28 +405,45 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                     .append("\n");
         }
 
-        // Per-session block. A fresh session_id + login unix-second timestamp
-        // were stored at LoginActivity.onLoginPasswordDialogPositiveClick;
-        // logout time is "now". One blank line separates the two datasets so
-        // the file is still valid CSV consumed as two stacked tables.
-        SharedPreferences sessPrefs = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
-        String sessionId = sessPrefs.getString("current_session_id", "");
-        long sessionLogin = sessPrefs.getLong("current_session_login", 0L);
+        // Per-session block + per-event block. Session and events live in
+        // the shared SQLite DB (via KitkitProvider) so the mainapp APKs in
+        // other packages can write events to the same store.
+        KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
+        String sessionId = dbHandler.getCurrentSessionId();
+        long sessionLogin = dbHandler.getCurrentSessionLogin();
         long sessionLogout = System.currentTimeMillis() / 1000L;
-        if (!sessionId.isEmpty() && !user.getUserName().equals("admin")) {
+        if (sessionId != null && !sessionId.isEmpty() && !user.getUserName().equals("admin")) {
             content.append("\n")
                     .append("Session ID,Username,Time login,Time logout\n")
                     .append(sessionId).append(",")
                     .append(user.getDisplayName()).append(",")
                     .append(sessionLogin).append(",")
                     .append(sessionLogout).append("\n");
-            // Clear so the next logout (if any, without a fresh login) doesn't
-            // re-emit a stale session.
-            sessPrefs.edit()
-                    .remove("current_session_id")
-                    .remove("current_session_username")
-                    .remove("current_session_login")
-                    .apply();
+
+            java.util.ArrayList<asia.chumbaka.kitkitProvider.Event> events =
+                    dbHandler.getEventsForSession(sessionId);
+            content.append("\n")
+                    .append("Event ID,Event #,Event Datetime,Session ID,Username,Subject,Level,Day,Game,Stars\n");
+            for (asia.chumbaka.kitkitProvider.Event ev : events) {
+                content.append(ev.eventId).append(",")
+                        .append(ev.eventNumber).append(",")
+                        .append(ev.eventDatetime).append(",")
+                        .append(ev.sessionId).append(",")
+                        .append(ev.username).append(",")
+                        .append(ev.subject).append(",")
+                        .append(ev.level).append(",")
+                        .append(ev.day).append(",")
+                        .append(ev.game).append(",")
+                        .append(ev.stars).append("\n");
+            }
+
+            // Clear session + events so the next login starts fresh and we
+            // don't re-emit stale rows on a subsequent logout.
+            dbHandler.setCurrentSession("", 0L);
+            getContentResolver().delete(
+                    asia.chumbaka.kitkitProvider.KitkitProvider.EVENTS_URI,
+                    asia.chumbaka.kitkitProvider.KitkitDBHandler.COLUMN_SESSION_ID + " = ?",
+                    new String[]{sessionId});
         }
 
         String safeName = user.getDisplayName().replaceAll("[^A-Za-z0-9]", "");

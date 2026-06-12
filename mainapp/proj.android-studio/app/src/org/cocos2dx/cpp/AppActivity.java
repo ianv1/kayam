@@ -629,6 +629,59 @@ public class AppActivity extends Cocos2dxActivity {
         }
     }
 
+    /**
+     * Persist a per-event row to the shared SQLite DB so the launcher can
+     * include it in the next logout CSV. Called from C++ via JniHelper.
+     *
+     * eventNumber values:
+     *   1 = Enter a Level-Day-Game
+     *   2 = Exit a Level-Day-Game
+     *   3 = Complete a Level-Day-Game
+     *   4 = Score stars from a Level-Day
+     *   5 = Score a crown from a Level (post-test)
+     *
+     * The "subject" prefix is derived here from the running APK's package:
+     * `.bm`-suffixed mainapp emits "BM" / "BM Math"; otherwise "English" /
+     * "Math". rawSubject from C++ is one of "Literacy" / "Math" to pick the
+     * category.
+     */
+    public static void logEvent(String rawSubject,
+                                String levelID,
+                                int day,
+                                int game,
+                                int stars,
+                                int eventNumber) {
+        try {
+            KitkitDBHandler dbHandler = ((KitkitSchoolApplication) _activity.getApplication()).getDbHandler();
+            String sessionId = dbHandler.getCurrentSessionId();
+            if (sessionId == null || sessionId.isEmpty()) {
+                Log.w(TAG, "logEvent: no active session; dropping event " + eventNumber);
+                return;
+            }
+            User user = dbHandler.getCurrentUser();
+            String username = user != null ? user.getDisplayName() : "";
+
+            boolean isBM = _activity.getPackageName().endsWith(".bm");
+            boolean isMath = "Math".equalsIgnoreCase(rawSubject);
+            String subject;
+            if (isBM) {
+                subject = isMath ? "BM Math" : "BM";
+            } else {
+                subject = isMath ? "Math" : "English";
+            }
+
+            // Stars column carries the user's running total at event time,
+            // not a per-event delta. The C++ `stars` arg is ignored — kept
+            // in the signature for future use.
+            int totalStars = user != null ? user.getNumStars() : 0;
+
+            dbHandler.logEvent(sessionId, username, eventNumber, subject,
+                    levelID, day, game, totalStars);
+        } catch (Exception e) {
+            Log.e(TAG, "logEvent failed: " + e);
+        }
+    }
+
     public static String getResourceUri(String filename) {
         File fileCheck = new File(Environment.getExternalStorageDirectory() + File.separator + "Library" + File.separator + "cache.txt");
         if (fileCheck.exists()) {

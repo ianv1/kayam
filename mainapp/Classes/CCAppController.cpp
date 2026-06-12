@@ -383,7 +383,12 @@ void CCAppController::startCurriculumGame(std::string levelID, int day, int game
     _currentCurrDay = day;
     _currentCurrGameIndex = gameIndex;
     _isFreeChoice = false;
-    
+
+    // Event #1 — "Enter a Level-Day-Game".
+    UserManager::getInstance()->logEvent(1,
+            UserManager::subjectFromLevelID(levelID),
+            levelID, day, gameIndex, 0);
+
     if (gameInfo.gameLevel ==1 && gameInfo.appearIndex<=2) {
         _allowSkipTutorial = false;
     }
@@ -953,8 +958,17 @@ void CCAppController::handleGameQuit(bool bImmediately)
         else {
             StrictLogManager::shared()->game_End_Quit(_currentGame, _currentLevel, duration);
         }
+
+        // Event #2 — "Exit a Level-Day-Game". Only fires for curriculum games
+        // (startCurriculumGame set the trio); _isFreeChoice gates out
+        // startFreeChoiceGame paths that reuse a stale curriculum trio.
+        if (!_currentCurrLevelID.empty() && !_isFreeChoice) {
+            UserManager::getInstance()->logEvent(2,
+                    UserManager::subjectFromLevelID(_currentCurrLevelID),
+                    _currentCurrLevelID, _currentCurrDay, _currentCurrGameIndex, 0);
+        }
     }
-    
+
     _currentGame = "";
     _currentParam = "";
     _currentLevel = 0;
