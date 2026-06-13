@@ -374,160 +374,20 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
     }
 
     private void generateCSV() {
-        User user = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
-        if (user == null) {
-            Log.w(TAG, "generateCSV: no current user; skipping");
-            return;
-        }
-
-        String tabletNumber = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS).getString("tablet_number", "");
-
-        // Single events table — login (#0) + gameplay (#1-5) + logout (#6)
-        // all live in the same stream. The earlier per-user summary row and
-        // per-session row are dropped; the dashboard pipeline reconstructs
-        // session boundaries from event_number 0/6.
-        StringBuilder content = new StringBuilder(
-                "Event ID,Event #,Datetime,Session ID,Username,Subject,Level,Day,Game,Stars\n");
-
+        // Delegates to the shared writer in kitkitlogger so the launcher's
+        // logout and the mainapp's screen-off receiver produce identically
+        // shaped reports without code drift.
         KitkitDBHandler dbHandler = ((LauncherApplication) getApplication()).getDbHandler();
-        String sessionId = dbHandler.getCurrentSessionId();
-        long sessionLogout = System.currentTimeMillis() / 1000L;
-        if (sessionId != null && !sessionId.isEmpty() && !user.getUserName().equals("admin")) {
-            // Event #6 — logout marker. event_id reuses session_id; blank
-            // subject/level/day/game; stars = current running total.
-            dbHandler.logEvent(sessionId, sessionLogout,
-                    sessionId, user.getDisplayName(), 6,
-                    "", "", 0, 0, user.getNumStars());
-
-            java.util.ArrayList<asia.chumbaka.kitkitProvider.Event> events =
-                    dbHandler.getEventsForSession(sessionId);
-            for (asia.chumbaka.kitkitProvider.Event ev : events) {
-                boolean isBoundary = (ev.eventNumber == 0 || ev.eventNumber == 6);
-                String subjectCell = isBoundary ? "" : ev.subject;
-                String levelCell   = isBoundary ? "" : ev.level;
-                String dayCell     = isBoundary ? "" : String.valueOf(ev.day);
-                // Boundary events (0/6) and level-day-scoped events (4/5)
-                // all leave Game blank — only per-game events 1/2/3 carry
-                // a real game index.
-                String gameCell;
-                if (isBoundary
-                        || ev.eventNumber == 4
-                        || ev.eventNumber == 5) gameCell = "";
-                else                            gameCell = String.valueOf(ev.game);
-
-                content.append(ev.eventId).append(",")
-                        .append(ev.eventNumber).append(",")
-                        .append(ev.eventDatetime).append(",")
-                        .append(ev.sessionId).append(",")
-                        .append(ev.username).append(",")
-                        .append(subjectCell).append(",")
-                        .append(levelCell).append(",")
-                        .append(dayCell).append(",")
-                        .append(gameCell).append(",")
-                        .append(ev.stars).append("\n");
-            }
-
-            // Clear session + events so the next login starts fresh and we
-            // don't re-emit stale rows on a subsequent logout.
-            dbHandler.setCurrentSession("", 0L);
-            getContentResolver().delete(
-                    asia.chumbaka.kitkitProvider.KitkitProvider.EVENTS_URI,
-                    asia.chumbaka.kitkitProvider.KitkitDBHandler.COLUMN_SESSION_ID + " = ?",
-                    new String[]{sessionId});
-        }
-
-        String safeName = user.getDisplayName().replaceAll("[^A-Za-z0-9]", "");
-        String filename = tabletNumber + "_"
-                + KitkitDBHandler.getTimeFormatString(System.currentTimeMillis(), "yyyyMMddHHmmss")
-                + "_" + safeName + ".csv";
-
-        String writtenPath = writeCsvAnywhere(filename, content.toString());
+        String writtenPath = asia.chumbaka.kitkitProvider.SessionCsvWriter
+                .flushSessionToCsv(this, dbHandler);
         if (writtenPath != null) {
             Toast.makeText(this,
                     getString(R.string.csv_generated, writtenPath),
                     Toast.LENGTH_LONG).show();
             Log.i(TAG, "CSV written to " + writtenPath);
         } else {
-            Toast.makeText(this,
-                    "Failed to write CSV — check storage permission",
-                    Toast.LENGTH_LONG).show();
-            Log.e(TAG, "CSV write failed in all targets");
+            Log.w(TAG, "generateCSV: nothing written (no session or write failed)");
         }
-    }
-
-    /**
-     * Write the CSV to the most user-visible location available on this
-     * Android version, returning the human-readable path that succeeded (or
-     * null if every target failed).
-     *
-     * Strategy:
-     *   API 29+ (Android 10/11/12+): MediaStore.Downloads
-     *     -> /storage/emulated/0/Download/kayam-reports/<filename>
-     *     No permission needed; appears in every file manager.
-     *   API < 29 (pre-Android 10): legacy File API
-     *     -> /storage/emulated/0/Documents/kayam-reports/<filename>
-     *
-     * On any failure, also retries to app-private external storage
-     *     -> /storage/emulated/0/Android/data/<pkg>/files/Documents/kayam-reports/<filename>
-     * so the file at least exists somewhere even if storage permissions are
-     * denied. The path returned to the caller is whatever actually worked.
-     */
-    private String writeCsvAnywhere(String filename, String content) {
-        // 1) MediaStore.Downloads (Android 10+)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            try {
-                android.content.ContentValues v = new android.content.ContentValues();
-                v.put(android.provider.MediaStore.Downloads.DISPLAY_NAME, filename);
-                v.put(android.provider.MediaStore.Downloads.MIME_TYPE, "text/csv");
-                v.put(android.provider.MediaStore.Downloads.RELATIVE_PATH,
-                        Environment.DIRECTORY_DOWNLOADS + "/kayam-reports/");
-                Uri uri = getContentResolver().insert(
-                        android.provider.MediaStore.Downloads.EXTERNAL_CONTENT_URI, v);
-                if (uri != null) {
-                    try (java.io.OutputStream os = getContentResolver().openOutputStream(uri)) {
-                        if (os != null) {
-                            os.write(content.getBytes("UTF-8"));
-                            os.flush();
-                        }
-                    }
-                    return "Download/kayam-reports/" + filename;
-                }
-            } catch (Exception e) {
-                Log.w(TAG, "MediaStore.Downloads write failed: " + e.getMessage());
-            }
-        }
-
-        // 2) Legacy public Documents (pre-API 29, or as a backup)
-        try {
-            File folder = new File(Environment.getExternalStoragePublicDirectory(
-                    Environment.DIRECTORY_DOCUMENTS), "kayam-reports");
-            if (!folder.exists()) folder.mkdirs();
-            File file = new File(folder, filename);
-            try (FileWriter fw = new FileWriter(file);
-                 BufferedWriter bw = new BufferedWriter(fw)) {
-                bw.write(content);
-            }
-            return file.getAbsolutePath();
-        } catch (Exception e) {
-            Log.w(TAG, "Public Documents write failed: " + e.getMessage());
-        }
-
-        // 3) Last-resort: app-private external storage (no permission needed,
-        //    visible in file manager under Android/data/<pkg>/files/Documents/).
-        try {
-            File priv = new File(getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS),
-                    "kayam-reports");
-            if (!priv.exists()) priv.mkdirs();
-            File file = new File(priv, filename);
-            try (FileWriter fw = new FileWriter(file);
-                 BufferedWriter bw = new BufferedWriter(fw)) {
-                bw.write(content);
-            }
-            return file.getAbsolutePath();
-        } catch (Exception e) {
-            Log.e(TAG, "All CSV write targets failed: " + e.getMessage());
-        }
-        return null;
     }
 
     /**
