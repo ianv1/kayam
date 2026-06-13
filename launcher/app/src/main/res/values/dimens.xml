@@ -9,4 +9,10 @@
     <dimen name="start_margin">11dp</dimen>
     <dimen name="setting_height">200px</dimen>
     <dimen name="setting_edit_height">135px</dimen>
+
+    <!-- Vertical gap above the LOGIN button on the home screen — applied
+         programmatically in MainActivity.refreshUI() only when LOGIN is
+         the SOLE visible button (logged-out state), so the multi-button
+         admin/user states aren't pushed off-screen. -->
+    <dimen name="login_button_solo_top_margin">80dp</dimen>
 </resources>

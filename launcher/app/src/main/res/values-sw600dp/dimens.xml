@@ -1,0 +1,4 @@
+<resources>
+    <!-- Tablet override — see values/dimens.xml for the full doc. -->
+    <dimen name="login_button_solo_top_margin">120dp</dimen>
+</resources>

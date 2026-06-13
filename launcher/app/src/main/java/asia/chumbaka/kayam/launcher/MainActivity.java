@@ -496,6 +496,27 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
         }
     }
 
+    /**
+     * Toggle the extra top margin above the LOGIN button. Applied only when
+     * LOGIN is the lone visible button (logged-out home screen). In every
+     * other state (admin / logged-in) the margin is zeroed so LOGIN sits
+     * flush with its neighbours in the button stack.
+     */
+    private void setLoginButtonSoloTopMargin(Button buttonLogin, boolean solo) {
+        if (buttonLogin == null) return;
+        android.view.ViewGroup.LayoutParams lp = buttonLogin.getLayoutParams();
+        if (!(lp instanceof android.view.ViewGroup.MarginLayoutParams)) return;
+        android.view.ViewGroup.MarginLayoutParams mlp =
+                (android.view.ViewGroup.MarginLayoutParams) lp;
+        int topPx = solo
+                ? getResources().getDimensionPixelSize(R.dimen.login_button_solo_top_margin)
+                : 0;
+        if (mlp.topMargin != topPx) {
+            mlp.topMargin = topPx;
+            buttonLogin.setLayoutParams(mlp);
+        }
+    }
+
     private void refreshUI() {
         User currentUser = ((LauncherApplication) getApplication()).getDbHandler().getCurrentUser();
         ImageView imageViewCoin = (ImageView) findViewById(R.id.imageView_coin);
@@ -524,6 +545,13 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
             if (libraryBtnHidden != null) libraryBtnHidden.setVisibility(View.GONE);
             Button dashboardBtnHidden = (Button) findViewById(R.id.button_dashboard);
             if (dashboardBtnHidden != null) dashboardBtnHidden.setVisibility(View.GONE);
+            // LOGIN is the only button visible — push it down so it sits in
+            // the upper-middle instead of hugging the logo. The dp value
+            // comes from values/dimens.xml (with a sw600dp override for
+            // tablets), and is applied programmatically because in the
+            // logged-in / admin states LOGIN sits alongside other buttons
+            // and the margin would create an ugly mid-stack gap.
+            setLoginButtonSoloTopMargin(buttonLogin, true);
             return;
         } else {
             imageViewCoin.setVisibility(View.VISIBLE);
@@ -540,6 +568,10 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                 buttonLogin.setVisibility(View.VISIBLE);
                 buttonLogout.setVisibility(View.GONE);
             }
+            // Admin mode (or regular user, where LOGIN is hidden anyway):
+            // LOGIN shares the stack with Start/Dashboard/Library/Exit Admin,
+            // so zero out the solo-state top margin to avoid a gap above it.
+            setLoginButtonSoloTopMargin(buttonLogin, false);
         }
 
         Button libraryButton = (Button) findViewById(R.id.button_library);
