@@ -259,7 +259,7 @@ MiniTest_5_2	3	52011, 52012, 52013, 52014, 52015
 			52011	sentence_word		Pilih yang betul.			gambar.m4a	gambar	gambar^gambir^gambur
 			52012	sentence_word		Pilih yang betul.			dapur.m4a	dapur	dapor^dapir^dapur
 			52013	soundonly_word					tingkap.m4a	tingkap	tinggi^tingkap^janggut
-			52014	sentence_word		Ini ____ saya.			inibapasaya.m4a	dad	abang^ibu^bapa
+			52014	sentence_word		Ini ____ saya.			inibapasaya.m4a	bapa	abang^ibu^bapa
 			52015	sentence_word		Saya perlu ____.			sayaperlukertas.m4a	kertas	kertas^kerusi^lampu
 											
 MiniTest_5_3	1	53001, 53002, 53003, 53004, 53005									
@@ -433,7 +433,7 @@ MiniTest_7_2	3	72011, 72012, 72013, 72014, 72015
 			72011	image_sentence		l9_budaklelakidudukdiataskerusi.png			budaklelakidudukdiataskerusi.m4a	Seorang budak lelaki duduk di atas kerusi.	Seorang budak lelaki duduk di atas kerusi.^Seorang budak lelaki di sebelah pokok.^Budak lelaki itu tinggi.
 			72012	image_sentence		l8_diamemasak.png			diamemasak.m4a	Dia memasak.	Dia memasak.^Dia berlari.^Dia berenang.
 			72013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Amir bermain bola.	Amir bermain bola.^Amir bola bermain.^Amir bermain kepada bola.
-			72014	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Kakak berjalan kaki.	Kakak berjalan kaki.^Kakak kaki berjalan.^Kakak berjalan dengan kaki-kaki.
+			72014	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Amir berjalan kaki.	Amir berjalan kaki.^Amir kaki berjalan.^Amir berjalan dengan kaki-kaki.
 			72015	sentence_word		Di mana _____ kamu?			dimanapenselkamu.m4a	pensel	pensel^beg^pen
 											
 MiniTest_7_3	1	73001, 73002, 73003, 73004, 73005									
@@ -484,8 +484,8 @@ PostTest_7	2	7011, 7012, 7013, 7014, 7015, 7016, 7017, 7018, 7019, 7020
 MiniTest_8_1	1	81001, 81002, 81003, 81004, 81005									
 			81001	image_sentence		l13_anjingdiantarahaiwan.png			anjingdiantarakambingdanbiribiri.m4a	Anjing itu di antara kambing dan biri-biri.	Anjing itu di antara kambing dan biri-biri.^Anjing itu di depan kambing dan biri-biri.^Anjing itu di belakang kambing dan biri-biri.
 			81002	soundonly_image					diaseorangtukangmasak.m4a	l12_diaseorangtukangmasak.png	l12_diaseorangguru.png^l12_diaseorangjururawat.png^l12_diaseorangtukangmasak.png
-			81003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ming tanam petola di kebun.	Ming tanam petola di kebun.^Ming tanam kebun di petola.^Ming petola tanam di kebun.
-			81004	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mei berkelah di tepi pantai.	Mei berkelah di tepi pantai.^Mei pergi berkelah tepi pantai.^Mei pantai berkelah di tepi.
+			81003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mimi tanam petola di kebun.	Mimi tanam petola di kebun.^Mimi tanam kebun di petola.^Mimi petola tanam di kebun.
+			81004	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mereka berkelah di tepi pantai.	Mereka berkelah di tepi pantai.^Mereka pergi berkelah tepi pantai.^Mereka pantai berkelah di tepi.
 			81005	soundonly_image					book_en_415_page_3_2.m4a	book_en_415_page_3.png	book_en_415_page_3.png^book_en_415_page_4.png^book_en_415_page_6.png
 											
 MiniTest_8_1	2	81006, 81007, 81008, 81009, 81010									
@@ -539,7 +539,7 @@ MiniTest_8_3	2	83006, 83007, 83008, 83009, 83010
 											
 MiniTest_8_3	3	83011, 83012, 83013, 83014, 83015									
 			83011	soundonly_image					ainimahutidur.m4a	l16_ainimahutidur.png	l16_ainimahutidur.png^l16_mingkayuhbasikal.png^l16_kumaradakambing.png
-			83012	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Amir suka membaca buku.	Amir suka membaca buku.^Amir membaca suka buku.^Suka Amir membaca buku.
+			83012	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mimi suka membaca buku.	Mimi suka membaca buku.^Mimi membaca suka buku.^Suka Mimi membaca buku.
 			83013	paragraph_sentence		Kavita suka makan petai. Ayah masak petai dengan sambal. _____________.			mt83_83013_answer.m4a	Petai itu sangat sedap.	Petai itu sangat sedap.^Kavita suka makan petai.^Ayah masak petai dengan sambal.
 			83014	sentence_sentence		Ravi pergi memburu. Ravi tidak dapat apa-apa. _____________.			book_en_405_page_1_3.m4a	Haiwan nampak Ravi lalu lari.	Haiwan nampak Ravi lalu lari.^Ravi tidak dapat apa-apa.^Ravi pergi memburu.
 			83015	sentence_sentence		Aini kata, "___________"			book_en_404_page_10_3.m4a	Sekarang saya akan mandi.	Sekarang saya akan mandi.^Saya tidak mahu mandi.^Ambil sabun ini dan mandi.
@@ -578,7 +578,7 @@ MiniTest_9_1	1	91001, 91002, 91003, 91004, 91005
 MiniTest_9_1	2	91006, 91007, 91008, 91009, 91010									
 			91006	soundonly_image					buah_oren_di_dalam_kotak.m4a	l15_buah_oren_di_dalam_kotak.png	l15_buah_epal_di_dalam_bakul.png^l15_buah_oren_di_dalam_kotak.png^l15_bola_di_bawah_meja.png
 			91007	soundonly_image					ali_bermain_bola.m4a	l16_ali_bermain_bola.png	l16_ali_bermain_bola.png^l16_ali_dan_amir_pergi_berenang.png^l16_aini_mahu_tidur.png
-			91008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ming berenang di kolam.	Ming berenang di kolam.^Ming berenang pada kolam.^Ming berenang ke kolam.
+			91008	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Budak itu berenang di kolam.	Budak itu berenang di kolam.^Budak itu berenang pada kolam.^Budak itu berenang ke kolam.
 			91009	listeningcomp_sentence	en_uk_lc_3_1_story.m4a	Aini beri apa kepada orang sakit?				Ubat	Ubat^Makanan^Air
 			91010	imageseq_sentence		Bobo membuat hajat lalu meniup lilin.		Tiba-tiba juga, ikan jatuh dari langit!	book_en_408_page_2_2_3_1_4_1.m4a	Tiba-tiba hujan turun.	Bobo sangat gembira.^Tiba-tiba hujan turun.^Lina nyanyikan lagu hari jadi untuk Bobo.
 											
@@ -604,7 +604,7 @@ MiniTest_9_2	2	92006, 92007, 92008, 92009, 92010
 			92010	paragraph_sentence		Si Musang melihat sekelilingnya untuk mencari makanan. Si Musang nampak buah anggur _________________________. Anggur itu kelihatan sangat manis!			book_en_504_page_2_1_2_2_2_3.m4a	pada sepohon pokok yang tinggi	di dalam laut yang besar^pada sepohon pokok yang tinggi^di atas batu yang besar
 											
 MiniTest_9_2	3	92011, 92012, 92013, 92014, 92015									
-			92011	soundonly_sentence					kataklompatkedalamkolam.m4a	Katak lompat ke dalam kolam.	Katak lompat ke dalam kolam.^Ikan berenang di dalam kolam.^Kambing itu di dalam kandang.
+			92011	soundonly_sentence					kataklompatkedalamkolam.m4a	Katak lompat ke dalam kolam.	Katak lompat ke dalam kolam.^Ikan berenang di dalam kolam.^Kambing itu di padang.
 			92012	soundonly_image					abangangkatkotakbesar.m4a	abangangkatkotakbesar.png	sitibantuibujemurbaju.png^sitidankavitamemasak.png^abangangkatkotakbesar.png
 			92013	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Burung itu terbang rendah.	Burung itu terbang rendah.^Burung itu rendah terbang.^Burung terbang di rendah.
 			92014	listeningcomp_sentence	en_uk_lc_3_6_story.m4a	Kenapa Mei tidak dapat kira semua bintang?				Bintang terlalu banyak.	Bintang terlalu banyak.^Dia tidak pandai kira.^Bintang bergerak laju.
@@ -613,8 +613,8 @@ MiniTest_9_2	3	92011, 92012, 92013, 92014, 92015
 MiniTest_9_3	1	93001, 93002, 93003, 93004, 93005									
 			93001	soundonly_image					cikgumimiberirotikepadamurid.m4a	cikgumimiberirotikepadamurid.png	cikgumimiberirotikepadamurid.png^jururawatjagabayi.png^pakcikmemandubas.png
 			93002	soundonly_image					sitibantuibujemurbaju.m4a	sitibantuibujemurbaju.png	sitibantuibujemurbaju.png^makcikcucitangandibilikair.png^datukcatmeja.png
-			93003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ayah sedang cuci longkang.	Ayah sedang cuci longkang.^Ayah sedang longkang cuci.^Ayah telah cuci longkang.
-			93004	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Mei kemas bilik tidur.	Mei kemas bilik tidur.^Mei bilik tidur kemas.^Mei kemas di bilik tidur.
+			93003	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Abang sedang cuci longkang.	Abang sedang cuci longkang.^Abang sedang longkang cuci.^Abang telah cuci longkang.
+			93004	sentence_sentence		Pilih yang betul.			choosetherightone.m4a	Ali kemas bilik tidur.	Ali kemas bilik tidur.^Ali bilik tidur kemas.^Ali kemas di bilik tidur.
 			93005	paragraph_sentence		Mei lewat ke sekolah. _________________, tetapi bas itu sudah berlalu. Mei menjerit supaya pemandu berhenti, tetapi pemandu tidak mendengarnya.			book_en_501_page_1_1_1_2_1_3.m4a	Mei berlari mengejar bas	Mei berjalan perlahan^Mei berlari mengejar bas^Mei menjerit dengan kuat
 											
 MiniTest_9_3	2	93006, 93007, 93008, 93009, 93010									

@@ -25,7 +25,7 @@ ms-MY	4	2	2	Ini seekor se[m]u[t].	iniseekorsemut.m4a	n
 ms-MY	4	2	3	Sa[y]a kenal bu[d]ak itu.	sayakenalbudakitu.m4a	n
 ms-MY	5	1	1	Kakak sangat [g]em[b]ira.	kakaksangatgembira.m4a	n
 ms-MY	5	1	2	Sani suka@[m]e[m]baca buku.	sanisukamembacabuku.m4a	n
-ms-MY	5	1	3	Kami berlari@dengan [p]a[n]tas.	kamiberlaridenganpantas.m4a	n
+ms-MY	5	1	3	Dia berlari@dengan [p]a[n]tas.	diaberlaridenganpantas.m4a	n
 ms-MY	5	2	1	Na[m]a sa[y]a Ravi.	namasayaravi.m4a	n
 ms-MY	5	2	2	A[b]ang saya sangat [t]inggi.	abangsayasangattinggi.m4a	n
 ms-MY	5	2	3	Lina de[m]a[m].	linademam.m4a	n
@@ -56,8 +56,8 @@ ms-MY	9	2	3	Saya suka berka[wan]@dengan Amir.	sayasukaberkawandenganamir.m4a	n
 ms-MY	10	1	1	Datuk mi[num] jus oren.	datukminumjusoren.m4a	n
 ms-MY	10	1	2	Hao berenang@di ko[lam].	haoberenangdikolam.m4a	n
 ms-MY	10	1	3	Burung itu terbang [ren]dah.	burungituterbangrendah.m4a	n
-ms-MY	10	2	1	Abang bermain bola se[pak].	abangbermainbolasepak.m4a	n
-ms-MY	10	2	2	Kakak berja[lan] kaki.	kakakberjalankaki.m4a	n
+ms-MY	10	2	1	Mereka bermain bola se[pak].	merekabermainbolasepak.m4a	n
+ms-MY	10	2	2	Amir berja[lan] kaki.	amirberjalankaki.m4a	n
 ms-MY	10	2	3	Ba[dak] itu besar.	badakitubesar.m4a	n
 ms-MY	11	1	1	Ini seekor [gajah].	iniseekorgajah.m4a	n
 ms-MY	11	1	2	Ali ialah abang [saya].	aliialahabangsaya.m4a	n
@@ -84,8 +84,8 @@ ms-MY	14	2	1	Kasut itu@di bawah [meja].	kasutitudibawahmeja.m4a	n
 ms-MY	14	2	2	Siti baring@di bilik [tidur].	sitibaringdibiliktidur.m4a	n
 ms-MY	14	2	3	Beg itu@di atas [kerusi].	begitudiataskerusi.m4a	n
 ms-MY	15	1	1	Ravi sangat [gembira].	ravisangatgembira.m4a	n
-ms-MY	15	1	2	[Kambing] itu di dalam kandang.	kambingitudidalamkandang.m4a	y
-ms-MY	15	1	3	Cicak itu di [dinding].	cicakitudidinding.m4a	n
+ms-MY	15	1	2	[Kambing] itu di padang.	kambingitudipadang.m4a	y
+ms-MY	15	1	3	Cicak itu di [lantai].	cicakitudilantai.m4a	n
 ms-MY	15	2	1	Tali ini [pendek].	taliinipendek.m4a	n
 ms-MY	15	2	2	Ini [semut] merah.	inisemutmerah.m4a	n
 ms-MY	15	2	3	[Kera] itu di atas pokok.	keraitudiataspokok.m4a	y
@@ -110,7 +110,7 @@ ms-MY	18	2	3	[Cincin] emas itu mahal.	cincinemasitumahal.m4a	y
 ms-MY	19	1	1	[Bantal] itu bersih.	bantalitubersih.m4a	y
 ms-MY	19	1	2	Adik suka [menari].	adiksukamenari.m4a	n
 ms-MY	19	1	3	[Sampan] itu di tepi sungai.	sampanituditepisungai.m4a	y
-ms-MY	19	2	1	Mereka suka makan [sayur].	merekasukamakansayur.m4a	n
+ms-MY	19	2	1	Adik suka makan [sayur].	adiksukamakansayur.m4a	n
 ms-MY	19	2	2	[Lantai] ini licin.	lantaiinilicin.m4a	y
 ms-MY	19	2	3	Saya [pandai] mewarna.	sayapandaimewarna.m4a	n
 ms-MY	20	1	1	Siapa [nama] adik kamu?	siapanamaadikkamu.m4a	n
@@ -135,10 +135,10 @@ ms-MY	23	1	1	Lampu itu [rosak].	lampuiturosak.m4a	n
 ms-MY	23	1	2	Cikgu ada [komputer] baharu.	cikguadakomputerbaharu.m4a	n
 ms-MY	23	1	3	Ali suka [menyanyi].	Alisukamenyanyi.m4a	n
 ms-MY	23	2	1	Aini dan Siti pergi ke [kedai].	ainidansitipergikekedai.m4a	n
-ms-MY	23	2	2	Mei berkelah@di tepi [pantai].	meiberkelahditepipantai.m4a	n
+ms-MY	23	2	2	Mereka berkelah@di tepi [pantai].	merekaberkelahditepipantai.m4a	n
 ms-MY	23	2	3	Budak itu bermain@di [padang].	budakitubermaindipadang.m4a	n
 ms-MY	24	1	1	Pak Cik tanam [petola]@di kebun.	pakciktanampetoladikebun.m4a	n
-ms-MY	24	1	2	Ayah cuci [longkang].	ayahcucilongkang.m4a	n
+ms-MY	24	1	2	Abang cuci [longkang].	abangcucilongkang.m4a	n
 ms-MY	24	1	3	Kumar siram pokok [keladi].	kumarsirampokokkeladi.m4a	n
 ms-MY	24	2	1	Adik belajar@bermain [biola].	adikbelajarbermainbiola.m4a	n
 ms-MY	24	2	2	Ravi ialah [abang] saya.	raviialahabangsaya.m4a	n

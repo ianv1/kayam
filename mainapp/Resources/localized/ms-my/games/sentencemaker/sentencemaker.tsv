@@ -33,11 +33,11 @@ ms-MY	4	1	Kami/rakyat/Malaysia		rakyatmalaysia.png	kamirakyatmalaysia.m4a
 ms-MY	4	2	Kami/berlari/pantas		budakberlaripantas.png	kamiberlaripantas.m4a
 ms-MY	4	3	Ali/baik/hati		alibaikhati.png	alibaikhati.m4a
 ms-MY	4	4	Adik/suka/makan/nasi		makannasi.png	adiksukamakannasi.m4a
-ms-MY	4	5	Kumar/suka/makan/roti	nasi	makanroti.png	kumarsukamakanroti.m4a
-ms-MY	4	6	Kakak/suka/berenang		budakberenang.png	kakaksukaberenang.m4a
+ms-MY	4	5	Mei/suka/makan/roti	nasi	makanroti.png	meisukamakanroti.m4a
+ms-MY	4	6	Adik/suka/berenang		budakberenang.png	adiksukaberenang.m4a
 ms-MY	4	7	Amir/bermain/bola		budakbermainbola.png	amirbermainbola.m4a
 ms-MY	4	8	Siti/suka/makan/kek		makankek.png	sitisukamakankek.m4a
-ms-MY	4	9	Devi/suka/menyanyi		menyanyi.png	devisukamenyanyi.m4a
+ms-MY	4	9	Ming/suka/menyanyi		menyanyi.png	mingsukamenyanyi.m4a
 ms-MY	4	10	Adik/suka/menari		menari.png	adiksukamenari.m4a
 ms-MY	5	1	Ini/beg/saya		beg.png	inibegsaya.m4a
 ms-MY	5	2	Ini/bapa/saya	ibu	bapa.png	inibapasaya.m4a
@@ -48,28 +48,28 @@ ms-MY	5	6	Nama/adik saya/Amir		amir.png	namaadiksayaamir.m4a
 ms-MY	5	7	Ini/baju baharu/saya		bajubaharu.png	inibajubaharusaya.m4a
 ms-MY	5	8	Adik/suka/bermain/bola		bermainbola.png	adiksukabermainbola.m4a
 ms-MY	5	9	Ali/rajin/belajar		budakrajinbelajar.png	ahmadrajinbelajar.m4a
-ms-MY	5	10	Kakak/berjalan/kaki		berjalankaki.png	kakakberjalankaki.m4a
+ms-MY	5	10	Amir/berjalan/kaki		berjalankaki.png	amirberjalankaki.m4a
 ms-MY	6	1	Kakak/saya/cantik		kakakcantik.png	kakaksayacantik.m4a
 ms-MY	6	2	Abang/saya/sangat/tinggi	Kakak	abangsangattinggi.png	abangsayasangattinggi.m4a
 ms-MY	6	3	Ibu/sangat/gembira		ibugembira.png	ibusangatgembira.m4a
-ms-MY	6	4	Ali/abang/saya	adik	abangkeluarga.png	aliialahabangsaya.m4a
+ms-MY	6	4	Ali/abang/saya	kakak	abangkeluarga.png	aliialahabangsaya.m4a
 ms-MY	6	5	Ming/abang/saya		ming.png	mingialahabangsaya.m4a
-ms-MY	6	6	Hao/kawan/baik/saya		kawanbaik.png	haoialahkawanbaiksaya.m4a
+ms-MY	6	6	Kavita/kawan/baik/saya		kawanbaik.png	kavitaialahkawanbaiksaya.m4a
 ms-MY	6	7	Mimi/seorang/guru		guru.png	mimiseorangguru.m4a
 ms-MY	6	8	Umur/Lina/tujuh/tahun		linatujuhtahun.png	umurlinatujuhtahun.m4a
 ms-MY	6	9	Kami/pergi/ke/Melaka		pergimelaka.png	kamipergikemelaka.m4a
-ms-MY	6	10	Kami/berjalan/ke/sekolah		berjalankesekolah.png	kamiberjalankesekolah.m4a
+ms-MY	6	10	Mei/berjalan/ke/sekolah		berjalankesekolah.png	meiberjalankesekolah.m4a
 ms-MY	7	1	Saya/kenal/budak/itu		budak.png	sayakenalbudakitu.m4a
-ms-MY	7	2	Saya/pandai/mewarna	melukis	mewarna.png	sayapandaimewarna.m4a
+ms-MY	7	2	Saya/pandai/mewarna	menyanyi	mewarna.png	sayapandaimewarna.m4a
 ms-MY	7	3	Saya/ada/sebatang/pensel	pen	pensel.png	sayaadasebatangpensel.m4a
 ms-MY	7	4	Saya/ada/seekor/kucing		kucingpeliharaan.png	sayaadaseekorkucing.m4a
 ms-MY	7	5	Saya/ada/ramai/kawan		ramikawan.png	sayaadaramikawan.m4a
-ms-MY	7	6	Mereka/suka/makan/sayur		makansayur.png	merekasukamakansayur.m4a
+ms-MY	7	6	Adik/suka/makan/sayur		makansayur.png	adiksukamakansayur.m4a
 ms-MY	7	7	Mereka/ada/dua/biji/mangga		duamangga.png	merekaadaduabijimangga.m4a
 ms-MY	7	8	Mei/ada/tiga/orang/abang		tigaabang.png	meiadatigaorangabang.m4a
 ms-MY	7	9	Ravi/ada/sebuah/van	kereta	van.png	raviadasebuahvan.m4a
 ms-MY	7	10	Bayi/suka/minum/susu		bayiminumsusu.png	bayisukaminumsusu.m4a
-ms-MY	8	1	Ming/berenang/di/kolam		berenangkolam.png	mingberenangdikolam.m4a
+ms-MY	8	1	Budak itu/berenang/di/kolam		berenangkolam.png	budakituberenangdikolam.m4a
 ms-MY	8	2	Ming/cuci/basikal	kasut	cucibasikal.png	mingcucibasikal.m4a
 ms-MY	8	3	Ravi/sangat/gembira		ravigembira.png	ravisangatgembira.m4a
 ms-MY	8	4	Tupai/melompat/tinggi	berlari	tupaimelompat.png	tupaimelompattinggi.m4a
@@ -87,21 +87,21 @@ ms-MY	9	5	Buku/latihan/itu/nipis	tebal	bukulatihannipis.png	bukulatihanitunipis.
 ms-MY	9	6	Pintu/rumah/ini/rosak		pinturumahrosak.png	pinturumahinirosak.m4a
 ms-MY	9	7	Budak/itu/bermain/di/padang		budakbermainpadang.png	budakitubermaindipadang.m4a
 ms-MY	9	8	Siti/pergi/ke/kedai		sitikedai.png	sitipergikedai.m4a
-ms-MY	9	9	Amir/suka/membaca/buku		membacabuku.png	amirsukamembacabuku.m4a
-ms-MY	9	10	Abang/bermain/bola sepak		bolasepak.png	abangbermainbolasepak.m4a
-ms-MY	10	1	Kucing/itu/di/atas/kotak	bawah	kucingataskotak.png	kucingitudiatas kotak.m4a
+ms-MY	9	9	Mimi/suka/membaca/buku		membacabuku.png	mimisukamembacabuku.m4a
+ms-MY	9	10	Mereka/bermain/bola sepak		bolasepak.png	merekabermainbolasepak.m4a
+ms-MY	10	1	Kucing/itu/di/atas/kotak	bawah	kucingataskotak.png	kucingitudiataskotak.m4a
 ms-MY	10	2	Kera/itu/di/atas/pokok	bawah	keradiataspokok.png	keraitudiataspokok.m4a
 ms-MY	10	3	Beg/itu/di/atas/kerusi	bawah	begataskerusi.png	begitudiataskerusi.m4a
 ms-MY	10	4	Kasut/itu/di/bawah/meja	atas	kasutbawahmeja.png	kasutitubawahmeja.m4a
-ms-MY	10	5	Kambing/itu/di/dalam/kandang	luar	kambingkandang.png	kambingitudidalamkandang.m4a
-ms-MY	10	6	Cicak/itu/di/dinding	lantai	cicakdinding.png	cicakitudidinding.m4a
+ms-MY	10	5	Kambing/itu/di/padang	laut	kambingkandang.png	kambingitudipadang.m4a
+ms-MY	10	6	Cicak/itu/di/lantai	dinding	cicakdinding.png	cicakitudilantai.m4a
 ms-MY	10	7	Sampan/itu/di/tepi/sungai		sampansungai.png	sampanituditepisungai.m4a
 ms-MY	10	8	Katil/itu/di/tepi/tingkap		katiltingkap.png	katilituditepitingkap.m4a
 ms-MY	10	9	Burung/rehat/di/atas/pokok		burungrehatpokok.png	burungrehatdiataspokok.m4a
 ms-MY	10	10	Katak/lompat/ke/dalam/kolam		kataklompatkolam.png	kataklompatkedalamkolam.m4a
 ms-MY	11	1	Ikan/berenang/di/dalam/kolam	lompat	ikanberenangkolam.png	ikanberenangdidalamkolam.m4a
-ms-MY	11	2	Ming/tanam/petola/di/kebun	siram	petolakebun.png	mingtanampetoladikebun.m4a
-ms-MY	11	3	Mei/berkelah/di/tepi/pantai	berehat	berkelahpantai.png	meiberkelahditepipantai.m4a
+ms-MY	11	2	Mimi/tanam/petola/di/kebun	siram	petolakebun.png	mimitanampetoladikebun.m4a
+ms-MY	11	3	Mereka/berkelah/di/tepi/pantai	berehat	berkelahpantai.png	merekaberkelahditepipantai.m4a
 ms-MY	11	4	Aini/baring/di/bilik/tidur	duduk	baringbilik.png	ainibaringdibiliktidur.m4a
 ms-MY	11	5	Adik/siram/pokok bunga	tanam	sirampokokbunga.png	adiksirampokokbunga.m4a
 ms-MY	11	6	Kucing/tidur/di/atas/sofa	duduk	kucingtidursofa.png	kucingtidurdiatassofa.m4a
@@ -110,16 +110,16 @@ ms-MY	11	8	Tupai/panjat/pokok	lompat	tupaipanjatpokok.png	tupaipanjatpokok.m4a
 ms-MY	11	9	Murid/berbaris/di depan/kelas		muridberbaris.png	muridberbarisdidepankelas.m4a
 ms-MY	11	10	Adik/lukis/gambar/kucing		lukiskucing.png	adiklukisgambarkucing.m4a
 ms-MY	12	1	Adik/belajar/bermain/biola	menyanyi	bermainbiola.png	adikbelajarbermainbiola.m4a
-ms-MY	12	2	Ayah/sedang/cuci/longkang	bersih	cucilongkang.png	ayahsedangcucilongkang.m4a
-ms-MY	12	3	Ming/siram/pokok/keladi	tanam	sirampokokkeladi.png	mingsirampokokkeladi.m4a
+ms-MY	12	2	Abang/sedang/cuci/longkang	bersih	cucilongkang.png	abangsedangcucilongkang.m4a
+ms-MY	12	3	Kakak/siram/pokok/keladi	tanam	sirampokokkeladi.png	kakaksirampokokkeladi.m4a
 ms-MY	12	4	Ravi/tolak/basikal	tarik	tolakbasikal.png	ravitolakbasikal.m4a
-ms-MY	12	5	Mei/kemas/bilik tidur	susun	kemasbilik.png	meikemasbiliktidur.m4a
+ms-MY	12	5	Ali/kemas/bilik tidur	susun	kemasbilik.png	alikemasbiliktidur.m4a
 ms-MY	12	6	Lina/basuh/pinggan mangkuk	lap	basuhpinggan.png	linabasuhpingganmangkuk.m4a
 ms-MY	12	7	Abang/angkat/kotak besar	tolak	angkatkotakbesar.png	abangangkatkotakbesar.m4a
 ms-MY	12	8	Kakak/jahit/baju	gunting	jahitbaju.png	kakakjahitbaju.m4a
-ms-MY	12	9	Ayah/tutup/pintu/rumah	buka	tutuppinturumah.png	ayahtutuppinturumah.m4a
-ms-MY	12	10	Ibu/potong/buah/tembikai	durian	potongtembikai.png	ibupotongbuatem tembikai.m4a
-ms-MY	13	1	Ayah/beli/dua biji/buah/tembikai	jual	duabijitembikai.png	ayahbeliduabijibuah tembikai.m4a
+ms-MY	12	9	Adik/keluar/dari/rumah	kereta	tutuppinturumah.png	adikkeluardarirumah.m4a
+ms-MY	12	10	Ibu/potong/buah/tembikai	durian	potongtembikai.png	ibupotongbuahtembikai.m4a
+ms-MY	13	1	Ayah/beli/dua biji/buah/tembikai	jual	duabijitembikai.png	ayahbeliduabijibuahtembikai.m4a
 ms-MY	13	2	Saya/suka/berkawan/dengan/Amir	bermain	berkawanamir.png	sayasukaberkawandenganamir.m4a
 ms-MY	13	3	Meja/kayu/itu/sudah/rosak	pecah	mejakayurosak.png	mejakayuitusudahrosak.m4a
 ms-MY	13	4	Di/mana/rumah/Devi?	siapa	rumahdevi.png	dimanarumahdevi.m4a
@@ -130,14 +130,14 @@ ms-MY	13	8	Bila/hari/jadi/kamu?	Berapa	harijadi.png	bilaharijadikamu.m4a
 ms-MY	13	9	Di mana/kucing itu/sembunyi?	Siapa	kucingsembunyi.png	dimanakucingitusembunyi.m4a
 ms-MY	13	10	Siapa/nama/adik/kamu?	Apa	namaadik.png	siapanamaadikkamu.m4a
 ms-MY	14	1	Apa/warna/baju/ini?	Siapa	warnabaju.png	apawarnabajuini.m4a
-ms-MY	14	2	Ini/khemah/siapa?	apa	khemah.png	inikhemahs iapa.m4a
+ms-MY	14	2	Ini/khemah/siapa?	apa	khemah.png	inikhemahsiapa.m4a
 ms-MY	14	3	Di/mana/kunci/itu?	Siapa	kunci.png	dimanakunciitu.m4a
-ms-MY	14	4	Ali/suka/makan/buah/apa?	siapa	buah.png	alisukamakanbuahapa.m4a
+ms-MY	14	4	Adik/suka/makan/buah/apa?	siapa	buah.png	adiksukamakanbuahapa.m4a
 ms-MY	14	5	Haiwan/apa/makan/buah/pisang?	siapa	pisang.png	haiwanapamakanbuahpisang.m4a
 ms-MY	14	6	Adik/seorang/pemalu	berani	adikpemalu.png	adikseorangpemalu.m4a
 ms-MY	14	7	Ibu saya/suka/warna/kuning	hijau	warnakuning.png	ibusayasukawarnakuning.m4a
 ms-MY	14	8	Kucing/itu/di atas/sofa	bawah	kucingsofa.png	kucingitudiatassofa.m4a
-ms-MY	14	9	Ikan/berenang/di/sungai	kolam	ikansungai.png	ikanberenangdisungai.m4a
+ms-MY	14	9	Ikan/berenang/di/sungai	pantai	ikansungai.png	ikanberenangdisungai.m4a
 ms-MY	14	10	Bunga/itu/berwarna/kuning	putih	bungakuning.png	bungaituberwarnakuning.m4a
 ms-MY	15	1	Berapa/umur/kamu/tahun/ini?	hari	umurtujuh.png	berapaumurkamutahunini.m4a
 ms-MY	15	2	Datuk/minum/jus/oren	epal	jusoren.png	datukminumjusoren.m4a
