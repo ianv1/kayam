@@ -424,7 +424,7 @@ public class MainActivity extends KitKitLoggerActivity implements PasswordDialog
                             folder.mkdirs();
                         }
                         File[] files = folder.listFiles();
-                        FirebaseStorage storage = FirebaseStorage.getInstance("gs://kayam-school-phase-2.appspot.com");
+                        FirebaseStorage storage = FirebaseStorage.getInstance("gs://kayam-school-phase-3.firebasestorage.app");
                         StorageReference storageRef = storage.getReference();
 
                         SharedPreferences preferences = getSharedPreferences("sharedPref", Context.MODE_PRIVATE);

@@ -115,23 +115,29 @@ public class SessionCsvWriter {
      * Android version, returning the path that succeeded (or null).
      *
      * Strategy:
-     *   API 29+ : MediaStore.Downloads -> /Download/kayam-reports/<file>
-     *             (no permission needed, visible in every file manager)
+     *   API 29+ : MediaStore.Files -> /Documents/kayam-reports/<file>
+     *             (no permission needed, visible in every file manager,
+     *             AND lives in the same folder the launcher's uploadCSV
+     *             scans for upload).
      *   else    : legacy public Documents -> /Documents/kayam-reports/<file>
      *   fallback: app-private external storage (always works, no perms)
      */
     private static String writeCsvAnywhere(Context context, String filename, String content) {
         ContentResolver cr = context.getContentResolver();
 
-        // 1) MediaStore.Downloads (Android 10+)
+        // 1) MediaStore.Files into public Documents (Android 10+).
+        // We deliberately do NOT use MediaStore.Downloads — the
+        // uploadCSV uploader in LoginActivity / MainActivity scans
+        // /Documents/kayam-reports, so reports written elsewhere would
+        // never be picked up.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
             try {
                 ContentValues v = new ContentValues();
-                v.put(MediaStore.Downloads.DISPLAY_NAME, filename);
-                v.put(MediaStore.Downloads.MIME_TYPE, "text/csv");
-                v.put(MediaStore.Downloads.RELATIVE_PATH,
-                        Environment.DIRECTORY_DOWNLOADS + "/kayam-reports/");
-                Uri uri = cr.insert(MediaStore.Downloads.EXTERNAL_CONTENT_URI, v);
+                v.put(MediaStore.MediaColumns.DISPLAY_NAME, filename);
+                v.put(MediaStore.MediaColumns.MIME_TYPE, "text/csv");
+                v.put(MediaStore.MediaColumns.RELATIVE_PATH,
+                        Environment.DIRECTORY_DOCUMENTS + "/kayam-reports/");
+                Uri uri = cr.insert(MediaStore.Files.getContentUri("external"), v);
                 if (uri != null) {
                     try (OutputStream os = cr.openOutputStream(uri)) {
                         if (os != null) {
@@ -139,10 +145,10 @@ public class SessionCsvWriter {
                             os.flush();
                         }
                     }
-                    return "Download/kayam-reports/" + filename;
+                    return "Documents/kayam-reports/" + filename;
                 }
             } catch (Exception e) {
-                Log.w(TAG, "MediaStore.Downloads write failed: " + e.getMessage());
+                Log.w(TAG, "MediaStore Documents write failed: " + e.getMessage());
             }
         }
 

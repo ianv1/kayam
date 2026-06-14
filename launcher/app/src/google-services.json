@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "286909984186",
-    "project_id": "kayam-school-phase-2",
-    "storage_bucket": "kayam-school-phase-2.appspot.com"
+    "project_number": "999390001425",
+    "project_id": "kayam-school-phase-3",
+    "storage_bucket": "kayam-school-phase-3.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:286909984186:android:592c8da11d2ed95416c183",
+        "mobilesdk_app_id": "1:999390001425:android:3e4705a1cb45e511b274b0",
         "android_client_info": {
           "package_name": "asia.chumbaka.kayam.launcher"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCropVBUsuFozo2BsETrGlHXesE63zIjbE"
+          "current_key": "AIzaSyChyg3emwV7-BPwr4qVF-fxO-8m7t6vDzY"
         }
       ],
       "services": {
