@@ -2,6 +2,7 @@ package asia.chumbaka.kitkitProvider;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.UriMatcher;
 import android.database.Cursor;
@@ -102,12 +103,25 @@ public class KitkitProvider extends ContentProvider {
             case SNTP_RESULT:
                 queryBuilder.setTables(KitkitDBHandler.TABLE_SNTP_RESULT);
                 break;
-            case PREFERENCE_INFO:
-                final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getContext());
-                String tabletNumber = prefs.getString("TABLET_NUMBER", "");
+            case PREFERENCE_INFO: {
+                // The launcher stores the tablet number under
+                //   getSharedPreferences("sharedPref") / "tablet_number"
+                // (lowercase). Older code wrote it to the default-prefs
+                // store under "TABLET_NUMBER" — try the launcher's
+                // location first, fall back to the default-prefs store
+                // for backwards compatibility.
+                final SharedPreferences sharedPref =
+                        getContext().getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS);
+                String tabletNumber = sharedPref.getString("tablet_number", "");
+                if (tabletNumber == null || tabletNumber.isEmpty()) {
+                    final SharedPreferences defaults =
+                            PreferenceManager.getDefaultSharedPreferences(getContext());
+                    tabletNumber = defaults.getString("TABLET_NUMBER", "");
+                }
                 MatrixCursor cursor = new MatrixCursor(new String[]{"TABLET_NUMBER"});
                 cursor.addRow(new String[]{String.valueOf(tabletNumber)});
                 return cursor;
+            }
             case FISHES:
                 queryBuilder.setTables(KitkitDBHandler.TABLE_FISHES);
                 break;
