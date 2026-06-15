@@ -22,7 +22,7 @@ ms-MY	4	1	2	ha_sound.m4a	ru_sound.m4a	guru	guru.m4a	red	3,4	kerusi	kerusi.m4a	re
 ms-MY	4	1	3	me_sound.m4a	ka_sound.m4a	sekali	sekali.m4a	red	3,4	pameran	pameran.m4a	blue	3,4	kemeja	kemeja.m4a	blue	3,4	lokasi	lokasi.m4a	red	3,4
 ms-MY	4	2	1	ti_sound.m4a	na_sound.m4a	menara	menara.m4a	red	3,4	kenari	kenari.m4a	red	3,4	ketika	ketika.m4a	blue	3,4	kenapa	kenapa.m4a	red	3,4
 ms-MY	4	2	2	ha_sound.m4a	ru_sound.m4a	guru	guru.m4a	red	3,4	kerusi	kerusi.m4a	red	3,4	bahaya	bahaya.m4a	blue	3,4	bahasa	bahasa.m4a	blue	3,4
-ms-MY	4	1	3	me_sound.m4a	ka_sound.m4a	sekali	sekali.m4a	red	3,4	pameran	pameran.m4a	blue	3,4	kemeja	kemeja.m4a	blue	3,4	lokasi	lokasi.m4a	red	3,4
+ms-MY	4	2	3	me_sound.m4a	ka_sound.m4a	sekali	sekali.m4a	red	3,4	pameran	pameran.m4a	blue	3,4	kemeja	kemeja.m4a	blue	3,4	lokasi	lokasi.m4a	red	3,4
 ms-MY	5	1	1	ku_sound.m4a	ju_sound.m4a	laku	laku.m4a	blue	3,4	saku	saku.m4a	blue	3,4	baju	baju.m4a	red	3,4	keju	keju.m4a	red	3,4
 ms-MY	5	1	2	ki_sound.m4a	li_sound.m4a	daki	daki.m4a	blue	3,4	tali	tali.m4a	red	3,4	baki	baki.m4a	blue	3,4	pili	pili.m4a	red	3,4
 ms-MY	5	1	3	pu_sound.m4a	pi_sound.m4a	sapu	sapu.m4a	blue	3,4	api	api.m4a	red	2,3	topi	topi.m4a	red	3,4	lampu	lampu.m4a	blue	4,5
@@ -32,7 +32,7 @@ ms-MY	5	2	3	pu_sound.m4a	pi_sound.m4a	sapu	sapu.m4a	blue	3,4	api	api.m4a	red	2,3
 ms-MY	6	1	1	lo_sound.m4a	go_sound.m4a	pagoda	pagoda.m4a	red	3,4	solo	solo.m4a	blue	3,4	polo	polo.m4a	blue	3,4	kilo	kilo.m4a	blue	3,4
 ms-MY	6	1	2	si_sound.m4a	gi_sound.m4a	gigi	gigi.m4a	red	1,2	ragi	ragi.m4a	red	3,4	basi	basi.m4a	blue	3,4	nasi	nasi.m4a	blue	3,4
 ms-MY	6	1	3	nu_sound.m4a	tu_sound.m4a	satu	satu.m4a	red	3,4	menu	menu.m4a	blue	3,4	batu	batu.m4a	red	3,4	ratu	ratu.m4a	red	3,4
-ms-MY	6	1	1	lo_sound.m4a	go_sound.m4a	pagoda	pagoda.m4a	red	3,4	solo	solo.m4a	blue	3,4	polo	polo.m4a	blue	3,4	kilo	kilo.m4a	blue	3,4
+ms-MY	6	2	1	lo_sound.m4a	go_sound.m4a	pagoda	pagoda.m4a	red	3,4	solo	solo.m4a	blue	3,4	polo	polo.m4a	blue	3,4	kilo	kilo.m4a	blue	3,4
 ms-MY	6	2	2	si_sound.m4a	gi_sound.m4a	gigi	gigi.m4a	red	1,2	ragi	ragi.m4a	red	3,4	basi	basi.m4a	blue	3,4	nasi	nasi.m4a	blue	3,4
 ms-MY	6	2	3	nu_sound.m4a	tu_sound.m4a	satu	satu.m4a	red	3,4	menu	menu.m4a	blue	3,4	batu	batu.m4a	red	3,4	ratu	ratu.m4a	red	3,4
 ms-MY	7	1	1	kam_sound.m4a	lem_sound.m4a	lembing	lembing.m4a	red	1,2,3	kambing	kambing.m4a	blue	1,2,3	lembu	lembu.m4a	red	1,2,3	kampung	kampung.m4a	blue	1,2,3
