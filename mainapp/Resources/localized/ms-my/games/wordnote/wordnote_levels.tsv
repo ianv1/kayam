@@ -46,7 +46,7 @@ ms-MY	4	1	4	sup	s,u,p	s,u,p	sup.m4a	sup.png	TRUE	TRUE
 ms-MY	4	1	5	kad	k,a,d	k,a,d	kad.m4a	kad.png	TRUE	TRUE
 ms-MY	4	2	1	jet	j,e,t	j,e,t	jet.m4a	jet.png	TRUE	TRUE
 ms-MY	4	2	2	jem	j,e,m	j,e,m	jem.m4a	jem.png	TRUE	TRUE
-ms-MY	4	2	3	bos	b,o,s	b,o,s	bos.m4a	bos.png	TRUE	TRUE
+ms-MY	4	2	3	bos	b,o,s	b,o,s	bos.m4a		TRUE	TRUE
 ms-MY	4	2	4	lif	l,i,f	l,i,f	lif.m4a	lif.png	TRUE	TRUE
 ms-MY	4	2	5	rim	r,i,m	r,i,m	rim.m4a		TRUE	TRUE
 ms-MY	5	1	1	otak	o,tak	o,tak	otak.m4a	otak.png	TRUE	TRUE
@@ -119,16 +119,16 @@ ms-MY	11	2	2	yang	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	y,a,n,g	ya
 ms-MY	11	2	3	kung	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	k,u,n,g	kung.m4a		TRUE	TRUE
 ms-MY	11	2	4	geng	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	g,e,n,g	geng.m4a		TRUE	TRUE
 ms-MY	11	2	5	sang	a,b,c,d,e,f,g,h,i,j,k,l,m/n,o,p,q,r,s,t,u,v,w,x,y,z	s,a,n,g	sang.m4a		TRUE	TRUE
-ms-MY	12	1	1	helang	he,gu,lo,te,pi,bu,ku,su,to,ki/lang	he,lang	helang.m4a	helang.png	TRUE	TRUE
-ms-MY	12	1	2	gunung	he,gu,lo,te,pi,bu,ku,su,to,ki/nung	gu,nung	gunung.m4a	gunung.png	TRUE	TRUE
-ms-MY	12	1	3	loceng	he,gu,lo,te,pi,bu,ku,su,to,ki/ceng	lo,ceng	loceng.m4a	loceng.png	TRUE	TRUE
-ms-MY	12	1	4	terung	he,gu,lo,te,pi,bu,ku,su,to,ki/rung	te,rung	terung.m4a	terung.png	TRUE	TRUE
-ms-MY	12	1	5	pinang	he,gu,lo,te,pi,bu,ku,su,to,ki/nang	pi,nang	pinang.m4a	pinang.png	TRUE	TRUE
-ms-MY	12	2	1	burung	he,gu,lo,te,pi,bu,ku,su,to,ki/rung	bu,rung	burung.m4a	burung.png	TRUE	TRUE
-ms-MY	12	2	2	kurung	he,gu,lo,te,pi,bu,ku,su,to,ki/rung	ku,rung	kurung.m4a		TRUE	TRUE
-ms-MY	12	2	3	sulung	he,gu,lo,te,pi,bu,ku,su,to,ki/lung	su,lung	sulung.m4a		TRUE	TRUE
-ms-MY	12	2	4	topeng	he,gu,lo,te,pi,bu,ku,su,to,ki/peng	to,peng	topeng.m4a	topeng.png	TRUE	TRUE
-ms-MY	12	2	5	kilang	he,gu,lo,te,pi,bu,ku,su,to,ki/lang	ki,lang	kilang.m4a	kilang.png	TRUE	TRUE
+ms-MY	12	1	1	helang	he,gu,lo,te,pi/lang	he,lang	helang.m4a	helang.png	TRUE	TRUE
+ms-MY	12	1	2	gunung	he,gu,lo,te,pi/nung	gu,nung	gunung.m4a	gunung.png	TRUE	TRUE
+ms-MY	12	1	3	loceng	he,gu,lo,te,pi/ceng	lo,ceng	loceng.m4a	loceng.png	TRUE	TRUE
+ms-MY	12	1	4	terung	he,gu,lo,te,pi/rung	te,rung	terung.m4a	terung.png	TRUE	TRUE
+ms-MY	12	1	5	pinang	he,gu,lo,te,pi/nang	pi,nang	pinang.m4a	pinang.png	TRUE	TRUE
+ms-MY	12	2	1	burung	bu,ku,su,to,ki/rung	bu,rung	burung.m4a	burung.png	TRUE	TRUE
+ms-MY	12	2	2	kurung	bu,ku,su,to,ki/rung	ku,rung	kurung.m4a		TRUE	TRUE
+ms-MY	12	2	3	sulung	bu,ku,su,to,ki/lung	su,lung	sulung.m4a		TRUE	TRUE
+ms-MY	12	2	4	topeng	bu,ku,su,to,ki/peng	to,peng	topeng.m4a	topeng.png	TRUE	TRUE
+ms-MY	12	2	5	kilang	bu,ku,su,to,ki/lang	ki,lang	kilang.m4a	kilang.png	TRUE	TRUE
 ms-MY	13	1	1	arang	a,e,i,o,u,rang	a,rang	arang.m4a	arang.png	TRUE	TRUE
 ms-MY	13	1	2	udang	a,e,i,o,u,dang	u,dang	udang.m4a	udang.png	TRUE	TRUE
 ms-MY	13	1	3	abang	a,e,i,o,u,bang	a,bang	abang.m4a	abang.png	TRUE	TRUE
@@ -139,96 +139,96 @@ ms-MY	13	2	2	usang	a,e,i,o,u,sang	u,sang	usang.m4a		TRUE	TRUE
 ms-MY	13	2	3	awang	a,e,i,o,u,wang	a,wang	awang.m4a		TRUE	TRUE
 ms-MY	13	2	4	apung	a,e,i,o,u,pung	a,pung	apung.m4a		TRUE	TRUE
 ms-MY	13	2	5	inang	a,e,i,o,u,nang	i,nang	inang.m4a		TRUE	TRUE
-ms-MY	14	1	1	kentang	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	ken,tung,tang	kentang.m4a	kentang.png	TRUE	TRUE
-ms-MY	14	1	2	jantung	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	jan,tang,tung	jantung.m4a	jantung.png	TRUE	TRUE
-ms-MY	14	1	3	lembing	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	lem,bing,dang	lembing.m4a	lembing.png	TRUE	TRUE
-ms-MY	14	1	4	gunting	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	gun,dang,ting	gunting.m4a	gunting.png	TRUE	TRUE
-ms-MY	14	1	5	gendang	ken,jan,lem,gun,gen/tang,tung,bing,ting,dang	gen,bing,dang	gendang.m4a	gendang.png	TRUE	TRUE
-ms-MY	14	2	1	bendang	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	ben,ding,dang	bendang.m4a	bendang.png	TRUE	TRUE
-ms-MY	14	2	2	rendang	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	ren,dang,tung	rendang.m4a	rendang.png	TRUE	TRUE
-ms-MY	14	2	3	banding	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	ban,dung,ding	banding.m4a		TRUE	TRUE
-ms-MY	14	2	4	kandung	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	kan,pung,dung	kandung.m4a		TRUE	TRUE
-ms-MY	14	2	5	kampung	ben,ren,ban,kan,kam/dang,ding,dung,pung,tung	kam,dang,pung	kampung.m4a	kampung.png	TRUE	TRUE
-ms-MY	15	1	1	mangga	mang,rang,bang,sing,bing/ga,ka,ku,ki	mang,ka,ga	mangga.m4a	mangga.png	TRUE	TRUE
-ms-MY	15	1	2	rangka	mang,rang,bang,sing,bing/ga,ka,ku,ki	rang,ga,ka	rangka.m4a	rangka.png	TRUE	TRUE
-ms-MY	15	1	3	bangku	mang,rang,bang,sing,bing/ga,ka,ku,ki	bang,ki,ku	bangku.m4a	bangku.png	TRUE	TRUE
-ms-MY	15	1	4	singki	mang,rang,bang,sing,bing/ga,ka,ku,ki	sing,ga,ki	singki.m4a	singki.png	TRUE	TRUE
-ms-MY	15	1	5	bingka	mang,rang,bang,sing,bing/ga,ka,ku,ki	bing,ku,ka	bingka.m4a		TRUE	TRUE
-ms-MY	15	2	1	nangka	nang,tang,sang,kong,bang/ka,ga,si	nang,ga,ka	nangka.m4a	nangka.png	TRUE	TRUE
-ms-MY	15	2	2	tangga	nang,tang,sang,kong,bang/ka,ga,si	tang,ka,ga	tangga.m4a	tangga.png	TRUE	TRUE
-ms-MY	15	2	3	sangka	nang,tang,sang,kong,bang/ka,ga,si	sang,si,ka	sangka.m4a		TRUE	TRUE
-ms-MY	15	2	4	kongsi	nang,tang,sang,kong,bang/ka,ga,si	kong,ga,si	kongsi.m4a		TRUE	TRUE
-ms-MY	15	2	5	bangga	nang,tang,sang,kong,bang/ka,ga,si	bang,ka,ga	bangga.m4a		TRUE	TRUE
-ms-MY	16	1	1	sangkar	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	sang,kok,kar	sangkar.m4a	sangkar.png	TRUE	TRUE
-ms-MY	16	1	2	songkok	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	song,kap,kok	songkok.m4a	songkok.png	TRUE	TRUE
-ms-MY	16	1	3	cangkul	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	cang,kar,kul	cangkul.m4a	cangkul.png	TRUE	TRUE
-ms-MY	16	1	4	langsir	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	lang,kul,sir	langsir.m4a	langsir.png	TRUE	TRUE
-ms-MY	16	1	5	tingkap	sang,song,cang,lang,ting/kar,kok,kul,sir,kap	ting,kar,kap	tingkap.m4a	tingkap.png	TRUE	TRUE
-ms-MY	16	2	1	bengkok	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	beng,kap,kok	bengkok.m4a		TRUE	TRUE
-ms-MY	16	2	2	langsat	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	lang,kas,sat	langsat.m4a	langsat.png	TRUE	TRUE
-ms-MY	16	2	3	tongkat	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	tong,kap,kat	tongkat.m4a	tongkat.png	TRUE	TRUE
-ms-MY	16	2	4	tangkap	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	tang,kat,kap	tangkap.m4a		TRUE	TRUE
-ms-MY	16	2	5	ringkas	beng,lang,tong,tang,ring/kok,sat,kat,kap,kas	ring,sat,kas	ringkas.m4a		TRUE	TRUE
-ms-MY	17	1	1	kangkung	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	kang,gung,kung,lung	kangkung.m4a	kangkung.png	TRUE	TRUE
-ms-MY	17	1	2	longkang	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	long,gang,kang,gung	longkang.m4a	longkang.png	TRUE	TRUE
-ms-MY	17	1	3	tanglung	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	tang,kang,lung,gung	tanglung.m4a	tanglung.png	TRUE	TRUE
-ms-MY	17	1	4	tongkang	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	tong,lung,kang,gung	tongkang.m4a	tongkang.png	TRUE	TRUE
-ms-MY	17	1	5	panggang	kang,long,tang,tong,pang/kung,kang,lung,gang,gung	pang,kung,gang,gung	panggang.m4a	panggang.png	TRUE	TRUE
-ms-MY	17	2	1	panggung	pang,ping,lang,pung/gung,gang,sung,pong	pang,pong,gung,gang	panggung.m4a	panggung.png	TRUE	TRUE
-ms-MY	17	2	2	pinggang	pang,ping,lang,pung/gung,gang,sung,pong	ping,gung,gang,pong	pinggang.m4a	pinggang.png	TRUE	TRUE
-ms-MY	17	2	3	langsung	pang,ping,lang,pung/gung,gang,sung,pong	lang,pong,sung,gang	langsung.m4a		TRUE	TRUE
-ms-MY	17	2	4	punggung	pang,ping,lang,pung/gung,gang,sung,pong	pung,sung,gung,gang	punggung.m4a		TRUE	TRUE
-ms-MY	17	2	5	pingpong	pang,ping,lang,pung/gung,gang,sung,pong	ping,gang,pong,gung	pingpong.m4a	pingpong.png	TRUE	TRUE
-ms-MY	18	1	1	pepatung	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	pe,la,pa,tung,lang	pepatung.m4a	pepatung.png	TRUE	TRUE
-ms-MY	18	1	2	belalang	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	be,ro,la,lang,yang	belalang.m4a	belalang.png	TRUE	TRUE
-ms-MY	18	1	3	lelayang	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	le,pa,la,yang,wong	lelayang.m4a	lelayang.png	TRUE	TRUE
-ms-MY	18	1	4	terowong	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	te,na,ro,wong,lang	terowong.m4a	terowong.png	TRUE	TRUE
-ms-MY	18	1	5	binatang	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang,wong,tang	bi,pa,na,tang,yang	binatang.m4a	binatang.png	TRUE	TRUE
-ms-MY	18	2	1	belakang	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	be,ri,la,kang,lang	belakang.m4a		TRUE	TRUE
-ms-MY	18	2	2	keriting	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	ke,la,ri,ting,lang	keriting.m4a	keriting.png	TRUE	TRUE
-ms-MY	18	2	3	kelalang	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	ke,ru,la,lang,bang	kelalang.m4a	kelalang.png	TRUE	TRUE
-ms-MY	18	2	4	seruling	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	se,la,ru,ling,ting	seruling.m4a	seruling.png	TRUE	TRUE
-ms-MY	18	2	5	kelabang	be,ke,se/la,ri,ru/kang,ting,lang,bang,ling	ke,ri,la,bang,kang	kelabang.m4a	kelabang.png	TRUE	TRUE
-ms-MY	19	1	1	belimbing	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	be,lan,lim,bing,dang	belimbing.m4a	belimbing.png	TRUE	TRUE
-ms-MY	19	1	2	pelampung	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	pe,len,lam,pung,bing	pelampung.m4a	pelampung.png	TRUE	TRUE
-ms-MY	19	1	3	selendang	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	se,lim,len,dang,cong	selendang.m4a	selendang.png	TRUE	TRUE
-ms-MY	19	1	4	pelancong	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	pe,lam,lan,cong,dang	pelancong.m4a	pelancong.png	TRUE	TRUE
-ms-MY	19	1	5	menendang	be,pe,se,me/lim,lam,len,lan,nen/bing,pung,dang,cong	me,lan,nen,dang,pung	menendang.m4a	menendang.png	TRUE	TRUE
-ms-MY	19	2	1	penumpang	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	pe,run,num,pang,ding	penumpang.m4a	penumpang.png	TRUE	TRUE
-ms-MY	19	2	2	serunding	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	se,num,run,ding,dang	serunding.m4a	serunding.png	TRUE	TRUE
-ms-MY	19	2	3	gegendang	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	ge,run,gen,dang,dong	gegendang.m4a	gegendang.png	TRUE	TRUE
-ms-MY	19	2	4	kedondong	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	ke,nim,don,dong,bang	kedondong.m4a	kedondong.png	TRUE	TRUE
-ms-MY	19	2	5	penimbang	pe,se,ge,ke/num,run,gen,don,nim/pang,ding,dang,dong,bang	pe,gen,nim,bang,pang	penimbang.m4a	penimbang.png	TRUE	TRUE
-ms-MY	20	1	1	tempurung	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	tem,bo,pu,rung,rong	tempurung.m4a	tempurung.png	TRUE	TRUE
-ms-MY	20	1	2	pemborong	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	pem,da,bo,rong,yung	pemborong.m4a	pemborong.png	TRUE	TRUE
-ms-MY	20	1	3	pendayung	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	pen,bo,da,yung,wang	pendayung.m4a	pendayung.png	TRUE	TRUE
-ms-MY	20	1	4	pembilang	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	pem,ca,bi,lang,rung	pembilang.m4a		TRUE	TRUE
-ms-MY	20	1	5	pencawang	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung,lang,wang	pen,bi,ca,wang,lang	pencawang.m4a	pencawang.png	TRUE	TRUE
-ms-MY	20	2	1	pendukung	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pen,do,du,kung,tung	pendukung.m4a		TRUE	TRUE
-ms-MY	20	2	2	pendorong	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pen,da,do,rong,ring	pendorong.m4a		TRUE	TRUE
-ms-MY	20	2	3	pendatang	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pen,be,da,tang,rong	pendatang.m4a		TRUE	TRUE
-ms-MY	20	2	4	penjaring	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pen,du,ja,ring,kung	penjaring.m4a		TRUE	TRUE
-ms-MY	20	2	5	pembetung	pen,pem/du,do,da,ja,be/kung,rong,tang,ring,tung	pem,da,be,tung,tang	pembetung.m4a		TRUE	TRUE
-ms-MY	21	1	1	cengkerik	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	ceng,ko,ke,rik,rak	cengkerik.m4a	cengkerik.png	TRUE	TRUE
-ms-MY	21	1	2	tengkorak	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	teng,sa,ko,rak,lok	tengkorak.m4a	tengkorak.png	TRUE	TRUE
-ms-MY	21	1	3	tengkolok	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	teng,ka,ko,lok,rak	tengkolok.m4a	tengkolok.png	TRUE	TRUE
-ms-MY	21	1	4	pangkalan	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	pang,ke,ka,lan,wan	pangkalan.m4a	pangkalan.png	TRUE	TRUE
-ms-MY	21	1	5	bangsawan	ceng,teng,pang,bang/ke,ko,ka,sa/rik,rak,lok,lan,wan	bang,ko,sa,wan,lan	bangsawan.m4a		TRUE	TRUE
-ms-MY	21	2	1	tingkatan	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	ting,ge,ka,tan,man	tingkatan.m4a		TRUE	TRUE
-ms-MY	21	2	2	cengkaman	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	ceng,ge,ka,man,lam	cengkaman.m4a		TRUE	TRUE
-ms-MY	21	2	3	tenggelam	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	teng,ka,ge,lam,ran	tenggelam.m4a		TRUE	TRUE
-ms-MY	21	2	4	ringkasan	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	ring,ge,ka,san,lam	ringkasan.m4a		TRUE	TRUE
-ms-MY	21	2	5	lingkaran	ting,ceng,teng,ring,ling/ka,ge/tan,man,lam,san,ran	ling,ge,ka,ran,tan	lingkaran.m4a		TRUE	TRUE
-ms-MY	22	1	1	belangkas	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	be,long,lang,kas,kap	belangkas.m4a	belangkas.png	TRUE	TRUE
-ms-MY	22	1	2	perangkap	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	pe,long,rang,kap,kak	perangkap.m4a	perangkap.png	TRUE	TRUE
-ms-MY	22	1	3	merangkak	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	me,lang,rang,kak,kap	merangkak.m4a	merangkak.png	TRUE	TRUE
-ms-MY	22	1	4	selonggok	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	se,rang,long,gok,kas	selonggok.m4a		TRUE	TRUE
-ms-MY	22	1	5	tetingkap	be,pe,me,se,te/lang,rang,long,ting/kas,kap,kak,gok	te,lang,ting,kap,kas	tetingkap.m4a	tetingkap.png	TRUE	TRUE
-ms-MY	22	2	1	gelongsor	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	ge,ring,long,sor,kat	gelongsor.m4a	gelongsor.png	TRUE	TRUE
-ms-MY	22	2	2	tetingkat	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	te,long,ting,kat,gar	tetingkat.m4a	tetingkat.png	TRUE	TRUE
-ms-MY	22	2	3	melanggar	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	me,ring,lang,gar,gan	melanggar.m4a		TRUE	TRUE
-ms-MY	22	2	4	setinggan	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	se,long,ting,gan,gar	setinggan.m4a		TRUE	TRUE
-ms-MY	22	2	5	peringkat	ge,te,me,se,pe/long,ting,lang,ring/sor,kat,gar,gan	pe,lang,ring,kat,sor	peringkat.m4a		TRUE	TRUE
+ms-MY	14	1	1	kentang	ken,jan,lem,gun/tang,tung,dang	ken,tung,tang	kentang.m4a	kentang.png	TRUE	TRUE
+ms-MY	14	1	2	jantung	ken,jan,lem,gun/tang,tung,dang	jan,tang,tung	jantung.m4a	jantung.png	TRUE	TRUE
+ms-MY	14	1	3	lembing	ken,jan,lem,gun/tang,bing,dang	lem,bing,dang	lembing.m4a	lembing.png	TRUE	TRUE
+ms-MY	14	1	4	gunting	ken,jan,lem,gun/tang,ting,dang	gun,dang,ting	gunting.m4a	gunting.png	TRUE	TRUE
+ms-MY	14	1	5	gendang	ken,jan,lem,gen/tang,bing,dang	gen,bing,dang	gendang.m4a	gendang.png	TRUE	TRUE
+ms-MY	14	2	1	bendang	ben,ren,ban,kan/dang,ding,tung	ben,ding,dang	bendang.m4a	bendang.png	TRUE	TRUE
+ms-MY	14	2	2	rendang	ben,ren,ban,kan/dang,ding,tung	ren,dang,tung	rendang.m4a	rendang.png	TRUE	TRUE
+ms-MY	14	2	3	banding	ben,ren,ban,kan/dang,ding,dung	ban,dung,ding	banding.m4a		TRUE	TRUE
+ms-MY	14	2	4	kandung	ben,ren,ban,kan/dang,dung,pung	kan,pung,dung	kandung.m4a		TRUE	TRUE
+ms-MY	14	2	5	kampung	ben,ren,ban,kam/dang,dung,pung	kam,dang,pung	kampung.m4a	kampung.png	TRUE	TRUE
+ms-MY	15	1	1	mangga	mang,rang,bang/ga,ka,ku,ki	mang,ka,ga	mangga.m4a	mangga.png	TRUE	TRUE
+ms-MY	15	1	2	rangka	mang,rang,bang/ga,ka,ku,ki	rang,ga,ka	rangka.m4a	rangka.png	TRUE	TRUE
+ms-MY	15	1	3	bangku	mang,rang,bang/ga,ka,ku,ki	bang,ki,ku	bangku.m4a	bangku.png	TRUE	TRUE
+ms-MY	15	1	4	singki	mang,rang,sing/ga,ka,ku,ki	sing,ga,ki	singki.m4a	singki.png	TRUE	TRUE
+ms-MY	15	1	5	bingka	mang,rang,bing/ga,ka,ku,ki	bing,ku,ka	bingka.m4a		TRUE	TRUE
+ms-MY	15	2	1	nangka	nang,tang,sang/ka,ga,si	nang,ga,ka	nangka.m4a	nangka.png	TRUE	TRUE
+ms-MY	15	2	2	tangga	nang,tang,sang/ka,ga,si	tang,ka,ga	tangga.m4a	tangga.png	TRUE	TRUE
+ms-MY	15	2	3	sangka	nang,tang,sang/ka,ga,si	sang,si,ka	sangka.m4a		TRUE	TRUE
+ms-MY	15	2	4	kongsi	nang,tang,kong/ka,ga,si	kong,ga,si	kongsi.m4a		TRUE	TRUE
+ms-MY	15	2	5	bangga	nang,tang,bang/ka,ga,si	bang,ka,ga	bangga.m4a		TRUE	TRUE
+ms-MY	16	1	1	sangkar	sang,song,cang/kar,kok,kul,kap	sang,kok,kar	sangkar.m4a	sangkar.png	TRUE	TRUE
+ms-MY	16	1	2	songkok	sang,song,cang/kar,kok,sir,kap	song,kap,kok	songkok.m4a	songkok.png	TRUE	TRUE
+ms-MY	16	1	3	cangkul	sang,song,cang/kar,kok,kul,kap	cang,kar,kul	cangkul.m4a	cangkul.png	TRUE	TRUE
+ms-MY	16	1	4	langsir	sang,song,lang/kar,kok,kul,sir	lang,kul,sir	langsir.m4a	langsir.png	TRUE	TRUE
+ms-MY	16	1	5	tingkap	sang,song,ting/kar,kok,kul,kap	ting,kar,kap	tingkap.m4a	tingkap.png	TRUE	TRUE
+ms-MY	16	2	1	bengkok	beng,lang,tong/kok,sat,kat,kap	beng,kap,kok	bengkok.m4a		TRUE	TRUE
+ms-MY	16	2	2	langsat	beng,lang,tong/kok,sat,kap,kas	lang,kas,sat	langsat.m4a	langsat.png	TRUE	TRUE
+ms-MY	16	2	3	tongkat	beng,lang,tong/kok,sat,kat,kap	tong,kap,kat	tongkat.m4a	tongkat.png	TRUE	TRUE
+ms-MY	16	2	4	tangkap	beng,lang,tang/kok,kat,kap,kas	tang,kat,kap	tangkap.m4a		TRUE	TRUE
+ms-MY	16	2	5	ringkas	beng,lang,ring/kok,sat,kat,kas	ring,sat,kas	ringkas.m4a		TRUE	TRUE
+ms-MY	17	1	1	kangkung	kang,long,tang/kung,lung,gung	kang,gung,kung,lung	kangkung.m4a	kangkung.png	TRUE	TRUE
+ms-MY	17	1	2	longkang	kang,long,tang/kang,gang,gung	long,gang,kang,gung	longkang.m4a	longkang.png	TRUE	TRUE
+ms-MY	17	1	3	tanglung	kang,long,tang/kang,lung,gung	tang,kang,lung,gung	tanglung.m4a	tanglung.png	TRUE	TRUE
+ms-MY	17	1	4	tongkang	kang,long,tong/kang,lung,gung	tong,lung,kang,gung	tongkang.m4a	tongkang.png	TRUE	TRUE
+ms-MY	17	1	5	panggang	kang,long,pang/kung,gang,gung	pang,kung,gang,gung	panggang.m4a	panggang.png	TRUE	TRUE
+ms-MY	17	2	1	panggung	pang,ping,lang/gung,gang,pong	pang,pong,gung,gang	panggung.m4a	panggung.png	TRUE	TRUE
+ms-MY	17	2	2	pinggang	pang,ping,lang/gung,gang,pong	ping,gung,gang,pong	pinggang.m4a	pinggang.png	TRUE	TRUE
+ms-MY	17	2	3	langsung	pang,ping,lang/gang,sung,pong	lang,pong,sung,gang	langsung.m4a		TRUE	TRUE
+ms-MY	17	2	4	punggung	pang,ping,pung/gung,gang,sung	pung,sung,gung,gang	punggung.m4a		TRUE	TRUE
+ms-MY	17	2	5	pingpong	pang,ping,lang/gung,gang,pong	ping,gang,pong,gung	pingpong.m4a	pingpong.png	TRUE	TRUE
+ms-MY	18	1	1	pepatung	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang	pe,la,pa,tung,lang	pepatung.m4a	pepatung.png	TRUE	TRUE
+ms-MY	18	1	2	belalang	pe,be,le,te,bi/pa,la,ro,na/tung,lang,yang	be,ro,la,lang,yang	belalang.m4a	belalang.png	TRUE	TRUE
+ms-MY	18	1	3	lelayang	pe,be,le,te,bi/pa,la,ro,na/tung,yang,wong	le,pa,la,yang,wong	lelayang.m4a	lelayang.png	TRUE	TRUE
+ms-MY	18	1	4	terowong	pe,be,le,te,bi/pa,la,ro,na/tung,lang,wong	te,na,ro,wong,lang	terowong.m4a	terowong.png	TRUE	TRUE
+ms-MY	18	1	5	binatang	pe,be,le,te,bi/pa,la,ro,na/tung,yang,tang	bi,pa,na,tang,yang	binatang.m4a	binatang.png	TRUE	TRUE
+ms-MY	18	2	1	belakang	be,ke,se/la,ri,ru/kang,ting,lang	be,ri,la,kang,lang	belakang.m4a		TRUE	TRUE
+ms-MY	18	2	2	keriting	be,ke,se/la,ri,ru/kang,ting,lang	ke,la,ri,ting,lang	keriting.m4a	keriting.png	TRUE	TRUE
+ms-MY	18	2	3	kelalang	be,ke,se/la,ri,ru/kang,lang,bang	ke,ru,la,lang,bang	kelalang.m4a	kelalang.png	TRUE	TRUE
+ms-MY	18	2	4	seruling	be,ke,se/la,ri,ru/kang,ting,ling	se,la,ru,ling,ting	seruling.m4a	seruling.png	TRUE	TRUE
+ms-MY	18	2	5	kelabang	be,ke,se/la,ri,ru/kang,lang,bang	ke,ri,la,bang,kang	kelabang.m4a	kelabang.png	TRUE	TRUE
+ms-MY	19	1	1	belimbing	be,pe,se,me/lim,lam,len,lan/bing,pung,dang	be,lan,lim,bing,dang	belimbing.m4a	belimbing.png	TRUE	TRUE
+ms-MY	19	1	2	pelampung	be,pe,se,me/lim,lam,len,lan/bing,pung,dang	pe,len,lam,pung,bing	pelampung.m4a	pelampung.png	TRUE	TRUE
+ms-MY	19	1	3	selendang	be,pe,se,me/lim,lam,len,lan/bing,dang,cong	se,lim,len,dang,cong	selendang.m4a	selendang.png	TRUE	TRUE
+ms-MY	19	1	4	pelancong	be,pe,se,me/lim,lam,len,lan/bing,dang,cong	pe,lam,lan,cong,dang	pelancong.m4a	pelancong.png	TRUE	TRUE
+ms-MY	19	1	5	menendang	be,pe,se,me/lim,lam,lan,nen/bing,pung,dang	me,lan,nen,dang,pung	menendang.m4a	menendang.png	TRUE	TRUE
+ms-MY	19	2	1	penumpang	pe,se,ge,ke/num,run,gen,don/pang,ding,dang	pe,run,num,pang,ding	penumpang.m4a	penumpang.png	TRUE	TRUE
+ms-MY	19	2	2	serunding	pe,se,ge,ke/num,run,gen,don/pang,ding,dang	se,num,run,ding,dang	serunding.m4a	serunding.png	TRUE	TRUE
+ms-MY	19	2	3	gegendang	pe,se,ge,ke/num,run,gen,don/pang,dang,dong	ge,run,gen,dang,dong	gegendang.m4a	gegendang.png	TRUE	TRUE
+ms-MY	19	2	4	kedondong	pe,se,ge,ke/num,run,don,nim/pang,dong,bang	ke,nim,don,dong,bang	kedondong.m4a	kedondong.png	TRUE	TRUE
+ms-MY	19	2	5	penimbang	pe,se,ge,ke/num,run,gen,nim/pang,ding,bang	pe,gen,nim,bang,pang	penimbang.m4a	penimbang.png	TRUE	TRUE
+ms-MY	20	1	1	tempurung	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung	tem,bo,pu,rung,rong	tempurung.m4a	tempurung.png	TRUE	TRUE
+ms-MY	20	1	2	pemborong	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,yung	pem,da,bo,rong,yung	pemborong.m4a	pemborong.png	TRUE	TRUE
+ms-MY	20	1	3	pendayung	tem,pem,pen/pu,bo,da,bi,ca/rung,yung,wang	pen,bo,da,yung,wang	pendayung.m4a	pendayung.png	TRUE	TRUE
+ms-MY	20	1	4	pembilang	tem,pem,pen/pu,bo,da,bi,ca/rung,rong,lang	pem,ca,bi,lang,rung	pembilang.m4a		TRUE	TRUE
+ms-MY	20	1	5	pencawang	tem,pem,pen/pu,bo,da,bi,ca/rung,lang,wang	pen,bi,ca,wang,lang	pencawang.m4a	pencawang.png	TRUE	TRUE
+ms-MY	20	2	1	pendukung	pen,pem/du,do,da,ja,be/kung,rong,tung	pen,do,du,kung,tung	pendukung.m4a		TRUE	TRUE
+ms-MY	20	2	2	pendorong	pen,pem/du,do,da,ja,be/kung,rong,ring	pen,da,do,rong,ring	pendorong.m4a		TRUE	TRUE
+ms-MY	20	2	3	pendatang	pen,pem/du,do,da,ja,be/kung,rong,tang	pen,be,da,tang,rong	pendatang.m4a		TRUE	TRUE
+ms-MY	20	2	4	penjaring	pen,pem/du,do,da,ja,be/kung,ring,tang	pen,du,ja,ring,kung	penjaring.m4a		TRUE	TRUE
+ms-MY	20	2	5	pembetung	pen,pem/du,do,da,ja,be/kung,tang,tung	pem,da,be,tung,tang	pembetung.m4a		TRUE	TRUE
+ms-MY	21	1	1	cengkerik	ceng,teng,pang/ke,ko,ka,sa/rik,rak,lok,lan	ceng,ko,ke,rik,rak	cengkerik.m4a	cengkerik.png	TRUE	TRUE
+ms-MY	21	1	2	tengkorak	ceng,teng,pang/ke,ko,ka,sa/rik,rak,lok,lan	teng,sa,ko,rak,lok	tengkorak.m4a	tengkorak.png	TRUE	TRUE
+ms-MY	21	1	3	tengkolok	ceng,teng,pang/ke,ko,ka,sa/rik,rak,lok,lan	teng,ka,ko,lok,rak	tengkolok.m4a	tengkolok.png	TRUE	TRUE
+ms-MY	21	1	4	pangkalan	ceng,teng,pang/ke,ko,ka,sa/rik,rak,lan,wan	pang,ke,ka,lan,wan	pangkalan.m4a	pangkalan.png	TRUE	TRUE
+ms-MY	21	1	5	bangsawan	ceng,teng,bang/ke,ko,ka,sa/rik,rak,lan,wan	bang,ko,sa,wan,lan	bangsawan.m4a		TRUE	TRUE
+ms-MY	21	2	1	tingkatan	ting,ceng,teng/ka,ge/tan,man,lam,san	ting,ge,ka,tan,man	tingkatan.m4a		TRUE	TRUE
+ms-MY	21	2	2	cengkaman	ting,ceng,teng/ka,ge/tan,man,lam,san	ceng,ge,ka,man,lam	cengkaman.m4a		TRUE	TRUE
+ms-MY	21	2	3	tenggelam	ting,ceng,teng/ka,ge/tan,man,lam,ran	teng,ka,ge,lam,ran	tenggelam.m4a		TRUE	TRUE
+ms-MY	21	2	4	ringkasan	ting,ceng,ring/ka,ge/tan,man,lam,san	ring,ge,ka,san,lam	ringkasan.m4a		TRUE	TRUE
+ms-MY	21	2	5	lingkaran	ting,ceng,ling/ka,ge/tan,man,lam,ran	ling,ge,ka,ran,tan	lingkaran.m4a		TRUE	TRUE
+ms-MY	22	1	1	belangkas	be,pe,me,se,te/lang,rang,long/kas,kap,kak,gok	be,long,lang,kas,kap	belangkas.m4a	belangkas.png	TRUE	TRUE
+ms-MY	22	1	2	perangkap	be,pe,me,se,te/lang,rang,long/kas,kap,kak,gok	pe,long,rang,kap,kak	perangkap.m4a	perangkap.png	TRUE	TRUE
+ms-MY	22	1	3	merangkak	be,pe,me,se,te/lang,rang,long/kas,kap,kak,gok	me,lang,rang,kak,kap	merangkak.m4a	merangkak.png	TRUE	TRUE
+ms-MY	22	1	4	selonggok	be,pe,me,se,te/lang,rang,long/kas,kap,kak,gok	se,rang,long,gok,kas	selonggok.m4a		TRUE	TRUE
+ms-MY	22	1	5	tetingkap	be,pe,me,se,te/lang,long,ting/kas,kap,kak,gok	te,lang,ting,kap,kas	tetingkap.m4a	tetingkap.png	TRUE	TRUE
+ms-MY	22	2	1	gelongsor	ge,te,me,se,pe/long,ting,ring/sor,kat,gar,gan	ge,ring,long,sor,kat	gelongsor.m4a	gelongsor.png	TRUE	TRUE
+ms-MY	22	2	2	tetingkat	ge,te,me,se,pe/long,ting,lang/sor,kat,gar,gan	te,long,ting,kat,gar	tetingkat.m4a	tetingkat.png	TRUE	TRUE
+ms-MY	22	2	3	melanggar	ge,te,me,se,pe/long,lang,ring/sor,kat,gar,gan	me,ring,lang,gar,gan	melanggar.m4a		TRUE	TRUE
+ms-MY	22	2	4	setinggan	ge,te,me,se,pe/long,ting,lang/sor,kat,gar,gan	se,long,ting,gan,gar	setinggan.m4a		TRUE	TRUE
+ms-MY	22	2	5	peringkat	ge,te,me,se,pe/long,lang,ring/sor,kat,gar,gan	pe,lang,ring,kat,sor	peringkat.m4a		TRUE	TRUE
 ms-MY	23	1	1	laici	lai,pe,ge,pu,ran/ci,tai,rai,lau	pe,lai,ci,tai	laici.m4a	laici.png	TRUE	TRUE
 ms-MY	23	1	2	petai	lai,pe,ge,pu,ran/ci,tai,rai,lau	pe,rai,tai,lai	petai.m4a	petai.png	TRUE	TRUE
 ms-MY	23	1	3	gerai	lai,pe,ge,pu,ran/ci,tai,rai,lau	ge,lai,rai,ci	gerai.m4a	gerai.png	TRUE	TRUE
@@ -257,15 +257,15 @@ ms-MY	25	1	5	ungu	nge,si,nga,bu,u/ri,nga,ngu	u,nga,ngu,ri	ungu.m4a	ungu.png	TRUE
 ms-MY	25	2	1	pengat	pe,lo,ta,le,ba/ngat,ngan,ngun	pe,lo,ngan,ngat	pengat.m4a		TRUE	TRUE
 ms-MY	25	2	2	longan	pe,lo,ta,le,ba/ngat,ngan,ngun	lo,le,ngat,ngan	longan.m4a	longan.png	TRUE	TRUE
 ms-MY	25	2	3	tangan	pe,lo,ta,le,ba/ngat,ngan,ngun	ta,ba,ngun,ngan	tangan.m4a	tangan.png	TRUE	TRUE
-ms-MY	25	2	4	lengan	pe,lo,ta,le,ba/ngat,ngan,ngun	le,pe,ngat,ngun	lengan.m4a	lengan.png	TRUE	TRUE
-ms-MY	25	2	5	bangun	pe,lo,ta,le,ba/ngat,ngan,ngun	ba,ta,ngan,ngat	bangun.m4a		TRUE	TRUE
-ms-MY	26	1	1	kunyit	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	ku,nya,nyit,nyu	kunyit.m4a		TRUE	TRUE
-ms-MY	26	1	2	syiling	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	syi,pe,ling,nyit	syiling.m4a	syiling.png	TRUE	TRUE
-ms-MY	26	1	3	penyu	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	pe,mi,nyu,nyak	penyu.m4a	penyu.png	TRUE	TRUE
-ms-MY	26	1	4	nyanyi	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	nya,ku,nyak,nyi	nyanyi.m4a	nyanyi.png	TRUE	TRUE
-ms-MY	26	1	5	minyak	ku,syi,pe,nya,mi/nyit,ling,nyu,nyi,nyak	mi,syi,nyak,nyu	minyak.m4a	minyak.png	TRUE	TRUE
-ms-MY	26	2	1	sunyi	su,mo,nya,sya/nyi,nyet,muk,ir,ta	su,nyi,nya,muk	sunyi.m4a	sunyi.png	TRUE	TRUE
-ms-MY	26	2	2	monyet	su,mo,nya,sya/nyi,nyet,muk,ir,ta	mo,nyet,nya,ir	monyet.m4a	monyet.png	TRUE	TRUE
-ms-MY	26	2	3	nyamuk	su,mo,nya,sya/nyi,nyet,muk,ir,ta	nya,muk,sya,nyet	nyamuk.m4a	nyamuk.png	TRUE	TRUE
-ms-MY	26	2	4	syair	su,mo,nya,sya/nyi,nyet,muk,ir,ta	sya,ir,mo,nyi	syair.m4a		TRUE	TRUE
-ms-MY	26	2	5	nyata	su,mo,nya,sya/nyi,nyet,muk,ir,ta	nya,ta,sya,nyet	nyata.m4a		TRUE	TRUE
+ms-MY	25	2	4	lengan	pe,lo,ta,le,ba/ngat,ngan,ngun	le,pe,ngat,ngan	lengan.m4a	lengan.png	TRUE	TRUE
+ms-MY	25	2	5	bangun	pe,lo,ta,le,ba/ngat,ngan,ngun	ba,ta,ngun,ngat	bangun.m4a		TRUE	TRUE
+ms-MY	26	1	1	kunyit	ku,syi,pe,nya,mi/nyit,nyu,nyi	ku,nya,nyit,nyu	kunyit.m4a		TRUE	TRUE
+ms-MY	26	1	2	syiling	ku,syi,pe,nya,mi/nyit,ling,nyi	syi,pe,ling,nyit	syiling.m4a	syiling.png	TRUE	TRUE
+ms-MY	26	1	3	penyu	ku,syi,pe,nya,mi/nyit,nyu,nyak	pe,mi,nyu,nyak	penyu.m4a	penyu.png	TRUE	TRUE
+ms-MY	26	1	4	nyanyi	ku,syi,pe,nya,mi/nyit,nyi,nyak	nya,ku,nyak,nyi	nyanyi.m4a	nyanyi.png	TRUE	TRUE
+ms-MY	26	1	5	minyak	ku,syi,pe,nya,mi/nyit,nyu,nyak	mi,syi,nyak,nyu	minyak.m4a	minyak.png	TRUE	TRUE
+ms-MY	26	2	1	sunyi	su,mo,nya,sya/nyi,nyet,muk	su,nyi,nya,muk	sunyi.m4a		TRUE	TRUE
+ms-MY	26	2	2	monyet	su,mo,nya,sya/nyi,nyet,ir	mo,nyet,nya,ir	monyet.m4a	monyet.png	TRUE	TRUE
+ms-MY	26	2	3	nyamuk	su,mo,nya,sya/nyi,nyet,muk	nya,muk,sya,nyet	nyamuk.m4a	nyamuk.png	TRUE	TRUE
+ms-MY	26	2	4	syair	su,mo,nya,sya/nyi,nyet,ir	sya,ir,mo,nyi	syair.m4a		TRUE	TRUE
+ms-MY	26	2	5	nyata	su,mo,nya,sya/nyi,nyet,ta	nya,ta,sya,nyet	nyata.m4a		TRUE	TRUE
