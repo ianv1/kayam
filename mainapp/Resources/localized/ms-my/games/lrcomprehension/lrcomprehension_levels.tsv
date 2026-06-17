@@ -16,7 +16,7 @@ ms-MY	2	1	6	multiplechoices		Kumar kerja apa?	ms_my_lc_1_4_q1.m4a	text	Polis	Gur
 ms-MY	2	1	7	fillintheblank		Kumar [membantu] orang kampung.	ms_my_lc_1_4_q2.m4a	text	bermain	melihat			membantu
 ms-MY	3	1	1	title	Cerita 1								
 ms-MY	3	1	2	lcallinone	ms_my_lc_1_2_story.m4a	Datuk ada pokok apa?	ms_my_lc_1_2_q1.m4a	text	Kelapa	Mangga	Oren		Mangga
-ms-MY	3	1	3	lcallinone	ms_my_lc_1_2_story.m4a	Pokok ada banyak [buah].	ms_my_lc_1_2_q2.m4a	text	sarang	rumput			buah
+ms-MY	3	1	3	fillintheblank	ms_my_lc_1_2_story.m4a	Pokok ada banyak [buah].	ms_my_lc_1_2_q2.m4a	text	sarang	rumput			buah
 ms-MY	3	1	4	title	Cerita 2								
 ms-MY	3	1	5	listeningonly	ms_my_lc_1_8_story.m4a								
 ms-MY	3	1	6	multiplechoices		Buaya hidup di mana?	ms_my_lc_1_8_q1.m4a	text	Hanya di darat	Hanya di air	Di darat dan di air		Di darat dan di air
@@ -26,7 +26,7 @@ ms-MY	4	1	2	lcallinone	ms_my_lc_1_5_story.m4a	Amir suka buat apa?	ms_my_lc_1_5_q
 ms-MY	4	1	3	lcallinone	ms_my_lc_1_5_story.m4a	Amir berlari ke mana?	ms_my_lc_1_5_q2.m4a	text	Pasar	Pantai	Klinik		Pantai
 ms-MY	4	1	4	title	Cerita 2								
 ms-MY	4	1	5	lcallinone	ms_my_lc_1_6_story.m4a	Devi suka buat apa?	ms_my_lc_1_6_q1.m4a	text	Memasak	Menari	Berlari		Menari
-ms-MY	4	1	6	lcallinone	ms_my_lc_1_6_story.m4a	Devi menari ikut [muzik].	ms_my_lc_1_6_q2.m4a	text	video	buku			muzik
+ms-MY	4	1	6	fillintheblank	ms_my_lc_1_6_story.m4a	Devi menari ikut [muzik].	ms_my_lc_1_6_q2.m4a	text	video	buku			muzik
 ms-MY	5	1	1	title	Cerita 1								
 ms-MY	5	1	2	listeningonly	ms_my_lc_1_9_story.m4a								
 ms-MY	5	1	3	fillintheblank		Kucing kecil tetapi [cepat].	ms_my_lc_1_9_q1.m4a	text	perlahan	tinggi			cepat
@@ -58,7 +58,7 @@ ms-MY	8	1	4	multiplechoices		Buah-buahan rasa apa?	ms_my_rc_8_1_p4_q.m4a	text	Ma
 ms-MY	8	2	1	title	Cerita 2								
 ms-MY	8	2	2	readingonly	Kavita suka berlari. Kavita berlari pantas. Kavita berlari jauh. Kavita berlari setiap hari.								
 ms-MY	8	2	3	fillintheblank		Kavita suka buat apa?	ms_my_rc_8_2_p3_q.m4a	text	Berlari	Berenang	Tidur		
-ms-MY	8	2	4	multiplechoices		Kavita berlari [pantas].	ms_my_rc_8_2_p4_q.m4a	text	perlahan	tinggi			
+ms-MY	8	2	4	fillintheblank		Kavita berlari [pantas].	ms_my_rc_8_2_p4_q.m4a	text	perlahan	tinggi			
 ms-MY	9	1	1	title	Cerita 1								
 ms-MY	9	1	2	readingonly	Tikus itu kecil. Tikus itu warna hitam. Tikus itu suka makan.								
 ms-MY	9	1	3	fillintheblank		Tikus itu [kecil].	ms_my_rc_9_1_p3_q.m4a	text	besar	tinggi			kecil
@@ -84,11 +84,11 @@ ms-MY	11	1	7	fillintheblank		Pakcik Ali ada seekor [lembu].	ms_my_lc_2_9_q1.m4a	
 ms-MY	11	1	8	fillintheblank		Kulit lembu ada banyak [warna].	ms_my_lc_2_9_q2.m4a	text	daun	rambut			warna
 ms-MY	12	1	1	title	Cerita 1								
 ms-MY	12	1	2	listeningonly	ms_my_lc_2_7_story.m4a								
-ms-MY	12	1	3	multiplechoices		Ming pandai buat apa?	ms_my_lc_2_7_q1.m4a	text	Menulis cerita	Menyanyi	Berenang		Menulis
+ms-MY	12	1	3	multiplechoices		Ming pandai buat apa?	ms_my_lc_2_7_q1.m4a	text	Menulis cerita	Menyanyi	Berenang		Menulis cerita
 ms-MY	12	1	4	fillintheblank		Dia tulis cerita gembira dan [sedih].	ms_my_lc_2_7_q3.m4a	text	seram	lucu			sedih
 ms-MY	12	1	5	title	Cerita 2								
 ms-MY	12	1	6	listeningonly	ms_my_lc_2_11_story.m4a								
-ms-MY	12	1	7	multiplechoices		Kavita ada seorang adik [lelaki].	ms_my_lc_2_11_q1.m4a	text	perempuan	besar			lelaki
+ms-MY	12	1	7	fillintheblank		Kavita ada seorang adik [lelaki].	ms_my_lc_2_11_q1.m4a	text	perempuan	besar			lelaki
 ms-MY	12	1	8	fillintheblank		Kavita sayang siapa?	ms_my_lc_2_11_q2.m4a	text	Ibunya	Adiknya	Bapanya		Adiknya
 ms-MY	13	1	1	title	Cerita 1								
 ms-MY	13	1	2	listeningonly	ms_my_lc_2_1_story.m4a								
@@ -96,16 +96,16 @@ ms-MY	13	1	3	multiplechoices		Ming mahu melawat siapa?	ms_my_lc_2_1_q1.m4a	text	
 ms-MY	13	1	4	multiplechoices		Abang Ming kerja di mana?	ms_my_lc_2_1_q3.m4a	text	Bas	Kampung	Bandar		Bandar
 ms-MY	13	1	5	title	Cerita 2								
 ms-MY	13	1	6	listeningonly	ms_my_lc_2_8_story.m4a								
-ms-MY	13	1	7	multiplechoices		Katak [gembira] apabila hujan turun.	ms_my_lc_2_8_q1.m4a	text	sedih	marah			gembira
+ms-MY	13	1	7	fillintheblank		Katak [gembira] apabila hujan turun.	ms_my_lc_2_8_q1.m4a	text	sedih	marah			gembira
 ms-MY	13	1	8	fillintheblank		Katak suka buat apa dalam hujan?	ms_my_lc_2_8_q2.m4a	text	Lompat dan main	Tidur	Makan		Lompat dan main
 ms-MY	14	1	1	title	Cerita 1								
 ms-MY	14	1	2	listeningonly	ms_my_lc_2_6_story.m4a								
 ms-MY	14	1	3	multiplechoices		Mei ada haiwan apa?	ms_my_lc_2_6_q1.m4a	text	Burung	Lembu	Kucing		Kucing
-ms-MY	14	1	4	multiplechoices		Mei bei kucing makan [setiap hari].	ms_my_lc_2_6_q3.m4a	text	kadangkala	satu kali			setiap hari
+ms-MY	14	1	4	fillintheblank		Mei beri kucing makan [setiap hari].	ms_my_lc_2_6_q3.m4a	text	kadangkala	satu kali			setiap hari
 ms-MY	14	1	5	title	Cerita 2								
 ms-MY	14	1	6	listeningonly	ms_my_lc_2_4_story.m4a								
 ms-MY	14	1	7	multiplechoices		Petikan ini tentang apa?	ms_my_lc_2_4_q1.m4a	text	Orang	Tumbuhan	Serangga		Serangga
-ms-MY	14	1	8	multiplechoices		Serangga tinggal di mana?	ms_my_lc_2_4_q3.m4a	text	Mana-mana	Laut	Hanya di pokok		Di mana-mana
+ms-MY	14	1	8	multiplechoices		Serangga tinggal di mana?	ms_my_lc_2_4_q3.m4a	text	Mana-mana	Laut	Hanya di pokok		Mana-mana
 ms-MY	15	1	1	title	Cerita 1								
 ms-MY	15	1	2	readingonly	Mei ada ayam. Ayam Mei bertelur. Mei kutip telur ayam setiap pagi.								
 ms-MY	15	1	3	multiplechoices		Mei ada haiwan apa?	ms_my_rc_15_1_p3_q.m4a	text	Ayam	Itik	Lembu		Ayam
@@ -226,7 +226,7 @@ ms-MY	27	1	9	multiplechoices		Arnab pandai buat apa?	ms_my_lc_3_4_q3.m4a	text	Te
 ms-MY	28	1	1	title	Cerita 1								
 ms-MY	28	1	2	listeningonly	ms_my_lc_3_7_story.m4a								
 ms-MY	28	1	3	multiplechoices		Devi ada berapa orang adik?	ms_my_lc_3_7_q1.m4a	text	Dua orang	Seorang	Tiada		Dua orang
-ms-MY	28	1	4	multiplechoices		Devi anak [sulung].	ms_my_lc_3_7_q2.m4a	text	bongsu	tengah			sulung
+ms-MY	28	1	4	fillintheblank		Devi anak [sulung].	ms_my_lc_3_7_q2.m4a	text	bongsu	tengah			sulung
 ms-MY	28	1	5	fillintheblank		Devi suka bermain dengan siapa?	ms_my_lc_3_7_q3.m4a	text	Abangnya	Adik-adiknya	Kakaknya		Adik-adiknya
 ms-MY	28	1	6	title	Cerita 2								
 ms-MY	28	1	7	listeningonly	ms_my_lc_3_11_story.m4a								
@@ -262,7 +262,7 @@ ms-MY	31	1	6	title	Cerita 2
 ms-MY	31	1	7	listeningonly	ms_my_lc_3_10_story.m4a								
 ms-MY	31	1	8	fillintheblank		Buah pisang tumbuh dalam [tandan].	ms_my_lc_3_10_q1.m4a	text	gugus	jambak			tandan
 ms-MY	31	1	9	fillintheblank		Pisang masak warna apa?	ms_my_lc_3_10_q2.m4a	text	Biru	Ungu	Kuning		Kuning
-ms-MY	31	1	10	multiplechoices		Pisang kuning manis dan [sedap].	ms_my_lc_3_10_q3.m4a	text	pahit	pedas			sedap
+ms-MY	31	1	10	fillintheblank		Pisang kuning manis dan [sedap].	ms_my_lc_3_10_q3.m4a	text	pahit	pedas			sedap
 ms-MY	32	1	1	title	Cerita 1								
 ms-MY	32	1	2	listeningonly	ms_my_lc_3_9_story.m4a								
 ms-MY	32	1	3	multiplechoices		Ali berlari ke mana?	ms_my_lc_3_9_q1.m4a	text	Klinik	Sungai	Pasar		Pasar
