@@ -57,7 +57,7 @@ ms-MY	8	1	3	fillintheblank		Buah-buahan sejenis [makanan].	ms_my_rc_8_1_p3_q.m4a
 ms-MY	8	1	4	multiplechoices		Buah-buahan rasa apa?	ms_my_rc_8_1_p4_q.m4a	text	Manis sahaja	Manis dan masam	Pahit		Manis dan masam
 ms-MY	8	2	1	title	Cerita 2								
 ms-MY	8	2	2	readingonly	Kavita suka berlari. Kavita berlari pantas. Kavita berlari jauh. Kavita berlari setiap hari.								
-ms-MY	8	2	3	fillintheblank		Kavita suka buat apa?	ms_my_rc_8_2_p3_q.m4a	text	Berlari	Berenang	Tidur		
+ms-MY	8	2	3	multiplechoices		Kavita suka buat apa?	ms_my_rc_8_2_p3_q.m4a	text	Berlari	Berenang	Tidur		Berlari
 ms-MY	8	2	4	fillintheblank		Kavita berlari [pantas].	ms_my_rc_8_2_p4_q.m4a	text	perlahan	tinggi			
 ms-MY	9	1	1	title	Cerita 1								
 ms-MY	9	1	2	readingonly	Tikus itu kecil. Tikus itu warna hitam. Tikus itu suka makan.								
@@ -76,7 +76,7 @@ ms-MY	10	1	6	fillintheblank		Pokok ada batang dan banyak [dahan].	ms_my_lc_2_10_
 ms-MY	10	1	7	multiplechoices		Batang dan dahan warna apa?	ms_my_lc_2_10_q2.m4a	text	Biru	Coklat	Merah		Coklat
 ms-MY	11	1	1	title	Cerita 1								
 ms-MY	11	1	2	listeningonly	ms_my_lc_2_2_story.m4a								
-ms-MY	11	1	3	fillintheblank		Siti bantu siapa?	ms_my_lc_2_2_q2.m4a	text	Kawan	Ibu	Kakak		Ibu
+ms-MY	11	1	3	multiplechoices		Siti bantu siapa?	ms_my_lc_2_2_q2.m4a	text	Kawan	Ibu	Kakak		Ibu
 ms-MY	11	1	4	multiplechoices		Siti dan ibu masak apa?	ms_my_lc_2_2_q3.m4a	text	Sayur	Daging	Kari		Kari
 ms-MY	11	1	5	title	Cerita 2								
 ms-MY	11	1	6	listeningonly	ms_my_lc_2_9_story.m4a								
@@ -89,7 +89,7 @@ ms-MY	12	1	4	fillintheblank		Dia tulis cerita gembira dan [sedih].	ms_my_lc_2_7_
 ms-MY	12	1	5	title	Cerita 2								
 ms-MY	12	1	6	listeningonly	ms_my_lc_2_11_story.m4a								
 ms-MY	12	1	7	fillintheblank		Kavita ada seorang adik [lelaki].	ms_my_lc_2_11_q1.m4a	text	perempuan	besar			lelaki
-ms-MY	12	1	8	fillintheblank		Kavita sayang siapa?	ms_my_lc_2_11_q2.m4a	text	Ibunya	Adiknya	Bapanya		Adiknya
+ms-MY	12	1	8	multiplechoices		Kavita sayang siapa?	ms_my_lc_2_11_q2.m4a	text	Ibunya	Adiknya	Bapanya		Adiknya
 ms-MY	13	1	1	title	Cerita 1								
 ms-MY	13	1	2	listeningonly	ms_my_lc_2_1_story.m4a								
 ms-MY	13	1	3	multiplechoices		Ming mahu melawat siapa?	ms_my_lc_2_1_q1.m4a	text	Abangnya	Kawannya	Ayahnya		Abangnya
@@ -97,7 +97,7 @@ ms-MY	13	1	4	multiplechoices		Abang Ming kerja di mana?	ms_my_lc_2_1_q3.m4a	text
 ms-MY	13	1	5	title	Cerita 2								
 ms-MY	13	1	6	listeningonly	ms_my_lc_2_8_story.m4a								
 ms-MY	13	1	7	fillintheblank		Katak [gembira] apabila hujan turun.	ms_my_lc_2_8_q1.m4a	text	sedih	marah			gembira
-ms-MY	13	1	8	fillintheblank		Katak suka buat apa dalam hujan?	ms_my_lc_2_8_q2.m4a	text	Lompat dan main	Tidur	Makan		Lompat dan main
+ms-MY	13	1	8	multiplechoices		Katak suka buat apa dalam hujan?	ms_my_lc_2_8_q2.m4a	text	Lompat dan main	Tidur	Makan		Lompat dan main
 ms-MY	14	1	1	title	Cerita 1								
 ms-MY	14	1	2	listeningonly	ms_my_lc_2_6_story.m4a								
 ms-MY	14	1	3	multiplechoices		Mei ada haiwan apa?	ms_my_lc_2_6_q1.m4a	text	Burung	Lembu	Kucing		Kucing
@@ -150,10 +150,10 @@ ms-MY	19	2	1	title	Cerita 2
 ms-MY	19	2	2	readingonly	Di dalam hutan ada banyak haiwan. Ada haiwan kecil dan ada haiwan besar. Ada yang tinggal di pokok dan ada yang tinggal di tanah.								
 ms-MY	19	2	3	fillintheblank		Di dalam hutan ada haiwan kecil dan haiwan [besar].	ms_my_rc_19_2_p3_q.m4a	text	biru	rendah			besar
 ms-MY	19	2	4	multiplechoices		Haiwan tinggal di mana?	ms_my_rc_19_2_p4_q.m4a	text	Pokok dan tanah	Tanah sahaja	Pokok sahaja		Pokok dan tanah
-ms-MY	20	2	1	title	Cerita 2								
-ms-MY	20	2	2	readingonly	Devi suka makan ikan. Devi bantu ibu masak ikan. Devi letak kicap. Devi dan keluarga makan ikan untuk makan malam.								
-ms-MY	20	2	3	multiplechoices		Devi suka makan apa?	ms_my_rc_20_2_p3_q.m4a	text	Ikan	Nasi	Pisang		Ikan
-ms-MY	20	2	4	multiplechoices		Devi makan dengan siapa?	ms_my_rc_20_2_p4_q.m4a	text	Guru	Kawan	Keluarga		Keluarga
+ms-MY	20	1	1	title	Cerita 1								
+ms-MY	20	1	2	readingonly	Devi suka makan ikan. Devi bantu ibu masak ikan. Devi letak kicap. Devi dan keluarga makan ikan untuk makan malam.								
+ms-MY	20	1	3	multiplechoices		Devi suka makan apa?	ms_my_rc_20_2_p3_q.m4a	text	Ikan	Nasi	Pisang		Ikan
+ms-MY	20	1	4	multiplechoices		Devi makan dengan siapa?	ms_my_rc_20_2_p4_q.m4a	text	Guru	Kawan	Keluarga		Keluarga
 ms-MY	21	1	1	title	Cerita 1								
 ms-MY	21	1	2	readingonly	Ali dan bapa tinggal di tepi laut. Mereka tangkap ikan. Mereka tangkap ikan dengan jala. Mereka dapat banyak ikan setiap hari. Mereka jual ikan di pasar.								
 ms-MY	21	1	3	fillintheblank		Ali dan bapa tinggal di tepi [laut].	ms_my_rc_21_1_p3_q.m4a	text	sungai	hutan			laut
@@ -198,7 +198,7 @@ ms-MY	25	1	1	title	Cerita 1
 ms-MY	25	1	2	readingonly	Mei suka tengok bintang. Dia tengok bintang dari rumah. Dia tengok bintang pada waktu malam. Dia tengok bintang di langit. Dia cuba kira semua bintang tetapi bintang terlalu banyak.								
 ms-MY	25	1	3	multiplechoices		Mei suka tengok apa?	ms_my_rc_25_1_p3_q.m4a	text	Bintang	Matahari	Awan		Bintang
 ms-MY	25	1	4	multiplechoices		Waktu bila Mei tengok bintang?	ms_my_rc_25_1_p4_q.m4a	text	Pagi	Petang	Malam		Malam
-ms-MY	25	1	5	fillintheblank		Mei tengok bintang di [langit].	ms_my_rc_25_1_p5_q.m4a	text	laut	hutan	Tiada		langit
+ms-MY	25	1	5	fillintheblank		Mei tengok bintang di [langit].	ms_my_rc_25_1_p5_q.m4a	text	laut	hutan			langit
 ms-MY	25	2	1	title	Cerita 2								
 ms-MY	25	2	2	readingonly	Itu sebatang pokok pisang. Buah pisang tumbuh dalam tandan. Kulit pisang ada yang hijau, ada yang kuning dan ada yang perang. Saya suka makan pisang yang berkulit kuning. Pisang itu manis dan sedap.								
 ms-MY	25	2	3	fillintheblank		Saya suka makan pisang yang berkulit [kuning].	ms_my_rc_25_2_p3_q.m4a	text	putih	hijau			kuning
@@ -227,7 +227,7 @@ ms-MY	28	1	1	title	Cerita 1
 ms-MY	28	1	2	listeningonly	ms_my_lc_3_7_story.m4a								
 ms-MY	28	1	3	multiplechoices		Devi ada berapa orang adik?	ms_my_lc_3_7_q1.m4a	text	Dua orang	Seorang	Tiada		Dua orang
 ms-MY	28	1	4	fillintheblank		Devi anak [sulung].	ms_my_lc_3_7_q2.m4a	text	bongsu	tengah			sulung
-ms-MY	28	1	5	fillintheblank		Devi suka bermain dengan siapa?	ms_my_lc_3_7_q3.m4a	text	Abangnya	Adik-adiknya	Kakaknya		Adik-adiknya
+ms-MY	28	1	5	multiplechoices		Devi suka bermain dengan siapa?	ms_my_lc_3_7_q3.m4a	text	Abangnya	Adik-adiknya	Kakaknya		Adik-adiknya
 ms-MY	28	1	6	title	Cerita 2								
 ms-MY	28	1	7	listeningonly	ms_my_lc_3_11_story.m4a								
 ms-MY	28	1	8	fillintheblank		Pokok ada [batang] yang kuat.	ms_my_lc_3_11_q1.m4a	text	daun	buah			batang
@@ -246,7 +246,7 @@ ms-MY	29	1	10	fillintheblank		Hao mahu [berlayar] di laut.	ms_my_lc_3_2_q3.m4a	t
 ms-MY	30	1	1	title	Cerita 1								
 ms-MY	30	1	2	listeningonly	ms_my_lc_3_5_story.m4a								
 ms-MY	30	1	3	multiplechoices		Gajah tinggal di mana?	ms_my_lc_3_5_q1.m4a	text	Hutan	Laut	Langit		Hutan
-ms-MY	30	1	4	fillintheblank		Gajah guna apa untuk ambil makanan?	ms_my_lc_3_5_q2.m4a	text	telinga	belalai	tangan		belalai
+ms-MY	30	1	4	multiplechoices		Gajah guna apa untuk ambil makanan?	ms_my_lc_3_5_q2.m4a	text	telinga	belalai	tangan		belalai
 ms-MY	30	1	5	fillintheblank		Gajah makan rumput, daun dan [tumbuhan].	ms_my_lc_3_5_q3.m4a	text	haiwan	ikan			tumbuhan
 ms-MY	30	1	6	title	Cerita 2								
 ms-MY	30	1	7	listeningonly	ms_my_lc_3_8_story.m4a								
@@ -256,12 +256,12 @@ ms-MY	30	1	10	multiplechoices		Matahari bentuk apa?	ms_my_lc_3_8_q3.m4a	text	Bul
 ms-MY	31	1	1	title	Cerita 1								
 ms-MY	31	1	2	listeningonly	ms_my_lc_3_6_story.m4a								
 ms-MY	31	1	3	multiplechoices		Mei suka tengok apa?	ms_my_lc_3_6_q1.m4a	text	Bulan	Matahari	Bintang		Bintang
-ms-MY	31	1	4	fillintheblank		Mei cuba buat apa?	ms_my_lc_3_6_q2.m4a	text	Lukis bintang	Kira bintang	Baca buku		Kira bintang
+ms-MY	31	1	4	multiplechoices		Mei cuba buat apa?	ms_my_lc_3_6_q2.m4a	text	Lukis bintang	Kira bintang	Baca buku		Kira bintang
 ms-MY	31	1	5	multiplechoices		Kenapa Mei tidak dapat kira semua bintang?	ms_my_lc_3_6_q3.m4a	text	Bintang terlalu banyak	Dia tidak pandai kira	Bintang bergerak laju		Bintang terlalu banyak
 ms-MY	31	1	6	title	Cerita 2								
 ms-MY	31	1	7	listeningonly	ms_my_lc_3_10_story.m4a								
 ms-MY	31	1	8	fillintheblank		Buah pisang tumbuh dalam [tandan].	ms_my_lc_3_10_q1.m4a	text	gugus	jambak			tandan
-ms-MY	31	1	9	fillintheblank		Pisang masak warna apa?	ms_my_lc_3_10_q2.m4a	text	Biru	Ungu	Kuning		Kuning
+ms-MY	31	1	9	multiplechoices		Pisang masak warna apa?	ms_my_lc_3_10_q2.m4a	text	Biru	Ungu	Kuning		Kuning
 ms-MY	31	1	10	fillintheblank		Pisang kuning manis dan [sedap].	ms_my_lc_3_10_q3.m4a	text	pahit	pedas			sedap
 ms-MY	32	1	1	title	Cerita 1								
 ms-MY	32	1	2	listeningonly	ms_my_lc_3_9_story.m4a								
