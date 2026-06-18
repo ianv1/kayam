@@ -218,7 +218,7 @@ PostTest_4	2	4011, 4012, 4013, 4014, 4015, 4016, 4017, 4018, 4019, 4020
 			4017	image_word		bangku.png				bangku	rangka^singki^bangku
 			4018	soundonly_word					nganga.m4a	nganga	khemah^nganga^nyonya
 			4019	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	satu, saku	bala, kala^tari, lari^satu, saku
-			4020	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	gula, gusi	api, abu^gula, gusi^ikan, iman
+			4020	sentence_sentence		Pilih pasangan perkataan yang mempunyai bunyi awal yang sama.			choosepairwithsamefirstsound.m4a	gula, gusi	api, ubi^gula, gusi^ikan, emak
 											
 MiniTest_5_1	1	51001, 51002, 51003, 51004, 51005									
 			51001	sentence_word		Pilih yang betul.			sekolah.m4a	sekolah	sekolah^sekolam^sekalah
@@ -245,14 +245,14 @@ MiniTest_5_2	1	52001, 52002, 52003, 52004, 52005
 			52001	sentence_word		Pilih yang betul.			belon.m4a	belon	belon^balon^belan
 			52002	sentence_word		Pilih yang betul.			datuk.m4a	datuk	datuk^datak^datik
 			52003	soundonly_word					tandas.m4a	tandas	tandas^tonton^tanduk
-			52004	sentence_word		Ini ____ saya.			iniabangsaya.m4a	brother	abang^ibu^bapa
+			52004	sentence_word		Ini ____ saya.			iniabangsaya.m4a	abang	abang^ibu^bapa
 			52005	sentence_word		Hao di _____.			haodisekolah.m4a	sekolah	bilik^dapur^sekolah
 											
 MiniTest_5_2	2	52006, 52007, 52008, 52009, 52010									
 			52006	sentence_word		Pilih yang betul.			nenek.m4a	nenek	nenek^nanek^nenik
 			52007	sentence_word		Pilih yang betul.			gunung.m4a	gunung	gonung^gunung^gunang
 			52008	soundonly_word					mangga.m4a	mangga	mangkuk^mangga^nangka
-			52009	sentence_word		Ini ____ saya.			iniibusaya.m4a	mother	abang^ibu^bapa
+			52009	sentence_word		Ini ____ saya.			iniibusaya.m4a	ibu	abang^ibu^bapa
 			52010	sentence_word		Aini di _____.			ainididapur.m4a	dapur	bilik^dapur^sekolah
 											
 MiniTest_5_2	3	52011, 52012, 52013, 52014, 52015									
