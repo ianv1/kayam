@@ -1001,12 +1001,12 @@ day	14	1
 game	EggQuizLiteracy	0	MiniTest_8_2
 day	15	4
 game	WordKicker	21	x
-game	Book	0	en_404
+game	Book	0	en_402
 game	SentenceMaker	12	x
 game	LRComprehension	17	x
 day	16	4
 game	WordKicker	22	x
-game	BookWithQuiz	0	en_404
+game	BookWithQuiz	0	en_402
 game	SentenceBridge	12	x
 game	StarFall	4	x
 day	17	4
@@ -1061,12 +1061,12 @@ game	BookWithQuiz	0	en_407
 game	SentenceBridge	14	x
 day	28	4
 game	SentenceMaker	11	x
-game	Book	0	en_411
+game	Book	0	en_401
 game	SentenceBridge	15	x
 game	LRComprehension	25	x
 day	29	4
 game	SentenceMaker	12	x
-game	BookWithQuiz	0	en_411
+game	BookWithQuiz	0	en_401
 game	SentenceBridge	16	x
 game	LRComprehension	26	x
 day	30	1
@@ -1084,21 +1084,21 @@ game	SentenceBridge	17	x
 game	StarFall	6	x
 day	3	4
 game	SentenceMaker	13	x
-game	Book	0	en_410
+game	Book	0	en_404
 game	LRComprehension	28	x
 game	SentenceBridge	17	x
 day	4	4
 game	WhatIsThis	13	x
-game	BookWithQuiz	0	en_410
+game	BookWithQuiz	0	en_404
 game	SentenceBridge	18	x
 game	StarFall	6	x
 day	5	3
 game	WhatIsThis	14	x
-game	Book	0	en_412
+game	Book	0	en_410
 game	LRComprehension	29	x
 day	6	4
 game	WhatIsThis	15	x
-game	BookWithQuiz	0	en_412
+game	BookWithQuiz	0	en_410
 game	SentenceBridge	19	x
 game	AnimalPuzzle	27	x
 day	7	1
