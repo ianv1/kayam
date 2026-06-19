@@ -1535,8 +1535,14 @@ Node* BookPage::createTextViewMultiLine(Size size, float fontSize)
     // (s) two-pass
     
     auto sampleHeight = -minBottom;
-    
-    auto pageScale = MAX(1.f, sqrt(sampleHeight/size.height));
+
+    // NB: Keep the chosen font size and let text wrap onto as many lines as it
+    // needs. Previously this widened the virtual layout (sqrt of overflow) to
+    // pack text into fewer lines and then scaled everything down, which made
+    // long sentences render in tiny text. With pageScale=1 the text wraps at the
+    // text-view width and is only scaled down later if it is genuinely taller
+    // than the available height.
+    auto pageScale = 1.f;
 
     viewSize = Size(size.width*pageScale, sampleHeight);
     finalPass = true;

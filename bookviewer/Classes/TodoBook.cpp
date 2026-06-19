@@ -140,8 +140,23 @@ void TodoBook::readData(string &filedata)
                 if (word.wordAudioLength<0.001) {
                     word.wordAudioLength = word.endTimingInSentence - word.startTimingInSentence + 0.2;
                 }
-                
-                currentSentence.words.push_back(word);
+
+                // NB: A "word" entry may actually hold a whole sentence/phrase
+                // (e.g. translated books store one block per page). Split it into
+                // individual tokens so the layout can wrap across multiple lines
+                // at the same font size. All tokens share the same timing + audio,
+                // so they highlight together and tapping any plays the same audio.
+                auto tokens = TodoUtil::split(word.word, ' ');
+                if (tokens.size() <= 1) {
+                    currentSentence.words.push_back(word);
+                } else {
+                    for (auto &tk : tokens) {
+                        if (tk.empty()) continue;
+                        TodoWord sub = word;
+                        sub.word = tk;
+                        currentSentence.words.push_back(sub);
+                    }
+                }
             }
         }
     }

@@ -295,7 +295,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["TutorialTrace"] = "Line Tracing";
     _localizationMapSwahili["TutorialTrace"] = "Kufuatisha Mstari";
-    _localizationMapMalay["TutorialTrace"] = "Menggaris Garisan";
+    _localizationMapMalay["TutorialTrace"] = "Surih Garisan";
     
     _localizationMapEnglish["FindTheMatch"] = "Find the Pair";
     _localizationMapSwahili["FindTheMatch"] = "Tafuta Sare";
@@ -311,7 +311,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["LetterMatching"] = "Literacy Matching";
     _localizationMapSwahili["LetterMatching"] = "Kufananisha Kusoma na Kuandika";
-    _localizationMapMalay["LetterMatching"] = "Padanan Huruf";
+    _localizationMapMalay["LetterMatching"] = "Padanan Literasi";
     
     _localizationMapEnglish["AnimalPuzzle"] = "Animal Puzzle";
     _localizationMapSwahili["AnimalPuzzle"] = "Fumbo la Picha";
@@ -347,7 +347,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["Comprehension"] = "Comprehension Questions";
     _localizationMapSwahili["Comprehension"] = "Maswali ya Ufahamu";
-    _localizationMapMalay["Comprehension"] = "Soalan Kefahaman";
+    _localizationMapMalay["Comprehension"] = "Soalan Pemahaman";
     
     _localizationMapEnglish["DoubleDigit"] = "Double Digit Math";
     _localizationMapSwahili["DoubleDigit"] = "Hisabati ya Tarakimu Mbili";
@@ -363,7 +363,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["LetterTrace"] = "Letter Tracing";
     _localizationMapSwahili["LetterTrace"] = "Kufuatisha Herufi";
-    _localizationMapMalay["LetterTrace"] = "Menggaris Huruf";
+    _localizationMapMalay["LetterTrace"] = "Surih Huruf";
     
     _localizationMapEnglish["MovingInsects"] = "Bug Math";
     _localizationMapSwahili["MovingInsects"] = "Mchezo wa Mdudu";
@@ -371,7 +371,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["SentenceMaker"] = "Sentence Maker";
     _localizationMapSwahili["SentenceMaker"] = "Kiumba Sentensi";
-    _localizationMapMalay["SentenceMaker"] = "Pembuat Ayat";
+    _localizationMapMalay["SentenceMaker"] = "Pembina Ayat";
     
     _localizationMapEnglish["ShapeMatching"] = "Shape Matching";
     _localizationMapSwahili["ShapeMatching"] = "Kufananisha Maumbo";
@@ -379,7 +379,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["SoundTrain"] = "Sound Train";
     _localizationMapSwahili["SoundTrain"] = "Sauti ya Garimoshi";
-    _localizationMapMalay["SoundTrain"] = "Kereta Api Bunyi";
+    _localizationMapMalay["SoundTrain"] = "Keretapi Bunyi";
     
     _localizationMapEnglish["Spelling"] = "Spelling";
     _localizationMapSwahili["Spelling"] = "Matamshi";
@@ -387,7 +387,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["WordTracing"] = "Word Tracing";
     _localizationMapSwahili["WordTracing"] = "Kufuatisha Maneno";
-    _localizationMapMalay["WordTracing"] = "Menggaris Perkataan";
+    _localizationMapMalay["WordTracing"] = "Surih Perkataan";
     
     _localizationMapEnglish["NumberTracing"] = "Learn to 10";
     _localizationMapSwahili["NumberTracing"] = "Jifunze Mpaka 10";
@@ -395,7 +395,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["StarFall"] = "Typing";
     _localizationMapSwahili["StarFall"] = "Kuchapa";
-    _localizationMapMalay["StarFall"] = "Mengetik";
+    _localizationMapMalay["StarFall"] = "Menaip";
     
     _localizationMapEnglish["WordMachine"] = "Word Machine";
     _localizationMapSwahili["WordMachine"] = "Mashine ya Maneno";
@@ -407,7 +407,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["LetterTracingCard"] = "Trace 3 Times";
     _localizationMapSwahili["LetterTracingCard"] = "Fuatisha Mara 3";
-    _localizationMapMalay["LetterTracingCard"] = "Garis 3 Kali";
+    _localizationMapMalay["LetterTracingCard"] = "Surih 3 Kali";
     
     _localizationMapEnglish["NumberPuzzle"] = "Number Blocks";
     _localizationMapSwahili["NumberPuzzle"] = "Fumbo la Nambari";
@@ -447,7 +447,7 @@ void LanguageManager::initLocalizationMap()
     
     _localizationMapEnglish["WhatIsThis"] = "What is this?";
     _localizationMapSwahili["WhatIsThis"] = "Hii ni nini?";
-    _localizationMapMalay["WhatIsThis"] = "Apakah ini?";
+    _localizationMapMalay["WhatIsThis"] = "Apakah Ini?";
     
     _localizationMapEnglish["ThirtyPuzzle"] = "30 Puzzle";
     _localizationMapSwahili["ThirtyPuzzle"] = "Panga Namba";
@@ -479,7 +479,7 @@ void LanguageManager::initLocalizationMap()
 
     _localizationMapEnglish["WordKicker"] = "Word Kicker";
     _localizationMapSwahili["WordKicker"] = "Mpigo wa Neno";
-    _localizationMapMalay["WordKicker"] = "Penendang Perkataan";
+    _localizationMapMalay["WordKicker"] = "Sepak Perkataan";
 
     _localizationMapEnglish["MathKicker"] = "Math Kicker";
     _localizationMapSwahili["MathKicker"] = "Mpigo wa Hisabati";
@@ -491,11 +491,11 @@ void LanguageManager::initLocalizationMap()
 
     _localizationMapEnglish["Labeling"] = "Labeling";
     _localizationMapSwahili["Labeling"] = "Pachika Jina";
-    _localizationMapMalay["Labeling"] = "Pelabelan";
+    _localizationMapMalay["Labeling"] = "Melabel";
 
     _localizationMapEnglish["LRComprehension"] = "Comprehension";
     _localizationMapSwahili["LRComprehension"] = "Ufahamu";
-    _localizationMapMalay["LRComprehension"] = "Kefahaman";
+    _localizationMapMalay["LRComprehension"] = "Pemahaman Mendengar";
 
     _localizationMapEnglish["BookwithQuiz"] = "Book with Quiz";
     _localizationMapSwahili["BookwithQuiz"] = "Kitabu Chenye Jaribio";
