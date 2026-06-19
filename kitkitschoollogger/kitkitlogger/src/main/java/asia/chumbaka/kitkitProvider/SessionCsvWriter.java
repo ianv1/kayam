@@ -57,9 +57,10 @@ public class SessionCsvWriter {
 
         long logoutUnixSecs = System.currentTimeMillis() / 1000L;
 
-        // Event #6 — logout marker. event_id reuses session_id; blank
-        // subject/level/day/game; stars = current running total.
-        dbHandler.logEvent(sessionId, logoutUnixSecs,
+        // Event #6 — logout marker. event_id is its own random UUID (the
+        // session_id still lives in the Session ID column for linkage);
+        // blank subject/level/day/game; stars = current running total.
+        dbHandler.logEvent(java.util.UUID.randomUUID().toString(), logoutUnixSecs,
                 sessionId, user.getDisplayName(), 6,
                 "", "", 0, 0, user.getNumStars());
 

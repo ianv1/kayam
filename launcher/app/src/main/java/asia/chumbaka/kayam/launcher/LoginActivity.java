@@ -119,10 +119,11 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         long loginUnixSecs = System.currentTimeMillis() / 1000L;
         dbHandler.setCurrentSession(sessionUuid, loginUnixSecs);
 
-        // Event #0 — login marker. event_id reuses the session_id so the
-        // row is trivially linkable to its session; subject/level/day/game
-        // are blank since they're not meaningful for a session boundary.
-        dbHandler.logEvent(sessionUuid, loginUnixSecs,
+        // Event #0 — login marker. event_id is its own random UUID (the
+        // session_id still lives in the Session ID column for linkage);
+        // subject/level/day/game are blank since they're not meaningful
+        // for a session boundary.
+        dbHandler.logEvent(java.util.UUID.randomUUID().toString(), loginUnixSecs,
                 sessionUuid, user.getDisplayName(), 0,
                 "", "", 0, 0, user.getNumStars());
     }
