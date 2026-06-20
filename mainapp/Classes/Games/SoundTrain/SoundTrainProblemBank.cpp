@@ -76,7 +76,27 @@ vector<SoundTrainLevelStruct> SoundTrainProblemBank::loadData(int level) {
     
     random_shuffle(problems.begin(), problems.end(), [](int n) { return rand() % n; });
     problems.erase(problems.begin()+problemCount, problems.end());
-    
+
+    // Surface an alternate-pronunciation pair ("e" + its variant "e2") at the
+    // front, in order, so the second 'e' sound plays immediately after the
+    // first one (question 1 = "e"/eh, question 2 = "e2"/uh). The rest stay
+    // shuffled. Generalises to any "<x>" + "<x>2" pair.
+    {
+        int baseIdx = -1, varIdx = -1;
+        for (int i = 0; i < (int)problems.size(); i++) {
+            if (problems[i].answer == "e")  baseIdx = i;
+            if (problems[i].answer == "e2") varIdx = i;
+        }
+        if (baseIdx >= 0 && varIdx >= 0) {
+            SoundTrainLevelStruct base = problems[baseIdx];
+            SoundTrainLevelStruct var  = problems[varIdx];
+            problems.erase(problems.begin() + std::max(baseIdx, varIdx));
+            problems.erase(problems.begin() + std::min(baseIdx, varIdx));
+            problems.insert(problems.begin(), var);   // -> index 1
+            problems.insert(problems.begin(), base);  // -> index 0
+        }
+    }
+
     return problems;
 
 }

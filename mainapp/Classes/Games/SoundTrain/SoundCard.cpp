@@ -87,12 +87,19 @@ void SoundCard::changePickUpState(bool picked) {
 
 void SoundCard::setType(string letter){
     _letter = letter;
-    
+
+    // A trailing digit on the answer key (e.g. "e2") lets one glyph carry an
+    // alternate sound file while still displaying as the bare letter ("e").
+    // Matching and sound use the full _letter; only the visible glyph is bare.
+    string displayLetter = letter;
+    while (!displayLetter.empty() && displayLetter.back() >= '0' && displayLetter.back() <= '9')
+        displayLetter.pop_back();
+
     string facePath = "SoundTrain/train_card_surface.png";
     string bodyPath = "SoundTrain/train_card_surface.png";
     string shadowPath = "SoundTrain/train_card_surface.png";
-    
-    if (letter.size() > 1) {
+
+    if (displayLetter.size() > 1) {
         TodoUtil::replaceAll(facePath, "_card", "_card_long");
         TodoUtil::replaceAll(bodyPath, "_card", "_card_long");
         TodoUtil::replaceAll(shadowPath, "_card", "_card_long");
@@ -173,7 +180,7 @@ void SoundCard::setType(string letter){
     
     this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener, this);
 
-    auto cardLetter = TodoUtil::createLabel(letter, 140, Size::ZERO, fontName, Color4B(54, 54, 54,255), TextHAlignment::CENTER);
+    auto cardLetter = TodoUtil::createLabel(displayLetter, 140, Size::ZERO, fontName, Color4B(54, 54, 54,255), TextHAlignment::CENTER);
     cardLetter->setPosition(_face->getPositionX(), _face->getPositionY()+10);
     cardLetter->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
     addChild(cardLetter);
