@@ -670,7 +670,11 @@ void MultiplicationBoardScene::createBoard(int index)
                                                 expMultiplier->runAction(Sequence::create(ScaleTo::create(0.2, 1.5), ScaleTo::create(0.2, 1), nullptr));
                                                 CommonSoundPlayer.cardinalNumber(_multiplier).play();
                                             }),
-                                           DelayTime::create(getDuration("d_" + TodoUtil::itos(_multiplier) + ".m4a") * 0.5),
+                                           // Wait for the FULL multiplier number before "sama dengan" (equals).
+                                           // Unlike the multiplicand (which has the "x" symbol's fixed 0.5s
+                                           // gap before "times"), the multiplier has no buffer before equals,
+                                           // so a half-duration wait let equals cut in over the number.
+                                           DelayTime::create(getDuration("d_" + TodoUtil::itos(_multiplier) + ".m4a")),
 
                                             //이퀄 기호
                                             CallFunc::create([this](){
@@ -961,7 +965,9 @@ void MultiplicationBoardScene::makeExpression(bool isPick, bool isSnapped)
 
 float MultiplicationBoardScene::getCompleteExpressionAniTime()
 {
-    return 0.5 + 0.5 + 0.5 + 0.5 + ((getDuration("d_"+ TodoUtil::itos(_multiplicand) + ".m4a") + getDuration("times.m4a") + getDuration("d_"+ TodoUtil::itos(_multiplier) + ".m4a") + getDuration("equals.m4a") + getDuration("d_"+ TodoUtil::itos(_multiplicand * _multiplier) + ".m4a")) * 0.5);
+    // The multiplier number is now waited out in full (see the read-aloud
+    // sequence) so equals doesn't cut in; all other sounds still overlap at 0.5.
+    return 0.5 + 0.5 + 0.5 + 0.5 + ((getDuration("d_"+ TodoUtil::itos(_multiplicand) + ".m4a") + getDuration("times.m4a") + getDuration("equals.m4a") + getDuration("d_"+ TodoUtil::itos(_multiplicand * _multiplier) + ".m4a")) * 0.5) + getDuration("d_"+ TodoUtil::itos(_multiplier) + ".m4a");
 }
 
 void MultiplicationBoardScene::makeCompleteExpression()
