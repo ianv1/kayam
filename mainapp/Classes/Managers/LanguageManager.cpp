@@ -495,7 +495,7 @@ void LanguageManager::initLocalizationMap()
 
     _localizationMapEnglish["LRComprehension"] = "Comprehension";
     _localizationMapSwahili["LRComprehension"] = "Ufahamu";
-    _localizationMapMalay["LRComprehension"] = "Pemahaman Mendengar";
+    _localizationMapMalay["LRComprehension"] = "Soalan Pemahaman";
 
     _localizationMapEnglish["BookwithQuiz"] = "Book with Quiz";
     _localizationMapSwahili["BookwithQuiz"] = "Kitabu Chenye Jaribio";
