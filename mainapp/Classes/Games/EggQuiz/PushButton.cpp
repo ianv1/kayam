@@ -66,6 +66,10 @@ void PushButton::setImage() {
     if (fileName.find(".png")==string::npos) fileName += ".png";
     
     auto image = Sprite::create(fileName);
+    // Guard against a missing asset: Sprite::create returns nullptr when the
+    // file doesn't exist. Rather than dereference (hard crash), keep the text
+    // label visible so the question is still answerable.
+    if (!image) return;
     image->setScale(MIN(this->getContentSize().width/image->getContentSize().width, this->getContentSize().height/image->getContentSize().height)*0.88);
     image->setPosition(_body->getContentSize()/2 + Size(0,10));
     addChild(image);

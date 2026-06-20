@@ -752,8 +752,11 @@ void EggQuizScene::createShapesView() {
         label->setPosition(questionBox->getContentSize()/2+Size(0,250));
         
         auto sample = Sprite::create(imagesPath + _problem.answer + ".png");
-        sample->setPosition(questionBox->getContentSize()/2+Size(0,-150));
-        questionBox->addChild(sample);
+        // Guard against a missing shape image (nullptr) instead of crashing.
+        if (sample) {
+            sample->setPosition(questionBox->getContentSize()/2+Size(0,-150));
+            questionBox->addChild(sample);
+        }
 
     } else {
         

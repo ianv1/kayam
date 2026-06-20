@@ -1021,7 +1021,9 @@ void EquationMakerScene::setClearAnimationFlow(float)
         int count = 0;
         bool isPrevLongDelay = false;
         bool isPrevExtraLongDelay2 = false;
-        
+        // Running clock shared by voice and visual pulse so they stay in sync.
+        float accum = 0.f;
+
         for(int i = m_AnimationStartIndex; i < m_vecSlot.size(); ++i){
             int index = m_vecSlot[i].correctIndex;
             
@@ -1058,19 +1060,25 @@ void EquationMakerScene::setClearAnimationFlow(float)
                 }
 
                 
-                auto delay = DelayTime::create(count*0.6f);
-                auto scale = ScaleTo::create(0.2f, 1.2f);
-                auto scaleBack = ScaleTo::create(0.2f, 1.f);
-                auto seq = Sequence::create(delay, scale, scaleBack, NULL);
-                
-                pObject->stopAllActions();
-                pObject->runAction(seq);
-                
-                
+                // Compute this element's voice gap first, advance the shared
+                // clock, then pulse the object at that exact time so the
+                // highlight lands on the word being spoken. Previously the
+                // pulse used a fixed count*0.6f cadence and drifted away from
+                // the (language-aware, variable) voice schedule below.
                 bool isMalay = LanguageManager::getInstance()->getCurrentLanguageTag() == "ms-MY";
                 float delayf = isMalay ? 0.85f : 0.6f;
                 if(isPrevLongDelay) delayf = isMalay ? 1.15f : 0.9f;
                 if(isPrevExtraLongDelay2) delayf = 1.8f; // BM "sama dengan" needs more headroom
+                accum += delayf;
+
+                auto delay = DelayTime::create(accum);
+                auto scale = ScaleTo::create(0.2f, 1.2f);
+                auto scaleBack = ScaleTo::create(0.2f, 1.f);
+                auto seq = Sequence::create(delay, scale, scaleBack, NULL);
+
+                pObject->stopAllActions();
+                pObject->runAction(seq);
+
                 vecAnimation.pushBack(DelayTime::create(delayf));
                 vecAnimation.pushBack(CallFunc::create(CC_CALLBACK_0(EquationMakerScene::playClearAnimationObjectSound, this)));
 
