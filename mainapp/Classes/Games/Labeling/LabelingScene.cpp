@@ -621,8 +621,13 @@ void LabelingScene::loadData(int level)
         int currentIndex = 4;
         
         for (int i=0; i<maxWordCount; i++) {
+            // Each label needs a full (text, pos, voice) triplet. Stop if the
+            // row is too short (e.g. an un-padded data row) instead of reading
+            // past the end of the vector, which crashes the game.
+            if (currentIndex + 3 > (int)row.size())
+                break;
             string text = row[currentIndex++];
-            
+
             if (text.empty())
                 break;
             
