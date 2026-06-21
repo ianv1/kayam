@@ -18,6 +18,7 @@
     <string name="defaultLanguage">en-US</string>
     <string name="library">Library</string>
     <string name="dashboard">Dashboard</string>
+    <string name="dashboard_back">Back</string>
     <string name="exit_admin_mode">Exit Admin</string>
     <string name="tools">Tools</string>
     <string name="btn_upload">Upload logs</string>

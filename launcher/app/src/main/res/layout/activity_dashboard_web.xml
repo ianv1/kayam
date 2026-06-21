@@ -17,4 +17,23 @@
         android:layout_centerInParent="true"
         android:visibility="gone" />
 
+    <!-- On-screen back/close button. The activity runs fullscreen with the
+         system bars hidden, so this is the user's way out of the dashboard. -->
+    <ImageButton
+        android:id="@+id/dashboard_back"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/dashboard_back_bg"
+        android:padding="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/library_icon_back"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/dashboard_back" />
+
 </RelativeLayout>

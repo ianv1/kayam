@@ -43,6 +43,13 @@ public class DashboardWebActivity extends Activity {
         webView = (WebView) findViewById(R.id.dashboard_webview);
         progress = (ProgressBar) findViewById(R.id.dashboard_progress);
 
+        // On-screen back button — closes the dashboard and returns to the
+        // previous screen (system bars are hidden, so this is the way out).
+        View backButton = findViewById(R.id.dashboard_back);
+        if (backButton != null) {
+            backButton.setOnClickListener(v -> finish());
+        }
+
         // Looker Studio needs JS + DOM storage and cookies (auth/session).
         WebSettings s = webView.getSettings();
         s.setJavaScriptEnabled(true);
