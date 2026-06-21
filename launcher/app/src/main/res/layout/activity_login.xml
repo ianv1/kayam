@@ -61,12 +61,24 @@
             android:id="@+id/ic_upload"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="24dp"
+            android:layout_marginEnd="36dp"
+            android:layout_toStartOf="@+id/ic_dashboard"
             android:src="@drawable/ic_upload"
             android:tint="@android:color/white"
             android:visibility="invisible" />
+
+        <!-- Dashboard: top-right of the toolbar. Always visible — even before
+             login — and always opens the admin dashboard. -->
+        <ImageView
+            android:id="@+id/ic_dashboard"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_dashboard"
+            android:tint="@android:color/white" />
 
     </RelativeLayout>
 

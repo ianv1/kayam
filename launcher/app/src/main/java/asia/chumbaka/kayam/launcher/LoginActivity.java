@@ -52,6 +52,8 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         PasswordDialogFragment.PasswordDialogListener,
         CreateUserDialogFragment.CreateUserListener {
 
+    private static final String TAG = "LoginActivity";
+
     private ArrayList<User> users;
     private String selectedUserName;
 
@@ -88,6 +90,13 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                 return true;
             }
         });
+
+        // Dashboard icon (top-right of the toolbar). Always available — even
+        // before any login — and always opens the admin dashboard.
+        ImageView icDashboard = (ImageView) findViewById(R.id.ic_dashboard);
+        if (icDashboard != null) {
+            icDashboard.setOnClickListener(view -> openDashboard());
+        }
     }
 
     @Override
@@ -126,6 +135,13 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         dbHandler.logEvent(java.util.UUID.randomUUID().toString(), loginUnixSecs,
                 sessionUuid, user.getDisplayName(), 0,
                 "", "", 0, 0, user.getNumStars());
+
+        // Passcode accepted — take the student straight to the homescreen
+        // (MainActivity) instead of leaving them on the login grid. CLEAR_TOP
+        // reuses the existing homescreen below us in the stack.
+        startActivity(new Intent(LoginActivity.this, MainActivity.class)
+                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
+        finish();
     }
 
     @Override
@@ -437,6 +453,103 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                         // Toast.makeText(LoginActivity.this, "Signed in failed", Toast.LENGTH_SHORT).show();
                     }
                 });
+    }
+
+    /**
+     * Dashboard handler for the toolbar icon. Always opens the ADMIN dashboard:
+     * posts "admin" + the tablet id to the Kayam dashboard endpoint and opens the
+     * returned view_url in the in-app WebView. Available even before any login —
+     * the student user id is no longer sent. Shows a spinner during the round-trip.
+     */
+    private void openDashboard() {
+        boolean isBM = isBMLang();
+
+        final String username = "admin";
+        final String deviceId = getSharedPreferences("sharedPref", Context.MODE_MULTI_PROCESS)
+                .getString("tablet_number", "");
+
+        final android.app.ProgressDialog dialog = new android.app.ProgressDialog(this);
+        dialog.setMessage(isBM ? "Memuat..." : "Loading...");
+        dialog.setCancelable(false);
+        dialog.show();
+
+        new Thread(() -> {
+            String viewUrl = null;
+            String errorMsg = null;
+            java.net.HttpURLConnection conn = null;
+            try {
+                java.net.URL url = new java.net.URL(
+                        "https://kayam-dashboard-api-286909984186.asia-southeast1.run.app/get-dashboard-link");
+                conn = (java.net.HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("POST");
+                conn.setRequestProperty("Content-Type", "application/json");
+                conn.setRequestProperty("Accept", "application/json");
+                conn.setConnectTimeout(15000);
+                conn.setReadTimeout(20000);
+                conn.setDoOutput(true);
+
+                org.json.JSONObject body = new org.json.JSONObject();
+                body.put("username", username);
+                body.put("device_id", deviceId);
+                byte[] payload = body.toString().getBytes("UTF-8");
+
+                try (java.io.OutputStream os = conn.getOutputStream()) {
+                    os.write(payload);
+                }
+
+                int code = conn.getResponseCode();
+                java.io.InputStream in = (code >= 200 && code < 300)
+                        ? conn.getInputStream()
+                        : conn.getErrorStream();
+                java.io.ByteArrayOutputStream buf = new java.io.ByteArrayOutputStream();
+                byte[] chunk = new byte[4096];
+                int n;
+                if (in != null) {
+                    while ((n = in.read(chunk)) > 0) buf.write(chunk, 0, n);
+                    in.close();
+                }
+                String raw = buf.toString("UTF-8");
+                Log.d(TAG, "dashboard response (" + code + "): " + raw);
+
+                if (code < 200 || code >= 300) {
+                    errorMsg = "HTTP " + code;
+                } else {
+                    org.json.JSONObject resp = new org.json.JSONObject(raw);
+                    viewUrl = resp.optString("view_url", null);
+                    if (viewUrl == null || viewUrl.isEmpty()) {
+                        errorMsg = "Missing view_url in response";
+                    }
+                }
+            } catch (Exception e) {
+                Log.e(TAG, "openDashboard failed", e);
+                errorMsg = e.getClass().getSimpleName() + ": " + e.getMessage();
+            } finally {
+                if (conn != null) conn.disconnect();
+            }
+
+            final String finalUrl = viewUrl;
+            final String finalError = errorMsg;
+            runOnUiThread(() -> {
+                if (dialog.isShowing()) dialog.dismiss();
+                if (finalUrl != null) {
+                    try {
+                        Intent browse = new Intent(LoginActivity.this, DashboardWebActivity.class);
+                        browse.putExtra(DashboardWebActivity.EXTRA_URL, finalUrl);
+                        startActivity(browse);
+                    } catch (Exception e) {
+                        Toast.makeText(LoginActivity.this,
+                                (isBM ? "Tidak dapat membuka papan pemuka: " : "Cannot open dashboard: ")
+                                        + e.getMessage(),
+                                Toast.LENGTH_LONG).show();
+                    }
+                } else {
+                    Toast.makeText(LoginActivity.this,
+                            (isBM ? "Gagal memuatkan papan pemuka. " : "Failed to load dashboard. ")
+                                    + (finalError == null ? "" : finalError),
+                            Toast.LENGTH_LONG).show();
+                }
+            });
+        }, "kayam-dashboard").start();
     }
 
 }
