@@ -50,6 +50,10 @@ ms-MY	16	1	Anjing Laut	level2/puzzle6_anjinglaut/	ap_puzzle6_background.jpg	1	x	
 1	ap_puzzle6_anjing_laut_puzzle	630	150	x	x
 ms-MY	17	1	Ular Sawa	level2/puzzle7_ularsawa/	ap_puzzle7_background.jpg	1	x	ular_sawa.m4a
 1	ap_puzzle7_ular_sawa_puzzle	630	150	x	x			
+ms-MY	18	1	Squirrel	level2/puzzle6/	ap_puzzle6_background.jpg	3	_ap_puzzle6_mask.png	squirrel.m4a
+1	ap_puzzle6_squirrel1_puzzle	780	504	x	x			
+2	ap_puzzle6_squirrel2_puzzle	1016	0	x	x			
+3	ap_puzzle6_squirrel3_puzzle	1492	280	x	x			
 ms-MY	19	1	Cow	level2/puzzle7/	ap_puzzle7_background.jpg	4	_ap_puzzle7_mask.png	cow.m4a
 1	ap_puzzle7_cow1_puzzle	436	580	x	x			
 2	ap_puzzle7_cow2_puzzle	760	22	x	x			
