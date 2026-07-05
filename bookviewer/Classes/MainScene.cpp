@@ -349,14 +349,9 @@ bool MainScene::showBook(std::string bookfolder)
     if (ret)
     {
         
-        auto folderName = TodoUtil::split(bookfolder, '/').back();
-        if (folderName.find("en")==0) {
-            LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::en_US);
-        } else if (folderName.find("sw")==0) {
-            LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::sw_TZ);
-        } else if (folderName.find("my")==0) {
-            LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::ms_MY);
-        }
+        // BM bookviewer APK: force Malay (books are named "en_###" so name-based
+        // detection would wrongly pick English).
+        LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::ms_MY);
         
         auto scene = Scene::create();
         BookView::setCurrentBook(bookfolder);

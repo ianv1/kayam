@@ -29,9 +29,11 @@ void LanguageManager::init()
     auto defaultLang = LanguageType::ENGLISH;
 #endif
     //auto defaultLang = LanguageType::SWAHILI;
-    auto defaultLang = "en-US";//UserDefault::getInstance()->getStringForKey("appLanguage", "en") == "en" ? "en-US" : "sw-TZ";
+    // BM bookviewer APK: default to Malay so localized UI strings (e.g.
+    // "Syabas!" on the completion popup) show even before a book is opened.
+    auto defaultLang = "ms-MY";
 
-    auto localeCode = defaultLang;//UserDefault::getInstance()->getStringForKey("LocaleCode", defaultLang);
+    auto localeCode = defaultLang;
 
     auto localeType = convertLocaleCodeToType(localeCode);
     if (localeType>=LocaleType_MAX) localeType = sw_TZ;
@@ -71,8 +73,10 @@ LanguageManager::LocaleType LanguageManager::convertLocaleCodeToType(std::string
         if (region=="GB") return en_GB;
     } else if (lang=="sw") {
         if (region=="TZ") return sw_TZ;
+    } else if (lang=="ms") {
+        if (region=="MY") return ms_MY;
     }
-    
+
     return LocaleType_MAX;
 }
 
@@ -83,6 +87,7 @@ std::string LanguageManager::convertLocaleTypeToCode(LanguageManager::LocaleType
         case en_GB: return "en-GB"; break;
         case en_KE: return "en-KE"; break;
         case sw_TZ: return "sw-TZ"; break;
+        case ms_MY: return "ms-MY"; break;
         default: break;
     }
     

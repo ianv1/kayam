@@ -132,16 +132,10 @@ bool AppDelegate::launchBook()
 		MainScene::currentBook = book;
 
 
-		auto folderName = TodoUtil::split(book, '/').back();
-		if (folderName.find("en") == 0) {
-			LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::en_US);
-		}
-		else if (folderName.find("sw") == 0) {
-			LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::sw_TZ);
-		}
-        else if (folderName.find("my") == 0) {
-            LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::ms_MY);
-        }
+		// This is the BM bookviewer APK (ms-MY assets). Books are still named
+		// "en_###", so name-based language detection can't identify them — just
+		// force Malay for this build so UI strings (e.g. "Syabas!") localize.
+		LanguageManager::getInstance()->setCurrentLocale(LanguageManager::LocaleType::ms_MY);
 
 
 		std::function<Scene*(void)> creator = [book]() {
