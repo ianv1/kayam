@@ -160,22 +160,25 @@ void SentenceMakerScene::parseSoundDurationJson()
     string jsonFile;
     bool bSuccess = false;
     
+    // Word-duration data is language-suffixed and may be absent for some
+    // languages (e.g. there is no word_sound_duraion_ms.json for BM). A missing
+    // word file must NOT abort this function, otherwise the sentence-duration
+    // data below never loads and the stage-complete chime fires immediately,
+    // overlapping the still-playing sentence voice.
     jsonFileName = kPrefixPath + "word_sound_duraion_" + LanguageManager::getInstance()->getCurrentLanguageCode() + ".json";
     jsonFile = FileUtils::getInstance()->getStringFromFile(jsonFileName);
-    bSuccess = reader.parse(jsonFile, _wordSoundDurationJson, false);
-    if (!bSuccess)
+    if (!reader.parse(jsonFile, _wordSoundDurationJson, false))
     {
-        NativeAlert::show("Error", "Cannot be Parsed : " + jsonFileName, "OK");
-        return;
+        CCLOG("SentenceMaker: word duration json missing/unparseable: %s", jsonFileName.c_str());
+        _wordSoundDurationJson = Json::Value();
     }
-    
+
     jsonFileName = kPrefixPath + "sentence_sound_duraion.json";
     jsonFile = FileUtils::getInstance()->getStringFromFile(jsonFileName);
-    bSuccess = reader.parse(jsonFile, _sentenceSoundDurationJson, false);
-    if (!bSuccess)
+    if (!reader.parse(jsonFile, _sentenceSoundDurationJson, false))
     {
-        NativeAlert::show("Error", "Cannot be Parsed : " + jsonFileName, "OK");
-        return;
+        CCLOG("SentenceMaker: sentence duration json missing/unparseable: %s", jsonFileName.c_str());
+        _sentenceSoundDurationJson = Json::Value();
     }
 }
 
@@ -749,5 +752,10 @@ double SentenceMakerScene::getWordDuration(string soundName)
 double SentenceMakerScene::getSentenceDuration(string soundName)
 {
     auto durationString = _sentenceSoundDurationJson[soundName].asString();
-    return TodoUtil::stod(durationString);
+    double d = TodoUtil::stod(durationString);
+    // Safety net: a missing/zero entry would make the stage-complete chime fire
+    // almost immediately and overlap the still-playing sentence voice. Fall back
+    // to a typical sentence length so the chime waits instead.
+    if (d <= 0.0) d = 3.0;
+    return d;
 }
