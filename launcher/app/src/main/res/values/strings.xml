@@ -166,4 +166,31 @@
 \n
 \nKayam School remains committed to providing a safe and effective learning platform for children, and we appreciate your trust in us.
 </string>
+
+    <string name="credits_button">Credits</string>
+    <string name="credits_button_bm">Kredit</string>
+
+    <string name="credits_english_title">Credits and Open-Source Notice</string>
+    <string name="credits_english">Kayam School App is adopted and maintained by Chumbaka, using software and materials adapted from the open-source Kitkit School project originally created by Enuma, Inc.
+\n
+\nCopyright 2018 Enuma, Inc.
+\nLicensed under the Apache License 2.0 and the Creative Commons Attribution 4.0 International License.
+\n
+\nChumbaka has modified, localised, and adapted the app for learning implementation, including adaptations for Bahasa Melayu and Mathematics in Bahasa Melayu. These adaptations were prepared with support from AI tools and input from teachers and officers from PPD Kuching and JPN Sarawak. Chumbaka is responsible for the final review, selection, and implementation of these adaptations.
+\n
+\nKayam School App is an independent project by Chumbaka. It is not an official Kitkit School or Enuma product, and is not sponsored, endorsed, or maintained by Enuma.
+\n
+\nThe names “Kitkit School” and “Enuma” are used only for attribution to the original open-source project. All additional localisation, content adaptation, branding, and implementation materials are by Chumbaka, unless otherwise stated.</string>
+
+    <string name="credits_malay_title">Penghargaan dan Notis Sumber Terbuka</string>
+    <string name="credits_malay">Aplikasi Kayam School diguna pakai dan diselenggara oleh Chumbaka, menggunakan perisian dan bahan yang diadaptasi daripada projek sumber terbuka Kitkit School yang asalnya dihasilkan oleh Enuma, Inc.
+\n
+\nHak cipta 2018 Enuma, Inc.
+\nDilesenkan di bawah Apache License 2.0 dan Creative Commons Attribution 4.0 International License.
+\n
+\nChumbaka telah mengubah suai, melokalisasikan, dan mengadaptasi aplikasi ini untuk pelaksanaan pembelajaran, termasuk adaptasi untuk Bahasa Melayu dan Matematik dalam Bahasa Melayu. Adaptasi ini disediakan dengan sokongan alat AI serta input daripada guru-guru dan pegawai-pegawai PPD Kuching dan JPN Sarawak. Chumbaka bertanggungjawab terhadap semakan akhir, pemilihan, dan pelaksanaan adaptasi ini.
+\n
+\nAplikasi Kayam School ialah projek bebas oleh Chumbaka. Aplikasi ini bukan produk rasmi Kitkit School atau Enuma, dan tidak ditaja, disahkan, atau diselenggara oleh Enuma.
+\n
+\nNama “Kitkit School” dan “Enuma” digunakan hanya untuk tujuan atribusi kepada projek sumber terbuka asal. Semua lokalisasi tambahan, adaptasi kandungan, penjenamaan, dan bahan pelaksanaan adalah oleh Chumbaka, melainkan dinyatakan sebaliknya.</string>
 </resources>

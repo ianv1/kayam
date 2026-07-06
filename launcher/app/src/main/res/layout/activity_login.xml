@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="asia.chumbaka.kayam.launcher.MainActivity">
+
+<LinearLayout
     android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_wooden"
-    android:orientation="vertical"
-    tools:context="asia.chumbaka.kayam.launcher.MainActivity">
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -141,3 +145,22 @@
         android:verticalSpacing="24dp" />
 
 </LinearLayout>
+
+    <!-- Credits: floating bottom-right. Opens the open-source / attribution
+         notice in a scrollable popup (see LoginActivity.showCreditsDialog). -->
+    <Button
+        android:id="@+id/btn_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_corner_bg"
+        android:paddingHorizontal="20dp"
+        android:text="@string/credits_button"
+        android:textColor="#673309" />
+
+</RelativeLayout>

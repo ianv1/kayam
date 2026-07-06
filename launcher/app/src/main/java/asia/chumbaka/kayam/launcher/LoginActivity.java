@@ -97,6 +97,34 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
         if (icDashboard != null) {
             icDashboard.setOnClickListener(view -> openDashboard());
         }
+
+        // Credits button (bottom-right). Opens the open-source / attribution
+        // notice in a scrollable popup. Label + content follow the app language.
+        Button creditsButton = (Button) findViewById(R.id.btn_credits);
+        if (creditsButton != null) {
+            creditsButton.setText(isBMLang() ? R.string.credits_button_bm : R.string.credits_button);
+            creditsButton.setOnClickListener(view -> showCreditsDialog());
+        }
+    }
+
+    /**
+     * Shows the Credits & Open-Source Notice in a scrollable dialog, in whichever
+     * language the app is currently set to (see {@link #isBMLang()}).
+     */
+    private void showCreditsDialog() {
+        boolean isBM = isBMLang();
+
+        View dialogView = getLayoutInflater().inflate(R.layout.dialog_credits, null);
+        TextView titleTextView = dialogView.findViewById(R.id.credits_title_tv);
+        TextView textView = dialogView.findViewById(R.id.credits_tv);
+
+        titleTextView.setText(isBM ? R.string.credits_malay_title : R.string.credits_english_title);
+        textView.setText(isBM ? R.string.credits_malay : R.string.credits_english);
+
+        new AlertDialog.Builder(this)
+                .setView(dialogView)
+                .setPositiveButton("OK", null)
+                .show();
     }
 
     @Override
