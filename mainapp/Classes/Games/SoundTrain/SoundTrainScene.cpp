@@ -419,7 +419,13 @@ void SoundTrainScene::trainCome() {
     _locomotive->setPosition(getLocomotiveStartX(), locomotiveY);
     _gameNode->addChild(_locomotive);
     
-    auto locomotiveLabel = TodoUtil::createLabel(_trainName, 120 - _trainName.size() * 5, Size::ZERO, fontName, Color4B(255, 255, 255,255), TextHAlignment::CENTER);
+    // Display the train name with any trailing digit stripped (e.g. "e2" -> "e")
+    // so the alternate-pronunciation variant still shows the plain letter. The
+    // full _trainName (with the digit) is kept for playSound() to pick e2.m4a.
+    std::string displayTrainName = _trainName;
+    while (!displayTrainName.empty() && displayTrainName.back() >= '0' && displayTrainName.back() <= '9')
+        displayTrainName.pop_back();
+    auto locomotiveLabel = TodoUtil::createLabel(displayTrainName, 120 - displayTrainName.size() * 5, Size::ZERO, fontName, Color4B(255, 255, 255,255), TextHAlignment::CENTER);
     locomotiveLabel->setPosition(360, 270);
     locomotiveLabel->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
     _locomotive->addChild(locomotiveLabel);
