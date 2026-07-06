@@ -47,19 +47,13 @@ bool SplashScene::init()
         return false;
     }
     
+    // Splash logo removed: this scene now just holds the screen while the bird
+    // cache loads asynchronously (see AppDelegate::loadBirdCache), then it's
+    // replaced by MainScene. A plain white background covers that brief moment.
     auto visibleSize = Director::getInstance()->getVisibleSize();
-    
-    auto sprite = Sprite::create("System/enuma.png");
-    auto spriteSize = sprite->getContentSize();
-    auto scale = MAX(visibleSize.width/spriteSize.width, visibleSize.height/spriteSize.height);
-    sprite->setScale(scale);
-    
-    // position the sprite on the center of the screen
-    sprite->setPosition(Vec2(visibleSize.width/2 , visibleSize.height/2 ));
-    
-    // add the sprite as a child to this layer
-    this->addChild(sprite, 0);
-    
+    auto bg = LayerColor::create(Color4B(255, 255, 255, 255), visibleSize.width, visibleSize.height);
+    this->addChild(bg, 0);
+
     return true;
 }
 
