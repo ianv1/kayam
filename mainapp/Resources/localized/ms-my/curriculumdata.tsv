@@ -399,57 +399,57 @@ day	16	1
 game	EggQuizLiteracy	0	MiniTest_3_1
 day	17	4
 game	WordMatrix	5	x
-game	BookWithQuiz	0	en_101
+game	Book	0	en_101
 game	SoundTrain	4	x
 game	WordNote	1	x
 day	18	4
 game	WordMatrix	6	x
-game	BookWithQuiz	0	en_102
+game	Book	0	en_102
 game	SoundTrain	5	x
 game	WordNote	2	x
 day	19	4
 game	WordMatrix	7	x
-game	BookWithQuiz	0	en_103
+game	Book	0	en_103
 game	SoundTrain	6	x
 game	WordNote	3	x
 day	20	4
 game	WordMatrix	8	x
-game	BookWithQuiz	0	en_104
+game	Book	0	en_104
 game	SoundTrain	7	x
 game	WordNote	1	x
 day	21	4
 game	WordMatrix	4	x
-game	BookWithQuiz	0	en_105
+game	Book	0	en_105
 game	SoundTrain	8	x
 game	WordNote	2	x
 day	22	4
 game	WordMatrix	5	x
-game	BookWithQuiz	0	en_106
+game	Book	0	en_106
 game	SoundTrain	9	x
 game	WordNote	3	x
 day	23	4
 game	WordMatrix	6	x
-game	BookWithQuiz	0	en_107
+game	Book	0	en_107
 game	SoundTrain	10	x
 game	AnimalPuzzle	16	x
 day	24	4
 game	WordMatrix	7	x
-game	BookWithQuiz	0	en_108
+game	Book	0	en_108
 game	SoundTrain	11	x
 game	AnimalPuzzle	17	x
 day	25	4
 game	WordMatrix	8	x
-game	BookWithQuiz	0	en_109
+game	Book	0	en_109
 game	SoundTrain	12	x
 game	WordMachine	1	x
 day	26	4
 game	WordMatrix	9	x
-game	BookWithQuiz	0	en_111
+game	Book	0	en_111
 game	SoundTrain	13	x
 game	WordMachine	2	x
 day	27	4
 game	WordMatrix	10	x
-game	BookWithQuiz	0	en_112
+game	Book	0	en_112
 game	SoundTrain	14	x
 game	Spelling	4	x
 day	28	1
@@ -492,7 +492,7 @@ game	EggQuizLiteracy	0	MiniTest_4_1
 day	9	4
 game	WordMatrix	13	x
 game	WordNote	5	x
-game	BookWithQuiz	0	en_205
+game	Book	0	en_205
 game	BirdPhonics	5	x
 day	10	4
 game	WordMatrix	14	x
@@ -535,17 +535,17 @@ game	Book	0	en_204
 game	SoundTrain	16	x
 day	18	3
 game	WordMatrix	20	x
-game	BookWithQuiz	0	en_205
+game	Book	0	en_205
 game	SoundTrain	17	x
 day	19	4
 game	ReadingBird	6	x
 game	BirdPhonics	4	x
-game	BookWithQuiz	0	en_206
+game	Book	0	en_206
 game	SoundTrain	18	x
 day	20	4
 game	ReadingBird	6	x
 game	BirdPhonics	5	x
-game	BookWithQuiz	0	en_207
+game	Book	0	en_207
 game	WordMachine	3	x
 day	21	3
 game	WordMatrix	11	x
@@ -569,7 +569,7 @@ game	WordNote	13	x
 game	SoundTrain	21	x
 day	26	3
 game	WordMatrix	15	x
-game	BookWithQuiz	0	en_215
+game	Book	0	en_215
 game	SoundTrain	20	x
 day	27	3
 game	WordMatrix	16	x
@@ -584,7 +584,7 @@ game	Spelling	12	x
 day	29	4
 game	WordMatrix	18	x
 game	BirdPhonics	10	x
-game	BookWithQuiz	0	en_228
+game	Book	0	en_228
 game	Spelling	13	x
 day	30	5
 game	WordMatrix	19	x
@@ -595,7 +595,7 @@ game	Spelling	12	x
 day	31	4
 game	WordMatrix	20	x
 game	BirdPhonics	12	x
-game	BookWithQuiz	0	en_213
+game	Book	0	en_213
 game	Spelling	13	x
 day	32	1
 game	EggQuizLiteracy	0	PostTest_4
@@ -619,7 +619,7 @@ game	BirdPhonics	10	x
 day	4	4
 game	WordMatrix	13	x
 game	Labeling	2	x
-game	BookWithQuiz	0	en_216
+game	Book	0	en_216
 game	BirdPhonics	11	x
 day	5	5
 game	WordMatrix	21	x
@@ -630,7 +630,7 @@ game	BirdPhonics	12	x
 day	6	4
 game	WordMatrix	22	x
 game	Labeling	3	x
-game	BookWithQuiz	0	en_217
+game	Book	0	en_217
 game	BirdPhonics	13	x
 day	7	1
 game	EggQuizLiteracy	0	MiniTest_5_1
@@ -643,7 +643,7 @@ game	WordNote	17	x
 day	9	4
 game	WordMatrix	24	x
 game	Labeling	4	x
-game	BookWithQuiz	0	en_218
+game	Book	0	en_218
 game	ReadingBird	7	x
 day	10	5
 game	Spelling	16	x
@@ -653,7 +653,7 @@ game	ReadingBird	8	x
 game	BirdPhonics	13	x
 day	11	3
 game	Labeling	6	x
-game	BookWithQuiz	0	en_220
+game	Book	0	en_220
 game	BirdPhonics	14	x
 day	12	5
 game	WordMatrix	25	x
@@ -664,7 +664,7 @@ game	BirdPhonics	15	x
 day	13	4
 game	WordMatrix	26	x
 game	ReadingBird	9	x
-game	BookWithQuiz	0	en_221
+game	Book	0	en_221
 game	BirdPhonics	16	x
 day	14	1
 game	EggQuizLiteracy	0	MiniTest_5_2
@@ -946,7 +946,7 @@ game	WordKicker	14	x
 game	SentenceMaker	9	x
 day	2	4
 game	ReadingBird	15	x
-game	BookWithQuiz	0	en_415
+game	Book	0	en_415
 game	SentenceMaker	10	x
 game	StarFall	1	x
 day	3	4
@@ -956,7 +956,7 @@ game	WordKicker	15	x
 game	SentenceMaker	10	x
 day	4	4
 game	WhatIsThis	13	x
-game	BookWithQuiz	0	en_418
+game	Book	0	en_418
 game	SentenceMaker	9	x
 game	StarFall	2	x
 day	5	3
@@ -976,7 +976,7 @@ game	WordKicker	16	x
 game	SentenceMaker	11	x
 day	9	4
 game	WhatIsThis	14	x
-game	BookWithQuiz	0	en_414
+game	Book	0	en_414
 game	WordKicker	17	x
 game	StarFall	3	x
 day	10	4
@@ -986,7 +986,7 @@ game	WordKicker	18	x
 game	LRComprehension	14	x
 day	11	4
 game	ReadingBird	18	x
-game	BookWithQuiz	0	en_425
+game	Book	0	en_425
 game	WordKicker	19	x
 game	SentenceMaker	12	x
 day	12	3
@@ -1006,7 +1006,7 @@ game	SentenceMaker	12	x
 game	LRComprehension	17	x
 day	16	4
 game	WordKicker	22	x
-game	BookWithQuiz	0	en_402
+game	Book	0	en_402
 game	SentenceBridge	12	x
 game	StarFall	4	x
 day	17	4
@@ -1016,7 +1016,7 @@ game	LRComprehension	18	x
 game	StarFall	4	x
 day	18	4
 game	WhatIsThis	15	x
-game	BookWithQuiz	0	en_426
+game	Book	0	en_426
 game	SentenceBridge	13	x
 game	LRComprehension	19	x
 day	19	4
@@ -1026,7 +1026,7 @@ game	SentenceBridge	13	x
 game	LRComprehension	20	x
 day	20	4
 game	WhatIsThis	16	x
-game	BookWithQuiz	0	en_405
+game	Book	0	en_405
 game	SentenceBridge	14	x
 game	StarFall	5	x
 day	21	3
@@ -1037,7 +1037,7 @@ day	22	1
 game	EggQuizLiteracy	0	MiniTest_8_3
 day	23	4
 game	WordKicker	19	x
-game	BookWithQuiz	0	en_424
+game	Book	0	en_424
 game	SentenceBridge	16	x
 game	StarFall	5	x
 day	24	4
@@ -1047,7 +1047,7 @@ game	SentenceBridge	16	x
 game	LRComprehension	22	x
 day	25	4
 game	WordKicker	21	x
-game	BookWithQuiz	0	en_409
+game	Book	0	en_409
 game	SentenceBridge	12	x
 game	LRComprehension	23	x
 day	26	4
@@ -1057,7 +1057,7 @@ game	SentenceBridge	13	x
 game	LRComprehension	24	x
 day	27	3
 game	SentenceMaker	10	x
-game	BookWithQuiz	0	en_407
+game	Book	0	en_407
 game	SentenceBridge	14	x
 day	28	4
 game	SentenceMaker	11	x
@@ -1066,7 +1066,7 @@ game	SentenceBridge	15	x
 game	LRComprehension	25	x
 day	29	4
 game	SentenceMaker	12	x
-game	BookWithQuiz	0	en_401
+game	Book	0	en_401
 game	SentenceBridge	16	x
 game	LRComprehension	26	x
 day	30	1
@@ -1079,7 +1079,7 @@ game	LRComprehension	27	x
 game	StarFall	6	x
 day	2	4
 game	SentenceMaker	13	x
-game	BookWithQuiz	0	en_408
+game	Book	0	en_408
 game	SentenceBridge	17	x
 game	StarFall	6	x
 day	3	4
@@ -1089,7 +1089,7 @@ game	LRComprehension	28	x
 game	SentenceBridge	17	x
 day	4	4
 game	WhatIsThis	13	x
-game	BookWithQuiz	0	en_404
+game	Book	0	en_404
 game	SentenceBridge	18	x
 game	StarFall	6	x
 day	5	3
@@ -1098,7 +1098,7 @@ game	Book	0	en_410
 game	LRComprehension	29	x
 day	6	4
 game	WhatIsThis	15	x
-game	BookWithQuiz	0	en_410
+game	Book	0	en_410
 game	SentenceBridge	19	x
 game	AnimalPuzzle	27	x
 day	7	1
@@ -1110,7 +1110,7 @@ game	LRComprehension	30	x
 game	SentenceBridge	18	x
 day	9	4
 game	WhatIsThis	16	x
-game	BookWithQuiz	0	en_413
+game	Book	0	en_413
 game	SentenceBridge	19	x
 game	StarFall	7	x
 day	10	4
@@ -1120,7 +1120,7 @@ game	LRComprehension	31	x
 game	StarFall	7	x
 day	11	4
 game	WhatIsThis	17	x
-game	BookWithQuiz	0	en_502
+game	Book	0	en_502
 game	SentenceMaker	12	x
 game	StarFall	8	x
 day	12	4
@@ -1130,7 +1130,7 @@ game	LRComprehension	32	x
 game	SentenceBridge	20	x
 day	13	4
 game	WhatIsThis	18	x
-game	BookWithQuiz	0	en_504
+game	Book	0	en_504
 game	SentenceMaker	13	x
 game	StarFall	8	x
 day	14	1
@@ -1142,7 +1142,7 @@ game	LRComprehension	33	x
 game	WhatIsThis	15	x
 day	16	4
 game	WhatIsThis	18	x
-game	BookWithQuiz	0	en_509
+game	Book	0	en_509
 game	SentenceBridge	21	x
 game	StarFall	9	x
 day	17	3
@@ -1151,7 +1151,7 @@ game	LRComprehension	34	x
 game	SentenceBridge	22	x
 day	18	4
 game	SentenceMaker	15	x
-game	BookWithQuiz	0	en_510
+game	Book	0	en_510
 game	SentenceBridge	23	x
 game	StarFall	9	x
 day	19	4
@@ -1160,7 +1160,7 @@ game	Book	0	en_506
 game	LRComprehension	35	x
 game	SentenceMaker	14	x
 day	20	3
-game	BookWithQuiz	0	en_506
+game	Book	0	en_506
 game	SentenceMaker	15	x
 game	StarFall	10	x
 day	21	4
@@ -1172,7 +1172,7 @@ day	22	1
 game	EggQuizLiteracy	0	MiniTest_9_3
 day	23	4
 game	WhatIsThis	13	x
-game	BookWithQuiz	0	en_501
+game	Book	0	en_501
 game	SentenceBridge	24	x
 game	LRComprehension	33	x
 day	24	4
@@ -1182,7 +1182,7 @@ game	LRComprehension	37	x
 game	SentenceBridge	23	x
 day	25	4
 game	WhatIsThis	15	x
-game	BookWithQuiz	0	en_503
+game	Book	0	en_503
 game	LRComprehension	34	x
 game	AnimalPuzzle	28	x
 day	26	4
@@ -1192,7 +1192,7 @@ game	LRComprehension	38	x
 game	SentenceBridge	24	x
 day	27	4
 game	WhatIsThis	17	x
-game	BookWithQuiz	0	en_508
+game	Book	0	en_508
 game	LRComprehension	35	x
 game	AnimalPuzzle	29	x
 day	28	4
@@ -1202,7 +1202,7 @@ game	LRComprehension	39	x
 game	SentenceBridge	22	x
 day	29	4
 game	WhatIsThis	19	x
-game	BookWithQuiz	0	en_507
+game	Book	0	en_507
 game	LRComprehension	36	x
 game	AnimalPuzzle	30	x
 day	30	1
