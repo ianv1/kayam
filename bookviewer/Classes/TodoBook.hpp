@@ -96,6 +96,12 @@ public:
     const string wordPrefix = "word/";
     
     string getWordAudioPath(string wordAudio);
+
+    // Per-word pronunciation: resolve an individual Malay word clip
+    // (ms_<word>.m4a) from the shared word pool. Falls back to the
+    // sentence/page audio (fallbackFilename) when no word clip exists.
+    static string normalizeWordForAudio(const string& wordText);
+    string getWordAudioPathForWord(const string& wordText, const string& fallbackFilename);
     
     vector<TodoPage> pages;
     

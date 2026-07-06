@@ -1368,11 +1368,13 @@ Node* BookPage::createTextViewOneLine(Size size, float fontSize)
         currentX += buttonSize.width + pageFontSize/2;
         
         if (_withAudio) {
-            auto wordAudioPath = _book->getWordAudioPath(word.wordAudioFilename);
-            GameSoundManager::getInstance()->preloadEffect(wordAudioPath);
-            wordButton->addClickEventListener([this, word, wordAudioPath, wordButton](Ref*){
-                this->playWordSound(wordButton, wordAudioPath, word.wordAudioLength);
-            });
+            auto wordAudioPath = _book->getWordAudioPathForWord(word.word, word.wordAudioFilename);
+            if (!wordAudioPath.empty()) {
+                GameSoundManager::getInstance()->preloadEffect(wordAudioPath);
+                wordButton->addClickEventListener([this, word, wordAudioPath, wordButton](Ref*){
+                    this->playWordSound(wordButton, wordAudioPath, word.wordAudioLength);
+                });
+            }
         }
         
         
@@ -1490,7 +1492,7 @@ Node* BookPage::createTextViewMultiLine(Size size, float fontSize)
                     innerTextView->addChild(wordButton);
                     
                     if (_withAudio) {
-                        auto wordAudioPath = _book->getWordAudioPath(word.wordAudioFilename);
+                        auto wordAudioPath = _book->getWordAudioPathForWord(word.word, word.wordAudioFilename);
                         addAudioHandler(wordButton, wordAudioPath, word.wordAudioLength);
                         _wordButtons.push_back(wordButton);
                     }
@@ -1599,10 +1601,10 @@ Node* BookPage::createTextViewMultiLine(Size size, float fontSize)
                     innerTextView->addChild(wordButton);
                     
                     if (_withAudio) {
-                        auto wordAudioPath = _book->getWordAudioPath(word.wordAudioFilename);
+                        auto wordAudioPath = _book->getWordAudioPathForWord(word.word, word.wordAudioFilename);
                         GameSoundManager::getInstance()->preloadEffect(wordAudioPath);
                         addAudioHandler(wordButton, wordAudioPath, word.wordAudioLength);
-                        
+
                         _wordButtons.push_back(wordButton);
 
                         

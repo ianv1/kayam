@@ -28,18 +28,78 @@
 
 string TodoBook::getWordAudioPath(string wordAudio)
 {
+    if (wordAudio.empty() || wordAudio=="-") return "";
+
     auto wordAudioPath = filePrefix+"word/"+wordAudio;
-    
+
     if (FileUtils::getInstance()->isFileExist(wordAudioPath)) {
         return wordAudioPath;
     }
-    
+
     wordAudioPath = commonPrefix+"word/"+wordAudio;
     if (FileUtils::getInstance()->isFileExist(wordAudioPath)) {
         return wordAudioPath;
     }
-    
+
+    // Translated books reference the sentence/page audio as the word audio;
+    // that clip lives under page/ rather than word/.
+    wordAudioPath = filePrefix+"page/"+wordAudio;
+    if (FileUtils::getInstance()->isFileExist(wordAudioPath)) {
+        return wordAudioPath;
+    }
+
     return "";
+}
+
+string TodoBook::normalizeWordForAudio(const string& wordText)
+{
+    string out;
+    for (char c : wordText) {
+        if (c>='A' && c<='Z') c = c - 'A' + 'a';
+        if ((c>='a' && c<='z') || (c>='0' && c<='9') || c=='-') out += c;
+    }
+    // strip leading/trailing hyphens
+    size_t b = out.find_first_not_of('-');
+    size_t e = out.find_last_not_of('-');
+    if (b==string::npos) return "";
+    return out.substr(b, e-b+1);
+}
+
+string TodoBook::getWordAudioPathForWord(const string& wordText, const string& fallbackFilename)
+{
+    // 1) Prefer a genuine per-word clip the book already references
+    //    (e.g. alphabet books ship their own word/ recordings). Only look in
+    //    word/ dirs here, NOT page/ (page/ holds the whole-sentence audio).
+    if (!fallbackFilename.empty() && fallbackFilename != "-") {
+        string p = filePrefix + "word/" + fallbackFilename;
+        if (FileUtils::getInstance()->isFileExist(p)) return p;
+        p = commonPrefix + "word/" + fallbackFilename;
+        if (FileUtils::getInstance()->isFileExist(p)) return p;
+    }
+
+    // 2) Generated per-word Malay clip (ms_<word>.m4a) from the shared pool.
+    //    This is what makes tapping a word in a translated story book speak
+    //    that word (their word entries otherwise point at sentence audio).
+    string n = normalizeWordForAudio(wordText);
+    if (!n.empty()) {
+        string fn = "ms_" + n + ".m4a";
+        // sibling "common/word/" computed without ".." (asset-manager safe)
+        string base = filePrefix;
+        if (!base.empty() && base.back()=='/') base.pop_back();
+        size_t slash = base.find_last_of('/');
+        string parent = (slash==string::npos) ? "" : base.substr(0, slash+1);
+        string candidates[] = {
+            filePrefix + "word/" + fn,          // this book's own word pool
+            parent + "common/word/" + fn,       // shared pool (actual lowercase dir)
+            commonPrefix + "word/" + fn,        // ../Common/ fallback
+        };
+        for (auto& c : candidates) {
+            if (FileUtils::getInstance()->isFileExist(c)) return c;
+        }
+    }
+
+    // 3) Nothing per-word: fall back to the sentence/page audio.
+    return getWordAudioPath(fallbackFilename);
 }
 
 
