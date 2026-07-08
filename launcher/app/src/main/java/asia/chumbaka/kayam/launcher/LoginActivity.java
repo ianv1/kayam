@@ -517,7 +517,7 @@ public class LoginActivity extends KitKitLoggerActivity implements OnItemClick,
                 conn.setDoOutput(true);
 
                 org.json.JSONObject body = new org.json.JSONObject();
-                body.put("username", username);
+                body.put("username", "admin");
                 body.put("device_id", deviceId);
                 byte[] payload = body.toString().getBytes("UTF-8");
 
